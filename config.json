@@ -22,16 +22,20 @@
     "FINAL FANTASY VII REBIRTH"
   ],
   "preferences": [
-    "RPG",
-    "CRPG",
-    "JRPG",
-    "Puzzle",
-    "Roguelike",
-    "Roguelite",
-    "Deckbuilding",
-    "Strategy",
-    "Story Rich",
-    "Turn-Based",
-    "Singleplayer"
-  ]
+    "RPG/CRPG/JRPG",
+    "逻辑解谜",
+    "Roguelike/Roguelite/构筑",
+    "剧情与人物",
+    "轻操作/碎片时间",
+    "单机",
+    "策略/回合制"
+  ],
+  "epic_free_exclude": [],
+  "mobile_verified": {},
+  "scoring": {
+    "taste": 0.45,
+    "quality": 0.35,
+    "price": 0.2
+  },
+  "notes": "mobile_verified 与 epic_free_exclude 只写入已经可靠核实的项目；未核实不猜。"
 }
