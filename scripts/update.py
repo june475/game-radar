@@ -109,7 +109,9 @@ for x in raw:
       "review_pct":rv["pct"],"review_count":rv["total"],
       "recommend_score":final,"taste_score":taste,"quality_score":quality,"price_score":price_score,
       "genres":genres,"tags":tags,"flags":flags,"why":why,
-      "mobile":m,"epic_status":"未自动核实","dlc_status":"未自动核实"
+      "mobile":m,"epic_status":"未自动核实","dlc_status":"未自动核实",
+      "key_price":None,"key_source":None,"steam_historical_low":None,"steam_historical_low_source":None,
+      "steam_deck":None
     })
 
 games.sort(key=lambda g:(-g["recommend_score"],-g["taste_score"],g["price"]))
