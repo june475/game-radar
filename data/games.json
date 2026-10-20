@@ -1,25 +1,65 @@
 {
   "meta": {
-    "updated_at_cn": "2026-10-19 21:27",
+    "updated_at_cn": "2026-10-20 14:25",
     "version": "V1 personalized",
     "note": "推荐分=45%口味匹配+35%简中口碑+20%价格；站内新低不是SteamDB全历史史低。"
   },
   "games": [
     {
-      "appid": 1478970,
-      "name": "AI Olympius",
-      "price": 49.3,
-      "original_price": 58.0,
-      "discount": 15,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478970/bbfb63b96c107202fd5338eef75c3a1a9a7d067e/header.jpg?t=1792341087",
-      "url": "https://store.steampowered.com/app/1478970/?cc=cn&l=schinese",
-      "review": "简中好评 100.0% · 9 条",
-      "review_pct": 100.0,
-      "review_count": 9,
-      "recommend_score": 6.7,
+      "appid": 5061040,
+      "name": "Quartermark",
+      "price": 3.0,
+      "original_price": 5.0,
+      "discount": 40,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5061040/e6fb20b2ac287c0407387bb11f667f6fe1d6abd1/header.jpg?t=1792472090",
+      "url": "https://store.steampowered.com/app/5061040/?cc=cn&l=schinese",
+      "review": "简中评价样本不足",
+      "review_pct": null,
+      "review_count": 0,
+      "recommend_score": 6.6,
+      "taste_score": 6.6,
+      "quality_score": 0.0,
+      "price_score": 6.7,
+      "genres": [
+        "独立",
+        "角色扮演",
+        "策略"
+      ],
+      "tags": [
+        "站内新低",
+        "-40%",
+        "独立",
+        "角色扮演",
+        "策略"
+      ],
+      "flags": [
+        "new"
+      ],
+      "why": "匹配你的偏好：角色扮演 / 策略 / 单人",
+      "mobile": null,
+      "epic_status": "未自动核实",
+      "dlc_status": "未自动核实",
+      "key_price": null,
+      "key_source": null,
+      "steam_historical_low": null,
+      "steam_historical_low_source": null,
+      "steam_deck": null
+    },
+    {
+      "appid": 1623730,
+      "name": "Palworld / 幻兽帕鲁",
+      "price": 75.6,
+      "original_price": 108.0,
+      "discount": 30,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/1b0709ec8de093a97a0bf43e799933eae4faef35/header_schinese.jpg?t=1790336367",
+      "url": "https://store.steampowered.com/app/1623730/?cc=cn&l=schinese",
+      "review": "简中好评 92.4% · 141688 条",
+      "review_pct": 92.4,
+      "review_count": 141688,
+      "recommend_score": 6.5,
       "taste_score": 5.3,
-      "quality_score": 9.5,
-      "price_score": 4.8,
+      "quality_score": 9.1,
+      "price_score": 4.9,
       "genres": [
         "动作",
         "冒险",
@@ -27,13 +67,14 @@
         "角色扮演"
       ],
       "tags": [
-        "-15%",
+        "站内新低",
+        "-30%",
         "动作",
         "冒险",
         "独立"
       ],
       "flags": [
-        "new"
+        "deal"
       ],
       "why": "匹配你的偏好：冒险 / 角色扮演 / 单人",
       "mobile": null,
@@ -46,34 +87,37 @@
       "steam_deck": null
     },
     {
-      "appid": 4963690,
-      "name": "The Loomsong Chronicle Idle",
-      "price": 48.0,
-      "original_price": 48.0,
-      "discount": 0,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4963690/eca391dc518d7919060b63632a930d5ace530b5f/header.jpg?t=1792376828",
-      "url": "https://store.steampowered.com/app/4963690/?cc=cn&l=schinese",
+      "appid": 3839910,
+      "name": "Only Fans",
+      "price": 7.7,
+      "original_price": 11.0,
+      "discount": 30,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3839910/875a5b6d6e1672a2da09f23288661ff613f37c35/header.jpg?t=1792465274",
+      "url": "https://store.steampowered.com/app/3839910/?cc=cn&l=schinese",
       "review": "简中好评 100.0% · 1 条",
       "review_pct": 100.0,
       "review_count": 1,
-      "recommend_score": 6.2,
-      "taste_score": 4.3,
+      "recommend_score": 5.9,
+      "taste_score": 2.8,
       "quality_score": 9.5,
-      "price_score": 4.8,
+      "price_score": 6.7,
       "genres": [
+        "冒险",
         "休闲",
         "独立",
-        "角色扮演"
+        "模拟"
       ],
       "tags": [
+        "站内新低",
+        "-30%",
+        "冒险",
         "休闲",
-        "独立",
-        "角色扮演"
+        "独立"
       ],
       "flags": [
         "new"
       ],
-      "why": "匹配你的偏好：角色扮演 / 单人",
+      "why": "匹配你的偏好：冒险 / 单人",
       "mobile": null,
       "epic_status": "未自动核实",
       "dlc_status": "未自动核实",
@@ -91,9 +135,9 @@
       "discount": 90,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/990080/be2971b1023bccb04f993887d70ef4d2060262cf/header.jpg?t=1790708992",
       "url": "https://store.steampowered.com/app/990080/?cc=cn&l=schinese",
-      "review": "简中好评 79.8% · 35916 条",
+      "review": "简中好评 79.8% · 35925 条",
       "review_pct": 79.8,
-      "review_count": 35916,
+      "review_count": 35925,
       "recommend_score": 5.8,
       "taste_score": 5.3,
       "quality_score": 6.3,
@@ -123,31 +167,31 @@
       "steam_deck": null
     },
     {
-      "appid": 4195360,
-      "name": "Achilles-Sword-ll",
-      "price": 18.0,
-      "original_price": 18.0,
-      "discount": 0,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4195360/bc3d1e65a89b8208501cbe0927c83d5a1d983565/header.jpg?t=1792352394",
-      "url": "https://store.steampowered.com/app/4195360/?cc=cn&l=schinese",
+      "appid": 4012780,
+      "name": "PALE ANIMUS",
+      "price": 37.8,
+      "original_price": 42.0,
+      "discount": 10,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4012780/e5989b1557229fba6e2d235ac96289d96e3b957d/header.jpg?t=1792429573",
+      "url": "https://store.steampowered.com/app/4012780/?cc=cn&l=schinese",
       "review": "简中评价样本不足",
       "review_pct": null,
       "review_count": 0,
       "recommend_score": 5.7,
       "taste_score": 5.3,
       "quality_score": 0.0,
-      "price_score": 5.4,
+      "price_score": 5.1,
       "genres": [
-        "动作",
         "冒险",
-        "休闲",
         "独立",
         "角色扮演"
       ],
       "tags": [
-        "动作",
+        "站内新低",
+        "-10%",
         "冒险",
-        "休闲"
+        "独立",
+        "角色扮演"
       ],
       "flags": [
         "new"
@@ -170,19 +214,18 @@
       "discount": 75,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg?t=1759502961",
       "url": "https://store.steampowered.com/app/1174180/?cc=cn&l=schinese",
-      "review": "简中好评 90.5% · 274630 条",
+      "review": "简中好评 90.5% · 274656 条",
       "review_pct": 90.5,
-      "review_count": 274630,
+      "review_count": 274656,
       "recommend_score": 5.6,
       "taste_score": 2.8,
       "quality_score": 9.1,
-      "price_score": 6.0,
+      "price_score": 5.7,
       "genres": [
         "动作",
         "冒险"
       ],
       "tags": [
-        "站内新低",
         "-75%",
         "动作",
         "冒险"
@@ -201,106 +244,32 @@
       "steam_deck": null
     },
     {
-      "appid": 4831640,
-      "name": "除虫订单",
-      "price": 7.04,
-      "original_price": 8.0,
-      "discount": 12,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4831640/fa54511f9fcc5eb2c4bdb5068f7c6e894ab6dc3a/header.jpg?t=1792394482",
-      "url": "https://store.steampowered.com/app/4831640/?cc=cn&l=schinese",
+      "appid": 5056360,
+      "name": "Crypt Survivor",
+      "price": 26.1,
+      "original_price": 29.0,
+      "discount": 10,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5056360/7a4c5d3dfb3b8206798d02b1730d67940be9ad8b/header.jpg?t=1792468828",
+      "url": "https://store.steampowered.com/app/5056360/?cc=cn&l=schinese",
       "review": "简中评价样本不足",
       "review_pct": null,
       "review_count": 0,
       "recommend_score": 5.3,
-      "taste_score": 4.1,
-      "quality_score": 0.0,
-      "price_score": 6.0,
-      "genres": [
-        "休闲",
-        "模拟",
-        "策略"
-      ],
-      "tags": [
-        "-12%",
-        "休闲",
-        "模拟",
-        "策略"
-      ],
-      "flags": [
-        "new"
-      ],
-      "why": "匹配你的偏好：策略 / 单人",
-      "mobile": null,
-      "epic_status": "未自动核实",
-      "dlc_status": "未自动核实",
-      "key_price": null,
-      "key_source": null,
-      "steam_historical_low": null,
-      "steam_historical_low_source": null,
-      "steam_deck": null
-    },
-    {
-      "appid": 3892270,
-      "name": "朋友，梭哈吧",
-      "price": 20.46,
-      "original_price": 33.0,
-      "discount": 38,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/395e6d7972474333a698b26f8aa5597bf38109a1/header.jpg?t=1791977170",
-      "url": "https://store.steampowered.com/app/3892270/?cc=cn&l=schinese",
-      "review": "简中好评 86.4% · 1461 条",
-      "review_pct": 86.4,
-      "review_count": 1461,
-      "recommend_score": 5.3,
-      "taste_score": 2.8,
-      "quality_score": 8.2,
-      "price_score": 5.8,
-      "genres": [
-        "冒险",
-        "独立",
-        "模拟"
-      ],
-      "tags": [
-        "-38%",
-        "冒险",
-        "独立",
-        "模拟"
-      ],
-      "flags": [
-        "deal"
-      ],
-      "why": "匹配你的偏好：冒险 / 单人",
-      "mobile": null,
-      "epic_status": "未自动核实",
-      "dlc_status": "未自动核实",
-      "key_price": null,
-      "key_source": null,
-      "steam_historical_low": null,
-      "steam_historical_low_source": null,
-      "steam_deck": null
-    },
-    {
-      "appid": 4835610,
-      "name": "Cielvia-Inherited By Defeat-",
-      "price": 30.6,
-      "original_price": 36.0,
-      "discount": 15,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4835610/c5fae75fdd462c3713996b255fa55e06ffbac46b/header.jpg?t=1792400514",
-      "url": "https://store.steampowered.com/app/4835610/?cc=cn&l=schinese",
-      "review": "简中评价样本不足",
-      "review_pct": null,
-      "review_count": 0,
-      "recommend_score": 5.2,
       "taste_score": 4.3,
       "quality_score": 0.0,
-      "price_score": 4.8,
+      "price_score": 5.7,
       "genres": [
         "动作",
+        "休闲",
+        "独立",
         "角色扮演"
       ],
       "tags": [
-        "-15%",
+        "站内新低",
+        "-10%",
         "动作",
-        "角色扮演"
+        "休闲",
+        "独立"
       ],
       "flags": [
         "new"
@@ -316,62 +285,28 @@
       "steam_deck": null
     },
     {
-      "appid": 4377020,
-      "name": "Iron Coffin Ice Queen: Her Gaze Awakens My Beast",
-      "price": 33.6,
-      "original_price": 42.0,
-      "discount": 20,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4377020/8168a9135428b0c08e3a19444134ddaccc682d8e/header.jpg?t=1792320948",
-      "url": "https://store.steampowered.com/app/4377020/?cc=cn&l=schinese",
-      "review": "简中评价样本不足",
-      "review_pct": null,
-      "review_count": 0,
-      "recommend_score": 5.2,
-      "taste_score": 4.3,
-      "quality_score": 0.0,
-      "price_score": 4.8,
-      "genres": [
-        "角色扮演"
-      ],
-      "tags": [
-        "-20%",
-        "角色扮演"
-      ],
-      "flags": [
-        "new"
-      ],
-      "why": "匹配你的偏好：角色扮演 / 单人",
-      "mobile": null,
-      "epic_status": "未自动核实",
-      "dlc_status": "未自动核实",
-      "key_price": null,
-      "key_source": null,
-      "steam_historical_low": null,
-      "steam_historical_low_source": null,
-      "steam_deck": null
-    },
-    {
-      "appid": 5099260,
-      "name": "Desktop Monsters",
-      "price": 18.7,
+      "appid": 1558620,
+      "name": "麻雀旅人",
+      "price": 13.2,
       "original_price": 22.0,
-      "discount": 15,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5099260/a153b4a1820edad31449a88354b809eb07342e74/header.jpg?t=1792396481",
-      "url": "https://store.steampowered.com/app/5099260/?cc=cn&l=schinese",
+      "discount": 40,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1558620/590cab9d0e0d751236a78300d993b715fda55551/header_schinese.jpg?t=1792464965",
+      "url": "https://store.steampowered.com/app/1558620/?cc=cn&l=schinese",
       "review": "简中评价样本不足",
       "review_pct": null,
       "review_count": 0,
-      "recommend_score": 5.2,
+      "recommend_score": 5.3,
       "taste_score": 4.1,
       "quality_score": 0.0,
-      "price_score": 5.4,
+      "price_score": 6.1,
       "genres": [
         "休闲",
         "独立",
         "策略"
       ],
       "tags": [
-        "-15%",
+        "站内新低",
+        "-40%",
         "休闲",
         "独立",
         "策略"
@@ -390,28 +325,107 @@
       "steam_deck": null
     },
     {
-      "appid": 5119740,
-      "name": "宇宙大整理",
-      "price": 22.4,
-      "original_price": 28.0,
+      "appid": 5241840,
+      "name": "Armament Inc",
+      "price": 25.18,
+      "original_price": 31.48,
       "discount": 20,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5119740/0dabee892e50823e23f62bb9df670e5c3dd1336c/header_schinese.jpg?t=1792396953",
-      "url": "https://store.steampowered.com/app/5119740/?cc=cn&l=schinese",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5241840/412a1f782cc2d8baec89a87ae3d36fae520c13c9/header.jpg?t=1792446510",
+      "url": "https://store.steampowered.com/app/5241840/?cc=cn&l=schinese",
+      "review": "简中评价样本不足",
+      "review_pct": null,
+      "review_count": 0,
+      "recommend_score": 5.3,
+      "taste_score": 4.1,
+      "quality_score": 0.0,
+      "price_score": 5.7,
+      "genres": [
+        "休闲",
+        "独立",
+        "策略"
+      ],
+      "tags": [
+        "站内新低",
+        "-20%",
+        "休闲",
+        "独立",
+        "策略"
+      ],
+      "flags": [
+        "new"
+      ],
+      "why": "匹配你的偏好：策略 / 单人",
+      "mobile": null,
+      "epic_status": "未自动核实",
+      "dlc_status": "未自动核实",
+      "key_price": null,
+      "key_source": null,
+      "steam_historical_low": null,
+      "steam_historical_low_source": null,
+      "steam_deck": null
+    },
+    {
+      "appid": 2105440,
+      "name": "Fall of Bali",
+      "price": 29.7,
+      "original_price": 33.0,
+      "discount": 10,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2105440/b32d82529a12343c68de160fd4a676f09d863d3d/header.jpg?t=1792458341",
+      "url": "https://store.steampowered.com/app/2105440/?cc=cn&l=schinese",
+      "review": "简中评价样本不足",
+      "review_pct": null,
+      "review_count": 0,
+      "recommend_score": 5.3,
+      "taste_score": 4.1,
+      "quality_score": 0.0,
+      "price_score": 5.7,
+      "genres": [
+        "独立",
+        "模拟",
+        "策略"
+      ],
+      "tags": [
+        "站内新低",
+        "-10%",
+        "独立",
+        "模拟",
+        "策略"
+      ],
+      "flags": [
+        "new"
+      ],
+      "why": "匹配你的偏好：策略 / 单人",
+      "mobile": null,
+      "epic_status": "未自动核实",
+      "dlc_status": "未自动核实",
+      "key_price": null,
+      "key_source": null,
+      "steam_historical_low": null,
+      "steam_historical_low_source": null,
+      "steam_deck": null
+    },
+    {
+      "appid": 4381180,
+      "name": "Coin Harvest",
+      "price": 14.4,
+      "original_price": 18.0,
+      "discount": 20,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4381180/d3bf4238cf70152b02c975e6e4b4ab070a651032/header_schinese.jpg?t=1792429454",
+      "url": "https://store.steampowered.com/app/4381180/?cc=cn&l=schinese",
       "review": "简中好评 100.0% · 2 条",
       "review_pct": 100.0,
       "review_count": 2,
-      "recommend_score": 5.2,
+      "recommend_score": 5.3,
       "taste_score": 1.8,
       "quality_score": 9.5,
-      "price_score": 5.4,
+      "price_score": 5.7,
       "genres": [
-        "休闲",
-        "独立"
+        "休闲"
       ],
       "tags": [
+        "站内新低",
         "-20%",
-        "休闲",
-        "独立"
+        "休闲"
       ],
       "flags": [
         "new"
@@ -427,67 +441,72 @@
       "steam_deck": null
     },
     {
-      "appid": 2729480,
-      "name": "NightClub Simulator",
-      "price": 28.0,
-      "original_price": 28.0,
-      "discount": 0,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2729480/header.jpg?t=1792331224",
-      "url": "https://store.steampowered.com/app/2729480/?cc=cn&l=schinese",
-      "review": "简中好评 100.0% · 7 条",
-      "review_pct": 100.0,
-      "review_count": 7,
-      "recommend_score": 5.2,
-      "taste_score": 1.8,
-      "quality_score": 9.5,
-      "price_score": 5.4,
-      "genres": [
-        "动作",
-        "独立",
-        "模拟"
-      ],
-      "tags": [
-        "动作",
-        "独立",
-        "模拟"
-      ],
-      "flags": [
-        "new"
-      ],
-      "why": "匹配你的偏好：单人",
-      "mobile": null,
-      "epic_status": "未自动核实",
-      "dlc_status": "未自动核实",
-      "key_price": null,
-      "key_source": null,
-      "steam_historical_low": null,
-      "steam_historical_low_source": null,
-      "steam_deck": null
-    },
-    {
-      "appid": 5293210,
-      "name": "ROGRID",
-      "price": 37.8,
-      "original_price": 42.0,
-      "discount": 10,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5293210/7b3cd5add20b054686e84525d41732587e59bfbb/header.jpg?t=1792399517",
-      "url": "https://store.steampowered.com/app/5293210/?cc=cn&l=schinese",
+      "appid": 5362580,
+      "name": "RULEBALL",
+      "price": 30.6,
+      "original_price": 36.0,
+      "discount": 15,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5362580/701fcaf832d26d5bd261d868f23cf2cafbb68ed9/header.jpg?t=1792436314",
+      "url": "https://store.steampowered.com/app/5362580/?cc=cn&l=schinese",
       "review": "简中评价样本不足",
       "review_pct": null,
       "review_count": 0,
       "recommend_score": 5.1,
       "taste_score": 4.1,
       "quality_score": 0.0,
-      "price_score": 4.8,
+      "price_score": 5.1,
       "genres": [
         "休闲",
         "独立",
+        "模拟",
+        "体育",
         "策略"
       ],
       "tags": [
-        "-10%",
+        "站内新低",
+        "-15%",
         "休闲",
         "独立",
+        "模拟"
+      ],
+      "flags": [
+        "new"
+      ],
+      "why": "匹配你的偏好：策略 / 单人",
+      "mobile": null,
+      "epic_status": "未自动核实",
+      "dlc_status": "未自动核实",
+      "key_price": null,
+      "key_source": null,
+      "steam_historical_low": null,
+      "steam_historical_low_source": null,
+      "steam_deck": null
+    },
+    {
+      "appid": 5068500,
+      "name": "Headshot Manager",
+      "price": 61.6,
+      "original_price": 77.0,
+      "discount": 20,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5068500/186e623e077fc65c6bc871e8e308574ddde110b0/header.jpg?t=1792443467",
+      "url": "https://store.steampowered.com/app/5068500/?cc=cn&l=schinese",
+      "review": "简中评价样本不足",
+      "review_pct": null,
+      "review_count": 0,
+      "recommend_score": 5.0,
+      "taste_score": 4.1,
+      "quality_score": 0.0,
+      "price_score": 4.5,
+      "genres": [
+        "模拟",
+        "体育",
+        "策略"
+      ],
+      "tags": [
+        "站内新低",
+        "-20%",
+        "模拟",
+        "体育",
         "策略"
       ],
       "flags": [
@@ -504,33 +523,29 @@
       "steam_deck": null
     },
     {
-      "appid": 3883570,
-      "name": "勇敢者之试炼 : Invokyr",
-      "price": 31.5,
-      "original_price": 42.0,
-      "discount": 25,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3883570/c86d8cb1aac903b8c45497c7255fea0ee64f30b2/header_schinese.jpg?t=1792307731",
-      "url": "https://store.steampowered.com/app/3883570/?cc=cn&l=schinese",
-      "review": "简中好评 80.7% · 187 条",
-      "review_pct": 80.7,
-      "review_count": 187,
-      "recommend_score": 4.8,
+      "appid": 1364780,
+      "name": "Street Fighter 6",
+      "price": 79.2,
+      "original_price": 198.0,
+      "discount": 60,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1364780/header.jpg?t=1791866175",
+      "url": "https://store.steampowered.com/app/1364780/?cc=cn&l=schinese",
+      "review": "简中好评 81.5% · 26646 条",
+      "review_pct": 81.5,
+      "review_count": 26646,
+      "recommend_score": 5.0,
       "taste_score": 2.8,
-      "quality_score": 7.2,
-      "price_score": 5.2,
+      "quality_score": 7.5,
+      "price_score": 5.5,
       "genres": [
         "动作",
-        "冒险",
-        "独立",
-        "模拟",
-        "免费开玩",
-        "抢先体验"
+        "冒险"
       ],
       "tags": [
-        "-25%",
+        "站内新低",
+        "-60%",
         "动作",
-        "冒险",
-        "独立"
+        "冒险"
       ],
       "flags": [
         "deal"
@@ -546,29 +561,30 @@
       "steam_deck": null
     },
     {
-      "appid": 5328220,
-      "name": "Mall Corp",
-      "price": 23.2,
-      "original_price": 29.0,
-      "discount": 20,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5328220/3e866ad33f1b2cad5a227f4f283faae2caf072b5/header.jpg?t=1792359871",
-      "url": "https://store.steampowered.com/app/5328220/?cc=cn&l=schinese",
+      "appid": 5047760,
+      "name": "Conjurariun",
+      "price": 19.8,
+      "original_price": 33.0,
+      "discount": 40,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5047760/5a6397e76f5f3646c29ba4e65531f1791df61eb1/header.jpg?t=1792450905",
+      "url": "https://store.steampowered.com/app/5047760/?cc=cn&l=schinese",
       "review": "简中评价样本不足",
       "review_pct": null,
       "review_count": 0,
-      "recommend_score": 4.6,
+      "recommend_score": 4.8,
       "taste_score": 2.8,
       "quality_score": 0.0,
-      "price_score": 5.4,
+      "price_score": 6.1,
       "genres": [
+        "动作",
         "冒险",
-        "休闲",
         "独立"
       ],
       "tags": [
-        "-20%",
+        "站内新低",
+        "-40%",
+        "动作",
         "冒险",
-        "休闲",
         "独立"
       ],
       "flags": [
@@ -585,31 +601,37 @@
       "steam_deck": null
     },
     {
-      "appid": 5308440,
-      "name": "微型桌面钓鱼",
-      "price": 3.6,
-      "original_price": 6.0,
+      "appid": 5218590,
+      "name": "Turrakata",
+      "price": 23.99,
+      "original_price": 39.99,
       "discount": 40,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5308440/df7378a7a29467d71926813c85af3c778a1c7a8b/header_schinese.jpg?t=1792395678",
-      "url": "https://store.steampowered.com/app/5308440/?cc=cn&l=schinese",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5218590/2678bcb6ff76cb8173c2d3c469b2b4285e269d45/header.jpg?t=1792458019",
+      "url": "https://store.steampowered.com/app/5218590/?cc=cn&l=schinese",
       "review": "简中评价样本不足",
       "review_pct": null,
       "review_count": 0,
-      "recommend_score": 4.4,
-      "taste_score": 1.8,
+      "recommend_score": 4.8,
+      "taste_score": 2.8,
       "quality_score": 0.0,
-      "price_score": 6.4,
+      "price_score": 6.1,
       "genres": [
-        "休闲"
+        "动作",
+        "冒险",
+        "休闲",
+        "独立"
       ],
       "tags": [
+        "站内新低",
         "-40%",
+        "动作",
+        "冒险",
         "休闲"
       ],
       "flags": [
         "new"
       ],
-      "why": "匹配你的偏好：单人",
+      "why": "匹配你的偏好：冒险 / 单人",
       "mobile": null,
       "epic_status": "未自动核实",
       "dlc_status": "未自动核实",
@@ -620,33 +642,34 @@
       "steam_deck": null
     },
     {
-      "appid": 5340080,
-      "name": "CHAMBER: ATOM BREAKER INC",
-      "price": 6.6,
-      "original_price": 11.0,
-      "discount": 40,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5340080/2cbb4c6575adbbd9d2a81d17dfdd2a0cf5a155f4/header.jpg?t=1792389445",
-      "url": "https://store.steampowered.com/app/5340080/?cc=cn&l=schinese",
+      "appid": 4952170,
+      "name": "Her Revenge",
+      "price": 12.8,
+      "original_price": 16.0,
+      "discount": 20,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4952170/ea0b24e6e8e1228eabd7278a836406167574a15c/header.jpg?t=1792436695",
+      "url": "https://store.steampowered.com/app/4952170/?cc=cn&l=schinese",
       "review": "简中评价样本不足",
       "review_pct": null,
       "review_count": 0,
-      "recommend_score": 4.4,
-      "taste_score": 1.8,
+      "recommend_score": 4.7,
+      "taste_score": 2.8,
       "quality_score": 0.0,
-      "price_score": 6.4,
+      "price_score": 5.7,
       "genres": [
-        "独立",
-        "模拟"
+        "冒险",
+        "独立"
       ],
       "tags": [
-        "-40%",
-        "独立",
-        "模拟"
+        "站内新低",
+        "-20%",
+        "冒险",
+        "独立"
       ],
       "flags": [
         "new"
       ],
-      "why": "匹配你的偏好：单人",
+      "why": "匹配你的偏好：冒险 / 单人",
       "mobile": null,
       "epic_status": "未自动核实",
       "dlc_status": "未自动核实",
@@ -657,26 +680,69 @@
       "steam_deck": null
     },
     {
-      "appid": 5360830,
-      "name": "a Flower for you",
-      "price": 9.9,
+      "appid": 4919380,
+      "name": "Grand Theft Idiots",
+      "price": 20.8,
+      "original_price": 26.0,
+      "discount": 20,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4919380/94ceacd36149dcb9aba2d7fce6d11ba6b7f99aab/header.jpg?t=1792457127",
+      "url": "https://store.steampowered.com/app/4919380/?cc=cn&l=schinese",
+      "review": "简中评价样本不足",
+      "review_pct": null,
+      "review_count": 0,
+      "recommend_score": 4.7,
+      "taste_score": 2.8,
+      "quality_score": 0.0,
+      "price_score": 5.7,
+      "genres": [
+        "动作",
+        "冒险",
+        "休闲",
+        "独立",
+        "模拟"
+      ],
+      "tags": [
+        "站内新低",
+        "-20%",
+        "动作",
+        "冒险",
+        "休闲"
+      ],
+      "flags": [
+        "new"
+      ],
+      "why": "匹配你的偏好：冒险 / 单人",
+      "mobile": null,
+      "epic_status": "未自动核实",
+      "dlc_status": "未自动核实",
+      "key_price": null,
+      "key_source": null,
+      "steam_historical_low": null,
+      "steam_historical_low_source": null,
+      "steam_deck": null
+    },
+    {
+      "appid": 5255590,
+      "name": "Parry X Break",
+      "price": 9.35,
       "original_price": 11.0,
-      "discount": 10,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5360830/e4fed3903a0ed2a25bdf41f19bd5fe0c6aa9d56b/header.jpg?t=1792342282",
-      "url": "https://store.steampowered.com/app/5360830/?cc=cn&l=schinese",
+      "discount": 15,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5255590/1b3793e23164b0186176878d16905e4a28423c08/header.jpg?t=1792451842",
+      "url": "https://store.steampowered.com/app/5255590/?cc=cn&l=schinese",
       "review": "简中评价样本不足",
       "review_pct": null,
       "review_count": 0,
       "recommend_score": 4.3,
       "taste_score": 1.8,
       "quality_score": 0.0,
-      "price_score": 6.0,
+      "price_score": 6.3,
       "genres": [
-        "休闲"
+        "独立"
       ],
       "tags": [
-        "-10%",
-        "休闲"
+        "站内新低",
+        "-15%",
+        "独立"
       ],
       "flags": [
         "new"
@@ -692,97 +758,104 @@
       "steam_deck": null
     },
     {
-      "appid": 4237420,
-      "name": "Solar Escape",
-      "price": 12.0,
-      "original_price": 15.0,
+      "appid": 5286420,
+      "name": "Just Pancake Simulator",
+      "price": 9.9,
+      "original_price": 11.0,
+      "discount": 10,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5286420/6e9821305307c6424acfc2d6bbfe3ce04a796583/header.jpg?t=1792429237",
+      "url": "https://store.steampowered.com/app/5286420/?cc=cn&l=schinese",
+      "review": "简中评价样本不足",
+      "review_pct": null,
+      "review_count": 0,
+      "recommend_score": 4.3,
+      "taste_score": 1.8,
+      "quality_score": 0.0,
+      "price_score": 6.3,
+      "genres": [
+        "休闲",
+        "独立",
+        "模拟"
+      ],
+      "tags": [
+        "站内新低",
+        "-10%",
+        "休闲",
+        "独立",
+        "模拟"
+      ],
+      "flags": [
+        "new"
+      ],
+      "why": "匹配你的偏好：单人",
+      "mobile": null,
+      "epic_status": "未自动核实",
+      "dlc_status": "未自动核实",
+      "key_price": null,
+      "key_source": null,
+      "steam_historical_low": null,
+      "steam_historical_low_source": null,
+      "steam_deck": null
+    },
+    {
+      "appid": 3308220,
+      "name": "Galatico",
+      "price": 24.75,
+      "original_price": 33.0,
+      "discount": 25,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3308220/f3e1a0a8b365b170d327ad2d634d7e5e845e8820/header.jpg?t=1792446156",
+      "url": "https://store.steampowered.com/app/3308220/?cc=cn&l=schinese",
+      "review": "简中评价样本不足",
+      "review_pct": null,
+      "review_count": 0,
+      "recommend_score": 4.3,
+      "taste_score": 1.8,
+      "quality_score": 0.0,
+      "price_score": 6.1,
+      "genres": [
+        "动作",
+        "独立"
+      ],
+      "tags": [
+        "站内新低",
+        "-25%",
+        "动作",
+        "独立"
+      ],
+      "flags": [
+        "new"
+      ],
+      "why": "匹配你的偏好：单人",
+      "mobile": null,
+      "epic_status": "未自动核实",
+      "dlc_status": "未自动核实",
+      "key_price": null,
+      "key_source": null,
+      "steam_historical_low": null,
+      "steam_historical_low_source": null,
+      "steam_deck": null
+    },
+    {
+      "appid": 4944840,
+      "name": "What Have My Cats Done",
+      "price": 16.8,
+      "original_price": 21.0,
       "discount": 20,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4237420/c7543e3527a68ddaf52c9a64d1d606b20c9c89ab/header.jpg?t=1792347354",
-      "url": "https://store.steampowered.com/app/4237420/?cc=cn&l=schinese",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4944840/09c4a86dfd7270bbbce1bbcfa95b95fa6cfd13d2/header.jpg?t=1792461568",
+      "url": "https://store.steampowered.com/app/4944840/?cc=cn&l=schinese",
       "review": "简中评价样本不足",
       "review_pct": null,
       "review_count": 0,
       "recommend_score": 4.2,
       "taste_score": 1.8,
       "quality_score": 0.0,
-      "price_score": 5.4,
+      "price_score": 5.7,
       "genres": [
-        "动作"
+        "休闲"
       ],
       "tags": [
+        "站内新低",
         "-20%",
-        "动作"
-      ],
-      "flags": [
-        "new"
-      ],
-      "why": "匹配你的偏好：单人",
-      "mobile": null,
-      "epic_status": "未自动核实",
-      "dlc_status": "未自动核实",
-      "key_price": null,
-      "key_source": null,
-      "steam_historical_low": null,
-      "steam_historical_low_source": null,
-      "steam_deck": null
-    },
-    {
-      "appid": 5363850,
-      "name": "Patients",
-      "price": 13.5,
-      "original_price": 15.0,
-      "discount": 10,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5363850/a178508ca42c334c0f2a72527465e967b060eb6b/header.jpg?t=1792404730",
-      "url": "https://store.steampowered.com/app/5363850/?cc=cn&l=schinese",
-      "review": "简中评价样本不足",
-      "review_pct": null,
-      "review_count": 0,
-      "recommend_score": 4.2,
-      "taste_score": 1.8,
-      "quality_score": 0.0,
-      "price_score": 5.4,
-      "genres": [
-        "独立"
-      ],
-      "tags": [
-        "-10%",
-        "独立"
-      ],
-      "flags": [
-        "new"
-      ],
-      "why": "匹配你的偏好：单人",
-      "mobile": null,
-      "epic_status": "未自动核实",
-      "dlc_status": "未自动核实",
-      "key_price": null,
-      "key_source": null,
-      "steam_historical_low": null,
-      "steam_historical_low_source": null,
-      "steam_deck": null
-    },
-    {
-      "appid": 4957470,
-      "name": "Obey the Beat",
-      "price": 13.5,
-      "original_price": 15.0,
-      "discount": 10,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4957470/b72b4dcf72d3969a44f75019bcf7281799e2fbe9/header.jpg?t=1792362031",
-      "url": "https://store.steampowered.com/app/4957470/?cc=cn&l=schinese",
-      "review": "简中评价样本不足",
-      "review_pct": null,
-      "review_count": 0,
-      "recommend_score": 4.2,
-      "taste_score": 1.8,
-      "quality_score": 0.0,
-      "price_score": 5.4,
-      "genres": [
-        "动作",
-        "休闲"
-      ],
-      "tags": [
-        "-10%",
-        "动作",
         "休闲"
       ],
       "flags": [
@@ -799,68 +872,26 @@
       "steam_deck": null
     },
     {
-      "appid": 5315860,
-      "name": "Scribble Tanks",
-      "price": 15.0,
-      "original_price": 15.0,
-      "discount": 0,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5315860/8c20f16541ce9bd8c2c2f8d364bce2a3c55ce022/header.jpg?t=1792327573",
-      "url": "https://store.steampowered.com/app/5315860/?cc=cn&l=schinese",
-      "review": "简中评价样本不足",
-      "review_pct": null,
-      "review_count": 0,
-      "recommend_score": 4.2,
-      "taste_score": 1.8,
-      "quality_score": 0.0,
-      "price_score": 5.4,
-      "genres": [
-        "动作",
-        "休闲",
-        "独立"
-      ],
-      "tags": [
-        "动作",
-        "休闲",
-        "独立"
-      ],
-      "flags": [
-        "new"
-      ],
-      "why": "匹配你的偏好：单人",
-      "mobile": null,
-      "epic_status": "未自动核实",
-      "dlc_status": "未自动核实",
-      "key_price": null,
-      "key_source": null,
-      "steam_historical_low": null,
-      "steam_historical_low_source": null,
-      "steam_deck": null
-    },
-    {
-      "appid": 4206250,
-      "name": "高山之旅",
-      "price": 16.2,
+      "appid": 5253180,
+      "name": "Cat Life",
+      "price": 18.0,
       "original_price": 18.0,
-      "discount": 10,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4206250/7296bf627644a7e0b09234464881c2feffb245db/header_schinese.jpg?t=1792385473",
-      "url": "https://store.steampowered.com/app/4206250/?cc=cn&l=schinese",
+      "discount": 0,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5253180/b84ca416ffdfc3ff4e1bb9725a3f441c67ab617d/header.jpg?t=1792434905",
+      "url": "https://store.steampowered.com/app/5253180/?cc=cn&l=schinese",
       "review": "简中评价样本不足",
       "review_pct": null,
       "review_count": 0,
       "recommend_score": 4.2,
       "taste_score": 1.8,
       "quality_score": 0.0,
-      "price_score": 5.4,
+      "price_score": 5.7,
       "genres": [
-        "休闲",
-        "独立",
-        "模拟"
+        "休闲"
       ],
       "tags": [
-        "-10%",
-        "休闲",
-        "独立",
-        "模拟"
+        "站内新低",
+        "休闲"
       ],
       "flags": [
         "new"
@@ -876,25 +907,29 @@
       "steam_deck": null
     },
     {
-      "appid": 5127970,
-      "name": "SuperStore Simulator",
-      "price": 22.0,
+      "appid": 5296420,
+      "name": "GemLoop",
+      "price": 19.8,
       "original_price": 22.0,
-      "discount": 0,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5127970/5a49e3340908b4ee2ce548996815aea35a0b6306/header.jpg?t=1792333406",
-      "url": "https://store.steampowered.com/app/5127970/?cc=cn&l=schinese",
+      "discount": 10,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5296420/dcebb112b6d1a4a29fb7b1f071f662454a29f0b5/header.jpg?t=1792431878",
+      "url": "https://store.steampowered.com/app/5296420/?cc=cn&l=schinese",
       "review": "简中评价样本不足",
       "review_pct": null,
       "review_count": 0,
       "recommend_score": 4.2,
       "taste_score": 1.8,
       "quality_score": 0.0,
-      "price_score": 5.4,
+      "price_score": 5.7,
       "genres": [
-        "模拟"
+        "休闲",
+        "独立"
       ],
       "tags": [
-        "模拟"
+        "站内新低",
+        "-10%",
+        "休闲",
+        "独立"
       ],
       "flags": [
         "new"
