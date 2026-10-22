@@ -99,11 +99,12 @@ for x in raw:
     if rv["pct"] is not None and rv["pct"]<65:continue
 
     m=mobile_verified.get(str(appid))
+    steam_subids=[int(s) for s in d.get("packages",[]) if str(s).isdigit()][:8]
     flags=[x["_flag"]]+(["mobile"] if m else [])
     tags=(["站内新低"] if newlow else [])+([f"-{disc}%"] if disc else [])+genres[:3]
     why=("匹配你的偏好："+ " / ".join(dict.fromkeys(reasons[:4]))) if reasons else "新游观察候选"
     games.append({
-      "appid":appid,"name":name,"price":price,"original_price":original,"discount":disc,
+      "appid":appid,"name":(d.get("name") or name),"name_en":name if name!=(d.get("name") or name) else None,"steam_subids":steam_subids,"price":price,"original_price":original,"discount":disc,
       "image":d.get("header_image") or x.get("large_capsule_image") or x.get("small_capsule_image"),
       "url":f"https://store.steampowered.com/app/{appid}/?cc=cn&l=schinese",
       "review":(f"简中好评 {rv['pct']}% · {rv['total']} 条" if rv["pct"] is not None else "简中评价样本不足"),
@@ -115,9 +116,14 @@ for x in raw:
       "steam_deck":None
     })
 
-games=[enrich(g,hist) for g in games]
 games.sort(key=lambda g:(-g["recommend_score"],-g["taste_score"],g["price"]))
 games=games[:24]
+for g in games:
+    try:
+        enrich(g,hist)
+    except Exception as exc:
+        print("Market enrichment error",g["appid"],str(exc)[:140])
+        g["key_offers"]=[];g["tracked_low"]=hist.get(str(g["appid"]),{}).get("low")
 cn=datetime.datetime.now(datetime.timezone.utc)+datetime.timedelta(hours=8)
 out={"meta":{"updated_at_cn":cn.strftime("%Y-%m-%d %H:%M"),"version":"V1 personalized","note":"推荐分=45%口味匹配+35%简中口碑+20%价格；站内新低不是SteamDB全历史史低。"},"games":games}
 (DATA/"games.json").write_text(json.dumps(out,ensure_ascii=False,indent=2),"utf-8")
