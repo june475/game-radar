@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import json, urllib.request, urllib.parse, datetime, time
 from pathlib import Path
+from market import enrich
 
 ROOT=Path(__file__).resolve().parents[1]; DATA=ROOT/"data"; DATA.mkdir(exist_ok=True)
 cfg=json.loads((ROOT/"config.json").read_text("utf-8"))
@@ -114,6 +115,7 @@ for x in raw:
       "steam_deck":None
     })
 
+games=[enrich(g,hist) for g in games]
 games.sort(key=lambda g:(-g["recommend_score"],-g["taste_score"],g["price"]))
 games=games[:24]
 cn=datetime.datetime.now(datetime.timezone.utc)+datetime.timedelta(hours=8)
