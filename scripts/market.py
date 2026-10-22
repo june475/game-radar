@@ -48,28 +48,41 @@ def parse_key_reference(raw, field_names):
                 if v is not None:vals.append(v)
     return min(vals) if vals else None
 
-def steampy(appid):
-    # Plugin endpoint requires a matching package subId/type for some products.
-    # appId-only search is an unverified lead, never a guaranteed purchasable key.
-    url="https://steampy.com/xboot/common/plugIn/getGame?"+urllib.parse.urlencode(
-        {"appId":appid,"subId":0,"type":0}
-    )
-    result=fetch(url)
-    if not isinstance(result,(dict,list)):return None
-    p=parse_key_reference(result,("keyPrice",))
-    if p is None:return None
-    return {"platform":"SteamPY","price":p,"status":"接口参考价｜库存、版本、国区激活未核实",
-            "url":"https://steampy.com/","kind":"reference",
-            "checked_at":datetime.datetime.now(datetime.timezone.utc).isoformat()}
+def steampy(appid, subids):
+    """Match Steam purchase package subid, not arbitrary appid-only results."""
+    for subid in subids[:3]:
+        url="https://steampy.com/xboot/common/plugIn/getGame?"+urllib.parse.urlencode(
+            {"subId":subid,"appId":appid,"type":"subid"})
+        raw=fetch(url)
+        if not isinstance(raw,dict) or raw.get("success") is not True:continue
+        info=raw.get("result") or {}
+        if not isinstance(info,dict):continue
+        p=price(info.get("keyPrice"))
+        if p is None:continue
+        gameid=info.get("id")
+        return {"platform":"SteamPY","price":p,
+                "status":"CDKey接口参考价｜库存、地区及版本需打开商品页确认",
+                "url":f"https://steampy.com/cdkDetail?name=cn&gameId={gameid}" if gameid else "https://steampy.com/",
+                "kind":"reference","subid":subid,
+                "checked_at":datetime.datetime.now(datetime.timezone.utc).isoformat()}
+    return None
 
-def steamcici(appid):
+def steamcici(appid, subids):
     url="https://steamcici.com/prod-api/user/system/shopGame/list?"+urllib.parse.urlencode({"parentId":appid})
-    result=fetch(url)
-    if not isinstance(result,(dict,list)):return None
-    p=parse_key_reference(result,("lastLowSellPrice",))
-    if p is None:return None
-    return {"platform":"SteamCiCi","price":p,"status":"历史挂售参考价｜非当前在售",
-            "url":"https://steamcici.com/","kind":"historical_listing",
+    raw=fetch(url)
+    if not isinstance(raw,dict) or raw.get("code")!=200:return None
+    rows=raw.get("rows") or []
+    if not isinstance(rows,list):return None
+    matches=[x for x in rows if isinstance(x,dict) and str(x.get("gameId")) in {str(s) for s in subids}]
+    vals=[(price(x.get("lastLowSellPrice")),x) for x in matches]
+    vals=[(p,x) for p,x in vals if p is not None]
+    if not vals:return None
+    p,item=min(vals,key=lambda pair:pair[0])
+    return {"platform":"SteamCiCi","price":p,
+            "status":"历史挂售最低参考价｜非实时库存",
+            "last_hanging_time":item.get("lastHangingTime"),
+            "url":"https://steamcici.com/index","kind":"historical_listing",
+            "subid":item.get("gameId"),
             "checked_at":datetime.datetime.now(datetime.timezone.utc).isoformat()}
 
 def steamraw(appid):
@@ -99,8 +112,9 @@ def steamraw(appid):
 
 def enrich(game, history):
     appid=game["appid"];offers=[]
+    subids=game.get("steam_subids") or []
     for fn in (steampy,steamcici):
-        item=fn(appid)
+        item=fn(appid,subids)
         if item:offers.append(item)
     game["key_offers"]=offers
     # key_price deliberately empty: no source confirms currently available stock
