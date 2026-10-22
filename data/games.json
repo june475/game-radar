@@ -1,89 +1,10 @@
 {
   "meta": {
-    "updated_at_cn": "2026-10-22 14:28",
+    "updated_at_cn": "2026-10-22 20:08",
     "version": "V1 personalized",
     "note": "推荐分=45%口味匹配+35%简中口碑+20%价格；站内新低不是SteamDB全历史史低。"
   },
   "games": [
-    {
-      "appid": 3502620,
-      "name": "恶魔夜疯狂",
-      "price": 198.0,
-      "original_price": 198.0,
-      "discount": 0,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3502620/d94c4673b5fd4516ecdf579b21e8dcbe1d6cf837/header_schinese.jpg?t=1792631114",
-      "url": "https://store.steampowered.com/app/3502620/?cc=cn&l=schinese",
-      "review": "简中好评 100.0% · 1 条",
-      "review_pct": 100.0,
-      "review_count": 1,
-      "recommend_score": 7.2,
-      "taste_score": 6.6,
-      "quality_score": 9.5,
-      "price_score": 4.5,
-      "genres": [
-        "角色扮演",
-        "模拟",
-        "策略"
-      ],
-      "tags": [
-        "站内新低",
-        "角色扮演",
-        "模拟",
-        "策略"
-      ],
-      "flags": [
-        "new"
-      ],
-      "why": "匹配你的偏好：角色扮演 / 策略 / 单人",
-      "mobile": null,
-      "epic_status": "未自动核实",
-      "dlc_status": "未自动核实",
-      "key_price": null,
-      "key_source": null,
-      "steam_historical_low": null,
-      "steam_historical_low_source": null,
-      "steam_deck": null
-    },
-    {
-      "appid": 4172450,
-      "name": "捉迷藏",
-      "price": 38.4,
-      "original_price": 48.0,
-      "discount": 20,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4172450/50de35b5b2a9c319881ad106d9b53b34854232ef/header_schinese.jpg?t=1792642103",
-      "url": "https://store.steampowered.com/app/4172450/?cc=cn&l=schinese",
-      "review": "简中好评 100.0% · 4 条",
-      "review_pct": 100.0,
-      "review_count": 4,
-      "recommend_score": 7.0,
-      "taste_score": 5.8,
-      "quality_score": 9.5,
-      "price_score": 5.1,
-      "genres": [
-        "冒险",
-        "角色扮演",
-        "策略"
-      ],
-      "tags": [
-        "站内新低",
-        "-20%",
-        "冒险",
-        "角色扮演",
-        "策略"
-      ],
-      "flags": [
-        "new"
-      ],
-      "why": "匹配你的偏好：冒险 / 角色扮演 / 策略",
-      "mobile": null,
-      "epic_status": "未自动核实",
-      "dlc_status": "未自动核实",
-      "key_price": null,
-      "key_source": null,
-      "steam_historical_low": null,
-      "steam_historical_low_source": null,
-      "steam_deck": null
-    },
     {
       "appid": 1623730,
       "name": "Palworld / 幻兽帕鲁",
@@ -92,9 +13,9 @@
       "discount": 30,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/1b0709ec8de093a97a0bf43e799933eae4faef35/header_schinese.jpg?t=1790336367",
       "url": "https://store.steampowered.com/app/1623730/?cc=cn&l=schinese",
-      "review": "简中好评 92.4% · 141733 条",
+      "review": "简中好评 92.4% · 141741 条",
       "review_pct": 92.4,
-      "review_count": 141733,
+      "review_count": 141741,
       "recommend_score": 6.5,
       "taste_score": 5.3,
       "quality_score": 9.1,
@@ -122,39 +43,43 @@
       "key_source": null,
       "steam_historical_low": null,
       "steam_historical_low_source": null,
-      "steam_deck": null
+      "steam_deck": null,
+      "key_offers": [],
+      "key_status": "未核实实时在售",
+      "tracked_low": 75.6
     },
     {
-      "appid": 5364850,
-      "name": "Doomward: Dungeon Autobattler",
-      "price": 44.25,
-      "original_price": 59.0,
-      "discount": 25,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5364850/64421465c6952303cf176c531de2be84d98330ad/header.jpg?t=1792625809",
-      "url": "https://store.steampowered.com/app/5364850/?cc=cn&l=schinese",
-      "review": "简中评价样本不足",
-      "review_pct": null,
-      "review_count": 0,
-      "recommend_score": 6.3,
-      "taste_score": 6.6,
-      "quality_score": 0.0,
-      "price_score": 5.5,
+      "appid": 3596870,
+      "name": "樱姬7",
+      "price": 12.6,
+      "original_price": 18.0,
+      "discount": 30,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3596870/dc827bb9679c784294f4c2bbc48769d90ecfd04f/header.jpg?t=1792656716",
+      "url": "https://store.steampowered.com/app/3596870/?cc=cn&l=schinese",
+      "review": "简中好评 100.0% · 4 条",
+      "review_pct": 100.0,
+      "review_count": 4,
+      "recommend_score": 6.5,
+      "taste_score": 4.3,
+      "quality_score": 9.5,
+      "price_score": 6.1,
       "genres": [
+        "休闲",
         "独立",
         "角色扮演",
-        "策略"
+        "模拟"
       ],
       "tags": [
         "站内新低",
-        "-25%",
+        "-30%",
+        "休闲",
         "独立",
-        "角色扮演",
-        "策略"
+        "角色扮演"
       ],
       "flags": [
         "new"
       ],
-      "why": "匹配你的偏好：角色扮演 / 策略 / 单人",
+      "why": "匹配你的偏好：角色扮演 / 单人",
       "mobile": null,
       "epic_status": "未自动核实",
       "dlc_status": "未自动核实",
@@ -162,7 +87,90 @@
       "key_source": null,
       "steam_historical_low": null,
       "steam_historical_low_source": null,
-      "steam_deck": null
+      "steam_deck": null,
+      "key_offers": [],
+      "key_status": "未核实实时在售",
+      "tracked_low": 12.6
+    },
+    {
+      "appid": 4607340,
+      "name": "伊莉亚娜公主的坠落之夜~她已不再属于你~",
+      "price": 22.4,
+      "original_price": 28.0,
+      "discount": 20,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4607340/5b3c7ba40215c37f7cc56b65fc9d69fa6507ea44/header_schinese.jpg?t=1792670042",
+      "url": "https://store.steampowered.com/app/4607340/?cc=cn&l=schinese",
+      "review": "简中好评 100.0% · 2 条",
+      "review_pct": 100.0,
+      "review_count": 2,
+      "recommend_score": 6.4,
+      "taste_score": 4.3,
+      "quality_score": 9.5,
+      "price_score": 5.7,
+      "genres": [
+        "角色扮演"
+      ],
+      "tags": [
+        "站内新低",
+        "-20%",
+        "角色扮演"
+      ],
+      "flags": [
+        "new"
+      ],
+      "why": "匹配你的偏好：角色扮演 / 单人",
+      "mobile": null,
+      "epic_status": "未自动核实",
+      "dlc_status": "未自动核实",
+      "key_price": null,
+      "key_source": null,
+      "steam_historical_low": null,
+      "steam_historical_low_source": null,
+      "steam_deck": null,
+      "key_offers": [],
+      "key_status": "未核实实时在售",
+      "tracked_low": 22.4
+    },
+    {
+      "appid": 5318000,
+      "name": "村民集结：村庄保卫战",
+      "price": 10.5,
+      "original_price": 15.0,
+      "discount": 30,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5318000/1e711e2ebf896668632599d7c7fe9cf46c017da4/header_schinese.jpg?t=1792653678",
+      "url": "https://store.steampowered.com/app/5318000/?cc=cn&l=schinese",
+      "review": "简中好评 100.0% · 9 条",
+      "review_pct": 100.0,
+      "review_count": 9,
+      "recommend_score": 6.4,
+      "taste_score": 4.1,
+      "quality_score": 9.5,
+      "price_score": 6.1,
+      "genres": [
+        "休闲",
+        "策略"
+      ],
+      "tags": [
+        "站内新低",
+        "-30%",
+        "休闲",
+        "策略"
+      ],
+      "flags": [
+        "new"
+      ],
+      "why": "匹配你的偏好：策略 / 单人",
+      "mobile": null,
+      "epic_status": "未自动核实",
+      "dlc_status": "未自动核实",
+      "key_price": null,
+      "key_source": null,
+      "steam_historical_low": null,
+      "steam_historical_low_source": null,
+      "steam_deck": null,
+      "key_offers": [],
+      "key_status": "未核实实时在售",
+      "tracked_low": 10.5
     },
     {
       "appid": 990080,
@@ -172,9 +180,9 @@
       "discount": 90,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/990080/be2971b1023bccb04f993887d70ef4d2060262cf/header.jpg?t=1790708992",
       "url": "https://store.steampowered.com/app/990080/?cc=cn&l=schinese",
-      "review": "简中好评 79.8% · 35991 条",
+      "review": "简中好评 79.8% · 35998 条",
       "review_pct": 79.8,
-      "review_count": 35991,
+      "review_count": 35998,
       "recommend_score": 5.8,
       "taste_score": 5.3,
       "quality_score": 6.3,
@@ -201,40 +209,42 @@
       "key_source": null,
       "steam_historical_low": null,
       "steam_historical_low_source": null,
-      "steam_deck": null
+      "steam_deck": null,
+      "key_offers": [],
+      "key_status": "未核实实时在售",
+      "tracked_low": 38.4
     },
     {
-      "appid": 3874160,
-      "name": "NIPH",
-      "price": 30.59,
-      "original_price": 35.99,
-      "discount": 15,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3874160/9a7faa501ff1f7e9c46e89f8cc25e80e92cf0da7/header.jpg?t=1792634734",
-      "url": "https://store.steampowered.com/app/3874160/?cc=cn&l=schinese",
+      "appid": 4961170,
+      "name": "Just One More Expedition",
+      "price": 11.0,
+      "original_price": 11.0,
+      "discount": 0,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4961170/65b7e2fad9da8700abb1674a49232892278f6f99/header.jpg?t=1792651906",
+      "url": "https://store.steampowered.com/app/4961170/?cc=cn&l=schinese",
       "review": "简中评价样本不足",
       "review_pct": null,
       "review_count": 0,
       "recommend_score": 5.7,
-      "taste_score": 5.3,
+      "taste_score": 5.1,
       "quality_score": 0.0,
-      "price_score": 5.1,
+      "price_score": 5.7,
       "genres": [
-        "动作",
         "冒险",
-        "独立",
-        "角色扮演"
+        "休闲",
+        "模拟",
+        "策略"
       ],
       "tags": [
         "站内新低",
-        "-15%",
-        "动作",
         "冒险",
-        "独立"
+        "休闲",
+        "模拟"
       ],
       "flags": [
         "new"
       ],
-      "why": "匹配你的偏好：冒险 / 角色扮演 / 单人",
+      "why": "匹配你的偏好：冒险 / 策略 / 单人",
       "mobile": null,
       "epic_status": "未自动核实",
       "dlc_status": "未自动核实",
@@ -242,7 +252,94 @@
       "key_source": null,
       "steam_historical_low": null,
       "steam_historical_low_source": null,
-      "steam_deck": null
+      "steam_deck": null,
+      "key_offers": [],
+      "key_status": "未核实实时在售",
+      "tracked_low": 11.0
+    },
+    {
+      "appid": 5231500,
+      "name": "Axiom of Stars",
+      "price": 37.8,
+      "original_price": 42.0,
+      "discount": 10,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5231500/2988edccf5e3474dd8647f34c0f966d3669e1966/header.jpg?t=1792653641",
+      "url": "https://store.steampowered.com/app/5231500/?cc=cn&l=schinese",
+      "review": "简中评价样本不足",
+      "review_pct": null,
+      "review_count": 0,
+      "recommend_score": 5.6,
+      "taste_score": 5.1,
+      "quality_score": 0.0,
+      "price_score": 5.1,
+      "genres": [
+        "冒险",
+        "独立",
+        "策略"
+      ],
+      "tags": [
+        "站内新低",
+        "-10%",
+        "冒险",
+        "独立",
+        "策略"
+      ],
+      "flags": [
+        "new"
+      ],
+      "why": "匹配你的偏好：冒险 / 策略 / 单人",
+      "mobile": null,
+      "epic_status": "未自动核实",
+      "dlc_status": "未自动核实",
+      "key_price": null,
+      "key_source": null,
+      "steam_historical_low": null,
+      "steam_historical_low_source": null,
+      "steam_deck": null,
+      "key_offers": [],
+      "key_status": "未核实实时在售",
+      "tracked_low": 37.8
+    },
+    {
+      "appid": 4413070,
+      "name": "我推的祭品",
+      "price": 54.4,
+      "original_price": 68.0,
+      "discount": 20,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4413070/b5d8fae39b87369cc96199b988830ef0accaffc8/header_schinese.jpg?t=1792666578",
+      "url": "https://store.steampowered.com/app/4413070/?cc=cn&l=schinese",
+      "review": "简中好评 100.0% · 2 条",
+      "review_pct": 100.0,
+      "review_count": 2,
+      "recommend_score": 5.6,
+      "taste_score": 2.8,
+      "quality_score": 9.5,
+      "price_score": 5.1,
+      "genres": [
+        "冒险",
+        "独立"
+      ],
+      "tags": [
+        "站内新低",
+        "-20%",
+        "冒险",
+        "独立"
+      ],
+      "flags": [
+        "new"
+      ],
+      "why": "匹配你的偏好：冒险 / 单人",
+      "mobile": null,
+      "epic_status": "未自动核实",
+      "dlc_status": "未自动核实",
+      "key_price": null,
+      "key_source": null,
+      "steam_historical_low": null,
+      "steam_historical_low_source": null,
+      "steam_deck": null,
+      "key_offers": [],
+      "key_status": "未核实实时在售",
+      "tracked_low": 54.4
     },
     {
       "appid": 1174180,
@@ -252,9 +349,9 @@
       "discount": 75,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg?t=1759502961",
       "url": "https://store.steampowered.com/app/1174180/?cc=cn&l=schinese",
-      "review": "简中好评 90.5% · 274753 条",
+      "review": "简中好评 90.5% · 274760 条",
       "review_pct": 90.5,
-      "review_count": 274753,
+      "review_count": 274760,
       "recommend_score": 5.6,
       "taste_score": 2.8,
       "quality_score": 9.1,
@@ -279,257 +376,26 @@
       "key_source": null,
       "steam_historical_low": null,
       "steam_historical_low_source": null,
-      "steam_deck": null
+      "steam_deck": null,
+      "key_offers": [],
+      "key_status": "未核实实时在售",
+      "tracked_low": 69.75
     },
     {
-      "appid": 4303660,
-      "name": "Wartide",
-      "price": 19.0,
-      "original_price": 19.0,
-      "discount": 0,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4303660/78210f6d3b4715127c6770942b9f2ec574ce338b/header_schinese.jpg?t=1792615544",
-      "url": "https://store.steampowered.com/app/4303660/?cc=cn&l=schinese",
-      "review": "简中评价样本不足",
-      "review_pct": null,
-      "review_count": 0,
-      "recommend_score": 5.3,
-      "taste_score": 4.1,
-      "quality_score": 0.0,
-      "price_score": 5.7,
-      "genres": [
-        "动作",
-        "休闲",
-        "策略"
-      ],
-      "tags": [
-        "站内新低",
-        "动作",
-        "休闲",
-        "策略"
-      ],
-      "flags": [
-        "new"
-      ],
-      "why": "匹配你的偏好：策略 / 单人",
-      "mobile": null,
-      "epic_status": "未自动核实",
-      "dlc_status": "未自动核实",
-      "key_price": null,
-      "key_source": null,
-      "steam_historical_low": null,
-      "steam_historical_low_source": null,
-      "steam_deck": null
-    },
-    {
-      "appid": 4761040,
-      "name": "Its Flammin Bingo",
-      "price": 19.8,
-      "original_price": 22.0,
+      "appid": 1713730,
+      "name": "魔卓拉",
+      "price": 83.7,
+      "original_price": 93.0,
       "discount": 10,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4761040/ba6591826b71d20bf454f0baff92aaf8091cca71/header.jpg?t=1792622945",
-      "url": "https://store.steampowered.com/app/4761040/?cc=cn&l=schinese",
-      "review": "简中评价样本不足",
-      "review_pct": null,
-      "review_count": 0,
-      "recommend_score": 5.3,
-      "taste_score": 4.1,
-      "quality_score": 0.0,
-      "price_score": 5.7,
-      "genres": [
-        "休闲",
-        "模拟",
-        "策略"
-      ],
-      "tags": [
-        "站内新低",
-        "-10%",
-        "休闲",
-        "模拟",
-        "策略"
-      ],
-      "flags": [
-        "new"
-      ],
-      "why": "匹配你的偏好：策略 / 单人",
-      "mobile": null,
-      "epic_status": "未自动核实",
-      "dlc_status": "未自动核实",
-      "key_price": null,
-      "key_source": null,
-      "steam_historical_low": null,
-      "steam_historical_low_source": null,
-      "steam_deck": null
-    },
-    {
-      "appid": 5360850,
-      "name": "Grind Grid",
-      "price": 19.8,
-      "original_price": 22.0,
-      "discount": 10,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5360850/debd78907738fdf5ba3f50f4d0ab504dcce1900a/header.jpg?t=1792617714",
-      "url": "https://store.steampowered.com/app/5360850/?cc=cn&l=schinese",
-      "review": "简中评价样本不足",
-      "review_pct": null,
-      "review_count": 0,
-      "recommend_score": 5.3,
-      "taste_score": 4.1,
-      "quality_score": 0.0,
-      "price_score": 5.7,
-      "genres": [
-        "独立",
-        "模拟",
-        "策略"
-      ],
-      "tags": [
-        "站内新低",
-        "-10%",
-        "独立",
-        "模拟",
-        "策略"
-      ],
-      "flags": [
-        "new"
-      ],
-      "why": "匹配你的偏好：策略 / 单人",
-      "mobile": null,
-      "epic_status": "未自动核实",
-      "dlc_status": "未自动核实",
-      "key_price": null,
-      "key_source": null,
-      "steam_historical_low": null,
-      "steam_historical_low_source": null,
-      "steam_deck": null
-    },
-    {
-      "appid": 5260110,
-      "name": "Second Source",
-      "price": 39.0,
-      "original_price": 52.0,
-      "discount": 25,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5260110/40b725fbf030f2509e2da2b39cb5433645b21a39/header.jpg?t=1792627577",
-      "url": "https://store.steampowered.com/app/5260110/?cc=cn&l=schinese",
-      "review": "简中评价样本不足",
-      "review_pct": null,
-      "review_count": 0,
-      "recommend_score": 5.2,
-      "taste_score": 4.1,
-      "quality_score": 0.0,
-      "price_score": 5.5,
-      "genres": [
-        "独立",
-        "模拟",
-        "策略"
-      ],
-      "tags": [
-        "站内新低",
-        "-25%",
-        "独立",
-        "模拟",
-        "策略"
-      ],
-      "flags": [
-        "new"
-      ],
-      "why": "匹配你的偏好：策略 / 单人",
-      "mobile": null,
-      "epic_status": "未自动核实",
-      "dlc_status": "未自动核实",
-      "key_price": null,
-      "key_source": null,
-      "steam_historical_low": null,
-      "steam_historical_low_source": null,
-      "steam_deck": null
-    },
-    {
-      "appid": 5288330,
-      "name": "NOVA",
-      "price": 33.74,
-      "original_price": 33.74,
-      "discount": 0,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5288330/240ba1c891d046d4e456713d6ff121bbe58e4818/header.jpg?t=1792603953",
-      "url": "https://store.steampowered.com/app/5288330/?cc=cn&l=schinese",
-      "review": "简中评价样本不足",
-      "review_pct": null,
-      "review_count": 0,
-      "recommend_score": 5.1,
-      "taste_score": 4.1,
-      "quality_score": 0.0,
-      "price_score": 5.1,
-      "genres": [
-        "休闲",
-        "独立",
-        "策略"
-      ],
-      "tags": [
-        "站内新低",
-        "休闲",
-        "独立",
-        "策略"
-      ],
-      "flags": [
-        "new"
-      ],
-      "why": "匹配你的偏好：策略 / 单人",
-      "mobile": null,
-      "epic_status": "未自动核实",
-      "dlc_status": "未自动核实",
-      "key_price": null,
-      "key_source": null,
-      "steam_historical_low": null,
-      "steam_historical_low_source": null,
-      "steam_deck": null
-    },
-    {
-      "appid": 4751790,
-      "name": "TRY",
-      "price": 16.89,
-      "original_price": 21.12,
-      "discount": 20,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4751790/987e4fad74bb60287d07bfafa1c3ccec75cc31b7/header.jpg?t=1792615378",
-      "url": "https://store.steampowered.com/app/4751790/?cc=cn&l=schinese",
-      "review": "简中评价样本不足",
-      "review_pct": null,
-      "review_count": 0,
-      "recommend_score": 4.7,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1713730/1cef7bac0a7ccc38387fee0de3570195f728a699/header.jpg?t=1792652437",
+      "url": "https://store.steampowered.com/app/1713730/?cc=cn&l=schinese",
+      "review": "简中好评 100.0% · 1 条",
+      "review_pct": 100.0,
+      "review_count": 1,
+      "recommend_score": 5.5,
       "taste_score": 2.8,
-      "quality_score": 0.0,
-      "price_score": 5.7,
-      "genres": [
-        "冒险"
-      ],
-      "tags": [
-        "站内新低",
-        "-20%",
-        "冒险"
-      ],
-      "flags": [
-        "new"
-      ],
-      "why": "匹配你的偏好：冒险 / 单人",
-      "mobile": null,
-      "epic_status": "未自动核实",
-      "dlc_status": "未自动核实",
-      "key_price": null,
-      "key_source": null,
-      "steam_historical_low": null,
-      "steam_historical_low_source": null,
-      "steam_deck": null
-    },
-    {
-      "appid": 5132990,
-      "name": "Puppet Mall: Chapter 1: Lost Friend",
-      "price": 20.11,
-      "original_price": 25.14,
-      "discount": 20,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5132990/54ca111c34b6ae55d3428de215b35ac5ba3d5f07/header.jpg?t=1792602191",
-      "url": "https://store.steampowered.com/app/5132990/?cc=cn&l=schinese",
-      "review": "简中评价样本不足",
-      "review_pct": null,
-      "review_count": 0,
-      "recommend_score": 4.7,
-      "taste_score": 2.8,
-      "quality_score": 0.0,
-      "price_score": 5.7,
+      "quality_score": 9.5,
+      "price_score": 4.5,
       "genres": [
         "动作",
         "冒险",
@@ -537,7 +403,7 @@
       ],
       "tags": [
         "站内新低",
-        "-20%",
+        "-10%",
         "动作",
         "冒险",
         "独立"
@@ -553,33 +419,120 @@
       "key_source": null,
       "steam_historical_low": null,
       "steam_historical_low_source": null,
-      "steam_deck": null
+      "steam_deck": null,
+      "key_offers": [],
+      "key_status": "未核实实时在售",
+      "tracked_low": 83.7
     },
     {
-      "appid": 3567020,
-      "name": "Mumble Pines: The Arrival",
-      "price": 21.25,
-      "original_price": 25.0,
+      "appid": 5058000,
+      "name": "炉火裁决",
+      "price": 18.0,
+      "original_price": 18.0,
+      "discount": 0,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5058000/22e0fc8e9b803e7d9991b4d704fbc7274ca58f05/header.jpg?t=1792635977",
+      "url": "https://store.steampowered.com/app/5058000/?cc=cn&l=schinese",
+      "review": "简中评价样本不足",
+      "review_pct": null,
+      "review_count": 0,
+      "recommend_score": 5.3,
+      "taste_score": 4.1,
+      "quality_score": 0.0,
+      "price_score": 5.7,
+      "genres": [
+        "休闲",
+        "策略"
+      ],
+      "tags": [
+        "站内新低",
+        "休闲",
+        "策略"
+      ],
+      "flags": [
+        "new"
+      ],
+      "why": "匹配你的偏好：策略 / 单人",
+      "mobile": null,
+      "epic_status": "未自动核实",
+      "dlc_status": "未自动核实",
+      "key_price": null,
+      "key_source": null,
+      "steam_historical_low": null,
+      "steam_historical_low_source": null,
+      "steam_deck": null,
+      "key_offers": [],
+      "key_status": "未核实实时在售",
+      "tracked_low": 18.0
+    },
+    {
+      "appid": 5341050,
+      "name": "宝石与宫殿",
+      "price": 18.7,
+      "original_price": 22.0,
       "discount": 15,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3567020/42a87e4b6c5c75943a849a6801a19c96cf1c9198/header.jpg?t=1792621354",
-      "url": "https://store.steampowered.com/app/3567020/?cc=cn&l=schinese",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5341050/b386692e7cbad01d6832ca77b7955c513a4345dc/header.jpg?t=1792665145",
+      "url": "https://store.steampowered.com/app/5341050/?cc=cn&l=schinese",
       "review": "简中评价样本不足",
       "review_pct": null,
       "review_count": 0,
-      "recommend_score": 4.7,
-      "taste_score": 2.8,
+      "recommend_score": 5.3,
+      "taste_score": 4.1,
       "quality_score": 0.0,
       "price_score": 5.7,
       "genres": [
-        "动作",
-        "冒险",
-        "独立"
+        "休闲",
+        "独立",
+        "模拟",
+        "策略"
       ],
       "tags": [
         "站内新低",
         "-15%",
-        "动作",
+        "休闲",
+        "独立",
+        "模拟"
+      ],
+      "flags": [
+        "new"
+      ],
+      "why": "匹配你的偏好：策略 / 单人",
+      "mobile": null,
+      "epic_status": "未自动核实",
+      "dlc_status": "未自动核实",
+      "key_price": null,
+      "key_source": null,
+      "steam_historical_low": null,
+      "steam_historical_low_source": null,
+      "steam_deck": null,
+      "key_offers": [],
+      "key_status": "未核实实时在售",
+      "tracked_low": 18.7
+    },
+    {
+      "appid": 5377200,
+      "name": "Chained Pirates Together",
+      "price": 6.0,
+      "original_price": 10.0,
+      "discount": 40,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5377200/d8ebe255c762b643c146b33b20c87403e33d30ff/header.jpg?t=1792652420",
+      "url": "https://store.steampowered.com/app/5377200/?cc=cn&l=schinese",
+      "review": "简中评价样本不足",
+      "review_pct": null,
+      "review_count": 0,
+      "recommend_score": 4.9,
+      "taste_score": 2.8,
+      "quality_score": 0.0,
+      "price_score": 6.7,
+      "genres": [
         "冒险",
+        "休闲",
+        "独立"
+      ],
+      "tags": [
+        "站内新低",
+        "-40%",
+        "冒险",
+        "休闲",
         "独立"
       ],
       "flags": [
@@ -593,16 +546,19 @@
       "key_source": null,
       "steam_historical_low": null,
       "steam_historical_low_source": null,
-      "steam_deck": null
+      "steam_deck": null,
+      "key_offers": [],
+      "key_status": "未核实实时在售",
+      "tracked_low": 6.0
     },
     {
-      "appid": 5198670,
-      "name": "No Murders in Grimwick",
-      "price": 29.0,
-      "original_price": 29.0,
-      "discount": 0,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5198670/61b2a4bf1970fefcf6a99c264459fbc3f7768dfe/header.jpg?t=1792602060",
-      "url": "https://store.steampowered.com/app/5198670/?cc=cn&l=schinese",
+      "appid": 5134280,
+      "name": "The Guest from the Fields",
+      "price": 12.0,
+      "original_price": 15.0,
+      "discount": 20,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5134280/330efd5a924ac7462b8d7a5c80c88b1c6e8811e9/header_schinese.jpg?t=1792667429",
+      "url": "https://store.steampowered.com/app/5134280/?cc=cn&l=schinese",
       "review": "简中评价样本不足",
       "review_pct": null,
       "review_count": 0,
@@ -616,6 +572,7 @@
       ],
       "tags": [
         "站内新低",
+        "-20%",
         "冒险",
         "独立"
       ],
@@ -630,16 +587,19 @@
       "key_source": null,
       "steam_historical_low": null,
       "steam_historical_low_source": null,
-      "steam_deck": null
+      "steam_deck": null,
+      "key_offers": [],
+      "key_status": "未核实实时在售",
+      "tracked_low": 12.0
     },
     {
-      "appid": 1564060,
-      "name": "疯狂灯塔 Lighthouse of Madness",
-      "price": 38.25,
-      "original_price": 45.0,
-      "discount": 15,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1564060/a784d0ef83c782ee54fa4666da7162647e4e9e72/header_schinese.jpg?t=1792610977",
-      "url": "https://store.steampowered.com/app/1564060/?cc=cn&l=schinese",
+      "appid": 2451700,
+      "name": "Atrion Project",
+      "price": 42.0,
+      "original_price": 42.0,
+      "discount": 0,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2451700/24233d71dbbca027d94c84ec5ed86c4b6f4da227/header.jpg?t=1792660078",
+      "url": "https://store.steampowered.com/app/2451700/?cc=cn&l=schinese",
       "review": "简中评价样本不足",
       "review_pct": null,
       "review_count": 0,
@@ -648,12 +608,13 @@
       "quality_score": 0.0,
       "price_score": 5.1,
       "genres": [
+        "动作",
         "冒险",
         "独立"
       ],
       "tags": [
         "站内新低",
-        "-15%",
+        "动作",
         "冒险",
         "独立"
       ],
@@ -668,16 +629,19 @@
       "key_source": null,
       "steam_historical_low": null,
       "steam_historical_low_source": null,
-      "steam_deck": null
+      "steam_deck": null,
+      "key_offers": [],
+      "key_status": "未核实实时在售",
+      "tracked_low": 42.0
     },
     {
-      "appid": 5297330,
-      "name": "拯救我的妻子",
-      "price": 10.04,
-      "original_price": 10.04,
+      "appid": 4868040,
+      "name": "FATAL FURY CotW - DLC Costume ”Classic Mai Shiranui\"",
+      "price": 12.0,
+      "original_price": 12.0,
       "discount": 0,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5297330/05a50c200898511ddc7e0289910158c867ec8b8e/header.jpg?t=1792617568",
-      "url": "https://store.steampowered.com/app/5297330/?cc=cn&l=schinese",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4868040/86db03663ffd03e58978b887964fd803cf7d5e81/header.jpg?t=1792652456",
+      "url": "https://store.steampowered.com/app/4868040/?cc=cn&l=schinese",
       "review": "简中评价样本不足",
       "review_pct": null,
       "review_count": 0,
@@ -686,13 +650,11 @@
       "quality_score": 0.0,
       "price_score": 5.7,
       "genres": [
-        "独立",
-        "模拟"
+        "动作"
       ],
       "tags": [
         "站内新低",
-        "独立",
-        "模拟"
+        "动作"
       ],
       "flags": [
         "new"
@@ -705,44 +667,10 @@
       "key_source": null,
       "steam_historical_low": null,
       "steam_historical_low_source": null,
-      "steam_deck": null
-    },
-    {
-      "appid": 5393320,
-      "name": "NULLBYTE",
-      "price": 11.0,
-      "original_price": 11.0,
-      "discount": 0,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5393320/4d6249a1737f2d17bcb7c4ca437f044b1b5d1460/header.jpg?t=1792610443",
-      "url": "https://store.steampowered.com/app/5393320/?cc=cn&l=schinese",
-      "review": "简中评价样本不足",
-      "review_pct": null,
-      "review_count": 0,
-      "recommend_score": 4.2,
-      "taste_score": 1.8,
-      "quality_score": 0.0,
-      "price_score": 5.7,
-      "genres": [
-        "休闲",
-        "模拟"
-      ],
-      "tags": [
-        "站内新低",
-        "休闲",
-        "模拟"
-      ],
-      "flags": [
-        "new"
-      ],
-      "why": "匹配你的偏好：单人",
-      "mobile": null,
-      "epic_status": "未自动核实",
-      "dlc_status": "未自动核实",
-      "key_price": null,
-      "key_source": null,
-      "steam_historical_low": null,
-      "steam_historical_low_source": null,
-      "steam_deck": null
+      "steam_deck": null,
+      "key_offers": [],
+      "key_status": "未核实实时在售",
+      "tracked_low": 12.0
     },
     {
       "appid": 5104990,
@@ -758,13 +686,12 @@
       "recommend_score": 4.2,
       "taste_score": 1.8,
       "quality_score": 0.0,
-      "price_score": 5.7,
+      "price_score": 5.4,
       "genres": [
         "休闲",
         "独立"
       ],
       "tags": [
-        "站内新低",
         "-20%",
         "休闲",
         "独立"
@@ -780,7 +707,137 @@
       "key_source": null,
       "steam_historical_low": null,
       "steam_historical_low_source": null,
-      "steam_deck": null
+      "steam_deck": null,
+      "key_offers": [],
+      "key_status": "未核实实时在售",
+      "tracked_low": 12.0
+    },
+    {
+      "appid": 2757440,
+      "name": "TCG: FANTASY Card Collection",
+      "price": 12.75,
+      "original_price": 15.0,
+      "discount": 15,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2757440/ac04c1290cd5d9e9d1ca696e61902b2c6583307a/header.jpg?t=1792652433",
+      "url": "https://store.steampowered.com/app/2757440/?cc=cn&l=schinese",
+      "review": "简中评价样本不足",
+      "review_pct": null,
+      "review_count": 0,
+      "recommend_score": 4.2,
+      "taste_score": 1.8,
+      "quality_score": 0.0,
+      "price_score": 5.7,
+      "genres": [
+        "休闲",
+        "独立",
+        "模拟"
+      ],
+      "tags": [
+        "站内新低",
+        "-15%",
+        "休闲",
+        "独立",
+        "模拟"
+      ],
+      "flags": [
+        "new"
+      ],
+      "why": "匹配你的偏好：单人",
+      "mobile": null,
+      "epic_status": "未自动核实",
+      "dlc_status": "未自动核实",
+      "key_price": null,
+      "key_source": null,
+      "steam_historical_low": null,
+      "steam_historical_low_source": null,
+      "steam_deck": null,
+      "key_offers": [],
+      "key_status": "未核实实时在售",
+      "tracked_low": 12.75
+    },
+    {
+      "appid": 5330240,
+      "name": "Little Pot, Big Seasons",
+      "price": 12.75,
+      "original_price": 15.0,
+      "discount": 15,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5330240/176da634baa2bde56b2cd6d8290231c39d00ded8/header_schinese.jpg?t=1792637087",
+      "url": "https://store.steampowered.com/app/5330240/?cc=cn&l=schinese",
+      "review": "简中评价样本不足",
+      "review_pct": null,
+      "review_count": 0,
+      "recommend_score": 4.2,
+      "taste_score": 1.8,
+      "quality_score": 0.0,
+      "price_score": 5.7,
+      "genres": [
+        "休闲",
+        "独立",
+        "模拟"
+      ],
+      "tags": [
+        "站内新低",
+        "-15%",
+        "休闲",
+        "独立",
+        "模拟"
+      ],
+      "flags": [
+        "new"
+      ],
+      "why": "匹配你的偏好：单人",
+      "mobile": null,
+      "epic_status": "未自动核实",
+      "dlc_status": "未自动核实",
+      "key_price": null,
+      "key_source": null,
+      "steam_historical_low": null,
+      "steam_historical_low_source": null,
+      "steam_deck": null,
+      "key_offers": [],
+      "key_status": "未核实实时在售",
+      "tracked_low": 12.75
+    },
+    {
+      "appid": 3844890,
+      "name": "Lost Jelly",
+      "price": 15.3,
+      "original_price": 18.0,
+      "discount": 15,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3844890/8981ac48f388ebeb95f78d3ea7aaa746af01b7dd/header.jpg?t=1792664230",
+      "url": "https://store.steampowered.com/app/3844890/?cc=cn&l=schinese",
+      "review": "简中评价样本不足",
+      "review_pct": null,
+      "review_count": 0,
+      "recommend_score": 4.2,
+      "taste_score": 1.8,
+      "quality_score": 0.0,
+      "price_score": 5.7,
+      "genres": [
+        "休闲",
+        "独立"
+      ],
+      "tags": [
+        "站内新低",
+        "-15%",
+        "休闲",
+        "独立"
+      ],
+      "flags": [
+        "new"
+      ],
+      "why": "匹配你的偏好：单人",
+      "mobile": null,
+      "epic_status": "未自动核实",
+      "dlc_status": "未自动核实",
+      "key_price": null,
+      "key_source": null,
+      "steam_historical_low": null,
+      "steam_historical_low_source": null,
+      "steam_deck": null,
+      "key_offers": [],
+      "key_status": "未核实实时在售",
+      "tracked_low": 15.3
     },
     {
       "appid": 5292740,
@@ -796,13 +853,12 @@
       "recommend_score": 4.2,
       "taste_score": 1.8,
       "quality_score": 0.0,
-      "price_score": 5.7,
+      "price_score": 5.4,
       "genres": [
         "动作",
         "独立"
       ],
       "tags": [
-        "站内新低",
         "-10%",
         "动作",
         "独立"
@@ -818,16 +874,19 @@
       "key_source": null,
       "steam_historical_low": null,
       "steam_historical_low_source": null,
-      "steam_deck": null
+      "steam_deck": null,
+      "key_offers": [],
+      "key_status": "未核实实时在售",
+      "tracked_low": 16.53
     },
     {
-      "appid": 4833540,
-      "name": "Juice Stand Tycoon",
-      "price": 19.8,
-      "original_price": 22.0,
-      "discount": 10,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4833540/cb38085ba5e608a65888db622d1953faea70ff11/header.jpg?t=1792620491",
-      "url": "https://store.steampowered.com/app/4833540/?cc=cn&l=schinese",
+      "appid": 5348500,
+      "name": "Sidetrack — Tiny Trains for Your Desktop",
+      "price": 26.4,
+      "original_price": 33.0,
+      "discount": 20,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5348500/4bcf999070169f9c4e6eeb5ccaa5219abcd4c8ed/header.jpg?t=1792653333",
+      "url": "https://store.steampowered.com/app/5348500/?cc=cn&l=schinese",
       "review": "简中评价样本不足",
       "review_pct": null,
       "review_count": 0,
@@ -837,12 +896,14 @@
       "price_score": 5.7,
       "genres": [
         "休闲",
+        "独立",
         "模拟"
       ],
       "tags": [
         "站内新低",
-        "-10%",
+        "-20%",
         "休闲",
+        "独立",
         "模拟"
       ],
       "flags": [
@@ -856,51 +917,19 @@
       "key_source": null,
       "steam_historical_low": null,
       "steam_historical_low_source": null,
-      "steam_deck": null
+      "steam_deck": null,
+      "key_offers": [],
+      "key_status": "未核实实时在售",
+      "tracked_low": 26.4
     },
     {
-      "appid": 5077390,
-      "name": "PCpill",
-      "price": 26.0,
-      "original_price": 26.0,
-      "discount": 0,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5077390/fdbfd661181f57672d7e18ce92bab6f55a8e0317/header.jpg?t=1792620194",
-      "url": "https://store.steampowered.com/app/5077390/?cc=cn&l=schinese",
-      "review": "简中评价样本不足",
-      "review_pct": null,
-      "review_count": 0,
-      "recommend_score": 4.2,
-      "taste_score": 1.8,
-      "quality_score": 0.0,
-      "price_score": 5.7,
-      "genres": [
-        "动作"
-      ],
-      "tags": [
-        "站内新低",
-        "动作"
-      ],
-      "flags": [
-        "new"
-      ],
-      "why": "匹配你的偏好：单人",
-      "mobile": null,
-      "epic_status": "未自动核实",
-      "dlc_status": "未自动核实",
-      "key_price": null,
-      "key_source": null,
-      "steam_historical_low": null,
-      "steam_historical_low_source": null,
-      "steam_deck": null
-    },
-    {
-      "appid": 5230710,
-      "name": "FULL THROTTLE RALLY",
-      "price": 46.0,
-      "original_price": 46.0,
-      "discount": 0,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5230710/e85a26f02ebaa4bcda75b7b5507ef9f29addfb85/header.jpg?t=1792613729",
-      "url": "https://store.steampowered.com/app/5230710/?cc=cn&l=schinese",
+      "appid": 4560000,
+      "name": "Battle Nap",
+      "price": 35.7,
+      "original_price": 42.0,
+      "discount": 15,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4560000/9b9f47c68c3e3f236b44663c5169a55e11d22ca5/header.jpg?t=1792661388",
+      "url": "https://store.steampowered.com/app/4560000/?cc=cn&l=schinese",
       "review": "简中评价样本不足",
       "review_pct": null,
       "review_count": 0,
@@ -909,15 +938,14 @@
       "quality_score": 0.0,
       "price_score": 5.1,
       "genres": [
-        "休闲",
-        "竞速",
-        "体育"
+        "动作",
+        "独立"
       ],
       "tags": [
         "站内新低",
-        "休闲",
-        "竞速",
-        "体育"
+        "-15%",
+        "动作",
+        "独立"
       ],
       "flags": [
         "new"
@@ -930,7 +958,50 @@
       "key_source": null,
       "steam_historical_low": null,
       "steam_historical_low_source": null,
-      "steam_deck": null
+      "steam_deck": null,
+      "key_offers": [],
+      "key_status": "未核实实时在售",
+      "tracked_low": 35.7
+    },
+    {
+      "appid": 3191530,
+      "name": "Irradiate 235",
+      "price": 46.4,
+      "original_price": 58.0,
+      "discount": 20,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3191530/df557b0de97299fded26cc4a8de967cd127eb7dc/header.jpg?t=1792637540",
+      "url": "https://store.steampowered.com/app/3191530/?cc=cn&l=schinese",
+      "review": "简中评价样本不足",
+      "review_pct": null,
+      "review_count": 0,
+      "recommend_score": 4.0,
+      "taste_score": 1.8,
+      "quality_score": 0.0,
+      "price_score": 4.8,
+      "genres": [
+        "独立",
+        "模拟"
+      ],
+      "tags": [
+        "-20%",
+        "独立",
+        "模拟"
+      ],
+      "flags": [
+        "new"
+      ],
+      "why": "匹配你的偏好：单人",
+      "mobile": null,
+      "epic_status": "未自动核实",
+      "dlc_status": "未自动核实",
+      "key_price": null,
+      "key_source": null,
+      "steam_historical_low": null,
+      "steam_historical_low_source": null,
+      "steam_deck": null,
+      "key_offers": [],
+      "key_status": "未核实实时在售",
+      "tracked_low": 46.4
     }
   ]
 }
