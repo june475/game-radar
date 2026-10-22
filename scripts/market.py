@@ -98,7 +98,7 @@ def steamraw(appid):
         for key in ("CN","cn","CNY"):
             if isinstance(obj.get(key),dict):nodes.append(obj[key])
     for node in nodes:
-        currency=str(node.get("currency") or node.get("currency_code") or "CNY").upper()
+        currency=str(node.get("currency") or node.get("currency_code") or "").upper()
         if currency!="CNY":continue
         for k in ("historical_low","historicalLow","lowest_price","lowestPrice","lowest_recorded_price"):
             v=node.get(k)
