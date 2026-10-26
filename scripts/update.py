@@ -2,6 +2,7 @@
 import json, urllib.request, urllib.parse, datetime, time
 from pathlib import Path
 from market import enrich
+from availability import epic_history, metadata
 
 ROOT=Path(__file__).resolve().parents[1]; DATA=ROOT/"data"; DATA.mkdir(exist_ok=True)
 cfg=json.loads((ROOT/"config.json").read_text("utf-8"))
@@ -13,6 +14,7 @@ except: hist={}
 # 手工核实后可持续扩充；未核实的内容不自动猜测
 mobile_verified=cfg.get("mobile_verified",{})
 epic_free=cfg.get("epic_free_exclude",[])
+epic_records=epic_history()
 
 def get(url):
     req=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0 GameRadar/1.1"})
@@ -98,7 +100,9 @@ for x in raw:
     if x["_flag"]=="deal" and taste<2.0:continue
     if rv["pct"] is not None and rv["pct"]<65:continue
 
-    m=mobile_verified.get(str(appid))
+    info=metadata(appid,[name,d.get("name","")],epic_records,mobile_verified)
+    if info["epic_exclude"]: continue
+    m=info["mobile"]
     steam_subids=[int(s) for s in d.get("packages",[]) if str(s).isdigit()][:8]
     flags=[x["_flag"]]+(["mobile"] if m else [])
     tags=(["站内新低"] if newlow else [])+([f"-{disc}%"] if disc else [])+genres[:3]
@@ -111,7 +115,7 @@ for x in raw:
       "review_pct":rv["pct"],"review_count":rv["total"],
       "recommend_score":final,"taste_score":taste,"quality_score":quality,"price_score":price_score,
       "genres":genres,"tags":tags,"flags":flags,"why":why,
-      "mobile":m,"epic_status":"未自动核实","dlc_status":"未自动核实",
+      "mobile":m,"epic_status":info["epic_status"],"epic_giveaway":info["epic_giveaway"],"epic_source":info["epic_source"],"dlc_status":"未自动核实",
       "key_price":None,"key_source":None,"steam_historical_low":None,"steam_historical_low_source":None,
       "steam_deck":None
     })
