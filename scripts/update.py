@@ -62,6 +62,9 @@ for x in raw:
 
     d=details(appid); time.sleep(.12)
     rv=reviews(appid); time.sleep(.12)
+    release_info=d.get("release_date") or {}
+    release_date=release_info.get("date") or None
+    coming_soon=bool(release_info.get("coming_soon",False))
     genres=[g.get("description","") for g in d.get("genres",[])]
     cats=[c.get("description","") for c in d.get("categories",[])]
     features=genres+cats
@@ -109,7 +112,7 @@ for x in raw:
     tags=(["站内新低"] if newlow else [])+([f"-{disc}%"] if disc else [])+genres[:3]
     why=("匹配你的偏好："+ " / ".join(dict.fromkeys(reasons[:4]))) if reasons else "新游观察候选"
     games.append({
-      "appid":appid,"name":(d.get("name") or name),"name_en":name if name!=(d.get("name") or name) else None,"steam_subids":steam_subids,"price":price,"original_price":original,"discount":disc,
+      "appid":appid,"name":(d.get("name") or name),"name_en":name if name!=(d.get("name") or name) else None,"steam_subids":steam_subids,"release_date":release_date,"coming_soon":coming_soon,"price":price,"original_price":original,"discount":disc,
       "image":d.get("header_image") or x.get("large_capsule_image") or x.get("small_capsule_image"),
       "url":f"https://store.steampowered.com/app/{appid}/?cc=cn&l=schinese",
       "review":(f"简中好评 {rv['pct']}% · {rv['total']} 条" if rv["pct"] is not None else "简中评价样本不足"),
