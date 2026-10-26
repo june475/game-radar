@@ -3,6 +3,7 @@ import json, urllib.request, urllib.parse, datetime, time
 from pathlib import Path
 from market import enrich
 from availability import epic_history, metadata
+from storage import save as save_database, statistics as db_statistics
 
 ROOT=Path(__file__).resolve().parents[1]; DATA=ROOT/"data"; DATA.mkdir(exist_ok=True)
 cfg=json.loads((ROOT/"config.json").read_text("utf-8"))
@@ -129,6 +130,9 @@ for g in games:
         print("Market enrichment error",g["appid"],str(exc)[:140])
         g["key_offers"]=[];g["tracked_low"]=hist.get(str(g["appid"]),{}).get("low")
 cn=datetime.datetime.now(datetime.timezone.utc)+datetime.timedelta(hours=8)
+db_path=DATA/"game_radar.db"
+db_result=save_database(db_path,games,raw,cfg,hist,epic_records,cn)
+print("SQLite saved:",db_result,db_statistics(db_path))
 out={"meta":{"updated_at_cn":cn.strftime("%Y-%m-%d %H:%M"),"version":"V1 personalized","note":"推荐分=45%口味匹配+35%简中口碑+20%价格；站内新低不是SteamDB全历史史低。"},"games":games}
 (DATA/"games.json").write_text(json.dumps(out,ensure_ascii=False,indent=2),"utf-8")
 hp.write_text(json.dumps(hist,ensure_ascii=False,indent=2),"utf-8")
