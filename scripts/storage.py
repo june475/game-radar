@@ -13,7 +13,7 @@ PRAGMA foreign_keys=ON;
 CREATE TABLE IF NOT EXISTS game_info (
  appid INTEGER PRIMARY KEY, name TEXT NOT NULL, name_en TEXT,
  genres_json TEXT NOT NULL DEFAULT '[]', review_pct REAL, review_count INTEGER,
- recommend_score REAL, updated_at TEXT NOT NULL
+ recommend_score REAL, release_date TEXT, coming_soon INTEGER NOT NULL DEFAULT 0, updated_at TEXT NOT NULL
 );
 CREATE TABLE IF NOT EXISTS steam_price_history (
  appid INTEGER NOT NULL, observed_date TEXT NOT NULL, currency TEXT NOT NULL DEFAULT 'CNY',
@@ -55,6 +55,12 @@ def now_cn():
 
 def setup(conn):
     conn.executescript(SCHEMA)
+    # Safe additive migration for databases created before release-date support.
+    existing = {row[1] for row in conn.execute("PRAGMA table_info(game_info)")}
+    if "release_date" not in existing:
+        conn.execute("ALTER TABLE game_info ADD COLUMN release_date TEXT")
+    if "coming_soon" not in existing:
+        conn.execute("ALTER TABLE game_info ADD COLUMN coming_soon INTEGER NOT NULL DEFAULT 0")
 
 def _valid_price(value):
     try:
@@ -84,17 +90,18 @@ def save(db_path, games, raw, config, hist, epic_records, observed=None):
                 aid = game.get("appid")
                 if not isinstance(aid, int): continue
                 conn.execute("""
-                    INSERT INTO game_info(appid,name,name_en,genres_json,review_pct,review_count,recommend_score,updated_at)
-                    VALUES(?,?,?,?,?,?,?,?)
+                    INSERT INTO game_info(appid,name,name_en,genres_json,review_pct,review_count,recommend_score,release_date,coming_soon,updated_at)
+                    VALUES(?,?,?,?,?,?,?,?,?,?)
                     ON CONFLICT(appid) DO UPDATE SET
                       name=excluded.name,name_en=excluded.name_en,
                       genres_json=excluded.genres_json,review_pct=excluded.review_pct,
                       review_count=excluded.review_count,
-                      recommend_score=excluded.recommend_score,updated_at=excluded.updated_at
+                      recommend_score=excluded.recommend_score,release_date=excluded.release_date,
+                      coming_soon=excluded.coming_soon,updated_at=excluded.updated_at
                 """,(aid,game.get("name") or str(aid),game.get("name_en"),
                     json.dumps(game.get("genres") or [],ensure_ascii=False),
                     game.get("review_pct"),game.get("review_count"),
-                    game.get("recommend_score"),stamp))
+                    game.get("recommend_score"),game.get("release_date"),int(bool(game.get("coming_soon"))),stamp))
 
                 mobile = game.get("mobile")
                 if isinstance(mobile,dict) and (mobile.get("android") or mobile.get("ios")):
