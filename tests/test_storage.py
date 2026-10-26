@@ -33,6 +33,20 @@ class StorageTests(unittest.TestCase):
                 self.assertEqual(db.execute("SELECT price FROM steam_price_history").fetchone()[0],12.0)
                 self.assertEqual(db.execute("SELECT price FROM key_price_history").fetchone()[0],8.5)
 
+    def test_release_date_and_schema_migration(self):
+        with tempfile.TemporaryDirectory() as folder:
+            path=Path(folder)/"radar.db"
+            with sqlite3.connect(path) as db:
+                db.execute("""CREATE TABLE game_info (
+                    appid INTEGER PRIMARY KEY, name TEXT NOT NULL, name_en TEXT,
+                    genres_json TEXT NOT NULL DEFAULT '[]', review_pct REAL,
+                    review_count INTEGER, recommend_score REAL, updated_at TEXT NOT NULL)""")
+            game={"appid":123,"name":"Example","release_date":"2026年10月26日","coming_soon":False}
+            save(path,[game],[],{"owned":[]},{},{})
+            with sqlite3.connect(path) as db:
+                row=db.execute("SELECT release_date,coming_soon FROM game_info WHERE appid=123").fetchone()
+                self.assertEqual(row,("2026年10月26日",0))
+
     def test_daily_rows_accumulate(self):
         with tempfile.TemporaryDirectory() as folder:
             path=Path(folder)/"radar.db"
