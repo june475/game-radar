@@ -12,3 +12,16 @@
 
 仓库 Settings → Pages → Build and deployment → Source 选择 **GitHub Actions**。
 之后运行一次 Daily Game Radar 工作流即可发布。
+
+
+## SQLite 持久化
+
+定时任务运行时会在 GitHub Actions 容器中写入 `data/game_radar.db`（SQLite），并通过 `git add data/` 把数据库提交回仓库。下次运行会从上次的数据库继续累计；它**不是 ChatGPT 服务器上的持久磁盘**，也不会自动同步到你的 Mac。
+
+已有的 `data/games.json` 继续提供 GitHub Pages 网站展示，`data/history.json` 继续保存旧版站内最低价。新库从启用之日起按天积累实际观测，不把历史 JSON 中没有日期的低价伪造成某日价格。
+
+表结构：`game_info`、`steam_price_history`、`key_price_history`、`epic_free_history`、`mobile_platform`、`steam_deck_info`、`game_dlc`、`user_owned_games`。
+
+目前 `steam_price_history` 存储 Steam 国区接口每日候选价格，`key_price_history` 严格区分散 Key 接口参考价与 SteamCiCi 历史挂售；Steam Deck、DLC 仅为未来已核实数据保留结构，不代表现在已自动抓取。
+
+本仓库是公开仓库，因此 SQLite 文件也是公开的，不应向数据库或配置文件写入任何账号、令牌或隐私资料。请定期下载备份数据库。
