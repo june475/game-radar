@@ -4,7 +4,7 @@ import json, re, urllib.request, datetime
 EPIC_HISTORY_URL="https://raw.githubusercontent.com/renshuki/efgtracker/master/data/free_games.json"
 EPIC_HISTORY_SOURCE="https://github.com/renshuki/efgtracker"
 MOBILE={
- "1282730":{"android":"已上线","ios":"已上线","source":"https://view.news.eu.nasdaq.com/view?id=bc3adf83be32f923a5cddbc872fea18cf&lang=en&src=micro","status":"官方移植"},
+ "1282730":{"android":"已上线","ios":"已上线","source":"https://playdigious.com/games/loop-hero/","status":"官方移植"},
  "413150":{"android":"已上线","ios":"已上线","source":"https://www.stardewvalley.net/faq/","status":"官方移植"}
 }
 # Never equate missing data with verified absence.
