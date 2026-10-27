@@ -135,6 +135,8 @@ for x in raw:
     flags=[category]+(["mobile"] if m else [])
     tags=(["站内新低"] if newlow else [])+([f"-{disc}%"] if disc else [])+genres[:3]
     why=("匹配你的偏好："+ " / ".join(dict.fromkeys(reasons[:4]))) if reasons else "新游观察候选"
+    if category=="explore":
+        why="简中好评率高、Steam 国区价格低；推荐你尝试其他游戏类型"
     seen.add(appid)
     games.append({
       "appid":appid,"name":(d.get("name") or name),"name_en":name if name!=(d.get("name") or name) else None,"steam_subids":steam_subids,"release_date":release_date,"coming_soon":coming_soon,"price":price,"original_price":original,"discount":disc,
@@ -143,7 +145,7 @@ for x in raw:
       "review":(f"简中好评 {rv['pct']}% · {rv['total']} 条" if rv["pct"] is not None else "简中评价样本不足"),
       "review_pct":rv["pct"],"review_count":rv["total"],
       "recommend_score":final,"taste_score":taste,"quality_score":quality,"price_score":price_score,
-      "genres":genres,"tags":tags,"flags":flags,"category":category,"why":why,
+      "genres":genres,"tags":tags,"flags":flags,"category":category,"discovery_score":discovery_score({"review_pct":rv["pct"],"review_count":rv["total"],"price":price}) if category=="explore" else None,"why":why,
       "mobile":m,"epic_status":info["epic_status"],"epic_giveaway":info["epic_giveaway"],"epic_source":info["epic_source"],"dlc_status":"未自动核实",
       "key_price":None,"key_source":None,"steam_historical_low":None,"steam_historical_low_source":None,
       "steam_deck":None
@@ -153,7 +155,7 @@ deals=sorted((g for g in games if g["category"]=="deal"),key=lambda g:(-g["recom
 new_games=sorted((g for g in games if g["category"]=="new"),key=lambda g:(-g["recommend_score"],-g["taste_score"],g["price"]))[:30]
 # Dedicated exploration pool, ranked by quality and affordability only.
 explore_games=sorted((g for g in games if g["category"]=="explore"),
-    key=lambda g:(-discovery_score(g),g["price"]))[:20]
+    key=lambda g:(-(g["discovery_score"] or 0),g["price"]))[:20]
 games=deals+new_games+explore_games
 print("selected separately",{"deals":len(deals),"new":len(new_games),"explore":len(explore_games)})
 for g in games:
@@ -166,7 +168,7 @@ cn=datetime.datetime.now(datetime.timezone.utc)+datetime.timedelta(hours=8)
 db_path=DATA/"game_radar.db"
 db_result=save_database(db_path,games,raw,cfg,hist,epic_records,cn)
 print("SQLite saved:",db_result,db_statistics(db_path))
-out={"meta":{"updated_at_cn":cn.strftime("%Y-%m-%d %H:%M"),"version":"V3 extended discovery","note":"推荐分=45%口味匹配+35%简中口碑+20%价格；站内新低不是SteamDB全历史史低。"},"counts":{"deal":len(deals),"new":len(new_games),"explore":len(explore_games)},"games":games}
+out={"meta":{"updated_at_cn":cn.strftime("%Y-%m-%d %H:%M"),"version":"V3 extended discovery","note":"老游/新游推荐分=45%口味+35%质量+20%价格；尝鲜榜只看简中口碑与价格，不使用个人口味。站内新低不是Steam全历史史低。"},"counts":{"deal":len(deals),"new":len(new_games),"explore":len(explore_games)},"games":games}
 (DATA/"games.json").write_text(json.dumps(out,ensure_ascii=False,indent=2),"utf-8")
 hp.write_text(json.dumps(hist,ensure_ascii=False,indent=2),"utf-8")
 print("updated",len(games))
