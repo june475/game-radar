@@ -1,9 +1,9 @@
 name: Collect and Repair Game Radar Data
 on:
   schedule:
-    # First collection after the daily publish; compensation twice later.
+    # Daily discovery at Beijing 14:20; hourly checks at minute 35.
     - cron: "20 6 * * *"
-    - cron: "15 9,13 * * *"
+    - cron: "35 * * * *"
   workflow_dispatch:
     inputs:
       mode:
@@ -33,15 +33,23 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Check current recommendations first
+        id: check
+        env:
+          RADAR_MODE: ${{ github.event_name == 'workflow_dispatch' && inputs.mode || github.event.schedule == '20 6 * * *' && 'daily' || 'compensate' }}
+        run: python scripts/check_recommendations.py "$RADAR_MODE"
       - name: Validate source and tests
+        if: steps.check.outputs.run == 'true'
         run: |
           python -m compileall -q scripts tests
           python -m unittest discover -s tests -v
       - name: Collect incrementally
+        if: steps.check.outputs.run == 'true'
         env:
           RADAR_MODE: ${{ github.event_name == 'workflow_dispatch' && inputs.mode || github.event.schedule == '20 6 * * *' && 'daily' || 'compensate' }}
         run: python scripts/update.py
-      - name: Commit data and retry on concurrent branch changes
+      - name: Commit updated data
+        if: steps.check.outputs.run == 'true'
         run: |
           git config user.name "game-radar-bot"
           git config user.email "game-radar-bot@users.noreply.github.com"
@@ -51,9 +59,12 @@ jobs:
             git push
           fi
       - uses: actions/configure-pages@v5
+        if: steps.check.outputs.run == 'true'
       - uses: actions/upload-pages-artifact@v3
+        if: steps.check.outputs.run == 'true'
         with:
           path: .
       - name: Republish data without waiting for next daily publish
+        if: steps.check.outputs.run == 'true'
         id: deployment
         uses: actions/deploy-pages@v4
