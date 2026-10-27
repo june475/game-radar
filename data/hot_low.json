@@ -1,8 +1,9 @@
 {
   "meta": {
-    "updated_at_cn": "2026-10-27 19:46",
+    "updated_at_cn": "2026-10-27 20:18",
     "rank_source": "Steam 商店热销特惠筛选（热度代理，不是实时销量榜）",
-    "checked": 31
+    "checked": 31,
+    "last_hot_keys_utc": "2026-10-27T12:18:53.924013+00:00"
   },
   "games": [
     {
@@ -12,6 +13,37 @@
       "url": "https://store.steampowered.com/app/1326470/?cc=cn&l=schinese",
       "category": "hot",
       "price": 30.24,
+      "steam_subids": [
+        463209
+      ],
+      "key_offers": [
+        {
+          "platform": "SteamPY",
+          "price": 58.0,
+          "status": "CDKey接口参考价｜库存、地区及版本需打开商品页确认",
+          "url": "https://steampy.com/cdkDetail?name=cn&gameId=641249141506183169",
+          "kind": "reference",
+          "subid": 463209,
+          "checked_at": "2026-10-27T12:18:54.614659+00:00"
+        },
+        {
+          "platform": "SteamCiCi",
+          "price": 100.0,
+          "status": "历史挂售最低参考价｜非实时库存",
+          "last_hanging_time": "2026-08-01T00:16:00.000+08:00",
+          "url": "https://steamcici.com/index",
+          "kind": "historical_listing",
+          "subid": "463209",
+          "checked_at": "2026-10-27T12:18:55.260071+00:00"
+        }
+      ],
+      "enrichment_status": {
+        "keys": {
+          "status": "success",
+          "checked_at": "2026-10-27T12:18:53.924013+00:00",
+          "next_retry_at": "2026-10-30T12:18:53.924013+00:00"
+        }
+      },
       "original_price": 108.0,
       "discount": 72,
       "release_date": "2024 年 2 月 22 日",
@@ -27,8 +59,9 @@
       "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
       "popularity_rank": 1,
       "review": "Steam 评价未在本榜单单独核实",
-      "key_offers": [],
-      "negative_review_analysis": null
+      "negative_review_analysis": null,
+      "key_reference_min": 58.0,
+      "key_status": "接口参考价，需核实库存、版本和地区"
     },
     {
       "appid": 381210,
@@ -37,6 +70,19 @@
       "url": "https://store.steampowered.com/app/381210/?cc=cn&l=schinese",
       "category": "hot",
       "price": 37.5,
+      "steam_subids": [
+        71374,
+        198307,
+        1100714
+      ],
+      "key_offers": [],
+      "enrichment_status": {
+        "keys": {
+          "status": "no_quote",
+          "checked_at": "2026-10-27T12:18:53.924013+00:00",
+          "next_retry_at": "2026-10-28T12:18:53.924013+00:00"
+        }
+      },
       "original_price": 93.75,
       "discount": 60,
       "release_date": "2016 年 6 月 14 日",
@@ -49,8 +95,9 @@
       "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
       "popularity_rank": 2,
       "review": "Steam 评价未在本榜单单独核实",
-      "key_offers": [],
-      "negative_review_analysis": null
+      "negative_review_analysis": null,
+      "key_reference_min": null,
+      "key_status": "暂未获得可靠报价"
     },
     {
       "appid": 4356430,
@@ -59,6 +106,28 @@
       "url": "https://store.steampowered.com/app/4356430/?cc=cn&l=schinese",
       "category": "hot",
       "price": 207.0,
+      "steam_subids": [
+        1687538,
+        1687530
+      ],
+      "key_offers": [
+        {
+          "platform": "SteamPY",
+          "price": 222.22,
+          "status": "CDKey接口参考价｜库存、地区及版本需打开商品页确认",
+          "url": "https://steampy.com/cdkDetail?name=cn&gameId=9001099799034634715136",
+          "kind": "reference",
+          "subid": 1687538,
+          "checked_at": "2026-10-27T12:18:56.847395+00:00"
+        }
+      ],
+      "enrichment_status": {
+        "keys": {
+          "status": "success",
+          "checked_at": "2026-10-27T12:18:53.924013+00:00",
+          "next_retry_at": "2026-10-30T12:18:53.924013+00:00"
+        }
+      },
       "original_price": 460.0,
       "discount": 55,
       "release_date": "2026 年 9 月 3 日",
@@ -71,8 +140,9 @@
       "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
       "popularity_rank": 3,
       "review": "Steam 评价未在本榜单单独核实",
-      "key_offers": [],
-      "negative_review_analysis": null
+      "negative_review_analysis": null,
+      "key_reference_min": 222.22,
+      "key_status": "接口参考价，需核实库存、版本和地区"
     },
     {
       "appid": 322330,
@@ -81,6 +151,29 @@
       "url": "https://store.steampowered.com/app/322330/?cc=cn&l=schinese",
       "category": "hot",
       "price": 12.0,
+      "steam_subids": [
+        121418,
+        68179,
+        198306
+      ],
+      "key_offers": [
+        {
+          "platform": "SteamPY",
+          "price": 9.0,
+          "status": "CDKey接口参考价｜库存、地区及版本需打开商品页确认",
+          "url": "https://steampy.com/cdkDetail?name=cn&gameId=496138616574035",
+          "kind": "reference",
+          "subid": 121418,
+          "checked_at": "2026-10-27T12:18:57.884401+00:00"
+        }
+      ],
+      "enrichment_status": {
+        "keys": {
+          "status": "success",
+          "checked_at": "2026-10-27T12:18:53.924013+00:00",
+          "next_retry_at": "2026-10-30T12:18:53.924013+00:00"
+        }
+      },
       "original_price": 24.0,
       "discount": 50,
       "release_date": "2016 年 4 月 21 日",
@@ -98,32 +191,9 @@
       "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
       "popularity_rank": 4,
       "review": "Steam 评价未在本榜单单独核实",
-      "key_offers": [],
-      "negative_review_analysis": null
-    },
-    {
-      "appid": 3240220,
-      "name": "Grand Theft Auto V 增强版",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header_schinese.jpg?t=1781187782",
-      "url": "https://store.steampowered.com/app/3240220/?cc=cn&l=schinese",
-      "category": "hot",
-      "price": 74.5,
-      "original_price": 149.0,
-      "discount": 50,
-      "release_date": "2025 年 3 月 4 日",
-      "genres": [
-        "动作",
-        "冒险",
-        "竞速"
-      ],
-      "tags": [
-        "Steam 热门特惠"
-      ],
-      "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
-      "popularity_rank": 5,
-      "review": "Steam 评价未在本榜单单独核实",
-      "key_offers": [],
-      "negative_review_analysis": null
+      "negative_review_analysis": null,
+      "key_reference_min": 9.0,
+      "key_status": "接口参考价，需核实库存、版本和地区"
     },
     {
       "appid": 5335510,
@@ -132,6 +202,27 @@
       "url": "https://store.steampowered.com/app/5335510/?cc=cn&l=schinese",
       "category": "hot",
       "price": 30.6,
+      "steam_subids": [
+        1843666
+      ],
+      "key_offers": [
+        {
+          "platform": "SteamPY",
+          "price": 28.88,
+          "status": "CDKey接口参考价｜库存、地区及版本需打开商品页确认",
+          "url": "https://steampy.com/cdkDetail?name=cn&gameId=9001126113004783046656",
+          "kind": "reference",
+          "subid": 1843666,
+          "checked_at": "2026-10-27T12:18:58.972907+00:00"
+        }
+      ],
+      "enrichment_status": {
+        "keys": {
+          "status": "success",
+          "checked_at": "2026-10-27T12:18:53.924013+00:00",
+          "next_retry_at": "2026-10-30T12:18:53.924013+00:00"
+        }
+      },
       "original_price": 36.0,
       "discount": 15,
       "release_date": "2026 年 10 月 23 日",
@@ -147,9 +238,40 @@
         "Steam 热门特惠"
       ],
       "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
+      "popularity_rank": 5,
+      "review": "Steam 评价未在本榜单单独核实",
+      "negative_review_analysis": null,
+      "key_reference_min": 28.88,
+      "key_status": "接口参考价，需核实库存、版本和地区"
+    },
+    {
+      "appid": 3240220,
+      "name": "Grand Theft Auto V 增强版",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header_schinese.jpg?t=1781187782",
+      "url": "https://store.steampowered.com/app/3240220/?cc=cn&l=schinese",
+      "category": "hot",
+      "price": 74.5,
+      "steam_subids": [
+        1148516,
+        1251933,
+        1229928
+      ],
+      "key_offers": [],
+      "enrichment_status": {},
+      "original_price": 149.0,
+      "discount": 50,
+      "release_date": "2025 年 3 月 4 日",
+      "genres": [
+        "动作",
+        "冒险",
+        "竞速"
+      ],
+      "tags": [
+        "Steam 热门特惠"
+      ],
+      "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
       "popularity_rank": 6,
       "review": "Steam 评价未在本榜单单独核实",
-      "key_offers": [],
       "negative_review_analysis": null
     },
     {
@@ -159,6 +281,12 @@
       "url": "https://store.steampowered.com/app/1304930/?cc=cn&l=schinese",
       "category": "hot",
       "price": 40.8,
+      "steam_subids": [
+        984895,
+        1003243
+      ],
+      "key_offers": [],
+      "enrichment_status": {},
       "original_price": 136.0,
       "discount": 70,
       "release_date": "2024 年 3 月 5 日",
@@ -173,7 +301,6 @@
       "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
       "popularity_rank": 7,
       "review": "Steam 评价未在本榜单单独核实",
-      "key_offers": [],
       "negative_review_analysis": null
     },
     {
@@ -183,6 +310,12 @@
       "url": "https://store.steampowered.com/app/238320/?cc=cn&l=schinese",
       "category": "hot",
       "price": 5.8,
+      "steam_subids": [
+        51354,
+        376553
+      ],
+      "key_offers": [],
+      "enrichment_status": {},
       "original_price": 58.0,
       "discount": 90,
       "release_date": "2013 年 9 月 4 日",
@@ -197,7 +330,6 @@
       "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
       "popularity_rank": 8,
       "review": "Steam 评价未在本榜单单独核实",
-      "key_offers": [],
       "negative_review_analysis": null
     },
     {
@@ -207,6 +339,11 @@
       "url": "https://store.steampowered.com/app/2399830/?cc=cn&l=schinese",
       "category": "hot",
       "price": 62.0,
+      "steam_subids": [
+        863377
+      ],
+      "key_offers": [],
+      "enrichment_status": {},
       "original_price": 248.0,
       "discount": 75,
       "release_date": "2023 年 10 月 25 日",
@@ -224,7 +361,6 @@
       "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
       "popularity_rank": 9,
       "review": "Steam 评价未在本榜单单独核实",
-      "key_offers": [],
       "negative_review_analysis": null
     },
     {
@@ -234,6 +370,13 @@
       "url": "https://store.steampowered.com/app/2050650/?cc=cn&l=schinese",
       "category": "hot",
       "price": 49.5,
+      "steam_subids": [
+        794618,
+        994065,
+        1142889
+      ],
+      "key_offers": [],
+      "enrichment_status": {},
       "original_price": 198.0,
       "discount": 75,
       "release_date": "2023 年 3 月 23 日",
@@ -247,7 +390,6 @@
       "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
       "popularity_rank": 10,
       "review": "Steam 评价未在本榜单单独核实",
-      "key_offers": [],
       "negative_review_analysis": null
     },
     {
@@ -257,6 +399,11 @@
       "url": "https://store.steampowered.com/app/750920/?cc=cn&l=schinese",
       "category": "hot",
       "price": 19.6,
+      "steam_subids": [
+        1484926
+      ],
+      "key_offers": [],
+      "enrichment_status": {},
       "original_price": 196.0,
       "discount": 90,
       "release_date": "2018 年 9 月 14 日",
@@ -270,7 +417,6 @@
       "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
       "popularity_rank": 11,
       "review": "Steam 评价未在本榜单单独核实",
-      "key_offers": [],
       "negative_review_analysis": null
     },
     {
@@ -280,6 +426,12 @@
       "url": "https://store.steampowered.com/app/414700/?cc=cn&l=schinese",
       "category": "hot",
       "price": 7.6,
+      "steam_subids": [
+        83311,
+        376558
+      ],
+      "key_offers": [],
+      "enrichment_status": {},
       "original_price": 76.0,
       "discount": 90,
       "release_date": "2017 年 4 月 24 日",
@@ -294,7 +446,6 @@
       "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
       "popularity_rank": 12,
       "review": "Steam 评价未在本榜单单独核实",
-      "key_offers": [],
       "negative_review_analysis": null
     },
     {
@@ -304,6 +455,12 @@
       "url": "https://store.steampowered.com/app/391220/?cc=cn&l=schinese",
       "category": "hot",
       "price": 14.7,
+      "steam_subids": [
+        90033,
+        157827
+      ],
+      "key_offers": [],
+      "enrichment_status": {},
       "original_price": 147.0,
       "discount": 90,
       "release_date": "2016 年 2 月 9 日",
@@ -317,7 +474,6 @@
       "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
       "popularity_rank": 13,
       "review": "Steam 评价未在本榜单单独核实",
-      "key_offers": [],
       "negative_review_analysis": null
     },
     {
@@ -327,6 +483,12 @@
       "url": "https://store.steampowered.com/app/294100/?cc=cn&l=schinese",
       "category": "hot",
       "price": 102.4,
+      "steam_subids": [
+        41602,
+        361969
+      ],
+      "key_offers": [],
+      "enrichment_status": {},
       "original_price": 128.0,
       "discount": 20,
       "release_date": "2018 年 10 月 17 日",
@@ -341,7 +503,6 @@
       "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
       "popularity_rank": 14,
       "review": "Steam 评价未在本榜单单独核实",
-      "key_offers": [],
       "negative_review_analysis": null
     },
     {
@@ -351,6 +512,11 @@
       "url": "https://store.steampowered.com/app/3892270/?cc=cn&l=schinese",
       "category": "hot",
       "price": 20.46,
+      "steam_subids": [
+        1368172
+      ],
+      "key_offers": [],
+      "enrichment_status": {},
       "original_price": 33.0,
       "discount": 38,
       "release_date": "2026 年 5 月 1 日",
@@ -365,7 +531,6 @@
       "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
       "popularity_rank": 15,
       "review": "Steam 评价未在本榜单单独核实",
-      "key_offers": [],
       "negative_review_analysis": null
     },
     {
@@ -375,6 +540,12 @@
       "url": "https://store.steampowered.com/app/3764200/?cc=cn&l=schinese",
       "category": "hot",
       "price": 243.6,
+      "steam_subids": [
+        1324561,
+        1424518
+      ],
+      "key_offers": [],
+      "enrichment_status": {},
       "original_price": 348.0,
       "discount": 30,
       "release_date": "2026 年 2 月 26 日",
@@ -388,7 +559,6 @@
       "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
       "popularity_rank": 16,
       "review": "Steam 评价未在本榜单单独核实",
-      "key_offers": [],
       "negative_review_analysis": null
     },
     {
@@ -398,6 +568,13 @@
       "url": "https://store.steampowered.com/app/264710/?cc=cn&l=schinese",
       "category": "hot",
       "price": 37.25,
+      "steam_subids": [
+        575971,
+        643493,
+        594136
+      ],
+      "key_offers": [],
+      "enrichment_status": {},
       "original_price": 149.0,
       "discount": 75,
       "release_date": "2018 年 1 月 23 日",
@@ -411,7 +588,6 @@
       "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
       "popularity_rank": 17,
       "review": "Steam 评价未在本榜单单独核实",
-      "key_offers": [],
       "negative_review_analysis": null
     },
     {
@@ -421,6 +597,11 @@
       "url": "https://store.steampowered.com/app/3024130/?cc=cn&l=schinese",
       "category": "hot",
       "price": 28.8,
+      "steam_subids": [
+        1075364
+      ],
+      "key_offers": [],
+      "enrichment_status": {},
       "original_price": 48.0,
       "discount": 40,
       "release_date": "2026 年 10 月 26 日",
@@ -436,7 +617,6 @@
       "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
       "popularity_rank": 18,
       "review": "Steam 评价未在本榜单单独核实",
-      "key_offers": [],
       "negative_review_analysis": null
     },
     {
@@ -446,6 +626,12 @@
       "url": "https://store.steampowered.com/app/239140/?cc=cn&l=schinese",
       "category": "hot",
       "price": 9.8,
+      "steam_subids": [
+        1345940,
+        1265945
+      ],
+      "key_offers": [],
+      "enrichment_status": {},
       "original_price": 98.0,
       "discount": 90,
       "release_date": "2015 年 1 月 26 日",
@@ -460,7 +646,6 @@
       "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
       "popularity_rank": 19,
       "review": "Steam 评价未在本榜单单独核实",
-      "key_offers": [],
       "negative_review_analysis": null
     },
     {
@@ -470,6 +655,11 @@
       "url": "https://store.steampowered.com/app/1943950/?cc=cn&l=schinese",
       "category": "hot",
       "price": 29.6,
+      "steam_subids": [
+        700469
+      ],
+      "key_offers": [],
+      "enrichment_status": {},
       "original_price": 37.0,
       "discount": 20,
       "release_date": "2025 年 10 月 23 日",
@@ -483,7 +673,6 @@
       "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
       "popularity_rank": 20,
       "review": "Steam 评价未在本榜单单独核实",
-      "key_offers": [],
       "negative_review_analysis": null
     },
     {
@@ -493,6 +682,11 @@
       "url": "https://store.steampowered.com/app/3241660/?cc=cn&l=schinese",
       "category": "hot",
       "price": 22.75,
+      "steam_subids": [
+        1148979
+      ],
+      "key_offers": [],
+      "enrichment_status": {},
       "original_price": 35.0,
       "discount": 35,
       "release_date": "2025 年 2 月 26 日",
@@ -506,7 +700,6 @@
       "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
       "popularity_rank": 21,
       "review": "Steam 评价未在本榜单单独核实",
-      "key_offers": [],
       "negative_review_analysis": null
     },
     {
@@ -516,6 +709,11 @@
       "url": "https://store.steampowered.com/app/568220/?cc=cn&l=schinese",
       "category": "hot",
       "price": 27.2,
+      "steam_subids": [
+        143748
+      ],
+      "key_offers": [],
+      "enrichment_status": {},
       "original_price": 80.0,
       "discount": 66,
       "release_date": "2018 年 4 月 9 日",
@@ -529,7 +727,6 @@
       "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
       "popularity_rank": 22,
       "review": "Steam 评价未在本榜单单独核实",
-      "key_offers": [],
       "negative_review_analysis": null
     },
     {
@@ -539,6 +736,14 @@
       "url": "https://store.steampowered.com/app/594650/?cc=cn&l=schinese",
       "category": "hot",
       "price": 51.2,
+      "steam_subids": [
+        372299,
+        155279,
+        306512,
+        1340886
+      ],
+      "key_offers": [],
+      "enrichment_status": {},
       "original_price": 128.0,
       "discount": 60,
       "release_date": "2019 年 8 月 27 日",
@@ -551,7 +756,6 @@
       "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
       "popularity_rank": 23,
       "review": "Steam 评价未在本榜单单独核实",
-      "key_offers": [],
       "negative_review_analysis": null
     },
     {
@@ -561,6 +765,12 @@
       "url": "https://store.steampowered.com/app/346110/?cc=cn&l=schinese",
       "category": "hot",
       "price": 38.28,
+      "steam_subids": [
+        59321,
+        198317
+      ],
+      "key_offers": [],
+      "enrichment_status": {},
       "original_price": 58.0,
       "discount": 34,
       "release_date": "2017 年 8 月 27 日",
@@ -577,7 +787,6 @@
       "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
       "popularity_rank": 24,
       "review": "Steam 评价未在本榜单单独核实",
-      "key_offers": [],
       "negative_review_analysis": null
     },
     {
@@ -587,6 +796,12 @@
       "url": "https://store.steampowered.com/app/203160/?cc=cn&l=schinese",
       "category": "hot",
       "price": 9.8,
+      "steam_subids": [
+        26016,
+        26160
+      ],
+      "key_offers": [],
+      "enrichment_status": {},
       "original_price": 98.0,
       "discount": 90,
       "release_date": "2013 年 3 月 4 日",
@@ -600,7 +815,6 @@
       "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
       "popularity_rank": 25,
       "review": "Steam 评价未在本榜单单独核实",
-      "key_offers": [],
       "negative_review_analysis": null
     },
     {
@@ -610,6 +824,11 @@
       "url": "https://store.steampowered.com/app/4108000/?cc=cn&l=schinese",
       "category": "hot",
       "price": 24.75,
+      "steam_subids": [
+        1439483
+      ],
+      "key_offers": [],
+      "enrichment_status": {},
       "original_price": 33.0,
       "discount": 25,
       "release_date": "2026 年 7 月 30 日",
@@ -621,9 +840,8 @@
         "Steam 热门特惠"
       ],
       "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
-      "popularity_rank": 27,
+      "popularity_rank": 26,
       "review": "Steam 评价未在本榜单单独核实",
-      "key_offers": [],
       "negative_review_analysis": null
     },
     {
@@ -633,6 +851,12 @@
       "url": "https://store.steampowered.com/app/242760/?cc=cn&l=schinese",
       "category": "hot",
       "price": 14.0,
+      "steam_subids": [
+        28497,
+        297407
+      ],
+      "key_offers": [],
+      "enrichment_status": {},
       "original_price": 70.0,
       "discount": 80,
       "release_date": "2018 年 4 月 30 日",
@@ -646,58 +870,8 @@
         "Steam 热门特惠"
       ],
       "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
-      "popularity_rank": 28,
+      "popularity_rank": 27,
       "review": "Steam 评价未在本榜单单独核实",
-      "key_offers": [],
-      "negative_review_analysis": null
-    },
-    {
-      "appid": 1737870,
-      "name": "蕾卡的移动工坊",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1737870/5a6849e2cf94d1ffcc489a2ae17a4d7b841ca3d8/header_alt_assets_5_schinese.jpg?t=1793081203",
-      "url": "https://store.steampowered.com/app/1737870/?cc=cn&l=schinese",
-      "category": "hot",
-      "price": 49.4,
-      "original_price": 76.0,
-      "discount": 35,
-      "release_date": "2026 年 10 月 26 日",
-      "genres": [
-        "冒险",
-        "休闲",
-        "独立",
-        "角色扮演"
-      ],
-      "tags": [
-        "Steam 热门特惠"
-      ],
-      "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
-      "popularity_rank": 29,
-      "review": "Steam 评价未在本榜单单独核实",
-      "key_offers": [],
-      "negative_review_analysis": null
-    },
-    {
-      "appid": 588650,
-      "name": "Dead Cells",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/588650/header.jpg?t=1779086887",
-      "url": "https://store.steampowered.com/app/588650/?cc=cn&l=schinese",
-      "category": "hot",
-      "price": 40.0,
-      "original_price": 80.0,
-      "discount": 50,
-      "release_date": "2018 年 8 月 6 日",
-      "genres": [
-        "动作",
-        "冒险",
-        "独立"
-      ],
-      "tags": [
-        "Steam 热门特惠"
-      ],
-      "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
-      "popularity_rank": 30,
-      "review": "Steam 评价未在本榜单单独核实",
-      "key_offers": [],
       "negative_review_analysis": null
     },
     {
@@ -707,6 +881,11 @@
       "url": "https://store.steampowered.com/app/251570/?cc=cn&l=schinese",
       "category": "hot",
       "price": 83.6,
+      "steam_subids": [
+        30741
+      ],
+      "key_offers": [],
+      "enrichment_status": {},
       "original_price": 152.0,
       "discount": 45,
       "release_date": "2024 年 7 月 25 日",
@@ -722,9 +901,65 @@
         "Steam 热门特惠"
       ],
       "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
+      "popularity_rank": 29,
+      "review": "Steam 评价未在本榜单单独核实",
+      "negative_review_analysis": null
+    },
+    {
+      "appid": 1737870,
+      "name": "蕾卡的移动工坊",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1737870/5a6849e2cf94d1ffcc489a2ae17a4d7b841ca3d8/header_alt_assets_5_schinese.jpg?t=1793081203",
+      "url": "https://store.steampowered.com/app/1737870/?cc=cn&l=schinese",
+      "category": "hot",
+      "price": 49.4,
+      "steam_subids": [
+        622608
+      ],
+      "key_offers": [],
+      "enrichment_status": {},
+      "original_price": 76.0,
+      "discount": 35,
+      "release_date": "2026 年 10 月 26 日",
+      "genres": [
+        "冒险",
+        "休闲",
+        "独立",
+        "角色扮演"
+      ],
+      "tags": [
+        "Steam 热门特惠"
+      ],
+      "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
+      "popularity_rank": 30,
+      "review": "Steam 评价未在本榜单单独核实",
+      "negative_review_analysis": null
+    },
+    {
+      "appid": 588650,
+      "name": "Dead Cells",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/588650/header.jpg?t=1779086887",
+      "url": "https://store.steampowered.com/app/588650/?cc=cn&l=schinese",
+      "category": "hot",
+      "price": 40.0,
+      "steam_subids": [
+        152266
+      ],
+      "key_offers": [],
+      "enrichment_status": {},
+      "original_price": 80.0,
+      "discount": 50,
+      "release_date": "2018 年 8 月 6 日",
+      "genres": [
+        "动作",
+        "冒险",
+        "独立"
+      ],
+      "tags": [
+        "Steam 热门特惠"
+      ],
+      "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
       "popularity_rank": 31,
       "review": "Steam 评价未在本榜单单独核实",
-      "key_offers": [],
       "negative_review_analysis": null
     }
   ]
