@@ -329,13 +329,17 @@ print("selected separately",{"deals":len(deals),"new":len(new_games),"explore":l
 for g in games:
     try:
         if time.monotonic()-START>FETCH_BUDGET_SECONDS:
-            g["key_offers"]=[]
+            # Do not erase references enriched by earlier scheduled jobs.
+            g["key_offers"]=clean_offers(g.get("key_offers"),g.get("price"))
+            g["key_reference_min"]=min((o["price"] for o in g["key_offers"]),default=None)
             g["tracked_low"]=hist.get(str(g["appid"]),{}).get("low")
             continue
         enrich(g,hist)
     except Exception as exc:
         print("Market enrichment error",g["appid"],str(exc)[:140])
-        g["key_offers"]=[];g["tracked_low"]=hist.get(str(g["appid"]),{}).get("low")
+        g["key_offers"]=clean_offers(g.get("key_offers"),g.get("price"))
+        g["key_reference_min"]=min((o["price"] for o in g["key_offers"]),default=None)
+        g["tracked_low"]=hist.get(str(g["appid"]),{}).get("low")
 # Persist incomplete items for later compensation runs.
 remaining=drop_processed(PENDING_PATH,PROCESSED)
 print("Compensation state",{"mode":MODE,"processed":len(PROCESSED),"remaining":remaining})
