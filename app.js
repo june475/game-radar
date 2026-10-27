@@ -36,6 +36,35 @@ elem.innerHTML=items.length?items.map(card).join(""):`<div class="note">本期�
 document.querySelector("#"+category+"-count").textContent="（"+items.length+"/"+(category==="explore"?20:30)+"）";
 }
 }
+
+let lastWallpaperDay="";
+function wallpaperDay(){
+  return new Intl.DateTimeFormat("en-CA",{
+    timeZone:"Asia/Shanghai",year:"numeric",month:"2-digit",day:"2-digit"
+  }).format(new Date());
+}
+function setDailyWallpaper(){
+  const day=wallpaperDay();
+  if(day===lastWallpaperDay)return;
+  const candidates=(DATA.games||[]).filter(g=>{
+    if(!g.image||!g.appid)return false;
+    try{
+      const u=new URL(g.image);
+      return u.protocol==="https:" && (u.hostname==="shared.akamai.steamstatic.com" ||
+             u.hostname.endsWith(".steamstatic.com") || u.hostname.endsWith(".steamusercontent.com"));
+    }catch{return false;}
+  }).sort((a,b)=>a.appid-b.appid);
+  if(!candidates.length)return;
+  const epoch=Math.floor(Date.parse(day+"T00:00:00+08:00")/86400000);
+  const featured=candidates[((epoch%candidates.length)+candidates.length)%candidates.length];
+  // CSS custom property preserves all page layout. No extra Steam API requests.
+  document.documentElement.style.setProperty("--daily-wallpaper",
+     'url("'+featured.image.replace(/["\\]/g,"")+'")');
+  const label=document.querySelector("#wallpaper-label");
+  if(label)label.textContent="今日背景："+(featured.name||"Steam 游戏")+" · 每日北京时间 00:00 切换";
+  lastWallpaperDay=day;
+}
+
 function boot(d){
 DATA={games:d.games||[],meta:d.meta||{}};
 document.querySelector("#updated").textContent="更新："+(DATA.meta.updated_at_cn||"—");
@@ -46,6 +75,7 @@ document.querySelector("#stats").innerHTML=[
 ["尝鲜发现",gs.filter(x=>x.category==="explore").length]
 ].map(x=>`<div class="stat"><b>${x[1]}</b><span>${x[0]}</span></div>`).join("");
 render();
+  setDailyWallpaper();
 }
 document.querySelectorAll("[data-filter]").forEach(b=>b.onclick=()=>{
 document.querySelectorAll("[data-filter]").forEach(x=>x.classList.remove("active"));
@@ -53,3 +83,6 @@ b.classList.add("active");filter=b.dataset.filter;render();
 });
 document.querySelector("#search").oninput=render;
 fetch("data/games.json?"+Date.now()).then(r=>{if(!r.ok)throw Error("data fetch failed");return r.json()}).then(boot).catch(()=>boot({meta:{updated_at_cn:"暂无数据"},games:[]}));
+
+// Already-open tabs also rotate after Beijing midnight.
+setInterval(setDailyWallpaper,60000);
