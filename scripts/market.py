@@ -125,11 +125,15 @@ def steamraw(appid):
 
 def enrich(game, history):
     appid=game["appid"];offers=[]
+    retained=clean_offers(game.get("key_offers"),game.get("price"))
     subids=game.get("steam_subids") or []
     for fn in (steampy,steamcici):
         item=fn(appid,subids)
         if item:offers.append(item)
     offers=clean_offers(offers,game.get("price"))
+    by_platform={o["platform"]:o for o in retained}
+    by_platform.update({o["platform"]:o for o in offers})
+    offers=list(by_platform.values())
     game["key_offers"]=offers
     # key_price deliberately empty: no source confirms currently available stock
     game["key_price"]=None;game["key_source"]=None
