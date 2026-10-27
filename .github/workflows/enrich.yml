@@ -12,11 +12,11 @@ on:
   workflow_dispatch:
     inputs:
       task:
-        description: "Field to enrich"
+        description: "Choose all fields or one field"
         type: choice
         required: true
-        options: [keys, reviews, deck, history, epic, mobile, dlc]
-        default: keys
+        options: [all, keys, reviews, deck, history, epic, mobile, dlc]
+        default: all
 permissions:
   contents: write
   pages: write
@@ -27,7 +27,7 @@ concurrency:
 jobs:
   enrich-and-publish:
     runs-on: ubuntu-latest
-    timeout-minutes: 12
+    timeout-minutes: 20
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -61,8 +61,20 @@ jobs:
             esac
           fi
           echo "task=$task" >> "$GITHUB_OUTPUT"
-      - name: Enrich small batch
-        run: python scripts/enrich_missing.py --task "${{ steps.choose.outputs.task }}" --limit 5
+      - name: Enrich selected field or all fields sequentially
+        env:
+          SELECTED_TASK: ${{ steps.choose.outputs.task }}
+        run: |
+          if [ "$SELECTED_TASK" = "all" ]; then
+            # 7 small bounded batches, sequentially, never 7 parallel workers.
+            for task in keys reviews deck history epic mobile dlc; do
+              echo "::group::Enrich $task"
+              python scripts/enrich_missing.py --task "$task" --limit 2
+              echo "::endgroup::"
+            done
+          else
+            python scripts/enrich_missing.py --task "$SELECTED_TASK" --limit 5
+          fi
       - name: Commit modified dataset and retry state
         id: changes
         run: |
