@@ -1,9 +1,731 @@
 {
   "meta": {
-    "updated_at_cn": "2026-10-27 19:27",
+    "updated_at_cn": "2026-10-27 19:46",
     "rank_source": "Steam 商店热销特惠筛选（热度代理，不是实时销量榜）",
-    "low_scope": "SteamRaw 覆盖期低点，非 Steam 全历史史低",
-    "checked": 36
+    "checked": 31
   },
-  "games": []
+  "games": [
+    {
+      "appid": 1326470,
+      "name": "Sons Of The Forest",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/header.jpg?t=1708624856",
+      "url": "https://store.steampowered.com/app/1326470/?cc=cn&l=schinese",
+      "category": "hot",
+      "price": 30.24,
+      "original_price": 108.0,
+      "discount": 72,
+      "release_date": "2024 年 2 月 22 日",
+      "genres": [
+        "动作",
+        "冒险",
+        "独立",
+        "模拟"
+      ],
+      "tags": [
+        "Steam 热门特惠"
+      ],
+      "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
+      "popularity_rank": 1,
+      "review": "Steam 评价未在本榜单单独核实",
+      "key_offers": [],
+      "negative_review_analysis": null
+    },
+    {
+      "appid": 381210,
+      "name": "黎明杀机",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/381210/23fed9f741423413769ad1617e41519d1a466cdc/header_alt_assets_10.jpg?t=1791302579",
+      "url": "https://store.steampowered.com/app/381210/?cc=cn&l=schinese",
+      "category": "hot",
+      "price": 37.5,
+      "original_price": 93.75,
+      "discount": 60,
+      "release_date": "2016 年 6 月 14 日",
+      "genres": [
+        "动作"
+      ],
+      "tags": [
+        "Steam 热门特惠"
+      ],
+      "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
+      "popularity_rank": 2,
+      "review": "Steam 评价未在本榜单单独核实",
+      "key_offers": [],
+      "negative_review_analysis": null
+    },
+    {
+      "appid": 4356430,
+      "name": "《NBA 2K27》",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4356430/9152438fde7de9f4c20b4fd9072ba69f844dacab/header.jpg?t=1792163139",
+      "url": "https://store.steampowered.com/app/4356430/?cc=cn&l=schinese",
+      "category": "hot",
+      "price": 207.0,
+      "original_price": 460.0,
+      "discount": 55,
+      "release_date": "2026 年 9 月 3 日",
+      "genres": [
+        "体育"
+      ],
+      "tags": [
+        "Steam 热门特惠"
+      ],
+      "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
+      "popularity_rank": 3,
+      "review": "Steam 评价未在本榜单单独核实",
+      "key_offers": [],
+      "negative_review_analysis": null
+    },
+    {
+      "appid": 322330,
+      "name": "饥荒联机版",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/322330/2fe09bd869fcbc21227dcda9999a3c5ea4cb38fc/header_alt_assets_51_schinese.jpg?t=1793044716",
+      "url": "https://store.steampowered.com/app/322330/?cc=cn&l=schinese",
+      "category": "hot",
+      "price": 12.0,
+      "original_price": 24.0,
+      "discount": 50,
+      "release_date": "2016 年 4 月 21 日",
+      "genres": [
+        "动作",
+        "冒险",
+        "独立",
+        "角色扮演",
+        "模拟",
+        "策略"
+      ],
+      "tags": [
+        "Steam 热门特惠"
+      ],
+      "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
+      "popularity_rank": 4,
+      "review": "Steam 评价未在本榜单单独核实",
+      "key_offers": [],
+      "negative_review_analysis": null
+    },
+    {
+      "appid": 3240220,
+      "name": "Grand Theft Auto V 增强版",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header_schinese.jpg?t=1781187782",
+      "url": "https://store.steampowered.com/app/3240220/?cc=cn&l=schinese",
+      "category": "hot",
+      "price": 74.5,
+      "original_price": 149.0,
+      "discount": 50,
+      "release_date": "2025 年 3 月 4 日",
+      "genres": [
+        "动作",
+        "冒险",
+        "竞速"
+      ],
+      "tags": [
+        "Steam 热门特惠"
+      ],
+      "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
+      "popularity_rank": 5,
+      "review": "Steam 评价未在本榜单单独核实",
+      "key_offers": [],
+      "negative_review_analysis": null
+    },
+    {
+      "appid": 5335510,
+      "name": "Moon Sweepers",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5335510/41e1e802dfc069cc245b91043e451a2f9ffa80e3/header.jpg?t=1792950881",
+      "url": "https://store.steampowered.com/app/5335510/?cc=cn&l=schinese",
+      "category": "hot",
+      "price": 30.6,
+      "original_price": 36.0,
+      "discount": 15,
+      "release_date": "2026 年 10 月 23 日",
+      "genres": [
+        "动作",
+        "冒险",
+        "休闲",
+        "独立",
+        "模拟",
+        "策略"
+      ],
+      "tags": [
+        "Steam 热门特惠"
+      ],
+      "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
+      "popularity_rank": 6,
+      "review": "Steam 评价未在本榜单单独核实",
+      "key_offers": [],
+      "negative_review_analysis": null
+    },
+    {
+      "appid": 1304930,
+      "name": "The Outlast Trials",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304930/e3b17cf268afa51334b63124a2fe0aef3f1d136b/header_alt_assets_4.jpg?t=1792554994",
+      "url": "https://store.steampowered.com/app/1304930/?cc=cn&l=schinese",
+      "category": "hot",
+      "price": 40.8,
+      "original_price": 136.0,
+      "discount": 70,
+      "release_date": "2024 年 3 月 5 日",
+      "genres": [
+        "动作",
+        "冒险",
+        "独立"
+      ],
+      "tags": [
+        "Steam 热门特惠"
+      ],
+      "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
+      "popularity_rank": 7,
+      "review": "Steam 评价未在本榜单单独核实",
+      "key_offers": [],
+      "negative_review_analysis": null
+    },
+    {
+      "appid": 238320,
+      "name": "Outlast",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/238320/header.jpg?t=1666817106",
+      "url": "https://store.steampowered.com/app/238320/?cc=cn&l=schinese",
+      "category": "hot",
+      "price": 5.8,
+      "original_price": 58.0,
+      "discount": 90,
+      "release_date": "2013 年 9 月 4 日",
+      "genres": [
+        "动作",
+        "冒险",
+        "独立"
+      ],
+      "tags": [
+        "Steam 热门特惠"
+      ],
+      "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
+      "popularity_rank": 8,
+      "review": "Steam 评价未在本榜单单独核实",
+      "key_offers": [],
+      "negative_review_analysis": null
+    },
+    {
+      "appid": 2399830,
+      "name": "方舟: 生存飞升",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2399830/d934813ca531af0fce69fe36bc972f1c90d1aa19/header.jpg?t=1779293241",
+      "url": "https://store.steampowered.com/app/2399830/?cc=cn&l=schinese",
+      "category": "hot",
+      "price": 62.0,
+      "original_price": 248.0,
+      "discount": 75,
+      "release_date": "2023 年 10 月 25 日",
+      "genres": [
+        "动作",
+        "冒险",
+        "独立",
+        "大型多人在线",
+        "角色扮演",
+        "抢先体验"
+      ],
+      "tags": [
+        "Steam 热门特惠"
+      ],
+      "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
+      "popularity_rank": 9,
+      "review": "Steam 评价未在本榜单单独核实",
+      "key_offers": [],
+      "negative_review_analysis": null
+    },
+    {
+      "appid": 2050650,
+      "name": "Resident Evil 4",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/header.jpg?t=1772502922",
+      "url": "https://store.steampowered.com/app/2050650/?cc=cn&l=schinese",
+      "category": "hot",
+      "price": 49.5,
+      "original_price": 198.0,
+      "discount": 75,
+      "release_date": "2023 年 3 月 23 日",
+      "genres": [
+        "动作",
+        "冒险"
+      ],
+      "tags": [
+        "Steam 热门特惠"
+      ],
+      "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
+      "popularity_rank": 10,
+      "review": "Steam 评价未在本榜单单独核实",
+      "key_offers": [],
+      "negative_review_analysis": null
+    },
+    {
+      "appid": 750920,
+      "name": "Shadow of the Tomb Raider: Definitive Edition",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/750920/86f9744a410121ff869cc19f63aa9e3dfcf54b8d/header_alt_assets_0.jpg?t=1792675045",
+      "url": "https://store.steampowered.com/app/750920/?cc=cn&l=schinese",
+      "category": "hot",
+      "price": 19.6,
+      "original_price": 196.0,
+      "discount": 90,
+      "release_date": "2018 年 9 月 14 日",
+      "genres": [
+        "动作",
+        "冒险"
+      ],
+      "tags": [
+        "Steam 热门特惠"
+      ],
+      "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
+      "popularity_rank": 11,
+      "review": "Steam 评价未在本榜单单独核实",
+      "key_offers": [],
+      "negative_review_analysis": null
+    },
+    {
+      "appid": 414700,
+      "name": "Outlast 2",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/414700/header.jpg?t=1618944453",
+      "url": "https://store.steampowered.com/app/414700/?cc=cn&l=schinese",
+      "category": "hot",
+      "price": 7.6,
+      "original_price": 76.0,
+      "discount": 90,
+      "release_date": "2017 年 4 月 24 日",
+      "genres": [
+        "动作",
+        "冒险",
+        "独立"
+      ],
+      "tags": [
+        "Steam 热门特惠"
+      ],
+      "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
+      "popularity_rank": 12,
+      "review": "Steam 评价未在本榜单单独核实",
+      "key_offers": [],
+      "negative_review_analysis": null
+    },
+    {
+      "appid": 391220,
+      "name": "Rise of the Tomb Raider™",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/391220/29279804029df9b7540caef5c086c9f0393e2e2d/header_alt_assets_0.jpg?t=1792675385",
+      "url": "https://store.steampowered.com/app/391220/?cc=cn&l=schinese",
+      "category": "hot",
+      "price": 14.7,
+      "original_price": 147.0,
+      "discount": 90,
+      "release_date": "2016 年 2 月 9 日",
+      "genres": [
+        "动作",
+        "冒险"
+      ],
+      "tags": [
+        "Steam 热门特惠"
+      ],
+      "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
+      "popularity_rank": 13,
+      "review": "Steam 评价未在本榜单单独核实",
+      "key_offers": [],
+      "negative_review_analysis": null
+    },
+    {
+      "appid": 294100,
+      "name": "边缘世界 RimWorld",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/294100/0bd1adfad18e931b14529ce177fbdea0f5072760/header_schinese.jpg?t=1782756789",
+      "url": "https://store.steampowered.com/app/294100/?cc=cn&l=schinese",
+      "category": "hot",
+      "price": 102.4,
+      "original_price": 128.0,
+      "discount": 20,
+      "release_date": "2018 年 10 月 17 日",
+      "genres": [
+        "独立",
+        "模拟",
+        "策略"
+      ],
+      "tags": [
+        "Steam 热门特惠"
+      ],
+      "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
+      "popularity_rank": 14,
+      "review": "Steam 评价未在本榜单单独核实",
+      "key_offers": [],
+      "negative_review_analysis": null
+    },
+    {
+      "appid": 3892270,
+      "name": "朋友，梭哈吧",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/395e6d7972474333a698b26f8aa5597bf38109a1/header.jpg?t=1793026661",
+      "url": "https://store.steampowered.com/app/3892270/?cc=cn&l=schinese",
+      "category": "hot",
+      "price": 20.46,
+      "original_price": 33.0,
+      "discount": 38,
+      "release_date": "2026 年 5 月 1 日",
+      "genres": [
+        "冒险",
+        "独立",
+        "模拟"
+      ],
+      "tags": [
+        "Steam 热门特惠"
+      ],
+      "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
+      "popularity_rank": 15,
+      "review": "Steam 评价未在本榜单单独核实",
+      "key_offers": [],
+      "negative_review_analysis": null
+    },
+    {
+      "appid": 3764200,
+      "name": "Resident Evil Requiem",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/ce5437442768e38eb575f205ab9397d0264017b0/header.jpg?t=1779840172",
+      "url": "https://store.steampowered.com/app/3764200/?cc=cn&l=schinese",
+      "category": "hot",
+      "price": 243.6,
+      "original_price": 348.0,
+      "discount": 30,
+      "release_date": "2026 年 2 月 26 日",
+      "genres": [
+        "动作",
+        "冒险"
+      ],
+      "tags": [
+        "Steam 热门特惠"
+      ],
+      "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
+      "popularity_rank": 16,
+      "review": "Steam 评价未在本榜单单独核实",
+      "key_offers": [],
+      "negative_review_analysis": null
+    },
+    {
+      "appid": 264710,
+      "name": "Subnautica - 深海迷航",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/264710/header_schinese.jpg?t=1777456112",
+      "url": "https://store.steampowered.com/app/264710/?cc=cn&l=schinese",
+      "category": "hot",
+      "price": 37.25,
+      "original_price": 149.0,
+      "discount": 75,
+      "release_date": "2018 年 1 月 23 日",
+      "genres": [
+        "冒险",
+        "独立"
+      ],
+      "tags": [
+        "Steam 热门特惠"
+      ],
+      "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
+      "popularity_rank": 17,
+      "review": "Steam 评价未在本榜单单独核实",
+      "key_offers": [],
+      "negative_review_analysis": null
+    },
+    {
+      "appid": 3024130,
+      "name": "泡泡镇餐厅物语",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3024130/18dfe8260f924d0cbba9f37fe0100578ff653cba/header_schinese.jpg?t=1793067220",
+      "url": "https://store.steampowered.com/app/3024130/?cc=cn&l=schinese",
+      "category": "hot",
+      "price": 28.8,
+      "original_price": 48.0,
+      "discount": 40,
+      "release_date": "2026 年 10 月 26 日",
+      "genres": [
+        "冒险",
+        "独立",
+        "模拟",
+        "抢先体验"
+      ],
+      "tags": [
+        "Steam 热门特惠"
+      ],
+      "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
+      "popularity_rank": 18,
+      "review": "Steam 评价未在本榜单单独核实",
+      "key_offers": [],
+      "negative_review_analysis": null
+    },
+    {
+      "appid": 239140,
+      "name": "Dying Light",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/239140/header_schinese.jpg?t=1782913513",
+      "url": "https://store.steampowered.com/app/239140/?cc=cn&l=schinese",
+      "category": "hot",
+      "price": 9.8,
+      "original_price": 98.0,
+      "discount": 90,
+      "release_date": "2015 年 1 月 26 日",
+      "genres": [
+        "动作",
+        "冒险",
+        "角色扮演"
+      ],
+      "tags": [
+        "Steam 热门特惠"
+      ],
+      "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
+      "popularity_rank": 19,
+      "review": "Steam 评价未在本榜单单独核实",
+      "key_offers": [],
+      "negative_review_analysis": null
+    },
+    {
+      "appid": 1943950,
+      "name": "Escape the Backrooms",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1943950/f3dac53a5d3e68a4bb67786872b4693260049b26/header.jpg?t=1792608971",
+      "url": "https://store.steampowered.com/app/1943950/?cc=cn&l=schinese",
+      "category": "hot",
+      "price": 29.6,
+      "original_price": 37.0,
+      "discount": 20,
+      "release_date": "2025 年 10 月 23 日",
+      "genres": [
+        "动作",
+        "独立"
+      ],
+      "tags": [
+        "Steam 热门特惠"
+      ],
+      "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
+      "popularity_rank": 20,
+      "review": "Steam 评价未在本榜单单独核实",
+      "key_offers": [],
+      "negative_review_analysis": null
+    },
+    {
+      "appid": 3241660,
+      "name": "R.E.P.O.",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/1ea445e044a2d5b09cfa8291350b63ebed6e5741/header.jpg?t=1791817973",
+      "url": "https://store.steampowered.com/app/3241660/?cc=cn&l=schinese",
+      "category": "hot",
+      "price": 22.75,
+      "original_price": 35.0,
+      "discount": 35,
+      "release_date": "2025 年 2 月 26 日",
+      "genres": [
+        "动作",
+        "抢先体验"
+      ],
+      "tags": [
+        "Steam 热门特惠"
+      ],
+      "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
+      "popularity_rank": 21,
+      "review": "Steam 评价未在本榜单单独核实",
+      "key_offers": [],
+      "negative_review_analysis": null
+    },
+    {
+      "appid": 568220,
+      "name": "Lobotomy Corporation | Monster Management Simulation",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/568220/header.jpg?t=1636694188",
+      "url": "https://store.steampowered.com/app/568220/?cc=cn&l=schinese",
+      "category": "hot",
+      "price": 27.2,
+      "original_price": 80.0,
+      "discount": 66,
+      "release_date": "2018 年 4 月 9 日",
+      "genres": [
+        "独立",
+        "模拟"
+      ],
+      "tags": [
+        "Steam 热门特惠"
+      ],
+      "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
+      "popularity_rank": 22,
+      "review": "Steam 评价未在本榜单单独核实",
+      "key_offers": [],
+      "negative_review_analysis": null
+    },
+    {
+      "appid": 594650,
+      "name": "猎杀：对决 1896",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/594650/8cf55bcd74fc14c93f3a9cc7d0a442afabab6f88/header_alt_assets_29.jpg?t=1791385253",
+      "url": "https://store.steampowered.com/app/594650/?cc=cn&l=schinese",
+      "category": "hot",
+      "price": 51.2,
+      "original_price": 128.0,
+      "discount": 60,
+      "release_date": "2019 年 8 月 27 日",
+      "genres": [
+        "动作"
+      ],
+      "tags": [
+        "Steam 热门特惠"
+      ],
+      "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
+      "popularity_rank": 23,
+      "review": "Steam 评价未在本榜单单独核实",
+      "key_offers": [],
+      "negative_review_analysis": null
+    },
+    {
+      "appid": 346110,
+      "name": "ARK: Survival Evolved",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/346110/header.jpg?t=1792799671",
+      "url": "https://store.steampowered.com/app/346110/?cc=cn&l=schinese",
+      "category": "hot",
+      "price": 38.28,
+      "original_price": 58.0,
+      "discount": 34,
+      "release_date": "2017 年 8 月 27 日",
+      "genres": [
+        "动作",
+        "冒险",
+        "独立",
+        "大型多人在线",
+        "角色扮演"
+      ],
+      "tags": [
+        "Steam 热门特惠"
+      ],
+      "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
+      "popularity_rank": 24,
+      "review": "Steam 评价未在本榜单单独核实",
+      "key_offers": [],
+      "negative_review_analysis": null
+    },
+    {
+      "appid": 203160,
+      "name": "Tomb Raider Game of the Year",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/203160/13a6dfaa4655377988aa627f03b2322f8bf18ec9/header_alt_assets_0.jpg?t=1792674634",
+      "url": "https://store.steampowered.com/app/203160/?cc=cn&l=schinese",
+      "category": "hot",
+      "price": 9.8,
+      "original_price": 98.0,
+      "discount": 90,
+      "release_date": "2013 年 3 月 4 日",
+      "genres": [
+        "动作",
+        "冒险"
+      ],
+      "tags": [
+        "Steam 热门特惠"
+      ],
+      "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
+      "popularity_rank": 25,
+      "review": "Steam 评价未在本榜单单独核实",
+      "key_offers": [],
+      "negative_review_analysis": null
+    },
+    {
+      "appid": 4108000,
+      "name": "机械狂欢",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/bf97e80547a68eac1ad2c481c2f64b6e276d5801/header_schinese.jpg?t=1790860377",
+      "url": "https://store.steampowered.com/app/4108000/?cc=cn&l=schinese",
+      "category": "hot",
+      "price": 24.75,
+      "original_price": 33.0,
+      "discount": 25,
+      "release_date": "2026 年 7 月 30 日",
+      "genres": [
+        "动作",
+        "独立"
+      ],
+      "tags": [
+        "Steam 热门特惠"
+      ],
+      "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
+      "popularity_rank": 27,
+      "review": "Steam 评价未在本榜单单独核实",
+      "key_offers": [],
+      "negative_review_analysis": null
+    },
+    {
+      "appid": 242760,
+      "name": "The Forest",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242760/header.jpg?t=1699381053",
+      "url": "https://store.steampowered.com/app/242760/?cc=cn&l=schinese",
+      "category": "hot",
+      "price": 14.0,
+      "original_price": 70.0,
+      "discount": 80,
+      "release_date": "2018 年 4 月 30 日",
+      "genres": [
+        "动作",
+        "冒险",
+        "独立",
+        "模拟"
+      ],
+      "tags": [
+        "Steam 热门特惠"
+      ],
+      "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
+      "popularity_rank": 28,
+      "review": "Steam 评价未在本榜单单独核实",
+      "key_offers": [],
+      "negative_review_analysis": null
+    },
+    {
+      "appid": 1737870,
+      "name": "蕾卡的移动工坊",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1737870/5a6849e2cf94d1ffcc489a2ae17a4d7b841ca3d8/header_alt_assets_5_schinese.jpg?t=1793081203",
+      "url": "https://store.steampowered.com/app/1737870/?cc=cn&l=schinese",
+      "category": "hot",
+      "price": 49.4,
+      "original_price": 76.0,
+      "discount": 35,
+      "release_date": "2026 年 10 月 26 日",
+      "genres": [
+        "冒险",
+        "休闲",
+        "独立",
+        "角色扮演"
+      ],
+      "tags": [
+        "Steam 热门特惠"
+      ],
+      "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
+      "popularity_rank": 29,
+      "review": "Steam 评价未在本榜单单独核实",
+      "key_offers": [],
+      "negative_review_analysis": null
+    },
+    {
+      "appid": 588650,
+      "name": "Dead Cells",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/588650/header.jpg?t=1779086887",
+      "url": "https://store.steampowered.com/app/588650/?cc=cn&l=schinese",
+      "category": "hot",
+      "price": 40.0,
+      "original_price": 80.0,
+      "discount": 50,
+      "release_date": "2018 年 8 月 6 日",
+      "genres": [
+        "动作",
+        "冒险",
+        "独立"
+      ],
+      "tags": [
+        "Steam 热门特惠"
+      ],
+      "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
+      "popularity_rank": 30,
+      "review": "Steam 评价未在本榜单单独核实",
+      "key_offers": [],
+      "negative_review_analysis": null
+    },
+    {
+      "appid": 251570,
+      "name": "7 Days to Die",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/251570/header.jpg?t=1793041682",
+      "url": "https://store.steampowered.com/app/251570/?cc=cn&l=schinese",
+      "category": "hot",
+      "price": 83.6,
+      "original_price": 152.0,
+      "discount": 45,
+      "release_date": "2024 年 7 月 25 日",
+      "genres": [
+        "动作",
+        "冒险",
+        "独立",
+        "角色扮演",
+        "模拟",
+        "策略"
+      ],
+      "tags": [
+        "Steam 热门特惠"
+      ],
+      "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
+      "popularity_rank": 31,
+      "review": "Steam 评价未在本榜单单独核实",
+      "key_offers": [],
+      "negative_review_analysis": null
+    }
+  ]
 }
