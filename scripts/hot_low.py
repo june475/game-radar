@@ -98,7 +98,7 @@ def collect(max_checked=36):
             if (not updated or (now-updated).total_seconds()>7*86400 or not low):
                 low=steamraw(appid)
             cached[str(appid)]={"checked_at":now.isoformat(),"low":low}
-            if not valid_low(price,low):continue
+            verified=valid_low(price,low)
             ranked.append({
                 "appid":appid,"name":d.get("name") or str(appid),
                 "image":d.get("header_image"),"url":f"https://store.steampowered.com/app/{appid}/?cc=cn&l=schinese",
@@ -106,11 +106,12 @@ def collect(max_checked=36):
                 "original_price":round((offer.get("initial") or final)/100,2),
                 "discount":discount,"release_date":(d.get("release_date") or {}).get("date"),
                 "genres":[x.get("description") for x in d.get("genres",[]) if x.get("description")],
-                "tags":["Steam 热门特惠","SteamRaw 覆盖期低价"],
-                "why":"来自 Steam 热销特惠排序；现价达到 SteamRaw 已记录覆盖期低价",
-                "popularity_rank":rank,"price_low_verified":low["price"],
-                "price_low_source":low.get("source"),"price_low_url":low.get("url"),
-                "price_low_scope":"SteamRaw 覆盖期低价（不是全历史史低）",
+                "tags":["Steam 热门特惠"]+(["已核实覆盖期低价"] if verified else ["史低待核实"]),
+                "why":"来自 Steam 热销特惠排序；"+("现价达到 SteamRaw 已记录覆盖期低价" if verified else "当前有折扣，尚未核实是否为史低"),
+                "popularity_rank":rank,"price_low_verified":low["price"] if verified else None,
+                "low_verified":verified,
+                "price_low_source":low.get("source") if verified else None,"price_low_url":low.get("url") if verified else None,
+                "price_low_scope":"SteamRaw 覆盖期低价（不是全历史史低）" if verified else "史低待核实",
                 "review":"Steam 评价未在本榜单单独核实",
                 "key_offers":[],"negative_review_analysis":None,
             })
