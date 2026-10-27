@@ -48,6 +48,19 @@ def parse_key_reference(raw, field_names):
                 if v is not None:vals.append(v)
     return min(vals) if vals else None
 
+def trustworthy_reference(offer, steam_price=None):
+    """Reject placeholder and implausible API prices; not a live-stock guarantee."""
+    if not isinstance(offer,dict):return False
+    p=price(offer.get("price"))
+    if p is None:return False
+    if offer.get("platform")=="SteamPY" and p<=0.10:return False
+    official=price(steam_price)
+    if official is not None and p<max(0.50,official*0.03):return False
+    return True
+
+def clean_offers(offers,steam_price=None):
+    return [o for o in (offers or []) if trustworthy_reference(o,steam_price)]
+
 def steampy(appid, subids):
     """Match Steam purchase package subid, not arbitrary appid-only results."""
     for subid in subids[:3]:
@@ -116,6 +129,7 @@ def enrich(game, history):
     for fn in (steampy,steamcici):
         item=fn(appid,subids)
         if item:offers.append(item)
+    offers=clean_offers(offers,game.get("price"))
     game["key_offers"]=offers
     # key_price deliberately empty: no source confirms currently available stock
     game["key_price"]=None;game["key_source"]=None
