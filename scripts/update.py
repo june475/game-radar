@@ -152,7 +152,11 @@ else:
 # Persist queue before any remote app/review queries.
 save_pending(PENDING_PATH,raw)
 raw=load_pending(PENDING_PATH)
-print("pending queue size",len(raw))
+if MODE=="compensate":
+    # The persistent file retains all categories, but this run must only
+    # spend API requests on categories with zero published recommendations.
+    raw=[item for item in raw if item.get("_flag") in missing_kinds]
+print("pending queue size for this run",len(raw))
 
 seen=set(); games=[]; today=(datetime.datetime.now(datetime.timezone.utc)+datetime.timedelta(hours=8)).date()
 for x in raw:
