@@ -4,7 +4,7 @@
     "version": "V4 review-context discovery",
     "note": "尝鲜榜不设价格或好评率硬门槛；查看近期简中差评关键词，区别争议类型。分析是辅助证据，不代表玩家差评全部属实或无效。",
     "last_enrichment_utc": "2026-10-27T19:14:44.857718+00:00",
-    "last_key_enrichment_utc": "2026-10-27T18:47:18.679571+00:00"
+    "last_key_enrichment_utc": "2026-10-27T19:43:47.803205+00:00"
   },
   "counts": {
     "deal": 30,
@@ -5347,9 +5347,27 @@
         "confidence": "限流或预算不足",
         "note": "未获取新差评"
       },
-      "key_offers": [],
-      "key_reference_min": null,
-      "tracked_low": 3.6
+      "key_offers": [
+        {
+          "platform": "SteamPY",
+          "price": 2.0,
+          "status": "CDKey接口参考价｜库存、地区及版本需打开商品页确认",
+          "url": "https://steampy.com/cdkDetail?name=cn&gameId=9001100289391050952704",
+          "kind": "reference",
+          "subid": 1444969,
+          "checked_at": "2026-10-27T19:43:47.803205+00:00"
+        }
+      ],
+      "key_reference_min": 2.0,
+      "tracked_low": 3.6,
+      "key_status": "参考报价，不代表实时库存",
+      "enrichment_status": {
+        "keys": {
+          "status": "success",
+          "checked_at": "2026-10-27T19:43:47.803205+00:00",
+          "next_retry_at": "2026-10-30T19:43:47.803205+00:00"
+        }
+      }
     }
   ]
 }
