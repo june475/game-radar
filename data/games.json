@@ -19,8 +19,8 @@
       ],
       "release_date": "2025 年 4 月 21 日",
       "coming_soon": false,
-      "price": 51.0,
-      "original_price": 68.0,
+      "price": 51,
+      "original_price": 68,
       "discount": 25,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1839810/e49fa91017099d550d43b862ad0bac0ff66450c9/header_alt_assets_0_schinese.jpg?t=1789096174",
       "url": "https://store.steampowered.com/app/1839810/?cc=cn&l=schinese",
@@ -30,7 +30,7 @@
       "review_scope": "不可用",
       "recommend_score": 6.7,
       "taste_score": 7.6,
-      "quality_score": 0.0,
+      "quality_score": 0,
       "price_score": 5.2,
       "genres": [
         "冒险",
@@ -75,7 +75,7 @@
       ],
       "key_status": "未核实实时在售",
       "key_reference_min": 59.99,
-      "tracked_low": 51.0,
+      "tracked_low": 51,
       "region_history_low": null
     },
     {
@@ -88,7 +88,7 @@
       "release_date": "2015 年 4 月 30 日",
       "coming_soon": false,
       "price": 13.25,
-      "original_price": 53.0,
+      "original_price": 53,
       "discount": 75,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/251130/header.jpg?t=1783615507",
       "url": "https://store.steampowered.com/app/251130/?cc=cn&l=schinese",
@@ -98,7 +98,7 @@
       "review_scope": "不可用",
       "recommend_score": 6.6,
       "taste_score": 6.6,
-      "quality_score": 0.0,
+      "quality_score": 0,
       "price_score": 6.9,
       "genres": [
         "独立",
@@ -154,7 +154,7 @@
       "release_date": "2023 年 8 月 23 日",
       "coming_soon": false,
       "price": 19.14,
-      "original_price": 58.0,
+      "original_price": 58,
       "discount": 67,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1380650/7acfc91f782969411c060e6ac7723bc725f0a141/header_alt_assets_9.jpg?t=1792911042",
       "url": "https://store.steampowered.com/app/1380650/?cc=cn&l=schinese",
@@ -164,7 +164,7 @@
       "review_scope": "不可用",
       "recommend_score": 6.5,
       "taste_score": 6.6,
-      "quality_score": 0.0,
+      "quality_score": 0,
       "price_score": 6.4,
       "genres": [
         "独立",
@@ -197,7 +197,7 @@
       "key_offers": [
         {
           "platform": "SteamPY",
-          "price": 58.0,
+          "price": 58,
           "status": "CDKey接口参考价｜库存、地区及版本需打开商品页确认",
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=434996625748791296",
           "kind": "reference",
@@ -206,7 +206,7 @@
         }
       ],
       "key_status": "未核实实时在售",
-      "key_reference_min": 58.0,
+      "key_reference_min": 58,
       "tracked_low": 19.14,
       "region_history_low": null
     },
@@ -220,7 +220,7 @@
       "release_date": "2025 年 8 月 13 日",
       "coming_soon": false,
       "price": 33.75,
-      "original_price": 45.0,
+      "original_price": 45,
       "discount": 25,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2678640/c3affbc545027548747dc8024eb49146be28d686/header_schinese.jpg?t=1791185733",
       "url": "https://store.steampowered.com/app/2678640/?cc=cn&l=schinese",
@@ -230,7 +230,7 @@
       "review_scope": "不可用",
       "recommend_score": 6.3,
       "taste_score": 6.6,
-      "quality_score": 0.0,
+      "quality_score": 0,
       "price_score": 5.2,
       "genres": [
         "独立",
@@ -263,7 +263,7 @@
       "key_offers": [
         {
           "platform": "SteamPY",
-          "price": 20.0,
+          "price": 20,
           "status": "CDKey接口参考价｜库存、地区及版本需打开商品页确认",
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=9000968224442865045504",
           "kind": "reference",
@@ -272,7 +272,7 @@
         }
       ],
       "key_status": "未核实实时在售",
-      "key_reference_min": 20.0,
+      "key_reference_min": 20,
       "tracked_low": 33.75,
       "region_history_low": null
     },
@@ -286,7 +286,7 @@
       "release_date": "2017 年 12 月 14 日",
       "coming_soon": false,
       "price": 7.8,
-      "original_price": 39.0,
+      "original_price": 39,
       "discount": 80,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/337340/9ccd2472b64493cce208bb178d8c0705e849465a/header.jpg?t=1780927618",
       "url": "https://store.steampowered.com/app/337340/?cc=cn&l=schinese",
@@ -296,7 +296,7 @@
       "review_scope": "不可用",
       "recommend_score": 6.2,
       "taste_score": 5.3,
-      "quality_score": 0.0,
+      "quality_score": 0,
       "price_score": 7.5,
       "genres": [
         "冒险",
@@ -352,7 +352,7 @@
       "release_date": "2025 年 6 月 15 日",
       "coming_soon": false,
       "price": 2.5,
-      "original_price": 5.0,
+      "original_price": 5,
       "discount": 50,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1787670/header.jpg?t=1750035181",
       "url": "https://store.steampowered.com/app/1787670/?cc=cn&l=schinese",
@@ -362,8 +362,8 @@
       "review_scope": "不可用",
       "recommend_score": 6.1,
       "taste_score": 5.3,
-      "quality_score": 0.0,
-      "price_score": 7.0,
+      "quality_score": 0,
+      "price_score": 7,
       "genres": [
         "冒险",
         "独立",
@@ -408,7 +408,7 @@
       "release_date": "2020 年 4 月 21 日",
       "coming_soon": false,
       "price": 2.5,
-      "original_price": 5.0,
+      "original_price": 5,
       "discount": 50,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1283520/header.jpg?t=1702492078",
       "url": "https://store.steampowered.com/app/1283520/?cc=cn&l=schinese",
@@ -418,8 +418,8 @@
       "review_scope": "不可用",
       "recommend_score": 6.1,
       "taste_score": 5.3,
-      "quality_score": 0.0,
-      "price_score": 7.0,
+      "quality_score": 0,
+      "price_score": 7,
       "genres": [
         "冒险",
         "独立",
@@ -464,7 +464,7 @@
       "release_date": "2020 年 2 月 8 日",
       "coming_soon": false,
       "price": 2.5,
-      "original_price": 5.0,
+      "original_price": 5,
       "discount": 50,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1225910/header.jpg?t=1702491884",
       "url": "https://store.steampowered.com/app/1225910/?cc=cn&l=schinese",
@@ -474,8 +474,8 @@
       "review_scope": "不可用",
       "recommend_score": 6.1,
       "taste_score": 5.3,
-      "quality_score": 0.0,
-      "price_score": 7.0,
+      "quality_score": 0,
+      "price_score": 7,
       "genres": [
         "动作",
         "冒险",
@@ -522,7 +522,7 @@
       "release_date": "2020 年 4 月 27 日",
       "coming_soon": false,
       "price": 6.6,
-      "original_price": 11.0,
+      "original_price": 11,
       "discount": 40,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1282200/header.jpg?t=1751133890",
       "url": "https://store.steampowered.com/app/1282200/?cc=cn&l=schinese",
@@ -532,7 +532,7 @@
       "review_scope": "不可用",
       "recommend_score": 5.9,
       "taste_score": 5.3,
-      "quality_score": 0.0,
+      "quality_score": 0,
       "price_score": 6.4,
       "genres": [
         "冒险",
@@ -580,7 +580,7 @@
       "release_date": "2022 年 10 月 17 日",
       "coming_soon": false,
       "price": 6.6,
-      "original_price": 11.0,
+      "original_price": 11,
       "discount": 40,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2152190/header.jpg?t=1750084577",
       "url": "https://store.steampowered.com/app/2152190/?cc=cn&l=schinese",
@@ -590,7 +590,7 @@
       "review_scope": "不可用",
       "recommend_score": 5.9,
       "taste_score": 5.3,
-      "quality_score": 0.0,
+      "quality_score": 0,
       "price_score": 6.4,
       "genres": [
         "冒险",
@@ -638,7 +638,7 @@
       "release_date": "2020 年 2 月 24 日",
       "coming_soon": false,
       "price": 6.6,
-      "original_price": 11.0,
+      "original_price": 11,
       "discount": 40,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1241510/header.jpg?t=1751129073",
       "url": "https://store.steampowered.com/app/1241510/?cc=cn&l=schinese",
@@ -648,7 +648,7 @@
       "review_scope": "不可用",
       "recommend_score": 5.9,
       "taste_score": 5.3,
-      "quality_score": 0.0,
+      "quality_score": 0,
       "price_score": 6.4,
       "genres": [
         "冒险",
@@ -696,7 +696,7 @@
       "release_date": "2024 年 9 月 20 日",
       "coming_soon": false,
       "price": 14.85,
-      "original_price": 33.0,
+      "original_price": 33,
       "discount": 55,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2159210/header.jpg?t=1752187612",
       "url": "https://store.steampowered.com/app/2159210/?cc=cn&l=schinese",
@@ -706,7 +706,7 @@
       "review_scope": "不可用",
       "recommend_score": 5.9,
       "taste_score": 5.3,
-      "quality_score": 0.0,
+      "quality_score": 0,
       "price_score": 6.4,
       "genres": [
         "冒险",
@@ -739,7 +739,7 @@
       "key_offers": [
         {
           "platform": "SteamPY",
-          "price": 10.0,
+          "price": 10,
           "status": "CDKey接口参考价｜库存、地区及版本需打开商品页确认",
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=849600697509875712",
           "kind": "reference",
@@ -748,7 +748,7 @@
         }
       ],
       "key_status": "未核实实时在售",
-      "key_reference_min": 10.0,
+      "key_reference_min": 10,
       "tracked_low": 14.85,
       "region_history_low": null
     },
@@ -762,7 +762,7 @@
       "release_date": "2023 年 10 月 23 日",
       "coming_soon": false,
       "price": 24.8,
-      "original_price": 62.0,
+      "original_price": 62,
       "discount": 60,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1989270/header_schinese.jpg?t=1791026492",
       "url": "https://store.steampowered.com/app/1989270/?cc=cn&l=schinese",
@@ -772,7 +772,7 @@
       "review_scope": "不可用",
       "recommend_score": 5.9,
       "taste_score": 5.3,
-      "quality_score": 0.0,
+      "quality_score": 0,
       "price_score": 6.4,
       "genres": [
         "冒险",
@@ -806,7 +806,7 @@
       "key_offers": [
         {
           "platform": "SteamPY",
-          "price": 50.0,
+          "price": 50,
           "status": "CDKey接口参考价｜库存、地区及版本需打开商品页确认",
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=728886466804977664",
           "kind": "reference",
@@ -815,7 +815,7 @@
         }
       ],
       "key_status": "未核实实时在售",
-      "key_reference_min": 50.0,
+      "key_reference_min": 50,
       "tracked_low": 24.8,
       "region_history_low": null
     },
@@ -829,7 +829,7 @@
       "release_date": "2025 年 2 月 24 日",
       "coming_soon": false,
       "price": 15.4,
-      "original_price": 22.0,
+      "original_price": 22,
       "discount": 30,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3447410/header.jpg?t=1751124167",
       "url": "https://store.steampowered.com/app/3447410/?cc=cn&l=schinese",
@@ -839,7 +839,7 @@
       "review_scope": "不可用",
       "recommend_score": 5.8,
       "taste_score": 5.3,
-      "quality_score": 0.0,
+      "quality_score": 0,
       "price_score": 5.8,
       "genres": [
         "冒险",
@@ -887,7 +887,7 @@
       "release_date": "2025 年 3 月 21 日",
       "coming_soon": false,
       "price": 25.2,
-      "original_price": 42.0,
+      "original_price": 42,
       "discount": 40,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3373660/7af754cc405af7db9396a0c1bedff8e7fd213198/header.jpg?t=1789016414",
       "url": "https://store.steampowered.com/app/3373660/?cc=cn&l=schinese",
@@ -897,7 +897,7 @@
       "review_scope": "不可用",
       "recommend_score": 5.8,
       "taste_score": 5.3,
-      "quality_score": 0.0,
+      "quality_score": 0,
       "price_score": 5.8,
       "genres": [
         "冒险",
@@ -928,7 +928,7 @@
       "key_offers": [
         {
           "platform": "SteamPY",
-          "price": 42.0,
+          "price": 42,
           "status": "CDKey接口参考价｜库存、地区及版本需打开商品页确认",
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=9000916457760718536704",
           "kind": "reference",
@@ -937,7 +937,7 @@
         }
       ],
       "key_status": "未核实实时在售",
-      "key_reference_min": 42.0,
+      "key_reference_min": 42,
       "tracked_low": 25.2,
       "region_history_low": null
     },
@@ -951,7 +951,7 @@
       "release_date": "2026 年 3 月 11 日",
       "coming_soon": false,
       "price": 27.3,
-      "original_price": 42.0,
+      "original_price": 42,
       "discount": 35,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3213800/939f99dcfa3d70059abccd594c61b4fcaaa41105/header.jpg?t=1773241150",
       "url": "https://store.steampowered.com/app/3213800/?cc=cn&l=schinese",
@@ -961,7 +961,7 @@
       "review_scope": "不可用",
       "recommend_score": 5.8,
       "taste_score": 5.3,
-      "quality_score": 0.0,
+      "quality_score": 0,
       "price_score": 5.8,
       "genres": [
         "冒险",
@@ -1008,7 +1008,7 @@
       "release_date": "2021 年 10 月 19 日",
       "coming_soon": false,
       "price": 35.2,
-      "original_price": 88.0,
+      "original_price": 88,
       "discount": 60,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1092790/header.jpg?t=1777572925",
       "url": "https://store.steampowered.com/app/1092790/?cc=cn&l=schinese",
@@ -1018,7 +1018,7 @@
       "review_scope": "不可用",
       "recommend_score": 5.7,
       "taste_score": 5.1,
-      "quality_score": 0.0,
+      "quality_score": 0,
       "price_score": 5.8,
       "genres": [
         "冒险",
@@ -1048,19 +1048,9 @@
       "steam_historical_low": null,
       "steam_historical_low_source": null,
       "steam_deck": null,
-      "key_offers": [
-        {
-          "platform": "SteamPY",
-          "price": 0.1,
-          "status": "CDKey接口参考价｜库存、地区及版本需打开商品页确认",
-          "url": "https://steampy.com/cdkDetail?name=cn&gameId=457309858840973312",
-          "kind": "reference",
-          "subid": 368113,
-          "checked_at": "2026-10-27T08:51:03.506961+00:00"
-        }
-      ],
+      "key_offers": [],
       "key_status": "未核实实时在售",
-      "key_reference_min": 0.1,
+      "key_reference_min": null,
       "tracked_low": 35.2,
       "region_history_low": null
     },
@@ -1073,8 +1063,8 @@
       ],
       "release_date": "2015 年 9 月 15 日",
       "coming_soon": false,
-      "price": 9.0,
-      "original_price": 36.0,
+      "price": 9,
+      "original_price": 36,
       "discount": 75,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/391540/header.jpg?t=1757349115",
       "url": "https://store.steampowered.com/app/391540/?cc=cn&l=schinese",
@@ -1084,7 +1074,7 @@
       "review_scope": "不可用",
       "recommend_score": 5.7,
       "taste_score": 4.3,
-      "quality_score": 0.0,
+      "quality_score": 0,
       "price_score": 7.5,
       "genres": [
         "独立",
@@ -1115,7 +1105,7 @@
       "key_offers": [
         {
           "platform": "SteamPY",
-          "price": 20.0,
+          "price": 20,
           "status": "CDKey接口参考价｜库存、地区及版本需打开商品页确认",
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=496138616574151",
           "kind": "reference",
@@ -1124,8 +1114,8 @@
         }
       ],
       "key_status": "未核实实时在售",
-      "key_reference_min": 20.0,
-      "tracked_low": 9.0,
+      "key_reference_min": 20,
+      "tracked_low": 9,
       "region_history_low": null
     },
     {
@@ -1139,7 +1129,7 @@
       "release_date": "2015 年 4 月 23 日",
       "coming_soon": false,
       "price": 9.6,
-      "original_price": 48.0,
+      "original_price": 48,
       "discount": 80,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/247080/209f45e068bbd4a2d82db3df807745094598b8e3/header_schinese.jpg?t=1791916929",
       "url": "https://store.steampowered.com/app/247080/?cc=cn&l=schinese",
@@ -1149,7 +1139,7 @@
       "review_scope": "不可用",
       "recommend_score": 5.7,
       "taste_score": 4.3,
-      "quality_score": 0.0,
+      "quality_score": 0,
       "price_score": 7.5,
       "genres": [
         "动作",
@@ -1205,7 +1195,7 @@
       "release_date": "2024 年 12 月 10 日",
       "coming_soon": false,
       "price": 41.6,
-      "original_price": 52.0,
+      "original_price": 52,
       "discount": 20,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2527500/header_schinese.jpg?t=1792668822",
       "url": "https://store.steampowered.com/app/2527500/?cc=cn&l=schinese",
@@ -1215,7 +1205,7 @@
       "review_scope": "不可用",
       "recommend_score": 5.6,
       "taste_score": 5.3,
-      "quality_score": 0.0,
+      "quality_score": 0,
       "price_score": 4.8,
       "genres": [
         "冒险",
@@ -1248,17 +1238,8 @@
       "steam_deck": null,
       "key_offers": [
         {
-          "platform": "SteamPY",
-          "price": 0.1,
-          "status": "CDKey接口参考价｜库存、地区及版本需打开商品页确认",
-          "url": "https://steampy.com/cdkDetail?name=cn&gameId=879121310989422592",
-          "kind": "reference",
-          "subid": 908317,
-          "checked_at": "2026-10-27T08:51:08.488880+00:00"
-        },
-        {
           "platform": "SteamCiCi",
-          "price": 33.0,
+          "price": 33,
           "status": "历史挂售最低参考价｜非实时库存",
           "last_hanging_time": "2026-10-24T13:01:55.000+08:00",
           "url": "https://steamcici.com/index",
@@ -1268,7 +1249,7 @@
         }
       ],
       "key_status": "未核实实时在售",
-      "key_reference_min": 0.1,
+      "key_reference_min": 33,
       "tracked_low": 41.6,
       "region_history_low": null
     },
@@ -1281,8 +1262,8 @@
       ],
       "release_date": "2020 年 12 月 25 日",
       "coming_soon": false,
-      "price": 56.0,
-      "original_price": 70.0,
+      "price": 56,
+      "original_price": 70,
       "discount": 20,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1150690/header.jpg?t=1671584768",
       "url": "https://store.steampowered.com/app/1150690/?cc=cn&l=schinese",
@@ -1292,7 +1273,7 @@
       "review_scope": "不可用",
       "recommend_score": 5.6,
       "taste_score": 5.3,
-      "quality_score": 0.0,
+      "quality_score": 0,
       "price_score": 4.8,
       "genres": [
         "冒险",
@@ -1325,7 +1306,7 @@
       "key_offers": [],
       "key_status": "未核实实时在售",
       "key_reference_min": null,
-      "tracked_low": 56.0,
+      "tracked_low": 56,
       "region_history_low": null
     },
     {
@@ -1337,8 +1318,8 @@
       ],
       "release_date": "2026 年 1 月 27 日",
       "coming_soon": false,
-      "price": 57.0,
-      "original_price": 76.0,
+      "price": 57,
+      "original_price": 76,
       "discount": 25,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1727590/0e0cb62c332fdbbeccf889b4c40dff5d4a6c5060/header.jpg?t=1776195427",
       "url": "https://store.steampowered.com/app/1727590/?cc=cn&l=schinese",
@@ -1348,7 +1329,7 @@
       "review_scope": "不可用",
       "recommend_score": 5.6,
       "taste_score": 5.1,
-      "quality_score": 0.0,
+      "quality_score": 0,
       "price_score": 5.2,
       "genres": [
         "冒险",
@@ -1389,7 +1370,7 @@
       ],
       "key_status": "未核实实时在售",
       "key_reference_min": 7.44,
-      "tracked_low": 57.0,
+      "tracked_low": 57,
       "region_history_low": null
     },
     {
@@ -1402,7 +1383,7 @@
       "release_date": "2020 年 6 月 7 日",
       "coming_soon": false,
       "price": 3.5,
-      "original_price": 35.0,
+      "original_price": 35,
       "discount": 90,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1318690/header_schinese.jpg?t=1788789036",
       "url": "https://store.steampowered.com/app/1318690/?cc=cn&l=schinese",
@@ -1412,7 +1393,7 @@
       "review_scope": "不可用",
       "recommend_score": 5.6,
       "taste_score": 4.1,
-      "quality_score": 0.0,
+      "quality_score": 0,
       "price_score": 7.5,
       "genres": [
         "休闲",
@@ -1443,19 +1424,9 @@
       "steam_historical_low": null,
       "steam_historical_low_source": null,
       "steam_deck": null,
-      "key_offers": [
-        {
-          "platform": "SteamPY",
-          "price": 0.1,
-          "status": "CDKey接口参考价｜库存、地区及版本需打开商品页确认",
-          "url": "https://steampy.com/cdkDetail?name=cn&gameId=291498523227066368",
-          "kind": "reference",
-          "subid": 460467,
-          "checked_at": "2026-10-27T08:51:13.652841+00:00"
-        }
-      ],
+      "key_offers": [],
       "key_status": "未核实实时在售",
-      "key_reference_min": 0.1,
+      "key_reference_min": null,
       "tracked_low": 3.5,
       "region_history_low": null
     },
@@ -1469,7 +1440,7 @@
       "release_date": "2015 年 4 月 30 日",
       "coming_soon": false,
       "price": 8.4,
-      "original_price": 42.0,
+      "original_price": 42,
       "discount": 80,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/296490/header.jpg?t=1726580940",
       "url": "https://store.steampowered.com/app/296490/?cc=cn&l=schinese",
@@ -1479,7 +1450,7 @@
       "review_scope": "不可用",
       "recommend_score": 5.6,
       "taste_score": 4.1,
-      "quality_score": 0.0,
+      "quality_score": 0,
       "price_score": 7.5,
       "genres": [
         "动作",
@@ -1535,7 +1506,7 @@
       "release_date": "2026 年 1 月 11 日",
       "coming_soon": false,
       "price": 30.4,
-      "original_price": 38.0,
+      "original_price": 38,
       "discount": 20,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2842800/f40e0723ef447af535605f1f327a7241004481c8/header.jpg?t=1785554656",
       "url": "https://store.steampowered.com/app/2842800/?cc=cn&l=schinese",
@@ -1545,7 +1516,7 @@
       "review_scope": "不可用",
       "recommend_score": 5.5,
       "taste_score": 5.1,
-      "quality_score": 0.0,
+      "quality_score": 0,
       "price_score": 4.8,
       "genres": [
         "冒险",
@@ -1575,19 +1546,9 @@
       "steam_historical_low": null,
       "steam_historical_low_source": null,
       "steam_deck": null,
-      "key_offers": [
-        {
-          "platform": "SteamPY",
-          "price": 0.1,
-          "status": "CDKey接口参考价｜库存、地区及版本需打开商品页确认",
-          "url": "https://steampy.com/cdkDetail?name=cn&gameId=9001023034539483656192",
-          "kind": "reference",
-          "subid": 1014360,
-          "checked_at": "2026-10-27T08:51:17.031823+00:00"
-        }
-      ],
+      "key_offers": [],
       "key_status": "未核实实时在售",
-      "key_reference_min": 0.1,
+      "key_reference_min": null,
       "tracked_low": 30.4,
       "region_history_low": null
     },
@@ -1600,8 +1561,8 @@
       ],
       "release_date": "2025 年 9 月 29 日",
       "coming_soon": false,
-      "price": 69.0,
-      "original_price": 92.0,
+      "price": 69,
+      "original_price": 92,
       "discount": 25,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3464370/ff02a1ca97bdacdfe0a93d4171380df9553f3d2a/header_schinese.jpg?t=1791446376",
       "url": "https://store.steampowered.com/app/3464370/?cc=cn&l=schinese",
@@ -1611,7 +1572,7 @@
       "review_scope": "不可用",
       "recommend_score": 5.5,
       "taste_score": 5.1,
-      "quality_score": 0.0,
+      "quality_score": 0,
       "price_score": 4.6,
       "genres": [
         "冒险",
@@ -1644,7 +1605,7 @@
       "key_offers": [
         {
           "platform": "SteamPY",
-          "price": 73.0,
+          "price": 73,
           "status": "CDKey接口参考价｜库存、地区及版本需打开商品页确认",
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=9000985347071426277377",
           "kind": "reference",
@@ -1653,8 +1614,8 @@
         }
       ],
       "key_status": "未核实实时在售",
-      "key_reference_min": 73.0,
-      "tracked_low": 69.0,
+      "key_reference_min": 73,
+      "tracked_low": 69,
       "region_history_low": null
     },
     {
@@ -1667,7 +1628,7 @@
       "release_date": "2020 年 10 月 12 日",
       "coming_soon": false,
       "price": 6.6,
-      "original_price": 11.0,
+      "original_price": 11,
       "discount": 40,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1428310/header.jpg?t=1751133895",
       "url": "https://store.steampowered.com/app/1428310/?cc=cn&l=schinese",
@@ -1677,7 +1638,7 @@
       "review_scope": "不可用",
       "recommend_score": 5.5,
       "taste_score": 4.3,
-      "quality_score": 0.0,
+      "quality_score": 0,
       "price_score": 6.4,
       "genres": [
         "角色扮演",
@@ -1721,7 +1682,7 @@
       "release_date": "2021 年 9 月 30 日",
       "coming_soon": false,
       "price": 11.7,
-      "original_price": 39.0,
+      "original_price": 39,
       "discount": 70,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1673190/header_schinese.jpg?t=1680890674",
       "url": "https://store.steampowered.com/app/1673190/?cc=cn&l=schinese",
@@ -1731,7 +1692,7 @@
       "review_scope": "不可用",
       "recommend_score": 5.5,
       "taste_score": 4.3,
-      "quality_score": 0.0,
+      "quality_score": 0,
       "price_score": 6.4,
       "genres": [
         "角色扮演"
@@ -1772,8 +1733,8 @@
       ],
       "release_date": "2019 年 1 月 23 日",
       "coming_soon": false,
-      "price": 22.0,
-      "original_price": 88.0,
+      "price": 22,
+      "original_price": 88,
       "discount": 75,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/646570/header.jpg?t=1774015376",
       "url": "https://store.steampowered.com/app/646570/?cc=cn&l=schinese",
@@ -1783,7 +1744,7 @@
       "review_scope": "不可用",
       "recommend_score": 5.5,
       "taste_score": 4.1,
-      "quality_score": 0.0,
+      "quality_score": 0,
       "price_score": 6.9,
       "genres": [
         "独立",
@@ -1824,7 +1785,7 @@
       ],
       "key_status": "未核实实时在售",
       "key_reference_min": 18.5,
-      "tracked_low": 22.0,
+      "tracked_low": 22,
       "region_history_low": null
     },
     {
@@ -1837,7 +1798,7 @@
       "release_date": "2018 年 1 月 4 日",
       "coming_soon": false,
       "price": 12.6,
-      "original_price": 18.0,
+      "original_price": 18,
       "discount": 30,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/760890/header.jpg?t=1734719167",
       "url": "https://store.steampowered.com/app/760890/?cc=cn&l=schinese",
@@ -1847,7 +1808,7 @@
       "review_scope": "不可用",
       "recommend_score": 5.4,
       "taste_score": 4.3,
-      "quality_score": 0.0,
+      "quality_score": 0,
       "price_score": 5.8,
       "genres": [
         "独立",
@@ -1891,7 +1852,7 @@
       "release_date": "2026 年 10 月 26 日",
       "coming_soon": false,
       "price": 17.6,
-      "original_price": 22.0,
+      "original_price": 22,
       "discount": 20,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1071360/19069b1d18427fd4817b15bb41c1e640b74dc446/header_alt_assets_0.jpg?t=1793065198",
       "url": "https://store.steampowered.com/app/1071360/?cc=cn&l=schinese",
@@ -1901,7 +1862,7 @@
       "review_scope": "不可用",
       "recommend_score": 6.8,
       "taste_score": 7.6,
-      "quality_score": 0.0,
+      "quality_score": 0,
       "price_score": 5.4,
       "genres": [
         "动作",
@@ -1951,7 +1912,7 @@
       "release_date": "2026 年 10 月 26 日",
       "coming_soon": false,
       "price": 29.7,
-      "original_price": 33.0,
+      "original_price": 33,
       "discount": 10,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4958460/23f95b90b72c69c08cf4bc4dc2d201299761fa88/header_schinese.jpg?t=1793066401",
       "url": "https://store.steampowered.com/app/4958460/?cc=cn&l=schinese",
@@ -1961,7 +1922,7 @@
       "review_scope": "不可用",
       "recommend_score": 6.8,
       "taste_score": 7.6,
-      "quality_score": 0.0,
+      "quality_score": 0,
       "price_score": 5.4,
       "genres": [
         "冒险",
@@ -1996,7 +1957,7 @@
       "key_offers": [
         {
           "platform": "SteamPY",
-          "price": 28.0,
+          "price": 28,
           "status": "CDKey接口参考价｜库存、地区及版本需打开商品页确认",
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=9001127332825080250368",
           "kind": "reference",
@@ -2005,7 +1966,7 @@
         }
       ],
       "key_status": "未核实实时在售",
-      "key_reference_min": 28.0,
+      "key_reference_min": 28,
       "tracked_low": 29.7,
       "region_history_low": null
     },
@@ -2019,7 +1980,7 @@
       "release_date": "2026 年 10 月 26 日",
       "coming_soon": false,
       "price": 26.25,
-      "original_price": 35.0,
+      "original_price": 35,
       "discount": 25,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3460540/85336a2b659dfef0ea72c32450c2730b2b9225dd/header.jpg?t=1793036876",
       "url": "https://store.steampowered.com/app/3460540/?cc=cn&l=schinese",
@@ -2029,7 +1990,7 @@
       "review_scope": "不可用",
       "recommend_score": 6.4,
       "taste_score": 6.6,
-      "quality_score": 0.0,
+      "quality_score": 0,
       "price_score": 5.8,
       "genres": [
         "独立",
@@ -2075,7 +2036,7 @@
       "release_date": "2026 年 10 月 26 日",
       "coming_soon": false,
       "price": 10.4,
-      "original_price": 13.0,
+      "original_price": 13,
       "discount": 20,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5368440/82ab5f4b60b854c191e982a16a4e8181c07ddb50/header.jpg?t=1793058326",
       "url": "https://store.steampowered.com/app/5368440/?cc=cn&l=schinese",
@@ -2085,7 +2046,7 @@
       "review_scope": "不可用",
       "recommend_score": 6.3,
       "taste_score": 6.6,
-      "quality_score": 0.0,
+      "quality_score": 0,
       "price_score": 5.4,
       "genres": [
         "独立",
@@ -2131,7 +2092,7 @@
       "release_date": "2026 年 10 月 26 日",
       "coming_soon": false,
       "price": 17.6,
-      "original_price": 22.0,
+      "original_price": 22,
       "discount": 20,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5245310/2d3b7050cc1c51e02b784b8d1f3822589823acb9/header.jpg?t=1793083369",
       "url": "https://store.steampowered.com/app/5245310/?cc=cn&l=schinese",
@@ -2141,7 +2102,7 @@
       "review_scope": "不可用",
       "recommend_score": 6.3,
       "taste_score": 6.6,
-      "quality_score": 0.0,
+      "quality_score": 0,
       "price_score": 5.4,
       "genres": [
         "独立",
@@ -2174,7 +2135,7 @@
       "key_offers": [
         {
           "platform": "SteamPY",
-          "price": 15.0,
+          "price": 15,
           "status": "CDKey接口参考价｜库存、地区及版本需打开商品页确认",
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=9001127334104695291904",
           "kind": "reference",
@@ -2183,7 +2144,7 @@
         }
       ],
       "key_status": "未核实实时在售",
-      "key_reference_min": 15.0,
+      "key_reference_min": 15,
       "tracked_low": 17.6,
       "region_history_low": null
     },
@@ -2197,7 +2158,7 @@
       "release_date": "2026 年 10 月 26 日",
       "coming_soon": false,
       "price": 17.6,
-      "original_price": 22.0,
+      "original_price": 22,
       "discount": 20,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4919730/c424b07e7cc6dcb6d2c2d748091c75a88f04ec7a/header.jpg?t=1793084347",
       "url": "https://store.steampowered.com/app/4919730/?cc=cn&l=schinese",
@@ -2207,7 +2168,7 @@
       "review_scope": "不可用",
       "recommend_score": 6.3,
       "taste_score": 6.6,
-      "quality_score": 0.0,
+      "quality_score": 0,
       "price_score": 5.4,
       "genres": [
         "独立",
@@ -2254,7 +2215,7 @@
       "release_date": "2026 年 10 月 27 日",
       "coming_soon": false,
       "price": 39.6,
-      "original_price": 45.0,
+      "original_price": 45,
       "discount": 12,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3929570/fa37816cbd42263c6e996f9eca3b1cc52511aa18/header_schinese.jpg?t=1793088003",
       "url": "https://store.steampowered.com/app/3929570/?cc=cn&l=schinese",
@@ -2264,7 +2225,7 @@
       "review_scope": "不可用",
       "recommend_score": 6.3,
       "taste_score": 6.6,
-      "quality_score": 0.0,
+      "quality_score": 0,
       "price_score": 5.1,
       "genres": [
         "独立",
@@ -2299,7 +2260,7 @@
       "key_offers": [
         {
           "platform": "SteamPY",
-          "price": 35.0,
+          "price": 35,
           "status": "CDKey接口参考价｜库存、地区及版本需打开商品页确认",
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=9001127418796736000000",
           "kind": "reference",
@@ -2308,7 +2269,7 @@
         }
       ],
       "key_status": "未核实实时在售",
-      "key_reference_min": 35.0,
+      "key_reference_min": 35,
       "tracked_low": 39.6,
       "region_history_low": null
     },
@@ -2322,7 +2283,7 @@
       "release_date": "2026 年 10 月 27 日",
       "coming_soon": false,
       "price": 4.2,
-      "original_price": 6.0,
+      "original_price": 6,
       "discount": 30,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5368880/aed59b005df6eec384e961177116947aafbff45b/header.jpg?t=1793089752",
       "url": "https://store.steampowered.com/app/5368880/?cc=cn&l=schinese",
@@ -2330,9 +2291,9 @@
       "review_pct": null,
       "review_count": 0,
       "review_scope": "不可用",
-      "recommend_score": 6.0,
+      "recommend_score": 6,
       "taste_score": 5.3,
-      "quality_score": 0.0,
+      "quality_score": 0,
       "price_score": 6.7,
       "genres": [
         "动作",
@@ -2381,7 +2342,7 @@
       "release_date": "2026 年 10 月 26 日",
       "coming_soon": false,
       "price": 33.6,
-      "original_price": 42.0,
+      "original_price": 42,
       "discount": 20,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4927070/8dac08cc3309b35f00cfcdb1d3bfdef04fc9884a/header.jpg?t=1793039176",
       "url": "https://store.steampowered.com/app/4927070/?cc=cn&l=schinese",
@@ -2391,7 +2352,7 @@
       "review_scope": "不可用",
       "recommend_score": 5.5,
       "taste_score": 5.1,
-      "quality_score": 0.0,
+      "quality_score": 0,
       "price_score": 4.8,
       "genres": [
         "动作",
@@ -2437,8 +2398,8 @@
       ],
       "release_date": "2026 年 10 月 26 日",
       "coming_soon": false,
-      "price": 9.0,
-      "original_price": 15.0,
+      "price": 9,
+      "original_price": 15,
       "discount": 40,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5085820/70bb9f7c8fdb6b8043888f980256a9c399491787/header.jpg?t=1793079590",
       "url": "https://store.steampowered.com/app/5085820/?cc=cn&l=schinese",
@@ -2448,7 +2409,7 @@
       "review_scope": "不可用",
       "recommend_score": 5.5,
       "taste_score": 4.3,
-      "quality_score": 0.0,
+      "quality_score": 0,
       "price_score": 6.4,
       "genres": [
         "休闲",
@@ -2482,7 +2443,7 @@
       "key_offers": [],
       "key_status": "未核实实时在售",
       "key_reference_min": null,
-      "tracked_low": 9.0,
+      "tracked_low": 9,
       "region_history_low": null
     },
     {
@@ -2495,7 +2456,7 @@
       "release_date": "2026 年 10 月 26 日",
       "coming_soon": false,
       "price": 17.4,
-      "original_price": 29.0,
+      "original_price": 29,
       "discount": 40,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4209630/bace802cf4e227a6adf41470875cd4d654191585/header_schinese.jpg?t=1793056663",
       "url": "https://store.steampowered.com/app/4209630/?cc=cn&l=schinese",
@@ -2505,7 +2466,7 @@
       "review_scope": "不可用",
       "recommend_score": 5.4,
       "taste_score": 4.3,
-      "quality_score": 0.0,
+      "quality_score": 0,
       "price_score": 5.8,
       "genres": [
         "独立",
@@ -2551,7 +2512,7 @@
       "release_date": "2026 年 10 月 27 日",
       "coming_soon": false,
       "price": 12.3,
-      "original_price": 15.0,
+      "original_price": 15,
       "discount": 18,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4436260/2113eddcdb03b30a677b012c80f10314f858ddd1/header.jpg?t=1793085028",
       "url": "https://store.steampowered.com/app/4436260/?cc=cn&l=schinese",
@@ -2561,7 +2522,7 @@
       "review_scope": "不可用",
       "recommend_score": 5.3,
       "taste_score": 4.3,
-      "quality_score": 0.0,
+      "quality_score": 0,
       "price_score": 5.4,
       "genres": [
         "休闲",
@@ -2609,7 +2570,7 @@
       "release_date": "2026 年 10 月 26 日",
       "coming_soon": false,
       "price": 18.7,
-      "original_price": 22.0,
+      "original_price": 22,
       "discount": 15,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5367960/383d8afe6a14435bf43ff58fd00bc1937d6be74a/header.jpg?t=1793033989",
       "url": "https://store.steampowered.com/app/5367960/?cc=cn&l=schinese",
@@ -2619,7 +2580,7 @@
       "review_scope": "不可用",
       "recommend_score": 5.3,
       "taste_score": 4.3,
-      "quality_score": 0.0,
+      "quality_score": 0,
       "price_score": 5.4,
       "genres": [
         "休闲",
@@ -2664,8 +2625,8 @@
       ],
       "release_date": "2026 年 10 月 27 日",
       "coming_soon": false,
-      "price": 24.0,
-      "original_price": 24.0,
+      "price": 24,
+      "original_price": 24,
       "discount": 0,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5084590/c08cd490fb1a09ab3e4a808ed8dc424e37fb1445/header_schinese.jpg?t=1793085566",
       "url": "https://store.steampowered.com/app/5084590/?cc=cn&l=schinese",
@@ -2675,7 +2636,7 @@
       "review_scope": "不可用",
       "recommend_score": 5.3,
       "taste_score": 4.3,
-      "quality_score": 0.0,
+      "quality_score": 0,
       "price_score": 5.4,
       "genres": [
         "独立",
@@ -2715,7 +2676,7 @@
       ],
       "key_status": "未核实实时在售",
       "key_reference_min": 19.99,
-      "tracked_low": 24.0,
+      "tracked_low": 24,
       "region_history_low": null
     },
     {
@@ -2728,7 +2689,7 @@
       "release_date": "2026 年 10 月 27 日",
       "coming_soon": false,
       "price": 14.25,
-      "original_price": 19.0,
+      "original_price": 19,
       "discount": 25,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4684140/604b5573ae11ed0fc0ff019f865cdeaad63f37ff/header.jpg?t=1793090818",
       "url": "https://store.steampowered.com/app/4684140/?cc=cn&l=schinese",
@@ -2738,7 +2699,7 @@
       "review_scope": "不可用",
       "recommend_score": 5.3,
       "taste_score": 4.1,
-      "quality_score": 0.0,
+      "quality_score": 0,
       "price_score": 6.1,
       "genres": [
         "休闲",
@@ -2785,7 +2746,7 @@
       "release_date": "2026 年 10 月 26 日",
       "coming_soon": false,
       "price": 16.5,
-      "original_price": 22.0,
+      "original_price": 22,
       "discount": 25,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5071650/96c64629298f8ed9e94c472a62cc5b64e249ae22/header.jpg?t=1793067782",
       "url": "https://store.steampowered.com/app/5071650/?cc=cn&l=schinese",
@@ -2795,7 +2756,7 @@
       "review_scope": "不可用",
       "recommend_score": 5.3,
       "taste_score": 4.1,
-      "quality_score": 0.0,
+      "quality_score": 0,
       "price_score": 5.8,
       "genres": [
         "策略"
@@ -2837,7 +2798,7 @@
       "release_date": "2026 年 10 月 26 日",
       "coming_soon": false,
       "price": 21.75,
-      "original_price": 29.0,
+      "original_price": 29,
       "discount": 25,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5044360/e15fc517ecc81c22ce60e124c1420e828d9afa4b/header.jpg?t=1793067318",
       "url": "https://store.steampowered.com/app/5044360/?cc=cn&l=schinese",
@@ -2847,7 +2808,7 @@
       "review_scope": "不可用",
       "recommend_score": 5.3,
       "taste_score": 4.1,
-      "quality_score": 0.0,
+      "quality_score": 0,
       "price_score": 5.8,
       "genres": [
         "独立",
@@ -2891,7 +2852,7 @@
       "release_date": "2026 年 10 月 27 日",
       "coming_soon": false,
       "price": 23.1,
-      "original_price": 33.0,
+      "original_price": 33,
       "discount": 30,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3991280/698651a94e7b2a103f86bbf8df7c12d8b6ebec2b/header.jpg?t=1793084551",
       "url": "https://store.steampowered.com/app/3991280/?cc=cn&l=schinese",
@@ -2901,7 +2862,7 @@
       "review_scope": "不可用",
       "recommend_score": 5.3,
       "taste_score": 4.1,
-      "quality_score": 0.0,
+      "quality_score": 0,
       "price_score": 5.8,
       "genres": [
         "动作",
@@ -2949,7 +2910,7 @@
       "release_date": "2026 年 10 月 26 日",
       "coming_soon": false,
       "price": 12.75,
-      "original_price": 15.0,
+      "original_price": 15,
       "discount": 15,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5362920/70d3c47facf49f9879af4ab4da9939c78bc3df23/header.jpg?t=1793090726",
       "url": "https://store.steampowered.com/app/5362920/?cc=cn&l=schinese",
@@ -2959,7 +2920,7 @@
       "review_scope": "不可用",
       "recommend_score": 5.2,
       "taste_score": 4.1,
-      "quality_score": 0.0,
+      "quality_score": 0,
       "price_score": 5.4,
       "genres": [
         "动作",
@@ -3005,8 +2966,8 @@
       ],
       "release_date": "2026 年 10 月 26 日",
       "coming_soon": false,
-      "price": 15.0,
-      "original_price": 15.0,
+      "price": 15,
+      "original_price": 15,
       "discount": 0,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4898130/bafd2734463909adddba1f83ee9148e95408ecf3/header_schinese.jpg?t=1793069586",
       "url": "https://store.steampowered.com/app/4898130/?cc=cn&l=schinese",
@@ -3016,7 +2977,7 @@
       "review_scope": "不可用",
       "recommend_score": 5.2,
       "taste_score": 4.1,
-      "quality_score": 0.0,
+      "quality_score": 0,
       "price_score": 5.4,
       "genres": [
         "独立",
@@ -3056,7 +3017,7 @@
       ],
       "key_status": "未核实实时在售",
       "key_reference_min": 9.99,
-      "tracked_low": 15.0,
+      "tracked_low": 15,
       "region_history_low": null
     },
     {
@@ -3069,7 +3030,7 @@
       "release_date": "2026 年 10 月 26 日",
       "coming_soon": false,
       "price": 17.6,
-      "original_price": 22.0,
+      "original_price": 22,
       "discount": 20,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4269720/15f3b5e9cec9fb6e8fbc25650fc3f1b7312738b7/header.jpg?t=1793033023",
       "url": "https://store.steampowered.com/app/4269720/?cc=cn&l=schinese",
@@ -3079,7 +3040,7 @@
       "review_scope": "不可用",
       "recommend_score": 5.2,
       "taste_score": 4.1,
-      "quality_score": 0.0,
+      "quality_score": 0,
       "price_score": 5.4,
       "genres": [
         "动作",
@@ -3126,7 +3087,7 @@
       "release_date": "2026 年 10 月 26 日",
       "coming_soon": false,
       "price": 18.7,
-      "original_price": 22.0,
+      "original_price": 22,
       "discount": 15,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5132700/39e8d7c2a0f2bf18224d112ee728ecabca5b56ca/header.jpg?t=1793084352",
       "url": "https://store.steampowered.com/app/5132700/?cc=cn&l=schinese",
@@ -3136,7 +3097,7 @@
       "review_scope": "不可用",
       "recommend_score": 5.2,
       "taste_score": 4.1,
-      "quality_score": 0.0,
+      "quality_score": 0,
       "price_score": 5.4,
       "genres": [
         "模拟",
@@ -3180,7 +3141,7 @@
       "release_date": "2026 年 10 月 27 日",
       "coming_soon": false,
       "price": 20.8,
-      "original_price": 26.0,
+      "original_price": 26,
       "discount": 20,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5391660/eaaf9c66c223c49edd86373dea1ad3bb20a70eb0/header_schinese.jpg?t=1793084461",
       "url": "https://store.steampowered.com/app/5391660/?cc=cn&l=schinese",
@@ -3190,7 +3151,7 @@
       "review_scope": "不可用",
       "recommend_score": 5.2,
       "taste_score": 4.1,
-      "quality_score": 0.0,
+      "quality_score": 0,
       "price_score": 5.4,
       "genres": [
         "休闲",
@@ -3236,7 +3197,7 @@
       "release_date": "2026 年 10 月 26 日",
       "coming_soon": false,
       "price": 20.8,
-      "original_price": 26.0,
+      "original_price": 26,
       "discount": 20,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5349670/0fdd64a4e45205838d007c3dec6004efb6d4f268/header.jpg?t=1793073537",
       "url": "https://store.steampowered.com/app/5349670/?cc=cn&l=schinese",
@@ -3246,7 +3207,7 @@
       "review_scope": "不可用",
       "recommend_score": 5.2,
       "taste_score": 4.1,
-      "quality_score": 0.0,
+      "quality_score": 0,
       "price_score": 5.4,
       "genres": [
         "独立",
@@ -3292,7 +3253,7 @@
       "release_date": "2026 年 10 月 26 日",
       "coming_soon": false,
       "price": 21.25,
-      "original_price": 25.0,
+      "original_price": 25,
       "discount": 15,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1704950/7b6107ed9a6e82b919af994e7254947ac45347a9/header.jpg?t=1793073717",
       "url": "https://store.steampowered.com/app/1704950/?cc=cn&l=schinese",
@@ -3302,7 +3263,7 @@
       "review_scope": "不可用",
       "recommend_score": 5.2,
       "taste_score": 4.1,
-      "quality_score": 0.0,
+      "quality_score": 0,
       "price_score": 5.4,
       "genres": [
         "独立",
@@ -3345,8 +3306,8 @@
       ],
       "release_date": "2026 年 10 月 26 日",
       "coming_soon": false,
-      "price": 22.0,
-      "original_price": 22.0,
+      "price": 22,
+      "original_price": 22,
       "discount": 0,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5064870/3f0ab69a7162bb2a538b194913c601ad0fe459cc/header.jpg?t=1793078853",
       "url": "https://store.steampowered.com/app/5064870/?cc=cn&l=schinese",
@@ -3356,7 +3317,7 @@
       "review_scope": "不可用",
       "recommend_score": 5.2,
       "taste_score": 4.1,
-      "quality_score": 0.0,
+      "quality_score": 0,
       "price_score": 5.4,
       "genres": [
         "休闲",
@@ -3389,7 +3350,7 @@
       "key_offers": [],
       "key_status": "未核实实时在售",
       "key_reference_min": null,
-      "tracked_low": 22.0,
+      "tracked_low": 22,
       "region_history_low": null
     },
     {
@@ -3402,7 +3363,7 @@
       "release_date": "2026 年 10 月 26 日",
       "coming_soon": false,
       "price": 22.4,
-      "original_price": 28.0,
+      "original_price": 28,
       "discount": 20,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4968160/8864d2a3bd79587013f9c460e80d21f8d38ef866/header.jpg?t=1793041348",
       "url": "https://store.steampowered.com/app/4968160/?cc=cn&l=schinese",
@@ -3412,7 +3373,7 @@
       "review_scope": "不可用",
       "recommend_score": 5.2,
       "taste_score": 4.1,
-      "quality_score": 0.0,
+      "quality_score": 0,
       "price_score": 5.4,
       "genres": [
         "独立",
@@ -3456,7 +3417,7 @@
       "release_date": "2026 年 10 月 26 日",
       "coming_soon": false,
       "price": 24.65,
-      "original_price": 29.0,
+      "original_price": 29,
       "discount": 15,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5076510/1cf876a9ff1f1f304cae712a33d2274da0384039/header_schinese.jpg?t=1793034047",
       "url": "https://store.steampowered.com/app/5076510/?cc=cn&l=schinese",
@@ -3466,7 +3427,7 @@
       "review_scope": "不可用",
       "recommend_score": 5.2,
       "taste_score": 4.1,
-      "quality_score": 0.0,
+      "quality_score": 0,
       "price_score": 5.4,
       "genres": [
         "休闲",
@@ -3513,7 +3474,7 @@
       "release_date": "2026 年 10 月 26 日",
       "coming_soon": false,
       "price": 37.8,
-      "original_price": 42.0,
+      "original_price": 42,
       "discount": 10,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5044970/61f1a74d4fca6896b57dd8df09744470bcbd292c/header.jpg?t=1793055388",
       "url": "https://store.steampowered.com/app/5044970/?cc=cn&l=schinese",
@@ -3523,7 +3484,7 @@
       "review_scope": "不可用",
       "recommend_score": 5.1,
       "taste_score": 4.1,
-      "quality_score": 0.0,
+      "quality_score": 0,
       "price_score": 4.8,
       "genres": [
         "休闲",
@@ -3569,7 +3530,7 @@
       "release_date": "2026 年 10 月 27 日",
       "coming_soon": false,
       "price": 44.2,
-      "original_price": 52.0,
+      "original_price": 52,
       "discount": 15,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5286590/2cd5888c032f1fe2abe3f7876b3914e23f600ecf/header_schinese.jpg?t=1793088561",
       "url": "https://store.steampowered.com/app/5286590/?cc=cn&l=schinese",
@@ -3579,7 +3540,7 @@
       "review_scope": "不可用",
       "recommend_score": 5.1,
       "taste_score": 4.1,
-      "quality_score": 0.0,
+      "quality_score": 0,
       "price_score": 4.8,
       "genres": [
         "独立",
