@@ -63,7 +63,7 @@ def classify(flag, release_date, coming_soon, today, recent_days=120):
     if coming_soon:return None
     date=parse_release(release_date)
     if flag=="new":
-        if date is None:return "new" # Steam featured new releases may lack a parseable locale
+        if date is None:return None # Do not label unknown-release-date games as recent
         if dt.timedelta(0) <= (today-date) <= dt.timedelta(days=recent_days):return "new"
         return None
     if date is not None and dt.timedelta(0) <= (today-date) <= dt.timedelta(days=recent_days):
