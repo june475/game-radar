@@ -1,4 +1,5 @@
 import datetime as dt
+import json
 import sys
 import unittest
 from pathlib import Path
@@ -21,7 +22,7 @@ class DiscoveryTests(unittest.TestCase):
         expensive=discovery_score({"review_pct":80,"review_count":300,"price":100})
         self.assertGreater(cheap,expensive)
         self.assertEqual(classify("explore","Sep 1, 2019",False,dt.date(2026,10,27)),"explore")
-        self.assertEqual(parse_ids('{"results_html":"<a data-ds-appid=\\\\\\\"12345\\\\\\\"></a>"}'),[12345])
+        self.assertEqual(parse_ids(json.dumps({"results_html": '<a data-ds-appid="12345"></a>'})),[12345])
 
     def test_independent_pools(self):
         today=dt.date(2026,10,27)
