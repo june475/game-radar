@@ -55,6 +55,7 @@ def collect(max_checked=100):
     OUTPUT.parent.mkdir(parents=True,exist_ok=True)
     now=dt.datetime.now(dt.timezone.utc)
     old=load(OUTPUT,{})
+    old_by_id={g["appid"]:g for g in old.get("games",[]) if isinstance(g,dict) and isinstance(g.get("appid"),int)}
     try: ids=popular_deals()
     except Exception as exc:
         print("Steam specials unavailable",str(exc)[:160]);ids=[]
@@ -74,10 +75,14 @@ def collect(max_checked=100):
             discount=offer.get("discount_percent") or 0
             if not isinstance(final,int) or final<=0 or not discount:continue
             price=round(final/100,2)
+            previous=old_by_id.get(appid,{})
             ranked.append({
                 "appid":appid,"name":d.get("name") or str(appid),
                 "image":d.get("header_image"),"url":f"https://store.steampowered.com/app/{appid}/?cc=cn&l=schinese",
                 "category":"hot","price":price,
+                "steam_subids":[int(x) for x in (d.get("packages") or []) if str(x).isdigit()][:8],
+                "key_offers":previous.get("key_offers") or [],
+                "enrichment_status":previous.get("enrichment_status") or {},
                 "original_price":round((offer.get("initial") or final)/100,2),
                 "discount":discount,"release_date":(d.get("release_date") or {}).get("date"),
                 "genres":[x.get("description") for x in d.get("genres",[]) if x.get("description")],
@@ -85,7 +90,7 @@ def collect(max_checked=100):
                 "why":"来自 Steam 热销特惠列表，不按个人喜好筛选",
                 "popularity_rank":rank,
                 "review":"Steam 评价未在本榜单单独核实",
-                "key_offers":[],"negative_review_analysis":None,
+                "negative_review_analysis":None,
             })
         except Exception as exc:
             print("Hot low candidate error",appid,str(exc)[:110])
