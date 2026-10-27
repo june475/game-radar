@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import json, urllib.request, urllib.parse, datetime, time
+import json, urllib.request, urllib.parse, datetime, time, urllib.error
 from pathlib import Path
 from market import enrich
 from availability import epic_history, metadata
@@ -10,6 +10,26 @@ from review_analysis import fetch_negative_reviews, reason_adjustment
 ROOT=Path(__file__).resolve().parents[1]; DATA=ROOT/"data"; DATA.mkdir(exist_ok=True)
 cfg=json.loads((ROOT/"config.json").read_text("utf-8"))
 owned={x.lower() for x in cfg["owned"]}
+START=time.monotonic()
+# Bound total external work; a rate-limited Steam must not block deployment.
+FETCH_BUDGET_SECONDS=235
+REVIEWS_MAX_CALLS=65
+REVIEWS_CALLS=0
+REVIEWS_BLOCKED=False
+cache_file=DATA/"reviews_cache.json"
+try: reviews_cache=json.loads(cache_file.read_text("utf-8"))
+except (OSError,ValueError): reviews_cache={}
+try:
+    previous_games=json.loads((DATA/"games.json").read_text("utf-8")).get("games",[])
+except (OSError,ValueError): previous_games=[]
+for previous in previous_games:
+    aid=str(previous.get("appid") or "")
+    if aid and previous.get("review_pct") is not None and aid not in reviews_cache:
+        reviews_cache[aid]={"updated":datetime.datetime.now(datetime.timezone.utc).isoformat(),
+            "value":{"total":previous.get("review_count") or 0,
+                     "pct":previous.get("review_pct"),"scope":previous.get("review_scope") or "历史缓存",
+                     "positive":0,"desc":None}}
+
 hp=DATA/"history.json"
 try: hist=json.loads(hp.read_text("utf-8"))
 except: hist={}
@@ -21,7 +41,7 @@ epic_records=epic_history()
 
 def get(url):
     req=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0 GameRadar/1.1"})
-    with urllib.request.urlopen(req,timeout=25) as r:return json.load(r)
+    with urllib.request.urlopen(req,timeout=9) as r:return json.load(r)
 
 def details(appid):
     try:
@@ -30,8 +50,23 @@ def details(appid):
     except Exception:return {}
 
 def reviews(appid):
-    """Use real Steam review summaries; prefer simplified Chinese, then all languages."""
+    """Cache previous results; stop querying Steam globally after HTTP 429."""
+    global REVIEWS_CALLS,REVIEWS_BLOCKED
+    key=str(appid)
+    record=reviews_cache.get(key) or {}
+    try:
+        age=(datetime.datetime.now(datetime.timezone.utc)-
+            datetime.datetime.fromisoformat(record["updated"])).total_seconds()
+    except (ValueError,TypeError,KeyError):age=10**9
+    if record.get("value") and age<7*86400:
+        return record["value"]
+    empty={"total":0,"positive":0,"pct":None,"scope":"不可用","desc":None}
+    if REVIEWS_BLOCKED or REVIEWS_CALLS>=REVIEWS_MAX_CALLS or time.monotonic()-START>FETCH_BUDGET_SECONDS:
+        return record.get("value") or empty
+    # One request per app, not a second fallback immediately on a 429.
     for language,scope in (("schinese","简中"),("all","全球")):
+        if REVIEWS_CALLS>=REVIEWS_MAX_CALLS or REVIEWS_BLOCKED:break
+        REVIEWS_CALLS+=1
         try:
             query=urllib.parse.urlencode({"json":1,"filter":"all","language":language,
                 "purchase_type":"all","num_per_page":1})
@@ -40,11 +75,22 @@ def reviews(appid):
             total=int(summary.get("total_reviews") or 0)
             pos=int(summary.get("total_positive") or 0)
             if total>0:
-                return {"total":total,"positive":pos,"pct":round(pos*100/total,1),
+                result={"total":total,"positive":pos,"pct":round(pos*100/total,1),
                         "scope":scope,"desc":summary.get("review_score_desc")}
+                reviews_cache[key]={"updated":datetime.datetime.now(datetime.timezone.utc).isoformat(),
+                                    "value":result}
+                return result
+        except urllib.error.HTTPError as exc:
+            if exc.code==429:
+                REVIEWS_BLOCKED=True
+                print("Steam review HTTP 429: circuit breaker activated; using cache, skipping remaining review requests")
+                break
+            print("Steam review HTTP error",appid,exc.code)
+            break
         except Exception as exc:
-            print("Steam reviews failed",appid,language,str(exc)[:110])
-    return {"total":0,"positive":0,"pct":None,"scope":"无数据","desc":None}
+            print("Steam review error",appid,str(exc)[:110])
+            break
+    return record.get("value") or empty
 
 # 权重核心：符合口味 > 游戏质量 > 价格
 PREF={
@@ -73,11 +119,14 @@ print("candidate counts", {k:len(v) for k,v in buckets.items()})
 
 seen=set(); games=[]; today=(datetime.datetime.now(datetime.timezone.utc)+datetime.timedelta(hours=8)).date()
 for x in raw:
+    if time.monotonic()-START>FETCH_BUDGET_SECONDS:
+        print("External fetch time budget reached; publishing partial results")
+        break
     appid=x.get("id"); name=x.get("name","")
     if not appid or (x["_flag"],appid) in seen or name.lower() in owned or name in epic_free:continue
 
-    d=details(appid); time.sleep(.12)
-    rv=reviews(appid); time.sleep(.12)
+    d=details(appid)
+    rv=reviews(appid)
     name=d.get("name") or name or str(appid)
     if name.lower() in owned or name in epic_free:continue
     price_data=d.get("price_overview") or {}
@@ -165,9 +214,12 @@ for x in raw:
 # Evaluate negative-review themes for the strongest exploration candidates.
 # Deliberately bounded to avoid several hundred extra requests per day.
 explore_candidates=sorted((g for g in games if g["category"]=="explore"),
-    key=lambda g:(not g.get("watchlisted"),-(g["discovery_score"] or 0)))[:45]
+    key=lambda g:(not g.get("watchlisted"),-(g["discovery_score"] or 0)))[:14]
 for candidate in explore_candidates:
-    info=fetch_negative_reviews(candidate["appid"])
+    if REVIEWS_BLOCKED or time.monotonic()-START>FETCH_BUDGET_SECONDS:
+        info={"sample_size":0,"categories":[],"main_issue":None,"confidence":"限流或预算不足","note":"未获取新差评"}
+    else:
+        info=fetch_negative_reviews(candidate["appid"])
     candidate["negative_review_analysis"]=info
     candidate["discovery_score"]=round((candidate["discovery_score"] or 0)+reason_adjustment(info),2)
     if info.get("main_issue"):
@@ -187,6 +239,10 @@ games=deals+new_games+explore_games
 print("selected separately",{"deals":len(deals),"new":len(new_games),"explore":len(explore_games)})
 for g in games:
     try:
+        if time.monotonic()-START>FETCH_BUDGET_SECONDS:
+            g["key_offers"]=[]
+            g["tracked_low"]=hist.get(str(g["appid"]),{}).get("low")
+            continue
         enrich(g,hist)
     except Exception as exc:
         print("Market enrichment error",g["appid"],str(exc)[:140])
@@ -197,5 +253,8 @@ db_result=save_database(db_path,games,raw,cfg,hist,epic_records,cn)
 print("SQLite saved:",db_result,db_statistics(db_path))
 out={"meta":{"updated_at_cn":cn.strftime("%Y-%m-%d %H:%M"),"version":"V4 review-context discovery","note":"尝鲜榜不设价格或好评率硬门槛；查看近期简中差评关键词，区别争议类型。分析是辅助证据，不代表玩家差评全部属实或无效。"},"counts":{"deal":len(deals),"new":len(new_games),"explore":len(explore_games)},"games":games}
 (DATA/"games.json").write_text(json.dumps(out,ensure_ascii=False,indent=2),"utf-8")
+cache_file.write_text(json.dumps(reviews_cache,ensure_ascii=False,indent=2),"utf-8")
+print("Steam review diagnostics",{"calls":REVIEWS_CALLS,"rate_limited":REVIEWS_BLOCKED,
+      "cached":len(reviews_cache),"elapsed_seconds":round(time.monotonic()-START,1)})
 hp.write_text(json.dumps(hist,ensure_ascii=False,indent=2),"utf-8")
 print("updated",len(games))
