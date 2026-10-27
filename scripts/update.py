@@ -1,18 +1,22 @@
 #!/usr/bin/env python3
-import json, urllib.request, urllib.parse, datetime, time, urllib.error
+import json, urllib.request, urllib.parse, datetime, time, urllib.error, os
 from pathlib import Path
 from market import enrich
 from availability import epic_history, metadata
 from storage import save as save_database, statistics as db_statistics
 from discovery import discover, classify, discovery_score
 from review_analysis import fetch_negative_reviews, reason_adjustment
+from backlog import load_pending, save_pending
 
 ROOT=Path(__file__).resolve().parents[1]; DATA=ROOT/"data"; DATA.mkdir(exist_ok=True)
 cfg=json.loads((ROOT/"config.json").read_text("utf-8"))
 owned={x.lower() for x in cfg["owned"]}
 START=time.monotonic()
+MODE=os.environ.get("RADAR_MODE","daily").strip().lower()
+PENDING_PATH=DATA/"pending.json"
+PROCESSED=set()
 # Bound total external work; a rate-limited Steam must not block deployment.
-FETCH_BUDGET_SECONDS=235
+FETCH_BUDGET_SECONDS=165
 REVIEWS_MAX_CALLS=65
 REVIEWS_CALLS=0
 REVIEWS_BLOCKED=False
@@ -102,29 +106,36 @@ PREF={
 }
 NEG={"大型多人在线":-1.8,"Massively Multiplayer":-1.8,"PvP":-1.0}
 
-src=get("https://store.steampowered.com/api/featuredcategories?cc=cn&l=schinese")
-buckets={"deal":[],"new":[],"explore":[]}
-for key, flag in (("specials","deal"),("new_releases","new")):
-    for x in (src.get(key) or {}).get("items",[]):
-        buckets[flag].append(dict(x,_flag=flag))
-# Expand past the homepage's small featured lists; each pool has its own candidates.
-for kind in ("deal","new","explore"):
-    buckets[kind].extend(discover(kind,pages=1,count=50,max_items=130))
-# Explicit watchlist is considered even when Steam discovery omits it.
-for watch_id in cfg.get("explore_watchlist",[]):
-    if isinstance(watch_id,int) and watch_id>0:
-        buckets["explore"].insert(0,{"id":watch_id,"_flag":"explore","_watchlisted":True})
-# Put followed games first and interleave all three sources.
-# Previous sequential processing exhausted the global time budget before 'explore'.
-watch_ids={x for x in cfg.get("explore_watchlist",[]) if isinstance(x,int)}
-watch=[x for x in buckets["explore"] if x.get("id") in watch_ids]
-pools={kind:[x for x in buckets[kind] if x.get("id") not in watch_ids]
-       for kind in ("deal","new","explore")}
-raw=list(watch)
-for i in range(max(map(len,pools.values()),default=0)):
-    for kind in ("explore","deal","new"):
-        if i<len(pools[kind]):raw.append(pools[kind][i])
-print("candidate counts", {k:len(v) for k,v in buckets.items()})
+existing_pending=load_pending(PENDING_PATH)
+if MODE=="compensate":
+    raw=existing_pending
+    print("Compensating pending candidates:",len(raw))
+else:
+    src=get("https://store.steampowered.com/api/featuredcategories?cc=cn&l=schinese")
+    buckets={"deal":[],"new":[],"explore":[]}
+    for key, flag in (("specials","deal"),("new_releases","new")):
+        for x in (src.get(key) or {}).get("items",[]):
+            buckets[flag].append(dict(x,_flag=flag))
+    for kind in ("deal","new","explore"):
+        buckets[kind].extend(discover(kind,pages=1,count=50,max_items=90))
+    for watch_id in cfg.get("explore_watchlist",[]):
+        if isinstance(watch_id,int) and watch_id>0:
+            buckets["explore"].insert(0,{"id":watch_id,"_flag":"explore","_watchlisted":True})
+    watch_ids={x for x in cfg.get("explore_watchlist",[]) if isinstance(x,int)}
+    watch=[x for x in buckets["explore"] if x.get("id") in watch_ids]
+    pools={kind:[x for x in buckets[kind] if x.get("id") not in watch_ids]
+           for kind in ("deal","new","explore")}
+    ordered=watch[:]
+    for i in range(max(map(len,pools.values()),default=0)):
+        for kind in ("explore","deal","new"):
+            if i<len(pools[kind]):ordered.append(pools[kind][i])
+    # Resume prior unfinished items before today's fresh candidates.
+    raw=existing_pending+ordered
+    print("Discovered candidates:",len(ordered),"backlog:",len(existing_pending))
+# Persist queue before any remote app/review queries.
+save_pending(PENDING_PATH,raw)
+raw=load_pending(PENDING_PATH)
+print("pending queue size",len(raw))
 
 seen=set(); games=[]; today=(datetime.datetime.now(datetime.timezone.utc)+datetime.timedelta(hours=8)).date()
 for x in raw:
@@ -132,6 +143,8 @@ for x in raw:
         print("External fetch time budget reached; publishing partial results")
         break
     appid=x.get("id"); name=x.get("name","")
+    if isinstance(appid,int) and x.get("_flag") in ("deal","new","explore"):
+        PROCESSED.add((x["_flag"],appid))
     if not appid or (x["_flag"],appid) in seen or name.lower() in owned or name in epic_free:continue
 
     d=details(appid)
@@ -230,6 +243,8 @@ for candidate in explore_candidates:
         info={"sample_size":0,"categories":[],"main_issue":None,"confidence":"限流或预算不足","note":"未获取新差评"}
     else:
         info=fetch_negative_reviews(candidate["appid"])
+    if info.get("sample_size",0)==0 and candidate.get("negative_review_analysis",{}).get("sample_size",0)>0:
+        info=candidate["negative_review_analysis"]
     candidate["negative_review_analysis"]=info
     candidate["discovery_score"]=round((candidate["discovery_score"] or 0)+reason_adjustment(info),2)
     if info.get("main_issue"):
@@ -239,6 +254,21 @@ for candidate in explore_candidates:
     else:
         candidate["why"]="跨类型发现：结合价格、玩家评价及差评样本综合考虑"
 
+# Preserve previous published entries on compensation; do not blank other tabs.
+previous_by_id={(g.get("category"),g.get("appid")):g for g in previous_games
+               if isinstance(g,dict) and g.get("appid") and g.get("category") in ("deal","new","explore")}
+for game in games:
+    key=(game.get("category"),game.get("appid"))
+    old=previous_by_id.get(key)
+    if old:
+        if game.get("review_pct") is None and old.get("review_pct") is not None:
+            for field in ("review_pct","review_count","review_scope","review","quality_score"):
+                game[field]=old.get(field)
+        for field in ("negative_review_analysis","key_offers","region_history_low"):
+            if not game.get(field) and old.get(field):
+                game[field]=old[field]
+    previous_by_id[key]=game
+games=list(previous_by_id.values())
 deals=sorted((g for g in games if g["category"]=="deal"),key=lambda g:(-g["recommend_score"],-g["taste_score"],g["price"]))[:30]
 new_games=sorted((g for g in games if g["category"]=="new"),key=lambda g:(-g["recommend_score"],-g["taste_score"],g["price"]))[:30]
 # Dedicated exploration pool, ranked by quality and affordability only.
@@ -257,6 +287,10 @@ for g in games:
     except Exception as exc:
         print("Market enrichment error",g["appid"],str(exc)[:140])
         g["key_offers"]=[];g["tracked_low"]=hist.get(str(g["appid"]),{}).get("low")
+# Persist incomplete items for later compensation runs.
+remaining=[x for x in raw if (x.get("_flag"),x.get("id")) not in PROCESSED]
+save_pending(PENDING_PATH,remaining) if remaining else PENDING_PATH.write_text("[]","utf-8")
+print("Compensation state",{"mode":MODE,"processed":len(PROCESSED),"remaining":len(remaining)})
 cn=datetime.datetime.now(datetime.timezone.utc)+datetime.timedelta(hours=8)
 db_path=DATA/"game_radar.db"
 db_result=save_database(db_path,games,raw,cfg,hist,epic_records,cn)
