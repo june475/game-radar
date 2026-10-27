@@ -7,6 +7,7 @@ from storage import save as save_database, statistics as db_statistics
 from discovery import discover, classify, discovery_score
 from review_analysis import fetch_negative_reviews, reason_adjustment
 from backlog import load_pending, save_pending, drop_processed
+from check_recommendations import missing_categories
 
 ROOT=Path(__file__).resolve().parents[1]; DATA=ROOT/"data"; DATA.mkdir(exist_ok=True)
 cfg=json.loads((ROOT/"config.json").read_text("utf-8"))
@@ -108,23 +109,24 @@ NEG={"大型多人在线":-1.8,"Massively Multiplayer":-1.8,"PvP":-1.0}
 
 existing_pending=load_pending(PENDING_PATH)
 if MODE=="compensate":
-    # Also revisit published cards that still lack ratings or negative-review context.
-    missing=[]
-    for g in previous_games:
-        kind=g.get("category")
-        if kind not in ("deal","new","explore") or not isinstance(g.get("appid"),int):
-            continue
-        if g.get("review_pct") is not None and (kind!="explore" or
-                (g.get("negative_review_analysis") or {}).get("sample_size",0)>0):
-            continue
-        missing.append({"id":g["appid"],"_flag":kind,
-            "_watchlisted":bool(g.get("watchlisted")),"name":g.get("name") or "",
-            "final_price":round(g.get("price",0)*100) if g.get("price") else None,
-            "original_price":round(g.get("original_price",0)*100) if g.get("original_price") else None,
-            "discount_percent":g.get("discount",0)})
-    # Finish pending items before revisiting previously displayed incomplete cards.
-    raw=existing_pending+missing[:15]
-    print("Compensating pending candidates:",len(existing_pending),"missing existing:",len(missing))
+    missing_kinds=set(missing_categories(DATA/"games.json"))
+    print("Empty recommendation categories:",sorted(missing_kinds))
+    if not missing_kinds:
+        print("All categories have recommendations; no remote scraping needed")
+        raise SystemExit(0)
+    # Only empty tabs require compensation. Previously recommended tabs are untouched.
+    raw=[x for x in existing_pending if x.get("_flag") in missing_kinds]
+    for kind in sorted(missing_kinds):
+        if not any(x.get("_flag")==kind for x in raw):
+            print("No backlog for",kind,"-- discovering candidates for this category")
+            raw.extend(discover(kind,pages=1,count=50,max_items=60))
+    if "explore" in missing_kinds:
+        # Priority recommendation explicitly requested by the user.
+        known={x.get("id") for x in raw if x.get("_flag")=="explore"}
+        raw=[{"id":aid,"_flag":"explore","_watchlisted":True}
+             for aid in cfg.get("explore_watchlist",[])
+             if isinstance(aid,int) and aid not in known]+raw
+    print("Missing-category compensation candidates:",len(raw))
 else:
     src=get("https://store.steampowered.com/api/featuredcategories?cc=cn&l=schinese")
     buckets={"deal":[],"new":[],"explore":[]}
