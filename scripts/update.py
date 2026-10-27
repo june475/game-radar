@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import json, urllib.request, urllib.parse, datetime, time, urllib.error, os
 from pathlib import Path
-from market import enrich
+from market import enrich, clean_offers
 from availability import epic_history, metadata
 from storage import save as save_database, statistics as db_statistics
 from discovery import discover, classify, discovery_score
@@ -292,6 +292,9 @@ for game in games:
         for field in ("negative_review_analysis","key_offers","region_history_low"):
             if not game.get(field) and old.get(field):
                 game[field]=old[field]
+    # Cached third-party quotes may contain sentinel prices (e.g. CNY 0.10).
+    game["key_offers"]=clean_offers(game.get("key_offers"),game.get("price"))
+    game["key_reference_min"]=min((o["price"] for o in game["key_offers"]),default=None)
     previous_by_id[key]=game
 games=list(previous_by_id.values())
 deals=sorted((g for g in games if g["category"]=="deal"),key=lambda g:(-g["recommend_score"],-g["taste_score"],g["price"]))[:30]
@@ -301,6 +304,9 @@ personalized_ids={g["appid"] for g in deals+new_games}
 explore_games=sorted((g for g in explore_candidates if g["appid"] not in personalized_ids),
     key=lambda g:(not g.get("watchlisted"),-(g["discovery_score"] or 0),g["price"]))[:20]
 games=deals+new_games+explore_games
+for game in games:
+    game["key_offers"]=clean_offers(game.get("key_offers"),game.get("price"))
+    game["key_reference_min"]=min((o["price"] for o in game["key_offers"]),default=None)
 print("selected separately",{"deals":len(deals),"new":len(new_games),"explore":len(explore_games)})
 for g in games:
     try:
