@@ -1,0 +1,88 @@
+name: Enrich Missing Game Fields
+on:
+  schedule:
+    # Staggered UTC schedules, independent of daily publishing.
+    - cron: "12 * * * *"       # key quotes: hourly
+    - cron: "22 */3 * * *"     # negative review topics: every 3h
+    - cron: "28 */6 * * *"     # Deck: every 6h
+    - cron: "34 */8 * * *"     # regional history: every 8h
+    - cron: "40 0 * * *"       # Epic archive: daily
+    - cron: "46 1 * * *"       # mobile ports: daily
+    - cron: "52 2 * * *"       # DLC: daily
+  workflow_dispatch:
+    inputs:
+      task:
+        description: "Field to enrich"
+        type: choice
+        required: true
+        options: [keys, reviews, deck, history, epic, mobile, dlc]
+        default: keys
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: game-radar-operations
+  cancel-in-progress: false
+jobs:
+  enrich-and-publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Check Python files and tests
+        run: |
+          python -m compileall -q scripts tests
+          python -m unittest discover -s tests -v
+      - name: Choose independent field task
+        id: choose
+        env:
+          SCHEDULE: ${{ github.event.schedule }}
+          MANUAL_TASK: ${{ inputs.task }}
+        run: |
+          if [ -n "$MANUAL_TASK" ]; then
+            task="$MANUAL_TASK"
+          else
+            case "$SCHEDULE" in
+              '12 * * * *') task=keys ;;
+              '22 */3 * * *') task=reviews ;;
+              '28 */6 * * *') task=deck ;;
+              '34 */8 * * *') task=history ;;
+              '40 0 * * *') task=epic ;;
+              '46 1 * * *') task=mobile ;;
+              '52 2 * * *') task=dlc ;;
+              *) echo "Unknown schedule: $SCHEDULE"; exit 1 ;;
+            esac
+          fi
+          echo "task=$task" >> "$GITHUB_OUTPUT"
+      - name: Enrich small batch
+        run: python scripts/enrich_missing.py --task "${{ steps.choose.outputs.task }}" --limit 5
+      - name: Commit modified dataset and retry state
+        id: changes
+        run: |
+          git config user.name "game-radar-bot"
+          git config user.email "game-radar-bot@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "chore: enrich ${{ steps.choose.outputs.task }} metadata"
+            git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+      - uses: actions/configure-pages@v5
+        if: steps.changes.outputs.changed == 'true'
+      - uses: actions/upload-pages-artifact@v3
+        if: steps.changes.outputs.changed == 'true'
+        with:
+          path: .
+      - name: Deploy refreshed records
+        if: steps.changes.outputs.changed == 'true'
+        id: deployment
+        uses: actions/deploy-pages@v4
