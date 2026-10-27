@@ -304,6 +304,18 @@ personalized_ids={g["appid"] for g in deals+new_games}
 explore_games=sorted((g for g in explore_candidates if g["appid"] not in personalized_ids),
     key=lambda g:(not g.get("watchlisted"),-(g["discovery_score"] or 0),g["price"]))[:20]
 games=deals+new_games+explore_games
+# Gradually enrich criticism reasons for older and newly released games too,
+# without turning every publish into dozens of Steam review requests.
+if not REVIEWS_BLOCKED and time.monotonic()-START<FETCH_BUDGET_SECONDS-35:
+    targets=[g for g in games if g.get("category")!="explore" and
+             not (g.get("negative_review_analysis") or {}).get("sample_size")]
+    offset=today.toordinal()%max(len(targets),1)
+    targets=(targets[offset:]+targets[:offset])[:5]
+    for g in targets:
+        if time.monotonic()-START>FETCH_BUDGET_SECONDS-12:break
+        analysis=fetch_negative_reviews(g["appid"],limit=20)
+        if analysis.get("sample_size",0)>0:
+            g["negative_review_analysis"]=analysis
 for game in games:
     game["key_offers"]=clean_offers(game.get("key_offers"),game.get("price"))
     game["key_reference_min"]=min((o["price"] for o in game["key_offers"]),default=None)
