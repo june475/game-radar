@@ -100,13 +100,14 @@ def classify(flag,release_date,coming_soon,today,recent_days=120):
     return "deal"
 
 def discovery_score(game):
-    """Independent of taste_score: quality and low CN price drive experimentation."""
+    """Ranking only: never reject by price, rating, or the user's genre preferences."""
     pct=game.get("review_pct")
     count=game.get("review_count") or 0
-    price=game.get("price") or 999999
-    if pct is None or pct<85 or count<100 or price<=0 or price>40:
-        return None
-    quality=min(10,(pct-80)*.3+5)
-    confidence=min(1,count/1000)
-    affordability=10 if price<=10 else 9 if price<=20 else 8 if price<=30 else 7
-    return round(quality*.65+affordability*.30+confidence*.5,2)
+    value=game.get("price")
+    if value is None or value<=0:return 0.0
+    import math
+    # A mixed score can still appear; a large critical mass is evidence.
+    quality=(pct or 65)/10.0
+    confidence=min(1.0,math.log1p(count)/math.log1p(5000))
+    value_score=max(0.0,10.0-2.5*math.log1p(value/20.0))
+    return round(quality*.44+value_score*.32+confidence*2.4,2)
