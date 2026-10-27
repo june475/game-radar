@@ -25,6 +25,7 @@ sys.path.insert(0,str(Path(__file__).resolve().parent))
 from market import clean_offers,steampy,steamcici,steamraw
 from review_analysis import fetch_negative_reviews
 from availability import MOBILE,epic_history,metadata
+from storage import setup as setup_storage
 
 # Retry intervals (hours): failures have shorter retries than unavailable data.
 SUCCESS_HOURS={"keys":72,"reviews":24*7,"deck":24*14,
@@ -45,6 +46,7 @@ def load():
 def connect(path=DB):
     path.parent.mkdir(parents=True,exist_ok=True)
     conn=sqlite3.connect(path)
+    setup_storage(conn)
     conn.execute("""CREATE TABLE IF NOT EXISTS enrichment_state(
         appid INTEGER NOT NULL,task TEXT NOT NULL,status TEXT NOT NULL,
         last_attempt TEXT NOT NULL,next_attempt TEXT NOT NULL,
