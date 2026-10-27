@@ -86,6 +86,9 @@ def save(db_path, games, raw, config, hist, epic_records, observed=None):
     with sqlite3.connect(db_path) as conn:
         setup(conn)
         with conn:
+            # Purge previously accepted SteamPY 0.10 placeholder observations.
+            conn.execute("DELETE FROM key_price_history WHERE platform=? AND price<=?",
+                         ("SteamPY",0.10))
             # Seed former JSON minima only as a separate baseline; no fabricated date.
             # Real daily observations start with this database migration.
             for game in games:
