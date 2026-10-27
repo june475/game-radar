@@ -24,6 +24,16 @@ class MarketTests(unittest.TestCase):
         self.assertEqual(offer["price"],9.8)
         self.assertEqual(offer["kind"],"historical_listing")
 
+    def test_reject_placeholder_and_keep_reasonable_offers(self):
+        entries=[
+            {"platform":"SteamPY","price":0.1},
+            {"platform":"SteamPY","price":8.5},
+            {"platform":"SteamCiCi","price":22.0},
+        ]
+        result=market.clean_offers(entries,30.4)
+        self.assertEqual([item["price"] for item in result],[8.5,22.0])
+        self.assertEqual(market.clean_offers([{"platform":"SteamPY","price":0.1}],30.4),[])
+
     def test_prices_are_not_claimed_live(self):
         with patch.object(market,"steampy",return_value={"price":8.0}), \
              patch.object(market,"steamcici",return_value=None), \
