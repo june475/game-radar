@@ -5,6 +5,7 @@ from market import enrich
 from availability import epic_history, metadata
 from storage import save as save_database, statistics as db_statistics
 from discovery import discover, classify, discovery_score
+from review_analysis import fetch_negative_reviews, reason_adjustment
 
 ROOT=Path(__file__).resolve().parents[1]; DATA=ROOT/"data"; DATA.mkdir(exist_ok=True)
 cfg=json.loads((ROOT/"config.json").read_text("utf-8"))
@@ -63,6 +64,10 @@ for key, flag in (("specials","deal"),("new_releases","new")):
 # Expand past the homepage's small featured lists; each pool has its own candidates.
 for kind in ("deal","new","explore"):
     buckets[kind].extend(discover(kind,pages=1,count=50,max_items=130))
+# Explicit watchlist is considered even when Steam discovery omits it.
+for watch_id in cfg.get("explore_watchlist",[]):
+    if isinstance(watch_id,int) and watch_id>0:
+        buckets["explore"].insert(0,{"id":watch_id,"_flag":"explore","_watchlisted":True})
 raw=buckets["deal"]+buckets["new"]+buckets["explore"]
 print("candidate counts", {k:len(v) for k,v in buckets.items()})
 
@@ -130,11 +135,7 @@ for x in raw:
     final=round(taste*.45+q_for_rank*.35+price_score*.20,1)
     # 完全不匹配口味的折扣游戏不进入推荐；新游允许较低门槛进入观察
     if category=="deal" and taste<2.0:continue
-    if rv["pct"] is not None and rv["pct"]<65:continue
-    # Discovery is independent of user taste, but strictly requires strong
-    # Chinese review evidence and an affordable Steam CN price.
-    if category=="explore" and discovery_score({"review_pct":rv["pct"],
-            "review_count":rv["total"],"review_scope":rv["scope"],"price":price}) is None:continue
+    if category!="explore" and rv["pct"] is not None and rv["pct"]<65:continue
 
     info=metadata(appid,[name,d.get("name","")],epic_records,mobile_verified)
     if info["epic_exclude"]: continue
@@ -144,7 +145,8 @@ for x in raw:
     tags=(["站内新低"] if newlow else [])+([f"-{disc}%"] if disc else [])+genres[:3]
     why=("匹配你的偏好："+ " / ".join(dict.fromkeys(reasons[:4]))) if reasons else "新游观察候选"
     if category=="explore":
-        why="简中好评率高、Steam 国区价格低；推荐你尝试其他游戏类型"
+        why="跳出个人口味：综合价格、评价规模及差评原因，关注玩法本身"
+        if x.get("_watchlisted"): why="你已关注：不因好评率或价格被排除，重点查看差评原因"
     seen.add((x["_flag"],appid))
     games.append({
       "appid":appid,"name":(d.get("name") or name),"name_en":name if name!=(d.get("name") or name) else None,"steam_subids":steam_subids,"release_date":release_date,"coming_soon":coming_soon,"price":price,"original_price":original,"discount":disc,
@@ -153,18 +155,34 @@ for x in raw:
       "review":(f"{rv['scope']}好评 {rv['pct']}% · {rv['total']} 条" if rv["pct"] is not None else "Steam 评价数据暂不可用"),
       "review_pct":rv["pct"],"review_count":rv["total"],"review_scope":rv["scope"],
       "recommend_score":final,"taste_score":taste,"quality_score":quality,"price_score":price_score,
-      "genres":genres,"tags":tags,"flags":flags,"category":category,"discovery_score":discovery_score({"review_pct":rv["pct"],"review_count":rv["total"],"price":price}) if category=="explore" else None,"why":why,
+      "genres":genres,"tags":tags,"flags":flags,"category":category,"discovery_score":discovery_score({"review_pct":rv["pct"],"review_count":rv["total"],"price":price}) if category=="explore" else None,
+      "watchlisted":bool(x.get("_watchlisted")),"why":why,
       "mobile":m,"epic_status":info["epic_status"],"epic_giveaway":info["epic_giveaway"],"epic_source":info["epic_source"],"dlc_status":"未自动核实",
       "key_price":None,"key_source":None,"steam_historical_low":None,"steam_historical_low_source":None,
       "steam_deck":None
     })
 
+# Evaluate negative-review themes for the strongest exploration candidates.
+# Deliberately bounded to avoid several hundred extra requests per day.
+explore_candidates=sorted((g for g in games if g["category"]=="explore"),
+    key=lambda g:(not g.get("watchlisted"),-(g["discovery_score"] or 0)))[:45]
+for candidate in explore_candidates:
+    info=fetch_negative_reviews(candidate["appid"])
+    candidate["negative_review_analysis"]=info
+    candidate["discovery_score"]=round((candidate["discovery_score"] or 0)+reason_adjustment(info),2)
+    if info.get("main_issue"):
+        candidate["why"]="近期简中差评常提及："+info["main_issue"]+"（关键词样本，非定论）"
+    elif candidate.get("watchlisted"):
+        candidate["why"]="你关注的游戏；差评样本不足或原因尚未确认"
+    else:
+        candidate["why"]="跨类型发现：结合价格、玩家评价及差评样本综合考虑"
+
 deals=sorted((g for g in games if g["category"]=="deal"),key=lambda g:(-g["recommend_score"],-g["taste_score"],g["price"]))[:30]
 new_games=sorted((g for g in games if g["category"]=="new"),key=lambda g:(-g["recommend_score"],-g["taste_score"],g["price"]))[:30]
 # Dedicated exploration pool, ranked by quality and affordability only.
 personalized_ids={g["appid"] for g in deals+new_games}
-explore_games=sorted((g for g in games if g["category"]=="explore" and g["appid"] not in personalized_ids),
-    key=lambda g:(-(g["discovery_score"] or 0),g["price"]))[:20]
+explore_games=sorted((g for g in explore_candidates if g["appid"] not in personalized_ids),
+    key=lambda g:(not g.get("watchlisted"),-(g["discovery_score"] or 0),g["price"]))[:20]
 games=deals+new_games+explore_games
 print("selected separately",{"deals":len(deals),"new":len(new_games),"explore":len(explore_games)})
 for g in games:
@@ -177,7 +195,7 @@ cn=datetime.datetime.now(datetime.timezone.utc)+datetime.timedelta(hours=8)
 db_path=DATA/"game_radar.db"
 db_result=save_database(db_path,games,raw,cfg,hist,epic_records,cn)
 print("SQLite saved:",db_result,db_statistics(db_path))
-out={"meta":{"updated_at_cn":cn.strftime("%Y-%m-%d %H:%M"),"version":"V3 extended discovery","note":"老游/新游推荐分=45%口味+35%质量+20%价格；尝鲜榜只看简中口碑与价格，不使用个人口味。站内新低不是Steam全历史史低。"},"counts":{"deal":len(deals),"new":len(new_games),"explore":len(explore_games)},"games":games}
+out={"meta":{"updated_at_cn":cn.strftime("%Y-%m-%d %H:%M"),"version":"V4 review-context discovery","note":"尝鲜榜不设价格或好评率硬门槛；查看近期简中差评关键词，区别争议类型。分析是辅助证据，不代表玩家差评全部属实或无效。"},"counts":{"deal":len(deals),"new":len(new_games),"explore":len(explore_games)},"games":games}
 (DATA/"games.json").write_text(json.dumps(out,ensure_ascii=False,indent=2),"utf-8")
 hp.write_text(json.dumps(hist,ensure_ascii=False,indent=2),"utf-8")
 print("updated",len(games))
