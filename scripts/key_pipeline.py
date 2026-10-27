@@ -28,12 +28,9 @@ def valid_display_offers(offers,steam_price=None,now=None):
     now=now or now_utc()
     result=[]
     for item in clean_offers(offers,steam_price):
-        if item.get("kind")=="historical_listing":
-            result.append(item)  # Explicit historical data; not a live offer.
-        else:
-            date=parse_date(item.get("checked_at"))
-            if date and now-date<=dt.timedelta(hours=MAX_REFERENCE_AGE_HOURS) and date<=now+dt.timedelta(minutes=5):
-                result.append(item)
+        date=parse_date(item.get("checked_at"))
+        if date and dt.timedelta(0)<=now-date<=dt.timedelta(hours=MAX_REFERENCE_AGE_HOURS):
+            result.append(item)
     return result
 
 def setup(conn):
@@ -81,7 +78,7 @@ def query(appid,subids,price,old,now,lookups=(steampy,steamcici)):
         candidate=lookup(appid,subids)
         if candidate:
             candidate=dict(candidate)
-            candidate.setdefault("checked_at",now.isoformat())
+            candidate["checked_at"]=now.isoformat()
             fresh.extend(clean_offers([candidate],price))
     merged={x["platform"]:x for x in previous}
     merged.update({x["platform"]:x for x in fresh})
@@ -146,3 +143,12 @@ def run(paths,db_path,limit=5,now=None,lookups=(steampy,steamcici),details_looku
     report["changed_files"]=len(changed)
     print("Unified key enrichment",report)
     return report
+
+if __name__=="__main__":
+    import argparse
+    parser=argparse.ArgumentParser()
+    parser.add_argument("--limit",type=int,default=5)
+    args=parser.parse_args()
+    root=Path(__file__).resolve().parents[1]
+    run([root/"data/games.json",root/"data/hot_low.json"],
+        root/"data/game_radar.db",limit=max(1,min(args.limit,20)))
