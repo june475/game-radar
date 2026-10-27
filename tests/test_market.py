@@ -35,7 +35,7 @@ class MarketTests(unittest.TestCase):
         self.assertEqual(market.clean_offers([{"platform":"SteamPY","price":0.1}],30.4),[])
 
     def test_prices_are_not_claimed_live(self):
-        with patch.object(market,"steampy",return_value={"price":8.0}), \
+        with patch.object(market,"steampy",return_value={"platform":"SteamPY","price":8.0}), \
              patch.object(market,"steamcici",return_value=None), \
              patch.object(market,"steamraw",return_value=None):
             g=market.enrich({"appid":435150,"steam_subids":[443]}, {})
