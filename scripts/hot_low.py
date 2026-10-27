@@ -31,12 +31,12 @@ def request_json(url,timeout=12):
         return json.loads(r.read(1200000).decode("utf-8"))
 
 def popular_deals(pages=3):
-    """Steam specials default relevance ordering; independent of preferences."""
+    """Steam best-selling specials ordering; independent of preferences."""
     found=[];seen=set()
     for page in range(pages):
         args={"query":"","start":page*50,"count":50,"infinite":1,
               "cc":"cn","l":"schinese","specials":1,
-              "hidef2p":1,"ignore_preferences":1,"category1":998}
+              "hidef2p":1,"ignore_preferences":1,"filter":"topsellers","category1":998}
         url="https://store.steampowered.com/search/results/?"+urllib.parse.urlencode(args)
         try:
             response=request_json(url)
@@ -75,7 +75,7 @@ def collect(max_checked=36):
     except Exception as exc:
         print("Steam specials unavailable",str(exc)[:160]);ids=[]
     if not ids:
-        print("No updated popularity ranking; preserving last verified snapshot")
+        print("No updated popularity ranking; preserving existing file unchanged")
         return old.get("games",[])
     ranked=[];checked=0
     for rank,appid in enumerate(ids,1):
@@ -107,7 +107,7 @@ def collect(max_checked=36):
                 "discount":discount,"release_date":(d.get("release_date") or {}).get("date"),
                 "genres":[x.get("description") for x in d.get("genres",[]) if x.get("description")],
                 "tags":["Steam 热门特惠","SteamRaw 覆盖期低价"],
-                "why":"来自 Steam 热门特惠排序；现价达到 SteamRaw 已记录覆盖期低价",
+                "why":"来自 Steam 热销特惠排序；现价达到 SteamRaw 已记录覆盖期低价",
                 "popularity_rank":rank,"price_low_verified":low["price"],
                 "price_low_source":low.get("source"),"price_low_url":low.get("url"),
                 "price_low_scope":"SteamRaw 覆盖期低价（不是全历史史低）",
@@ -121,7 +121,7 @@ def collect(max_checked=36):
     # Do not carry over stale 'hot' results: popularity and price change daily.
     ranked.sort(key=lambda g:g["popularity_rank"])
     out={"meta":{"updated_at_cn":(now+dt.timedelta(hours=8)).strftime("%Y-%m-%d %H:%M"),
-                "rank_source":"Steam 商店特惠默认相关性排序（热度代理，不是实时销量榜）",
+                "rank_source":"Steam 商店热销特惠筛选（热度代理，不是实时销量榜）",
                 "low_scope":"SteamRaw 覆盖期低点，非 Steam 全历史史低",
                 "checked":checked},"games":ranked[:30]}
     OUTPUT.write_text(json.dumps(out,ensure_ascii=False,indent=2)+"\n","utf-8")
