@@ -5,6 +5,7 @@ function card(g){
 const cleanOffers=(g.key_offers||[]).filter(o=>o&&Number(o.price)>0&&!(o.platform==="SteamPY"&&Number(o.price)<=0.1)&&!(g.price>0&&Number(o.price)<Math.max(.5,g.price*.03)));
 const offers=cleanOffers.length?cleanOffers.map(o=>`<div class="key-offer"><div class="key-source">${esc(o.platform)} <span class="key-type">${o.kind==="historical_listing"?"历史挂售":"接口参考"}</span></div><div class="key-price">${fmt(o.price)}</div><div class="key-caution">${esc(o.kind==="historical_listing"?"非当前在售价格":"库存、激活区和版本需核实")}</div></div>`).join(""):`<div class="key-unavailable">${g.enrichment_status?.keys?.status==="failed"?"散 Key 查询失败，计划自动重试":g.enrichment_status?.keys?.status==="no_quote"?"已查询，未发现可靠参考报价":g.enrichment_status?.keys?.status==="unverified"?"商品版本或套装信息未核实":"散 Key 尚待查询或暂无可靠报价"}</div>`;
 const genres=(g.genres||[]).filter(Boolean);
+const isHot=g.category==="hot";
 const negative=g.negative_review_analysis;
 const topics=negative?.categories||[];
 const insight=`<div class="review-reasons"><div class="detail-label">差评主要原因</div><div class="review-summary">${negative?.sample_size>=3&&topics.length?topics.slice(0,3).map(x=>`<span class="review-topic">${esc(x.name)} <b>${Number(x.mentions)||0}</b>条提及</span>`).join(""):`<span class="review-unknown">暂无足够评论样本，尚不能判断主要差评原因</span>`}</div><div class="review-caution">简中近期差评样本：${negative?.sample_size??0} 条 · 关键词归类仅供参考，不代表全部玩家</div></div>`;
@@ -17,16 +18,17 @@ return `<article class="card"><a href="${esc(g.url)}" target="_blank" rel="noope
 <div class="tags">${(g.tags||[]).map(t=>`<span class="tag ${t==="站内新低"?"hot":""}">${esc(t)}</span>`).join("")}</div>
 <div class="why">${esc(g.why||"")}${g.watchlisted?" · ★ 关注游戏":""}</div>${insight}
 <div class="meta" style="margin-top:8px">📱 手机版：${g.mobile?`Android ${esc(g.mobile.android||"待核实")} / iOS ${esc(g.mobile.ios||"待核实")}`:"未核实"} · 🎁 Epic：${esc(g.epic_status||"未核实")}</div>
-<div class="key-panel"><div class="detail-label">散 Key 价格 <span class="key-info">影响购买决策 · 报价需核实</span></div><div class="key-offers">${offers}</div></div>
+${isHot?`<div class="key-panel"><div class="detail-label">核实低价 <span class="key-info">SteamRaw 覆盖期，非 Steam 全历史史低</span></div><div class="key-price">${fmt(g.price_low_verified)}</div><div class="key-caution">热度序位：${g.popularity_rank||"—"} · 来源：Steam 特惠搜索</div></div>`:`<div class="key-panel"><div class="detail-label">散 Key 价格 <span class="key-info">影响购买决策 · 报价需核实</span></div><div class="key-offers">${offers}</div></div>
+</div>`}
 <div class="meta">Steam全历史最低：${g.steam_historical_low!=null?fmt(g.steam_historical_low):"暂不可核实"} · SteamRaw覆盖期最低：${g.region_history_low?.price!=null?fmt(g.region_history_low.price):"待核实"} · 站内最低：${fmt(g.tracked_low)} · Steam Deck：${esc(g.steam_deck||"待核实")}</div>
 <div class="meta">${g.category==="explore"?"尝鲜分 "+(g.discovery_score??"—")+" · 不计算个人口味":"口味 "+(g.taste_score??"—")+" · 质量 "+(g.quality_score??"—")+" · 价格 "+(g.price_score??"—")}</div>
 </div></a></article>`;
 }
 function render(){
 const q=(document.querySelector("#search")?.value||"").trim().toLowerCase();
-const all=DATA.games||[];
+const all=[...(DATA.games||[]),...(DATA.hotGames||[])];
 const search=g=>!q||[g.name,g.name_en,...(g.genres||[])].some(v=>String(v||"").toLowerCase().includes(q));
-for(const category of ["deal","new","explore"]){
+for(const category of ["deal","new","explore","hot"]){
 const section=document.querySelector("#"+category+"-section");
 const elem=document.querySelector("#"+category+"-games");
 const items=all.filter(g=>(g.category||((g.flags||[]).includes("new")?"new":"deal"))===category).filter(search).filter(g=>filter!=="mobile"||(g.flags||[]).includes("mobile"));
@@ -66,7 +68,7 @@ function setDailyWallpaper(){
 }
 
 function boot(d){
-DATA={games:d.games||[],meta:d.meta||{}};
+DATA={games:d.games||[],hotGames:DATA.hotGames||[],meta:d.meta||{}};
 document.querySelector("#updated").textContent="更新："+(DATA.meta.updated_at_cn||"—");
 const gs=DATA.games;
 document.querySelector("#stats").innerHTML=[
@@ -86,3 +88,6 @@ fetch("data/games.json?"+Date.now()).then(r=>{if(!r.ok)throw Error("data fetch f
 
 // Already-open tabs also rotate after Beijing midnight.
 setInterval(setDailyWallpaper,60000);
+
+// Independent public Steam specials dataset: no personal taste inputs.
+fetch("data/hot_low.json?"+Date.now()).then(r=>{if(!r.ok)throw Error("hot list unavailable");return r.json()}).then(d=>{DATA.hotGames=d.games||[];render();}).catch(()=>{DATA.hotGames=[];render();});
