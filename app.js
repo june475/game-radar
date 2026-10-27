@@ -1,9 +1,18 @@
 let DATA={games:[],meta:{}};let filter="all";
 const fmt=n=>n==null?"—":"¥"+Number(n).toFixed(n%1?2:0);
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+// A quote is a dated observation, never proof of current stock.
+const recentQuote=o=>{
+  const t=Date.parse(o?.checked_at||"");
+  return Number.isFinite(t)&&t<=Date.now()+300000&&Date.now()-t<=72*3600000;
+};
+const quoteAge=o=>{
+  const hours=Math.max(0,Math.floor((Date.now()-Date.parse(o.checked_at))/3600000));
+  return hours<1?"1小时内":hours<24?hours+"小时前":Math.floor(hours/24)+"天前";
+};
 function card(g){
-const cleanOffers=(g.key_offers||[]).filter(o=>o&&Number(o.price)>0&&!(o.platform==="SteamPY"&&Number(o.price)<=0.1)&&!(g.price>0&&Number(o.price)<Math.max(.5,g.price*.03)));
-const offers=cleanOffers.length?cleanOffers.map(o=>`<div class="key-offer"><div class="key-source">${esc(o.platform)} <span class="key-type">${o.kind==="historical_listing"?"历史挂售":"接口参考"}</span></div><div class="key-price">${fmt(o.price)}</div><div class="key-caution">${esc(o.kind==="historical_listing"?"非当前在售价格":"库存、激活区和版本需核实")}</div></div>`).join(""):`<div class="key-unavailable">${g.enrichment_status?.keys?.status==="failed"?"散 Key 查询失败，计划自动重试":g.enrichment_status?.keys?.status==="no_quote"?"已查询，未发现可靠参考报价":g.enrichment_status?.keys?.status==="unverified"?"商品版本或套装信息未核实":"散 Key 尚待查询或暂无可靠报价"}</div>`;
+const cleanOffers=(g.key_offers||[]).filter(o=>recentQuote(o)&&Number(o.price)>0&&!(o.platform==="SteamPY"&&Number(o.price)<=0.1)&&!(g.price>0&&Number(o.price)<Math.max(.5,g.price*.03)));
+const offers=cleanOffers.length?cleanOffers.map(o=>`<div class="key-offer"><div class="key-source">${esc(o.platform)} <span class="key-type">${o.kind==="historical_listing"?"历史挂售":"接口参考"}</span></div><div class="key-price">${fmt(o.price)}</div><div class="key-caution">${esc(o.kind==="historical_listing"?"非当前在售价格":"库存、激活区和版本需核实")} · ${quoteAge(o)}核实</div></div>`).join(""):`<div class="key-unavailable">${g.enrichment_status?.keys?.status==="failed"?"散 Key 查询失败，计划自动重试":g.enrichment_status?.keys?.status==="no_quote"?"已查询，未发现可靠参考报价":g.enrichment_status?.keys?.status==="unverified"?"商品版本或套装信息未核实":(g.key_offers||[]).length?"已记录报价超过72小时，待重新核实":"散 Key 尚待查询或暂无可靠报价"}</div>`;
 const genres=(g.genres||[]).filter(Boolean);
 const isHot=g.category==="hot";
 const negative=g.negative_review_analysis;
