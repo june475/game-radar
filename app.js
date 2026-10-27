@@ -4,6 +4,9 @@ const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&
 function card(g){
 const offers=(g.key_offers||[]).map(o=>esc(o.platform)+" "+fmt(o.price)+"（"+esc(o.status)+"）").join(" / ")||"待核实";
 const genres=(g.genres||[]).filter(Boolean);
+const negative=g.negative_review_analysis;
+const topics=negative?.categories||[];
+const insight=g.category==="explore" ? `<div class="meta" style="margin-top:8px"><strong>差评关注：</strong>${topics.length?topics.map(x=>esc(x.name)+" "+x.mentions+"条提及").join(" / "):"暂缺有效差评样本"} · 样本${negative?.sample_size??0}条 <span title="关键词提及不等于证实差评原因">（仅作参考）</span></div>`:"";
 return `<article class="card"><a href="${esc(g.url)}" target="_blank" rel="noopener noreferrer">
 <div class="cover" style="background-image:url('${esc(g.image||"")}')"></div>
 <div class="body"><div class="top"><div><div class="title">${esc(g.name)}</div>${g.name_en?`<div class="meta">${esc(g.name_en)}</div>`:""}</div><div class="score">${g.category==="explore"?(g.discovery_score??"—"):(g.recommend_score??"—")}</div></div>
@@ -11,7 +14,7 @@ return `<article class="card"><a href="${esc(g.url)}" target="_blank" rel="noope
 <div class="meta">发行日期：${esc(g.release_date||"未知")}${g.coming_soon?"（尚未发售）":""} · ${esc(g.review||"Steam")}</div>
 <span class="price">${fmt(g.price)}</span>${g.original_price!==g.price?`<span class="old">${fmt(g.original_price)}</span>`:""}${g.discount?`<span class="discount">-${g.discount}%</span>`:""}
 <div class="tags">${(g.tags||[]).map(t=>`<span class="tag ${t==="站内新低"?"hot":""}">${esc(t)}</span>`).join("")}</div>
-<div class="why">${g.category==="explore"?"尝鲜理由：简中口碑优秀、国区价格低，适合尝试不同玩法。":esc(g.why||"")}</div>
+<div class="why">${esc(g.why||"")}${g.watchlisted?" · ★ 关注游戏":""}</div>${insight}
 <div class="meta" style="margin-top:8px">📱 手机版：${g.mobile?`Android ${esc(g.mobile.android||"待核实")} / iOS ${esc(g.mobile.ios||"待核实")}`:"未核实"} · 🎁 Epic：${esc(g.epic_status||"未核实")}</div>
 <div class="meta">散Key：${offers}</div>
 <div class="meta">Steam全历史最低：${g.steam_historical_low!=null?fmt(g.steam_historical_low):"暂不可核实"} · SteamRaw覆盖期最低：${g.region_history_low?.price!=null?fmt(g.region_history_low.price):"待核实"} · 站内最低：${fmt(g.tracked_low)} · Steam Deck：${esc(g.steam_deck||"待核实")}</div>
