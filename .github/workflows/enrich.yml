@@ -69,15 +69,12 @@ jobs:
             # 7 small bounded batches, sequentially, never 7 parallel workers.
             for task in keys reviews deck history epic mobile dlc; do
               echo "::group::Enrich $task"
-              python scripts/enrich_missing.py --task "$task" --limit 2
+              if [ "$task" = "keys" ]; then python scripts/key_pipeline.py --limit 4; else python scripts/enrich_missing.py --task "$task" --limit 2; fi
               echo "::endgroup::"
             done
           else
-            python scripts/enrich_missing.py --task "$SELECTED_TASK" --limit 5
+            if [ "$SELECTED_TASK" = "keys" ]; then python scripts/key_pipeline.py --limit 8; else python scripts/enrich_missing.py --task "$SELECTED_TASK" --limit 5; fi
           fi
-      - name: Incrementally enrich trending game key quotes
-        if: steps.choose.outputs.task == 'keys' || steps.choose.outputs.task == 'all'
-        run: python scripts/hot_keys.py --limit 5
       - name: Commit modified dataset and retry state
         id: changes
         run: |
