@@ -7,13 +7,14 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: "daily = discover sources; compensate = consume pending queue"
+        description: "all = discovery plus missing-category repair; daily = discovery; compensate = repair"
         required: false
         type: choice
         options:
-          - compensate
+          - all
           - daily
-        default: compensate
+          - compensate
+        default: all
 permissions:
   contents: write
   pages: write
@@ -24,7 +25,7 @@ concurrency:
 jobs:
   collect-and-republish:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -47,7 +48,15 @@ jobs:
         if: steps.check.outputs.run == 'true'
         env:
           RADAR_MODE: ${{ github.event_name == 'workflow_dispatch' && inputs.mode || github.event.schedule == '20 6 * * *' && 'daily' || 'compensate' }}
-        run: python scripts/update.py
+        run: |
+          if [ "$RADAR_MODE" = "all" ]; then
+            echo "Phase 1: daily discovery"
+            RADAR_MODE=daily python scripts/update.py
+            echo "Phase 2: compensate missing recommendation categories"
+            RADAR_MODE=compensate python scripts/update.py
+          else
+            python scripts/update.py
+          fi
       - name: Commit updated data
         if: steps.check.outputs.run == 'true'
         run: |
