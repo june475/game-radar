@@ -3,7 +3,7 @@ const fmt=n=>n==null?"—":"¥"+Number(n).toFixed(n%1?2:0);
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 function card(g){
 const cleanOffers=(g.key_offers||[]).filter(o=>o&&Number(o.price)>0&&!(o.platform==="SteamPY"&&Number(o.price)<=0.1)&&!(g.price>0&&Number(o.price)<Math.max(.5,g.price*.03)));
-const offers=cleanOffers.length?cleanOffers.map(o=>`<div class="key-offer"><div class="key-source">${esc(o.platform)} <span class="key-type">${o.kind==="historical_listing"?"历史挂售":"接口参考"}</span></div><div class="key-price">${fmt(o.price)}</div><div class="key-caution">${esc(o.kind==="historical_listing"?"非当前在售价格":"库存、激活区和版本需核实")}</div></div>`).join(""):`<div class="key-unavailable">暂无可靠散 Key 报价</div>`;
+const offers=cleanOffers.length?cleanOffers.map(o=>`<div class="key-offer"><div class="key-source">${esc(o.platform)} <span class="key-type">${o.kind==="historical_listing"?"历史挂售":"接口参考"}</span></div><div class="key-price">${fmt(o.price)}</div><div class="key-caution">${esc(o.kind==="historical_listing"?"非当前在售价格":"库存、激活区和版本需核实")}</div></div>`).join(""):`<div class="key-unavailable">${g.enrichment_status?.keys?.status==="failed"?"散 Key 查询失败，计划自动重试":g.enrichment_status?.keys?.status==="no_quote"?"已查询，未发现可靠参考报价":g.enrichment_status?.keys?.status==="unverified"?"商品版本或套装信息未核实":"散 Key 尚待查询或暂无可靠报价"}</div>`;
 const genres=(g.genres||[]).filter(Boolean);
 const negative=g.negative_review_analysis;
 const topics=negative?.categories||[];
