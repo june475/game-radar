@@ -18,8 +18,8 @@ return `<article class="card"><a href="${esc(g.url)}" target="_blank" rel="noope
 <div class="tags">${(g.tags||[]).map(t=>`<span class="tag ${t==="站内新低"?"hot":""}">${esc(t)}</span>`).join("")}</div>
 <div class="why">${esc(g.why||"")}${g.watchlisted?" · ★ 关注游戏":""}</div>${isHot?"":insight}
 <div class="meta" style="margin-top:8px">📱 手机版：${g.mobile?`Android ${esc(g.mobile.android||"待核实")} / iOS ${esc(g.mobile.ios||"待核实")}`:"未核实"} · 🎁 Epic：${esc(g.epic_status||"未核实")}</div>
-${isHot?`<div class="key-panel"><div class="detail-label">核实低价 <span class="key-info">SteamRaw 覆盖期，非 Steam 全历史史低</span></div><div class="key-price">${fmt(g.price_low_verified)}</div><div class="key-caution">热度序位：${g.popularity_rank||"—"} · 来源：Steam 特惠搜索</div></div>`:`<div class="key-panel"><div class="detail-label">散 Key 价格 <span class="key-info">影响购买决策 · 报价需核实</span></div><div class="key-offers">${offers}</div></div>`}
-<div class="meta">Steam全历史最低：${g.steam_historical_low!=null?fmt(g.steam_historical_low):"暂不可核实"} · SteamRaw覆盖期最低：${g.region_history_low?.price!=null?fmt(g.region_history_low.price):"待核实"} · 站内最低：${fmt(g.tracked_low)} · Steam Deck：${esc(g.steam_deck||"待核实")}</div>
+${isHot?`<div class="key-panel"><div class="detail-label">史低状态 <span class="key-info">仅有价格记录才标为已核实</span></div><div class="key-price">${g.low_verified?fmt(g.price_low_verified):"尚未核实史低"}</div><div class="key-caution">热度序位：${g.popularity_rank||"—"} · 来源：Steam 特惠搜索</div></div>`:`<div class="key-panel"><div class="detail-label">散 Key 价格 <span class="key-info">影响购买决策 · 报价需核实</span></div><div class="key-offers">${offers}</div></div>`}
+${isHot?"":`<div class="meta">Steam全历史最低：${g.steam_historical_low!=null?fmt(g.steam_historical_low):"暂不可核实"} · SteamRaw覆盖期最低：${g.region_history_low?.price!=null?fmt(g.region_history_low.price):"待核实"} · 站内最低：${fmt(g.tracked_low)} · Steam Deck：${esc(g.steam_deck||"待核实")}</div>`}
 <div class="meta">${g.category==="explore"?"尝鲜分 "+(g.discovery_score??"—")+" · 不计算个人口味":g.category==="hot"?"Steam 热销特惠序位 "+(g.popularity_rank??"—")+" · 不计个人口味":"口味 "+(g.taste_score??"—")+" · 质量 "+(g.quality_score??"—")+" · 价格 "+(g.price_score??"—")}</div>
 </div></a></article>`;
 }
@@ -33,7 +33,7 @@ const elem=document.querySelector("#"+category+"-games");
 const items=all.filter(g=>(g.category||((g.flags||[]).includes("new")?"new":"deal"))===category).filter(search).filter(g=>filter!=="mobile"||(g.flags||[]).includes("mobile"));
 const visible=filter==="all"||filter==="mobile"||filter===category;
 section.hidden=!visible;
-elem.innerHTML=items.length?items.map(card).join(""):`<div class="note">本期暂无符合条件的${category==="deal"?"老游戏折扣":category==="new"?"近期新游戏":category==="hot"?"热门特惠覆盖期低价游戏":"尝鲜游戏"}。</div>`;
+elem.innerHTML=items.length?items.map(card).join(""):`<div class="note">本期暂无符合条件的${category==="deal"?"老游戏折扣":category==="new"?"近期新游戏":category==="hot"?"热门特惠游戏":"尝鲜游戏"}。</div>`;
 document.querySelector("#"+category+"-count").textContent="（"+items.length+"/"+(category==="explore"?20:30)+"）";
 }
 }
@@ -69,12 +69,6 @@ function setDailyWallpaper(){
 function boot(d){
 DATA={games:d.games||[],hotGames:DATA.hotGames||[],meta:d.meta||{}};
 document.querySelector("#updated").textContent="更新："+(DATA.meta.updated_at_cn||"—");
-const gs=DATA.games;
-document.querySelector("#stats").innerHTML=[
-["今日候选",gs.length],["老游戏折扣",gs.filter(x=>x.category==="deal"||(!x.category&&x.flags?.includes("deal"))).length],
-["近期新游",gs.filter(x=>x.category==="new"||(!x.category&&x.flags?.includes("new"))).length],
-["尝鲜发现",gs.filter(x=>x.category==="explore").length]
-].map(x=>`<div class="stat"><b>${x[1]}</b><span>${x[0]}</span></div>`).join("");
 render();
   setDailyWallpaper();
 }
