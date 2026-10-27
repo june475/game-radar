@@ -1,0 +1,59 @@
+name: Collect and Repair Game Radar Data
+on:
+  schedule:
+    # First collection after the daily publish; compensation twice later.
+    - cron: "20 6 * * *"
+    - cron: "15 9,13 * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "daily = discover sources; compensate = consume pending queue"
+        required: false
+        type: choice
+        options:
+          - compensate
+          - daily
+        default: compensate
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: game-radar-operations
+  cancel-in-progress: false
+jobs:
+  collect-and-republish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate source and tests
+        run: |
+          python -m compileall -q scripts tests
+          python -m unittest discover -s tests -v
+      - name: Collect incrementally
+        env:
+          RADAR_MODE: ${{ github.event_name == 'workflow_dispatch' && inputs.mode || github.event.schedule == '20 6 * * *' && 'daily' || 'compensate' }}
+        run: python scripts/update.py
+      - name: Commit data and retry on concurrent branch changes
+        run: |
+          git config user.name "game-radar-bot"
+          git config user.email "game-radar-bot@users.noreply.github.com"
+          git add data/
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: refresh game radar data"
+            git push
+          fi
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - name: Republish data without waiting for next daily publish
+        id: deployment
+        uses: actions/deploy-pages@v4
