@@ -122,7 +122,8 @@ if MODE=="compensate":
             "final_price":round(g.get("price",0)*100) if g.get("price") else None,
             "original_price":round(g.get("original_price",0)*100) if g.get("original_price") else None,
             "discount_percent":g.get("discount",0)})
-    raw=missing[:25]+existing_pending
+    # Finish pending items before revisiting previously displayed incomplete cards.
+    raw=existing_pending+missing[:15]
     print("Compensating pending candidates:",len(existing_pending),"missing existing:",len(missing))
 else:
     src=get("https://store.steampowered.com/api/featuredcategories?cc=cn&l=schinese")
