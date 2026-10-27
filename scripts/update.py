@@ -114,7 +114,16 @@ for kind in ("deal","new","explore"):
 for watch_id in cfg.get("explore_watchlist",[]):
     if isinstance(watch_id,int) and watch_id>0:
         buckets["explore"].insert(0,{"id":watch_id,"_flag":"explore","_watchlisted":True})
-raw=buckets["deal"]+buckets["new"]+buckets["explore"]
+# Put followed games first and interleave all three sources.
+# Previous sequential processing exhausted the global time budget before 'explore'.
+watch_ids={x for x in cfg.get("explore_watchlist",[]) if isinstance(x,int)}
+watch=[x for x in buckets["explore"] if x.get("id") in watch_ids]
+pools={kind:[x for x in buckets[kind] if x.get("id") not in watch_ids]
+       for kind in ("deal","new","explore")}
+raw=list(watch)
+for i in range(max(map(len,pools.values()),default=0)):
+    for kind in ("explore","deal","new"):
+        if i<len(pools[kind]):raw.append(pools[kind][i])
 print("candidate counts", {k:len(v) for k,v in buckets.items()})
 
 seen=set(); games=[]; today=(datetime.datetime.now(datetime.timezone.utc)+datetime.timedelta(hours=8)).date()
@@ -134,7 +143,7 @@ for x in raw:
     original_cents=x.get("original_price") if x.get("original_price") is not None else price_data.get("initial")
     price=(cents or 0)/100
     original=(original_cents or cents or 0)/100
-    if price<=0 or (x["_flag"]=="deal" and price>80):continue
+    if (price<=0 and not x.get("_watchlisted")) or (x["_flag"]=="deal" and price>80):continue
     if x["_flag"]=="deal" and not (x.get("discount_percent") or price_data.get("discount_percent")):
         continue
     # Capture actual candidate prices in SQLite, including search-discovered titles.
@@ -175,9 +184,10 @@ for x in raw:
     price_score=4.0+(2 if price<=10 else 1.4 if price<=30 else .8 if price<=60 else .2)+(1.5 if disc>=75 else 1 if disc>=50 else .4 if disc>=25 else 0)
     price_score=min(10,round(price_score,1))
 
-    old=hist.get(str(appid),{}).get("low"); newlow=old is None or price<old
-    hist[str(appid)]={"name":name,"low":min(price,old) if old is not None else price,"last":price}
-    if newlow: price_score=min(10,round(price_score+.3,1))
+    old=hist.get(str(appid),{}).get("low"); newlow=price>0 and (old is None or price<old)
+    if price>0:
+        hist[str(appid)]={"name":name,"low":min(price,old) if old is not None else price,"last":price}
+    if newlow and price>0: price_score=min(10,round(price_score+.3,1))
 
     # 45%口味 + 35%质量 + 20%价格；新游评价不足时用中性质量分
     q_for_rank=quality if rv["pct"] is not None else 6.5
@@ -198,7 +208,7 @@ for x in raw:
         if x.get("_watchlisted"): why="你已关注：不因好评率或价格被排除，重点查看差评原因"
     seen.add((x["_flag"],appid))
     games.append({
-      "appid":appid,"name":(d.get("name") or name),"name_en":name if name!=(d.get("name") or name) else None,"steam_subids":steam_subids,"release_date":release_date,"coming_soon":coming_soon,"price":price,"original_price":original,"discount":disc,
+      "appid":appid,"name":(d.get("name") or ({"1371980":"恶意不息 / No Rest for the Wicked"}.get(str(appid))) or name),"name_en":name if name!=(d.get("name") or name) else None,"steam_subids":steam_subids,"release_date":release_date,"coming_soon":coming_soon,"price":price,"original_price":original,"discount":disc,
       "image":d.get("header_image") or x.get("large_capsule_image") or x.get("small_capsule_image"),
       "url":f"https://store.steampowered.com/app/{appid}/?cc=cn&l=schinese",
       "review":(f"{rv['scope']}好评 {rv['pct']}% · {rv['total']} 条" if rv["pct"] is not None else "Steam 评价数据暂不可用"),
