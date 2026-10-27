@@ -150,8 +150,8 @@ for x in raw:
       "appid":appid,"name":(d.get("name") or name),"name_en":name if name!=(d.get("name") or name) else None,"steam_subids":steam_subids,"release_date":release_date,"coming_soon":coming_soon,"price":price,"original_price":original,"discount":disc,
       "image":d.get("header_image") or x.get("large_capsule_image") or x.get("small_capsule_image"),
       "url":f"https://store.steampowered.com/app/{appid}/?cc=cn&l=schinese",
-      "review":(f"{rv["scope"]}好评 {rv['pct']}% · {rv['total']} 条" if rv["pct"] is not None else "简中评价样本不足"),
-      "review_pct":rv["pct"],"review_count":rv["total"],
+      "review":(f"{rv['scope']}好评 {rv['pct']}% · {rv['total']} 条" if rv["pct"] is not None else "Steam 评价数据暂不可用"),
+      "review_pct":rv["pct"],"review_count":rv["total"],"review_scope":rv["scope"],
       "recommend_score":final,"taste_score":taste,"quality_score":quality,"price_score":price_score,
       "genres":genres,"tags":tags,"flags":flags,"category":category,"discovery_score":discovery_score({"review_pct":rv["pct"],"review_count":rv["total"],"price":price}) if category=="explore" else None,"why":why,
       "mobile":m,"epic_status":info["epic_status"],"epic_giveaway":info["epic_giveaway"],"epic_source":info["epic_source"],"dlc_status":"未自动核实",
@@ -162,7 +162,8 @@ for x in raw:
 deals=sorted((g for g in games if g["category"]=="deal"),key=lambda g:(-g["recommend_score"],-g["taste_score"],g["price"]))[:30]
 new_games=sorted((g for g in games if g["category"]=="new"),key=lambda g:(-g["recommend_score"],-g["taste_score"],g["price"]))[:30]
 # Dedicated exploration pool, ranked by quality and affordability only.
-explore_games=sorted((g for g in games if g["category"]=="explore"),
+personalized_ids={g["appid"] for g in deals+new_games}
+explore_games=sorted((g for g in games if g["category"]=="explore" and g["appid"] not in personalized_ids),
     key=lambda g:(-(g["discovery_score"] or 0),g["price"]))[:20]
 games=deals+new_games+explore_games
 print("selected separately",{"deals":len(deals),"new":len(new_games),"explore":len(explore_games)})
