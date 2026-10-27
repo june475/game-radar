@@ -37,5 +37,9 @@
     "quality": 0.35,
     "price": 0.2
   },
-  "notes": "mobile_verified 与 epic_free_exclude 只写入已经可靠核实的项目；未核实不猜。"
+  "notes": "mobile_verified 与 epic_free_exclude 只写入已经可靠核实的项目；未核实不猜。",
+  "explore_watchlist": [
+    1371980
+  ],
+  "explore_notes": "关注游戏不受口味、折扣或好评率门槛限制；排除已拥有及已确认Epic赠送。"
 }
