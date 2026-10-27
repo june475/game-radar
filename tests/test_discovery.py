@@ -11,15 +11,17 @@ class DiscoveryTests(unittest.TestCase):
         self.assertEqual(parse_release("Oct 27, 2026"),dt.date(2026,10,27))
         self.assertIsNone(parse_release("即将推出"))
 
-    def test_low_price_high_rating_discovery(self):
-        self.assertIsNone(discovery_score({"review_pct":84,"review_count":2000,"price":8}))
-        self.assertIsNone(discovery_score({"review_pct":97,"review_count":50,"price":8}))
-        self.assertIsNone(discovery_score({"review_pct":97,"review_count":2000,"price":45}))
-        low=discovery_score({"review_pct":96,"review_count":2000,"price":9})
-        high=discovery_score({"review_pct":96,"review_count":2000,"price":35})
-        self.assertGreater(low,high)
+    def test_exploration_has_no_hard_rating_or_price_cutoffs(self):
+        mixed=discovery_score({"review_pct":60,"review_count":300,"price":120})
+        self.assertIsNotNone(mixed)
+        self.assertGreater(mixed,0)
+        unknown=discovery_score({"review_pct":None,"review_count":0,"price":160})
+        self.assertGreater(unknown,0)
+        cheap=discovery_score({"review_pct":80,"review_count":300,"price":15})
+        expensive=discovery_score({"review_pct":80,"review_count":300,"price":100})
+        self.assertGreater(cheap,expensive)
         self.assertEqual(classify("explore","Sep 1, 2019",False,dt.date(2026,10,27)),"explore")
-        self.assertEqual(parse_ids('{"results_html":"<a data-ds-appid=\\\"12345\\\"></a>"}'),[12345])
+        self.assertEqual(parse_ids('{"results_html":"<a data-ds-appid=\\\\\\\"12345\\\\\\\"></a>"}'),[12345])
 
     def test_independent_pools(self):
         today=dt.date(2026,10,27)
