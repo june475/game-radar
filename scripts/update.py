@@ -29,13 +29,21 @@ def details(appid):
     except Exception:return {}
 
 def reviews(appid):
-    try:
-        r=get(f"https://store.steampowered.com/appreviews/{appid}?json=1&language=schinese&purchase_type=all&num_per_page=0")
-        s=r.get("query_summary") or {}
-        total=s.get("total_reviews",0); pos=s.get("total_positive",0)
-        return {"total":total,"positive":pos,"pct":round(pos*100/total,1) if total else None,
-                "desc":s.get("review_score_desc")}
-    except Exception:return {"total":0,"positive":0,"pct":None,"desc":None}
+    """Use real Steam review summaries; prefer simplified Chinese, then all languages."""
+    for language,scope in (("schinese","简中"),("all","全球")):
+        try:
+            query=urllib.parse.urlencode({"json":1,"filter":"all","language":language,
+                "purchase_type":"all","num_per_page":1})
+            r=get(f"https://store.steampowered.com/appreviews/{appid}?{query}")
+            summary=r.get("query_summary") or {}
+            total=int(summary.get("total_reviews") or 0)
+            pos=int(summary.get("total_positive") or 0)
+            if total>0:
+                return {"total":total,"positive":pos,"pct":round(pos*100/total,1),
+                        "scope":scope,"desc":summary.get("review_score_desc")}
+        except Exception as exc:
+            print("Steam reviews failed",appid,language,str(exc)[:110])
+    return {"total":0,"positive":0,"pct":None,"scope":"无数据","desc":None}
 
 # 权重核心：符合口味 > 游戏质量 > 价格
 PREF={
@@ -61,7 +69,7 @@ print("candidate counts", {k:len(v) for k,v in buckets.items()})
 seen=set(); games=[]; today=(datetime.datetime.now(datetime.timezone.utc)+datetime.timedelta(hours=8)).date()
 for x in raw:
     appid=x.get("id"); name=x.get("name","")
-    if not appid or appid in seen or name.lower() in owned or name in epic_free:continue
+    if not appid or (x["_flag"],appid) in seen or name.lower() in owned or name in epic_free:continue
 
     d=details(appid); time.sleep(.12)
     rv=reviews(appid); time.sleep(.12)
@@ -126,7 +134,7 @@ for x in raw:
     # Discovery is independent of user taste, but strictly requires strong
     # Chinese review evidence and an affordable Steam CN price.
     if category=="explore" and discovery_score({"review_pct":rv["pct"],
-            "review_count":rv["total"],"price":price}) is None:continue
+            "review_count":rv["total"],"review_scope":rv["scope"],"price":price}) is None:continue
 
     info=metadata(appid,[name,d.get("name","")],epic_records,mobile_verified)
     if info["epic_exclude"]: continue
@@ -137,12 +145,12 @@ for x in raw:
     why=("匹配你的偏好："+ " / ".join(dict.fromkeys(reasons[:4]))) if reasons else "新游观察候选"
     if category=="explore":
         why="简中好评率高、Steam 国区价格低；推荐你尝试其他游戏类型"
-    seen.add(appid)
+    seen.add((x["_flag"],appid))
     games.append({
       "appid":appid,"name":(d.get("name") or name),"name_en":name if name!=(d.get("name") or name) else None,"steam_subids":steam_subids,"release_date":release_date,"coming_soon":coming_soon,"price":price,"original_price":original,"discount":disc,
       "image":d.get("header_image") or x.get("large_capsule_image") or x.get("small_capsule_image"),
       "url":f"https://store.steampowered.com/app/{appid}/?cc=cn&l=schinese",
-      "review":(f"简中好评 {rv['pct']}% · {rv['total']} 条" if rv["pct"] is not None else "简中评价样本不足"),
+      "review":(f"{rv["scope"]}好评 {rv['pct']}% · {rv['total']} 条" if rv["pct"] is not None else "简中评价样本不足"),
       "review_pct":rv["pct"],"review_count":rv["total"],
       "recommend_score":final,"taste_score":taste,"quality_score":quality,"price_score":price_score,
       "genres":genres,"tags":tags,"flags":flags,"category":category,"discovery_score":discovery_score({"review_pct":rv["pct"],"review_count":rv["total"],"price":price}) if category=="explore" else None,"why":why,
