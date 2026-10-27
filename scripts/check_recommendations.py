@@ -31,7 +31,7 @@ def missing_categories(path):
 def decision(path,mode):
     missing=missing_categories(path)
     return {
-        "run": mode=="daily" or bool(missing),
+        "run": mode in ("daily","all") or bool(missing),
         "missing":missing,
         "counts":counts(path)
     }
