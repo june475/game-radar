@@ -11,17 +11,16 @@ const topics=negative?.categories||[];
 const insight=`<div class="review-reasons"><div class="detail-label">差评主要原因</div><div class="review-summary">${negative?.sample_size>=3&&topics.length?topics.slice(0,3).map(x=>`<span class="review-topic">${esc(x.name)} <b>${Number(x.mentions)||0}</b>条提及</span>`).join(""):`<span class="review-unknown">暂无足够评论样本，尚不能判断主要差评原因</span>`}</div><div class="review-caution">简中近期差评样本：${negative?.sample_size??0} 条 · 关键词归类仅供参考，不代表全部玩家</div></div>`;
 return `<article class="card"><a href="${esc(g.url)}" target="_blank" rel="noopener noreferrer">
 <div class="cover" style="background-image:url('${esc(g.image||"")}')"></div>
-<div class="body"><div class="top"><div><div class="title">${esc(g.name)}</div>${g.name_en?`<div class="meta">${esc(g.name_en)}</div>`:""}</div><div class="score">${g.category==="explore"?(g.discovery_score??"—"):(g.recommend_score??"—")}</div></div>
+<div class="body"><div class="top"><div><div class="title">${esc(g.name)}</div>${g.name_en?`<div class="meta">${esc(g.name_en)}</div>`:""}</div><div class="score">${g.category==="explore"?(g.discovery_score??"—") :g.category==="hot"?"#"+(g.popularity_rank??"—"):(g.recommend_score??"—")}</div></div>
 <div class="meta"><strong>游戏类型：</strong>${genres.length?esc(genres.join(" / ")):"未分类"}</div>
 <div class="meta">发行日期：${esc(g.release_date||"未知")}${g.coming_soon?"（尚未发售）":""} · ${esc(g.review||"Steam")}</div>
 <span class="price">${g.price>0?fmt(g.price):"价格待核实"}</span>${g.original_price!==g.price?`<span class="old">${fmt(g.original_price)}</span>`:""}${g.discount?`<span class="discount">-${g.discount}%</span>`:""}
 <div class="tags">${(g.tags||[]).map(t=>`<span class="tag ${t==="站内新低"?"hot":""}">${esc(t)}</span>`).join("")}</div>
-<div class="why">${esc(g.why||"")}${g.watchlisted?" · ★ 关注游戏":""}</div>${insight}
+<div class="why">${esc(g.why||"")}${g.watchlisted?" · ★ 关注游戏":""}</div>${isHot?"":insight}
 <div class="meta" style="margin-top:8px">📱 手机版：${g.mobile?`Android ${esc(g.mobile.android||"待核实")} / iOS ${esc(g.mobile.ios||"待核实")}`:"未核实"} · 🎁 Epic：${esc(g.epic_status||"未核实")}</div>
-${isHot?`<div class="key-panel"><div class="detail-label">核实低价 <span class="key-info">SteamRaw 覆盖期，非 Steam 全历史史低</span></div><div class="key-price">${fmt(g.price_low_verified)}</div><div class="key-caution">热度序位：${g.popularity_rank||"—"} · 来源：Steam 特惠搜索</div></div>`:`<div class="key-panel"><div class="detail-label">散 Key 价格 <span class="key-info">影响购买决策 · 报价需核实</span></div><div class="key-offers">${offers}</div></div>
-</div>`}
+${isHot?`<div class="key-panel"><div class="detail-label">核实低价 <span class="key-info">SteamRaw 覆盖期，非 Steam 全历史史低</span></div><div class="key-price">${fmt(g.price_low_verified)}</div><div class="key-caution">热度序位：${g.popularity_rank||"—"} · 来源：Steam 特惠搜索</div></div>`:`<div class="key-panel"><div class="detail-label">散 Key 价格 <span class="key-info">影响购买决策 · 报价需核实</span></div><div class="key-offers">${offers}</div></div>`}
 <div class="meta">Steam全历史最低：${g.steam_historical_low!=null?fmt(g.steam_historical_low):"暂不可核实"} · SteamRaw覆盖期最低：${g.region_history_low?.price!=null?fmt(g.region_history_low.price):"待核实"} · 站内最低：${fmt(g.tracked_low)} · Steam Deck：${esc(g.steam_deck||"待核实")}</div>
-<div class="meta">${g.category==="explore"?"尝鲜分 "+(g.discovery_score??"—")+" · 不计算个人口味":"口味 "+(g.taste_score??"—")+" · 质量 "+(g.quality_score??"—")+" · 价格 "+(g.price_score??"—")}</div>
+<div class="meta">${g.category==="explore"?"尝鲜分 "+(g.discovery_score??"—")+" · 不计算个人口味":g.category==="hot"?"Steam 热销特惠序位 "+(g.popularity_rank??"—")+" · 不计个人口味":"口味 "+(g.taste_score??"—")+" · 质量 "+(g.quality_score??"—")+" · 价格 "+(g.price_score??"—")}</div>
 </div></a></article>`;
 }
 function render(){
@@ -34,7 +33,7 @@ const elem=document.querySelector("#"+category+"-games");
 const items=all.filter(g=>(g.category||((g.flags||[]).includes("new")?"new":"deal"))===category).filter(search).filter(g=>filter!=="mobile"||(g.flags||[]).includes("mobile"));
 const visible=filter==="all"||filter==="mobile"||filter===category;
 section.hidden=!visible;
-elem.innerHTML=items.length?items.map(card).join(""):`<div class="note">本期暂无符合条件的${category==="deal"?"老游戏折扣":category==="new"?"近期新游戏":"低价高评游戏"}。</div>`;
+elem.innerHTML=items.length?items.map(card).join(""):`<div class="note">本期暂无符合条件的${category==="deal"?"老游戏折扣":category==="new"?"近期新游戏":category==="hot"?"热门特惠覆盖期低价游戏":"尝鲜游戏"}。</div>`;
 document.querySelector("#"+category+"-count").textContent="（"+items.length+"/"+(category==="explore"?20:30)+"）";
 }
 }
