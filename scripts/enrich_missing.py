@@ -193,6 +193,47 @@ def update_one(game,task,epic=None):
         return "success",f"{len(ids)} DLC IDs"
     return "failed","unsupported task"
 
+def persist_enrichment(conn,game,task,observed):
+    """Keep the existing SQLite reporting tables in sync with JSON metadata."""
+    aid=game["appid"]
+    stamp=observed.isoformat()
+    if task=="reviews" and game.get("negative_review_analysis"):
+        conn.execute("UPDATE game_info SET review_analysis_json=? WHERE appid=?",
+                     (json.dumps(game["negative_review_analysis"],ensure_ascii=False),aid))
+    elif task=="deck" and game.get("steam_deck"):
+        conn.execute("""INSERT INTO steam_deck_info(appid,compatibility,source_url,checked_at)
+                        VALUES(?,?,?,?)
+                        ON CONFLICT(appid) DO UPDATE SET
+                        compatibility=excluded.compatibility,
+                        source_url=excluded.source_url,checked_at=excluded.checked_at""",
+                     (aid,game["steam_deck"],game.get("steam_deck_source"),stamp))
+    elif task=="mobile" and isinstance(game.get("mobile"),dict):
+        m=game["mobile"]
+        conn.execute("""INSERT INTO mobile_platform
+                     (appid,android,ios,status,source_url,verified_at) VALUES(?,?,?,?,?,?)
+                     ON CONFLICT(appid) DO UPDATE SET
+                     android=excluded.android,ios=excluded.ios,status=excluded.status,
+                     source_url=excluded.source_url,verified_at=excluded.verified_at""",
+                     (aid,m.get("android"),m.get("ios"),m.get("status"),m.get("source"),stamp))
+    elif task=="dlc":
+        for dlc in game.get("dlc_appids") or []:
+            conn.execute("""INSERT OR IGNORE INTO game_dlc
+                     (appid,dlc_appid,checked_at) VALUES(?,?,?)""",(aid,dlc,stamp))
+    elif task=="keys":
+        for item in game.get("key_offers") or []:
+            p=item.get("price")
+            if p is None:continue
+            cn_date=observed.astimezone(dt.timezone(dt.timedelta(hours=8))).date().isoformat()
+            conn.execute("""INSERT INTO key_price_history
+                (appid,observed_date,platform,package_id,price,kind,status,source_url,checked_at)
+                VALUES(?,?,?,?,?,?,?,?,?)
+                ON CONFLICT(appid,observed_date,platform,package_id,kind)
+                DO UPDATE SET price=excluded.price,status=excluded.status,
+                source_url=excluded.source_url,checked_at=excluded.checked_at""",
+                (aid,cn_date,item.get("platform",""),
+                 str(item.get("subid") or ""),p,item.get("kind") or "reference",
+                 item.get("status") or "",item.get("url"),item.get("checked_at") or stamp))
+
 def run(task,limit=5,force=False,db_path=DB,games_path=GAMES):
     global GAMES
     GAMES=Path(games_path)
@@ -218,6 +259,7 @@ def run(task,limit=5,force=False,db_path=DB,games_path=GAMES):
                 status,reason="failed",str(exc)[:150]
                 print("Enrichment failed",task,aid,reason)
             result=record(db,aid,task,status,reason,now)
+            if status=="success":persist_enrichment(db,game,task,now)
             game.setdefault("enrichment_status",{})[task]=result
             results["checked"]+=1
             results["status"][status]=results["status"].get(status,0)+1
