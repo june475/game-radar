@@ -103,8 +103,8 @@ def request_json(url,timeout=9):
 def deck_lookup(appid):
     # Unofficial public Steam Store endpoint. Only explicitly mapped numeric
     # Valve compatibility grades qualify; other shapes remain unverified.
-    url="https://store.steampowered.com/saleaction/ajaxgetdeckappcompatibilityreport?"+
-        urllib.parse.urlencode({"appid":appid})
+    url=("https://store.steampowered.com/saleaction/ajaxgetdeckappcompatibilityreport?"
+         + urllib.parse.urlencode({"appid":appid}))
     raw=request_json(url)
     report=raw.get("results") if isinstance(raw,dict) else None
     if not isinstance(report,dict):return None
