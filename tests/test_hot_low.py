@@ -7,34 +7,21 @@ sys.path.insert(0,str(Path(__file__).resolve().parents[1]/"scripts"))
 import hot_low
 
 class HotLowTests(unittest.TestCase):
-    def test_verified_low_requires_matching_source_and_low_price(self):
-        source={"source":"SteamRaw","price":28,"url":"https://steamraw.com/app/1"}
-        self.assertTrue(hot_low.valid_low(28.00,source))
-        self.assertTrue(hot_low.valid_low(27.99,source))
-        self.assertFalse(hot_low.valid_low(35.0,source))
-        self.assertFalse(hot_low.valid_low(28,{"source":"project_history","price":28}))
-        self.assertFalse(hot_low.valid_low(28,None))
-
-    def test_unverified_low_remains_explicitly_unverified(self):
+    def test_discounted_game_has_no_history_dependency(self):
         with patch.object(hot_low,"popular_deals",return_value=[101]), \
              patch.object(hot_low,"details",return_value={
                  "name":"Popular Game","price_overview":{
-                     "final":1999,"initial":3999,"discount_percent":50}}), \
-             patch.object(hot_low,"steamraw",return_value=None):
+                     "final":1999,"initial":3999,"discount_percent":50}}):
             import tempfile
-            from pathlib import Path
             with tempfile.TemporaryDirectory() as tmp:
-                prior_output,prior_cache=hot_low.OUTPUT,hot_low.CACHE
+                previous=hot_low.OUTPUT
                 hot_low.OUTPUT=Path(tmp)/"hot_low.json"
-                hot_low.CACHE=Path(tmp)/"hot_cache.json"
-                try:
-                    result=hot_low.collect(max_checked=1)
-                finally:
-                    hot_low.OUTPUT,hot_low.CACHE=prior_output,prior_cache
+                try: result=hot_low.collect(max_checked=1)
+                finally: hot_low.OUTPUT=previous
         self.assertEqual(len(result),1)
-        self.assertFalse(result[0]["low_verified"])
-        self.assertIsNone(result[0]["price_low_verified"])
         self.assertEqual(result[0]["price"],19.99)
+        self.assertEqual(result[0]["discount"],50)
+        self.assertNotIn("low_verified",result[0])
 
     def test_popularity_scan_has_no_taste_tags_or_user_preference_filters(self):
         observed=[]
