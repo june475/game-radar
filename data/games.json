@@ -1,8 +1,8 @@
 {
   "meta": {
-    "updated_at_cn": "2026-10-27 16:16",
-    "version": "V3 extended discovery",
-    "note": "老游/新游推荐分=45%口味+35%质量+20%价格；尝鲜榜只看简中口碑与价格，不使用个人口味。站内新低不是Steam全历史史低。"
+    "updated_at_cn": "2026-10-27 16:52",
+    "version": "V4 review-context discovery",
+    "note": "尝鲜榜不设价格或好评率硬门槛；查看近期简中差评关键词，区别争议类型。分析是辅助证据，不代表玩家差评全部属实或无效。"
   },
   "counts": {
     "deal": 30,
@@ -24,13 +24,14 @@
       "discount": 25,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1839810/e49fa91017099d550d43b862ad0bac0ff66450c9/header_alt_assets_0_schinese.jpg?t=1789096174",
       "url": "https://store.steampowered.com/app/1839810/?cc=cn&l=schinese",
-      "review": "简中评价样本不足",
+      "review": "Steam 评价数据暂不可用",
       "review_pct": null,
       "review_count": 0,
-      "recommend_score": 6.8,
+      "review_scope": "不可用",
+      "recommend_score": 6.7,
       "taste_score": 7.6,
       "quality_score": 0.0,
-      "price_score": 5.5,
+      "price_score": 5.2,
       "genres": [
         "冒险",
         "休闲",
@@ -39,7 +40,6 @@
         "策略"
       ],
       "tags": [
-        "站内新低",
         "-25%",
         "冒险",
         "休闲",
@@ -50,6 +50,7 @@
       ],
       "category": "deal",
       "discovery_score": null,
+      "watchlisted": false,
       "why": "匹配你的偏好：冒险 / 角色扮演 / 策略 / 单人",
       "mobile": null,
       "epic_status": "未核实（历史库未匹配）",
@@ -69,7 +70,7 @@
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=9000927002213954961409",
           "kind": "reference",
           "subid": 661914,
-          "checked_at": "2026-10-27T08:14:48.252851+00:00"
+          "checked_at": "2026-10-27T08:50:36.492588+00:00"
         }
       ],
       "key_status": "未核实实时在售",
@@ -91,20 +92,20 @@
       "discount": 75,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/251130/header.jpg?t=1783615507",
       "url": "https://store.steampowered.com/app/251130/?cc=cn&l=schinese",
-      "review": "简中评价样本不足",
+      "review": "Steam 评价数据暂不可用",
       "review_pct": null,
       "review_count": 0,
-      "recommend_score": 6.7,
+      "review_scope": "不可用",
+      "recommend_score": 6.6,
       "taste_score": 6.6,
       "quality_score": 0.0,
-      "price_score": 7.2,
+      "price_score": 6.9,
       "genres": [
         "独立",
         "角色扮演",
         "策略"
       ],
       "tags": [
-        "站内新低",
         "-75%",
         "独立",
         "角色扮演",
@@ -115,6 +116,7 @@
       ],
       "category": "deal",
       "discovery_score": null,
+      "watchlisted": false,
       "why": "匹配你的偏好：角色扮演 / 策略 / 单人",
       "mobile": null,
       "epic_status": "未核实（历史库未匹配）",
@@ -134,7 +136,7 @@
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=267262806590492672",
           "kind": "reference",
           "subid": 30674,
-          "checked_at": "2026-10-27T08:14:49.835567+00:00"
+          "checked_at": "2026-10-27T08:50:38.326789+00:00"
         }
       ],
       "key_status": "未核实实时在售",
@@ -156,20 +158,20 @@
       "discount": 67,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1380650/7acfc91f782969411c060e6ac7723bc725f0a141/header_alt_assets_9.jpg?t=1792911042",
       "url": "https://store.steampowered.com/app/1380650/?cc=cn&l=schinese",
-      "review": "简中评价样本不足",
+      "review": "Steam 评价数据暂不可用",
       "review_pct": null,
       "review_count": 0,
-      "recommend_score": 6.6,
+      "review_scope": "不可用",
+      "recommend_score": 6.5,
       "taste_score": 6.6,
       "quality_score": 0.0,
-      "price_score": 6.7,
+      "price_score": 6.4,
       "genres": [
         "独立",
         "角色扮演",
         "策略"
       ],
       "tags": [
-        "站内新低",
         "-67%",
         "独立",
         "角色扮演",
@@ -180,6 +182,7 @@
       ],
       "category": "deal",
       "discovery_score": null,
+      "watchlisted": false,
       "why": "匹配你的偏好：角色扮演 / 策略 / 单人",
       "mobile": null,
       "epic_status": "未核实（历史库未匹配）",
@@ -199,7 +202,7 @@
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=434996625748791296",
           "kind": "reference",
           "subid": 484328,
-          "checked_at": "2026-10-27T08:14:51.369352+00:00"
+          "checked_at": "2026-10-27T08:50:40.141390+00:00"
         }
       ],
       "key_status": "未核实实时在售",
@@ -221,20 +224,20 @@
       "discount": 25,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2678640/c3affbc545027548747dc8024eb49146be28d686/header_schinese.jpg?t=1791185733",
       "url": "https://store.steampowered.com/app/2678640/?cc=cn&l=schinese",
-      "review": "简中评价样本不足",
+      "review": "Steam 评价数据暂不可用",
       "review_pct": null,
       "review_count": 0,
+      "review_scope": "不可用",
       "recommend_score": 6.3,
       "taste_score": 6.6,
       "quality_score": 0.0,
-      "price_score": 5.5,
+      "price_score": 5.2,
       "genres": [
         "独立",
         "角色扮演",
         "策略"
       ],
       "tags": [
-        "站内新低",
         "-25%",
         "独立",
         "角色扮演",
@@ -245,6 +248,7 @@
       ],
       "category": "deal",
       "discovery_score": null,
+      "watchlisted": false,
       "why": "匹配你的偏好：角色扮演 / 策略 / 单人",
       "mobile": null,
       "epic_status": "未核实（历史库未匹配）",
@@ -264,17 +268,7 @@
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=9000968224442865045504",
           "kind": "reference",
           "subid": 959566,
-          "checked_at": "2026-10-27T08:14:52.861268+00:00"
-        },
-        {
-          "platform": "SteamCiCi",
-          "price": 29.5,
-          "status": "历史挂售最低参考价｜非实时库存",
-          "last_hanging_time": "2026-10-26T17:24:36.000+08:00",
-          "url": "https://steamcici.com/index",
-          "kind": "historical_listing",
-          "subid": "959566",
-          "checked_at": "2026-10-27T08:14:53.710825+00:00"
+          "checked_at": "2026-10-27T08:50:41.868585+00:00"
         }
       ],
       "key_status": "未核实实时在售",
@@ -296,20 +290,20 @@
       "discount": 80,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/337340/9ccd2472b64493cce208bb178d8c0705e849465a/header.jpg?t=1780927618",
       "url": "https://store.steampowered.com/app/337340/?cc=cn&l=schinese",
-      "review": "简中评价样本不足",
+      "review": "Steam 评价数据暂不可用",
       "review_pct": null,
       "review_count": 0,
+      "review_scope": "不可用",
       "recommend_score": 6.2,
       "taste_score": 5.3,
       "quality_score": 0.0,
-      "price_score": 7.8,
+      "price_score": 7.5,
       "genres": [
         "冒险",
         "独立",
         "角色扮演"
       ],
       "tags": [
-        "站内新低",
         "-80%",
         "冒险",
         "独立",
@@ -320,6 +314,7 @@
       ],
       "category": "deal",
       "discovery_score": null,
+      "watchlisted": false,
       "why": "匹配你的偏好：冒险 / 角色扮演 / 单人",
       "mobile": null,
       "epic_status": "未核实（历史库未匹配）",
@@ -339,7 +334,7 @@
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=272927268706193408",
           "kind": "reference",
           "subid": 136702,
-          "checked_at": "2026-10-27T08:14:54.499593+00:00"
+          "checked_at": "2026-10-27T08:50:43.519618+00:00"
         }
       ],
       "key_status": "未核实实时在售",
@@ -361,20 +356,20 @@
       "discount": 50,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1787670/header.jpg?t=1750035181",
       "url": "https://store.steampowered.com/app/1787670/?cc=cn&l=schinese",
-      "review": "简中评价样本不足",
+      "review": "Steam 评价数据暂不可用",
       "review_pct": null,
       "review_count": 0,
+      "review_scope": "不可用",
       "recommend_score": 6.1,
       "taste_score": 5.3,
       "quality_score": 0.0,
-      "price_score": 7.3,
+      "price_score": 7.0,
       "genres": [
         "冒险",
         "独立",
         "角色扮演"
       ],
       "tags": [
-        "站内新低",
         "-50%",
         "冒险",
         "独立",
@@ -385,6 +380,7 @@
       ],
       "category": "deal",
       "discovery_score": null,
+      "watchlisted": false,
       "why": "匹配你的偏好：冒险 / 角色扮演 / 单人",
       "mobile": null,
       "epic_status": "未核实（历史库未匹配）",
@@ -416,20 +412,20 @@
       "discount": 50,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1283520/header.jpg?t=1702492078",
       "url": "https://store.steampowered.com/app/1283520/?cc=cn&l=schinese",
-      "review": "简中评价样本不足",
+      "review": "Steam 评价数据暂不可用",
       "review_pct": null,
       "review_count": 0,
+      "review_scope": "不可用",
       "recommend_score": 6.1,
       "taste_score": 5.3,
       "quality_score": 0.0,
-      "price_score": 7.3,
+      "price_score": 7.0,
       "genres": [
         "冒险",
         "独立",
         "角色扮演"
       ],
       "tags": [
-        "站内新低",
         "-50%",
         "冒险",
         "独立",
@@ -440,6 +436,7 @@
       ],
       "category": "deal",
       "discovery_score": null,
+      "watchlisted": false,
       "why": "匹配你的偏好：冒险 / 角色扮演 / 单人",
       "mobile": null,
       "epic_status": "未核实（历史库未匹配）",
@@ -471,13 +468,14 @@
       "discount": 50,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1225910/header.jpg?t=1702491884",
       "url": "https://store.steampowered.com/app/1225910/?cc=cn&l=schinese",
-      "review": "简中评价样本不足",
+      "review": "Steam 评价数据暂不可用",
       "review_pct": null,
       "review_count": 0,
+      "review_scope": "不可用",
       "recommend_score": 6.1,
       "taste_score": 5.3,
       "quality_score": 0.0,
-      "price_score": 7.3,
+      "price_score": 7.0,
       "genres": [
         "动作",
         "冒险",
@@ -486,7 +484,6 @@
         "角色扮演"
       ],
       "tags": [
-        "站内新低",
         "-50%",
         "动作",
         "冒险",
@@ -497,6 +494,7 @@
       ],
       "category": "deal",
       "discovery_score": null,
+      "watchlisted": false,
       "why": "匹配你的偏好：冒险 / 角色扮演 / 单人",
       "mobile": null,
       "epic_status": "未核实（历史库未匹配）",
@@ -528,13 +526,14 @@
       "discount": 40,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1282200/header.jpg?t=1751133890",
       "url": "https://store.steampowered.com/app/1282200/?cc=cn&l=schinese",
-      "review": "简中评价样本不足",
+      "review": "Steam 评价数据暂不可用",
       "review_pct": null,
       "review_count": 0,
-      "recommend_score": 6.0,
+      "review_scope": "不可用",
+      "recommend_score": 5.9,
       "taste_score": 5.3,
       "quality_score": 0.0,
-      "price_score": 6.7,
+      "price_score": 6.4,
       "genres": [
         "冒险",
         "休闲",
@@ -543,7 +542,6 @@
         "模拟"
       ],
       "tags": [
-        "站内新低",
         "-40%",
         "冒险",
         "休闲",
@@ -554,6 +552,7 @@
       ],
       "category": "deal",
       "discovery_score": null,
+      "watchlisted": false,
       "why": "匹配你的偏好：冒险 / 角色扮演 / 单人",
       "mobile": null,
       "epic_status": "未核实（历史库未匹配）",
@@ -585,13 +584,14 @@
       "discount": 40,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2152190/header.jpg?t=1750084577",
       "url": "https://store.steampowered.com/app/2152190/?cc=cn&l=schinese",
-      "review": "简中评价样本不足",
+      "review": "Steam 评价数据暂不可用",
       "review_pct": null,
       "review_count": 0,
-      "recommend_score": 6.0,
+      "review_scope": "不可用",
+      "recommend_score": 5.9,
       "taste_score": 5.3,
       "quality_score": 0.0,
-      "price_score": 6.7,
+      "price_score": 6.4,
       "genres": [
         "冒险",
         "休闲",
@@ -600,7 +600,6 @@
         "模拟"
       ],
       "tags": [
-        "站内新低",
         "-40%",
         "冒险",
         "休闲",
@@ -611,6 +610,7 @@
       ],
       "category": "deal",
       "discovery_score": null,
+      "watchlisted": false,
       "why": "匹配你的偏好：冒险 / 角色扮演 / 单人",
       "mobile": null,
       "epic_status": "未核实（历史库未匹配）",
@@ -642,13 +642,14 @@
       "discount": 40,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1241510/header.jpg?t=1751129073",
       "url": "https://store.steampowered.com/app/1241510/?cc=cn&l=schinese",
-      "review": "简中评价样本不足",
+      "review": "Steam 评价数据暂不可用",
       "review_pct": null,
       "review_count": 0,
-      "recommend_score": 6.0,
+      "review_scope": "不可用",
+      "recommend_score": 5.9,
       "taste_score": 5.3,
       "quality_score": 0.0,
-      "price_score": 6.7,
+      "price_score": 6.4,
       "genres": [
         "冒险",
         "休闲",
@@ -657,7 +658,6 @@
         "模拟"
       ],
       "tags": [
-        "站内新低",
         "-40%",
         "冒险",
         "休闲",
@@ -668,6 +668,7 @@
       ],
       "category": "deal",
       "discovery_score": null,
+      "watchlisted": false,
       "why": "匹配你的偏好：冒险 / 角色扮演 / 单人",
       "mobile": null,
       "epic_status": "未核实（历史库未匹配）",
@@ -699,20 +700,20 @@
       "discount": 55,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2159210/header.jpg?t=1752187612",
       "url": "https://store.steampowered.com/app/2159210/?cc=cn&l=schinese",
-      "review": "简中评价样本不足",
+      "review": "Steam 评价数据暂不可用",
       "review_pct": null,
       "review_count": 0,
-      "recommend_score": 6.0,
+      "review_scope": "不可用",
+      "recommend_score": 5.9,
       "taste_score": 5.3,
       "quality_score": 0.0,
-      "price_score": 6.7,
+      "price_score": 6.4,
       "genres": [
         "冒险",
         "独立",
         "角色扮演"
       ],
       "tags": [
-        "站内新低",
         "-55%",
         "冒险",
         "独立",
@@ -723,6 +724,7 @@
       ],
       "category": "deal",
       "discovery_score": null,
+      "watchlisted": false,
       "why": "匹配你的偏好：冒险 / 角色扮演 / 单人",
       "mobile": null,
       "epic_status": "未核实（历史库未匹配）",
@@ -742,7 +744,7 @@
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=849600697509875712",
           "kind": "reference",
           "subid": 772572,
-          "checked_at": "2026-10-27T08:15:04.718440+00:00"
+          "checked_at": "2026-10-27T08:50:55.085434+00:00"
         }
       ],
       "key_status": "未核实实时在售",
@@ -764,13 +766,14 @@
       "discount": 60,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1989270/header_schinese.jpg?t=1791026492",
       "url": "https://store.steampowered.com/app/1989270/?cc=cn&l=schinese",
-      "review": "简中评价样本不足",
+      "review": "Steam 评价数据暂不可用",
       "review_pct": null,
       "review_count": 0,
-      "recommend_score": 6.0,
+      "review_scope": "不可用",
+      "recommend_score": 5.9,
       "taste_score": 5.3,
       "quality_score": 0.0,
-      "price_score": 6.7,
+      "price_score": 6.4,
       "genres": [
         "冒险",
         "独立",
@@ -778,7 +781,6 @@
         "模拟"
       ],
       "tags": [
-        "站内新低",
         "-60%",
         "冒险",
         "独立",
@@ -789,6 +791,7 @@
       ],
       "category": "deal",
       "discovery_score": null,
+      "watchlisted": false,
       "why": "匹配你的偏好：冒险 / 角色扮演 / 单人",
       "mobile": null,
       "epic_status": "未核实（历史库未匹配）",
@@ -808,7 +811,7 @@
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=728886466804977664",
           "kind": "reference",
           "subid": 718211,
-          "checked_at": "2026-10-27T08:15:06.068333+00:00"
+          "checked_at": "2026-10-27T08:50:56.825439+00:00"
         }
       ],
       "key_status": "未核实实时在售",
@@ -830,13 +833,14 @@
       "discount": 30,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3447410/header.jpg?t=1751124167",
       "url": "https://store.steampowered.com/app/3447410/?cc=cn&l=schinese",
-      "review": "简中评价样本不足",
+      "review": "Steam 评价数据暂不可用",
       "review_pct": null,
       "review_count": 0,
-      "recommend_score": 5.9,
+      "review_scope": "不可用",
+      "recommend_score": 5.8,
       "taste_score": 5.3,
       "quality_score": 0.0,
-      "price_score": 6.1,
+      "price_score": 5.8,
       "genres": [
         "冒险",
         "休闲",
@@ -845,7 +849,6 @@
         "模拟"
       ],
       "tags": [
-        "站内新低",
         "-30%",
         "冒险",
         "休闲",
@@ -856,6 +859,7 @@
       ],
       "category": "deal",
       "discovery_score": null,
+      "watchlisted": false,
       "why": "匹配你的偏好：冒险 / 角色扮演 / 单人",
       "mobile": null,
       "epic_status": "未核实（历史库未匹配）",
@@ -887,19 +891,19 @@
       "discount": 40,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3373660/7af754cc405af7db9396a0c1bedff8e7fd213198/header.jpg?t=1789016414",
       "url": "https://store.steampowered.com/app/3373660/?cc=cn&l=schinese",
-      "review": "简中评价样本不足",
+      "review": "Steam 评价数据暂不可用",
       "review_pct": null,
       "review_count": 0,
-      "recommend_score": 5.9,
+      "review_scope": "不可用",
+      "recommend_score": 5.8,
       "taste_score": 5.3,
       "quality_score": 0.0,
-      "price_score": 6.1,
+      "price_score": 5.8,
       "genres": [
         "冒险",
         "角色扮演"
       ],
       "tags": [
-        "站内新低",
         "-40%",
         "冒险",
         "角色扮演"
@@ -909,6 +913,7 @@
       ],
       "category": "deal",
       "discovery_score": null,
+      "watchlisted": false,
       "why": "匹配你的偏好：冒险 / 角色扮演 / 单人",
       "mobile": null,
       "epic_status": "未核实（历史库未匹配）",
@@ -928,7 +933,7 @@
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=9000916457760718536704",
           "kind": "reference",
           "subid": 1193772,
-          "checked_at": "2026-10-27T08:15:09.173730+00:00"
+          "checked_at": "2026-10-27T08:51:00.129808+00:00"
         }
       ],
       "key_status": "未核实实时在售",
@@ -950,13 +955,14 @@
       "discount": 35,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3213800/939f99dcfa3d70059abccd594c61b4fcaaa41105/header.jpg?t=1773241150",
       "url": "https://store.steampowered.com/app/3213800/?cc=cn&l=schinese",
-      "review": "简中评价样本不足",
+      "review": "Steam 评价数据暂不可用",
       "review_pct": null,
       "review_count": 0,
-      "recommend_score": 5.9,
+      "review_scope": "不可用",
+      "recommend_score": 5.8,
       "taste_score": 5.3,
       "quality_score": 0.0,
-      "price_score": 6.1,
+      "price_score": 5.8,
       "genres": [
         "冒险",
         "休闲",
@@ -964,7 +970,6 @@
         "角色扮演"
       ],
       "tags": [
-        "站内新低",
         "-35%",
         "冒险",
         "休闲",
@@ -975,6 +980,7 @@
       ],
       "category": "deal",
       "discovery_score": null,
+      "watchlisted": false,
       "why": "匹配你的偏好：冒险 / 角色扮演 / 单人",
       "mobile": null,
       "epic_status": "未核实（历史库未匹配）",
@@ -1006,20 +1012,20 @@
       "discount": 60,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1092790/header.jpg?t=1777572925",
       "url": "https://store.steampowered.com/app/1092790/?cc=cn&l=schinese",
-      "review": "简中评价样本不足",
+      "review": "Steam 评价数据暂不可用",
       "review_pct": null,
       "review_count": 0,
-      "recommend_score": 5.8,
+      "review_scope": "不可用",
+      "recommend_score": 5.7,
       "taste_score": 5.1,
       "quality_score": 0.0,
-      "price_score": 6.1,
+      "price_score": 5.8,
       "genres": [
         "冒险",
         "独立",
         "策略"
       ],
       "tags": [
-        "站内新低",
         "-60%",
         "冒险",
         "独立",
@@ -1030,6 +1036,7 @@
       ],
       "category": "deal",
       "discovery_score": null,
+      "watchlisted": false,
       "why": "匹配你的偏好：冒险 / 策略 / 单人",
       "mobile": null,
       "epic_status": "未核实（历史库未匹配）",
@@ -1049,7 +1056,7 @@
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=457309858840973312",
           "kind": "reference",
           "subid": 368113,
-          "checked_at": "2026-10-27T08:15:11.892126+00:00"
+          "checked_at": "2026-10-27T08:51:03.506961+00:00"
         }
       ],
       "key_status": "未核实实时在售",
@@ -1071,19 +1078,19 @@
       "discount": 75,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/391540/header.jpg?t=1757349115",
       "url": "https://store.steampowered.com/app/391540/?cc=cn&l=schinese",
-      "review": "简中评价样本不足",
+      "review": "Steam 评价数据暂不可用",
       "review_pct": null,
       "review_count": 0,
-      "recommend_score": 5.8,
+      "review_scope": "不可用",
+      "recommend_score": 5.7,
       "taste_score": 4.3,
       "quality_score": 0.0,
-      "price_score": 7.8,
+      "price_score": 7.5,
       "genres": [
         "独立",
         "角色扮演"
       ],
       "tags": [
-        "站内新低",
         "-75%",
         "独立",
         "角色扮演"
@@ -1093,6 +1100,7 @@
       ],
       "category": "deal",
       "discovery_score": null,
+      "watchlisted": false,
       "why": "匹配你的偏好：角色扮演 / 单人",
       "mobile": null,
       "epic_status": "未核实（历史库未匹配）",
@@ -1112,7 +1120,7 @@
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=496138616574151",
           "kind": "reference",
           "subid": 74780,
-          "checked_at": "2026-10-27T08:15:13.757814+00:00"
+          "checked_at": "2026-10-27T08:51:05.142350+00:00"
         }
       ],
       "key_status": "未核实实时在售",
@@ -1135,20 +1143,20 @@
       "discount": 80,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/247080/209f45e068bbd4a2d82db3df807745094598b8e3/header_schinese.jpg?t=1791916929",
       "url": "https://store.steampowered.com/app/247080/?cc=cn&l=schinese",
-      "review": "简中评价样本不足",
+      "review": "Steam 评价数据暂不可用",
       "review_pct": null,
       "review_count": 0,
-      "recommend_score": 5.8,
+      "review_scope": "不可用",
+      "recommend_score": 5.7,
       "taste_score": 4.3,
       "quality_score": 0.0,
-      "price_score": 7.8,
+      "price_score": 7.5,
       "genres": [
         "动作",
         "独立",
         "角色扮演"
       ],
       "tags": [
-        "站内新低",
         "-80%",
         "动作",
         "独立",
@@ -1159,6 +1167,7 @@
       ],
       "category": "deal",
       "discovery_score": null,
+      "watchlisted": false,
       "why": "匹配你的偏好：角色扮演 / 单人",
       "mobile": null,
       "epic_status": "未核实（历史库未匹配）",
@@ -1178,7 +1187,7 @@
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=262484094263234560",
           "kind": "reference",
           "subid": 47831,
-          "checked_at": "2026-10-27T08:15:15.443175+00:00"
+          "checked_at": "2026-10-27T08:51:06.769424+00:00"
         }
       ],
       "key_status": "未核实实时在售",
@@ -1200,13 +1209,14 @@
       "discount": 20,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2527500/header_schinese.jpg?t=1792668822",
       "url": "https://store.steampowered.com/app/2527500/?cc=cn&l=schinese",
-      "review": "简中评价样本不足",
+      "review": "Steam 评价数据暂不可用",
       "review_pct": null,
       "review_count": 0,
-      "recommend_score": 5.7,
+      "review_scope": "不可用",
+      "recommend_score": 5.6,
       "taste_score": 5.3,
       "quality_score": 0.0,
-      "price_score": 5.1,
+      "price_score": 4.8,
       "genres": [
         "冒险",
         "独立",
@@ -1214,7 +1224,6 @@
         "模拟"
       ],
       "tags": [
-        "站内新低",
         "-20%",
         "冒险",
         "独立",
@@ -1225,6 +1234,7 @@
       ],
       "category": "deal",
       "discovery_score": null,
+      "watchlisted": false,
       "why": "匹配你的偏好：冒险 / 角色扮演 / 单人",
       "mobile": null,
       "epic_status": "未核实（历史库未匹配）",
@@ -1244,7 +1254,17 @@
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=879121310989422592",
           "kind": "reference",
           "subid": 908317,
-          "checked_at": "2026-10-27T08:15:17.257847+00:00"
+          "checked_at": "2026-10-27T08:51:08.488880+00:00"
+        },
+        {
+          "platform": "SteamCiCi",
+          "price": 33.0,
+          "status": "历史挂售最低参考价｜非实时库存",
+          "last_hanging_time": "2026-10-24T13:01:55.000+08:00",
+          "url": "https://steamcici.com/index",
+          "kind": "historical_listing",
+          "subid": "908317",
+          "checked_at": "2026-10-27T08:51:09.458406+00:00"
         }
       ],
       "key_status": "未核实实时在售",
@@ -1266,20 +1286,20 @@
       "discount": 20,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1150690/header.jpg?t=1671584768",
       "url": "https://store.steampowered.com/app/1150690/?cc=cn&l=schinese",
-      "review": "简中评价样本不足",
+      "review": "Steam 评价数据暂不可用",
       "review_pct": null,
       "review_count": 0,
-      "recommend_score": 5.7,
+      "review_scope": "不可用",
+      "recommend_score": 5.6,
       "taste_score": 5.3,
       "quality_score": 0.0,
-      "price_score": 5.1,
+      "price_score": 4.8,
       "genres": [
         "冒险",
         "独立",
         "角色扮演"
       ],
       "tags": [
-        "站内新低",
         "-20%",
         "冒险",
         "独立",
@@ -1290,6 +1310,7 @@
       ],
       "category": "deal",
       "discovery_score": null,
+      "watchlisted": false,
       "why": "匹配你的偏好：冒险 / 角色扮演 / 单人",
       "mobile": null,
       "epic_status": "未核实（历史库未匹配）",
@@ -1321,19 +1342,19 @@
       "discount": 25,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1727590/0e0cb62c332fdbbeccf889b4c40dff5d4a6c5060/header.jpg?t=1776195427",
       "url": "https://store.steampowered.com/app/1727590/?cc=cn&l=schinese",
-      "review": "简中评价样本不足",
+      "review": "Steam 评价数据暂不可用",
       "review_pct": null,
       "review_count": 0,
-      "recommend_score": 5.7,
+      "review_scope": "不可用",
+      "recommend_score": 5.6,
       "taste_score": 5.1,
       "quality_score": 0.0,
-      "price_score": 5.5,
+      "price_score": 5.2,
       "genres": [
         "冒险",
         "策略"
       ],
       "tags": [
-        "站内新低",
         "-25%",
         "冒险",
         "策略"
@@ -1343,6 +1364,7 @@
       ],
       "category": "deal",
       "discovery_score": null,
+      "watchlisted": false,
       "why": "匹配你的偏好：冒险 / 策略 / 单人",
       "mobile": null,
       "epic_status": "未核实（历史库未匹配）",
@@ -1362,7 +1384,7 @@
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=9001036165227179601920",
           "kind": "reference",
           "subid": 618798,
-          "checked_at": "2026-10-27T08:15:20.010917+00:00"
+          "checked_at": "2026-10-27T08:51:12.104252+00:00"
         }
       ],
       "key_status": "未核实实时在售",
@@ -1384,13 +1406,14 @@
       "discount": 90,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1318690/header_schinese.jpg?t=1788789036",
       "url": "https://store.steampowered.com/app/1318690/?cc=cn&l=schinese",
-      "review": "简中评价样本不足",
+      "review": "Steam 评价数据暂不可用",
       "review_pct": null,
       "review_count": 0,
-      "recommend_score": 5.7,
+      "review_scope": "不可用",
+      "recommend_score": 5.6,
       "taste_score": 4.1,
       "quality_score": 0.0,
-      "price_score": 7.8,
+      "price_score": 7.5,
       "genres": [
         "休闲",
         "独立",
@@ -1398,7 +1421,6 @@
         "策略"
       ],
       "tags": [
-        "站内新低",
         "-90%",
         "休闲",
         "独立",
@@ -1409,6 +1431,7 @@
       ],
       "category": "deal",
       "discovery_score": null,
+      "watchlisted": false,
       "why": "匹配你的偏好：策略 / 单人",
       "mobile": null,
       "epic_status": "未核实（历史库未匹配）",
@@ -1428,7 +1451,7 @@
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=291498523227066368",
           "kind": "reference",
           "subid": 460467,
-          "checked_at": "2026-10-27T08:15:21.366238+00:00"
+          "checked_at": "2026-10-27T08:51:13.652841+00:00"
         }
       ],
       "key_status": "未核实实时在售",
@@ -1450,20 +1473,20 @@
       "discount": 80,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/296490/header.jpg?t=1726580940",
       "url": "https://store.steampowered.com/app/296490/?cc=cn&l=schinese",
-      "review": "简中评价样本不足",
+      "review": "Steam 评价数据暂不可用",
       "review_pct": null,
       "review_count": 0,
-      "recommend_score": 5.7,
+      "review_scope": "不可用",
+      "recommend_score": 5.6,
       "taste_score": 4.1,
       "quality_score": 0.0,
-      "price_score": 7.8,
+      "price_score": 7.5,
       "genres": [
         "动作",
         "独立",
         "策略"
       ],
       "tags": [
-        "站内新低",
         "-80%",
         "动作",
         "独立",
@@ -1474,6 +1497,7 @@
       ],
       "category": "deal",
       "discovery_score": null,
+      "watchlisted": false,
       "why": "匹配你的偏好：策略 / 单人",
       "mobile": null,
       "epic_status": "未核实（历史库未匹配）",
@@ -1493,7 +1517,7 @@
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=267232744768016384",
           "kind": "reference",
           "subid": 42795,
-          "checked_at": "2026-10-27T08:15:22.747050+00:00"
+          "checked_at": "2026-10-27T08:51:15.370035+00:00"
         }
       ],
       "key_status": "未核实实时在售",
@@ -1515,20 +1539,20 @@
       "discount": 20,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2842800/f40e0723ef447af535605f1f327a7241004481c8/header.jpg?t=1785554656",
       "url": "https://store.steampowered.com/app/2842800/?cc=cn&l=schinese",
-      "review": "简中评价样本不足",
+      "review": "Steam 评价数据暂不可用",
       "review_pct": null,
       "review_count": 0,
-      "recommend_score": 5.6,
+      "review_scope": "不可用",
+      "recommend_score": 5.5,
       "taste_score": 5.1,
       "quality_score": 0.0,
-      "price_score": 5.1,
+      "price_score": 4.8,
       "genres": [
         "冒险",
         "独立",
         "策略"
       ],
       "tags": [
-        "站内新低",
         "-20%",
         "冒险",
         "独立",
@@ -1539,6 +1563,7 @@
       ],
       "category": "deal",
       "discovery_score": null,
+      "watchlisted": false,
       "why": "匹配你的偏好：冒险 / 策略 / 单人",
       "mobile": null,
       "epic_status": "未核实（历史库未匹配）",
@@ -1558,17 +1583,7 @@
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=9001023034539483656192",
           "kind": "reference",
           "subid": 1014360,
-          "checked_at": "2026-10-27T08:15:24.063307+00:00"
-        },
-        {
-          "platform": "SteamCiCi",
-          "price": 23.8,
-          "status": "历史挂售最低参考价｜非实时库存",
-          "last_hanging_time": "2026-10-25T15:49:34.000+08:00",
-          "url": "https://steamcici.com/index",
-          "kind": "historical_listing",
-          "subid": "1014360",
-          "checked_at": "2026-10-27T08:15:24.860148+00:00"
+          "checked_at": "2026-10-27T08:51:17.031823+00:00"
         }
       ],
       "key_status": "未核实实时在售",
@@ -1590,20 +1605,20 @@
       "discount": 25,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3464370/ff02a1ca97bdacdfe0a93d4171380df9553f3d2a/header_schinese.jpg?t=1791446376",
       "url": "https://store.steampowered.com/app/3464370/?cc=cn&l=schinese",
-      "review": "简中评价样本不足",
+      "review": "Steam 评价数据暂不可用",
       "review_pct": null,
       "review_count": 0,
-      "recommend_score": 5.6,
+      "review_scope": "不可用",
+      "recommend_score": 5.5,
       "taste_score": 5.1,
       "quality_score": 0.0,
-      "price_score": 4.9,
+      "price_score": 4.6,
       "genres": [
         "冒险",
         "模拟",
         "策略"
       ],
       "tags": [
-        "站内新低",
         "-25%",
         "冒险",
         "模拟",
@@ -1614,6 +1629,7 @@
       ],
       "category": "deal",
       "discovery_score": null,
+      "watchlisted": false,
       "why": "匹配你的偏好：冒险 / 策略 / 单人",
       "mobile": null,
       "epic_status": "未核实（历史库未匹配）",
@@ -1633,75 +1649,12 @@
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=9000985347071426277377",
           "kind": "reference",
           "subid": 1223978,
-          "checked_at": "2026-10-27T08:15:25.602421+00:00"
+          "checked_at": "2026-10-27T08:51:18.594969+00:00"
         }
       ],
       "key_status": "未核实实时在售",
       "key_reference_min": 73.0,
       "tracked_low": 69.0,
-      "region_history_low": null
-    },
-    {
-      "appid": 646570,
-      "name": "Slay the Spire",
-      "name_en": null,
-      "steam_subids": [
-        181611
-      ],
-      "release_date": "2019 年 1 月 23 日",
-      "coming_soon": false,
-      "price": 22.0,
-      "original_price": 88.0,
-      "discount": 75,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/646570/header.jpg?t=1774015376",
-      "url": "https://store.steampowered.com/app/646570/?cc=cn&l=schinese",
-      "review": "简中评价样本不足",
-      "review_pct": null,
-      "review_count": 0,
-      "recommend_score": 5.6,
-      "taste_score": 4.1,
-      "quality_score": 0.0,
-      "price_score": 7.2,
-      "genres": [
-        "独立",
-        "策略"
-      ],
-      "tags": [
-        "站内新低",
-        "-75%",
-        "独立",
-        "策略"
-      ],
-      "flags": [
-        "deal"
-      ],
-      "category": "deal",
-      "discovery_score": null,
-      "why": "匹配你的偏好：策略 / 单人",
-      "mobile": null,
-      "epic_status": "未核实（历史库未匹配）",
-      "epic_giveaway": null,
-      "epic_source": "https://github.com/renshuki/efgtracker",
-      "dlc_status": "未自动核实",
-      "key_price": null,
-      "key_source": null,
-      "steam_historical_low": null,
-      "steam_historical_low_source": null,
-      "steam_deck": null,
-      "key_offers": [
-        {
-          "platform": "SteamPY",
-          "price": 18.5,
-          "status": "CDKey接口参考价｜库存、地区及版本需打开商品页确认",
-          "url": "https://steampy.com/cdkDetail?name=cn&gameId=496138616574077",
-          "kind": "reference",
-          "subid": 181611,
-          "checked_at": "2026-10-27T08:15:27.047310+00:00"
-        }
-      ],
-      "key_status": "未核实实时在售",
-      "key_reference_min": 18.5,
-      "tracked_low": 22.0,
       "region_history_low": null
     },
     {
@@ -1718,19 +1671,19 @@
       "discount": 40,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1428310/header.jpg?t=1751133895",
       "url": "https://store.steampowered.com/app/1428310/?cc=cn&l=schinese",
-      "review": "简中评价样本不足",
+      "review": "Steam 评价数据暂不可用",
       "review_pct": null,
       "review_count": 0,
+      "review_scope": "不可用",
       "recommend_score": 5.5,
       "taste_score": 4.3,
       "quality_score": 0.0,
-      "price_score": 6.7,
+      "price_score": 6.4,
       "genres": [
         "角色扮演",
         "模拟"
       ],
       "tags": [
-        "站内新低",
         "-40%",
         "角色扮演",
         "模拟"
@@ -1740,6 +1693,7 @@
       ],
       "category": "deal",
       "discovery_score": null,
+      "watchlisted": false,
       "why": "匹配你的偏好：角色扮演 / 单人",
       "mobile": null,
       "epic_status": "未核实（历史库未匹配）",
@@ -1771,18 +1725,18 @@
       "discount": 70,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1673190/header_schinese.jpg?t=1680890674",
       "url": "https://store.steampowered.com/app/1673190/?cc=cn&l=schinese",
-      "review": "简中评价样本不足",
+      "review": "Steam 评价数据暂不可用",
       "review_pct": null,
       "review_count": 0,
+      "review_scope": "不可用",
       "recommend_score": 5.5,
       "taste_score": 4.3,
       "quality_score": 0.0,
-      "price_score": 6.7,
+      "price_score": 6.4,
       "genres": [
         "角色扮演"
       ],
       "tags": [
-        "站内新低",
         "-70%",
         "角色扮演"
       ],
@@ -1791,6 +1745,7 @@
       ],
       "category": "deal",
       "discovery_score": null,
+      "watchlisted": false,
       "why": "匹配你的偏好：角色扮演 / 单人",
       "mobile": null,
       "epic_status": "未核实（历史库未匹配）",
@@ -1809,44 +1764,42 @@
       "region_history_low": null
     },
     {
-      "appid": 4028640,
-      "name": "DEFRAG",
+      "appid": 646570,
+      "name": "Slay the Spire",
       "name_en": null,
       "steam_subids": [
-        1413327
+        181611
       ],
-      "release_date": "2025 年 11 月 12 日",
+      "release_date": "2019 年 1 月 23 日",
       "coming_soon": false,
-      "price": 9.0,
-      "original_price": 15.0,
-      "discount": 40,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4028640/0782813d90c8597eab725b395c772a4e2e6263b4/header.jpg?t=1777442623",
-      "url": "https://store.steampowered.com/app/4028640/?cc=cn&l=schinese",
-      "review": "简中评价样本不足",
+      "price": 22.0,
+      "original_price": 88.0,
+      "discount": 75,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/646570/header.jpg?t=1774015376",
+      "url": "https://store.steampowered.com/app/646570/?cc=cn&l=schinese",
+      "review": "Steam 评价数据暂不可用",
       "review_pct": null,
       "review_count": 0,
+      "review_scope": "不可用",
       "recommend_score": 5.5,
       "taste_score": 4.1,
       "quality_score": 0.0,
-      "price_score": 6.7,
+      "price_score": 6.9,
       "genres": [
-        "休闲",
         "独立",
-        "模拟",
         "策略"
       ],
       "tags": [
-        "站内新低",
-        "-40%",
-        "休闲",
+        "-75%",
         "独立",
-        "模拟"
+        "策略"
       ],
       "flags": [
         "deal"
       ],
       "category": "deal",
       "discovery_score": null,
+      "watchlisted": false,
       "why": "匹配你的偏好：策略 / 单人",
       "mobile": null,
       "epic_status": "未核实（历史库未匹配）",
@@ -1861,17 +1814,71 @@
       "key_offers": [
         {
           "platform": "SteamPY",
-          "price": 9.45,
+          "price": 18.5,
           "status": "CDKey接口参考价｜库存、地区及版本需打开商品页确认",
-          "url": "https://steampy.com/cdkDetail?name=cn&gameId=9001001503039277146112",
+          "url": "https://steampy.com/cdkDetail?name=cn&gameId=496138616574077",
           "kind": "reference",
-          "subid": 1413327,
-          "checked_at": "2026-10-27T08:15:31.139589+00:00"
+          "subid": 181611,
+          "checked_at": "2026-10-27T08:51:23.539408+00:00"
         }
       ],
       "key_status": "未核实实时在售",
-      "key_reference_min": 9.45,
-      "tracked_low": 9.0,
+      "key_reference_min": 18.5,
+      "tracked_low": 22.0,
+      "region_history_low": null
+    },
+    {
+      "appid": 760890,
+      "name": "Hello Charlotte EP3: Childhood's End",
+      "name_en": null,
+      "steam_subids": [
+        224732
+      ],
+      "release_date": "2018 年 1 月 4 日",
+      "coming_soon": false,
+      "price": 12.6,
+      "original_price": 18.0,
+      "discount": 30,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/760890/header.jpg?t=1734719167",
+      "url": "https://store.steampowered.com/app/760890/?cc=cn&l=schinese",
+      "review": "Steam 评价数据暂不可用",
+      "review_pct": null,
+      "review_count": 0,
+      "review_scope": "不可用",
+      "recommend_score": 5.4,
+      "taste_score": 4.3,
+      "quality_score": 0.0,
+      "price_score": 5.8,
+      "genres": [
+        "独立",
+        "角色扮演"
+      ],
+      "tags": [
+        "-30%",
+        "独立",
+        "角色扮演"
+      ],
+      "flags": [
+        "deal"
+      ],
+      "category": "deal",
+      "discovery_score": null,
+      "watchlisted": false,
+      "why": "匹配你的偏好：角色扮演 / 单人",
+      "mobile": null,
+      "epic_status": "未核实（历史库未匹配）",
+      "epic_giveaway": null,
+      "epic_source": "https://github.com/renshuki/efgtracker",
+      "dlc_status": "未自动核实",
+      "key_price": null,
+      "key_source": null,
+      "steam_historical_low": null,
+      "steam_historical_low_source": null,
+      "steam_deck": null,
+      "key_offers": [],
+      "key_status": "未核实实时在售",
+      "key_reference_min": null,
+      "tracked_low": 12.6,
       "region_history_low": null
     },
     {
@@ -1888,13 +1895,14 @@
       "discount": 20,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1071360/19069b1d18427fd4817b15bb41c1e640b74dc446/header_alt_assets_0.jpg?t=1793065198",
       "url": "https://store.steampowered.com/app/1071360/?cc=cn&l=schinese",
-      "review": "简中评价样本不足",
+      "review": "Steam 评价数据暂不可用",
       "review_pct": null,
       "review_count": 0,
+      "review_scope": "不可用",
       "recommend_score": 6.8,
       "taste_score": 7.6,
       "quality_score": 0.0,
-      "price_score": 5.7,
+      "price_score": 5.4,
       "genres": [
         "动作",
         "冒险",
@@ -1905,7 +1913,6 @@
         "抢先体验"
       ],
       "tags": [
-        "站内新低",
         "-20%",
         "动作",
         "冒险",
@@ -1916,6 +1923,7 @@
       ],
       "category": "new",
       "discovery_score": null,
+      "watchlisted": false,
       "why": "匹配你的偏好：冒险 / 角色扮演 / 策略 / 单人",
       "mobile": null,
       "epic_status": "未核实（历史库未匹配）",
@@ -1947,9 +1955,10 @@
       "discount": 10,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4958460/23f95b90b72c69c08cf4bc4dc2d201299761fa88/header_schinese.jpg?t=1793066401",
       "url": "https://store.steampowered.com/app/4958460/?cc=cn&l=schinese",
-      "review": "简中评价样本不足",
+      "review": "Steam 评价数据暂不可用",
       "review_pct": null,
       "review_count": 0,
+      "review_scope": "不可用",
       "recommend_score": 6.8,
       "taste_score": 7.6,
       "quality_score": 0.0,
@@ -1972,6 +1981,7 @@
       ],
       "category": "new",
       "discovery_score": null,
+      "watchlisted": false,
       "why": "匹配你的偏好：冒险 / 角色扮演 / 策略 / 单人",
       "mobile": null,
       "epic_status": "未核实（历史库未匹配）",
@@ -1991,7 +2001,7 @@
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=9001127332825080250368",
           "kind": "reference",
           "subid": 1720707,
-          "checked_at": "2026-10-27T08:15:33.874429+00:00"
+          "checked_at": "2026-10-27T08:51:28.645186+00:00"
         }
       ],
       "key_status": "未核实实时在售",
@@ -2013,20 +2023,20 @@
       "discount": 25,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3460540/85336a2b659dfef0ea72c32450c2730b2b9225dd/header.jpg?t=1793036876",
       "url": "https://store.steampowered.com/app/3460540/?cc=cn&l=schinese",
-      "review": "简中评价样本不足",
+      "review": "Steam 评价数据暂不可用",
       "review_pct": null,
       "review_count": 0,
-      "recommend_score": 6.5,
+      "review_scope": "不可用",
+      "recommend_score": 6.4,
       "taste_score": 6.6,
       "quality_score": 0.0,
-      "price_score": 6.1,
+      "price_score": 5.8,
       "genres": [
         "独立",
         "角色扮演",
         "策略"
       ],
       "tags": [
-        "站内新低",
         "-25%",
         "独立",
         "角色扮演",
@@ -2037,6 +2047,7 @@
       ],
       "category": "new",
       "discovery_score": null,
+      "watchlisted": false,
       "why": "匹配你的偏好：角色扮演 / 策略 / 单人",
       "mobile": null,
       "epic_status": "未核实（历史库未匹配）",
@@ -2055,62 +2066,6 @@
       "region_history_low": null
     },
     {
-      "appid": 4919730,
-      "name": "Demon Egg",
-      "name_en": null,
-      "steam_subids": [
-        1707797
-      ],
-      "release_date": "2026 年 10 月 26 日",
-      "coming_soon": false,
-      "price": 17.6,
-      "original_price": 22.0,
-      "discount": 20,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4919730/c424b07e7cc6dcb6d2c2d748091c75a88f04ec7a/header.jpg?t=1793084347",
-      "url": "https://store.steampowered.com/app/4919730/?cc=cn&l=schinese",
-      "review": "简中评价样本不足",
-      "review_pct": null,
-      "review_count": 0,
-      "recommend_score": 6.4,
-      "taste_score": 6.6,
-      "quality_score": 0.0,
-      "price_score": 5.7,
-      "genres": [
-        "独立",
-        "角色扮演",
-        "模拟",
-        "策略"
-      ],
-      "tags": [
-        "站内新低",
-        "-20%",
-        "独立",
-        "角色扮演",
-        "模拟"
-      ],
-      "flags": [
-        "new"
-      ],
-      "category": "new",
-      "discovery_score": null,
-      "why": "匹配你的偏好：角色扮演 / 策略 / 单人",
-      "mobile": null,
-      "epic_status": "未核实（历史库未匹配）",
-      "epic_giveaway": null,
-      "epic_source": "https://github.com/renshuki/efgtracker",
-      "dlc_status": "未自动核实",
-      "key_price": null,
-      "key_source": null,
-      "steam_historical_low": null,
-      "steam_historical_low_source": null,
-      "steam_deck": null,
-      "key_offers": [],
-      "key_status": "未核实实时在售",
-      "key_reference_min": null,
-      "tracked_low": 17.6,
-      "region_history_low": null
-    },
-    {
       "appid": 5368440,
       "name": "拖拽猎人",
       "name_en": null,
@@ -2124,9 +2079,10 @@
       "discount": 20,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5368440/82ab5f4b60b854c191e982a16a4e8181c07ddb50/header.jpg?t=1793058326",
       "url": "https://store.steampowered.com/app/5368440/?cc=cn&l=schinese",
-      "review": "简中评价样本不足",
+      "review": "Steam 评价数据暂不可用",
       "review_pct": null,
       "review_count": 0,
+      "review_scope": "不可用",
       "recommend_score": 6.3,
       "taste_score": 6.6,
       "quality_score": 0.0,
@@ -2147,6 +2103,7 @@
       ],
       "category": "new",
       "discovery_score": null,
+      "watchlisted": false,
       "why": "匹配你的偏好：角色扮演 / 策略 / 单人",
       "mobile": null,
       "epic_status": "未核实（历史库未匹配）",
@@ -2178,9 +2135,10 @@
       "discount": 20,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5245310/2d3b7050cc1c51e02b784b8d1f3822589823acb9/header.jpg?t=1793083369",
       "url": "https://store.steampowered.com/app/5245310/?cc=cn&l=schinese",
-      "review": "简中评价样本不足",
+      "review": "Steam 评价数据暂不可用",
       "review_pct": null,
       "review_count": 0,
+      "review_scope": "不可用",
       "recommend_score": 6.3,
       "taste_score": 6.6,
       "quality_score": 0.0,
@@ -2201,6 +2159,7 @@
       ],
       "category": "new",
       "discovery_score": null,
+      "watchlisted": false,
       "why": "匹配你的偏好：角色扮演 / 策略 / 单人",
       "mobile": null,
       "epic_status": "未核实（历史库未匹配）",
@@ -2220,7 +2179,7 @@
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=9001127334104695291904",
           "kind": "reference",
           "subid": 1814203,
-          "checked_at": "2026-10-27T08:15:39.331374+00:00"
+          "checked_at": "2026-10-27T08:51:34.455942+00:00"
         }
       ],
       "key_status": "未核实实时在售",
@@ -2229,43 +2188,172 @@
       "region_history_low": null
     },
     {
-      "appid": 4578740,
-      "name": "Remain Seated",
+      "appid": 4919730,
+      "name": "Demon Egg",
       "name_en": null,
       "steam_subids": [
-        1595983
+        1707797
       ],
       "release_date": "2026 年 10 月 26 日",
       "coming_soon": false,
-      "price": 27.0,
-      "original_price": 30.0,
-      "discount": 10,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4578740/0d4ee4d1fd6554f86a2b2401357412982c841dfd/header.jpg?t=1793057034",
-      "url": "https://store.steampowered.com/app/4578740/?cc=cn&l=schinese",
-      "review": "简中评价样本不足",
+      "price": 17.6,
+      "original_price": 22.0,
+      "discount": 20,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4919730/c424b07e7cc6dcb6d2c2d748091c75a88f04ec7a/header.jpg?t=1793084347",
+      "url": "https://store.steampowered.com/app/4919730/?cc=cn&l=schinese",
+      "review": "Steam 评价数据暂不可用",
       "review_pct": null,
       "review_count": 0,
-      "recommend_score": 5.7,
-      "taste_score": 5.3,
+      "review_scope": "不可用",
+      "recommend_score": 6.3,
+      "taste_score": 6.6,
       "quality_score": 0.0,
       "price_score": 5.4,
       "genres": [
-        "动作",
-        "冒险",
+        "独立",
         "角色扮演",
-        "模拟"
+        "模拟",
+        "策略"
       ],
       "tags": [
-        "-10%",
-        "动作",
-        "冒险",
-        "角色扮演"
+        "-20%",
+        "独立",
+        "角色扮演",
+        "模拟"
       ],
       "flags": [
         "new"
       ],
       "category": "new",
       "discovery_score": null,
+      "watchlisted": false,
+      "why": "匹配你的偏好：角色扮演 / 策略 / 单人",
+      "mobile": null,
+      "epic_status": "未核实（历史库未匹配）",
+      "epic_giveaway": null,
+      "epic_source": "https://github.com/renshuki/efgtracker",
+      "dlc_status": "未自动核实",
+      "key_price": null,
+      "key_source": null,
+      "steam_historical_low": null,
+      "steam_historical_low_source": null,
+      "steam_deck": null,
+      "key_offers": [],
+      "key_status": "未核实实时在售",
+      "key_reference_min": null,
+      "tracked_low": 17.6,
+      "region_history_low": null
+    },
+    {
+      "appid": 3929570,
+      "name": "节度使战略：安史之乱",
+      "name_en": null,
+      "steam_subids": [
+        1380653
+      ],
+      "release_date": "2026 年 10 月 27 日",
+      "coming_soon": false,
+      "price": 39.6,
+      "original_price": 45.0,
+      "discount": 12,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3929570/fa37816cbd42263c6e996f9eca3b1cc52511aa18/header_schinese.jpg?t=1793088003",
+      "url": "https://store.steampowered.com/app/3929570/?cc=cn&l=schinese",
+      "review": "Steam 评价数据暂不可用",
+      "review_pct": null,
+      "review_count": 0,
+      "review_scope": "不可用",
+      "recommend_score": 6.3,
+      "taste_score": 6.6,
+      "quality_score": 0.0,
+      "price_score": 5.1,
+      "genres": [
+        "独立",
+        "角色扮演",
+        "模拟",
+        "策略"
+      ],
+      "tags": [
+        "站内新低",
+        "-12%",
+        "独立",
+        "角色扮演",
+        "模拟"
+      ],
+      "flags": [
+        "new"
+      ],
+      "category": "new",
+      "discovery_score": null,
+      "watchlisted": false,
+      "why": "匹配你的偏好：角色扮演 / 策略 / 单人",
+      "mobile": null,
+      "epic_status": "未核实（历史库未匹配）",
+      "epic_giveaway": null,
+      "epic_source": "https://github.com/renshuki/efgtracker",
+      "dlc_status": "未自动核实",
+      "key_price": null,
+      "key_source": null,
+      "steam_historical_low": null,
+      "steam_historical_low_source": null,
+      "steam_deck": null,
+      "key_offers": [
+        {
+          "platform": "SteamPY",
+          "price": 35.0,
+          "status": "CDKey接口参考价｜库存、地区及版本需打开商品页确认",
+          "url": "https://steampy.com/cdkDetail?name=cn&gameId=9001127418796736000000",
+          "kind": "reference",
+          "subid": 1380653,
+          "checked_at": "2026-10-27T08:51:37.778815+00:00"
+        }
+      ],
+      "key_status": "未核实实时在售",
+      "key_reference_min": 35.0,
+      "tracked_low": 39.6,
+      "region_history_low": null
+    },
+    {
+      "appid": 5368880,
+      "name": "Visual Novel: Before the Dawn",
+      "name_en": null,
+      "steam_subids": [
+        1854421
+      ],
+      "release_date": "2026 年 10 月 27 日",
+      "coming_soon": false,
+      "price": 4.2,
+      "original_price": 6.0,
+      "discount": 30,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5368880/aed59b005df6eec384e961177116947aafbff45b/header.jpg?t=1793089752",
+      "url": "https://store.steampowered.com/app/5368880/?cc=cn&l=schinese",
+      "review": "Steam 评价数据暂不可用",
+      "review_pct": null,
+      "review_count": 0,
+      "review_scope": "不可用",
+      "recommend_score": 6.0,
+      "taste_score": 5.3,
+      "quality_score": 0.0,
+      "price_score": 6.7,
+      "genres": [
+        "动作",
+        "冒险",
+        "休闲",
+        "独立",
+        "角色扮演"
+      ],
+      "tags": [
+        "站内新低",
+        "-30%",
+        "动作",
+        "冒险",
+        "休闲"
+      ],
+      "flags": [
+        "new"
+      ],
+      "category": "new",
+      "discovery_score": null,
+      "watchlisted": false,
       "why": "匹配你的偏好：冒险 / 角色扮演 / 单人",
       "mobile": null,
       "epic_status": "未核实（历史库未匹配）",
@@ -2280,7 +2368,7 @@
       "key_offers": [],
       "key_status": "未核实实时在售",
       "key_reference_min": null,
-      "tracked_low": 27.0,
+      "tracked_low": 4.2,
       "region_history_low": null
     },
     {
@@ -2297,13 +2385,14 @@
       "discount": 20,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4927070/8dac08cc3309b35f00cfcdb1d3bfdef04fc9884a/header.jpg?t=1793039176",
       "url": "https://store.steampowered.com/app/4927070/?cc=cn&l=schinese",
-      "review": "简中评价样本不足",
+      "review": "Steam 评价数据暂不可用",
       "review_pct": null,
       "review_count": 0,
-      "recommend_score": 5.6,
+      "review_scope": "不可用",
+      "recommend_score": 5.5,
       "taste_score": 5.1,
       "quality_score": 0.0,
-      "price_score": 5.1,
+      "price_score": 4.8,
       "genres": [
         "动作",
         "冒险",
@@ -2311,7 +2400,6 @@
         "策略"
       ],
       "tags": [
-        "站内新低",
         "-20%",
         "动作",
         "冒险",
@@ -2322,6 +2410,7 @@
       ],
       "category": "new",
       "discovery_score": null,
+      "watchlisted": false,
       "why": "匹配你的偏好：冒险 / 策略 / 单人",
       "mobile": null,
       "epic_status": "未核实（历史库未匹配）",
@@ -2353,13 +2442,14 @@
       "discount": 40,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5085820/70bb9f7c8fdb6b8043888f980256a9c399491787/header.jpg?t=1793079590",
       "url": "https://store.steampowered.com/app/5085820/?cc=cn&l=schinese",
-      "review": "简中评价样本不足",
+      "review": "Steam 评价数据暂不可用",
       "review_pct": null,
       "review_count": 0,
+      "review_scope": "不可用",
       "recommend_score": 5.5,
       "taste_score": 4.3,
       "quality_score": 0.0,
-      "price_score": 6.7,
+      "price_score": 6.4,
       "genres": [
         "休闲",
         "独立",
@@ -2367,7 +2457,6 @@
         "模拟"
       ],
       "tags": [
-        "站内新低",
         "-40%",
         "休闲",
         "独立",
@@ -2378,57 +2467,7 @@
       ],
       "category": "new",
       "discovery_score": null,
-      "why": "匹配你的偏好：角色扮演 / 单人",
-      "mobile": null,
-      "epic_status": "未核实（历史库未匹配）",
-      "epic_giveaway": null,
-      "epic_source": "https://github.com/renshuki/efgtracker",
-      "dlc_status": "未自动核实",
-      "key_price": null,
-      "key_source": null,
-      "steam_historical_low": null,
-      "steam_historical_low_source": null,
-      "steam_deck": null,
-      "key_offers": [],
-      "key_status": "未核实实时在售",
-      "key_reference_min": null,
-      "tracked_low": 9.0,
-      "region_history_low": null
-    },
-    {
-      "appid": 4835430,
-      "name": "暮光之潮：幻蓝秩元恋 ",
-      "name_en": null,
-      "steam_subids": [
-        1679937
-      ],
-      "release_date": "2026 年 10 月 26 日",
-      "coming_soon": false,
-      "price": 9.0,
-      "original_price": 15.0,
-      "discount": 40,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4835430/ed051afc8bc4dd12268b47f42f73fe2ef787198b/header_schinese.jpg?t=1793056073",
-      "url": "https://store.steampowered.com/app/4835430/?cc=cn&l=schinese",
-      "review": "简中评价样本不足",
-      "review_pct": null,
-      "review_count": 0,
-      "recommend_score": 5.5,
-      "taste_score": 4.3,
-      "quality_score": 0.0,
-      "price_score": 6.7,
-      "genres": [
-        "角色扮演"
-      ],
-      "tags": [
-        "站内新低",
-        "-40%",
-        "角色扮演"
-      ],
-      "flags": [
-        "new"
-      ],
-      "category": "new",
-      "discovery_score": null,
+      "watchlisted": false,
       "why": "匹配你的偏好：角色扮演 / 单人",
       "mobile": null,
       "epic_status": "未核实（历史库未匹配）",
@@ -2460,9 +2499,10 @@
       "discount": 40,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4209630/bace802cf4e227a6adf41470875cd4d654191585/header_schinese.jpg?t=1793056663",
       "url": "https://store.steampowered.com/app/4209630/?cc=cn&l=schinese",
-      "review": "简中评价样本不足",
+      "review": "Steam 评价数据暂不可用",
       "review_pct": null,
       "review_count": 0,
+      "review_scope": "不可用",
       "recommend_score": 5.4,
       "taste_score": 4.3,
       "quality_score": 0.0,
@@ -2483,6 +2523,7 @@
       ],
       "category": "new",
       "discovery_score": null,
+      "watchlisted": false,
       "why": "匹配你的偏好：角色扮演 / 单人",
       "mobile": null,
       "epic_status": "未核实（历史库未匹配）",
@@ -2514,13 +2555,14 @@
       "discount": 18,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4436260/2113eddcdb03b30a677b012c80f10314f858ddd1/header.jpg?t=1793085028",
       "url": "https://store.steampowered.com/app/4436260/?cc=cn&l=schinese",
-      "review": "简中评价样本不足",
+      "review": "Steam 评价数据暂不可用",
       "review_pct": null,
       "review_count": 0,
+      "review_scope": "不可用",
       "recommend_score": 5.3,
       "taste_score": 4.3,
       "quality_score": 0.0,
-      "price_score": 5.7,
+      "price_score": 5.4,
       "genres": [
         "休闲",
         "独立",
@@ -2529,7 +2571,6 @@
         "抢先体验"
       ],
       "tags": [
-        "站内新低",
         "-18%",
         "休闲",
         "独立",
@@ -2540,6 +2581,7 @@
       ],
       "category": "new",
       "discovery_score": null,
+      "watchlisted": false,
       "why": "匹配你的偏好：角色扮演 / 单人",
       "mobile": null,
       "epic_status": "未核实（历史库未匹配）",
@@ -2571,20 +2613,20 @@
       "discount": 15,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5367960/383d8afe6a14435bf43ff58fd00bc1937d6be74a/header.jpg?t=1793033989",
       "url": "https://store.steampowered.com/app/5367960/?cc=cn&l=schinese",
-      "review": "简中评价样本不足",
+      "review": "Steam 评价数据暂不可用",
       "review_pct": null,
       "review_count": 0,
+      "review_scope": "不可用",
       "recommend_score": 5.3,
       "taste_score": 4.3,
       "quality_score": 0.0,
-      "price_score": 5.7,
+      "price_score": 5.4,
       "genres": [
         "休闲",
         "独立",
         "角色扮演"
       ],
       "tags": [
-        "站内新低",
         "-15%",
         "休闲",
         "独立",
@@ -2595,6 +2637,7 @@
       ],
       "category": "new",
       "discovery_score": null,
+      "watchlisted": false,
       "why": "匹配你的偏好：角色扮演 / 单人",
       "mobile": null,
       "epic_status": "未核实（历史库未匹配）",
@@ -2626,19 +2669,19 @@
       "discount": 0,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5084590/c08cd490fb1a09ab3e4a808ed8dc424e37fb1445/header_schinese.jpg?t=1793085566",
       "url": "https://store.steampowered.com/app/5084590/?cc=cn&l=schinese",
-      "review": "简中评价样本不足",
+      "review": "Steam 评价数据暂不可用",
       "review_pct": null,
       "review_count": 0,
+      "review_scope": "不可用",
       "recommend_score": 5.3,
       "taste_score": 4.3,
       "quality_score": 0.0,
-      "price_score": 5.7,
+      "price_score": 5.4,
       "genres": [
         "独立",
         "角色扮演"
       ],
       "tags": [
-        "站内新低",
         "独立",
         "角色扮演"
       ],
@@ -2647,6 +2690,7 @@
       ],
       "category": "new",
       "discovery_score": null,
+      "watchlisted": false,
       "why": "匹配你的偏好：角色扮演 / 单人",
       "mobile": null,
       "epic_status": "未核实（历史库未匹配）",
@@ -2666,12 +2710,290 @@
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=9001127416423502340096",
           "kind": "reference",
           "subid": 1761890,
-          "checked_at": "2026-10-27T08:15:51.878647+00:00"
+          "checked_at": "2026-10-27T08:51:49.387891+00:00"
         }
       ],
       "key_status": "未核实实时在售",
       "key_reference_min": 19.99,
       "tracked_low": 24.0,
+      "region_history_low": null
+    },
+    {
+      "appid": 4684140,
+      "name": "Tax Empire",
+      "name_en": null,
+      "steam_subids": [
+        1630393
+      ],
+      "release_date": "2026 年 10 月 27 日",
+      "coming_soon": false,
+      "price": 14.25,
+      "original_price": 19.0,
+      "discount": 25,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4684140/604b5573ae11ed0fc0ff019f865cdeaad63f37ff/header.jpg?t=1793090818",
+      "url": "https://store.steampowered.com/app/4684140/?cc=cn&l=schinese",
+      "review": "Steam 评价数据暂不可用",
+      "review_pct": null,
+      "review_count": 0,
+      "review_scope": "不可用",
+      "recommend_score": 5.3,
+      "taste_score": 4.1,
+      "quality_score": 0.0,
+      "price_score": 6.1,
+      "genres": [
+        "休闲",
+        "模拟",
+        "策略"
+      ],
+      "tags": [
+        "站内新低",
+        "-25%",
+        "休闲",
+        "模拟",
+        "策略"
+      ],
+      "flags": [
+        "new"
+      ],
+      "category": "new",
+      "discovery_score": null,
+      "watchlisted": false,
+      "why": "匹配你的偏好：策略 / 单人",
+      "mobile": null,
+      "epic_status": "未核实（历史库未匹配）",
+      "epic_giveaway": null,
+      "epic_source": "https://github.com/renshuki/efgtracker",
+      "dlc_status": "未自动核实",
+      "key_price": null,
+      "key_source": null,
+      "steam_historical_low": null,
+      "steam_historical_low_source": null,
+      "steam_deck": null,
+      "key_offers": [],
+      "key_status": "未核实实时在售",
+      "key_reference_min": null,
+      "tracked_low": 14.25,
+      "region_history_low": null
+    },
+    {
+      "appid": 5071650,
+      "name": "DaiDee 大弟",
+      "name_en": null,
+      "steam_subids": [
+        1757753
+      ],
+      "release_date": "2026 年 10 月 26 日",
+      "coming_soon": false,
+      "price": 16.5,
+      "original_price": 22.0,
+      "discount": 25,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5071650/96c64629298f8ed9e94c472a62cc5b64e249ae22/header.jpg?t=1793067782",
+      "url": "https://store.steampowered.com/app/5071650/?cc=cn&l=schinese",
+      "review": "Steam 评价数据暂不可用",
+      "review_pct": null,
+      "review_count": 0,
+      "review_scope": "不可用",
+      "recommend_score": 5.3,
+      "taste_score": 4.1,
+      "quality_score": 0.0,
+      "price_score": 5.8,
+      "genres": [
+        "策略"
+      ],
+      "tags": [
+        "-25%",
+        "策略"
+      ],
+      "flags": [
+        "new"
+      ],
+      "category": "new",
+      "discovery_score": null,
+      "watchlisted": false,
+      "why": "匹配你的偏好：策略 / 单人",
+      "mobile": null,
+      "epic_status": "未核实（历史库未匹配）",
+      "epic_giveaway": null,
+      "epic_source": "https://github.com/renshuki/efgtracker",
+      "dlc_status": "未自动核实",
+      "key_price": null,
+      "key_source": null,
+      "steam_historical_low": null,
+      "steam_historical_low_source": null,
+      "steam_deck": null,
+      "key_offers": [],
+      "key_status": "未核实实时在售",
+      "key_reference_min": null,
+      "tracked_low": 16.5,
+      "region_history_low": null
+    },
+    {
+      "appid": 5044360,
+      "name": "Scuttled",
+      "name_en": null,
+      "steam_subids": [
+        1748934
+      ],
+      "release_date": "2026 年 10 月 26 日",
+      "coming_soon": false,
+      "price": 21.75,
+      "original_price": 29.0,
+      "discount": 25,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5044360/e15fc517ecc81c22ce60e124c1420e828d9afa4b/header.jpg?t=1793067318",
+      "url": "https://store.steampowered.com/app/5044360/?cc=cn&l=schinese",
+      "review": "Steam 评价数据暂不可用",
+      "review_pct": null,
+      "review_count": 0,
+      "review_scope": "不可用",
+      "recommend_score": 5.3,
+      "taste_score": 4.1,
+      "quality_score": 0.0,
+      "price_score": 5.8,
+      "genres": [
+        "独立",
+        "策略"
+      ],
+      "tags": [
+        "-25%",
+        "独立",
+        "策略"
+      ],
+      "flags": [
+        "new"
+      ],
+      "category": "new",
+      "discovery_score": null,
+      "watchlisted": false,
+      "why": "匹配你的偏好：策略 / 单人",
+      "mobile": null,
+      "epic_status": "未核实（历史库未匹配）",
+      "epic_giveaway": null,
+      "epic_source": "https://github.com/renshuki/efgtracker",
+      "dlc_status": "未自动核实",
+      "key_price": null,
+      "key_source": null,
+      "steam_historical_low": null,
+      "steam_historical_low_source": null,
+      "steam_deck": null,
+      "key_offers": [],
+      "key_status": "未核实实时在售",
+      "key_reference_min": null,
+      "tracked_low": 21.75,
+      "region_history_low": null
+    },
+    {
+      "appid": 3991280,
+      "name": "帝国至高指挥",
+      "name_en": null,
+      "steam_subids": [
+        1400888
+      ],
+      "release_date": "2026 年 10 月 27 日",
+      "coming_soon": false,
+      "price": 23.1,
+      "original_price": 33.0,
+      "discount": 30,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3991280/698651a94e7b2a103f86bbf8df7c12d8b6ebec2b/header.jpg?t=1793084551",
+      "url": "https://store.steampowered.com/app/3991280/?cc=cn&l=schinese",
+      "review": "Steam 评价数据暂不可用",
+      "review_pct": null,
+      "review_count": 0,
+      "review_scope": "不可用",
+      "recommend_score": 5.3,
+      "taste_score": 4.1,
+      "quality_score": 0.0,
+      "price_score": 5.8,
+      "genres": [
+        "动作",
+        "休闲",
+        "独立",
+        "模拟",
+        "策略"
+      ],
+      "tags": [
+        "-30%",
+        "动作",
+        "休闲",
+        "独立"
+      ],
+      "flags": [
+        "new"
+      ],
+      "category": "new",
+      "discovery_score": null,
+      "watchlisted": false,
+      "why": "匹配你的偏好：策略 / 单人",
+      "mobile": null,
+      "epic_status": "未核实（历史库未匹配）",
+      "epic_giveaway": null,
+      "epic_source": "https://github.com/renshuki/efgtracker",
+      "dlc_status": "未自动核实",
+      "key_price": null,
+      "key_source": null,
+      "steam_historical_low": null,
+      "steam_historical_low_source": null,
+      "steam_deck": null,
+      "key_offers": [],
+      "key_status": "未核实实时在售",
+      "key_reference_min": null,
+      "tracked_low": 23.1,
+      "region_history_low": null
+    },
+    {
+      "appid": 5362920,
+      "name": "Cell Dominion",
+      "name_en": null,
+      "steam_subids": [
+        1852451
+      ],
+      "release_date": "2026 年 10 月 26 日",
+      "coming_soon": false,
+      "price": 12.75,
+      "original_price": 15.0,
+      "discount": 15,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5362920/70d3c47facf49f9879af4ab4da9939c78bc3df23/header.jpg?t=1793090726",
+      "url": "https://store.steampowered.com/app/5362920/?cc=cn&l=schinese",
+      "review": "Steam 评价数据暂不可用",
+      "review_pct": null,
+      "review_count": 0,
+      "review_scope": "不可用",
+      "recommend_score": 5.2,
+      "taste_score": 4.1,
+      "quality_score": 0.0,
+      "price_score": 5.4,
+      "genres": [
+        "动作",
+        "休闲",
+        "独立",
+        "策略"
+      ],
+      "tags": [
+        "-15%",
+        "动作",
+        "休闲",
+        "独立"
+      ],
+      "flags": [
+        "new"
+      ],
+      "category": "new",
+      "discovery_score": null,
+      "watchlisted": false,
+      "why": "匹配你的偏好：策略 / 单人",
+      "mobile": null,
+      "epic_status": "未核实（历史库未匹配）",
+      "epic_giveaway": null,
+      "epic_source": "https://github.com/renshuki/efgtracker",
+      "dlc_status": "未自动核实",
+      "key_price": null,
+      "key_source": null,
+      "steam_historical_low": null,
+      "steam_historical_low_source": null,
+      "steam_deck": null,
+      "key_offers": [],
+      "key_status": "未核实实时在售",
+      "key_reference_min": null,
+      "tracked_low": 12.75,
       "region_history_low": null
     },
     {
@@ -2688,19 +3010,19 @@
       "discount": 0,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4898130/bafd2734463909adddba1f83ee9148e95408ecf3/header_schinese.jpg?t=1793069586",
       "url": "https://store.steampowered.com/app/4898130/?cc=cn&l=schinese",
-      "review": "简中评价样本不足",
+      "review": "Steam 评价数据暂不可用",
       "review_pct": null,
       "review_count": 0,
-      "recommend_score": 5.3,
+      "review_scope": "不可用",
+      "recommend_score": 5.2,
       "taste_score": 4.1,
       "quality_score": 0.0,
-      "price_score": 5.7,
+      "price_score": 5.4,
       "genres": [
         "独立",
         "策略"
       ],
       "tags": [
-        "站内新低",
         "独立",
         "策略"
       ],
@@ -2709,6 +3031,7 @@
       ],
       "category": "new",
       "discovery_score": null,
+      "watchlisted": false,
       "why": "匹配你的偏好：策略 / 单人",
       "mobile": null,
       "epic_status": "未核实（历史库未匹配）",
@@ -2728,63 +3051,12 @@
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=9001127389311085072384",
           "kind": "reference",
           "subid": 1700325,
-          "checked_at": "2026-10-27T08:15:53.212187+00:00"
+          "checked_at": "2026-10-27T08:51:59.521934+00:00"
         }
       ],
       "key_status": "未核实实时在售",
       "key_reference_min": 9.99,
       "tracked_low": 15.0,
-      "region_history_low": null
-    },
-    {
-      "appid": 5071650,
-      "name": "DaiDee 大弟",
-      "name_en": null,
-      "steam_subids": [
-        1757753
-      ],
-      "release_date": "2026 年 10 月 26 日",
-      "coming_soon": false,
-      "price": 16.5,
-      "original_price": 22.0,
-      "discount": 25,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5071650/96c64629298f8ed9e94c472a62cc5b64e249ae22/header.jpg?t=1793067782",
-      "url": "https://store.steampowered.com/app/5071650/?cc=cn&l=schinese",
-      "review": "简中评价样本不足",
-      "review_pct": null,
-      "review_count": 0,
-      "recommend_score": 5.3,
-      "taste_score": 4.1,
-      "quality_score": 0.0,
-      "price_score": 6.1,
-      "genres": [
-        "策略"
-      ],
-      "tags": [
-        "站内新低",
-        "-25%",
-        "策略"
-      ],
-      "flags": [
-        "new"
-      ],
-      "category": "new",
-      "discovery_score": null,
-      "why": "匹配你的偏好：策略 / 单人",
-      "mobile": null,
-      "epic_status": "未核实（历史库未匹配）",
-      "epic_giveaway": null,
-      "epic_source": "https://github.com/renshuki/efgtracker",
-      "dlc_status": "未自动核实",
-      "key_price": null,
-      "key_source": null,
-      "steam_historical_low": null,
-      "steam_historical_low_source": null,
-      "steam_deck": null,
-      "key_offers": [],
-      "key_status": "未核实实时在售",
-      "key_reference_min": null,
-      "tracked_low": 16.5,
       "region_history_low": null
     },
     {
@@ -2801,13 +3073,14 @@
       "discount": 20,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4269720/15f3b5e9cec9fb6e8fbc25650fc3f1b7312738b7/header.jpg?t=1793033023",
       "url": "https://store.steampowered.com/app/4269720/?cc=cn&l=schinese",
-      "review": "简中评价样本不足",
+      "review": "Steam 评价数据暂不可用",
       "review_pct": null,
       "review_count": 0,
-      "recommend_score": 5.3,
+      "review_scope": "不可用",
+      "recommend_score": 5.2,
       "taste_score": 4.1,
       "quality_score": 0.0,
-      "price_score": 5.7,
+      "price_score": 5.4,
       "genres": [
         "动作",
         "独立",
@@ -2815,7 +3088,6 @@
         "策略"
       ],
       "tags": [
-        "站内新低",
         "-20%",
         "动作",
         "独立",
@@ -2826,6 +3098,7 @@
       ],
       "category": "new",
       "discovery_score": null,
+      "watchlisted": false,
       "why": "匹配你的偏好：策略 / 单人",
       "mobile": null,
       "epic_status": "未核实（历史库未匹配）",
@@ -2857,19 +3130,19 @@
       "discount": 15,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5132700/39e8d7c2a0f2bf18224d112ee728ecabca5b56ca/header.jpg?t=1793084352",
       "url": "https://store.steampowered.com/app/5132700/?cc=cn&l=schinese",
-      "review": "简中评价样本不足",
+      "review": "Steam 评价数据暂不可用",
       "review_pct": null,
       "review_count": 0,
-      "recommend_score": 5.3,
+      "review_scope": "不可用",
+      "recommend_score": 5.2,
       "taste_score": 4.1,
       "quality_score": 0.0,
-      "price_score": 5.7,
+      "price_score": 5.4,
       "genres": [
         "模拟",
         "策略"
       ],
       "tags": [
-        "站内新低",
         "-15%",
         "模拟",
         "策略"
@@ -2879,6 +3152,7 @@
       ],
       "category": "new",
       "discovery_score": null,
+      "watchlisted": false,
       "why": "匹配你的偏好：策略 / 单人",
       "mobile": null,
       "epic_status": "未核实（历史库未匹配）",
@@ -2897,71 +3171,6 @@
       "region_history_low": null
     },
     {
-      "appid": 1932910,
-      "name": "卡牌城建",
-      "name_en": null,
-      "steam_subids": [
-        696364
-      ],
-      "release_date": "2026 年 10 月 26 日",
-      "coming_soon": false,
-      "price": 19.6,
-      "original_price": 28.0,
-      "discount": 30,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1932910/a27b3887ac966e010e364440d2a9f6318cb1f233/header_schinese.jpg?t=1793009688",
-      "url": "https://store.steampowered.com/app/1932910/?cc=cn&l=schinese",
-      "review": "简中评价样本不足",
-      "review_pct": null,
-      "review_count": 0,
-      "recommend_score": 5.3,
-      "taste_score": 4.1,
-      "quality_score": 0.0,
-      "price_score": 5.8,
-      "genres": [
-        "休闲",
-        "独立",
-        "模拟",
-        "策略"
-      ],
-      "tags": [
-        "-30%",
-        "休闲",
-        "独立",
-        "模拟"
-      ],
-      "flags": [
-        "new"
-      ],
-      "category": "new",
-      "discovery_score": null,
-      "why": "匹配你的偏好：策略 / 单人",
-      "mobile": null,
-      "epic_status": "未核实（历史库未匹配）",
-      "epic_giveaway": null,
-      "epic_source": "https://github.com/renshuki/efgtracker",
-      "dlc_status": "未自动核实",
-      "key_price": null,
-      "key_source": null,
-      "steam_historical_low": null,
-      "steam_historical_low_source": null,
-      "steam_deck": null,
-      "key_offers": [
-        {
-          "platform": "SteamPY",
-          "price": 17.2,
-          "status": "CDKey接口参考价｜库存、地区及版本需打开商品页确认",
-          "url": "https://steampy.com/cdkDetail?name=cn&gameId=9001127083315808641024",
-          "kind": "reference",
-          "subid": 696364,
-          "checked_at": "2026-10-27T08:15:59.333474+00:00"
-        }
-      ],
-      "key_status": "未核实实时在售",
-      "key_reference_min": 17.2,
-      "tracked_low": 19.6,
-      "region_history_low": null
-    },
-    {
       "appid": 5391660,
       "name": "N in One 怀旧小游戏合集",
       "name_en": null,
@@ -2975,20 +3184,20 @@
       "discount": 20,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5391660/eaaf9c66c223c49edd86373dea1ad3bb20a70eb0/header_schinese.jpg?t=1793084461",
       "url": "https://store.steampowered.com/app/5391660/?cc=cn&l=schinese",
-      "review": "简中评价样本不足",
+      "review": "Steam 评价数据暂不可用",
       "review_pct": null,
       "review_count": 0,
-      "recommend_score": 5.3,
+      "review_scope": "不可用",
+      "recommend_score": 5.2,
       "taste_score": 4.1,
       "quality_score": 0.0,
-      "price_score": 5.7,
+      "price_score": 5.4,
       "genres": [
         "休闲",
         "独立",
         "策略"
       ],
       "tags": [
-        "站内新低",
         "-20%",
         "休闲",
         "独立",
@@ -2999,6 +3208,7 @@
       ],
       "category": "new",
       "discovery_score": null,
+      "watchlisted": false,
       "why": "匹配你的偏好：策略 / 单人",
       "mobile": null,
       "epic_status": "未核实（历史库未匹配）",
@@ -3030,20 +3240,20 @@
       "discount": 20,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5349670/0fdd64a4e45205838d007c3dec6004efb6d4f268/header.jpg?t=1793073537",
       "url": "https://store.steampowered.com/app/5349670/?cc=cn&l=schinese",
-      "review": "简中评价样本不足",
+      "review": "Steam 评价数据暂不可用",
       "review_pct": null,
       "review_count": 0,
-      "recommend_score": 5.3,
+      "review_scope": "不可用",
+      "recommend_score": 5.2,
       "taste_score": 4.1,
       "quality_score": 0.0,
-      "price_score": 5.7,
+      "price_score": 5.4,
       "genres": [
         "独立",
         "模拟",
         "策略"
       ],
       "tags": [
-        "站内新低",
         "-20%",
         "独立",
         "模拟",
@@ -3054,6 +3264,7 @@
       ],
       "category": "new",
       "discovery_score": null,
+      "watchlisted": false,
       "why": "匹配你的偏好：策略 / 单人",
       "mobile": null,
       "epic_status": "未核实（历史库未匹配）",
@@ -3072,33 +3283,33 @@
       "region_history_low": null
     },
     {
-      "appid": 5044360,
-      "name": "Scuttled",
+      "appid": 1704950,
+      "name": "The Beast Awoke To Eat Your Darlings",
       "name_en": null,
       "steam_subids": [
-        1748934
+        609828
       ],
       "release_date": "2026 年 10 月 26 日",
       "coming_soon": false,
-      "price": 21.75,
-      "original_price": 29.0,
-      "discount": 25,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5044360/e15fc517ecc81c22ce60e124c1420e828d9afa4b/header.jpg?t=1793067318",
-      "url": "https://store.steampowered.com/app/5044360/?cc=cn&l=schinese",
-      "review": "简中评价样本不足",
+      "price": 21.25,
+      "original_price": 25.0,
+      "discount": 15,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1704950/7b6107ed9a6e82b919af994e7254947ac45347a9/header.jpg?t=1793073717",
+      "url": "https://store.steampowered.com/app/1704950/?cc=cn&l=schinese",
+      "review": "Steam 评价数据暂不可用",
       "review_pct": null,
       "review_count": 0,
-      "recommend_score": 5.3,
+      "review_scope": "不可用",
+      "recommend_score": 5.2,
       "taste_score": 4.1,
       "quality_score": 0.0,
-      "price_score": 6.1,
+      "price_score": 5.4,
       "genres": [
         "独立",
         "策略"
       ],
       "tags": [
-        "站内新低",
-        "-25%",
+        "-15%",
         "独立",
         "策略"
       ],
@@ -3107,6 +3318,7 @@
       ],
       "category": "new",
       "discovery_score": null,
+      "watchlisted": false,
       "why": "匹配你的偏好：策略 / 单人",
       "mobile": null,
       "epic_status": "未核实（历史库未匹配）",
@@ -3121,7 +3333,7 @@
       "key_offers": [],
       "key_status": "未核实实时在售",
       "key_reference_min": null,
-      "tracked_low": 21.75,
+      "tracked_low": 21.25,
       "region_history_low": null
     },
     {
@@ -3138,13 +3350,14 @@
       "discount": 0,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5064870/3f0ab69a7162bb2a538b194913c601ad0fe459cc/header.jpg?t=1793078853",
       "url": "https://store.steampowered.com/app/5064870/?cc=cn&l=schinese",
-      "review": "简中评价样本不足",
+      "review": "Steam 评价数据暂不可用",
       "review_pct": null,
       "review_count": 0,
-      "recommend_score": 5.3,
+      "review_scope": "不可用",
+      "recommend_score": 5.2,
       "taste_score": 4.1,
       "quality_score": 0.0,
-      "price_score": 5.7,
+      "price_score": 5.4,
       "genres": [
         "休闲",
         "独立",
@@ -3152,7 +3365,6 @@
         "策略"
       ],
       "tags": [
-        "站内新低",
         "休闲",
         "独立",
         "模拟"
@@ -3162,6 +3374,7 @@
       ],
       "category": "new",
       "discovery_score": null,
+      "watchlisted": false,
       "why": "匹配你的偏好：策略 / 单人",
       "mobile": null,
       "epic_status": "未核实（历史库未匹配）",
@@ -3193,19 +3406,19 @@
       "discount": 20,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4968160/8864d2a3bd79587013f9c460e80d21f8d38ef866/header.jpg?t=1793041348",
       "url": "https://store.steampowered.com/app/4968160/?cc=cn&l=schinese",
-      "review": "简中评价样本不足",
+      "review": "Steam 评价数据暂不可用",
       "review_pct": null,
       "review_count": 0,
-      "recommend_score": 5.3,
+      "review_scope": "不可用",
+      "recommend_score": 5.2,
       "taste_score": 4.1,
       "quality_score": 0.0,
-      "price_score": 5.7,
+      "price_score": 5.4,
       "genres": [
         "独立",
         "策略"
       ],
       "tags": [
-        "站内新低",
         "-20%",
         "独立",
         "策略"
@@ -3215,6 +3428,7 @@
       ],
       "category": "new",
       "discovery_score": null,
+      "watchlisted": false,
       "why": "匹配你的偏好：策略 / 单人",
       "mobile": null,
       "epic_status": "未核实（历史库未匹配）",
@@ -3233,63 +3447,6 @@
       "region_history_low": null
     },
     {
-      "appid": 3991280,
-      "name": "帝国至高指挥",
-      "name_en": null,
-      "steam_subids": [
-        1400888
-      ],
-      "release_date": "2026 年 10 月 27 日",
-      "coming_soon": false,
-      "price": 23.1,
-      "original_price": 33.0,
-      "discount": 30,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3991280/698651a94e7b2a103f86bbf8df7c12d8b6ebec2b/header.jpg?t=1793084551",
-      "url": "https://store.steampowered.com/app/3991280/?cc=cn&l=schinese",
-      "review": "简中评价样本不足",
-      "review_pct": null,
-      "review_count": 0,
-      "recommend_score": 5.3,
-      "taste_score": 4.1,
-      "quality_score": 0.0,
-      "price_score": 6.1,
-      "genres": [
-        "动作",
-        "休闲",
-        "独立",
-        "模拟",
-        "策略"
-      ],
-      "tags": [
-        "站内新低",
-        "-30%",
-        "动作",
-        "休闲",
-        "独立"
-      ],
-      "flags": [
-        "new"
-      ],
-      "category": "new",
-      "discovery_score": null,
-      "why": "匹配你的偏好：策略 / 单人",
-      "mobile": null,
-      "epic_status": "未核实（历史库未匹配）",
-      "epic_giveaway": null,
-      "epic_source": "https://github.com/renshuki/efgtracker",
-      "dlc_status": "未自动核实",
-      "key_price": null,
-      "key_source": null,
-      "steam_historical_low": null,
-      "steam_historical_low_source": null,
-      "steam_deck": null,
-      "key_offers": [],
-      "key_status": "未核实实时在售",
-      "key_reference_min": null,
-      "tracked_low": 23.1,
-      "region_history_low": null
-    },
-    {
       "appid": 5076510,
       "name": "魔物娘Rush",
       "name_en": null,
@@ -3303,13 +3460,14 @@
       "discount": 15,
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5076510/1cf876a9ff1f1f304cae712a33d2274da0384039/header_schinese.jpg?t=1793034047",
       "url": "https://store.steampowered.com/app/5076510/?cc=cn&l=schinese",
-      "review": "简中评价样本不足",
+      "review": "Steam 评价数据暂不可用",
       "review_pct": null,
       "review_count": 0,
-      "recommend_score": 5.3,
+      "review_scope": "不可用",
+      "recommend_score": 5.2,
       "taste_score": 4.1,
       "quality_score": 0.0,
-      "price_score": 5.7,
+      "price_score": 5.4,
       "genres": [
         "休闲",
         "独立",
@@ -3317,7 +3475,6 @@
         "抢先体验"
       ],
       "tags": [
-        "站内新低",
         "-15%",
         "休闲",
         "独立",
@@ -3328,6 +3485,7 @@
       ],
       "category": "new",
       "discovery_score": null,
+      "watchlisted": false,
       "why": "匹配你的偏好：策略 / 单人",
       "mobile": null,
       "epic_status": "未核实（历史库未匹配）",
@@ -3346,44 +3504,45 @@
       "region_history_low": null
     },
     {
-      "appid": 5062910,
-      "name": "Life Is a Dungeon: Lean into It.",
+      "appid": 5044970,
+      "name": "Evoruption",
       "name_en": null,
       "steam_subids": [
-        1754882
+        1749125
       ],
       "release_date": "2026 年 10 月 26 日",
       "coming_soon": false,
-      "price": 56.05,
-      "original_price": 70.07,
-      "discount": 20,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5062910/13649e0102367e24a68efa120a57d881f3ec1504/header.jpg?t=1793055609",
-      "url": "https://store.steampowered.com/app/5062910/?cc=cn&l=schinese",
-      "review": "简中评价样本不足",
+      "price": 37.8,
+      "original_price": 42.0,
+      "discount": 10,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5044970/61f1a74d4fca6896b57dd8df09744470bcbd292c/header.jpg?t=1793055388",
+      "url": "https://store.steampowered.com/app/5044970/?cc=cn&l=schinese",
+      "review": "Steam 评价数据暂不可用",
       "review_pct": null,
       "review_count": 0,
-      "recommend_score": 5.2,
-      "taste_score": 4.3,
+      "review_scope": "不可用",
+      "recommend_score": 5.1,
+      "taste_score": 4.1,
       "quality_score": 0.0,
-      "price_score": 5.1,
+      "price_score": 4.8,
       "genres": [
-        "动作",
+        "休闲",
         "独立",
-        "角色扮演"
+        "策略"
       ],
       "tags": [
-        "站内新低",
-        "-20%",
-        "动作",
+        "-10%",
+        "休闲",
         "独立",
-        "角色扮演"
+        "策略"
       ],
       "flags": [
         "new"
       ],
       "category": "new",
       "discovery_score": null,
-      "why": "匹配你的偏好：角色扮演 / 单人",
+      "watchlisted": false,
+      "why": "匹配你的偏好：策略 / 单人",
       "mobile": null,
       "epic_status": "未核实（历史库未匹配）",
       "epic_giveaway": null,
@@ -3397,102 +3556,49 @@
       "key_offers": [],
       "key_status": "未核实实时在售",
       "key_reference_min": null,
-      "tracked_low": 56.05,
+      "tracked_low": 37.8,
       "region_history_low": null
     },
     {
-      "appid": 4268730,
-      "name": "Hero's Guild",
+      "appid": 5286590,
+      "name": "三韩争霸",
       "name_en": null,
       "steam_subids": [
-        1493697
+        1827733
       ],
-      "release_date": "2026 年 10 月 26 日",
+      "release_date": "2026 年 10 月 27 日",
       "coming_soon": false,
-      "price": 59.0,
-      "original_price": 59.0,
-      "discount": 0,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4268730/acf1b323955663e2ae36edb7ee9be6402a90217f/header.jpg?t=1793055715",
-      "url": "https://store.steampowered.com/app/4268730/?cc=cn&l=schinese",
-      "review": "简中评价样本不足",
+      "price": 44.2,
+      "original_price": 52.0,
+      "discount": 15,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5286590/2cd5888c032f1fe2abe3f7876b3914e23f600ecf/header_schinese.jpg?t=1793088561",
+      "url": "https://store.steampowered.com/app/5286590/?cc=cn&l=schinese",
+      "review": "Steam 评价数据暂不可用",
       "review_pct": null,
       "review_count": 0,
-      "recommend_score": 5.2,
-      "taste_score": 4.3,
+      "review_scope": "不可用",
+      "recommend_score": 5.1,
+      "taste_score": 4.1,
       "quality_score": 0.0,
-      "price_score": 5.1,
+      "price_score": 4.8,
       "genres": [
         "独立",
-        "角色扮演",
         "模拟",
+        "策略",
         "抢先体验"
       ],
       "tags": [
-        "站内新低",
+        "-15%",
         "独立",
-        "角色扮演",
-        "模拟"
-      ],
-      "flags": [
-        "new"
-      ],
-      "category": "new",
-      "discovery_score": null,
-      "why": "匹配你的偏好：角色扮演 / 单人",
-      "mobile": null,
-      "epic_status": "未核实（历史库未匹配）",
-      "epic_giveaway": null,
-      "epic_source": "https://github.com/renshuki/efgtracker",
-      "dlc_status": "未自动核实",
-      "key_price": null,
-      "key_source": null,
-      "steam_historical_low": null,
-      "steam_historical_low_source": null,
-      "steam_deck": null,
-      "key_offers": [],
-      "key_status": "未核实实时在售",
-      "key_reference_min": null,
-      "tracked_low": 59.0,
-      "region_history_low": null
-    },
-    {
-      "appid": 5362920,
-      "name": "Cell Dominion",
-      "name_en": null,
-      "steam_subids": [
-        1852451
-      ],
-      "release_date": "2026 年 10 月 26 日",
-      "coming_soon": false,
-      "price": 12.75,
-      "original_price": 15.0,
-      "discount": 15,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5362920/70d3c47facf49f9879af4ab4da9939c78bc3df23/header.jpg?t=1793079125",
-      "url": "https://store.steampowered.com/app/5362920/?cc=cn&l=schinese",
-      "review": "简中评价样本不足",
-      "review_pct": null,
-      "review_count": 0,
-      "recommend_score": 5.2,
-      "taste_score": 4.1,
-      "quality_score": 0.0,
-      "price_score": 5.4,
-      "genres": [
-        "动作",
-        "休闲",
-        "独立",
+        "模拟",
         "策略"
       ],
-      "tags": [
-        "-15%",
-        "动作",
-        "休闲",
-        "独立"
-      ],
       "flags": [
         "new"
       ],
       "category": "new",
       "discovery_score": null,
+      "watchlisted": false,
       "why": "匹配你的偏好：策略 / 单人",
       "mobile": null,
       "epic_status": "未核实（历史库未匹配）",
@@ -3507,59 +3613,7 @@
       "key_offers": [],
       "key_status": "未核实实时在售",
       "key_reference_min": null,
-      "tracked_low": 12.75,
-      "region_history_low": null
-    },
-    {
-      "appid": 1704950,
-      "name": "The Beast Awoke To Eat Your Darlings",
-      "name_en": null,
-      "steam_subids": [
-        609828
-      ],
-      "release_date": "2026 年 10 月 26 日",
-      "coming_soon": false,
-      "price": 21.25,
-      "original_price": 25.0,
-      "discount": 15,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1704950/7b6107ed9a6e82b919af994e7254947ac45347a9/header.jpg?t=1793073717",
-      "url": "https://store.steampowered.com/app/1704950/?cc=cn&l=schinese",
-      "review": "简中评价样本不足",
-      "review_pct": null,
-      "review_count": 0,
-      "recommend_score": 5.2,
-      "taste_score": 4.1,
-      "quality_score": 0.0,
-      "price_score": 5.4,
-      "genres": [
-        "独立",
-        "策略"
-      ],
-      "tags": [
-        "-15%",
-        "独立",
-        "策略"
-      ],
-      "flags": [
-        "new"
-      ],
-      "category": "new",
-      "discovery_score": null,
-      "why": "匹配你的偏好：策略 / 单人",
-      "mobile": null,
-      "epic_status": "未核实（历史库未匹配）",
-      "epic_giveaway": null,
-      "epic_source": "https://github.com/renshuki/efgtracker",
-      "dlc_status": "未自动核实",
-      "key_price": null,
-      "key_source": null,
-      "steam_historical_low": null,
-      "steam_historical_low_source": null,
-      "steam_deck": null,
-      "key_offers": [],
-      "key_status": "未核实实时在售",
-      "key_reference_min": null,
-      "tracked_low": 21.25,
+      "tracked_low": 44.2,
       "region_history_low": null
     }
   ]
