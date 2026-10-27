@@ -77,3 +77,9 @@ GitHub Actions 分离为两个工作流，均以北京时间计时：
 每个字段按 `appid + task` 在 SQLite 的 `enrichment_state` 表中记录上次检查、结果状态、下次重试时间。同一字段成功后进入较长冷却期；查询失败通常 6 小时重试，无可靠报价通常 24 小时重试。无有效数据时写入“待核实/暂无可靠报价”状态，不编造价格、库存、史低或差评原因。结果增量合并到 `games.json`，并写入 SQLite 的相关表；有数据更新才重新部署网站。历史数据更新仍由每日完整采集负责。
 
 手动执行：Actions → **Enrich Missing Game Fields** → **Run workflow** → 选择 `keys` / `reviews` / `deck` / `history` / `epic` / `mobile` / `dlc`。
+
+## 手动一次运行全部字段
+
+`Enrich Missing Game Fields` → `Run workflow` → `task=all`（默认选项）将按 `keys → reviews → deck → history → epic → mobile → dlc` 顺序运行，每类最多检查 2 款，且尊重 SQLite `enrichment_state` 中的到期时间；不是一次把全站所有游戏的数据全部补齐。单独选择字段时仍是每类最多 5 款。完成后如有数据变化自动提交并重新部署。
+
+`all` 仅控制**此次手动运行**；每天及每小时自动执行由工作流既有的 `schedule` 单独驱动，无需先执行一次 `all` 才会启动。以后新增多个互不依赖的补全类型时，应同步更新这个 `all` 顺序执行列表和选项。
