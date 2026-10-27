@@ -1,9 +1,9 @@
 {
   "meta": {
-    "updated_at_cn": null,
-    "rank_source": "Steam 热销特惠候选",
-    "low_scope": "SteamRaw 覆盖期低点，并非完整历史史低",
-    "checked": 0
+    "updated_at_cn": "2026-10-27 19:27",
+    "rank_source": "Steam 商店热销特惠筛选（热度代理，不是实时销量榜）",
+    "low_scope": "SteamRaw 覆盖期低点，非 Steam 全历史史低",
+    "checked": 36
   },
   "games": []
 }
