@@ -62,7 +62,6 @@ seen=set(); games=[]; today=(datetime.datetime.now(datetime.timezone.utc)+dateti
 for x in raw:
     appid=x.get("id"); name=x.get("name","")
     if not appid or appid in seen or name.lower() in owned or name in epic_free:continue
-    seen.add(appid)
 
     d=details(appid); time.sleep(.12)
     rv=reviews(appid); time.sleep(.12)
@@ -132,6 +131,7 @@ for x in raw:
     flags=[category]+(["mobile"] if m else [])
     tags=(["站内新低"] if newlow else [])+([f"-{disc}%"] if disc else [])+genres[:3]
     why=("匹配你的偏好："+ " / ".join(dict.fromkeys(reasons[:4]))) if reasons else "新游观察候选"
+    seen.add(appid)
     games.append({
       "appid":appid,"name":(d.get("name") or name),"name_en":name if name!=(d.get("name") or name) else None,"steam_subids":steam_subids,"release_date":release_date,"coming_soon":coming_soon,"price":price,"original_price":original,"discount":disc,
       "image":d.get("header_image") or x.get("large_capsule_image") or x.get("small_capsule_image"),
