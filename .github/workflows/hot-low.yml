@@ -1,4 +1,4 @@
-name: Refresh Popular Low-Price Games
+name: Refresh Popular Discount Games
 on:
   schedule:
     # 07:05 UTC = 15:05 Asia/Shanghai, after the normal daily discovery.
@@ -34,7 +34,7 @@ jobs:
         run: |
           python -m compileall -q scripts tests
           python -m unittest discover -s tests -v
-      - name: Scan popular Steam specials and documented low prices
+      - name: Scan current popular Steam discounted games
         run: python scripts/hot_low.py
       - name: Commit new popular shortlist if changed
         id: changes
@@ -45,7 +45,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
-            git commit -m "chore: refresh popular low price Steam shortlist"
+            git commit -m "chore: refresh popular Steam discounted games"
             git push
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
