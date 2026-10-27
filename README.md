@@ -38,3 +38,14 @@
 ## 尝鲜发现差评原因分析（V4）
 
 尝鲜榜现在不设价格上限或好评率最低门槛。使用评论数量、Steam 国区价格和评论好评程度进行初排，再从 Steam 简中近期差评中最多抽取 30 条/游戏，以关键词归纳运营/商业争议、性能/技术、玩法、内容完成度和本地化。关键词是话题提及而非确定原因；样本不足时明确标示。运营类争议不能直接当成无效差评，严重性能/玩法问题会降低排序。每天最多分析约 45 个尝鲜候选，避免过量接口请求。分析结果保存到 `games.json` 与 SQLite `game_info.review_analysis_json`。关注名单 `config.json.explore_watchlist` 目前有《恶意不息》AppID 1371980。对已拥有或已确认 Epic 赠送的游戏仍按原规则排除。
+
+## 发布、采集、自动补偿（V5）
+
+GitHub Actions 分离为两个工作流，均以北京时间计时：
+
+- `Publish Game Radar`：每天 14:00（UTC 06:00），直接发布仓库现有 `data/games.json`，不会联网抓游戏数据，因此不会被 Steam 429 阻塞。
+- `Collect and Repair Game Radar Data`：每天 14:20 执行新数据发现与增量采集；17:15、21:15 自动运行补偿。每次生成更新后的 JSON 和 SQLite、提交到 GitHub 并重新部署 Pages。
+
+`data/pending.json` 保存尚未处理的游戏候选（按类型 + AppID 去重）。采集到达时间预算时，尚未处理的游戏仍留在队列；下次补偿优先继续处理。补偿也会重查网站上缺少评价或差评分析的游戏。Steam 评论请求出现 HTTP 429 时停用当轮评论请求，优先使用已有缓存，并在后续执行时再试。抓取失败不能用伪造价格、好评率或差评结论填充。
+
+手动执行时：`Publish Game Radar` 立即发布现有数据；`Collect and Repair Game Radar Data` 的 `mode=daily` 重新发现候选，`mode=compensate` 只处理待补偿队列和已有卡片缺失数据。GitHub cron 是尽力调度，可能延迟，并不保证整点执行。
