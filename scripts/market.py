@@ -50,7 +50,7 @@ def parse_key_reference(raw, field_names):
 
 def trustworthy_reference(offer, steam_price=None):
     """Reject placeholder and implausible API prices; not a live-stock guarantee."""
-    if not isinstance(offer,dict):return False
+    if not isinstance(offer,dict) or not offer.get("platform"):return False
     p=price(offer.get("price"))
     if p is None:return False
     if offer.get("platform")=="SteamPY" and p<=0.10:return False
@@ -131,8 +131,8 @@ def enrich(game, history):
         item=fn(appid,subids)
         if item:offers.append(item)
     offers=clean_offers(offers,game.get("price"))
-    by_platform={o["platform"]:o for o in retained}
-    by_platform.update({o["platform"]:o for o in offers})
+    by_platform={o["platform"]:o for o in retained if o.get("platform")}
+    by_platform.update({o["platform"]:o for o in offers if o.get("platform")})
     offers=list(by_platform.values())
     game["key_offers"]=offers
     # key_price deliberately empty: no source confirms currently available stock
