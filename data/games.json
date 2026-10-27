@@ -3,7 +3,7 @@
     "updated_at_cn": "2026-10-27 18:00",
     "version": "V4 review-context discovery",
     "note": "尝鲜榜不设价格或好评率硬门槛；查看近期简中差评关键词，区别争议类型。分析是辅助证据，不代表玩家差评全部属实或无效。",
-    "last_enrichment_utc": "2026-10-27T13:09:37.862723+00:00",
+    "last_enrichment_utc": "2026-10-27T13:13:04.103404+00:00",
     "last_key_enrichment_utc": "2026-10-27T13:09:27.177228+00:00"
   },
   "counts": {
@@ -2146,6 +2146,12 @@
           "checked_at": "2026-10-27T10:42:53.792927+00:00",
           "next_retry_at": "2026-10-30T10:42:53.792927+00:00",
           "details": "SteamPY,SteamCiCi"
+        },
+        "reviews": {
+          "status": "no_data",
+          "checked_at": "2026-10-27T13:13:04.103404+00:00",
+          "next_retry_at": "2026-10-29T13:13:04.103404+00:00",
+          "details": "negative reviews unavailable"
         }
       }
     },
@@ -2208,6 +2214,12 @@
           "checked_at": "2026-10-27T11:40:54.294990+00:00",
           "next_retry_at": "2026-10-28T11:40:54.294990+00:00",
           "details": "no reliable public offer"
+        },
+        "reviews": {
+          "status": "no_data",
+          "checked_at": "2026-10-27T13:13:04.103404+00:00",
+          "next_retry_at": "2026-10-29T13:13:04.103404+00:00",
+          "details": "negative reviews unavailable"
         }
       }
     },
@@ -4284,6 +4296,12 @@
           "checked_at": "2026-10-27T10:42:53.792927+00:00",
           "next_retry_at": "2026-10-28T10:42:53.792927+00:00",
           "details": "no reliable public offer"
+        },
+        "reviews": {
+          "status": "no_data",
+          "checked_at": "2026-10-27T13:13:04.103404+00:00",
+          "next_retry_at": "2026-10-29T13:13:04.103404+00:00",
+          "details": "negative reviews unavailable"
         }
       }
     },
@@ -4491,6 +4509,12 @@
           "checked_at": "2026-10-27T11:40:54.294990+00:00",
           "next_retry_at": "2026-10-28T11:40:54.294990+00:00",
           "details": "no reliable public offer"
+        },
+        "reviews": {
+          "status": "no_data",
+          "checked_at": "2026-10-27T13:13:04.103404+00:00",
+          "next_retry_at": "2026-10-29T13:13:04.103404+00:00",
+          "details": "negative reviews unavailable"
         }
       }
     },
@@ -4616,6 +4640,12 @@
           "checked_at": "2026-10-27T10:42:53.792927+00:00",
           "next_retry_at": "2026-10-28T10:42:53.792927+00:00",
           "details": "no reliable public offer"
+        },
+        "reviews": {
+          "status": "no_data",
+          "checked_at": "2026-10-27T13:13:04.103404+00:00",
+          "next_retry_at": "2026-10-29T13:13:04.103404+00:00",
+          "details": "negative reviews unavailable"
         }
       }
     },
