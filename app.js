@@ -2,11 +2,12 @@ let DATA={games:[],meta:{}};let filter="all";
 const fmt=n=>n==null?"—":"¥"+Number(n).toFixed(n%1?2:0);
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 function card(g){
-const offers=(g.key_offers||[]).map(o=>esc(o.platform)+" "+fmt(o.price)+"（"+esc(o.status)+"）").join(" / ")||"待核实";
+const cleanOffers=(g.key_offers||[]).filter(o=>o&&Number(o.price)>0&&!(o.platform==="SteamPY"&&Number(o.price)<=0.1)&&!(g.price>0&&Number(o.price)<Math.max(.5,g.price*.03)));
+const offers=cleanOffers.length?cleanOffers.map(o=>`<div class="key-offer"><div class="key-source">${esc(o.platform)} <span class="key-type">${o.kind==="historical_listing"?"历史挂售":"接口参考"}</span></div><div class="key-price">${fmt(o.price)}</div><div class="key-caution">${esc(o.kind==="historical_listing"?"非当前在售价格":"库存、激活区和版本需核实")}</div></div>`).join(""):`<div class="key-unavailable">暂无可靠散 Key 报价</div>`;
 const genres=(g.genres||[]).filter(Boolean);
 const negative=g.negative_review_analysis;
 const topics=negative?.categories||[];
-const insight=g.category==="explore" ? `<div class="meta" style="margin-top:8px"><strong>差评关注：</strong>${topics.length?topics.map(x=>esc(x.name)+" "+x.mentions+"条提及").join(" / "):"暂缺有效差评样本"} · 样本${negative?.sample_size??0}条 <span title="关键词提及不等于证实差评原因">（仅作参考）</span></div>`:"";
+const insight=`<div class="review-reasons"><div class="detail-label">差评主要原因</div><div class="review-summary">${negative?.sample_size>=3&&topics.length?topics.slice(0,3).map(x=>`<span class="review-topic">${esc(x.name)} <b>${Number(x.mentions)||0}</b>条提及</span>`).join(""):`<span class="review-unknown">暂无足够评论样本，尚不能判断主要差评原因</span>`}</div><div class="review-caution">简中近期差评样本：${negative?.sample_size??0} 条 · 关键词归类仅供参考，不代表全部玩家</div></div>`;
 return `<article class="card"><a href="${esc(g.url)}" target="_blank" rel="noopener noreferrer">
 <div class="cover" style="background-image:url('${esc(g.image||"")}')"></div>
 <div class="body"><div class="top"><div><div class="title">${esc(g.name)}</div>${g.name_en?`<div class="meta">${esc(g.name_en)}</div>`:""}</div><div class="score">${g.category==="explore"?(g.discovery_score??"—"):(g.recommend_score??"—")}</div></div>
@@ -16,7 +17,7 @@ return `<article class="card"><a href="${esc(g.url)}" target="_blank" rel="noope
 <div class="tags">${(g.tags||[]).map(t=>`<span class="tag ${t==="站内新低"?"hot":""}">${esc(t)}</span>`).join("")}</div>
 <div class="why">${esc(g.why||"")}${g.watchlisted?" · ★ 关注游戏":""}</div>${insight}
 <div class="meta" style="margin-top:8px">📱 手机版：${g.mobile?`Android ${esc(g.mobile.android||"待核实")} / iOS ${esc(g.mobile.ios||"待核实")}`:"未核实"} · 🎁 Epic：${esc(g.epic_status||"未核实")}</div>
-<div class="meta">散Key：${offers}</div>
+<div class="key-panel"><div class="detail-label">散 Key 价格 <span class="key-info">影响购买决策 · 报价需核实</span></div><div class="key-offers">${offers}</div></div>
 <div class="meta">Steam全历史最低：${g.steam_historical_low!=null?fmt(g.steam_historical_low):"暂不可核实"} · SteamRaw覆盖期最低：${g.region_history_low?.price!=null?fmt(g.region_history_low.price):"待核实"} · 站内最低：${fmt(g.tracked_low)} · Steam Deck：${esc(g.steam_deck||"待核实")}</div>
 <div class="meta">${g.category==="explore"?"尝鲜分 "+(g.discovery_score??"—")+" · 不计算个人口味":"口味 "+(g.taste_score??"—")+" · 质量 "+(g.quality_score??"—")+" · 价格 "+(g.price_score??"—")}</div>
 </div></a></article>`;
