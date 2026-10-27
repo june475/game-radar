@@ -3,7 +3,7 @@
     "updated_at_cn": "2026-10-27 18:00",
     "version": "V4 review-context discovery",
     "note": "尝鲜榜不设价格或好评率硬门槛；查看近期简中差评关键词，区别争议类型。分析是辅助证据，不代表玩家差评全部属实或无效。",
-    "last_enrichment_utc": "2026-10-27T10:01:14.372910+00:00"
+    "last_enrichment_utc": "2026-10-27T10:42:53.792927+00:00"
   },
   "counts": {
     "deal": 30,
@@ -394,13 +394,21 @@
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=272927268706193408",
           "kind": "reference",
           "subid": 136702,
-          "checked_at": "2026-10-27T09:58:54.698414+00:00"
+          "checked_at": "2026-10-27T10:42:54.490180+00:00"
         }
       ],
-      "key_status": "未核实实时在售",
+      "key_status": "接口参考报价（非已验证现货）",
       "key_reference_min": 10.25,
       "tracked_low": 7.8,
-      "region_history_low": null
+      "region_history_low": null,
+      "enrichment_status": {
+        "keys": {
+          "status": "success",
+          "checked_at": "2026-10-27T10:42:53.792927+00:00",
+          "next_retry_at": "2026-10-30T10:42:53.792927+00:00",
+          "details": "SteamPY"
+        }
+      }
     },
     {
       "appid": 1787670,
@@ -1170,13 +1178,21 @@
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=496138616574151",
           "kind": "reference",
           "subid": 74780,
-          "checked_at": "2026-10-27T09:59:14.733881+00:00"
+          "checked_at": "2026-10-27T10:42:56.067364+00:00"
         }
       ],
-      "key_status": "未核实实时在售",
+      "key_status": "接口参考报价（非已验证现货）",
       "key_reference_min": 20.0,
       "tracked_low": 9.0,
-      "region_history_low": null
+      "region_history_low": null,
+      "enrichment_status": {
+        "keys": {
+          "status": "success",
+          "checked_at": "2026-10-27T10:42:53.792927+00:00",
+          "next_retry_at": "2026-10-30T10:42:53.792927+00:00",
+          "details": "SteamPY"
+        }
+      }
     },
     {
       "appid": 247080,
@@ -1957,13 +1973,31 @@
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=496138616574077",
           "kind": "reference",
           "subid": 181611,
-          "checked_at": "2026-10-27T09:59:31.641042+00:00"
+          "checked_at": "2026-10-27T10:42:59.684783+00:00"
+        },
+        {
+          "platform": "SteamCiCi",
+          "price": 46.99,
+          "status": "历史挂售最低参考价｜非实时库存",
+          "last_hanging_time": "2026-10-24T18:17:19.000+08:00",
+          "url": "https://steamcici.com/index",
+          "kind": "historical_listing",
+          "subid": "181611",
+          "checked_at": "2026-10-27T10:43:00.716803+00:00"
         }
       ],
-      "key_status": "未核实实时在售",
+      "key_status": "接口参考报价（非已验证现货）",
       "key_reference_min": 18.5,
       "tracked_low": 22.0,
-      "region_history_low": null
+      "region_history_low": null,
+      "enrichment_status": {
+        "keys": {
+          "status": "success",
+          "checked_at": "2026-10-27T10:42:53.792927+00:00",
+          "next_retry_at": "2026-10-30T10:42:53.792927+00:00",
+          "details": "SteamPY,SteamCiCi"
+        }
+      }
     },
     {
       "appid": 760890,
@@ -4075,9 +4109,17 @@
         "note": "未获取新差评"
       },
       "key_offers": [],
-      "key_status": "未核实实时在售",
+      "key_status": "未获得可靠报价（非确认无货）",
       "key_reference_min": null,
-      "tracked_low": 2.5
+      "tracked_low": 2.5,
+      "enrichment_status": {
+        "keys": {
+          "status": "no_quote",
+          "checked_at": "2026-10-27T10:42:53.792927+00:00",
+          "next_retry_at": "2026-10-28T10:42:53.792927+00:00",
+          "details": "no reliable public offer"
+        }
+      }
     },
     {
       "appid": 1894220,
@@ -4383,9 +4425,17 @@
         "note": "未获取新差评"
       },
       "key_offers": [],
-      "key_status": "未核实实时在售",
+      "key_status": "未获得可靠报价（非确认无货）",
       "key_reference_min": null,
-      "tracked_low": 2.5
+      "tracked_low": 2.5,
+      "enrichment_status": {
+        "keys": {
+          "status": "no_quote",
+          "checked_at": "2026-10-27T10:42:53.792927+00:00",
+          "next_retry_at": "2026-10-28T10:42:53.792927+00:00",
+          "details": "no reliable public offer"
+        }
+      }
     },
     {
       "appid": 840590,
