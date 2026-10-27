@@ -3,7 +3,8 @@
     "updated_at_cn": "2026-10-27 18:00",
     "version": "V4 review-context discovery",
     "note": "尝鲜榜不设价格或好评率硬门槛；查看近期简中差评关键词，区别争议类型。分析是辅助证据，不代表玩家差评全部属实或无效。",
-    "last_enrichment_utc": "2026-10-27T12:48:03.377687+00:00"
+    "last_enrichment_utc": "2026-10-27T13:09:37.862723+00:00",
+    "last_key_enrichment_utc": "2026-10-27T13:09:27.177228+00:00"
   },
   "counts": {
     "deal": 30,
@@ -71,13 +72,20 @@
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=9000927002213954961409",
           "kind": "reference",
           "subid": 661914,
-          "checked_at": "2026-10-27T09:58:46.953483+00:00"
+          "checked_at": "2026-10-27T13:09:27.177228+00:00"
         }
       ],
-      "key_status": "未核实实时在售",
+      "key_status": "参考报价，不代表实时库存",
       "key_reference_min": 59.99,
       "tracked_low": 51.0,
-      "region_history_low": null
+      "region_history_low": null,
+      "enrichment_status": {
+        "keys": {
+          "status": "success",
+          "checked_at": "2026-10-27T13:09:27.177228+00:00",
+          "next_retry_at": "2026-10-30T13:09:27.177228+00:00"
+        }
+      }
     },
     {
       "appid": 251130,
@@ -262,13 +270,20 @@
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=434996625748791296",
           "kind": "reference",
           "subid": 484328,
-          "checked_at": "2026-10-27T09:58:50.630959+00:00"
+          "checked_at": "2026-10-27T13:09:27.177228+00:00"
         }
       ],
-      "key_status": "未核实实时在售",
+      "key_status": "参考报价，不代表实时库存",
       "key_reference_min": 58.0,
       "tracked_low": 19.14,
-      "region_history_low": null
+      "region_history_low": null,
+      "enrichment_status": {
+        "keys": {
+          "status": "success",
+          "checked_at": "2026-10-27T13:09:27.177228+00:00",
+          "next_retry_at": "2026-10-30T13:09:27.177228+00:00"
+        }
+      }
     },
     {
       "appid": 2678640,
@@ -328,13 +343,20 @@
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=9000968224442865045504",
           "kind": "reference",
           "subid": 959566,
-          "checked_at": "2026-10-27T09:58:52.675844+00:00"
+          "checked_at": "2026-10-27T13:09:27.177228+00:00"
         }
       ],
-      "key_status": "未核实实时在售",
+      "key_status": "参考报价，不代表实时库存",
       "key_reference_min": 20.0,
       "tracked_low": 33.75,
-      "region_history_low": null
+      "region_history_low": null,
+      "enrichment_status": {
+        "keys": {
+          "status": "success",
+          "checked_at": "2026-10-27T13:09:27.177228+00:00",
+          "next_retry_at": "2026-10-30T13:09:27.177228+00:00"
+        }
+      }
     },
     {
       "appid": 337340,
@@ -377,10 +399,10 @@
       "watchlisted": false,
       "why": "匹配你的偏好：冒险 / 角色扮演 / 单人",
       "mobile": null,
-      "epic_status": "未核实（历史库未匹配）",
+      "epic_status": "历史库未匹配（未核实）",
       "epic_giveaway": null,
       "epic_source": "https://github.com/renshuki/efgtracker",
-      "dlc_status": "未自动核实",
+      "dlc_status": "Steam 商店关联 DLC 数量；不代表值得购买",
       "key_price": null,
       "key_source": null,
       "steam_historical_low": null,
@@ -407,8 +429,49 @@
           "checked_at": "2026-10-27T10:42:53.792927+00:00",
           "next_retry_at": "2026-10-30T10:42:53.792927+00:00",
           "details": "SteamPY"
+        },
+        "reviews": {
+          "status": "no_data",
+          "checked_at": "2026-10-27T13:09:32.845279+00:00",
+          "next_retry_at": "2026-10-29T13:09:32.845279+00:00",
+          "details": "negative reviews unavailable"
+        },
+        "deck": {
+          "status": "unverified",
+          "checked_at": "2026-10-27T13:09:34.442612+00:00",
+          "next_retry_at": "2026-10-28T13:09:34.442612+00:00",
+          "details": "official grade unavailable"
+        },
+        "history": {
+          "status": "unverified",
+          "checked_at": "2026-10-27T13:09:35.348212+00:00",
+          "next_retry_at": "2026-10-28T13:09:35.348212+00:00",
+          "details": "no verified CNY historical record"
+        },
+        "epic": {
+          "status": "unverified",
+          "checked_at": "2026-10-27T13:09:36.500679+00:00",
+          "next_retry_at": "2026-10-28T13:09:36.500679+00:00",
+          "details": "incomplete third-party archive"
+        },
+        "mobile": {
+          "status": "unverified",
+          "checked_at": "2026-10-27T13:09:37.289555+00:00",
+          "next_retry_at": "2026-10-28T13:09:37.289555+00:00",
+          "details": "no verified official port record"
+        },
+        "dlc": {
+          "status": "success",
+          "checked_at": "2026-10-27T13:09:37.862723+00:00",
+          "next_retry_at": "2026-11-10T13:09:37.862723+00:00",
+          "details": "2 DLC IDs"
         }
-      }
+      },
+      "dlc_count": 2,
+      "dlc_appids": [
+        770780,
+        1028530
+      ]
     },
     {
       "appid": 1787670,
@@ -461,10 +524,17 @@
       "steam_historical_low_source": null,
       "steam_deck": null,
       "key_offers": [],
-      "key_status": "未核实实时在售",
+      "key_status": "暂无有效散 Key 参考价",
       "key_reference_min": null,
       "tracked_low": 2.5,
-      "region_history_low": null
+      "region_history_low": null,
+      "enrichment_status": {
+        "keys": {
+          "status": "no_quote",
+          "checked_at": "2026-10-27T13:09:27.177228+00:00",
+          "next_retry_at": "2026-10-28T13:09:27.177228+00:00"
+        }
+      }
     },
     {
       "appid": 1283520,
@@ -1193,10 +1263,10 @@
       "watchlisted": false,
       "why": "匹配你的偏好：角色扮演 / 单人",
       "mobile": null,
-      "epic_status": "未核实（历史库未匹配）",
+      "epic_status": "历史库未匹配（未核实）",
       "epic_giveaway": null,
       "epic_source": "https://github.com/renshuki/efgtracker",
-      "dlc_status": "未自动核实",
+      "dlc_status": "Steam 商店关联 DLC 数量；不代表值得购买",
       "key_price": null,
       "key_source": null,
       "steam_historical_low": null,
@@ -1223,8 +1293,48 @@
           "checked_at": "2026-10-27T10:42:53.792927+00:00",
           "next_retry_at": "2026-10-30T10:42:53.792927+00:00",
           "details": "SteamPY"
+        },
+        "reviews": {
+          "status": "no_data",
+          "checked_at": "2026-10-27T13:09:32.845279+00:00",
+          "next_retry_at": "2026-10-29T13:09:32.845279+00:00",
+          "details": "negative reviews unavailable"
+        },
+        "deck": {
+          "status": "unverified",
+          "checked_at": "2026-10-27T13:09:34.442612+00:00",
+          "next_retry_at": "2026-10-28T13:09:34.442612+00:00",
+          "details": "official grade unavailable"
+        },
+        "history": {
+          "status": "unverified",
+          "checked_at": "2026-10-27T13:09:35.348212+00:00",
+          "next_retry_at": "2026-10-28T13:09:35.348212+00:00",
+          "details": "no verified CNY historical record"
+        },
+        "epic": {
+          "status": "unverified",
+          "checked_at": "2026-10-27T13:09:36.500679+00:00",
+          "next_retry_at": "2026-10-28T13:09:36.500679+00:00",
+          "details": "incomplete third-party archive"
+        },
+        "mobile": {
+          "status": "unverified",
+          "checked_at": "2026-10-27T13:09:37.289555+00:00",
+          "next_retry_at": "2026-10-28T13:09:37.289555+00:00",
+          "details": "no verified official port record"
+        },
+        "dlc": {
+          "status": "success",
+          "checked_at": "2026-10-27T13:09:37.862723+00:00",
+          "next_retry_at": "2026-11-10T13:09:37.862723+00:00",
+          "details": "1 DLC IDs"
         }
-      }
+      },
+      "dlc_count": 1,
+      "dlc_appids": [
+        391570
+      ]
     },
     {
       "appid": 247080,
