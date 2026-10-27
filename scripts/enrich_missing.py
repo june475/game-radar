@@ -243,6 +243,7 @@ def run(task,limit=5,force=False,db_path=DB,games_path=GAMES):
     all_games=doc.get("games",[])
     now=utcnow()
     results={"task":task,"checked":0,"updated":0,"status":{}}
+    confirmed_epic=set()
     with connect(Path(db_path)) as db:
         due=[g for g in all_games if eligible(db,g,task,now,force)]
         # Rotate through the set across runs by earliest next retry; first runs
@@ -262,6 +263,8 @@ def run(task,limit=5,force=False,db_path=DB,games_path=GAMES):
                 print("Enrichment failed",task,aid,reason)
             result=record(db,aid,task,status,reason,now)
             if status=="success":persist_enrichment(db,game,task,now)
+            if task=="epic" and status=="success" and game.get("epic_giveaway"):
+                confirmed_epic.add(aid)
             game.setdefault("enrichment_status",{})[task]=result
             results["checked"]+=1
             results["status"][status]=results["status"].get(status,0)+1
@@ -270,7 +273,12 @@ def run(task,limit=5,force=False,db_path=DB,games_path=GAMES):
             # Avoid bursts across separate domains / runs.
             time.sleep(0.25)
         db.commit()
-    if results["updated"]:
+    if confirmed_epic:
+        doc["games"]=[g for g in all_games if g.get("appid") not in confirmed_epic]
+        doc["counts"]={kind:sum(1 for g in doc["games"] if g.get("category")==kind)
+                       for kind in ("deal","new","explore")}
+        results["removed_epic_giveaways"]=len(confirmed_epic)
+    if results["updated"] or confirmed_epic:
         doc.setdefault("meta",{})["last_enrichment_utc"]=now.isoformat()
         GAMES.write_text(json.dumps(doc,ensure_ascii=False,indent=2)+"\n","utf-8")
     print("Enrichment summary",json.dumps(results,ensure_ascii=False))
