@@ -1,0 +1,22 @@
+name: Monitor Game Radar Updates
+on:
+  schedule:
+    - cron: "20 9 * * *"
+  workflow_dispatch:
+permissions:
+  actions: read
+  contents: read
+  issues: write
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Check workflows and raise or close GitHub Issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/monitor_actions.py
