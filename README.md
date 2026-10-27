@@ -90,3 +90,10 @@ GitHub Actions 分离为两个工作流，均以北京时间计时：
 - 只展示 Steam 国区当前有折扣的热门游戏（最多30款），不查询、不判断、不展示历史最低价；按 Steam 热销特惠顺序展示，完全不参考个人喜好。
 - 单独运行 `Refresh Popular Discount Games`，每天北京时间 15:05 更新，也支持手动 `Run workflow → all`。它不拖慢老游戏、新游、尝鲜三类个性化发现。
 - 数据独立保存在 `data/hot_low.json`，页面仅从中读取热门榜，不会影响前三个 Tab 的推荐排名。
+
+## Phase 1: 统一补偿、报价有效期、自动巡检
+
+- **共享采集**：`scripts/key_pipeline.py` 统一读取 `data/games.json` 和 `data/hot_low.json`，以 Steam AppID 去重，只有一个 SQLite `enrichment_state` 里的 `keys` 任务记录。同一游戏属于多个栏目时只发起一次平台查询，并将结果同步更新到所有栏目。兼容迁移 `hot_key_checks` 旧冷却时间。旧脚本保留用于已有测试，但工作流不再调用重复的热榜报价脚本。
+- **有效期**：SteamPY 和 SteamCiCi 的参考报价均需带 `checked_at` 且在 72 小时内，才会显示为当前可参考的价格；过期显示“待重新核实”。SteamCiCi 数据始终明确标为*历史挂售参考*，不是当前在售或库存确认。成功后 72 小时复查，无报价后 24 小时，出错后 6 小时；报价源失效不能直接推断无货。
+- **错误监测**：`.github/workflows/monitor.yml` 每天巡检，检查三个主要采集工作流的最近运行状态和新鲜度；异常时创建 GitHub Issue，恢复后关闭。需要仓库启用 GitHub Issues，并允许工作流使用 `issues:write`。
+- **回归测试**：`.github/workflows/validate.yml` 在重要代码修改推送到 main 后自动运行 Python unittest 和 JavaScript 语法检查；不抓数据、不部署，不会对第三方服务造成请求。
