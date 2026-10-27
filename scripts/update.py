@@ -4,6 +4,7 @@ from pathlib import Path
 from market import enrich
 from availability import epic_history, metadata
 from storage import save as save_database, statistics as db_statistics
+from discovery import discover, classify
 
 ROOT=Path(__file__).resolve().parents[1]; DATA=ROOT/"data"; DATA.mkdir(exist_ok=True)
 cfg=json.loads((ROOT/"config.json").read_text("utf-8"))
@@ -47,24 +48,44 @@ PREF={
 NEG={"大型多人在线":-1.8,"Massively Multiplayer":-1.8,"PvP":-1.0}
 
 src=get("https://store.steampowered.com/api/featuredcategories?cc=cn&l=schinese")
-raw=[]
-for bucket,flag in [("specials","deal"),("new_releases","new")]:
-    for x in (src.get(bucket) or {}).get("items",[]):
-        y=dict(x);y["_flag"]=flag;raw.append(y)
+buckets={"deal":[],"new":[]}
+for key, flag in (("specials","deal"),("new_releases","new")):
+    for x in (src.get(key) or {}).get("items",[]):
+        buckets[flag].append(dict(x,_flag=flag))
+# Expand past the homepage's small featured lists; each pool has its own candidates.
+for kind in ("deal","new"):
+    buckets[kind].extend(discover(kind,pages=2,count=50))
+raw=buckets["deal"]+buckets["new"]
+print("candidate counts", {k:len(v) for k,v in buckets.items()})
 
-seen=set(); games=[]
+seen=set(); games=[]; today=(datetime.datetime.now(datetime.timezone.utc)+datetime.timedelta(hours=8)).date()
 for x in raw:
     appid=x.get("id"); name=x.get("name","")
     if not appid or appid in seen or name.lower() in owned or name in epic_free:continue
     seen.add(appid)
-    price=(x.get("final_price") or 0)/100; original=(x.get("original_price") or x.get("final_price") or 0)/100
-    if price<=0 or (x["_flag"]=="deal" and price>80):continue
 
     d=details(appid); time.sleep(.12)
     rv=reviews(appid); time.sleep(.12)
+    name=d.get("name") or name or str(appid)
+    if name.lower() in owned or name in epic_free:continue
+    price_data=d.get("price_overview") or {}
+    cents=x.get("final_price") if x.get("final_price") is not None else price_data.get("final")
+    original_cents=x.get("original_price") if x.get("original_price") is not None else price_data.get("initial")
+    price=(cents or 0)/100
+    original=(original_cents or cents or 0)/100
+    if price<=0 or (x["_flag"]=="deal" and price>80):continue
+    if x["_flag"]=="deal" and not (x.get("discount_percent") or price_data.get("discount_percent")):
+        continue
+    # Capture actual candidate prices in SQLite, including search-discovered titles.
+    x["final_price"]=cents
+    x["original_price"]=original_cents or cents
+    x["discount_percent"]=x.get("discount_percent") or price_data.get("discount_percent") or 0
     release_info=d.get("release_date") or {}
     release_date=release_info.get("date") or None
     coming_soon=bool(release_info.get("coming_soon",False))
+    category=classify(x["_flag"],release_date,coming_soon,today)
+    if category is None:continue
+    # An app may appear in both lists; the release date controls its category.
     genres=[g.get("description","") for g in d.get("genres",[])]
     cats=[c.get("description","") for c in d.get("categories",[])]
     features=genres+cats
@@ -101,14 +122,14 @@ for x in raw:
     q_for_rank=quality if rv["pct"] is not None else 6.5
     final=round(taste*.45+q_for_rank*.35+price_score*.20,1)
     # 完全不匹配口味的折扣游戏不进入推荐；新游允许较低门槛进入观察
-    if x["_flag"]=="deal" and taste<2.0:continue
+    if category=="deal" and taste<2.0:continue
     if rv["pct"] is not None and rv["pct"]<65:continue
 
     info=metadata(appid,[name,d.get("name","")],epic_records,mobile_verified)
     if info["epic_exclude"]: continue
     m=info["mobile"]
     steam_subids=[int(s) for s in d.get("packages",[]) if str(s).isdigit()][:8]
-    flags=[x["_flag"]]+(["mobile"] if m else [])
+    flags=[category]+(["mobile"] if m else [])
     tags=(["站内新低"] if newlow else [])+([f"-{disc}%"] if disc else [])+genres[:3]
     why=("匹配你的偏好："+ " / ".join(dict.fromkeys(reasons[:4]))) if reasons else "新游观察候选"
     games.append({
@@ -118,14 +139,16 @@ for x in raw:
       "review":(f"简中好评 {rv['pct']}% · {rv['total']} 条" if rv["pct"] is not None else "简中评价样本不足"),
       "review_pct":rv["pct"],"review_count":rv["total"],
       "recommend_score":final,"taste_score":taste,"quality_score":quality,"price_score":price_score,
-      "genres":genres,"tags":tags,"flags":flags,"why":why,
+      "genres":genres,"tags":tags,"flags":flags,"category":category,"why":why,
       "mobile":m,"epic_status":info["epic_status"],"epic_giveaway":info["epic_giveaway"],"epic_source":info["epic_source"],"dlc_status":"未自动核实",
       "key_price":None,"key_source":None,"steam_historical_low":None,"steam_historical_low_source":None,
       "steam_deck":None
     })
 
-games.sort(key=lambda g:(-g["recommend_score"],-g["taste_score"],g["price"]))
-games=games[:24]
+deals=sorted((g for g in games if g["category"]=="deal"),key=lambda g:(-g["recommend_score"],-g["taste_score"],g["price"]))[:30]
+new_games=sorted((g for g in games if g["category"]=="new"),key=lambda g:(-g["recommend_score"],-g["taste_score"],g["price"]))[:30]
+games=deals+new_games
+print("selected separately",{"deals":len(deals),"new":len(new_games)})
 for g in games:
     try:
         enrich(g,hist)
@@ -136,7 +159,7 @@ cn=datetime.datetime.now(datetime.timezone.utc)+datetime.timedelta(hours=8)
 db_path=DATA/"game_radar.db"
 db_result=save_database(db_path,games,raw,cfg,hist,epic_records,cn)
 print("SQLite saved:",db_result,db_statistics(db_path))
-out={"meta":{"updated_at_cn":cn.strftime("%Y-%m-%d %H:%M"),"version":"V1 personalized","note":"推荐分=45%口味匹配+35%简中口碑+20%价格；站内新低不是SteamDB全历史史低。"},"games":games}
+out={"meta":{"updated_at_cn":cn.strftime("%Y-%m-%d %H:%M"),"version":"V2 separate pools","note":"推荐分=45%口味匹配+35%简中口碑+20%价格；站内新低不是SteamDB全历史史低。"},"counts":{"deal":len(deals),"new":len(new_games)},"games":games}
 (DATA/"games.json").write_text(json.dumps(out,ensure_ascii=False,indent=2),"utf-8")
 hp.write_text(json.dumps(hist,ensure_ascii=False,indent=2),"utf-8")
 print("updated",len(games))
