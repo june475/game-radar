@@ -289,9 +289,15 @@ for game in games:
         if game.get("review_pct") is None and old.get("review_pct") is not None:
             for field in ("review_pct","review_count","review_scope","review","quality_score"):
                 game[field]=old.get(field)
-        for field in ("negative_review_analysis","key_offers","region_history_low"):
-            if not game.get(field) and old.get(field):
+        # Dedicated enrichment workers produce durable metadata. A daily
+        # refresh must never replace those verified/cached fields with None.
+        for field in ("negative_review_analysis","key_offers","region_history_low",
+                      "steam_deck","steam_deck_source","mobile","dlc_count",
+                      "dlc_appids","enrichment_status","key_status","epic_giveaway"):
+            if (game.get(field) is None or game.get(field)==[] or game.get(field)=={}) and old.get(field) is not None:
                 game[field]=old[field]
+        if game.get("epic_giveaway"):
+            game["epic_status"]="曾免费赠送"
     # Cached third-party quotes may contain sentinel prices (e.g. CNY 0.10).
     game["key_offers"]=clean_offers(game.get("key_offers"),game.get("price"))
     game["key_reference_min"]=min((o["price"] for o in game["key_offers"]),default=None)
