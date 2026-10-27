@@ -36,12 +36,14 @@ jobs:
           python -m unittest discover -s tests -v
       - name: Scan current popular Steam discounted games
         run: python scripts/hot_low.py
+      - name: Enrich key prices for a small batch of popular games
+        run: python scripts/hot_keys.py --limit 5
       - name: Commit new popular shortlist if changed
         id: changes
         run: |
           git config user.name "game-radar-bot"
           git config user.email "game-radar-bot@users.noreply.github.com"
-          git add data/hot_low.json data/hot_low_cache.json
+          git add data/hot_low.json data/game_radar.db
           if git diff --cached --quiet; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
