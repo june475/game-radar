@@ -6,7 +6,7 @@ from availability import epic_history, metadata
 from storage import save as save_database, statistics as db_statistics
 from discovery import discover, classify, discovery_score
 from review_analysis import fetch_negative_reviews, reason_adjustment
-from backlog import load_pending, save_pending
+from backlog import load_pending, save_pending, drop_processed
 
 ROOT=Path(__file__).resolve().parents[1]; DATA=ROOT/"data"; DATA.mkdir(exist_ok=True)
 cfg=json.loads((ROOT/"config.json").read_text("utf-8"))
@@ -288,9 +288,8 @@ for g in games:
         print("Market enrichment error",g["appid"],str(exc)[:140])
         g["key_offers"]=[];g["tracked_low"]=hist.get(str(g["appid"]),{}).get("low")
 # Persist incomplete items for later compensation runs.
-remaining=[x for x in raw if (x.get("_flag"),x.get("id")) not in PROCESSED]
-save_pending(PENDING_PATH,remaining) if remaining else PENDING_PATH.write_text("[]","utf-8")
-print("Compensation state",{"mode":MODE,"processed":len(PROCESSED),"remaining":len(remaining)})
+remaining=drop_processed(PENDING_PATH,PROCESSED)
+print("Compensation state",{"mode":MODE,"processed":len(PROCESSED),"remaining":remaining})
 cn=datetime.datetime.now(datetime.timezone.utc)+datetime.timedelta(hours=8)
 db_path=DATA/"game_radar.db"
 db_result=save_database(db_path,games,raw,cfg,hist,epic_records,cn)
