@@ -108,8 +108,22 @@ NEG={"大型多人在线":-1.8,"Massively Multiplayer":-1.8,"PvP":-1.0}
 
 existing_pending=load_pending(PENDING_PATH)
 if MODE=="compensate":
-    raw=existing_pending
-    print("Compensating pending candidates:",len(raw))
+    # Also revisit published cards that still lack ratings or negative-review context.
+    missing=[]
+    for g in previous_games:
+        kind=g.get("category")
+        if kind not in ("deal","new","explore") or not isinstance(g.get("appid"),int):
+            continue
+        if g.get("review_pct") is not None and (kind!="explore" or
+                (g.get("negative_review_analysis") or {}).get("sample_size",0)>0):
+            continue
+        missing.append({"id":g["appid"],"_flag":kind,
+            "_watchlisted":bool(g.get("watchlisted")),"name":g.get("name") or "",
+            "final_price":round(g.get("price",0)*100) if g.get("price") else None,
+            "original_price":round(g.get("original_price",0)*100) if g.get("original_price") else None,
+            "discount_percent":g.get("discount",0)})
+    raw=missing[:25]+existing_pending
+    print("Compensating pending candidates:",len(existing_pending),"missing existing:",len(missing))
 else:
     src=get("https://store.steampowered.com/api/featuredcategories?cc=cn&l=schinese")
     buckets={"deal":[],"new":[],"explore":[]}
@@ -148,6 +162,10 @@ for x in raw:
     if not appid or (x["_flag"],appid) in seen or name.lower() in owned or name in epic_free:continue
 
     d=details(appid)
+    if not d:
+        # Remote failure: retain the work item for the next compensation run.
+        PROCESSED.discard((x["_flag"],appid))
+        continue
     rv=reviews(appid)
     name=d.get("name") or name or str(appid)
     if name.lower() in owned or name in epic_free:continue
