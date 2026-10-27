@@ -75,6 +75,9 @@ jobs:
           else
             python scripts/enrich_missing.py --task "$SELECTED_TASK" --limit 5
           fi
+      - name: Incrementally enrich trending game key quotes
+        if: steps.choose.outputs.task == 'keys' || steps.choose.outputs.task == 'all'
+        run: python scripts/hot_keys.py --limit 5
       - name: Commit modified dataset and retry state
         id: changes
         run: |
