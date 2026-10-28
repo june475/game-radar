@@ -1,0 +1,160 @@
+/* Client-only preferences: localStorage is browser-local, not account sync. */
+const RadarExtras=(()=>{
+  const KEY="game-radar-wishlist-v1";
+  const state={wish:{},history:{},historyLoaded:false};
+  const read=()=>{try{const x=JSON.parse(localStorage.getItem(KEY)||"{}");return x&&typeof x==="object"&&!Array.isArray(x)?x:{}}catch{return {}}};
+  state.wish=read();
+  const persist=()=>{try{localStorage.setItem(KEY,JSON.stringify(state.wish))}catch(e){console.warn("Wishlist storage disabled",e)}};
+  const allGames=()=>[...(DATA.games||[]),...(DATA.hotGames||[])];
+  const find=id=>allGames().find(g=>g.appid===Number(id));
+  const minRef=g=>{
+    const values=(g.key_offers||[]).filter(o=>recentQuote(o)&&Number(o.price)>0 &&
+      !(o.platform==="SteamPY"&&Number(o.price)<=0.10) &&
+      !(Number(g.price)>0&&Number(o.price)<Math.max(.5,Number(g.price)*.03)))
+      .map(o=>Number(o.price));
+    return values.length?Math.min(...values):null;
+  };
+  const filters=()=>{
+    const max=Number(document.querySelector("#max-price")?.value);
+    const maxGiven=document.querySelector("#max-price")?.value.trim()!=="";
+    const rating=Number(document.querySelector("#min-rating")?.value||0);
+    const genre=(document.querySelector("#genre-filter")?.value||"").toLowerCase();
+    const wishlist=document.querySelector("#wishlist-filter")?.classList.contains("active");
+    return {max,maxGiven,rating,genre,wishlist,sort:document.querySelector("#sort-mode")?.value||"default"};
+  };
+  function select(items){
+    const f=filters();
+    const filtered=items.filter(g=>
+      (!f.maxGiven||(Number(g.price)>0&&Number(g.price)<=f.max))&&
+      (!f.rating||(Number(g.review_pct)>=f.rating))&&
+      (!f.genre||(g.genres||[]).some(s=>String(s).toLowerCase()===f.genre))&&
+      (!f.wishlist||Boolean(state.wish[g.appid]))
+    );
+    const methods={
+      price_asc:(a,b)=>(a.price||Infinity)-(b.price||Infinity),
+      price_desc:(a,b)=>(b.price||0)-(a.price||0),
+      discount:(a,b)=>(b.discount||0)-(a.discount||0),
+      reviews:(a,b)=>(b.review_count||0)-(a.review_count||0),
+      rating:(a,b)=>(b.review_pct??-1)-(a.review_pct??-1)
+    };
+    return methods[f.sort]?[...filtered].sort(methods[f.sort]):filtered;
+  }
+  function refreshGenres(){
+    const select=document.querySelector("#genre-filter");
+    if(!select)return;
+    const old=select.value;
+    const values=[...new Set(allGames().flatMap(g=>g.genres||[]).filter(Boolean))].sort((a,b)=>a.localeCompare(b,"zh-CN"));
+    select.replaceChildren(new Option("全部类型",""),...values.map(v=>new Option(v,v.toLowerCase())));
+    select.value=old;
+  }
+  function cardActions(g){
+    const wished=Boolean(state.wish[g.appid]);
+    const target=state.wish[g.appid]?.target;
+    return '<div class="radar-actions">'+
+      '<button type="button" class="radar-wish" data-id="'+Number(g.appid)+'" aria-pressed="'+wished+'">'+(wished?"★ 已收藏":"☆ 加愿望单")+'</button>'+
+      '<button type="button" class="radar-target" data-id="'+Number(g.appid)+'">目标价'+(target!=null?" ¥"+target:"")+'</button>'+
+      '<button type="button" class="radar-history" data-id="'+Number(g.appid)+'">价格走势</button>'+
+      '</div>';
+  }
+  function modify(id){
+    if(state.wish[id])delete state.wish[id];
+    else state.wish[id]={name:find(id)?.name||String(id),target:null};
+    persist();render();checkAlerts();
+  }
+  function setTarget(id){
+    const entry=state.wish[id]||{name:find(id)?.name||String(id),target:null};
+    const answer=prompt("设置 Steam 国区目标价（人民币；留空可清除）",entry.target??"");
+    if(answer===null)return;
+    const txt=answer.trim();
+    if(txt===""){entry.target=null}
+    else {
+      const n=Number(txt);
+      if(!Number.isFinite(n)||n<=0||n>100000){alert("请输入有效的人民币价格");return}
+      entry.target=Math.round(n*100)/100;
+    }
+    state.wish[id]=entry;persist();render();checkAlerts();
+  }
+  function checkAlerts(){
+    const panel=document.querySelector("#radar-alerts");
+    if(!panel)return;
+    const matches=[];
+    for(const [id,item] of Object.entries(state.wish)){
+      const g=find(id),target=Number(item?.target);
+      if(!g||!item||item.target==null||!Number.isFinite(target))continue;
+      const steam=Number(g.price)>0&&Number(g.price)<=target;
+      if(steam)matches.push({g,kind:"Steam",value:g.price});
+      const k=minRef(g);
+      if(k!=null&&k<=target)matches.push({g,kind:"散 Key 参考",value:k});
+    }
+    panel.replaceChildren();
+    panel.hidden=matches.length===0;
+    if(matches.length){
+      const title=document.createElement("strong");title.textContent="目标价已达到（仅在打开页面时检查）";
+      panel.append(title);
+      for(const x of matches.slice(0,12)){
+        const p=document.createElement("div");
+        p.textContent=x.g.name+" · "+x.kind+" ¥"+Number(x.value).toFixed(2);
+        panel.append(p);
+      }
+    }
+  }
+  function exportWishlist(){
+    const rows=Object.entries(state.wish).map(([appid,entry])=>({appid:Number(appid),name:entry.name,target:entry.target}));
+    const blob=new Blob([JSON.stringify({saved_at:new Date().toISOString(),games:rows},null,2)],{type:"application/json"});
+    const url=URL.createObjectURL(blob);
+    const a=document.createElement("a");a.href=url;a.download="game-radar-wishlist.json";a.click();
+    setTimeout(()=>URL.revokeObjectURL(url),1000);
+  }
+  function openHistory(id){
+    const dialog=document.querySelector("#price-history-dialog");
+    const g=find(id);
+    document.querySelector("#history-title").textContent=(g?.name||id)+" · 价格走势";
+    const node=document.querySelector("#history-chart");
+    node.replaceChildren();
+    const rows=(state.history[String(id)]||[]).filter(x=>x&&typeof x.price==="number"&&x.price>0);
+    const note=document.querySelector("#history-note");
+    if(!rows.length){note.textContent="暂无已保存的价格记录。仅展示 Game Radar 实际采集的价格，不代表 Steam 全历史最低。";dialog.showModal();return}
+    note.textContent="价格来自 Game Radar 已采集的 Steam 国区/散 Key 参考记录；散 Key 非实时库存，历史数据可能不连续。";
+    const width=720,height=230,pad=34;
+    const values=rows.map(x=>x.price),min=Math.min(...values),max=Math.max(...values);
+    const minY=Math.max(0,min-(max-min||1)*.1),maxY=max+(max-min||1)*.1;
+    const x=i=>pad+i*(width-2*pad)/Math.max(1,rows.length-1);
+    const y=v=>height-pad-(v-minY)*(height-2*pad)/(maxY-minY);
+    const pts=rows.map((r,i)=>x(i)+","+y(r.price)).join(" ");
+    const svg=document.createElementNS("http://www.w3.org/2000/svg","svg");
+    svg.setAttribute("viewBox","0 0 "+width+" "+height);
+    svg.setAttribute("role","img");svg.setAttribute("aria-label","已观测价格走势");
+    const line=document.createElementNS("http://www.w3.org/2000/svg","polyline");
+    line.setAttribute("points",pts);line.setAttribute("stroke","#74f0b8");line.setAttribute("fill","none");line.setAttribute("stroke-width","3");
+    svg.appendChild(line);node.appendChild(svg);
+    const lower=document.createElement("p");lower.className="note";lower.textContent=
+      "记录 "+rows.length+" 条 · 最低 ¥"+min.toFixed(2)+" · 最高 ¥"+max.toFixed(2)+
+      " · 最近 "+rows.at(-1).date;
+    node.appendChild(lower);
+    dialog.showModal();
+  }
+  function init(){
+    const alerts=document.createElement("section");
+    alerts.id="radar-alerts";alerts.className="radar-alerts wrap";alerts.hidden=true;
+    document.querySelector("main")?.prepend(alerts);
+    for(const id of ["sort-mode","max-price","min-rating","genre-filter"])
+      document.getElementById(id)?.addEventListener("input",render);
+    document.querySelector("#wishlist-filter")?.addEventListener("click",e=>{
+      e.currentTarget.classList.toggle("active");render();
+    });
+    document.querySelector("#export-wishlist")?.addEventListener("click",exportWishlist);
+    document.querySelector("#close-history")?.addEventListener("click",()=>document.querySelector("#price-history-dialog").close());
+    document.addEventListener("click",e=>{
+      const b=e.target.closest("button[data-id]");
+      if(!b)return;
+      e.preventDefault();e.stopPropagation();
+      const id=Number(b.dataset.id);
+      if(b.classList.contains("radar-wish"))modify(id);
+      else if(b.classList.contains("radar-target"))setTarget(id);
+      else if(b.classList.contains("radar-history"))openHistory(id);
+    });
+    fetch("data/price_history.json?"+Date.now()).then(r=>r.ok?r.json():{}).then(v=>{state.history=v.games||{};state.historyLoaded=true}).catch(()=>{});
+  }
+  return {select,refreshGenres,cardActions,checkAlerts,init};
+})();
+RadarExtras.init();
