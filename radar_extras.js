@@ -161,8 +161,14 @@ const RadarExtras=(()=>{
     node.replaceChildren();
     const rows=(state.history[String(id)]||[]).filter(x=>x&&typeof x.price==="number"&&x.price>0);
     const note=document.querySelector("#history-note");
-    if(!rows.length){note.textContent="暂无已保存的价格记录。仅展示 Game Radar 实际采集的价格，不代表 Steam 全历史最低。";dialog.showModal();return}
-    note.textContent="价格来自 Game Radar 已采集的 Steam 国区/散 Key 参考记录；散 Key 非实时库存，历史数据可能不连续。";
+    const sourceLink=document.createElement("a");
+    sourceLink.href="https://steamdb.info/app/"+Number(id)+"/";
+    sourceLink.target="_blank";sourceLink.rel="noopener noreferrer";
+    sourceLink.className="steamdb-original-link";
+    sourceLink.textContent="前往 SteamDB 原始页面核查国区历史价格 ↗";
+    node.appendChild(sourceLink);
+    if(!rows.length){note.textContent="暂无已保存的价格记录。可点击下方 SteamDB 原始页面链接查阅；本站不会猜测史低。";dialog.showModal();return}
+    note.textContent="曲线仅包含已保存的真实观测数据；SteamDB 如未提供可验证记录，请通过原始链接核查。散 Key 非实时库存。";
     const width=720,height=230,pad=34;
     const values=rows.map(x=>x.price),min=Math.min(...values),max=Math.max(...values);
     const minY=Math.max(0,min-(max-min||1)*.1),maxY=max+(max-min||1)*.1;
