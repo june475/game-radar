@@ -118,18 +118,40 @@ const RadarExtras=(()=>{
     const width=720,height=230,pad=34;
     const values=rows.map(x=>x.price),min=Math.min(...values),max=Math.max(...values);
     const minY=Math.max(0,min-(max-min||1)*.1),maxY=max+(max-min||1)*.1;
-    const x=i=>pad+i*(width-2*pad)/Math.max(1,rows.length-1);
+    const dates=[...new Set(rows.map(r=>r.date))].sort();
+    const x=date=>pad+dates.indexOf(date)*(width-2*pad)/Math.max(1,dates.length-1);
     const y=v=>height-pad-(v-minY)*(height-2*pad)/(maxY-minY);
-    const pts=rows.map((r,i)=>x(i)+","+y(r.price)).join(" ");
     const svg=document.createElementNS("http://www.w3.org/2000/svg","svg");
     svg.setAttribute("viewBox","0 0 "+width+" "+height);
-    svg.setAttribute("role","img");svg.setAttribute("aria-label","已观测价格走势");
-    const line=document.createElementNS("http://www.w3.org/2000/svg","polyline");
-    line.setAttribute("points",pts);line.setAttribute("stroke","#74f0b8");line.setAttribute("fill","none");line.setAttribute("stroke-width","3");
-    svg.appendChild(line);node.appendChild(svg);
+    svg.setAttribute("role","img");svg.setAttribute("aria-label","按来源分别绘制的站内价格观察走势图");
+    const sources=[...new Set(rows.map(r=>r.source||"未知来源"))];
+    const palette=["#74f0b8","#f2c56c","#85b6ff","#d6a6ef","#f38f95"];
+    sources.forEach((source,index)=>{
+      const values=rows.filter(r=>(r.source||"未知来源")===source);
+      if(!values.length)return;
+      const line=document.createElementNS("http://www.w3.org/2000/svg","polyline");
+      line.setAttribute("points",values.map(r=>x(r.date)+","+y(r.price)).join(" "));
+      line.setAttribute("stroke",palette[index%palette.length]);
+      line.setAttribute("fill","none");line.setAttribute("stroke-width","3");
+      svg.appendChild(line);
+      if(values.length===1){
+        const circle=document.createElementNS("http://www.w3.org/2000/svg","circle");
+        circle.setAttribute("cx",x(values[0].date));circle.setAttribute("cy",y(values[0].price));
+        circle.setAttribute("r","5");circle.setAttribute("fill",palette[index%palette.length]);
+        svg.appendChild(circle);
+      }
+    });
+    node.appendChild(svg);
+    const legend=document.createElement("div");legend.className="chart-legend";
+    sources.forEach((source,index)=>{
+      const tag=document.createElement("span");
+      tag.style.color=palette[index%palette.length];tag.textContent="● "+source;
+      legend.appendChild(tag);
+    });
+    node.appendChild(legend);
     const lower=document.createElement("p");lower.className="note";lower.textContent=
-      "记录 "+rows.length+" 条 · 最低 ¥"+min.toFixed(2)+" · 最高 ¥"+max.toFixed(2)+
-      " · 最近 "+rows.at(-1).date;
+      "记录 "+rows.length+" 条 · 观测最低 ¥"+min.toFixed(2)+" · 最高 ¥"+max.toFixed(2)+
+      " · 最近 "+rows.at(-1).date+" · 来源独立绘制，数据不连续";
     node.appendChild(lower);
     dialog.showModal();
   }
