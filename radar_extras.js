@@ -58,7 +58,7 @@ const RadarExtras=(()=>{
   }
   function modify(id){
     if(state.wish[id])delete state.wish[id];
-    else state.wish[id]={name:find(id)?.name||String(id),target:null};
+    else state.wish[id]={name:find(id)?.name||String(id),target:null, saved_at:new Date().toISOString()};
     persist();render();checkAlerts();
   }
   function setTarget(id){
@@ -73,6 +73,49 @@ const RadarExtras=(()=>{
       entry.target=Math.round(n*100)/100;
     }
     state.wish[id]=entry;persist();render();checkAlerts();
+  }
+  function renderOfflist(){
+    const node=document.querySelector("#saved-outside");
+    if(!node)return;
+    const enabled=document.querySelector("#wishlist-filter")?.classList.contains("active");
+    const current=new Set(allGames().map(g=>String(g.appid)));
+    const missing=Object.entries(state.wish).filter(([id])=>!current.has(id));
+    node.hidden=!enabled||!missing.length;
+    node.replaceChildren();
+    if(node.hidden)return;
+    const title=document.createElement("h3");title.textContent="已收藏但不在本期推荐中的游戏";
+    const description=document.createElement("p");description.className="note";
+    description.textContent="这些游戏仍保存在本机愿望单中；当前价格未知，暂不触发价格提醒。";
+    node.append(title,description);
+    for(const [id,item] of missing){
+      const entry=document.createElement("div");entry.className="saved-entry";
+      const link=document.createElement("a");
+      link.href="https://store.steampowered.com/app/"+Number(id)+"/?cc=cn&l=schinese";
+      link.target="_blank";link.rel="noopener noreferrer";
+      link.textContent=item.name||"Steam AppID "+id;
+      const value=document.createElement("span");
+      value.textContent=item.target==null?"未设目标价":"目标价 ¥"+item.target;
+      const remove=document.createElement("button");remove.type="button";
+      remove.className="radar-wish";remove.dataset.id=id;remove.textContent="移除";
+      const target=document.createElement("button");target.type="button";
+      target.className="radar-target";target.dataset.id=id;target.textContent="调整目标价";
+      entry.append(link,value,target,remove);node.append(entry);
+    }
+  }
+  function importWishlist(file){
+    if(!file)return;
+    if(file.size>200000){alert("愿望单文件过大");return}
+    file.text().then(raw=>{
+      const obj=JSON.parse(raw);
+      const rows=Array.isArray(obj.games)?obj.games:[];
+      if(rows.length>500)throw Error("数量超出上限");
+      for(const row of rows){
+        const id=Number(row.appid),p=row.target==null?null:Number(row.target);
+        if(!Number.isSafeInteger(id)||id<=0||!Number.isFinite(p??0)||p!=null&&(p<=0||p>100000))continue;
+        state.wish[id]={name:String(row.name||id).slice(0,180),target:p};
+      }
+      persist();render();checkAlerts();
+    }).catch(()=>alert("导入失败：请选择正确的愿望单 JSON 文件"));
   }
   function checkAlerts(){
     const panel=document.querySelector("#radar-alerts");
@@ -165,6 +208,10 @@ const RadarExtras=(()=>{
       e.currentTarget.classList.toggle("active");render();
     });
     document.querySelector("#export-wishlist")?.addEventListener("click",exportWishlist);
+    document.querySelector("#import-wishlist")?.addEventListener("click",()=>document.querySelector("#import-wishlist-file")?.click());
+    document.querySelector("#import-wishlist-file")?.addEventListener("change",e=>{
+      importWishlist(e.target.files?.[0]);e.target.value="";
+    });
     document.querySelector("#close-history")?.addEventListener("click",()=>document.querySelector("#price-history-dialog").close());
     document.addEventListener("click",e=>{
       const b=e.target.closest("button[data-id]");
@@ -177,7 +224,7 @@ const RadarExtras=(()=>{
     });
     fetch("data/price_history.json?"+Date.now()).then(r=>r.ok?r.json():{}).then(v=>{state.history=v.games||{};state.historyLoaded=true}).catch(()=>{});
   }
-  return {select,refreshGenres,cardActions,checkAlerts,init};
+  return {select,refreshGenres,cardActions,checkAlerts,renderOfflist,init};
 })();
 RadarExtras.init();
 
