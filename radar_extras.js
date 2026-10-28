@@ -180,3 +180,5 @@ const RadarExtras=(()=>{
   return {select,refreshGenres,cardActions,checkAlerts,init};
 })();
 RadarExtras.init();
+
+window.RadarExtras=RadarExtras;
