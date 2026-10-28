@@ -30,7 +30,7 @@ return `<article class="card"><a href="${esc(g.url)}" target="_blank" rel="noope
 <div class="key-panel"><div class="detail-label">散 Key 价格 <span class="key-info">影响购买决策 · 报价需核实</span></div><div class="key-offers">${offers}</div></div>
 ${isHot?"":`<div class="meta">Steam全历史最低：${g.steam_historical_low!=null?fmt(g.steam_historical_low):"暂不可核实"} · SteamRaw覆盖期最低：${g.region_history_low?.price!=null?fmt(g.region_history_low.price):"待核实"} · 站内最低：${fmt(g.tracked_low)} · Steam Deck：${esc(g.steam_deck||"待核实")}</div>`}
 <div class="meta">${g.category==="explore"?"尝鲜分 "+(g.discovery_score??"—")+" · 不计算个人口味":g.category==="hot"?"Steam 热销特惠序位 "+(g.popularity_rank??"—")+" · 不计个人口味":"口味 "+(g.taste_score??"—")+" · 质量 "+(g.quality_score??"—")+" · 价格 "+(g.price_score??"—")}</div>
-</div></a>${window.RadarExtras?RadarExtras.cardActions(g):""}</article>`;
+</div></a><div class="source-links"><a href="https://steamdb.info/app/${Number(g.appid)}/" target="_blank" rel="noopener noreferrer" title="到 SteamDB 原始页面查看价格历史">SteamDB 原始价格历史 ↗</a></div>${window.RadarExtras?RadarExtras.cardActions(g):""}</article>`;
 }
 function render(){
 const q=(document.querySelector("#search")?.value||"").trim().toLowerCase();
