@@ -8,7 +8,7 @@ const RadarExtras=(()=>{
   const allGames=()=>[...(DATA.games||[]),...(DATA.hotGames||[])];
   const find=id=>allGames().find(g=>g.appid===Number(id));
   const minRef=g=>{
-    const values=(g.key_offers||[]).filter(o=>recentQuote(o)&&Number(o.price)>0 &&
+    const values=(g.key_offers||[]).filter(o=>recentQuote(o)&&o.kind!=="historical_listing"&&Number(o.price)>0 &&
       !(o.platform==="SteamPY"&&Number(o.price)<=0.10) &&
       !(Number(g.price)>0&&Number(o.price)<Math.max(.5,Number(g.price)*.03)))
       .map(o=>Number(o.price));
