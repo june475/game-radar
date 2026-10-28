@@ -30,7 +30,7 @@ return `<article class="card"><a href="${esc(g.url)}" target="_blank" rel="noope
 <div class="key-panel"><div class="detail-label">散 Key 价格 <span class="key-info">影响购买决策 · 报价需核实</span></div><div class="key-offers">${offers}</div></div>
 ${isHot?"":`<div class="meta">Steam全历史最低：${g.steam_historical_low!=null?fmt(g.steam_historical_low):"暂不可核实"} · SteamRaw覆盖期最低：${g.region_history_low?.price!=null?fmt(g.region_history_low.price):"待核实"} · 站内最低：${fmt(g.tracked_low)} · Steam Deck：${esc(g.steam_deck||"待核实")}</div>`}
 <div class="meta">${g.category==="explore"?"尝鲜分 "+(g.discovery_score??"—")+" · 不计算个人口味":g.category==="hot"?"Steam 热销特惠序位 "+(g.popularity_rank??"—")+" · 不计个人口味":"口味 "+(g.taste_score??"—")+" · 质量 "+(g.quality_score??"—")+" · 价格 "+(g.price_score??"—")}</div>
-</div></a></article>`;
+</div></a>${window.RadarExtras?RadarExtras.cardActions(g):""}</article>`;
 }
 function render(){
 const q=(document.querySelector("#search")?.value||"").trim().toLowerCase();
@@ -40,10 +40,11 @@ for(const category of ["deal","new","explore","hot"]){
 const section=document.querySelector("#"+category+"-section");
 const elem=document.querySelector("#"+category+"-games");
 const items=all.filter(g=>(g.category||((g.flags||[]).includes("new")?"new":"deal"))===category).filter(search).filter(g=>filter!=="mobile"||(g.flags||[]).includes("mobile"));
+const display=window.RadarExtras?RadarExtras.select(items):items;
 const visible=filter==="all"||filter==="mobile"||filter===category;
 section.hidden=!visible;
-elem.innerHTML=items.length?items.map(card).join(""):`<div class="note">本期暂无符合条件的${category==="deal"?"老游戏折扣":category==="new"?"近期新游戏":category==="hot"?"热门特惠游戏":"尝鲜游戏"}。</div>`;
-document.querySelector("#"+category+"-count").textContent="（"+items.length+"/"+(category==="explore"?20:30)+"）";
+elem.innerHTML=display.length?display.map(card).join(""):`<div class="note">本期暂无符合条件的${category==="deal"?"老游戏折扣":category==="new"?"近期新游戏":category==="hot"?"热门特惠游戏":"尝鲜游戏"}。</div>`;
+document.querySelector("#"+category+"-count").textContent="（"+display.length+"/"+(category==="explore"?20:30)+"）";
 }
 }
 
@@ -78,7 +79,7 @@ function setDailyWallpaper(){
 function boot(d){
 DATA={games:d.games||[],hotGames:DATA.hotGames||[],meta:d.meta||{}};
 document.querySelector("#updated").textContent="更新："+(DATA.meta.updated_at_cn||"—");
-render();
+RadarExtras.refreshGenres();render();RadarExtras.checkAlerts();
   setDailyWallpaper();
 }
 document.querySelectorAll("[data-filter]").forEach(b=>b.onclick=()=>{
@@ -92,4 +93,4 @@ fetch("data/games.json?"+Date.now()).then(r=>{if(!r.ok)throw Error("data fetch f
 setInterval(setDailyWallpaper,60000);
 
 // Independent public Steam specials dataset: no personal taste inputs.
-fetch("data/hot_low.json?"+Date.now()).then(r=>{if(!r.ok)throw Error("hot list unavailable");return r.json()}).then(d=>{DATA.hotGames=d.games||[];render();}).catch(()=>{DATA.hotGames=[];render();});
+fetch("data/hot_low.json?"+Date.now()).then(r=>{if(!r.ok)throw Error("hot list unavailable");return r.json()}).then(d=>{DATA.hotGames=d.games||[];RadarExtras.refreshGenres();render();RadarExtras.checkAlerts();}).catch(()=>{DATA.hotGames=[];render();});
