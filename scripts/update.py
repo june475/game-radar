@@ -8,6 +8,7 @@ from discovery import discover, classify, discovery_score
 from review_analysis import fetch_negative_reviews, reason_adjustment
 from backlog import load_pending, save_pending, drop_processed
 from check_recommendations import missing_categories
+from recommend_quality import rank_recommendation
 
 ROOT=Path(__file__).resolve().parents[1]; DATA=ROOT/"data"; DATA.mkdir(exist_ok=True)
 cfg=json.loads((ROOT/"config.json").read_text("utf-8"))
@@ -303,7 +304,7 @@ for game in games:
     game["key_reference_min"]=min((o["price"] for o in game["key_offers"]),default=None)
     previous_by_id[key]=game
 games=list(previous_by_id.values())
-deals=sorted((g for g in games if g["category"]=="deal"),key=lambda g:(-g["recommend_score"],-g["taste_score"],g["price"]))[:30]
+deals=sorted((g for g in games if g["category"]=="deal"),key=lambda g:(-rank_recommendation(g),-g["taste_score"],g["price"]))[:30]
 new_games=sorted((g for g in games if g["category"]=="new"),key=lambda g:(-g["recommend_score"],-g["taste_score"],g["price"]))[:30]
 # Dedicated exploration pool, ranked by quality and affordability only.
 personalized_ids={g["appid"] for g in deals+new_games}
