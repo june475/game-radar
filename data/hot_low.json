@@ -3,7 +3,7 @@
     "updated_at_cn": "2026-10-28 15:57",
     "rank_source": "Steam 商店热销特惠筛选（热度代理，不是实时销量榜）",
     "checked": 31,
-    "last_key_enrichment_utc": "2026-10-28T12:56:56.819920+00:00"
+    "last_key_enrichment_utc": "2026-10-28T19:51:55.208172+00:00"
   },
   "games": [
     {
@@ -398,8 +398,8 @@
       "enrichment_status": {
         "keys": {
           "status": "no_quote",
-          "checked_at": "2026-10-27T19:43:47.803205+00:00",
-          "next_retry_at": "2026-10-28T19:43:47.803205+00:00"
+          "checked_at": "2026-10-28T19:51:55.208172+00:00",
+          "next_retry_at": "2026-10-29T19:51:55.208172+00:00"
         }
       },
       "original_price": 196.0,
@@ -415,7 +415,9 @@
       "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
       "popularity_rank": 9,
       "review": "Steam 评价未在本榜单单独核实",
-      "negative_review_analysis": null
+      "negative_review_analysis": null,
+      "key_reference_min": null,
+      "key_status": "暂无有效散 Key 参考价"
     },
     {
       "appid": 2050650,
@@ -784,8 +786,8 @@
       "enrichment_status": {
         "keys": {
           "status": "no_quote",
-          "checked_at": "2026-10-27T19:43:47.803205+00:00",
-          "next_retry_at": "2026-10-28T19:43:47.803205+00:00"
+          "checked_at": "2026-10-28T19:51:55.208172+00:00",
+          "next_retry_at": "2026-10-29T19:51:55.208172+00:00"
         }
       },
       "original_price": 348.0,
@@ -801,7 +803,9 @@
       "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
       "popularity_rank": 18,
       "review": "Steam 评价未在本榜单单独核实",
-      "negative_review_analysis": null
+      "negative_review_analysis": null,
+      "key_reference_min": null,
+      "key_status": "暂无有效散 Key 参考价"
     },
     {
       "appid": 568220,
