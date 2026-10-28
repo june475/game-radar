@@ -2,6 +2,7 @@
 import urllib.parse
 import urllib.request
 import json
+import re
 
 CATEGORIES = {
     "运营/商业争议": ("运营","官方","开发商","制作组","发行商","公关","声明","涨价","定价","背刺","收费","氪金","内购","dlc","割韭菜","骗钱","退款","画饼","承诺"),
@@ -16,13 +17,24 @@ def classify_texts(texts):
     for text in texts:
         s=str(text or "").lower()
         for label,terms in CATEGORIES.items():
-            if any(term in s for term in terms):counts[label]+=1
+            found=False
+            for term in terms:
+                for match in re.finditer(re.escape(term),s):
+                    before=s[max(0,match.start()-6):match.start()]
+                    if any(before.endswith(x) for x in ("没有","并无","不存在","毫无","不觉得","没遇到")):
+                        continue
+                    found=True
+                    break
+                if found:break
+            if found:counts[label]+=1
     ranked=sorted(((label,n) for label,n in counts.items() if n),key=lambda v:-v[1])
     total=len(texts)
     primary=ranked[0][0] if ranked and ranked[0][1]>=2 else None
     return {"sample_size":total,"categories":[{"name":k,"mentions":v} for k,v in ranked[:4]],
             "main_issue":primary,"confidence":"样本有限" if total<15 else "仅关键词归类",
-            "note":"关键词仅表示话题被提及，不能证明差评动机；运营争议不能自动视为无效。"}
+            "method":"关键词+明显否定短语过滤",
+            "topic_share":{k:round(v/total,3) for k,v in ranked[:4]} if total else {},
+            "note":"关键词仅表示话题被提及，无法完全理解语境；运营争议不自动视为无效。"}
 def fetch_negative_reviews(appid,limit=30):
     query=urllib.parse.urlencode({"json":1,"filter":"recent","language":"schinese",
         "review_type":"negative","purchase_type":"all","num_per_page":limit,"cursor":"*"})
