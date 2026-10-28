@@ -57,6 +57,9 @@ jobs:
           else
             python scripts/update.py
           fi
+      - name: Export observed price history
+        if: steps.check.outputs.run == 'true'
+        run: python scripts/export_price_history.py
       - name: Commit updated data
         if: steps.check.outputs.run == 'true'
         run: |
