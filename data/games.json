@@ -3,7 +3,7 @@
     "updated_at_cn": "2026-10-28 15:17",
     "version": "V4 review-context discovery",
     "note": "尝鲜榜不设价格或好评率硬门槛；查看近期简中差评关键词，区别争议类型。分析是辅助证据，不代表玩家差评全部属实或无效。",
-    "last_enrichment_utc": "2026-10-28T13:23:36.442136+00:00",
+    "last_enrichment_utc": "2026-10-28T13:29:46.391025+00:00",
     "last_key_enrichment_utc": "2026-10-28T12:56:56.819920+00:00"
   },
   "counts": {
@@ -90,6 +90,12 @@
           "checked_at": "2026-10-28T01:25:23.357506+00:00",
           "next_retry_at": "2026-10-30T01:25:23.357506+00:00",
           "details": "negative reviews unavailable"
+        },
+        "deck": {
+          "status": "unverified",
+          "checked_at": "2026-10-28T13:29:46.391025+00:00",
+          "next_retry_at": "2026-10-29T13:29:46.391025+00:00",
+          "details": "official grade unavailable"
         }
       }
     },
@@ -569,6 +575,12 @@
           "checked_at": "2026-10-27T21:55:08.384391+00:00",
           "next_retry_at": "2026-10-29T21:55:08.384391+00:00",
           "details": "negative reviews unavailable"
+        },
+        "deck": {
+          "status": "unverified",
+          "checked_at": "2026-10-28T13:29:46.391025+00:00",
+          "next_retry_at": "2026-10-29T13:29:46.391025+00:00",
+          "details": "official grade unavailable"
         }
       },
       "key_status": "未核实实时在售",
@@ -2066,6 +2078,12 @@
           "checked_at": "2026-10-27T21:55:08.384391+00:00",
           "next_retry_at": "2026-10-29T21:55:08.384391+00:00",
           "details": "negative reviews unavailable"
+        },
+        "deck": {
+          "status": "unverified",
+          "checked_at": "2026-10-28T13:29:46.391025+00:00",
+          "next_retry_at": "2026-10-29T13:29:46.391025+00:00",
+          "details": "official grade unavailable"
         }
       },
       "key_status": "未核实实时在售",
@@ -2560,6 +2578,12 @@
           "checked_at": "2026-10-27T21:55:08.384391+00:00",
           "next_retry_at": "2026-10-29T21:55:08.384391+00:00",
           "details": "negative reviews unavailable"
+        },
+        "deck": {
+          "status": "unverified",
+          "checked_at": "2026-10-28T13:29:46.391025+00:00",
+          "next_retry_at": "2026-10-29T13:29:46.391025+00:00",
+          "details": "official grade unavailable"
         }
       }
     },
@@ -4860,6 +4884,12 @@
           "status": "success",
           "checked_at": "2026-10-28T08:00:39.216866+00:00",
           "next_retry_at": "2026-10-31T08:00:39.216866+00:00"
+        },
+        "deck": {
+          "status": "unverified",
+          "checked_at": "2026-10-28T13:29:46.391025+00:00",
+          "next_retry_at": "2026-10-29T13:29:46.391025+00:00",
+          "details": "official grade unavailable"
         }
       },
       "key_status": "参考报价，不代表实时库存"
