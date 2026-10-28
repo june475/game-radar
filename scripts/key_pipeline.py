@@ -10,6 +10,7 @@ import json
 import sqlite3
 from pathlib import Path
 from market import steampy, steamcici, clean_offers
+from storage import setup as setup_storage
 
 MAX_REFERENCE_AGE_HOURS=72
 SOURCES=("SteamPY","SteamCiCi")
@@ -34,6 +35,7 @@ def valid_display_offers(offers,steam_price=None,now=None):
     return result
 
 def setup(conn):
+    setup_storage(conn)
     conn.execute("""CREATE TABLE IF NOT EXISTS enrichment_state(
         appid INTEGER NOT NULL, task TEXT NOT NULL, status TEXT NOT NULL,
         last_attempt TEXT NOT NULL, next_attempt TEXT NOT NULL, details TEXT,
@@ -123,6 +125,19 @@ def run(paths,db_path,limit=5,now=None,lookups=(steampy,steamcici),details_looku
             except Exception as exc:
                 offers=valid_display_offers(prior,game.get("price"),now)
                 status,reason="failed",str(exc)[:180]
+            if status=="success":
+                for item in offers:
+                    if item.get("checked_at")!=now.isoformat():continue
+                    db.execute("""INSERT INTO key_price_history
+                      (appid,observed_date,platform,package_id,price,kind,status,source_url,checked_at)
+                      VALUES(?,?,?,?,?,?,?,?,?)
+                      ON CONFLICT(appid,observed_date,platform,package_id,kind)
+                      DO UPDATE SET price=excluded.price,status=excluded.status,
+                                    source_url=excluded.source_url,checked_at=excluded.checked_at""",
+                      (appid,(now+dt.timedelta(hours=8)).date().isoformat(),
+                       item.get("platform"),str(item.get("subid") or ""),
+                       item.get("price"),item.get("kind") or "reference",
+                       item.get("status") or "",item.get("url"),now.isoformat()))
             state=result_state(db,appid,status,now,reason)
             for path,g in mapping[appid]:
                 # Keep only price-valid offers on each card.
