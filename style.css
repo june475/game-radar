@@ -49,3 +49,10 @@ header,main,footer{position:relative;z-index:1}
 #history-chart svg{width:100%;height:auto;background:#0d1520;border-radius:8px}
 .chart-legend{display:flex;flex-wrap:wrap;gap:12px;margin-top:8px;font-size:12px}
 @media(max-width:800px){.radar-controls{align-items:stretch}.radar-controls label{flex:1 0 40%}.radar-controls input,.radar-controls select{max-width:none;width:100%}}
+
+.saved-outside{padding:16px;margin:0 0 24px;background:rgba(18,23,34,.94);border:1px solid var(--line);border-radius:12px}
+.saved-outside h3{margin:0 0 4px}
+.saved-entry{display:flex;align-items:center;gap:12px;border-top:1px solid var(--line);padding:10px 0;flex-wrap:wrap}
+.saved-entry a{color:var(--accent);margin-right:auto;text-decoration:none}
+.saved-entry span{color:var(--muted);font-size:12px}
+.saved-entry button{background:#192635;border:1px solid #3b4a5c;color:var(--text);border-radius:7px;padding:6px 10px;cursor:pointer}
