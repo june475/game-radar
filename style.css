@@ -56,3 +56,9 @@ header,main,footer{position:relative;z-index:1}
 .saved-entry a{color:var(--accent);margin-right:auto;text-decoration:none}
 .saved-entry span{color:var(--muted);font-size:12px}
 .saved-entry button{background:#192635;border:1px solid #3b4a5c;color:var(--text);border-radius:7px;padding:6px 10px;cursor:pointer}
+
+/* Source-verification links are separate from the Steam purchase link. */
+.source-links{padding:0 15px 10px;font-size:12px}
+.source-links a,.steamdb-original-link{display:inline-block;color:#a9d6ff;text-decoration:underline;text-underline-offset:3px}
+.source-links a:hover,.steamdb-original-link:hover{color:#e2f4ff}
+.steamdb-original-link{margin:4px 0 12px;font-size:13px}
