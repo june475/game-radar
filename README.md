@@ -111,3 +111,11 @@ GitHub Actions 分离为两个工作流，均以北京时间计时：
 - `scripts/recommend_quality.py` 对个性化榜单引入基于评论样本量的置信度校正：几条好评不应和上万条评论有相同权重。仅调整推荐排序，不给“尝鲜发现”或“当前热门”添加个人偏好硬门槛。
 - `scripts/review_analysis.py` 保留可解释关键词分类，额外处理明显的否定表达（如“没有卡顿”），并记录每种差评主题的样本提及占比。**这不是 LLM 语义理解**，仍可能误解上下文；没有引入外部大模型 API 和付费依赖。
 - `data/price_history.json` 会在下次每日采集或字段补偿任务成功后更新；页面需要有实际 SQLite 观测数据才能展示曲线。
+
+## SteamDB 原网页核查与可选历史价格线
+
+- 每张游戏卡片都提供 `https://steamdb.info/app/<AppID>/` 原始游戏页入口；在「价格走势」弹窗中也始终显示同一个入口。**即使当前查不到史低、没有历史点，也可以跳转 SteamDB 自行核查。**
+- SteamDB 未接入定时爬虫；在没有官方许可和稳定数据接口时，不会凭空生成 SteamDB 曲线。
+- 如有获授权使用或自己核实并提供的历史观察记录，可创建 `data/steamdb_import.csv`（UTF-8，表头：`appid,date,price_cny,source_url`），每行例如 `101,2026-10-28,29.90,https://steamdb.info/app/101/`；**此行仅说明格式，不是已核实价格，请勿直接当真数据入库。**
+- 在本地运行 `python scripts/import_steamdb.py`，会校验 AppID、日期、国区人民币价格和原始 URL，输出 `data/steamdb_history.json`。提交这份 JSON 后，下一次工作流导出 `data/price_history.json` 时会将其作为**单独的 SteamDB 系列**合并；不会覆盖 Steam、SteamPY 或 SteamCiCi。
+- 来源链接格式匹配不等于自动核实历史价格真实性。没有来源或无可信数据时，页面保留“前往 SteamDB 原始页面核查”的链接，不显示假的史低金额。
