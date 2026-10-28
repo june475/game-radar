@@ -1822,7 +1822,7 @@
   "2392150": {
     "name": "Jump Up, Jerry!",
     "low": 2.5,
-    "last": 2.5
+    "last": 5.0
   },
   "1282200": {
     "name": "The Test: Hypothesis Rising",
@@ -1912,7 +1912,7 @@
   "2448760": {
     "name": "Furni-Jumpin'",
     "low": 2.5,
-    "last": 2.5
+    "last": 5.0
   },
   "541570": {
     "name": "Sally Face - Episode One",
@@ -2632,7 +2632,7 @@
   "1010670": {
     "name": "Dungeon Dreams",
     "low": 12.3,
-    "last": 12.3
+    "last": 41.0
   },
   "5171060": {
     "name": "Pirouette & Smile",
@@ -2718,5 +2718,200 @@
     "name": "Prism Core",
     "low": 10.0,
     "last": 10.0
+  },
+  "4739080": {
+    "name": "Rage Garage VR",
+    "low": 37.8,
+    "last": 37.8
+  },
+  "5359450": {
+    "name": "别被老师逮到！",
+    "low": 5.0,
+    "last": 5.0
+  },
+  "4688060": {
+    "name": "Complexia, A Ballet of Blades",
+    "low": 48.45,
+    "last": 48.45
+  },
+  "5310640": {
+    "name": "PoseDoll",
+    "low": 42.0,
+    "last": 42.0
+  },
+  "5348290": {
+    "name": "Super Retro Race",
+    "low": 21.65,
+    "last": 21.65
+  },
+  "5306390": {
+    "name": "IcePath",
+    "low": 15.0,
+    "last": 15.0
+  },
+  "3932010": {
+    "name": "UNSEEN LAND: INTO THE MIST",
+    "low": 21.0,
+    "last": 21.0
+  },
+  "4540040": {
+    "name": "琉隐：将魂千军",
+    "low": 28.16,
+    "last": 28.16
+  },
+  "3690240": {
+    "name": "Project Android",
+    "low": 53.6,
+    "last": 53.6
+  },
+  "5090380": {
+    "name": "熊猫钓鱼：台钓问道之旅",
+    "low": 17.6,
+    "last": 17.6
+  },
+  "3115220": {
+    "name": "自在城镇",
+    "low": 74.25,
+    "last": 74.25
+  },
+  "3612660": {
+    "name": "Hatters",
+    "low": 35.0,
+    "last": 35.0
+  },
+  "3151060": {
+    "name": "星核防线",
+    "low": 24.65,
+    "last": 24.65
+  },
+  "3982450": {
+    "name": "HITLER WAIFU 2",
+    "low": 3.6,
+    "last": 3.6
+  },
+  "5160710": {
+    "name": "DITY: Origins",
+    "low": 10.05,
+    "last": 10.05
+  },
+  "5173940": {
+    "name": "方块战场 Block Battlefield",
+    "low": 14.4,
+    "last": 14.4
+  },
+  "5255000": {
+    "name": "HypnoX: Steel Riders",
+    "low": 17.1,
+    "last": 17.1
+  },
+  "3690370": {
+    "name": "老年生存俱乐部",
+    "low": 31.5,
+    "last": 31.5
+  },
+  "1123310": {
+    "name": "Super Lobster Run",
+    "low": 3.0,
+    "last": 3.0
+  },
+  "5061100": {
+    "name": "Smiley Steel",
+    "low": 11.05,
+    "last": 11.05
+  },
+  "4815540": {
+    "name": "1930: Tinta & Balas",
+    "low": 10.52,
+    "last": 10.52
+  },
+  "4416700": {
+    "name": "BUBBA CHOP GROVE",
+    "low": 13.5,
+    "last": 13.5
+  },
+  "5183750": {
+    "name": "Tidy Arcana",
+    "low": 19.8,
+    "last": 19.8
+  },
+  "4965440": {
+    "name": "Malpractice",
+    "low": 42.0,
+    "last": 42.0
+  },
+  "5247800": {
+    "name": "Cozy Associations",
+    "low": 13.0,
+    "last": 13.0
+  },
+  "5230570": {
+    "name": "Wreckums",
+    "low": 15.0,
+    "last": 15.0
+  },
+  "5116210": {
+    "name": "捏捏大作战",
+    "low": 11.0,
+    "last": 11.0
+  },
+  "4914680": {
+    "name": "数织艺术",
+    "low": 25.2,
+    "last": 25.2
+  },
+  "5142640": {
+    "name": "SORTALIS",
+    "low": 35.7,
+    "last": 35.7
+  },
+  "5396580": {
+    "name": "克苏鲁降临",
+    "low": 18.0,
+    "last": 18.0
+  },
+  "5059140": {
+    "name": "今天还要加班吗？",
+    "low": 19.5,
+    "last": 19.5
+  },
+  "1102350": {
+    "name": "CHOICEEEEE",
+    "low": 11.0,
+    "last": 11.0
+  },
+  "4828940": {
+    "name": "合成深渊",
+    "low": 14.4,
+    "last": 14.4
+  },
+  "4963530": {
+    "name": "PHOSPHOR",
+    "low": 23.8,
+    "last": 23.8
+  },
+  "4980110": {
+    "name": "赛博排球",
+    "low": 10.04,
+    "last": 10.04
+  },
+  "5099530": {
+    "name": "桃园幸存者：匡扶汉室",
+    "low": 19.8,
+    "last": 19.8
+  },
+  "3636460": {
+    "name": "Miss Sasami is Losing Her Mind!",
+    "low": 46.8,
+    "last": 46.8
+  },
+  "5378830": {
+    "name": "榜一请报案",
+    "low": 23.4,
+    "last": 23.4
+  },
+  "4910270": {
+    "name": "灵雀迹",
+    "low": 17.6,
+    "last": 17.6
   }
 }
