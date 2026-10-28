@@ -78,7 +78,7 @@ function setDailyWallpaper(){
 }
 
 function boot(d){
-DATA={games:d.games||[],hotGames:DATA.hotGames||[],meta:d.meta||{}};
+DATA={games:d.games||[],hotGames:DATA.hotGames||[],hotMeta:DATA.hotMeta||{},meta:d.meta||{}};
 document.querySelector("#updated").textContent="更新："+(DATA.meta.updated_at_cn||"—");
 RadarExtras.refreshGenres();render();RadarExtras.checkAlerts();
   setDailyWallpaper();
@@ -94,4 +94,4 @@ fetch("data/games.json?"+Date.now()).then(r=>{if(!r.ok)throw Error("data fetch f
 setInterval(setDailyWallpaper,60000);
 
 // Independent public Steam specials dataset: no personal taste inputs.
-fetch("data/hot_low.json?"+Date.now()).then(r=>{if(!r.ok)throw Error("hot list unavailable");return r.json()}).then(d=>{DATA.hotGames=d.games||[];RadarExtras.refreshGenres();render();RadarExtras.checkAlerts();}).catch(()=>{DATA.hotGames=[];render();});
+fetch("data/hot_low.json?"+Date.now()).then(r=>{if(!r.ok)throw Error("hot list unavailable");return r.json()}).then(d=>{DATA.hotGames=d.games||[];DATA.hotMeta=d.meta||{};RadarExtras.refreshGenres();render();RadarExtras.checkAlerts();}).catch(()=>{DATA.hotGames=[];render();});
