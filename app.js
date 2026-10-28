@@ -17,7 +17,7 @@ const genres=(g.genres||[]).filter(Boolean);
 const isHot=g.category==="hot";
 const negative=g.negative_review_analysis;
 const topics=negative?.categories||[];
-const insight=`<div class="review-reasons"><div class="detail-label">差评主要原因</div><div class="review-summary">${negative?.sample_size>=3&&topics.length?topics.slice(0,3).map(x=>`<span class="review-topic">${esc(x.name)} <b>${Number(x.mentions)||0}</b>条提及</span>`).join(""):`<span class="review-unknown">暂无足够评论样本，尚不能判断主要差评原因</span>`}</div><div class="review-caution">简中近期差评样本：${negative?.sample_size??0} 条 · 关键词归类仅供参考，不代表全部玩家</div></div>`;
+const insight=`<div class="review-reasons"><div class="detail-label">差评主要原因</div><div class="review-summary">${negative?.sample_size>=3&&topics.length?topics.slice(0,3).map(x=>`<span class="review-topic">${esc(x.name)} <b>${Number(x.mentions)||0}</b>条 · ${negative.sample_size?Math.round((Number(x.mentions)||0)*100/negative.sample_size):0}%样本提及</span>`).join(""):`<span class="review-unknown">暂无足够评论样本，尚不能判断主要差评原因</span>`}</div><div class="review-caution">简中近期差评样本：${negative?.sample_size??0} 条 · ${esc(negative?.method||"关键词归类")} · 不代表全部玩家</div></div>`;
 return `<article class="card"><a href="${esc(g.url)}" target="_blank" rel="noopener noreferrer">
 <div class="cover" style="background-image:url('${esc(g.image||"")}')"></div>
 <div class="body"><div class="top"><div><div class="title">${esc(g.name)}</div>${g.name_en?`<div class="meta">${esc(g.name_en)}</div>`:""}</div><div class="score">${g.category==="explore"?(g.discovery_score??"—") :g.category==="hot"?"#"+(g.popularity_rank??"—"):(g.recommend_score??"—")}</div></div>
