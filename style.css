@@ -31,3 +31,21 @@ body::before{
 header,main,footer{position:relative;z-index:1}
 #wallpaper-label{font-size:12px;color:#9db3ae;margin-top:7px;text-align:right}
 @media(max-width:800px){#wallpaper-label{text-align:left}}
+
+/* Phase 2 filters, wishlist and phase 3 observed price history */
+.radar-controls{display:flex;flex-wrap:wrap;gap:12px;align-items:end;margin:-6px 0 26px;padding:13px 15px;border:1px solid var(--line);border-radius:12px;background:rgba(18,23,34,.94)}
+.radar-controls label{font-size:12px;color:var(--muted);display:grid;gap:4px}
+.radar-controls input,.radar-controls select{background:#10151e;color:var(--text);border:1px solid #334152;padding:8px;border-radius:8px;min-height:38px;max-width:170px}
+.radar-controls button,.radar-actions button,.dialog-close{border:1px solid #3b4a5c;border-radius:8px;padding:8px 10px;background:#192635;color:var(--text);cursor:pointer}
+.radar-controls button.active,.radar-wish[aria-pressed=true]{border-color:#74f0b8;color:#74f0b8}
+.radar-actions{display:flex;flex-wrap:wrap;gap:7px;padding:0 15px 15px}
+.radar-actions button{font-size:12px;flex:1 0 auto}
+.radar-actions button:hover,.radar-controls button:hover{border-color:var(--accent)}
+.radar-alerts{margin:15px auto;background:rgba(22,52,42,.95);border:1px solid #386957;border-radius:12px;padding:14px;color:#d8fbe9}
+.radar-alerts strong{display:block;margin-bottom:8px}
+.radar-dialog{max-width:min(800px,96vw);width:760px;border-radius:18px;border:1px solid #334155;background:#151c29;color:var(--text);padding:20px}
+.radar-dialog::backdrop{background:rgba(0,0,0,.72)}
+.dialog-close{float:right}
+#history-chart svg{width:100%;height:auto;background:#0d1520;border-radius:8px}
+.chart-legend{display:flex;flex-wrap:wrap;gap:12px;margin-top:8px;font-size:12px}
+@media(max-width:800px){.radar-controls{align-items:stretch}.radar-controls label{flex:1 0 40%}.radar-controls input,.radar-controls select{max-width:none;width:100%}}
