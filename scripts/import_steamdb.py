@@ -35,7 +35,7 @@ def parse_row(row):
         rf"/app/{aid}/?",parts.path):
         raise ValueError("source_url must match the SteamDB AppID")
     return str(aid),{"date":date.isoformat(),"price":round(amount,2),
-          "source":"SteamDB","source_url":url,"currency":"CNY",
+          "source":"SteamDB","source_url":f"https://steamdb.info/app/{aid}/","currency":"CNY",
           "region":"CN","kind":"manual_authorized_import"}
 
 def convert(source=SOURCE,out=OUT):
