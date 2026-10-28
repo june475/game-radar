@@ -3,7 +3,7 @@
     "updated_at_cn": "2026-10-28 15:57",
     "rank_source": "Steam 商店热销特惠筛选（热度代理，不是实时销量榜）",
     "checked": 31,
-    "last_key_enrichment_utc": "2026-10-28T20:45:47.691651+00:00"
+    "last_key_enrichment_utc": "2026-10-28T21:44:29.641435+00:00"
   },
   "games": [
     {
@@ -1288,12 +1288,23 @@
       "steam_subids": [
         152266
       ],
-      "key_offers": [],
+      "key_offers": [
+        {
+          "platform": "SteamCiCi",
+          "price": 36.9,
+          "status": "历史挂售最低参考价｜非实时库存",
+          "last_hanging_time": "2026-10-28T09:31:49.000+08:00",
+          "url": "https://steamcici.com/index",
+          "kind": "historical_listing",
+          "subid": "152266",
+          "checked_at": "2026-10-28T21:44:29.641435+00:00"
+        }
+      ],
       "enrichment_status": {
         "keys": {
-          "status": "no_quote",
-          "checked_at": "2026-10-27T21:40:00.889429+00:00",
-          "next_retry_at": "2026-10-28T21:40:00.889429+00:00"
+          "status": "success",
+          "checked_at": "2026-10-28T21:44:29.641435+00:00",
+          "next_retry_at": "2026-10-31T21:44:29.641435+00:00"
         }
       },
       "original_price": 80.0,
@@ -1310,7 +1321,9 @@
       "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
       "popularity_rank": 31,
       "review": "Steam 评价未在本榜单单独核实",
-      "negative_review_analysis": null
+      "negative_review_analysis": null,
+      "key_reference_min": 36.9,
+      "key_status": "参考报价，不代表实时库存"
     }
   ]
 }
