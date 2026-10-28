@@ -46,6 +46,7 @@ section.hidden=!visible;
 elem.innerHTML=display.length?display.map(card).join(""):`<div class="note">本期暂无符合条件的${category==="deal"?"老游戏折扣":category==="new"?"近期新游戏":category==="hot"?"热门特惠游戏":"尝鲜游戏"}。</div>`;
 document.querySelector("#"+category+"-count").textContent="（"+display.length+"/"+(category==="explore"?20:30)+"）";
 }
+if(window.RadarExtras)RadarExtras.renderOfflist();
 }
 
 let lastWallpaperDay="";
