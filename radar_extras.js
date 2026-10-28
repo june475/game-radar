@@ -117,13 +117,18 @@ const RadarExtras=(()=>{
       persist();render();checkAlerts();
     }).catch(()=>alert("导入失败：请选择正确的愿望单 JSON 文件"));
   }
+  function datasetFresh(g){
+    const stamp=(g.category==="hot"?DATA.hotMeta?.updated_at_cn:DATA.meta?.updated_at_cn)||"";
+    const parsed=Date.parse(stamp.replace(" ","T")+":00+08:00");
+    return Number.isFinite(parsed)&&parsed<=Date.now()+300000&&Date.now()-parsed<=48*3600000;
+  }
   function checkAlerts(){
     const panel=document.querySelector("#radar-alerts");
     if(!panel)return;
     const matches=[];
     for(const [id,item] of Object.entries(state.wish)){
       const g=find(id),target=Number(item?.target);
-      if(!g||!item||item.target==null||!Number.isFinite(target))continue;
+      if(!g||!item||item.target==null||!Number.isFinite(target)||!datasetFresh(g))continue;
       const steam=Number(g.price)>0&&Number(g.price)<=target;
       if(steam)matches.push({g,kind:"Steam",value:g.price});
       const k=minRef(g);
