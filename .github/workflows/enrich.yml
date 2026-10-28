@@ -75,6 +75,9 @@ jobs:
           else
             if [ "$SELECTED_TASK" = "keys" ]; then python scripts/key_pipeline.py --limit 8; else python scripts/enrich_missing.py --task "$SELECTED_TASK" --limit 5; fi
           fi
+      - name: Export observed price history
+        if: steps.choose.outputs.task == 'keys' || steps.choose.outputs.task == 'all'
+        run: python scripts/export_price_history.py
       - name: Commit modified dataset and retry state
         id: changes
         run: |
