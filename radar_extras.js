@@ -20,7 +20,8 @@ const RadarExtras=(()=>{
     const rating=Number(document.querySelector("#min-rating")?.value||0);
     const genre=(document.querySelector("#genre-filter")?.value||"").toLowerCase();
     const wishlist=document.querySelector("#wishlist-filter")?.classList.contains("active");
-    return {max,maxGiven,rating,genre,wishlist,sort:document.querySelector("#sort-mode")?.value||"default"};
+    const purchasedOnly=document.querySelector("#purchased-filter")?.classList.contains("active");
+    return {max,maxGiven,rating,genre,wishlist,purchasedOnly,sort:document.querySelector("#sort-mode")?.value||"default"};
   };
   function select(items){
     const f=filters();
@@ -28,7 +29,8 @@ const RadarExtras=(()=>{
       (!f.maxGiven||(Number(g.price)>0&&Number(g.price)<=f.max))&&
       (!f.rating||(Number(g.review_pct)>=f.rating))&&
       (!f.genre||(g.genres||[]).some(s=>String(s).toLowerCase()===f.genre))&&
-      (!f.wishlist||Boolean(state.wish[g.appid]))
+      (!f.wishlist||Boolean(state.wish[g.appid]))&&
+      (f.purchasedOnly?Boolean(state.wish[g.appid]?.purchased):!state.wish[g.appid]?.purchased)
     );
     const methods={
       price_asc:(a,b)=>(a.price||Infinity)-(b.price||Infinity),
@@ -49,10 +51,12 @@ const RadarExtras=(()=>{
   }
   function cardActions(g){
     const wished=Boolean(state.wish[g.appid]);
+    const purchased=Boolean(state.wish[g.appid]?.purchased);
     const target=state.wish[g.appid]?.target;
     return '<div class="radar-actions">'+
       '<button type="button" class="radar-wish" data-id="'+Number(g.appid)+'" aria-pressed="'+wished+'">'+(wished?"★ 已收藏":"☆ 加愿望单")+'</button>'+
       '<button type="button" class="radar-target" data-id="'+Number(g.appid)+'">目标价'+(target!=null?" ¥"+target:"")+'</button>'+
+      '<button type="button" class="radar-purchased" data-id="'+Number(g.appid)+'" aria-pressed="'+purchased+'">'+(purchased?"✓ 已购买":"标记已购买")+'</button>'+
       '<button type="button" class="radar-history" data-id="'+Number(g.appid)+'">价格走势</button>'+
       '</div>';
   }
@@ -60,6 +64,11 @@ const RadarExtras=(()=>{
     if(state.wish[id])delete state.wish[id];
     else state.wish[id]={name:find(id)?.name||String(id),target:null, saved_at:new Date().toISOString()};
     persist();render();checkAlerts();
+  }
+  function togglePurchased(id){
+    const entry=state.wish[id]||{name:find(id)?.name||String(id),target:null,saved_at:new Date().toISOString()};
+    entry.purchased=!Boolean(entry.purchased);
+    state.wish[id]=entry;persist();render();checkAlerts();
   }
   function setTarget(id){
     const entry=state.wish[id]||{name:find(id)?.name||String(id),target:null};
@@ -77,15 +86,16 @@ const RadarExtras=(()=>{
   function renderOfflist(){
     const node=document.querySelector("#saved-outside");
     if(!node)return;
-    const enabled=document.querySelector("#wishlist-filter")?.classList.contains("active");
+    const wishlistEnabled=document.querySelector("#wishlist-filter")?.classList.contains("active");
+    const purchasedEnabled=document.querySelector("#purchased-filter")?.classList.contains("active");
     const current=new Set(allGames().map(g=>String(g.appid)));
-    const missing=Object.entries(state.wish).filter(([id])=>!current.has(id));
-    node.hidden=!enabled||!missing.length;
+    const missing=Object.entries(state.wish).filter(([id,item])=>!current.has(id)&&(!purchasedEnabled||item?.purchased));
+    node.hidden=(!wishlistEnabled&&!purchasedEnabled)||!missing.length;
     node.replaceChildren();
     if(node.hidden)return;
-    const title=document.createElement("h3");title.textContent="已收藏但不在本期推荐中的游戏";
+    const title=document.createElement("h3");title.textContent=purchasedEnabled?"已购买但不在本期推荐中的游戏":"已收藏但不在本期推荐中的游戏";
     const description=document.createElement("p");description.className="note";
-    description.textContent="这些游戏仍保存在本机愿望单中；当前价格未知，暂不触发价格提醒。";
+    description.textContent=purchasedEnabled?"这些游戏已标记为已购买，仍保存在本机记录中。":"这些游戏仍保存在本机愿望单中；当前价格未知，暂不触发价格提醒。";
     node.append(title,description);
     for(const [id,item] of missing){
       const entry=document.createElement("div");entry.className="saved-entry";
@@ -96,7 +106,8 @@ const RadarExtras=(()=>{
       const value=document.createElement("span");
       value.textContent=item.target==null?"未设目标价":"目标价 ¥"+item.target;
       const remove=document.createElement("button");remove.type="button";
-      remove.className="radar-wish";remove.dataset.id=id;remove.textContent="移除";
+      remove.className=purchasedEnabled?"radar-purchased":"radar-wish";remove.dataset.id=id;
+      remove.textContent=purchasedEnabled?"取消已购买":"移除";
       const target=document.createElement("button");target.type="button";
       target.className="radar-target";target.dataset.id=id;target.textContent="调整目标价";
       entry.append(link,value,target,remove);node.append(entry);
@@ -112,7 +123,7 @@ const RadarExtras=(()=>{
       for(const row of rows){
         const id=Number(row.appid),p=row.target==null?null:Number(row.target);
         if(!Number.isSafeInteger(id)||id<=0||!Number.isFinite(p??0)||p!=null&&(p<=0||p>100000))continue;
-        state.wish[id]={name:String(row.name||id).slice(0,180),target:p};
+        state.wish[id]={name:String(row.name||id).slice(0,180),target:p,purchased:Boolean(row.purchased)};
       }
       persist();render();checkAlerts();
     }).catch(()=>alert("导入失败：请选择正确的愿望单 JSON 文件"));
@@ -127,6 +138,7 @@ const RadarExtras=(()=>{
     if(!panel)return;
     const matches=[];
     for(const [id,item] of Object.entries(state.wish)){
+      if(item?.purchased)continue;
       const g=find(id),target=Number(item?.target);
       if(!g||!item||item.target==null||!Number.isFinite(target)||!datasetFresh(g))continue;
       const steam=Number(g.price)>0&&Number(g.price)<=target;
@@ -147,7 +159,7 @@ const RadarExtras=(()=>{
     }
   }
   function exportWishlist(){
-    const rows=Object.entries(state.wish).map(([appid,entry])=>({appid:Number(appid),name:entry.name,target:entry.target}));
+    const rows=Object.entries(state.wish).map(([appid,entry])=>({appid:Number(appid),name:entry.name,target:entry.target,purchased:Boolean(entry.purchased)}));
     const blob=new Blob([JSON.stringify({saved_at:new Date().toISOString(),games:rows},null,2)],{type:"application/json"});
     const url=URL.createObjectURL(blob);
     const a=document.createElement("a");a.href=url;a.download="game-radar-wishlist.json";a.click();
@@ -216,7 +228,14 @@ const RadarExtras=(()=>{
     for(const id of ["sort-mode","max-price","min-rating","genre-filter"])
       document.getElementById(id)?.addEventListener("input",render);
     document.querySelector("#wishlist-filter")?.addEventListener("click",e=>{
-      e.currentTarget.classList.toggle("active");render();
+      e.currentTarget.classList.toggle("active");
+      document.querySelector("#purchased-filter")?.classList.remove("active");
+      render();
+    });
+    document.querySelector("#purchased-filter")?.addEventListener("click",e=>{
+      e.currentTarget.classList.toggle("active");
+      document.querySelector("#wishlist-filter")?.classList.remove("active");
+      render();
     });
     document.querySelector("#export-wishlist")?.addEventListener("click",exportWishlist);
     document.querySelector("#import-wishlist")?.addEventListener("click",()=>document.querySelector("#import-wishlist-file")?.click());
@@ -230,6 +249,7 @@ const RadarExtras=(()=>{
       e.preventDefault();e.stopPropagation();
       const id=Number(b.dataset.id);
       if(b.classList.contains("radar-wish"))modify(id);
+      else if(b.classList.contains("radar-purchased"))togglePurchased(id);
       else if(b.classList.contains("radar-target"))setTarget(id);
       else if(b.classList.contains("radar-history"))openHistory(id);
     });
