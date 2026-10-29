@@ -3,7 +3,7 @@
     "updated_at_cn": "2026-10-29 15:17",
     "version": "V4 review-context discovery",
     "note": "尝鲜榜不设价格或好评率硬门槛；查看近期简中差评关键词，区别争议类型。分析是辅助证据，不代表玩家差评全部属实或无效。",
-    "last_enrichment_utc": "2026-10-29T10:11:03.909891+00:00",
+    "last_enrichment_utc": "2026-10-29T13:25:32.664496+00:00",
     "last_key_enrichment_utc": "2026-10-29T12:58:20.493574+00:00"
   },
   "counts": {
@@ -189,8 +189,8 @@
         },
         "reviews": {
           "status": "no_data",
-          "checked_at": "2026-10-27T10:01:09.400733+00:00",
-          "next_retry_at": "2026-10-29T10:01:09.400733+00:00",
+          "checked_at": "2026-10-29T13:25:32.664496+00:00",
+          "next_retry_at": "2026-10-31T13:25:32.664496+00:00",
           "details": "negative reviews unavailable"
         },
         "deck": {
@@ -1847,8 +1847,8 @@
         },
         "reviews": {
           "status": "no_data",
-          "checked_at": "2026-10-27T09:49:24.336908+00:00",
-          "next_retry_at": "2026-10-29T09:49:24.336908+00:00",
+          "checked_at": "2026-10-29T13:25:32.664496+00:00",
+          "next_retry_at": "2026-10-31T13:25:32.664496+00:00",
           "details": "negative reviews unavailable"
         },
         "deck": {
@@ -4350,6 +4350,12 @@
           "status": "no_quote",
           "checked_at": "2026-10-28T15:55:56.026959+00:00",
           "next_retry_at": "2026-10-29T15:55:56.026959+00:00"
+        },
+        "reviews": {
+          "status": "no_data",
+          "checked_at": "2026-10-29T13:25:32.664496+00:00",
+          "next_retry_at": "2026-10-31T13:25:32.664496+00:00",
+          "details": "negative reviews unavailable"
         }
       }
     },
@@ -4758,6 +4764,12 @@
           "status": "no_quote",
           "checked_at": "2026-10-29T05:48:29.285018+00:00",
           "next_retry_at": "2026-10-30T05:48:29.285018+00:00"
+        },
+        "reviews": {
+          "status": "no_data",
+          "checked_at": "2026-10-29T13:25:32.664496+00:00",
+          "next_retry_at": "2026-10-31T13:25:32.664496+00:00",
+          "details": "negative reviews unavailable"
         }
       },
       "key_status": "暂无有效散 Key 参考价",
@@ -5064,8 +5076,8 @@
         },
         "reviews": {
           "status": "no_data",
-          "checked_at": "2026-10-27T09:49:24.336908+00:00",
-          "next_retry_at": "2026-10-29T09:49:24.336908+00:00",
+          "checked_at": "2026-10-29T13:25:32.664496+00:00",
+          "next_retry_at": "2026-10-31T13:25:32.664496+00:00",
           "details": "negative reviews unavailable"
         },
         "deck": {
