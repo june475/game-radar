@@ -3,7 +3,7 @@
     "updated_at_cn": "2026-10-29 15:17",
     "version": "V4 review-context discovery",
     "note": "尝鲜榜不设价格或好评率硬门槛；查看近期简中差评关键词，区别争议类型。分析是辅助证据，不代表玩家差评全部属实或无效。",
-    "last_enrichment_utc": "2026-10-29T09:18:30.654993+00:00",
+    "last_enrichment_utc": "2026-10-29T10:11:03.909891+00:00",
     "last_key_enrichment_utc": "2026-10-29T08:56:42.317937+00:00"
   },
   "counts": {
@@ -3486,7 +3486,15 @@
       "steam_deck": null,
       "key_offers": [],
       "key_reference_min": null,
-      "tracked_low": 48.6
+      "tracked_low": 48.6,
+      "enrichment_status": {
+        "reviews": {
+          "status": "no_data",
+          "checked_at": "2026-10-29T10:11:03.909891+00:00",
+          "next_retry_at": "2026-10-31T10:11:03.909891+00:00",
+          "details": "negative reviews unavailable"
+        }
+      }
     },
     {
       "appid": 5267500,
@@ -3887,6 +3895,12 @@
           "status": "no_quote",
           "checked_at": "2026-10-28T15:55:56.026959+00:00",
           "next_retry_at": "2026-10-29T15:55:56.026959+00:00"
+        },
+        "reviews": {
+          "status": "no_data",
+          "checked_at": "2026-10-29T10:11:03.909891+00:00",
+          "next_retry_at": "2026-10-31T10:11:03.909891+00:00",
+          "details": "negative reviews unavailable"
         }
       },
       "key_status": "暂无有效散 Key 参考价",
@@ -4185,6 +4199,12 @@
           "status": "success",
           "checked_at": "2026-10-28T15:55:56.026959+00:00",
           "next_retry_at": "2026-10-31T15:55:56.026959+00:00"
+        },
+        "reviews": {
+          "status": "no_data",
+          "checked_at": "2026-10-29T10:11:03.909891+00:00",
+          "next_retry_at": "2026-10-31T10:11:03.909891+00:00",
+          "details": "negative reviews unavailable"
         }
       }
     },
@@ -4460,7 +4480,15 @@
       "steam_deck": null,
       "key_offers": [],
       "key_reference_min": null,
-      "tracked_low": 17.1
+      "tracked_low": 17.1,
+      "enrichment_status": {
+        "reviews": {
+          "status": "no_data",
+          "checked_at": "2026-10-29T10:11:03.909891+00:00",
+          "next_retry_at": "2026-10-31T10:11:03.909891+00:00",
+          "details": "negative reviews unavailable"
+        }
+      }
     },
     {
       "appid": 3932010,
@@ -5332,7 +5360,15 @@
       },
       "key_offers": [],
       "key_reference_min": null,
-      "tracked_low": 2.5
+      "tracked_low": 2.5,
+      "enrichment_status": {
+        "reviews": {
+          "status": "no_data",
+          "checked_at": "2026-10-29T10:11:03.909891+00:00",
+          "next_retry_at": "2026-10-31T10:11:03.909891+00:00",
+          "details": "negative reviews unavailable"
+        }
+      }
     },
     {
       "appid": 485610,
