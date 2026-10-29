@@ -4,7 +4,7 @@
     "version": "V4 review-context discovery",
     "note": "尝鲜榜不设价格或好评率硬门槛；查看近期简中差评关键词，区别争议类型。分析是辅助证据，不代表玩家差评全部属实或无效。",
     "last_enrichment_utc": "2026-10-29T07:33:07.153713+00:00",
-    "last_key_enrichment_utc": "2026-10-29T08:04:21.720469+00:00"
+    "last_key_enrichment_utc": "2026-10-29T08:56:42.317937+00:00"
   },
   "counts": {
     "deal": 30,
@@ -3796,7 +3796,7 @@
       "steam_deck": null,
       "key_offers": [],
       "key_reference_min": null,
-      "key_status": "未核实实时在售",
+      "key_status": "暂无有效散 Key 参考价",
       "tracked_low": 29.75,
       "region_history_low": null,
       "enrichment_status": {
@@ -3805,6 +3805,11 @@
           "checked_at": "2026-10-28T19:15:02.170921+00:00",
           "next_retry_at": "2026-10-30T19:15:02.170921+00:00",
           "details": "negative reviews unavailable"
+        },
+        "keys": {
+          "status": "no_quote",
+          "checked_at": "2026-10-29T08:56:42.317937+00:00",
+          "next_retry_at": "2026-10-30T08:56:42.317937+00:00"
         }
       }
     },
@@ -4373,8 +4378,14 @@
           "checked_at": "2026-10-29T04:07:37.475102+00:00",
           "next_retry_at": "2026-10-31T04:07:37.475102+00:00",
           "details": "negative reviews unavailable"
+        },
+        "keys": {
+          "status": "no_quote",
+          "checked_at": "2026-10-29T08:56:42.317937+00:00",
+          "next_retry_at": "2026-10-30T08:56:42.317937+00:00"
         }
-      }
+      },
+      "key_status": "暂无有效散 Key 参考价"
     },
     {
       "appid": 4967310,
@@ -4571,8 +4582,8 @@
       "enrichment_status": {
         "keys": {
           "status": "no_quote",
-          "checked_at": "2026-10-28T08:00:39.216866+00:00",
-          "next_retry_at": "2026-10-29T08:00:39.216866+00:00"
+          "checked_at": "2026-10-29T08:56:42.317937+00:00",
+          "next_retry_at": "2026-10-30T08:56:42.317937+00:00"
         },
         "reviews": {
           "status": "no_data",
@@ -4836,8 +4847,8 @@
       "enrichment_status": {
         "keys": {
           "status": "no_quote",
-          "checked_at": "2026-10-28T08:00:39.216866+00:00",
-          "next_retry_at": "2026-10-29T08:00:39.216866+00:00"
+          "checked_at": "2026-10-29T08:56:42.317937+00:00",
+          "next_retry_at": "2026-10-30T08:56:42.317937+00:00"
         },
         "reviews": {
           "status": "no_data",
@@ -4905,8 +4916,8 @@
       "enrichment_status": {
         "keys": {
           "status": "no_quote",
-          "checked_at": "2026-10-28T08:00:39.216866+00:00",
-          "next_retry_at": "2026-10-29T08:00:39.216866+00:00"
+          "checked_at": "2026-10-29T08:56:42.317937+00:00",
+          "next_retry_at": "2026-10-30T08:56:42.317937+00:00"
         },
         "reviews": {
           "status": "no_data",
