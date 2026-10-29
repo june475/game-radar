@@ -3,7 +3,8 @@
     "updated_at_cn": "2026-10-29 15:17",
     "version": "V4 review-context discovery",
     "note": "尝鲜榜不设价格或好评率硬门槛；查看近期简中差评关键词，区别争议类型。分析是辅助证据，不代表玩家差评全部属实或无效。",
-    "last_enrichment_utc": "2026-10-29T07:33:07.153713+00:00"
+    "last_enrichment_utc": "2026-10-29T07:33:07.153713+00:00",
+    "last_key_enrichment_utc": "2026-10-29T08:04:21.720469+00:00"
   },
   "counts": {
     "deal": 30,
@@ -3320,7 +3321,7 @@
       "steam_deck": null,
       "key_offers": [],
       "key_reference_min": null,
-      "key_status": "未核实实时在售",
+      "key_status": "暂无有效散 Key 参考价",
       "tracked_low": 37.0,
       "region_history_low": null,
       "enrichment_status": {
@@ -3329,6 +3330,11 @@
           "checked_at": "2026-10-29T01:24:40.517866+00:00",
           "next_retry_at": "2026-10-31T01:24:40.517866+00:00",
           "details": "negative reviews unavailable"
+        },
+        "keys": {
+          "status": "no_quote",
+          "checked_at": "2026-10-29T08:04:21.720469+00:00",
+          "next_retry_at": "2026-10-30T08:04:21.720469+00:00"
         }
       }
     },
@@ -3388,7 +3394,7 @@
       "steam_deck": null,
       "key_offers": [],
       "key_reference_min": null,
-      "key_status": "未核实实时在售",
+      "key_status": "暂无有效散 Key 参考价",
       "tracked_low": 44.2,
       "region_history_low": null,
       "enrichment_status": {
@@ -3397,6 +3403,11 @@
           "checked_at": "2026-10-28T13:23:36.442136+00:00",
           "next_retry_at": "2026-10-30T13:23:36.442136+00:00",
           "details": "negative reviews unavailable"
+        },
+        "keys": {
+          "status": "no_quote",
+          "checked_at": "2026-10-29T08:04:21.720469+00:00",
+          "next_retry_at": "2026-10-30T08:04:21.720469+00:00"
         }
       }
     },
@@ -3511,7 +3522,7 @@
       "steam_deck": null,
       "key_offers": [],
       "key_reference_min": null,
-      "key_status": "未核实实时在售",
+      "key_status": "暂无有效散 Key 参考价",
       "tracked_low": 22.0,
       "region_history_low": null,
       "enrichment_status": {
@@ -3520,6 +3531,11 @@
           "checked_at": "2026-10-29T04:07:37.475102+00:00",
           "next_retry_at": "2026-10-31T04:07:37.475102+00:00",
           "details": "negative reviews unavailable"
+        },
+        "keys": {
+          "status": "no_quote",
+          "checked_at": "2026-10-29T08:04:21.720469+00:00",
+          "next_retry_at": "2026-10-30T08:04:21.720469+00:00"
         }
       }
     },
@@ -3646,7 +3662,7 @@
       "steam_deck": null,
       "key_offers": [],
       "key_reference_min": null,
-      "key_status": "未核实实时在售",
+      "key_status": "暂无有效散 Key 参考价",
       "tracked_low": 27.9,
       "region_history_low": null,
       "enrichment_status": {
@@ -3655,6 +3671,11 @@
           "checked_at": "2026-10-29T04:07:37.475102+00:00",
           "next_retry_at": "2026-10-31T04:07:37.475102+00:00",
           "details": "negative reviews unavailable"
+        },
+        "keys": {
+          "status": "no_quote",
+          "checked_at": "2026-10-29T08:04:21.720469+00:00",
+          "next_retry_at": "2026-10-30T08:04:21.720469+00:00"
         }
       }
     },
@@ -5081,7 +5102,15 @@
       },
       "key_offers": [],
       "key_reference_min": null,
-      "tracked_low": 2.5
+      "tracked_low": 2.5,
+      "key_status": "暂无有效散 Key 参考价",
+      "enrichment_status": {
+        "keys": {
+          "status": "no_quote",
+          "checked_at": "2026-10-29T08:04:21.720469+00:00",
+          "next_retry_at": "2026-10-30T08:04:21.720469+00:00"
+        }
+      }
     },
     {
       "appid": 840590,
@@ -5139,7 +5168,15 @@
       },
       "key_offers": [],
       "key_reference_min": null,
-      "tracked_low": 2.5
+      "tracked_low": 2.5,
+      "key_status": "暂无有效散 Key 参考价",
+      "enrichment_status": {
+        "keys": {
+          "status": "no_quote",
+          "checked_at": "2026-10-29T08:04:21.720469+00:00",
+          "next_retry_at": "2026-10-30T08:04:21.720469+00:00"
+        }
+      }
     },
     {
       "appid": 2436110,
@@ -5806,8 +5843,14 @@
           "checked_at": "2026-10-29T07:26:53.632662+00:00",
           "next_retry_at": "2026-10-31T07:26:53.632662+00:00",
           "details": "negative reviews unavailable"
+        },
+        "keys": {
+          "status": "no_quote",
+          "checked_at": "2026-10-29T08:04:21.720469+00:00",
+          "next_retry_at": "2026-10-30T08:04:21.720469+00:00"
         }
-      }
+      },
+      "key_status": "暂无有效散 Key 参考价"
     },
     {
       "appid": 4123890,
