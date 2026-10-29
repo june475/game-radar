@@ -4,7 +4,7 @@
     "version": "V4 review-context discovery",
     "note": "尝鲜榜不设价格或好评率硬门槛；查看近期简中差评关键词，区别争议类型。分析是辅助证据，不代表玩家差评全部属实或无效。",
     "last_enrichment_utc": "2026-10-29T13:33:17.372493+00:00",
-    "last_key_enrichment_utc": "2026-10-29T14:58:54.810794+00:00"
+    "last_key_enrichment_utc": "2026-10-29T15:57:20.108594+00:00"
   },
   "counts": {
     "deal": 30,
@@ -3641,8 +3641,8 @@
       "enrichment_status": {
         "keys": {
           "status": "no_quote",
-          "checked_at": "2026-10-28T15:55:56.026959+00:00",
-          "next_retry_at": "2026-10-29T15:55:56.026959+00:00"
+          "checked_at": "2026-10-29T15:57:20.108594+00:00",
+          "next_retry_at": "2026-10-30T15:57:20.108594+00:00"
         },
         "reviews": {
           "status": "no_data",
@@ -3917,8 +3917,8 @@
       "enrichment_status": {
         "keys": {
           "status": "no_quote",
-          "checked_at": "2026-10-28T15:55:56.026959+00:00",
-          "next_retry_at": "2026-10-29T15:55:56.026959+00:00"
+          "checked_at": "2026-10-29T15:57:20.108594+00:00",
+          "next_retry_at": "2026-10-30T15:57:20.108594+00:00"
         },
         "reviews": {
           "status": "no_data",
@@ -4137,8 +4137,8 @@
       "enrichment_status": {
         "keys": {
           "status": "no_quote",
-          "checked_at": "2026-10-28T15:55:56.026959+00:00",
-          "next_retry_at": "2026-10-29T15:55:56.026959+00:00"
+          "checked_at": "2026-10-29T15:57:20.108594+00:00",
+          "next_retry_at": "2026-10-30T15:57:20.108594+00:00"
         },
         "reviews": {
           "status": "no_data",
@@ -4378,8 +4378,8 @@
       "enrichment_status": {
         "keys": {
           "status": "no_quote",
-          "checked_at": "2026-10-28T15:55:56.026959+00:00",
-          "next_retry_at": "2026-10-29T15:55:56.026959+00:00"
+          "checked_at": "2026-10-29T15:57:20.108594+00:00",
+          "next_retry_at": "2026-10-30T15:57:20.108594+00:00"
         },
         "reviews": {
           "status": "no_data",
