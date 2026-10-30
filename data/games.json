@@ -4,7 +4,7 @@
     "version": "V4 review-context discovery",
     "note": "尝鲜榜不设价格或好评率硬门槛；查看近期简中差评关键词，区别争议类型。分析是辅助证据，不代表玩家差评全部属实或无效。",
     "last_enrichment_utc": "2026-10-30T04:09:11.549989+00:00",
-    "last_key_enrichment_utc": "2026-10-30T05:49:28.908499+00:00"
+    "last_key_enrichment_utc": "2026-10-30T06:57:47.338092+00:00"
   },
   "counts": {
     "deal": 30,
@@ -6041,8 +6041,8 @@
       "enrichment_status": {
         "keys": {
           "status": "no_quote",
-          "checked_at": "2026-10-29T06:57:09.500634+00:00",
-          "next_retry_at": "2026-10-30T06:57:09.500634+00:00"
+          "checked_at": "2026-10-30T06:57:47.338092+00:00",
+          "next_retry_at": "2026-10-31T06:57:47.338092+00:00"
         },
         "reviews": {
           "status": "no_data",
