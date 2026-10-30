@@ -2572,12 +2572,12 @@
   "1432320": {
     "name": "Liftoff®: Micro Drones",
     "low": 43.4,
-    "last": 43.4
+    "last": 62.0
   },
   "35720": {
     "name": "Trine 2: Complete Story",
     "low": 13.6,
-    "last": 13.6
+    "last": 68.0
   },
   "2112740": {
     "name": "Humanica",
@@ -2587,7 +2587,7 @@
   "35700": {
     "name": "Trine Enchanted Edition",
     "low": 9.6,
-    "last": 9.6
+    "last": 48.0
   },
   "3212530": {
     "name": "Anthology Of The Killer",
@@ -2627,7 +2627,7 @@
   "1140270": {
     "name": "Monster Prom 2: Monster Camp",
     "low": 10.25,
-    "last": 10.25
+    "last": 41.0
   },
   "1010670": {
     "name": "Dungeon Dreams",
@@ -3543,5 +3543,450 @@
     "name": "SwapHeads!",
     "low": 22.49,
     "last": 22.49
+  },
+  "4600540": {
+    "name": "巴哈姆特:进化",
+    "low": 37.8,
+    "last": 37.8
+  },
+  "4906580": {
+    "name": "Picofender",
+    "low": 16.15,
+    "last": 16.15
+  },
+  "3278290": {
+    "name": "Feed The Pit",
+    "low": 33.6,
+    "last": 33.6
+  },
+  "4894800": {
+    "name": "NeoRunners",
+    "low": 48.45,
+    "last": 48.45
+  },
+  "3832380": {
+    "name": "Bao Bao's™ Cozy Cleaning Services",
+    "low": 58.0,
+    "last": 58.0
+  },
+  "5053240": {
+    "name": "SAMBIRD",
+    "low": 33.0,
+    "last": 33.0
+  },
+  "5372090": {
+    "name": "Heretics Amulet",
+    "low": 29.0,
+    "last": 29.0
+  },
+  "4753860": {
+    "name": "奇境扭蛋屋：英雄集结",
+    "low": 34.86,
+    "last": 34.86
+  },
+  "5328860": {
+    "name": "Stellar Forge",
+    "low": 28.0,
+    "last": 28.0
+  },
+  "5058410": {
+    "name": "Draftfall",
+    "low": 26.0,
+    "last": 26.0
+  },
+  "5245690": {
+    "name": "BRO, DON'T DROP IT!",
+    "low": 15.3,
+    "last": 15.3
+  },
+  "2285190": {
+    "name": "DreadMist",
+    "low": 42.0,
+    "last": 42.0
+  },
+  "5331760": {
+    "name": "Nighthaven Bloodlines",
+    "low": 27.26,
+    "last": 27.26
+  },
+  "5361860": {
+    "name": "OrcWay Hogacy",
+    "low": 34.05,
+    "last": 34.05
+  },
+  "3332080": {
+    "name": "GastroNomicon",
+    "low": 42.0,
+    "last": 42.0
+  },
+  "4614060": {
+    "name": "Exium: Theia",
+    "low": 33.6,
+    "last": 33.6
+  },
+  "1918520": {
+    "name": "合战忍者村物语 (Ninja Village)",
+    "low": 13.68,
+    "last": 13.68
+  },
+  "4940020": {
+    "name": "The Devil's Ledger",
+    "low": 37.8,
+    "last": 37.8
+  },
+  "5413140": {
+    "name": "N in One 街机小游戏合集：黄金矿工、坦克大战、飞机大战、小鸟穿管",
+    "low": 26.0,
+    "last": 26.0
+  },
+  "4904740": {
+    "name": "Chako",
+    "low": 17.6,
+    "last": 17.6
+  },
+  "6220": {
+    "name": "FlatOut",
+    "low": 6.2,
+    "last": 6.2
+  },
+  "5304700": {
+    "name": "Coins Must Be Made",
+    "low": 19.5,
+    "last": 19.5
+  },
+  "4881370": {
+    "name": "Rift Raiders",
+    "low": 30.59,
+    "last": 30.59
+  },
+  "4977740": {
+    "name": "10 Minutes to Make a Million",
+    "low": 16.2,
+    "last": 16.2
+  },
+  "329460": {
+    "name": "JumpJet Rex",
+    "low": 18.0,
+    "last": 18.0
+  },
+  "3689220": {
+    "name": "Cave Oasis at Shylake",
+    "low": 42.5,
+    "last": 42.5
+  },
+  "4979930": {
+    "name": "Nuts Pipeline",
+    "low": 9.03,
+    "last": 9.03
+  },
+  "4937420": {
+    "name": "Zereoton Hauntings 3",
+    "low": 2.5,
+    "last": 2.5
+  },
+  "4734320": {
+    "name": "Drone Arena",
+    "low": 19.05,
+    "last": 19.05
+  },
+  "858210": {
+    "name": "新星漂移 Nova Drift",
+    "low": 34.0,
+    "last": 34.0
+  },
+  "4206880": {
+    "name": "Ghostie Town",
+    "low": 26.4,
+    "last": 26.4
+  },
+  "5356930": {
+    "name": "Sort The Dumplings",
+    "low": 22.0,
+    "last": 22.0
+  },
+  "4344000": {
+    "name": "全面恐惧",
+    "low": 50.15,
+    "last": 50.15
+  },
+  "3863160": {
+    "name": "Breadwinner - The Loaf Life Simulator",
+    "low": 63.0,
+    "last": 63.0
+  },
+  "5388240": {
+    "name": "Outlasters",
+    "low": 11.0,
+    "last": 11.0
+  },
+  "3447280": {
+    "name": "Fantasy World Manager",
+    "low": 53.1,
+    "last": 53.1
+  },
+  "4212520": {
+    "name": "Alice In Pumpkinland",
+    "low": 22.1,
+    "last": 22.1
+  },
+  "1167820": {
+    "name": "机场安检：包过一下",
+    "low": 68.4,
+    "last": 68.4
+  },
+  "3708630": {
+    "name": "Copperfell",
+    "low": 27.0,
+    "last": 27.0
+  },
+  "5134070": {
+    "name": "Bouncy Ball Battle",
+    "low": 22.0,
+    "last": 22.0
+  },
+  "3184290": {
+    "name": "Interrogator 2",
+    "low": 29.7,
+    "last": 29.7
+  },
+  "4559890": {
+    "name": "Blockflow",
+    "low": 15.75,
+    "last": 15.75
+  },
+  "4535960": {
+    "name": "Voxie Survivor",
+    "low": 51.3,
+    "last": 51.3
+  },
+  "5148200": {
+    "name": "Ashes Of The Fallen",
+    "low": 15.0,
+    "last": 15.0
+  },
+  "5396850": {
+    "name": "Kingsreach",
+    "low": 46.8,
+    "last": 46.8
+  },
+  "5142950": {
+    "name": "一触即发：西部决斗",
+    "low": 10.0,
+    "last": 10.0
+  },
+  "5148510": {
+    "name": "Tea Party For 4",
+    "low": 10.0,
+    "last": 10.0
+  },
+  "4971900": {
+    "name": "Chess Army",
+    "low": 18.7,
+    "last": 18.7
+  },
+  "5032780": {
+    "name": "Vibe Coder Inc.",
+    "low": 17.6,
+    "last": 17.6
+  },
+  "5401640": {
+    "name": "Unbound",
+    "low": 16.15,
+    "last": 16.15
+  },
+  "4060640": {
+    "name": "Hoosegow: Prison Survival",
+    "low": 31.5,
+    "last": 31.5
+  },
+  "3849470": {
+    "name": "Winter Wraith",
+    "low": 25.2,
+    "last": 25.2
+  },
+  "3228900": {
+    "name": "The Kharzov Effect",
+    "low": 40.47,
+    "last": 40.47
+  },
+  "5035720": {
+    "name": " 开缸大吉",
+    "low": 37.8,
+    "last": 37.8
+  },
+  "5316900": {
+    "name": "TownEmpire",
+    "low": 11.25,
+    "last": 11.25
+  },
+  "5412370": {
+    "name": "Carve and Sort: Tidy Up your Pumpkin Patch!",
+    "low": 17.6,
+    "last": 17.6
+  },
+  "4385930": {
+    "name": "Satarichi: Heroes De Caelum",
+    "low": 49.0,
+    "last": 49.0
+  },
+  "648800": {
+    "name": "Raft",
+    "low": 51.59,
+    "last": 51.59
+  },
+  "3436020": {
+    "name": "Idle Clicker Tower",
+    "low": 16.2,
+    "last": 16.2
+  },
+  "3241660": {
+    "name": "R.E.P.O.",
+    "low": 22.75,
+    "last": 22.75
+  },
+  "5389150": {
+    "name": "Keyp It Up",
+    "low": 15.0,
+    "last": 15.0
+  },
+  "3066680": {
+    "name": "Solar Voltage",
+    "low": 48.0,
+    "last": 48.0
+  },
+  "5423480": {
+    "name": "Slime, Get out!",
+    "low": 13.0,
+    "last": 13.0
+  },
+  "4791170": {
+    "name": "Cats & Rhythmical Restaurant",
+    "low": 17.1,
+    "last": 17.1
+  },
+  "5365770": {
+    "name": "谎言之锁: 无监控，无线索——我的俱乐部里只有尸体",
+    "low": 28.0,
+    "last": 28.0
+  },
+  "420530": {
+    "name": "OneShot",
+    "low": 25.2,
+    "last": 25.2
+  },
+  "4918010": {
+    "name": "Sudokiller",
+    "low": 27.0,
+    "last": 27.0
+  },
+  "4835750": {
+    "name": "Susanoo: Typing Action",
+    "low": 17.6,
+    "last": 17.6
+  },
+  "4887460": {
+    "name": "Digital Romance Memoir",
+    "low": 13.2,
+    "last": 13.2
+  },
+  "5376410": {
+    "name": "Purr Box",
+    "low": 8.5,
+    "last": 8.5
+  },
+  "5030170": {
+    "name": "Super Froppings",
+    "low": 26.0,
+    "last": 26.0
+  },
+  "5117160": {
+    "name": "File Corruption",
+    "low": 9.0,
+    "last": 9.0
+  },
+  "2912430": {
+    "name": "Platypus Reclayed",
+    "low": 34.8,
+    "last": 34.8
+  },
+  "5255970": {
+    "name": "Bonefall",
+    "low": 18.7,
+    "last": 18.7
+  },
+  "5322510": {
+    "name": "PoopMan: Sewer Survivor",
+    "low": 11.0,
+    "last": 11.0
+  },
+  "5022250": {
+    "name": "Confidence Man：庞氏骗局",
+    "low": 26.1,
+    "last": 26.1
+  },
+  "4947030": {
+    "name": "RELOADED",
+    "low": 13.5,
+    "last": 13.5
+  },
+  "5097670": {
+    "name": "HorseHair",
+    "low": 29.0,
+    "last": 29.0
+  },
+  "5327990": {
+    "name": "Pro Soccer Management 27",
+    "low": 33.6,
+    "last": 33.6
+  },
+  "4416770": {
+    "name": "妖魔录",
+    "low": 13.6,
+    "last": 13.6
+  },
+  "1503580": {
+    "name": "Epic City Builder 4",
+    "low": 2.5,
+    "last": 2.5
+  },
+  "5367210": {
+    "name": "Cashgrind Simulator",
+    "low": 26.4,
+    "last": 26.4
+  },
+  "5300020": {
+    "name": "ZombieBusters: Reborn",
+    "low": 53.1,
+    "last": 53.1
+  },
+  "4996080": {
+    "name": "RESONANCE OF FATE™/END OF ETERNITY™ ENHANCED REMASTER",
+    "low": 42.0,
+    "last": 42.0
+  },
+  "5075540": {
+    "name": "In that case...",
+    "low": 22.5,
+    "last": 22.5
+  },
+  "4408100": {
+    "name": "pnoq",
+    "low": 19.0,
+    "last": 19.0
+  },
+  "4261080": {
+    "name": "远征公会",
+    "low": 28.38,
+    "last": 28.38
+  },
+  "4833810": {
+    "name": "Chromafall",
+    "low": 22.0,
+    "last": 22.0
+  },
+  "4712520": {
+    "name": "Cubounce 弹射方块",
+    "low": 12.0,
+    "last": 12.0
   }
 }
