@@ -3,7 +3,7 @@
     "updated_at_cn": "2026-10-30 15:18",
     "version": "V4 review-context discovery",
     "note": "尝鲜榜不设价格或好评率硬门槛；查看近期简中差评关键词，区别争议类型。分析是辅助证据，不代表玩家差评全部属实或无效。",
-    "last_enrichment_utc": "2026-10-30T09:17:56.488146+00:00",
+    "last_enrichment_utc": "2026-10-30T10:11:30.358126+00:00",
     "last_key_enrichment_utc": "2026-10-30T09:54:53.201995+00:00"
   },
   "counts": {
@@ -3477,7 +3477,15 @@
       "key_reference_min": null,
       "key_status": "未核实实时在售",
       "tracked_low": 33.0,
-      "region_history_low": null
+      "region_history_low": null,
+      "enrichment_status": {
+        "reviews": {
+          "status": "no_data",
+          "checked_at": "2026-10-30T10:11:30.358126+00:00",
+          "next_retry_at": "2026-11-01T10:11:30.358126+00:00",
+          "details": "negative reviews unavailable"
+        }
+      }
     },
     {
       "appid": 5005140,
@@ -3765,7 +3773,15 @@
       "key_reference_min": null,
       "key_status": "未核实实时在售",
       "tracked_low": 16.2,
-      "region_history_low": null
+      "region_history_low": null,
+      "enrichment_status": {
+        "reviews": {
+          "status": "no_data",
+          "checked_at": "2026-10-30T10:11:30.358126+00:00",
+          "next_retry_at": "2026-11-01T10:11:30.358126+00:00",
+          "details": "negative reviews unavailable"
+        }
+      }
     },
     {
       "appid": 4971900,
@@ -3820,7 +3836,15 @@
       "key_reference_min": null,
       "key_status": "未核实实时在售",
       "tracked_low": 18.7,
-      "region_history_low": null
+      "region_history_low": null,
+      "enrichment_status": {
+        "reviews": {
+          "status": "no_data",
+          "checked_at": "2026-10-30T10:11:30.358126+00:00",
+          "next_retry_at": "2026-11-01T10:11:30.358126+00:00",
+          "details": "negative reviews unavailable"
+        }
+      }
     },
     {
       "appid": 5267500,
@@ -4767,7 +4791,15 @@
       "key_reference_min": null,
       "key_status": "未核实实时在售",
       "tracked_low": 48.45,
-      "region_history_low": null
+      "region_history_low": null,
+      "enrichment_status": {
+        "reviews": {
+          "status": "no_data",
+          "checked_at": "2026-10-30T10:11:30.358126+00:00",
+          "next_retry_at": "2026-11-01T10:11:30.358126+00:00",
+          "details": "negative reviews unavailable"
+        }
+      }
     },
     {
       "appid": 3929570,
@@ -5631,6 +5663,12 @@
           "status": "no_quote",
           "checked_at": "2026-10-30T08:04:19.508362+00:00",
           "next_retry_at": "2026-10-31T08:04:19.508362+00:00"
+        },
+        "reviews": {
+          "status": "no_data",
+          "checked_at": "2026-10-30T10:11:30.358126+00:00",
+          "next_retry_at": "2026-11-01T10:11:30.358126+00:00",
+          "details": "negative reviews unavailable"
         }
       }
     },
