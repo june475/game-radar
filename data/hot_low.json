@@ -3,7 +3,7 @@
     "updated_at_cn": "2026-10-30 15:58",
     "rank_source": "Steam 商店热销特惠筛选（热度代理，不是实时销量榜）",
     "checked": 30,
-    "last_key_enrichment_utc": "2026-10-30T19:49:55.291378+00:00"
+    "last_key_enrichment_utc": "2026-10-30T20:44:30.839879+00:00"
   },
   "games": [
     {
@@ -526,8 +526,8 @@
       "enrichment_status": {
         "keys": {
           "status": "no_quote",
-          "checked_at": "2026-10-29T19:53:23.611028+00:00",
-          "next_retry_at": "2026-10-30T19:53:23.611028+00:00"
+          "checked_at": "2026-10-30T20:44:30.839879+00:00",
+          "next_retry_at": "2026-10-31T20:44:30.839879+00:00"
         }
       },
       "original_price": 196.0,
@@ -543,7 +543,9 @@
       "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
       "popularity_rank": 12,
       "review": "Steam 评价未在本榜单单独核实",
-      "negative_review_analysis": null
+      "negative_review_analysis": null,
+      "key_reference_min": null,
+      "key_status": "暂无有效散 Key 参考价"
     },
     {
       "appid": 391220,
@@ -616,8 +618,8 @@
       "enrichment_status": {
         "keys": {
           "status": "no_quote",
-          "checked_at": "2026-10-29T19:53:23.611028+00:00",
-          "next_retry_at": "2026-10-30T19:53:23.611028+00:00"
+          "checked_at": "2026-10-30T20:44:30.839879+00:00",
+          "next_retry_at": "2026-10-31T20:44:30.839879+00:00"
         }
       },
       "original_price": 348.0,
@@ -633,7 +635,9 @@
       "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
       "popularity_rank": 14,
       "review": "Steam 评价未在本榜单单独核实",
-      "negative_review_analysis": null
+      "negative_review_analysis": null,
+      "key_reference_min": null,
+      "key_status": "暂无有效散 Key 参考价"
     },
     {
       "appid": 2399830,
@@ -747,14 +751,24 @@
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=9000960686965904171008",
           "kind": "reference",
           "subid": 1345940,
-          "checked_at": "2026-10-27T20:41:13.438749+00:00"
+          "checked_at": "2026-10-30T20:44:30.839879+00:00"
+        },
+        {
+          "platform": "SteamCiCi",
+          "price": 8.5,
+          "status": "历史挂售最低参考价｜非实时库存",
+          "last_hanging_time": "2026-10-30T00:23:30.000+08:00",
+          "url": "https://steamcici.com/index",
+          "kind": "historical_listing",
+          "subid": "1345940",
+          "checked_at": "2026-10-30T20:44:30.839879+00:00"
         }
       ],
       "enrichment_status": {
         "keys": {
           "status": "success",
-          "checked_at": "2026-10-27T20:41:13.438749+00:00",
-          "next_retry_at": "2026-10-30T20:41:13.438749+00:00"
+          "checked_at": "2026-10-30T20:44:30.839879+00:00",
+          "next_retry_at": "2026-11-02T20:44:30.839879+00:00"
         }
       },
       "original_price": 98.0,
@@ -771,7 +785,9 @@
       "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
       "popularity_rank": 17,
       "review": "Steam 评价未在本榜单单独核实",
-      "negative_review_analysis": null
+      "negative_review_analysis": null,
+      "key_reference_min": 1.09,
+      "key_status": "参考报价，不代表实时库存"
     },
     {
       "appid": 264710,
@@ -838,14 +854,14 @@
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=9000907512963811098624",
           "kind": "reference",
           "subid": 1148979,
-          "checked_at": "2026-10-27T20:41:13.438749+00:00"
+          "checked_at": "2026-10-30T20:44:30.839879+00:00"
         }
       ],
       "enrichment_status": {
         "keys": {
           "status": "success",
-          "checked_at": "2026-10-27T20:41:13.438749+00:00",
-          "next_retry_at": "2026-10-30T20:41:13.438749+00:00"
+          "checked_at": "2026-10-30T20:44:30.839879+00:00",
+          "next_retry_at": "2026-11-02T20:44:30.839879+00:00"
         }
       },
       "original_price": 35.0,
@@ -861,7 +877,9 @@
       "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
       "popularity_rank": 19,
       "review": "Steam 评价未在本榜单单独核实",
-      "negative_review_analysis": null
+      "negative_review_analysis": null,
+      "key_reference_min": 19.34,
+      "key_status": "参考报价，不代表实时库存"
     },
     {
       "appid": 346110,
@@ -882,14 +900,14 @@
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=496138616574026",
           "kind": "reference",
           "subid": 59321,
-          "checked_at": "2026-10-27T20:41:13.438749+00:00"
+          "checked_at": "2026-10-30T20:44:30.839879+00:00"
         }
       ],
       "enrichment_status": {
         "keys": {
           "status": "success",
-          "checked_at": "2026-10-27T20:41:13.438749+00:00",
-          "next_retry_at": "2026-10-30T20:41:13.438749+00:00"
+          "checked_at": "2026-10-30T20:44:30.839879+00:00",
+          "next_retry_at": "2026-11-02T20:44:30.839879+00:00"
         }
       },
       "original_price": 58.0,
@@ -908,7 +926,9 @@
       "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
       "popularity_rank": 20,
       "review": "Steam 评价未在本榜单单独核实",
-      "negative_review_analysis": null
+      "negative_review_analysis": null,
+      "key_reference_min": 30.0,
+      "key_status": "参考报价，不代表实时库存"
     },
     {
       "appid": 238320,
@@ -965,14 +985,14 @@
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=267792179819188224",
           "kind": "reference",
           "subid": 143748,
-          "checked_at": "2026-10-27T20:41:13.438749+00:00"
+          "checked_at": "2026-10-30T20:44:30.839879+00:00"
         }
       ],
       "enrichment_status": {
         "keys": {
           "status": "success",
-          "checked_at": "2026-10-27T20:41:13.438749+00:00",
-          "next_retry_at": "2026-10-30T20:41:13.438749+00:00"
+          "checked_at": "2026-10-30T20:44:30.839879+00:00",
+          "next_retry_at": "2026-11-02T20:44:30.839879+00:00"
         }
       },
       "original_price": 80.0,
@@ -988,7 +1008,9 @@
       "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
       "popularity_rank": 22,
       "review": "Steam 评价未在本榜单单独核实",
-      "negative_review_analysis": null
+      "negative_review_analysis": null,
+      "key_reference_min": 15.0,
+      "key_status": "参考报价，不代表实时库存"
     },
     {
       "appid": 242760,
