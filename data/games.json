@@ -3,7 +3,7 @@
     "updated_at_cn": "2026-10-31 15:12",
     "version": "V4 review-context discovery",
     "note": "尝鲜榜不设价格或好评率硬门槛；查看近期简中差评关键词，区别争议类型。分析是辅助证据，不代表玩家差评全部属实或无效。",
-    "last_enrichment_utc": "2026-10-31T07:20:55.070624+00:00"
+    "last_enrichment_utc": "2026-10-31T07:26:09.544498+00:00"
   },
   "counts": {
     "deal": 30,
@@ -405,6 +405,12 @@
           "checked_at": "2026-10-31T07:20:55.070624+00:00",
           "next_retry_at": "2026-11-02T07:20:55.070624+00:00",
           "details": "negative reviews unavailable"
+        },
+        "deck": {
+          "status": "unverified",
+          "checked_at": "2026-10-31T07:26:09.544498+00:00",
+          "next_retry_at": "2026-11-01T07:26:09.544498+00:00",
+          "details": "official grade unavailable"
         }
       }
     },
@@ -2995,6 +3001,12 @@
           "checked_at": "2026-10-31T07:20:55.070624+00:00",
           "next_retry_at": "2026-11-02T07:20:55.070624+00:00",
           "details": "negative reviews unavailable"
+        },
+        "deck": {
+          "status": "unverified",
+          "checked_at": "2026-10-31T07:26:09.544498+00:00",
+          "next_retry_at": "2026-11-01T07:26:09.544498+00:00",
+          "details": "official grade unavailable"
         }
       }
     },
@@ -3255,6 +3267,12 @@
           "checked_at": "2026-10-31T07:20:55.070624+00:00",
           "next_retry_at": "2026-11-02T07:20:55.070624+00:00",
           "details": "negative reviews unavailable"
+        },
+        "deck": {
+          "status": "unverified",
+          "checked_at": "2026-10-31T07:26:09.544498+00:00",
+          "next_retry_at": "2026-11-01T07:26:09.544498+00:00",
+          "details": "official grade unavailable"
         }
       }
     },
@@ -6073,6 +6091,12 @@
           "checked_at": "2026-10-31T07:20:55.070624+00:00",
           "next_retry_at": "2026-11-02T07:20:55.070624+00:00",
           "details": "negative reviews unavailable"
+        },
+        "deck": {
+          "status": "unverified",
+          "checked_at": "2026-10-31T07:26:09.544498+00:00",
+          "next_retry_at": "2026-11-01T07:26:09.544498+00:00",
+          "details": "official grade unavailable"
         }
       }
     },
@@ -6321,6 +6345,12 @@
           "checked_at": "2026-10-31T07:20:55.070624+00:00",
           "next_retry_at": "2026-11-02T07:20:55.070624+00:00",
           "details": "negative reviews unavailable"
+        },
+        "deck": {
+          "status": "unverified",
+          "checked_at": "2026-10-31T07:26:09.544498+00:00",
+          "next_retry_at": "2026-11-01T07:26:09.544498+00:00",
+          "details": "official grade unavailable"
         }
       }
     }
