@@ -3487,7 +3487,7 @@
   "453090": {
     "name": "Parkitect",
     "low": 43.2,
-    "last": 43.2
+    "last": 108.0
   },
   "5431110": {
     "name": "The Florida Trail",
@@ -3988,5 +3988,470 @@
     "name": "Cubounce 弹射方块",
     "low": 12.0,
     "last": 12.0
+  },
+  "4842380": {
+    "name": "Boarding House: Night Shift",
+    "low": 26.1,
+    "last": 26.1
+  },
+  "1669980": {
+    "name": "火山的女儿",
+    "low": 22.75,
+    "last": 22.75
+  },
+  "5234110": {
+    "name": "AXE DESCENT",
+    "low": 16.2,
+    "last": 16.2
+  },
+  "4110670": {
+    "name": "Veinrider",
+    "low": 20.8,
+    "last": 20.8
+  },
+  "1586800": {
+    "name": "Lil Gator Game",
+    "low": 38.0,
+    "last": 38.0
+  },
+  "5137980": {
+    "name": "古玩掌柜",
+    "low": 29.99,
+    "last": 29.99
+  },
+  "5335910": {
+    "name": "满桌都是牌",
+    "low": 19.8,
+    "last": 19.8
+  },
+  "5396710": {
+    "name": "Cinderdelve",
+    "low": 11.44,
+    "last": 11.44
+  },
+  "5290530": {
+    "name": "Vitamin Prism",
+    "low": 15.0,
+    "last": 15.0
+  },
+  "4146480": {
+    "name": "Cardborne",
+    "low": 17.6,
+    "last": 17.6
+  },
+  "5412290": {
+    "name": "Emberspark",
+    "low": 38.94,
+    "last": 38.94
+  },
+  "3444020": {
+    "name": "我在地府打麻将 - Demonic Mahjong",
+    "low": 43.5,
+    "last": 43.5
+  },
+  "5245850": {
+    "name": "Triptych: Card Roguelike",
+    "low": 22.0,
+    "last": 22.0
+  },
+  "5226290": {
+    "name": "Zenden",
+    "low": 26.0,
+    "last": 26.0
+  },
+  "2915460": {
+    "name": "OneShot: World Machine Edition",
+    "low": 33.6,
+    "last": 33.6
+  },
+  "3133060": {
+    "name": "矮人防线",
+    "low": 14.7,
+    "last": 14.7
+  },
+  "4764460": {
+    "name": "Dungeon Monster Master",
+    "low": 39.0,
+    "last": 39.0
+  },
+  "5304530": {
+    "name": "AUTOMATE DEATH",
+    "low": 19.53,
+    "last": 19.53
+  },
+  "5380200": {
+    "name": "Fluffrowd",
+    "low": 26.4,
+    "last": 26.4
+  },
+  "4814040": {
+    "name": "Gothic Kitty Cat Idler",
+    "low": 17.6,
+    "last": 17.6
+  },
+  "5081970": {
+    "name": "Rail Spirits",
+    "low": 8.25,
+    "last": 8.25
+  },
+  "2256450": {
+    "name": "夺魄机兵",
+    "low": 23.2,
+    "last": 23.2
+  },
+  "4065440": {
+    "name": "UNDERDEEP / 深层迷宫",
+    "low": 27.3,
+    "last": 27.3
+  },
+  "4846630": {
+    "name": "赛博霓虹：核心协议",
+    "low": 15.2,
+    "last": 15.2
+  },
+  "5444510": {
+    "name": "Ancient Warrior",
+    "low": 9.0,
+    "last": 9.0
+  },
+  "4851490": {
+    "name": "MirrorBullet",
+    "low": 59.0,
+    "last": 59.0
+  },
+  "4857320": {
+    "name": "Catch Me",
+    "low": 18.0,
+    "last": 18.0
+  },
+  "4880430": {
+    "name": "GOOB8",
+    "low": 11.25,
+    "last": 11.25
+  },
+  "2300290": {
+    "name": "Tongo",
+    "low": 27.0,
+    "last": 27.0
+  },
+  "5326350": {
+    "name": "戦う情報システム部",
+    "low": 15.3,
+    "last": 15.3
+  },
+  "5406170": {
+    "name": "HUNTED",
+    "low": 36.0,
+    "last": 36.0
+  },
+  "1879270": {
+    "name": "Into the Crypt",
+    "low": 59.5,
+    "last": 59.5
+  },
+  "5157900": {
+    "name": "诗情画意",
+    "low": 99.99,
+    "last": 99.99
+  },
+  "5086830": {
+    "name": "BACK TOGETHER",
+    "low": 22.0,
+    "last": 22.0
+  },
+  "2948130": {
+    "name": "Life of a Thug",
+    "low": 26.0,
+    "last": 26.0
+  },
+  "5359260": {
+    "name": "Zero Colour",
+    "low": 17.1,
+    "last": 17.1
+  },
+  "3131740": {
+    "name": "God's Favourite Monster",
+    "low": 11.0,
+    "last": 11.0
+  },
+  "4024120": {
+    "name": "颂声·市井小神仙",
+    "low": 38.4,
+    "last": 38.4
+  },
+  "3613550": {
+    "name": "Checkmage!",
+    "low": 65.45,
+    "last": 65.45
+  },
+  "5193200": {
+    "name": "Apartment 520",
+    "low": 11.25,
+    "last": 11.25
+  },
+  "4950660": {
+    "name": "Eris One Stand",
+    "low": 32.4,
+    "last": 32.4
+  },
+  "4999100": {
+    "name": "Eucalyptus Edge: MegaBlast Mayhem",
+    "low": 33.6,
+    "last": 33.6
+  },
+  "4716880": {
+    "name": "Balingo",
+    "low": 37.8,
+    "last": 37.8
+  },
+  "4760700": {
+    "name": "Chronicles Of The Sinner",
+    "low": 22.0,
+    "last": 22.0
+  },
+  "5372870": {
+    "name": "Zero League",
+    "low": 18.22,
+    "last": 18.22
+  },
+  "5375140": {
+    "name": "CLOCKHEART The Dead Hour",
+    "low": 12.75,
+    "last": 12.75
+  },
+  "4345950": {
+    "name": "VOIDCAST",
+    "low": 12.75,
+    "last": 12.75
+  },
+  "5302180": {
+    "name": "Everything Must Go!",
+    "low": 13.5,
+    "last": 13.5
+  },
+  "1162960": {
+    "name": "Angry Video Game Nerd I & II Deluxe",
+    "low": 28.8,
+    "last": 28.8
+  },
+  "1591870": {
+    "name": "Drift Phonk 666",
+    "low": 3.0,
+    "last": 3.0
+  },
+  "4422970": {
+    "name": "Morse Depths: WWII",
+    "low": 16.15,
+    "last": 16.15
+  },
+  "4678060": {
+    "name": "Silly Typing Game",
+    "low": 29.7,
+    "last": 29.7
+  },
+  "5163110": {
+    "name": "Magic Puzzle: Dark Secrets",
+    "low": 25.2,
+    "last": 25.2
+  },
+  "5294670": {
+    "name": "Murciavania",
+    "low": 22.0,
+    "last": 22.0
+  },
+  "5402860": {
+    "name": "勇者喵傳說",
+    "low": 15.0,
+    "last": 15.0
+  },
+  "972450": {
+    "name": "The Zibbo Show",
+    "low": 83.0,
+    "last": 83.0
+  },
+  "4289490": {
+    "name": "NoWay",
+    "low": 17.6,
+    "last": 17.6
+  },
+  "4972030": {
+    "name": "Initials: END",
+    "low": 10.4,
+    "last": 10.4
+  },
+  "4382910": {
+    "name": "WordCrack",
+    "low": 26.0,
+    "last": 26.0
+  },
+  "4841200": {
+    "name": "Nuns With Guns",
+    "low": 11.7,
+    "last": 11.7
+  },
+  "5333350": {
+    "name": "Moonbound",
+    "low": 35.0,
+    "last": 35.0
+  },
+  "3231570": {
+    "name": "Bombseeker",
+    "low": 18.0,
+    "last": 18.0
+  },
+  "4064420": {
+    "name": "Winnie-the-Pooh Redux: Halloween Survivors",
+    "low": 23.2,
+    "last": 23.2
+  },
+  "4987250": {
+    "name": "Hardground",
+    "low": 50.15,
+    "last": 50.15
+  },
+  "4685030": {
+    "name": "Zudon",
+    "low": 18.0,
+    "last": 18.0
+  },
+  "5394990": {
+    "name": "Wallbreaker",
+    "low": 23.4,
+    "last": 23.4
+  },
+  "3676190": {
+    "name": "暗黑符文：禁忌之源",
+    "low": 33.6,
+    "last": 33.6
+  },
+  "5359010": {
+    "name": "Halloween Fair: Tidy Up Together",
+    "low": 17.6,
+    "last": 17.6
+  },
+  "4360290": {
+    "name": "天降灾异：幸存者",
+    "low": 25.5,
+    "last": 25.5
+  },
+  "955010": {
+    "name": "ARCHWIZARD",
+    "low": 19.8,
+    "last": 19.8
+  },
+  "5359300": {
+    "name": "Critters Vs. Predators",
+    "low": 33.6,
+    "last": 33.6
+  },
+  "4988300": {
+    "name": "Tatomic",
+    "low": 22.0,
+    "last": 22.0
+  },
+  "4148750": {
+    "name": "Dynamite Dashers",
+    "low": 22.5,
+    "last": 22.5
+  },
+  "3091340": {
+    "name": "金属雷霆 (Metal Thunder)",
+    "low": 16.0,
+    "last": 16.0
+  },
+  "5013620": {
+    "name": "感染黎明2",
+    "low": 17.6,
+    "last": 17.6
+  },
+  "4980350": {
+    "name": "Everdeep Idle",
+    "low": 19.8,
+    "last": 19.8
+  },
+  "3052820": {
+    "name": "暗黑ノ血 -ReVerse-",
+    "low": 33.6,
+    "last": 33.6
+  },
+  "1239690": {
+    "name": "Retrowave",
+    "low": 10.5,
+    "last": 10.5
+  },
+  "5404630": {
+    "name": "忌質物管理局　第七保管室",
+    "low": 15.3,
+    "last": 15.3
+  },
+  "3919400": {
+    "name": "黄莓C HuangmeiC",
+    "low": 28.8,
+    "last": 28.8
+  },
+  "4603280": {
+    "name": "Triad of Victory",
+    "low": 9.0,
+    "last": 9.0
+  },
+  "5520400": {
+    "name": "言葉遠征 - JLPT-地狱之旅",
+    "low": 25.2,
+    "last": 25.2
+  },
+  "5202640": {
+    "name": "旋转堆叠",
+    "low": 15.0,
+    "last": 15.0
+  },
+  "477160": {
+    "name": "人类一败涂地 / Human Fall Flat",
+    "low": 17.4,
+    "last": 17.4
+  },
+  "5420850": {
+    "name": "SO-3: Caso 044",
+    "low": 31.5,
+    "last": 31.5
+  },
+  "4408520": {
+    "name": "Orbital Peril",
+    "low": 17.1,
+    "last": 17.1
+  },
+  "4088940": {
+    "name": "The Dark Forest Calls",
+    "low": 39.0,
+    "last": 39.0
+  },
+  "5396420": {
+    "name": "NAME ME IF YOU CAN",
+    "low": 16.5,
+    "last": 16.5
+  },
+  "3854560": {
+    "name": "Tronix Carnival Games",
+    "low": 40.6,
+    "last": 40.6
+  },
+  "5297390": {
+    "name": "Prey Island",
+    "low": 15.3,
+    "last": 15.3
+  },
+  "4932970": {
+    "name": "FACTORIZE: 1",
+    "low": 26.0,
+    "last": 26.0
+  },
+  "5154220": {
+    "name": "Logical Cat Logistics",
+    "low": 12.0,
+    "last": 12.0
+  },
+  "1964510": {
+    "name": "老铁号",
+    "low": 17.6,
+    "last": 17.6
   }
 }
