@@ -4,7 +4,7 @@
     "version": "V4 review-context discovery",
     "note": "尝鲜榜不设价格或好评率硬门槛；查看近期简中差评关键词，区别争议类型。分析是辅助证据，不代表玩家差评全部属实或无效。",
     "last_enrichment_utc": "2026-10-31T17:03:40.293883+00:00",
-    "last_key_enrichment_utc": "2026-10-31T16:40:43.351681+00:00"
+    "last_key_enrichment_utc": "2026-10-31T17:37:37.199694+00:00"
   },
   "counts": {
     "deal": 30,
@@ -4274,15 +4274,15 @@
       "steam_historical_low_source": null,
       "steam_deck": null,
       "key_offers": [],
-      "key_status": "未核实实时在售",
+      "key_status": "暂无有效散 Key 参考价",
       "key_reference_min": null,
       "tracked_low": 26.25,
       "region_history_low": null,
       "enrichment_status": {
         "keys": {
           "status": "no_quote",
-          "checked_at": "2026-10-30T16:51:20.637061+00:00",
-          "next_retry_at": "2026-10-31T16:51:20.637061+00:00"
+          "checked_at": "2026-10-31T17:37:37.199694+00:00",
+          "next_retry_at": "2026-11-01T17:37:37.199694+00:00"
         },
         "reviews": {
           "status": "no_data",
@@ -4523,8 +4523,8 @@
       "enrichment_status": {
         "keys": {
           "status": "no_quote",
-          "checked_at": "2026-10-30T16:51:20.637061+00:00",
-          "next_retry_at": "2026-10-31T16:51:20.637061+00:00"
+          "checked_at": "2026-10-31T17:37:37.199694+00:00",
+          "next_retry_at": "2026-11-01T17:37:37.199694+00:00"
         },
         "reviews": {
           "status": "no_data",
@@ -4539,7 +4539,7 @@
           "details": "official grade unavailable"
         }
       },
-      "key_status": "未核实实时在售",
+      "key_status": "暂无有效散 Key 参考价",
       "key_reference_min": null,
       "tracked_low": 10.4,
       "region_history_low": null
@@ -4600,8 +4600,8 @@
       "enrichment_status": {
         "keys": {
           "status": "no_quote",
-          "checked_at": "2026-10-30T16:51:20.637061+00:00",
-          "next_retry_at": "2026-10-31T16:51:20.637061+00:00"
+          "checked_at": "2026-10-31T17:37:37.199694+00:00",
+          "next_retry_at": "2026-11-01T17:37:37.199694+00:00"
         },
         "reviews": {
           "status": "no_data",
@@ -4616,7 +4616,7 @@
           "details": "official grade unavailable"
         }
       },
-      "key_status": "未核实实时在售",
+      "key_status": "暂无有效散 Key 参考价",
       "key_reference_min": null,
       "tracked_low": 12.99,
       "region_history_low": null
@@ -4761,8 +4761,8 @@
       "enrichment_status": {
         "keys": {
           "status": "no_quote",
-          "checked_at": "2026-10-30T16:51:20.637061+00:00",
-          "next_retry_at": "2026-10-31T16:51:20.637061+00:00"
+          "checked_at": "2026-10-31T17:37:37.199694+00:00",
+          "next_retry_at": "2026-11-01T17:37:37.199694+00:00"
         },
         "reviews": {
           "status": "no_data",
@@ -4783,7 +4783,7 @@
           "details": "no verified CNY historical record"
         }
       },
-      "key_status": "未核实实时在售",
+      "key_status": "暂无有效散 Key 参考价",
       "key_reference_min": null,
       "tracked_low": 17.6,
       "region_history_low": null
@@ -6506,7 +6506,15 @@
       },
       "key_offers": [],
       "key_reference_min": null,
-      "tracked_low": 6.6
+      "tracked_low": 6.6,
+      "key_status": "暂无有效散 Key 参考价",
+      "enrichment_status": {
+        "keys": {
+          "status": "no_quote",
+          "checked_at": "2026-10-31T17:37:37.199694+00:00",
+          "next_retry_at": "2026-11-01T17:37:37.199694+00:00"
+        }
+      }
     },
     {
       "appid": 2990,
