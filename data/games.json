@@ -3,7 +3,8 @@
     "updated_at_cn": "2026-11-01 15:19",
     "version": "V4 review-context discovery",
     "note": "尝鲜榜不设价格或好评率硬门槛；查看近期简中差评关键词，区别争议类型。分析是辅助证据，不代表玩家差评全部属实或无效。",
-    "last_enrichment_utc": "2026-11-01T07:30:12.815705+00:00"
+    "last_enrichment_utc": "2026-11-01T07:30:12.815705+00:00",
+    "last_key_enrichment_utc": "2026-11-01T08:00:04.053651+00:00"
   },
   "counts": {
     "deal": 30,
@@ -5638,9 +5639,16 @@
       },
       "key_offers": [],
       "key_reference_min": null,
-      "key_status": "未核实实时在售",
+      "key_status": "暂无有效散 Key 参考价",
       "tracked_low": 2.5,
-      "region_history_low": null
+      "region_history_low": null,
+      "enrichment_status": {
+        "keys": {
+          "status": "no_quote",
+          "checked_at": "2026-11-01T08:00:04.053651+00:00",
+          "next_retry_at": "2026-11-02T08:00:04.053651+00:00"
+        }
+      }
     },
     {
       "appid": 1180690,
@@ -5701,9 +5709,16 @@
       },
       "key_offers": [],
       "key_reference_min": null,
-      "key_status": "未核实实时在售",
+      "key_status": "暂无有效散 Key 参考价",
       "tracked_low": 2.5,
-      "region_history_low": null
+      "region_history_low": null,
+      "enrichment_status": {
+        "keys": {
+          "status": "no_quote",
+          "checked_at": "2026-11-01T08:00:04.053651+00:00",
+          "next_retry_at": "2026-11-02T08:00:04.053651+00:00"
+        }
+      }
     },
     {
       "appid": 4937420,
@@ -5764,9 +5779,16 @@
       },
       "key_offers": [],
       "key_reference_min": null,
-      "key_status": "未核实实时在售",
+      "key_status": "暂无有效散 Key 参考价",
       "tracked_low": 2.5,
-      "region_history_low": null
+      "region_history_low": null,
+      "enrichment_status": {
+        "keys": {
+          "status": "no_quote",
+          "checked_at": "2026-11-01T08:00:04.053651+00:00",
+          "next_retry_at": "2026-11-02T08:00:04.053651+00:00"
+        }
+      }
     },
     {
       "appid": 485610,
@@ -6019,9 +6041,16 @@
       },
       "key_offers": [],
       "key_reference_min": null,
-      "key_status": "未核实实时在售",
+      "key_status": "暂无有效散 Key 参考价",
       "tracked_low": 3.0,
-      "region_history_low": null
+      "region_history_low": null,
+      "enrichment_status": {
+        "keys": {
+          "status": "no_quote",
+          "checked_at": "2026-11-01T08:00:04.053651+00:00",
+          "next_retry_at": "2026-11-02T08:00:04.053651+00:00"
+        }
+      }
     },
     {
       "appid": 4088000,
@@ -6087,7 +6116,15 @@
       },
       "key_offers": [],
       "key_reference_min": null,
-      "tracked_low": 3.6
+      "tracked_low": 3.6,
+      "key_status": "暂无有效散 Key 参考价",
+      "enrichment_status": {
+        "keys": {
+          "status": "no_quote",
+          "checked_at": "2026-11-01T08:00:04.053651+00:00",
+          "next_retry_at": "2026-11-02T08:00:04.053651+00:00"
+        }
+      }
     },
     {
       "appid": 1271690,
@@ -6219,17 +6256,33 @@
         "confidence": "限流或预算不足",
         "note": "未获取新差评"
       },
-      "key_offers": [],
+      "key_offers": [
+        {
+          "platform": "SteamPY",
+          "price": 2.9,
+          "status": "CDKey接口参考价｜库存、地区及版本需打开商品页确认",
+          "url": "https://steampy.com/cdkDetail?name=cn&gameId=369354566837211136",
+          "kind": "reference",
+          "subid": 358794,
+          "checked_at": "2026-11-01T08:00:04.053651+00:00"
+        }
+      ],
       "enrichment_status": {
         "reviews": {
           "status": "no_data",
           "checked_at": "2026-10-31T09:58:32.044403+00:00",
           "next_retry_at": "2026-11-02T09:58:32.044403+00:00",
           "details": "negative reviews unavailable"
+        },
+        "keys": {
+          "status": "success",
+          "checked_at": "2026-11-01T08:00:04.053651+00:00",
+          "next_retry_at": "2026-11-04T08:00:04.053651+00:00"
         }
       },
-      "key_reference_min": null,
-      "tracked_low": 5.5
+      "key_reference_min": 2.9,
+      "tracked_low": 5.5,
+      "key_status": "参考报价，不代表实时库存"
     },
     {
       "appid": 6220,
