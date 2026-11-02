@@ -22,13 +22,14 @@ def request_json(url,timeout=12):
     with urllib.request.urlopen(req,timeout=timeout) as r:
         return json.loads(r.read(1200000).decode("utf-8"))
 
-def popular_deals(pages=3):
+def popular_deals(pages=3,discounted=True):
     """Steam best-selling specials ordering; independent of preferences."""
     found=[];seen=set()
     for page in range(pages):
         args={"query":"","start":page*50,"count":50,"infinite":1,
-              "cc":"cn","l":"schinese","specials":1,
-              "hidef2p":1,"ignore_preferences":1,"filter":"topsellers","category1":998}
+              "cc":"cn","l":"schinese",
+              "ignore_preferences":1,"filter":"topsellers","category1":998}
+        if discounted: args.update(specials=1,hidef2p=1)
         url="https://store.steampowered.com/search/results/?"+urllib.parse.urlencode(args)
         try:
             response=request_json(url)
@@ -51,12 +52,12 @@ def load(path,default):
     try:return json.loads(path.read_text("utf-8"))
     except (ValueError,OSError):return default
 
-def collect(max_checked=100):
+def collect(max_checked=100,unrestricted=False):
     OUTPUT.parent.mkdir(parents=True,exist_ok=True)
     now=dt.datetime.now(dt.timezone.utc)
     old=load(OUTPUT,{})
     old_by_id={g["appid"]:g for g in old.get("games",[]) if isinstance(g,dict) and isinstance(g.get("appid"),int)}
-    try: ids=popular_deals()
+    try: ids=popular_deals(discounted=False) if unrestricted else popular_deals()
     except Exception as exc:
         print("Steam specials unavailable",str(exc)[:160]);ids=[]
     if not ids:
@@ -69,25 +70,27 @@ def collect(max_checked=100):
         try:
             d=details(appid)
             checked+=1
-            if not d or d.get("is_free"):continue
+            if not d or (d.get("is_free") and not unrestricted):continue
             offer=d.get("price_overview") or {}
             final=offer.get("final")
             discount=offer.get("discount_percent") or 0
-            if not isinstance(final,int) or final<=0 or not discount:continue
-            price=round(final/100,2)
+            if not unrestricted and (not isinstance(final,int) or final<=0 or not discount):continue
+            if d.get("is_free"): final=0
+            if not isinstance(final,int): final=None
+            price=round(final/100,2) if final is not None else None
             previous=old_by_id.get(appid,{})
             ranked.append({
                 "appid":appid,"name":d.get("name") or str(appid),
                 "image":d.get("header_image"),"url":f"https://store.steampowered.com/app/{appid}/?cc=cn&l=schinese",
-                "category":"hot","price":price,
+                "category":"popular" if unrestricted else "hot","price":price,
                 "steam_subids":[int(x) for x in (d.get("packages") or []) if str(x).isdigit()][:8],
                 "key_offers":previous.get("key_offers") or [],
                 "enrichment_status":previous.get("enrichment_status") or {},
-                "original_price":round((offer.get("initial") or final)/100,2),
+                "original_price":round((offer.get("initial") or final)/100,2) if final is not None else None,
                 "discount":discount,"release_date":(d.get("release_date") or {}).get("date"),
                 "genres":[x.get("description") for x in d.get("genres",[]) if x.get("description")],
-                "tags":["Steam 热门特惠"],
-                "why":"来自 Steam 热销特惠列表，不按个人喜好筛选",
+                "tags":["Steam 热销"] if unrestricted else ["Steam 热门特惠"],
+                "why":"来自 Steam 热销榜，不限制折扣、不按个人喜好筛选" if unrestricted else "来自 Steam 热销特惠列表，不按个人喜好筛选",
                 "popularity_rank":rank,
                 "review":"Steam 评价未在本榜单单独核实",
                 "negative_review_analysis":None,
@@ -99,7 +102,7 @@ def collect(max_checked=100):
     # Do not carry over stale 'hot' results: popularity and price change daily.
     ranked.sort(key=lambda g:g["popularity_rank"])
     out={"meta":{"updated_at_cn":(now+dt.timedelta(hours=8)).strftime("%Y-%m-%d %H:%M"),
-                "rank_source":"Steam 商店热销特惠筛选（热度代理，不是实时销量榜）",
+                "rank_source":"Steam 国区热销榜（热销顺序，不代表在线人数）" if unrestricted else "Steam 商店热销特惠筛选（热度代理，不是实时销量榜）",
                 "checked":checked},"games":ranked[:30]}
     OUTPUT.write_text(json.dumps(out,ensure_ascii=False,indent=2)+"\n","utf-8")
     print("Hot low games",len(ranked),"checked",checked,"candidates",len(ids))
