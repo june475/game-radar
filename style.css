@@ -62,3 +62,20 @@ header,main,footer{position:relative;z-index:1}
 .source-links a,.steamdb-original-link{display:inline-block;color:#a9d6ff;text-decoration:underline;text-underline-offset:3px}
 .source-links a:hover,.steamdb-original-link:hover{color:#e2f4ff}
 .steamdb-original-link{margin:4px 0 12px;font-size:13px}
+
+/* Keep the main category tabs available while browsing long lists. */
+.filters{
+  position:sticky;
+  top:0;
+  z-index:20;
+  margin-top:0;
+  padding:10px 0;
+  background:rgba(11,14,20,.96);
+  backdrop-filter:blur(12px);
+  border-bottom:1px solid rgba(116,240,184,.18);
+}
+@media(max-width:800px){
+  .filters{overflow-x:auto;flex-wrap:nowrap;align-items:center;padding-inline:4px}
+  .filters button{flex:0 0 auto;white-space:nowrap}
+  .filters input{flex:0 0 180px;margin-left:0}
+}
