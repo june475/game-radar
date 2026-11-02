@@ -2482,7 +2482,7 @@
   "2337140": {
     "name": "Can't Live Without Electricity",
     "low": 17.6,
-    "last": 17.6
+    "last": 22.0
   },
   "5240790": {
     "name": "Cozy and Tidy",
@@ -2492,7 +2492,7 @@
   "1688580": {
     "name": "A YEAR OF SPRINGS",
     "low": 16.5,
-    "last": 16.5
+    "last": 22.0
   },
   "4450800": {
     "name": "Idols of Ash",
@@ -2502,7 +2502,7 @@
   "552100": {
     "name": "Brick Rigs",
     "low": 48.51,
-    "last": 48.51
+    "last": 77.0
   },
   "4854690": {
     "name": "Cat Eats Sushi",
@@ -4963,5 +4963,485 @@
     "name": "Lacey's Flash Games",
     "low": 79.05,
     "last": 79.05
+  },
+  "4512150": {
+    "name": "SICRUN",
+    "low": 15.75,
+    "last": 15.75
+  },
+  "1882500": {
+    "name": "Cattails: Wildwood Story",
+    "low": 15.2,
+    "last": 15.2
+  },
+  "2439120": {
+    "name": "DROPSOL",
+    "low": 2.5,
+    "last": 2.5
+  },
+  "4819580": {
+    "name": "Case Analyst",
+    "low": 35.7,
+    "last": 35.7
+  },
+  "5417330": {
+    "name": "Sort Sort Yokai",
+    "low": 19.8,
+    "last": 19.8
+  },
+  "5392290": {
+    "name": "Too Many Orbs!",
+    "low": 15.2,
+    "last": 15.2
+  },
+  "4937410": {
+    "name": "UKNON Jones - Fighters",
+    "low": 29.0,
+    "last": 29.0
+  },
+  "1838980": {
+    "name": "Polyion",
+    "low": 12.0,
+    "last": 12.0
+  },
+  "2607060": {
+    "name": "From Glory To Goo",
+    "low": 25.35,
+    "last": 25.35
+  },
+  "5343280": {
+    "name": "X-Ninja",
+    "low": 11.7,
+    "last": 11.7
+  },
+  "3680760": {
+    "name": "Yazuke: Destroy The Halloween",
+    "low": 17.1,
+    "last": 17.1
+  },
+  "4922230": {
+    "name": "拯救餐厅",
+    "low": 19.0,
+    "last": 19.0
+  },
+  "5431210": {
+    "name": "Boa Survival",
+    "low": 18.37,
+    "last": 18.37
+  },
+  "457210": {
+    "name": "SEUM: Speedrunners from Hell",
+    "low": 22.0,
+    "last": 22.0
+  },
+  "5311510": {
+    "name": "崩老头模拟器",
+    "low": 5.0,
+    "last": 5.0
+  },
+  "4699020": {
+    "name": "INTUS",
+    "low": 15.2,
+    "last": 15.2
+  },
+  "2389500": {
+    "name": "Skiing Frenzy",
+    "low": 2.5,
+    "last": 2.5
+  },
+  "4848220": {
+    "name": "Jolly Junction: Chapter 1",
+    "low": 13.5,
+    "last": 13.5
+  },
+  "4788350": {
+    "name": "Kanjo Telemetry",
+    "low": 42.0,
+    "last": 42.0
+  },
+  "4829760": {
+    "name": "颅骨战争：测试场",
+    "low": 18.74,
+    "last": 18.74
+  },
+  "5420170": {
+    "name": "N in One 益智小游戏合集：2048、连连看、泡泡龙、消灭星星",
+    "low": 20.8,
+    "last": 20.8
+  },
+  "5409790": {
+    "name": "Slime Splitter",
+    "low": 30.6,
+    "last": 30.6
+  },
+  "4875500": {
+    "name": "Dice in Wonderland",
+    "low": 52.0,
+    "last": 52.0
+  },
+  "4553450": {
+    "name": "Infinite Einstein Tiles3",
+    "low": 25.2,
+    "last": 25.2
+  },
+  "5186320": {
+    "name": "Riftscourge",
+    "low": 59.0,
+    "last": 59.0
+  },
+  "4984610": {
+    "name": "Hazard Crew",
+    "low": 22.5,
+    "last": 22.5
+  },
+  "4812400": {
+    "name": "Infinite Einstein Tiles Together",
+    "low": 25.2,
+    "last": 25.2
+  },
+  "2294890": {
+    "name": "Dark Tonic's Blunderbusted: Guns Out, Bluns Out",
+    "low": 13.0,
+    "last": 13.0
+  },
+  "5002040": {
+    "name": "Stellacore: Mining Odyssey",
+    "low": 20.8,
+    "last": 20.8
+  },
+  "5100550": {
+    "name": "ManiWheel",
+    "low": 17.6,
+    "last": 17.6
+  },
+  "5398190": {
+    "name": "Fish with Friends",
+    "low": 28.05,
+    "last": 28.05
+  },
+  "3514630": {
+    "name": "Roach Post",
+    "low": 39.0,
+    "last": 39.0
+  },
+  "5192020": {
+    "name": "Vestibule",
+    "low": 18.52,
+    "last": 18.52
+  },
+  "4068850": {
+    "name": "抢糖果",
+    "low": 28.05,
+    "last": 28.05
+  },
+  "2585890": {
+    "name": "Demon Tides",
+    "low": 82.8,
+    "last": 82.8
+  },
+  "5417030": {
+    "name": "大海捞金",
+    "low": 17.6,
+    "last": 17.6
+  },
+  "5381050": {
+    "name": "FIVEFOLD",
+    "low": 25.0,
+    "last": 25.0
+  },
+  "5126550": {
+    "name": "Passion",
+    "low": 42.0,
+    "last": 42.0
+  },
+  "3962980": {
+    "name": "Numeromantia",
+    "low": 42.0,
+    "last": 42.0
+  },
+  "5426580": {
+    "name": "六年级奶瓦聚会",
+    "low": 5.0,
+    "last": 5.0
+  },
+  "4656650": {
+    "name": "Last Lawn Standing",
+    "low": 17.6,
+    "last": 17.6
+  },
+  "5140550": {
+    "name": "超价",
+    "low": 22.5,
+    "last": 22.5
+  },
+  "5305980": {
+    "name": "汉字过五关",
+    "low": 15.0,
+    "last": 15.0
+  },
+  "3183540": {
+    "name": "Corrupted Worlds",
+    "low": 33.0,
+    "last": 33.0
+  },
+  "2950790": {
+    "name": "铁巢重炮",
+    "low": 44.25,
+    "last": 44.25
+  },
+  "5159930": {
+    "name": "ODD ODDS",
+    "low": 20.3,
+    "last": 20.3
+  },
+  "4962120": {
+    "name": "INSERT COIN DIE",
+    "low": 13.2,
+    "last": 13.2
+  },
+  "5110320": {
+    "name": "Monster Movie Mayhem",
+    "low": 35.0,
+    "last": 35.0
+  },
+  "5117230": {
+    "name": "单词杀 Spell Death",
+    "low": 38.25,
+    "last": 38.25
+  },
+  "4969270": {
+    "name": "Jarkeeper",
+    "low": 20.8,
+    "last": 20.8
+  },
+  "4977090": {
+    "name": "Little Lua & The Lost Six",
+    "low": 22.4,
+    "last": 22.4
+  },
+  "2157490": {
+    "name": "无名勇者见闻录",
+    "low": 52.2,
+    "last": 52.2
+  },
+  "585420": {
+    "name": "机械制造者 Trailmakers",
+    "low": 24.0,
+    "last": 24.0
+  },
+  "3726830": {
+    "name": "星际圣灵",
+    "low": 42.0,
+    "last": 42.0
+  },
+  "5399880": {
+    "name": "Librarian Together: Manga Tidy Up",
+    "low": 15.2,
+    "last": 15.2
+  },
+  "4618670": {
+    "name": "挂机放置修仙录",
+    "low": 25.6,
+    "last": 25.6
+  },
+  "4790400": {
+    "name": "Operative Division",
+    "low": 105.41,
+    "last": 105.41
+  },
+  "2538480": {
+    "name": "Collecstar",
+    "low": 2.5,
+    "last": 2.5
+  },
+  "5431610": {
+    "name": "CC: Bianca's Sigils",
+    "low": 4.5,
+    "last": 4.5
+  },
+  "5431750": {
+    "name": "MINESWEEPER ARCADE",
+    "low": 11.2,
+    "last": 11.2
+  },
+  "5116540": {
+    "name": "Turn Limit 100",
+    "low": 42.0,
+    "last": 42.0
+  },
+  "320300": {
+    "name": "Car Mechanic Simulator 2015",
+    "low": 5.32,
+    "last": 5.32
+  },
+  "602520": {
+    "name": "NEKOPARA Vol. 3",
+    "low": 16.8,
+    "last": 16.8
+  },
+  "4545030": {
+    "name": "Beyond The Mist",
+    "low": 13.2,
+    "last": 13.2
+  },
+  "1644940": {
+    "name": "Loddlenaut",
+    "low": 23.4,
+    "last": 23.4
+  },
+  "2485660": {
+    "name": "Ladderway",
+    "low": 2.5,
+    "last": 2.5
+  },
+  "5211910": {
+    "name": "Voyager III",
+    "low": 33.0,
+    "last": 33.0
+  },
+  "2505530": {
+    "name": "Ranphon",
+    "low": 2.5,
+    "last": 2.5
+  },
+  "4670040": {
+    "name": "Blackboard Ponies",
+    "low": 7.0,
+    "last": 7.0
+  },
+  "5370640": {
+    "name": "Nodes",
+    "low": 17.4,
+    "last": 17.4
+  },
+  "1696770": {
+    "name": "The Mermaid Mask",
+    "low": 61.6,
+    "last": 61.6
+  },
+  "5130990": {
+    "name": "Damage Numbers Go Brr!",
+    "low": 15.0,
+    "last": 15.0
+  },
+  "4769670": {
+    "name": "Hostile Takeover, Inc.",
+    "low": 16.5,
+    "last": 16.5
+  },
+  "5305650": {
+    "name": "Learn To Rock - Học Cách Chơi Nhạc Rock",
+    "low": 11.0,
+    "last": 11.0
+  },
+  "1858720": {
+    "name": "外星来信",
+    "low": 32.0,
+    "last": 32.0
+  },
+  "4863090": {
+    "name": "Bravemech: The Century War",
+    "low": 98.0,
+    "last": 98.0
+  },
+  "5329940": {
+    "name": "SCROLLS: Tidy up the Library of Olympus!",
+    "low": 18.0,
+    "last": 18.0
+  },
+  "2539960": {
+    "name": "Orbo's Odyssey",
+    "low": 7.7,
+    "last": 7.7
+  },
+  "5483460": {
+    "name": "Bravemech: The Century War Soundtrack",
+    "low": 58.0,
+    "last": 58.0
+  },
+  "635260": {
+    "name": "CarX漂移赛车在线",
+    "low": 14.4,
+    "last": 14.4
+  },
+  "4691490": {
+    "name": "冒险家生活",
+    "low": 36.0,
+    "last": 36.0
+  },
+  "3422710": {
+    "name": "黑暗祈愿",
+    "low": 16.0,
+    "last": 16.0
+  },
+  "4451770": {
+    "name": "手动取款机",
+    "low": 18.7,
+    "last": 18.7
+  },
+  "1927720": {
+    "name": "Monument Valley",
+    "low": 11.55,
+    "last": 11.55
+  },
+  "5270120": {
+    "name": "摔飞吸血鬼",
+    "low": 19.8,
+    "last": 19.8
+  },
+  "5388040": {
+    "name": "HexScrawl",
+    "low": 32.04,
+    "last": 32.04
+  },
+  "5354800": {
+    "name": "名画修复室",
+    "low": 19.8,
+    "last": 19.8
+  },
+  "5039650": {
+    "name": "Nightwire",
+    "low": 31.5,
+    "last": 31.5
+  },
+  "2128270": {
+    "name": "Path of Achra",
+    "low": 21.0,
+    "last": 21.0
+  },
+  "5378430": {
+    "name": "WW.Heaven",
+    "low": 4.25,
+    "last": 4.25
+  },
+  "4971300": {
+    "name": "Touhou Smash",
+    "low": 12.0,
+    "last": 12.0
+  },
+  "2458530": {
+    "name": "魔女的夜宴",
+    "low": 51.04,
+    "last": 51.04
+  },
+  "4596310": {
+    "name": "Outer Flame",
+    "low": 29.4,
+    "last": 29.4
+  },
+  "1455840": {
+    "name": "Dorfromantik",
+    "low": 30.55,
+    "last": 30.55
+  },
+  "4453280": {
+    "name": "Compacted",
+    "low": 22.4,
+    "last": 22.4
+  },
+  "5475960": {
+    "name": "Incremental Traffic",
+    "low": 24.5,
+    "last": 24.5
   }
 }
