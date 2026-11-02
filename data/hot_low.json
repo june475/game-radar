@@ -3,7 +3,7 @@
     "updated_at_cn": "2026-11-02 20:45",
     "rank_source": "Steam 商店热销特惠筛选（热度代理，不是实时销量榜）",
     "checked": 30,
-    "last_key_enrichment_utc": "2026-11-02T19:55:44.258911+00:00"
+    "last_key_enrichment_utc": "2026-11-02T20:48:23.615961+00:00"
   },
   "games": [
     {
@@ -637,14 +637,14 @@
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=9000907512963811098624",
           "kind": "reference",
           "subid": 1148979,
-          "checked_at": "2026-10-30T20:44:30.839879+00:00"
+          "checked_at": "2026-11-02T20:48:23.615961+00:00"
         }
       ],
       "enrichment_status": {
         "keys": {
           "status": "success",
-          "checked_at": "2026-10-30T20:44:30.839879+00:00",
-          "next_retry_at": "2026-11-02T20:44:30.839879+00:00"
+          "checked_at": "2026-11-02T20:48:23.615961+00:00",
+          "next_retry_at": "2026-11-05T20:48:23.615961+00:00"
         }
       },
       "original_price": 35.0,
@@ -660,7 +660,9 @@
       "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
       "popularity_rank": 14,
       "review": "Steam 评价未在本榜单单独核实",
-      "negative_review_analysis": null
+      "negative_review_analysis": null,
+      "key_reference_min": 19.34,
+      "key_status": "参考报价，不代表实时库存"
     },
     {
       "appid": 3764200,
