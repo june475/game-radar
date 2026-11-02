@@ -5,7 +5,7 @@ const RadarExtras=(()=>{
   const read=()=>{try{const x=JSON.parse(localStorage.getItem(KEY)||"{}");return x&&typeof x==="object"&&!Array.isArray(x)?x:{}}catch{return {}}};
   state.wish=read();
   const persist=()=>{try{localStorage.setItem(KEY,JSON.stringify(state.wish))}catch(e){console.warn("Wishlist storage disabled",e)}};
-  const allGames=()=>[...(DATA.games||[]),...(DATA.hotGames||[])];
+  const allGames=()=>[...(DATA.games||[]),...(DATA.hotGames||[]),...(DATA.popularGames||[])];
   const find=id=>allGames().find(g=>g.appid===Number(id));
   const minRef=g=>{
     const values=(g.key_offers||[]).filter(o=>recentQuote(o)&&o.kind!=="historical_listing"&&Number(o.price)>0 &&
