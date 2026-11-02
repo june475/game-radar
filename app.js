@@ -1,1 +1,99 @@
-APP
+let DATA={games:[],meta:{}};let filter="all";
+const fmt=n=>n==null?"—":"¥"+Number(n).toFixed(n%1?2:0);
+const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+// A quote is a dated observation, never proof of current stock.
+const recentQuote=o=>{
+  const t=Date.parse(o?.checked_at||"");
+  return Number.isFinite(t)&&t<=Date.now()+300000&&Date.now()-t<=72*3600000;
+};
+const quoteAge=o=>{
+  const hours=Math.max(0,Math.floor((Date.now()-Date.parse(o.checked_at))/3600000));
+  return hours<1?"1小时内":hours<24?hours+"小时前":Math.floor(hours/24)+"天前";
+};
+function card(g){
+const cleanOffers=(g.key_offers||[]).filter(o=>recentQuote(o)&&Number(o.price)>0&&!(o.platform==="SteamPY"&&Number(o.price)<=0.1)&&!(g.price>0&&Number(o.price)<Math.max(.5,g.price*.03)));
+const offers=cleanOffers.length?cleanOffers.map(o=>`<div class="key-offer"><div class="key-source">${esc(o.platform)} <span class="key-type">${o.kind==="historical_listing"?"历史挂售":"接口参考"}</span></div><div class="key-price">${fmt(o.price)}</div><div class="key-caution">${esc(o.kind==="historical_listing"?"非当前在售价格":"库存、激活区和版本需核实")} · ${quoteAge(o)}核实</div></div>`).join(""):`<div class="key-unavailable">${g.enrichment_status?.keys?.status==="failed"?"散 Key 查询失败，计划自动重试":g.enrichment_status?.keys?.status==="no_quote"?"已查询，未发现可靠参考报价":g.enrichment_status?.keys?.status==="unverified"?"商品版本或套装信息未核实":(g.key_offers||[]).length?"已记录报价超过72小时，待重新核实":"散 Key 尚待查询或暂无可靠报价"}</div>`;
+const genres=(g.genres||[]).filter(Boolean);
+const isHot=["hot","popular"].includes(g.category);
+const negative=g.negative_review_analysis;
+const topics=negative?.categories||[];
+const insight=`<div class="review-reasons"><div class="detail-label">差评主要原因</div><div class="review-summary">${negative?.sample_size>=3&&topics.length?topics.slice(0,3).map(x=>`<span class="review-topic">${esc(x.name)} <b>${Number(x.mentions)||0}</b>条 · ${negative.sample_size?Math.round((Number(x.mentions)||0)*100/negative.sample_size):0}%样本提及</span>`).join(""):`<span class="review-unknown">暂无足够评论样本，尚不能判断主要差评原因</span>`}</div><div class="review-caution">简中近期差评样本：${negative?.sample_size??0} 条 · ${esc(negative?.method||"关键词归类")} · 不代表全部玩家</div></div>`;
+return `<article class="card"><a href="${esc(g.url)}" target="_blank" rel="noopener noreferrer">
+<div class="cover" style="background-image:url('${esc(g.image||"")}')"></div>
+<div class="body"><div class="top"><div><div class="title">${esc(g.name)}</div>${g.name_en?`<div class="meta">${esc(g.name_en)}</div>`:""}</div><div class="score">${g.category==="explore"?(g.discovery_score??"—") :["hot","popular"].includes(g.category)?"#"+(g.popularity_rank??"—"):(g.recommend_score??"—")}</div></div>
+<div class="meta"><strong>游戏类型：</strong>${genres.length?esc(genres.join(" / ")):"未分类"}</div>
+<div class="meta">发行日期：${esc(g.release_date||"未知")}${g.coming_soon?"（尚未发售）":""} · ${esc(g.review||"Steam")}</div>
+<span class="price">${g.price===0?"免费":g.price>0?fmt(g.price):"价格待核实"}</span>${g.original_price!==g.price?`<span class="old">${fmt(g.original_price)}</span>`:""}${g.discount?`<span class="discount">-${g.discount}%</span>`:""}
+<div class="tags">${(g.tags||[]).map(t=>`<span class="tag ${t==="站内新低"?"hot":""}">${esc(t)}</span>`).join("")}</div>
+<div class="why">${esc(g.why||"")}${g.watchlisted?" · ★ 关注游戏":""}</div>${isHot?"":insight}
+<div class="meta" style="margin-top:8px">📱 手机版：${g.mobile?`Android ${esc(g.mobile.android||"待核实")} / iOS ${esc(g.mobile.ios||"待核实")}`:"未核实"} · 🎁 Epic：${esc(g.epic_status||"未核实")}</div>
+<div class="key-panel"><div class="detail-label">散 Key 价格 <span class="key-info">影响购买决策 · 报价需核实</span></div><div class="key-offers">${offers}</div></div>
+${isHot?"":`<div class="meta">Steam全历史最低：${g.steam_historical_low!=null?fmt(g.steam_historical_low):"暂不可核实"} · SteamRaw覆盖期最低：${g.region_history_low?.price!=null?fmt(g.region_history_low.price):"待核实"} · 站内最低：${fmt(g.tracked_low)} · Steam Deck：${esc(g.steam_deck||"待核实")}</div>`}
+<div class="meta">${g.category==="explore"?"尝鲜分 "+(g.discovery_score??"—")+" · 不计算个人口味":["hot","popular"].includes(g.category)?"Steam 热销特惠序位 "+(g.popularity_rank??"—")+" · 不计个人口味":"口味 "+(g.taste_score??"—")+" · 质量 "+(g.quality_score??"—")+" · 价格 "+(g.price_score??"—")}</div>
+</div></a><div class="source-links"><a href="https://steamdb.info/app/${Number(g.appid)}/" target="_blank" rel="noopener noreferrer" title="到 SteamDB 原始页面查看价格历史">SteamDB 原始价格历史 ↗</a></div>${window.RadarExtras?RadarExtras.cardActions(g):""}</article>`;
+}
+function render(){
+const q=(document.querySelector("#search")?.value||"").trim().toLowerCase();
+const all=[...(DATA.games||[]),...(DATA.hotGames||[]),...(DATA.popularGames||[])];
+const search=g=>!q||[g.name,g.name_en,...(g.genres||[])].some(v=>String(v||"").toLowerCase().includes(q));
+for(const category of ["deal","new","explore","hot","popular"]){
+const section=document.querySelector("#"+category+"-section");
+const elem=document.querySelector("#"+category+"-games");
+const items=all.filter(g=>(g.category||((g.flags||[]).includes("new")?"new":"deal"))===category).filter(search).filter(g=>filter!=="mobile"||(g.flags||[]).includes("mobile"));
+const display=window.RadarExtras?RadarExtras.select(items):items;
+const visible=filter==="all"||filter==="mobile"||filter===category;
+section.hidden=!visible;
+elem.innerHTML=display.length?display.map(card).join(""):`<div class="note">本期暂无符合条件的${category==="deal"?"老游戏折扣":category==="new"?"近期新游戏":category==="hot"?"热门特惠游戏":"尝鲜游戏"}。</div>`;
+document.querySelector("#"+category+"-count").textContent="（"+display.length+"/"+(category==="explore"?20:30)+"）";
+}
+if(window.RadarExtras)RadarExtras.renderOfflist();
+}
+
+let lastWallpaperDay="";
+function wallpaperDay(){
+  return new Intl.DateTimeFormat("en-CA",{
+    timeZone:"Asia/Shanghai",year:"numeric",month:"2-digit",day:"2-digit"
+  }).format(new Date());
+}
+function setDailyWallpaper(){
+  const day=wallpaperDay();
+  if(day===lastWallpaperDay)return;
+  const candidates=(DATA.games||[]).filter(g=>{
+    if(!g.image||!g.appid)return false;
+    try{
+      const u=new URL(g.image);
+      return u.protocol==="https:" && (u.hostname==="shared.akamai.steamstatic.com" ||
+             u.hostname.endsWith(".steamstatic.com") || u.hostname.endsWith(".steamusercontent.com"));
+    }catch{return false;}
+  }).sort((a,b)=>a.appid-b.appid);
+  if(!candidates.length)return;
+  const epoch=Math.floor(Date.parse(day+"T00:00:00+08:00")/86400000);
+  const featured=candidates[((epoch%candidates.length)+candidates.length)%candidates.length];
+  // CSS custom property preserves all page layout. No extra Steam API requests.
+  document.documentElement.style.setProperty("--daily-wallpaper",
+     'url("'+featured.image.replace(/["\\]/g,"")+'")');
+  const label=document.querySelector("#wallpaper-label");
+  if(label)label.textContent="今日背景："+(featured.name||"Steam 游戏")+" · 每日北京时间 00:00 切换";
+  lastWallpaperDay=day;
+}
+
+function boot(d){
+DATA={games:d.games||[],hotGames:DATA.hotGames||[],hotMeta:DATA.hotMeta||{},popularGames:DATA.popularGames||[],popularMeta:DATA.popularMeta||{},meta:d.meta||{}};
+document.querySelector("#updated").textContent="更新："+(DATA.meta.updated_at_cn||"—");
+RadarExtras.refreshGenres();render();RadarExtras.checkAlerts();
+  setDailyWallpaper();
+}
+document.querySelectorAll("[data-filter]").forEach(b=>b.onclick=()=>{
+document.querySelectorAll("[data-filter]").forEach(x=>x.classList.remove("active"));
+b.classList.add("active");filter=b.dataset.filter;render();
+});
+document.querySelector("#search").oninput=render;
+fetch("data/games.json?"+Date.now()).then(r=>{if(!r.ok)throw Error("data fetch failed");return r.json()}).then(boot).catch(()=>boot({meta:{updated_at_cn:"暂无数据"},games:[]}));
+
+// Already-open tabs also rotate after Beijing midnight.
+setInterval(setDailyWallpaper,60000);
+
+// Independent public Steam specials dataset: no personal taste inputs.
+fetch("data/hot_low.json?"+Date.now()).then(r=>{if(!r.ok)throw Error("hot list unavailable");return r.json()}).then(d=>{DATA.hotGames=d.games||[];DATA.hotMeta=d.meta||{};RadarExtras.refreshGenres();render();RadarExtras.checkAlerts();}).catch(()=>{DATA.hotGames=[];render();});
+
+fetch("data/popular.json?"+Date.now()).then(r=>{if(!r.ok)throw Error("popular list unavailable");return r.json()}).then(d=>{DATA.popularGames=d.games||[];DATA.popularMeta=d.meta||{};RadarExtras.refreshGenres();render();}).catch(()=>{DATA.popularGames=[];render();});
