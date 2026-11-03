@@ -3,7 +3,7 @@
     "updated_at_cn": "2026-11-03 15:31",
     "version": "V4 review-context discovery",
     "note": "尝鲜榜不设价格或好评率硬门槛；查看近期简中差评关键词，区别争议类型。分析是辅助证据，不代表玩家差评全部属实或无效。",
-    "last_enrichment_utc": "2026-11-03T09:17:44.028436+00:00",
+    "last_enrichment_utc": "2026-11-03T10:16:09.488010+00:00",
     "last_key_enrichment_utc": "2026-11-03T09:57:51.105446+00:00"
   },
   "counts": {
@@ -402,8 +402,8 @@
         },
         "reviews": {
           "status": "no_data",
-          "checked_at": "2026-11-01T04:14:46.762534+00:00",
-          "next_retry_at": "2026-11-03T04:14:46.762534+00:00",
+          "checked_at": "2026-11-03T10:16:09.488010+00:00",
+          "next_retry_at": "2026-11-05T10:16:09.488010+00:00",
           "details": "negative reviews unavailable"
         },
         "deck": {
@@ -2853,8 +2853,8 @@
         },
         "reviews": {
           "status": "no_data",
-          "checked_at": "2026-11-01T10:02:33.219967+00:00",
-          "next_retry_at": "2026-11-03T10:02:33.219967+00:00",
+          "checked_at": "2026-11-03T10:16:09.488010+00:00",
+          "next_retry_at": "2026-11-05T10:16:09.488010+00:00",
           "details": "negative reviews unavailable"
         },
         "keys": {
@@ -5082,7 +5082,15 @@
       "key_reference_min": null,
       "key_status": "未核实实时在售",
       "tracked_low": 15.2,
-      "region_history_low": null
+      "region_history_low": null,
+      "enrichment_status": {
+        "reviews": {
+          "status": "no_data",
+          "checked_at": "2026-11-03T10:16:09.488010+00:00",
+          "next_retry_at": "2026-11-05T10:16:09.488010+00:00",
+          "details": "negative reviews unavailable"
+        }
+      }
     },
     {
       "appid": 4977740,
@@ -5540,7 +5548,15 @@
       "steam_deck": null,
       "key_offers": [],
       "key_reference_min": null,
-      "tracked_low": 22.5
+      "tracked_low": 22.5,
+      "enrichment_status": {
+        "reviews": {
+          "status": "no_data",
+          "checked_at": "2026-11-03T10:16:09.488010+00:00",
+          "next_retry_at": "2026-11-05T10:16:09.488010+00:00",
+          "details": "negative reviews unavailable"
+        }
+      }
     },
     {
       "appid": 5187440,
@@ -6381,6 +6397,12 @@
           "status": "no_quote",
           "checked_at": "2026-11-03T09:57:51.105446+00:00",
           "next_retry_at": "2026-11-04T09:57:51.105446+00:00"
+        },
+        "reviews": {
+          "status": "no_data",
+          "checked_at": "2026-11-03T10:16:09.488010+00:00",
+          "next_retry_at": "2026-11-05T10:16:09.488010+00:00",
+          "details": "negative reviews unavailable"
         }
       }
     },
