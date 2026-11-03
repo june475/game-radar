@@ -4,7 +4,7 @@
     "version": "V4 review-context discovery",
     "note": "尝鲜榜不设价格或好评率硬门槛；查看近期简中差评关键词，区别争议类型。分析是辅助证据，不代表玩家差评全部属实或无效。",
     "last_enrichment_utc": "2026-11-03T13:36:09.893889+00:00",
-    "last_key_enrichment_utc": "2026-11-03T14:17:48.914402+00:00"
+    "last_key_enrichment_utc": "2026-11-03T15:55:37.272995+00:00"
   },
   "counts": {
     "deal": 30,
@@ -2428,14 +2428,14 @@
           "url": "https://steamcici.com/index",
           "kind": "historical_listing",
           "subid": "908317",
-          "checked_at": "2026-11-01T07:18:53.238887+00:00"
+          "checked_at": "2026-11-03T15:55:37.272995+00:00"
         }
       ],
       "enrichment_status": {
         "keys": {
           "status": "success",
-          "checked_at": "2026-10-31T14:40:06.263641+00:00",
-          "next_retry_at": "2026-11-03T14:40:06.263641+00:00"
+          "checked_at": "2026-11-03T15:55:37.272995+00:00",
+          "next_retry_at": "2026-11-06T15:55:37.272995+00:00"
         },
         "reviews": {
           "status": "no_data",
@@ -2456,7 +2456,7 @@
           "details": "no verified CNY historical record"
         }
       },
-      "key_status": "未核实实时在售",
+      "key_status": "参考报价，不代表实时库存",
       "key_reference_min": 33.0,
       "tracked_low": 41.6,
       "region_history_low": null
@@ -2919,18 +2919,7 @@
       "steam_historical_low": null,
       "steam_historical_low_source": null,
       "steam_deck": null,
-      "key_offers": [
-        {
-          "platform": "SteamCiCi",
-          "price": 1.9,
-          "status": "历史挂售最低参考价｜非实时库存",
-          "last_hanging_time": "2026-10-31T19:35:49.000+08:00",
-          "url": "https://steamcici.com/index",
-          "kind": "historical_listing",
-          "subid": "460467",
-          "checked_at": "2026-10-31T15:39:14.740900+00:00"
-        }
-      ],
+      "key_offers": [],
       "dlc_count": 2,
       "dlc_appids": [
         1625400,
@@ -2938,9 +2927,9 @@
       ],
       "enrichment_status": {
         "keys": {
-          "status": "success",
-          "checked_at": "2026-10-31T15:39:14.740900+00:00",
-          "next_retry_at": "2026-11-03T15:39:14.740900+00:00"
+          "status": "no_quote",
+          "checked_at": "2026-11-03T15:55:37.272995+00:00",
+          "next_retry_at": "2026-11-04T15:55:37.272995+00:00"
         },
         "reviews": {
           "status": "no_data",
@@ -2979,8 +2968,8 @@
           "details": "2 DLC IDs"
         }
       },
-      "key_status": "未核实实时在售",
-      "key_reference_min": 1.9,
+      "key_status": "暂无有效散 Key 参考价",
+      "key_reference_min": null,
       "tracked_low": 3.5,
       "region_history_low": null
     },
