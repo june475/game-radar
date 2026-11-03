@@ -1567,7 +1567,7 @@
   "2144590": {
     "name": "Take me, Vitaly",
     "low": 9.0,
-    "last": 9.0
+    "last": 20.0
   },
   "3373660": {
     "name": "Look Outside",
@@ -1752,12 +1752,12 @@
   "2800850": {
     "name": "Project Legion",
     "low": 2.5,
-    "last": 2.5
+    "last": 5.0
   },
   "1321120": {
     "name": "末路调色板",
     "low": 17.55,
-    "last": 17.55
+    "last": 39.0
   },
   "247080": {
     "name": "Crypt of the NecroDancer",
@@ -1827,7 +1827,7 @@
   "1282200": {
     "name": "The Test: Hypothesis Rising",
     "low": 6.6,
-    "last": 6.6
+    "last": 11.0
   },
   "316610": {
     "name": "A Good Snowman Is Hard To Build",
@@ -2432,7 +2432,7 @@
   "4361900": {
     "name": "City Painter",
     "low": 33.6,
-    "last": 33.6
+    "last": 42.0
   },
   "4575870": {
     "name": "Spheroll",
@@ -2452,7 +2452,7 @@
   "4088000": {
     "name": "MEMOLOGY: Absurd racing",
     "low": 3.6,
-    "last": 3.6
+    "last": 6.0
   },
   "5398150": {
     "name": "Battle SHIRYU",
@@ -2517,7 +2517,7 @@
   "2194530": {
     "name": "犹格索托斯的庭院",
     "low": 24.5,
-    "last": 24.5
+    "last": 35.0
   },
   "2910460": {
     "name": "毛绒天使疗愈人生",
@@ -2547,12 +2547,12 @@
   "4258770": {
     "name": "恐惧原野",
     "low": 18.75,
-    "last": 18.75
+    "last": 25.0
   },
   "1157740": {
     "name": "Iron Meat",
     "low": 57.6,
-    "last": 57.6
+    "last": 72.0
   },
   "4123890": {
     "name": "Pallet Jack Racing",
@@ -2592,7 +2592,7 @@
   "3212530": {
     "name": "Anthology Of The Killer",
     "low": 21.75,
-    "last": 21.75
+    "last": 29.0
   },
   "2592160": {
     "name": "Dispatch 超英派遣中心",
@@ -5443,5 +5443,430 @@
     "name": "Incremental Traffic",
     "low": 24.5,
     "last": 24.5
+  },
+  "4369080": {
+    "name": "SYSADMIN Hell",
+    "low": 40.8,
+    "last": 40.8
+  },
+  "4923370": {
+    "name": "Studs Up!",
+    "low": 15.2,
+    "last": 15.2
+  },
+  "5115790": {
+    "name": "JETGRAVE",
+    "low": 15.2,
+    "last": 15.2
+  },
+  "5284390": {
+    "name": "Wildfire Command '98",
+    "low": 47.2,
+    "last": 47.2
+  },
+  "4213320": {
+    "name": "如履平地",
+    "low": 17.1,
+    "last": 17.1
+  },
+  "4950720": {
+    "name": "Kill The Frog",
+    "low": 11.0,
+    "last": 11.0
+  },
+  "1127500": {
+    "name": "Mini Motorways",
+    "low": 29.6,
+    "last": 29.6
+  },
+  "4530170": {
+    "name": "Run, Ronald, Run",
+    "low": 9.1,
+    "last": 9.1
+  },
+  "5023800": {
+    "name": "Pixel Chroma",
+    "low": 22.0,
+    "last": 22.0
+  },
+  "4693590": {
+    "name": "Magical Ascent",
+    "low": 11.4,
+    "last": 11.4
+  },
+  "4966620": {
+    "name": "This mountain? Got it from my gramps.",
+    "low": 50.15,
+    "last": 50.15
+  },
+  "5398950": {
+    "name": "Poly Magic",
+    "low": 21.6,
+    "last": 21.6
+  },
+  "5062950": {
+    "name": "Guild of the Tower",
+    "low": 37.8,
+    "last": 37.8
+  },
+  "5181410": {
+    "name": "Lucky Debt",
+    "low": 24.23,
+    "last": 24.23
+  },
+  "3229820": {
+    "name": "Layered Loop层叠环道",
+    "low": 9.35,
+    "last": 9.35
+  },
+  "5451670": {
+    "name": "Strait Defense",
+    "low": 13.0,
+    "last": 13.0
+  },
+  "5014710": {
+    "name": "Idle Survivor",
+    "low": 11.4,
+    "last": 11.4
+  },
+  "5290630": {
+    "name": "Last Save",
+    "low": 9.0,
+    "last": 9.0
+  },
+  "5340390": {
+    "name": "Oh My Balance!",
+    "low": 18.0,
+    "last": 18.0
+  },
+  "5282040": {
+    "name": "诸天万界竞拍之王",
+    "low": 22.4,
+    "last": 22.4
+  },
+  "5408700": {
+    "name": "MERDAN: Night Protocol",
+    "low": 28.0,
+    "last": 28.0
+  },
+  "5276980": {
+    "name": "OVERSTACK",
+    "low": 23.2,
+    "last": 23.2
+  },
+  "4844090": {
+    "name": "Suits of Fantasia",
+    "low": 17.6,
+    "last": 17.6
+  },
+  "5172270": {
+    "name": "John Whisk",
+    "low": 12.0,
+    "last": 12.0
+  },
+  "3323460": {
+    "name": "Relictor",
+    "low": 42.0,
+    "last": 42.0
+  },
+  "5370330": {
+    "name": "Desert Springs",
+    "low": 25.2,
+    "last": 25.2
+  },
+  "5021730": {
+    "name": "Loadout Rush",
+    "low": 13.5,
+    "last": 13.5
+  },
+  "5373170": {
+    "name": "By The Sea : Pilgrimage of the Colorless",
+    "low": 13.2,
+    "last": 13.2
+  },
+  "5231880": {
+    "name": "Blind Night",
+    "low": 22.0,
+    "last": 22.0
+  },
+  "5444580": {
+    "name": "URANUS",
+    "low": 13.0,
+    "last": 13.0
+  },
+  "5448940": {
+    "name": "Liberate : escape game à deux",
+    "low": 18.26,
+    "last": 18.26
+  },
+  "2820630": {
+    "name": "Animal Rogues",
+    "low": 52.0,
+    "last": 52.0
+  },
+  "5132750": {
+    "name": "RuinsGate Survivors",
+    "low": 11.02,
+    "last": 11.02
+  },
+  "5345520": {
+    "name": "Cozy Karaoke Tycoon",
+    "low": 24.75,
+    "last": 24.75
+  },
+  "4348910": {
+    "name": "深空当铺：可能是偷的",
+    "low": 49.5,
+    "last": 49.5
+  },
+  "4009170": {
+    "name": "Obrum",
+    "low": 16.5,
+    "last": 16.5
+  },
+  "4914980": {
+    "name": "只开宝箱",
+    "low": 9.35,
+    "last": 9.35
+  },
+  "2308630": {
+    "name": "晨曦族人",
+    "low": 35.75,
+    "last": 35.75
+  },
+  "5059500": {
+    "name": "SpaceShooter",
+    "low": 12.75,
+    "last": 12.75
+  },
+  "659540": {
+    "name": "Warsim: The Realm of Aslona",
+    "low": 19.99,
+    "last": 19.99
+  },
+  "5370520": {
+    "name": "Anubis Temple: La Perla de Egipto",
+    "low": 37.8,
+    "last": 37.8
+  },
+  "4844820": {
+    "name": "DARK PGT 2: The Red Death",
+    "low": 16.8,
+    "last": 16.8
+  },
+  "5429730": {
+    "name": "Last Dispatch",
+    "low": 15.0,
+    "last": 15.0
+  },
+  "5367570": {
+    "name": "骰子小队",
+    "low": 33.6,
+    "last": 33.6
+  },
+  "5421990": {
+    "name": "Docked Realms",
+    "low": 15.2,
+    "last": 15.2
+  },
+  "4842190": {
+    "name": "The Art Keeper",
+    "low": 22.4,
+    "last": 22.4
+  },
+  "4799130": {
+    "name": "Phantom Grind",
+    "low": 4.25,
+    "last": 4.25
+  },
+  "2484880": {
+    "name": "Alfredo's Sneaky Meal",
+    "low": 2.5,
+    "last": 2.5
+  },
+  "5301590": {
+    "name": "Northgate Dispatch",
+    "low": 9.0,
+    "last": 9.0
+  },
+  "4985500": {
+    "name": "赌狗仙侠",
+    "low": 22.0,
+    "last": 22.0
+  },
+  "2528850": {
+    "name": "Bellboy Boris",
+    "low": 2.5,
+    "last": 2.5
+  },
+  "5086700": {
+    "name": "bar-hopping-bear.",
+    "low": 16.2,
+    "last": 16.2
+  },
+  "4923480": {
+    "name": "FRAGLINE: Esports Manager",
+    "low": 60.0,
+    "last": 60.0
+  },
+  "4567920": {
+    "name": "Bull Run",
+    "low": 42.0,
+    "last": 42.0
+  },
+  "4783870": {
+    "name": "Mythopolis",
+    "low": 18.6,
+    "last": 18.6
+  },
+  "4802100": {
+    "name": "Perfumed Palaces: Purgatory Simulator",
+    "low": 65.45,
+    "last": 65.45
+  },
+  "4405820": {
+    "name": "Broken Soccer",
+    "low": 29.75,
+    "last": 29.75
+  },
+  "1684410": {
+    "name": "海豹世界",
+    "low": 17.6,
+    "last": 17.6
+  },
+  "4879410": {
+    "name": "Critical Ward",
+    "low": 19.8,
+    "last": 19.8
+  },
+  "3636770": {
+    "name": "Servant of the Lake",
+    "low": 22.11,
+    "last": 22.11
+  },
+  "4659230": {
+    "name": "What's the Word",
+    "low": 22.49,
+    "last": 22.49
+  },
+  "2935990": {
+    "name": "光标皮肤",
+    "low": 22.4,
+    "last": 22.4
+  },
+  "4533350": {
+    "name": "Reflection Of Feelings",
+    "low": 13.0,
+    "last": 13.0
+  },
+  "5232130": {
+    "name": "KanaCross Together",
+    "low": 56.7,
+    "last": 56.7
+  },
+  "4985770": {
+    "name": "潜艇日志：番茄钟航海记",
+    "low": 28.05,
+    "last": 28.05
+  },
+  "2291850": {
+    "name": "Underground Blossom",
+    "low": 14.74,
+    "last": 14.74
+  },
+  "5076760": {
+    "name": "TinSpring Soccer",
+    "low": 54.97,
+    "last": 54.97
+  },
+  "4430260": {
+    "name": "音飙",
+    "low": 46.4,
+    "last": 46.4
+  },
+  "5422950": {
+    "name": "宗门不养闲人",
+    "low": 22.5,
+    "last": 22.5
+  },
+  "4811600": {
+    "name": "Patsy's Retirement",
+    "low": 20.47,
+    "last": 20.47
+  },
+  "4687030": {
+    "name": "Ribbit Riot!",
+    "low": 18.7,
+    "last": 18.7
+  },
+  "2004590": {
+    "name": "Conbunn Cardboard",
+    "low": 15.95,
+    "last": 15.95
+  },
+  "5122080": {
+    "name": "Merge Command",
+    "low": 20.0,
+    "last": 20.0
+  },
+  "4821570": {
+    "name": "异界碎片",
+    "low": 35.0,
+    "last": 35.0
+  },
+  "4884610": {
+    "name": "Wend",
+    "low": 70.0,
+    "last": 70.0
+  },
+  "4655130": {
+    "name": "天堂恋爱王",
+    "low": 21.25,
+    "last": 21.25
+  },
+  "4387610": {
+    "name": "Clearance Defence",
+    "low": 32.4,
+    "last": 32.4
+  },
+  "4241920": {
+    "name": "BRAZILIAN DRUG DEALER BEFORE 4: DEMONS FROM THE PORTAL TO HELL I OPENED ARE STILL IN THE FAVELA AND NOW I HAVE TO SAVE MAMADAS FROM RONALDO",
+    "low": 17.6,
+    "last": 17.6
+  },
+  "5308690": {
+    "name": "BITS OVERLOAD",
+    "low": 42.0,
+    "last": 42.0
+  },
+  "4512270": {
+    "name": "Agebound",
+    "low": 12.75,
+    "last": 12.75
+  },
+  "5005480": {
+    "name": "Castellan",
+    "low": 10.5,
+    "last": 10.5
+  },
+  "3275650": {
+    "name": "Magtiles",
+    "low": 16.15,
+    "last": 16.15
+  },
+  "1148760": {
+    "name": "I Was a Teenage Exocolonist",
+    "low": 46.0,
+    "last": 46.0
+  },
+  "4285270": {
+    "name": "marblebuilds",
+    "low": 31.5,
+    "last": 31.5
+  },
+  "3787980": {
+    "name": "Gridfire",
+    "low": 17.6,
+    "last": 17.6
   }
 }
