@@ -3,7 +3,7 @@
     "updated_at_cn": "2026-11-03 15:31",
     "version": "V4 review-context discovery",
     "note": "尝鲜榜不设价格或好评率硬门槛；查看近期简中差评关键词，区别争议类型。分析是辅助证据，不代表玩家差评全部属实或无效。",
-    "last_enrichment_utc": "2026-11-04T01:36:06.631795+00:00",
+    "last_enrichment_utc": "2026-11-04T01:42:18.709019+00:00",
     "last_key_enrichment_utc": "2026-11-03T20:51:08.765843+00:00"
   },
   "counts": {
@@ -294,7 +294,7 @@
       "watchlisted": false,
       "why": "匹配你的偏好：角色扮演 / 策略 / 单人",
       "mobile": null,
-      "epic_status": "未核实（历史库未匹配）",
+      "epic_status": "历史库未匹配（未核实）",
       "epic_giveaway": null,
       "epic_source": "https://github.com/renshuki/efgtracker",
       "dlc_status": "未自动核实",
@@ -326,6 +326,12 @@
           "checked_at": "2026-11-03T09:17:44.028436+00:00",
           "next_retry_at": "2026-11-04T09:17:44.028436+00:00",
           "details": "no verified CNY historical record"
+        },
+        "epic": {
+          "status": "unverified",
+          "checked_at": "2026-11-04T01:42:18.709019+00:00",
+          "next_retry_at": "2026-11-05T01:42:18.709019+00:00",
+          "details": "incomplete third-party archive"
         }
       }
     },
@@ -1213,7 +1219,7 @@
       "watchlisted": false,
       "why": "匹配你的偏好：冒险 / 角色扮演 / 单人",
       "mobile": null,
-      "epic_status": "未核实（历史库未匹配）",
+      "epic_status": "历史库未匹配（未核实）",
       "epic_giveaway": null,
       "epic_source": "https://github.com/renshuki/efgtracker",
       "dlc_status": "未自动核实",
@@ -1250,6 +1256,12 @@
           "checked_at": "2026-10-29T17:20:19.058804+00:00",
           "next_retry_at": "2026-10-30T17:20:19.058804+00:00",
           "details": "no verified CNY historical record"
+        },
+        "epic": {
+          "status": "unverified",
+          "checked_at": "2026-11-04T01:42:18.709019+00:00",
+          "next_retry_at": "2026-11-05T01:42:18.709019+00:00",
+          "details": "incomplete third-party archive"
         }
       }
     },
@@ -1397,7 +1409,7 @@
       "watchlisted": false,
       "why": "匹配你的偏好：冒险 / 角色扮演 / 单人",
       "mobile": null,
-      "epic_status": "未核实（历史库未匹配）",
+      "epic_status": "历史库未匹配（未核实）",
       "epic_giveaway": null,
       "epic_source": "https://github.com/renshuki/efgtracker",
       "dlc_status": "未自动核实",
@@ -1440,6 +1452,12 @@
           "checked_at": "2026-10-29T17:20:19.058804+00:00",
           "next_retry_at": "2026-10-30T17:20:19.058804+00:00",
           "details": "no verified CNY historical record"
+        },
+        "epic": {
+          "status": "unverified",
+          "checked_at": "2026-11-04T01:42:18.709019+00:00",
+          "next_retry_at": "2026-11-05T01:42:18.709019+00:00",
+          "details": "incomplete third-party archive"
         }
       },
       "key_status": "未核实实时在售",
@@ -1966,7 +1984,7 @@
       "watchlisted": false,
       "why": "匹配你的偏好：冒险 / 角色扮演 / 单人",
       "mobile": null,
-      "epic_status": "未核实（历史库未匹配）",
+      "epic_status": "历史库未匹配（未核实）",
       "epic_giveaway": null,
       "epic_source": "https://github.com/renshuki/efgtracker",
       "dlc_status": "未自动核实",
@@ -2009,6 +2027,12 @@
           "status": "success",
           "checked_at": "2026-11-03T09:57:51.105446+00:00",
           "next_retry_at": "2026-11-06T09:57:51.105446+00:00"
+        },
+        "epic": {
+          "status": "unverified",
+          "checked_at": "2026-11-04T01:42:18.709019+00:00",
+          "next_retry_at": "2026-11-05T01:42:18.709019+00:00",
+          "details": "incomplete third-party archive"
         }
       },
       "key_status": "参考报价，不代表实时库存",
@@ -6594,7 +6618,7 @@
       "watchlisted": false,
       "why": "跨类型发现：结合价格、玩家评价及差评样本综合考虑",
       "mobile": null,
-      "epic_status": "未核实（历史库未匹配）",
+      "epic_status": "历史库未匹配（未核实）",
       "epic_giveaway": null,
       "epic_source": "https://github.com/renshuki/efgtracker",
       "dlc_status": "未自动核实",
@@ -6636,6 +6660,12 @@
           "checked_at": "2026-11-03T09:17:44.028436+00:00",
           "next_retry_at": "2026-11-04T09:17:44.028436+00:00",
           "details": "no verified CNY historical record"
+        },
+        "epic": {
+          "status": "unverified",
+          "checked_at": "2026-11-04T01:42:18.709019+00:00",
+          "next_retry_at": "2026-11-05T01:42:18.709019+00:00",
+          "details": "incomplete third-party archive"
         }
       },
       "key_status": "暂无有效散 Key 参考价"
