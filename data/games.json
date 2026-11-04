@@ -4,7 +4,7 @@
     "version": "V4 review-context discovery",
     "note": "尝鲜榜不设价格或好评率硬门槛；查看近期简中差评关键词，区别争议类型。分析是辅助证据，不代表玩家差评全部属实或无效。",
     "last_enrichment_utc": "2026-11-04T10:28:10.069492+00:00",
-    "last_key_enrichment_utc": "2026-11-04T08:59:21.440864+00:00"
+    "last_key_enrichment_utc": "2026-11-04T13:06:22.545012+00:00"
   },
   "counts": {
     "deal": 30,
@@ -5840,7 +5840,15 @@
       },
       "key_offers": [],
       "key_reference_min": null,
-      "tracked_low": 2.5
+      "tracked_low": 2.5,
+      "key_status": "暂无有效散 Key 参考价",
+      "enrichment_status": {
+        "keys": {
+          "status": "no_quote",
+          "checked_at": "2026-11-04T13:06:22.545012+00:00",
+          "next_retry_at": "2026-11-05T13:06:22.545012+00:00"
+        }
+      }
     },
     {
       "appid": 4575870,
@@ -6124,7 +6132,15 @@
       },
       "key_offers": [],
       "key_reference_min": null,
-      "tracked_low": 2.5
+      "tracked_low": 2.5,
+      "key_status": "暂无有效散 Key 参考价",
+      "enrichment_status": {
+        "keys": {
+          "status": "no_quote",
+          "checked_at": "2026-11-04T13:06:22.545012+00:00",
+          "next_retry_at": "2026-11-05T13:06:22.545012+00:00"
+        }
+      }
     },
     {
       "appid": 840590,
@@ -6181,7 +6197,15 @@
       },
       "key_offers": [],
       "key_reference_min": null,
-      "tracked_low": 2.5
+      "tracked_low": 2.5,
+      "key_status": "暂无有效散 Key 参考价",
+      "enrichment_status": {
+        "keys": {
+          "status": "no_quote",
+          "checked_at": "2026-11-04T13:06:22.545012+00:00",
+          "next_retry_at": "2026-11-05T13:06:22.545012+00:00"
+        }
+      }
     },
     {
       "appid": 703940,
