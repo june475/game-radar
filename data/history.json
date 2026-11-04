@@ -447,7 +447,7 @@
   "883710": {
     "name": "Resident Evil 2",
     "low": 39.6,
-    "last": 39.6
+    "last": 198.0
   },
   "5292740": {
     "name": "Raze the Zombie Horde",
@@ -1557,7 +1557,7 @@
   "1894220": {
     "name": "Square",
     "low": 2.5,
-    "last": 2.5
+    "last": 5.0
   },
   "3390880": {
     "name": "CAPTURED 2",
@@ -1612,7 +1612,7 @@
   "703940": {
     "name": "Ball 2D: Soccer Online",
     "low": 2.5,
-    "last": 2.5
+    "last": 5.0
   },
   "1361320": {
     "name": "The Room 4: Old Sins",
@@ -1637,7 +1637,7 @@
   "687850": {
     "name": "Head Goal: Soccer Online",
     "low": 2.5,
-    "last": 2.5
+    "last": 5.0
   },
   "3667230": {
     "name": "The Deadseat",
@@ -1662,7 +1662,7 @@
   "840590": {
     "name": "ANOIX",
     "low": 2.5,
-    "last": 2.5
+    "last": 5.0
   },
   "1999520": {
     "name": "CATO 黄油猫",
@@ -1727,7 +1727,7 @@
   "2162800": {
     "name": "异形工厂2",
     "low": 45.0,
-    "last": 45.0
+    "last": 66.0
   },
   "2470120": {
     "name": "Flower Flurry",
@@ -1892,7 +1892,7 @@
   "787480": {
     "name": "Phoenix Wright: Ace Attorney Trilogy",
     "low": 48.84,
-    "last": 48.84
+    "last": 148.0
   },
   "1305300": {
     "name": "Love Love School Days",
@@ -5868,5 +5868,585 @@
     "name": "Gridfire",
     "low": 17.6,
     "last": 17.6
+  },
+  "4719710": {
+    "name": "六艺中文填字",
+    "low": 18.0,
+    "last": 18.0
+  },
+  "5091010": {
+    "name": "Abandon All Hope",
+    "low": 28.0,
+    "last": 28.0
+  },
+  "5224900": {
+    "name": "Timberland",
+    "low": 37.8,
+    "last": 37.8
+  },
+  "5307290": {
+    "name": "Devotheon",
+    "low": 35.7,
+    "last": 35.7
+  },
+  "5271470": {
+    "name": "Crown of Time",
+    "low": 30.4,
+    "last": 30.4
+  },
+  "5406260": {
+    "name": "月光猫咪食堂",
+    "low": 17.6,
+    "last": 17.6
+  },
+  "4818450": {
+    "name": "BE2",
+    "low": 19.84,
+    "last": 19.84
+  },
+  "1333910": {
+    "name": "Sizeable",
+    "low": 3.19,
+    "last": 3.19
+  },
+  "5419760": {
+    "name": "EscapeFromSeoul",
+    "low": 40.5,
+    "last": 40.5
+  },
+  "4970350": {
+    "name": "KIBAKI !",
+    "low": 22.0,
+    "last": 22.0
+  },
+  "1240210": {
+    "name": "根本没有游戏",
+    "low": 34.4,
+    "last": 34.4
+  },
+  "4908640": {
+    "name": "THW's Calcudoku",
+    "low": 15.0,
+    "last": 15.0
+  },
+  "5440330": {
+    "name": "Killing Maze",
+    "low": 19.8,
+    "last": 19.8
+  },
+  "5223600": {
+    "name": "De Potrero",
+    "low": 33.0,
+    "last": 33.0
+  },
+  "548430": {
+    "name": "深岩银河",
+    "low": 32.4,
+    "last": 32.4
+  },
+  "2262610": {
+    "name": "永不结束的星期一：梦想与死线 Endless Monday: Dreams and Deadlines",
+    "low": 25.2,
+    "last": 25.2
+  },
+  "4961420": {
+    "name": "元素炸弹",
+    "low": 12.75,
+    "last": 12.75
+  },
+  "2597500": {
+    "name": "✈️玩飞机高手✈️",
+    "low": 2.5,
+    "last": 2.5
+  },
+  "5046250": {
+    "name": "BrouHaHa",
+    "low": 17.1,
+    "last": 17.1
+  },
+  "2394650": {
+    "name": "冥界清道夫(Crypt Custodian)",
+    "low": 45.6,
+    "last": 45.6
+  },
+  "5055800": {
+    "name": "Verdreamia",
+    "low": 33.6,
+    "last": 33.6
+  },
+  "4137570": {
+    "name": "分头行动:chibichibi",
+    "low": 17.1,
+    "last": 17.1
+  },
+  "4865940": {
+    "name": "Stash Grabber",
+    "low": 29.4,
+    "last": 29.4
+  },
+  "3758400": {
+    "name": "Coin Factory 2",
+    "low": 22.1,
+    "last": 22.1
+  },
+  "2111550": {
+    "name": "Schrodinger's Cat Burglar",
+    "low": 59.29,
+    "last": 59.29
+  },
+  "3201570": {
+    "name": "VR乘风破浪",
+    "low": 28.0,
+    "last": 28.0
+  },
+  "4347010": {
+    "name": "Just One Bite",
+    "low": 19.8,
+    "last": 19.8
+  },
+  "5344600": {
+    "name": "MiningPassion 挖矿狂潮",
+    "low": 26.0,
+    "last": 26.0
+  },
+  "3624110": {
+    "name": "未卜先赚",
+    "low": 29.04,
+    "last": 29.04
+  },
+  "4906610": {
+    "name": "Dead Market",
+    "low": 40.8,
+    "last": 40.8
+  },
+  "1407420": {
+    "name": "Milo and the Magpies",
+    "low": 10.05,
+    "last": 10.05
+  },
+  "4866150": {
+    "name": "Pluricubus",
+    "low": 19.0,
+    "last": 19.0
+  },
+  "1079260": {
+    "name": "Fireworks Mania - An Explosive Simulator",
+    "low": 37.7,
+    "last": 37.7
+  },
+  "3383900": {
+    "name": "Frankie Freako",
+    "low": 47.0,
+    "last": 47.0
+  },
+  "3509160": {
+    "name": "BAIONLENJA",
+    "low": 36.4,
+    "last": 36.4
+  },
+  "4816210": {
+    "name": "Neon Blackfall",
+    "low": 14.4,
+    "last": 14.4
+  },
+  "4693790": {
+    "name": "Survive The Apocalypse",
+    "low": 29.0,
+    "last": 29.0
+  },
+  "5378470": {
+    "name": "Don't Drink",
+    "low": 11.0,
+    "last": 11.0
+  },
+  "1942280": {
+    "name": "土豆兄弟(Brotato)",
+    "low": 11.0,
+    "last": 11.0
+  },
+  "5028910": {
+    "name": "PlayCard Football",
+    "low": 63.0,
+    "last": 63.0
+  },
+  "1424350": {
+    "name": "Bunny Hill",
+    "low": 16.0,
+    "last": 16.0
+  },
+  "4835060": {
+    "name": "SoundRoom",
+    "low": 14.4,
+    "last": 14.4
+  },
+  "4832350": {
+    "name": "You Must Die",
+    "low": 33.6,
+    "last": 33.6
+  },
+  "5060350": {
+    "name": "Table of War",
+    "low": 59.1,
+    "last": 59.1
+  },
+  "1662480": {
+    "name": "Nuclear Blaze",
+    "low": 10.5,
+    "last": 10.5
+  },
+  "4857490": {
+    "name": "股咚咕咚",
+    "low": 8.25,
+    "last": 8.25
+  },
+  "1406990": {
+    "name": "NEKOPARA Vol. 4",
+    "low": 21.0,
+    "last": 21.0
+  },
+  "4397050": {
+    "name": "The Plunge Of Sludge",
+    "low": 29.0,
+    "last": 29.0
+  },
+  "5164850": {
+    "name": "Beltrunner",
+    "low": 14.4,
+    "last": 14.4
+  },
+  "931270": {
+    "name": "MicroTown",
+    "low": 25.2,
+    "last": 25.2
+  },
+  "3185470": {
+    "name": "Forgiveness RPG: The First Chapter",
+    "low": 17.6,
+    "last": 17.6
+  },
+  "2191190": {
+    "name": "FIND ALL 4: Magic",
+    "low": 8.14,
+    "last": 8.14
+  },
+  "4962490": {
+    "name": "Old Money – Build Your Dynasty",
+    "low": 42.0,
+    "last": 42.0
+  },
+  "4250030": {
+    "name": "Hoop Dungeon",
+    "low": 29.7,
+    "last": 29.7
+  },
+  "558990": {
+    "name": "Opus Magnum",
+    "low": 36.0,
+    "last": 36.0
+  },
+  "4611110": {
+    "name": "Beyond The Abandoned",
+    "low": 29.7,
+    "last": 29.7
+  },
+  "4620950": {
+    "name": "XENOFLEKT",
+    "low": 14.4,
+    "last": 14.4
+  },
+  "483980": {
+    "name": "Mad Father《狂父》",
+    "low": 18.5,
+    "last": 18.5
+  },
+  "420110": {
+    "name": "NEKOPARA Vol. 2",
+    "low": 16.8,
+    "last": 16.8
+  },
+  "4644350": {
+    "name": "Astromino",
+    "low": 59.0,
+    "last": 59.0
+  },
+  "1123450": {
+    "name": "Chicory: A Colorful Tale",
+    "low": 38.0,
+    "last": 38.0
+  },
+  "4849560": {
+    "name": "Capy Farm",
+    "low": 17.6,
+    "last": 17.6
+  },
+  "3519530": {
+    "name": "Merge Maestro",
+    "low": 10.8,
+    "last": 10.8
+  },
+  "5410560": {
+    "name": "MAKAI CITY CHI-BA",
+    "low": 15.0,
+    "last": 15.0
+  },
+  "4307600": {
+    "name": "关于我如何停止恐惧并爱上斩杀线",
+    "low": 22.1,
+    "last": 22.1
+  },
+  "1556010": {
+    "name": "DriveCrazy 玩命狂飙",
+    "low": 36.8,
+    "last": 36.8
+  },
+  "3720420": {
+    "name": "卡片魔王：只剩个头！",
+    "low": 38.4,
+    "last": 38.4
+  },
+  "1609230": {
+    "name": "Scarlet Hollow",
+    "low": 81.6,
+    "last": 81.6
+  },
+  "5449190": {
+    "name": "Lake of Darkness: Cide Story",
+    "low": 13.0,
+    "last": 13.0
+  },
+  "3372040": {
+    "name": "TRAUMATA",
+    "low": 30.0,
+    "last": 30.0
+  },
+  "5194540": {
+    "name": "Primal Heir: The Mortal Realm",
+    "low": 22.0,
+    "last": 22.0
+  },
+  "4933450": {
+    "name": "CLAWSTROPHOBIA",
+    "low": 29.4,
+    "last": 29.4
+  },
+  "4821630": {
+    "name": "MarsCity3026",
+    "low": 28.0,
+    "last": 28.0
+  },
+  "3810780": {
+    "name": "Backyard Bayou",
+    "low": 21.0,
+    "last": 21.0
+  },
+  "2849680": {
+    "name": "Utopia Must Fall",
+    "low": 21.0,
+    "last": 21.0
+  },
+  "5367330": {
+    "name": "Horde Lab",
+    "low": 19.0,
+    "last": 19.0
+  },
+  "3708620": {
+    "name": "Numeral Strike",
+    "low": 31.85,
+    "last": 31.85
+  },
+  "2377020": {
+    "name": "不屈之人",
+    "low": 45.0,
+    "last": 45.0
+  },
+  "2426770": {
+    "name": "Runner Roy",
+    "low": 2.5,
+    "last": 2.5
+  },
+  "4947930": {
+    "name": "英雄变美",
+    "low": 26.25,
+    "last": 26.25
+  },
+  "3734680": {
+    "name": "我只是想让她们都幸福",
+    "low": 29.4,
+    "last": 29.4
+  },
+  "4861490": {
+    "name": "Otter Cafe",
+    "low": 16.2,
+    "last": 16.2
+  },
+  "1296830": {
+    "name": "暖雪 Warm Snow",
+    "low": 40.6,
+    "last": 40.6
+  },
+  "5437500": {
+    "name": "Order, My Lord! Tidy Up the Dungeon",
+    "low": 19.8,
+    "last": 19.8
+  },
+  "2440760": {
+    "name": "GRAVHOUNDS",
+    "low": 51.0,
+    "last": 51.0
+  },
+  "1686230": {
+    "name": "Mayday: The Survival Island",
+    "low": 39.2,
+    "last": 39.2
+  },
+  "5371550": {
+    "name": "Galaxy Cube: Falling Blocks",
+    "low": 9.35,
+    "last": 9.35
+  },
+  "4772950": {
+    "name": "CUBE-push-",
+    "low": 8.24,
+    "last": 8.24
+  },
+  "3686580": {
+    "name": "裂隙防线 Repel The Rifts",
+    "low": 39.0,
+    "last": 39.0
+  },
+  "5149100": {
+    "name": "Echo Harvest",
+    "low": 37.8,
+    "last": 37.8
+  },
+  "1602620": {
+    "name": "Deadzoned",
+    "low": 16.15,
+    "last": 16.15
+  },
+  "5100760": {
+    "name": "Obolus",
+    "low": 16.8,
+    "last": 16.8
+  },
+  "4314390": {
+    "name": "I Trust You Buddy",
+    "low": 6.39,
+    "last": 6.39
+  },
+  "4331330": {
+    "name": "Swarmfall",
+    "low": 25.2,
+    "last": 25.2
+  },
+  "5452110": {
+    "name": "Strategy Core",
+    "low": 3.5,
+    "last": 3.5
+  },
+  "3206660": {
+    "name": "Storage Anomaly",
+    "low": 13.0,
+    "last": 13.0
+  },
+  "5398790": {
+    "name": "SCHISM WORLD",
+    "low": 4.2,
+    "last": 4.2
+  },
+  "4134760": {
+    "name": "Void Havoc",
+    "low": 16.15,
+    "last": 16.15
+  },
+  "570740": {
+    "name": "Keep an Eye",
+    "low": 16.15,
+    "last": 16.15
+  },
+  "5456010": {
+    "name": "The Alley Workshop",
+    "low": 17.1,
+    "last": 17.1
+  },
+  "5241690": {
+    "name": "咕噜猫咪发动机赛车",
+    "low": 9.35,
+    "last": 9.35
+  },
+  "4683830": {
+    "name": "Typenstein: A Symphony of Keys",
+    "low": 18.7,
+    "last": 18.7
+  },
+  "5450320": {
+    "name": "Hollow Tithes",
+    "low": 4.25,
+    "last": 4.25
+  },
+  "5466320": {
+    "name": "Leftovers: Last Fridge Standing",
+    "low": 19.0,
+    "last": 19.0
+  },
+  "5500000": {
+    "name": "罪恶海岸",
+    "low": 24.0,
+    "last": 24.0
+  },
+  "5111890": {
+    "name": "泣魂",
+    "low": 25.6,
+    "last": 25.6
+  },
+  "5465990": {
+    "name": "A Cat Lived Here",
+    "low": 13.5,
+    "last": 13.5
+  },
+  "4619940": {
+    "name": "守护猫老板",
+    "low": 13.5,
+    "last": 13.5
+  },
+  "5000980": {
+    "name": "Gunship Incremental",
+    "low": 16.15,
+    "last": 16.15
+  },
+  "4286110": {
+    "name": "妹调教日记",
+    "low": 50.4,
+    "last": 50.4
+  },
+  "3527290": {
+    "name": "PEAK",
+    "low": 20.46,
+    "last": 20.46
+  },
+  "4553780": {
+    "name": "晶灵觉醒",
+    "low": 16.15,
+    "last": 16.15
+  },
+  "3700350": {
+    "name": "喜欢你",
+    "low": 43.2,
+    "last": 43.2
+  },
+  "2411880": {
+    "name": "SYSTEMCRASH 92",
+    "low": 15.0,
+    "last": 15.0
+  },
+  "4946100": {
+    "name": "SIDExLINES",
+    "low": 12.75,
+    "last": 12.75
+  },
+  "5056410": {
+    "name": "The Pass",
+    "low": 42.0,
+    "last": 42.0
   }
 }
