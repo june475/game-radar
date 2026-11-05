@@ -3,7 +3,7 @@
     "updated_at_cn": "2026-11-05 16:21",
     "rank_source": "Steam 商店热销特惠筛选（热度代理，不是实时销量榜）",
     "checked": 30,
-    "last_key_enrichment_utc": "2026-11-05T11:07:19.293943+00:00"
+    "last_key_enrichment_utc": "2026-11-05T13:12:58.277275+00:00"
   },
   "games": [
     {
@@ -71,14 +71,14 @@
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=9000909501917057966080",
           "kind": "reference",
           "subid": 1148516,
-          "checked_at": "2026-11-02T13:09:34.754006+00:00"
+          "checked_at": "2026-11-05T13:12:58.277275+00:00"
         }
       ],
       "enrichment_status": {
         "keys": {
           "status": "success",
-          "checked_at": "2026-11-02T13:09:34.754006+00:00",
-          "next_retry_at": "2026-11-05T13:09:34.754006+00:00"
+          "checked_at": "2026-11-05T13:12:58.277275+00:00",
+          "next_retry_at": "2026-11-08T13:12:58.277275+00:00"
         }
       },
       "original_price": 149.0,
@@ -95,7 +95,9 @@
       "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
       "popularity_rank": 2,
       "review": "Steam 评价未在本榜单单独核实",
-      "negative_review_analysis": null
+      "negative_review_analysis": null,
+      "key_reference_min": 60.0,
+      "key_status": "参考报价，不代表实时库存"
     },
     {
       "appid": 1942280,
@@ -156,19 +158,19 @@
       "key_offers": [
         {
           "platform": "SteamPY",
-          "price": 194.0,
+          "price": 171.2,
           "status": "CDKey接口参考价｜库存、地区及版本需打开商品页确认",
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=9001099799034634715136",
           "kind": "reference",
           "subid": 1687538,
-          "checked_at": "2026-11-02T13:09:34.754006+00:00"
+          "checked_at": "2026-11-05T13:12:58.277275+00:00"
         }
       ],
       "enrichment_status": {
         "keys": {
           "status": "success",
-          "checked_at": "2026-11-02T13:09:34.754006+00:00",
-          "next_retry_at": "2026-11-05T13:09:34.754006+00:00"
+          "checked_at": "2026-11-05T13:12:58.277275+00:00",
+          "next_retry_at": "2026-11-08T13:12:58.277275+00:00"
         }
       },
       "original_price": 460.0,
@@ -183,7 +185,9 @@
       "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
       "popularity_rank": 4,
       "review": "Steam 评价未在本榜单单独核实",
-      "negative_review_analysis": null
+      "negative_review_analysis": null,
+      "key_reference_min": 171.2,
+      "key_status": "参考报价，不代表实时库存"
     },
     {
       "appid": 4530370,
@@ -333,14 +337,14 @@
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=496138616574035",
           "kind": "reference",
           "subid": 121418,
-          "checked_at": "2026-11-02T13:09:34.754006+00:00"
+          "checked_at": "2026-11-05T13:12:58.277275+00:00"
         }
       ],
       "enrichment_status": {
         "keys": {
           "status": "success",
-          "checked_at": "2026-11-02T13:09:34.754006+00:00",
-          "next_retry_at": "2026-11-05T13:09:34.754006+00:00"
+          "checked_at": "2026-11-05T13:12:58.277275+00:00",
+          "next_retry_at": "2026-11-08T13:12:58.277275+00:00"
         }
       },
       "original_price": 24.0,
@@ -360,7 +364,9 @@
       "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
       "popularity_rank": 8,
       "review": "Steam 评价未在本榜单单独核实",
-      "negative_review_analysis": null
+      "negative_review_analysis": null,
+      "key_reference_min": 9.0,
+      "key_status": "参考报价，不代表实时库存"
     },
     {
       "appid": 391220,
@@ -673,14 +679,14 @@
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=729841398836105216",
           "kind": "reference",
           "subid": 863377,
-          "checked_at": "2026-11-02T13:09:34.754006+00:00"
+          "checked_at": "2026-11-05T13:12:58.277275+00:00"
         }
       ],
       "enrichment_status": {
         "keys": {
           "status": "success",
-          "checked_at": "2026-11-02T13:09:34.754006+00:00",
-          "next_retry_at": "2026-11-05T13:09:34.754006+00:00"
+          "checked_at": "2026-11-05T13:12:58.277275+00:00",
+          "next_retry_at": "2026-11-08T13:12:58.277275+00:00"
         }
       },
       "original_price": 248.0,
@@ -700,7 +706,9 @@
       "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
       "popularity_rank": 16,
       "review": "Steam 评价未在本榜单单独核实",
-      "negative_review_analysis": null
+      "negative_review_analysis": null,
+      "key_reference_min": 60.0,
+      "key_status": "参考报价，不代表实时库存"
     },
     {
       "appid": 1943950,
