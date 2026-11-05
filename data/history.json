@@ -1712,7 +1712,7 @@
   "1787670": {
     "name": "A Fishy RPG",
     "low": 2.5,
-    "last": 2.5
+    "last": 5.0
   },
   "2835570": {
     "name": "恶魔轮盘",
@@ -1792,7 +1792,7 @@
   "1283520": {
     "name": "The Odd Neon Void",
     "low": 2.5,
-    "last": 2.5
+    "last": 5.0
   },
   "692890": {
     "name": "Roboquest (机械守护者)",
@@ -2407,7 +2407,7 @@
   "2990": {
     "name": "FlatOut 2",
     "low": 7.2,
-    "last": 7.2
+    "last": 36.0
   },
   "294100": {
     "name": "边缘世界 RimWorld",
@@ -6448,5 +6448,565 @@
     "name": "The Pass",
     "low": 42.0,
     "last": 42.0
+  },
+  "5319550": {
+    "name": "文字刷宝录 Text Loot Codex",
+    "low": 10.8,
+    "last": 10.8
+  },
+  "5436750": {
+    "name": "101 Cats: Copenhagen",
+    "low": 3.0,
+    "last": 3.0
+  },
+  "4877740": {
+    "name": "IT Outage Desk",
+    "low": 19.8,
+    "last": 19.8
+  },
+  "2105910": {
+    "name": "Garbanzo Quest",
+    "low": 27.2,
+    "last": 27.2
+  },
+  "2100410": {
+    "name": "The Last Trophy",
+    "low": 24.65,
+    "last": 24.65
+  },
+  "4999620": {
+    "name": "Banners of Bramble",
+    "low": 22.0,
+    "last": 22.0
+  },
+  "5074480": {
+    "name": "Sunday Fighter Pilot",
+    "low": 42.0,
+    "last": 42.0
+  },
+  "5382130": {
+    "name": "Codeguess",
+    "low": 15.2,
+    "last": 15.2
+  },
+  "2175160": {
+    "name": "Tirade",
+    "low": 22.0,
+    "last": 22.0
+  },
+  "3793800": {
+    "name": "脉冲驱动",
+    "low": 34.36,
+    "last": 34.36
+  },
+  "3994790": {
+    "name": "DJ Life Simulator：学习真正的DJ技巧",
+    "low": 61.6,
+    "last": 61.6
+  },
+  "5290910": {
+    "name": "Sump",
+    "low": 22.4,
+    "last": 22.4
+  },
+  "681280": {
+    "name": "Descenders",
+    "low": 17.25,
+    "last": 17.25
+  },
+  "3194960": {
+    "name": "Distant Trails",
+    "low": 48.6,
+    "last": 48.6
+  },
+  "5425850": {
+    "name": "Ale and Bounty: Idle RPG",
+    "low": 17.1,
+    "last": 17.1
+  },
+  "5179590": {
+    "name": "Flurst",
+    "low": 26.0,
+    "last": 26.0
+  },
+  "5350770": {
+    "name": "Darts With Mates",
+    "low": 22.4,
+    "last": 22.4
+  },
+  "5343850": {
+    "name": "I Hate Scalpers",
+    "low": 17.6,
+    "last": 17.6
+  },
+  "5418530": {
+    "name": "Retro Coder 2000",
+    "low": 24.5,
+    "last": 24.5
+  },
+  "5238060": {
+    "name": "Lucky Shot VR",
+    "low": 36.39,
+    "last": 36.39
+  },
+  "5169720": {
+    "name": "Dialshift",
+    "low": 23.4,
+    "last": 23.4
+  },
+  "5135030": {
+    "name": "ねこ部屋日和",
+    "low": 13.5,
+    "last": 13.5
+  },
+  "5370670": {
+    "name": "Castle Stacker",
+    "low": 16.5,
+    "last": 16.5
+  },
+  "1066070": {
+    "name": "Cave In: Miner Rescue Team",
+    "low": 29.4,
+    "last": 29.4
+  },
+  "4587130": {
+    "name": "Green Field Cube Island",
+    "low": 19.8,
+    "last": 19.8
+  },
+  "4905030": {
+    "name": "Market Panic",
+    "low": 53.1,
+    "last": 53.1
+  },
+  "4881430": {
+    "name": "HueTrix",
+    "low": 35.0,
+    "last": 35.0
+  },
+  "1944570": {
+    "name": "Boneraiser Minions",
+    "low": 14.3,
+    "last": 14.3
+  },
+  "5119140": {
+    "name": "Midnight Rogues",
+    "low": 23.2,
+    "last": 23.2
+  },
+  "3947480": {
+    "name": "魅魔的游戏",
+    "low": 29.25,
+    "last": 29.25
+  },
+  "5243610": {
+    "name": "BugPot",
+    "low": 11.55,
+    "last": 11.55
+  },
+  "3218230": {
+    "name": "上古世纪编年史",
+    "low": 128.0,
+    "last": 128.0
+  },
+  "5430590": {
+    "name": "Fatespun",
+    "low": 52.5,
+    "last": 52.5
+  },
+  "4380090": {
+    "name": "HELLO HACKER - Project Daybreak",
+    "low": 37.8,
+    "last": 37.8
+  },
+  "2011780": {
+    "name": "的士快跑",
+    "low": 26.4,
+    "last": 26.4
+  },
+  "4608850": {
+    "name": "Aetheris Core",
+    "low": 35.7,
+    "last": 35.7
+  },
+  "5430760": {
+    "name": "LASKA: Column checkers",
+    "low": 35.0,
+    "last": 35.0
+  },
+  "2191810": {
+    "name": "Hexdrive",
+    "low": 4.25,
+    "last": 4.25
+  },
+  "4508290": {
+    "name": "幸运朋克 LUCKY PUNK：富贵险中求的牌组构筑游戏",
+    "low": 17.36,
+    "last": 17.36
+  },
+  "5324510": {
+    "name": "The Crane Files: A Detective Mystery",
+    "low": 23.2,
+    "last": 23.2
+  },
+  "1669180": {
+    "name": "Demon Source",
+    "low": 28.05,
+    "last": 28.05
+  },
+  "5089320": {
+    "name": "ONE LAST BEAM",
+    "low": 10.0,
+    "last": 10.0
+  },
+  "3529090": {
+    "name": "Astra Bestiary",
+    "low": 65.45,
+    "last": 65.45
+  },
+  "5465890": {
+    "name": "Just Hearts",
+    "low": 15.2,
+    "last": 15.2
+  },
+  "4225280": {
+    "name": "幸存者的炼金术",
+    "low": 33.75,
+    "last": 33.75
+  },
+  "2905910": {
+    "name": "Hold The Levee",
+    "low": 24.65,
+    "last": 24.65
+  },
+  "5414140": {
+    "name": "Survivecraft",
+    "low": 16.5,
+    "last": 16.5
+  },
+  "5359210": {
+    "name": "我姓夏",
+    "low": 22.0,
+    "last": 22.0
+  },
+  "4673980": {
+    "name": "Harvestide",
+    "low": 23.1,
+    "last": 23.1
+  },
+  "5089780": {
+    "name": "KRIS: The Last Good Summer",
+    "low": 65.45,
+    "last": 65.45
+  },
+  "5163190": {
+    "name": "Tumble Tavern",
+    "low": 19.8,
+    "last": 19.8
+  },
+  "5361480": {
+    "name": "涂鸦决斗",
+    "low": 15.2,
+    "last": 15.2
+  },
+  "2218060": {
+    "name": "Backdraft",
+    "low": 70.0,
+    "last": 70.0
+  },
+  "4757720": {
+    "name": "The Wake Event",
+    "low": 28.05,
+    "last": 28.05
+  },
+  "1170570": {
+    "name": "The Drifter",
+    "low": 57.0,
+    "last": 57.0
+  },
+  "3360890": {
+    "name": "Project Afterfall",
+    "low": 60.8,
+    "last": 60.8
+  },
+  "569480": {
+    "name": "Kingdoms and Castles",
+    "low": 26.18,
+    "last": 26.18
+  },
+  "5274720": {
+    "name": "Hearsay",
+    "low": 28.8,
+    "last": 28.8
+  },
+  "5300840": {
+    "name": "Final Depth",
+    "low": 29.7,
+    "last": 29.7
+  },
+  "4281480": {
+    "name": "Mandala: Type To Defend",
+    "low": 17.1,
+    "last": 17.1
+  },
+  "3053950": {
+    "name": "Dungeon Rampage Remastered",
+    "low": 38.35,
+    "last": 38.35
+  },
+  "2443590": {
+    "name": "Diecast",
+    "low": 31.5,
+    "last": 31.5
+  },
+  "2454000": {
+    "name": "Rafting Frenzy",
+    "low": 2.5,
+    "last": 2.5
+  },
+  "2794590": {
+    "name": "Scam Line",
+    "low": 24.0,
+    "last": 24.0
+  },
+  "4919680": {
+    "name": "Space Lot",
+    "low": 12.75,
+    "last": 12.75
+  },
+  "2103140": {
+    "name": "魔法工艺 Magicraft",
+    "low": 39.0,
+    "last": 39.0
+  },
+  "4952090": {
+    "name": "SOLITAIRE.EXE: A Roguelike on the Night Shift",
+    "low": 41.6,
+    "last": 41.6
+  },
+  "4886450": {
+    "name": "Hexzen 六角禅",
+    "low": 32.4,
+    "last": 32.4
+  },
+  "5101960": {
+    "name": "地下城公会经理 Dungeons & Dynasties",
+    "low": 28.8,
+    "last": 28.8
+  },
+  "5291360": {
+    "name": "Solo Cards",
+    "low": 35.7,
+    "last": 35.7
+  },
+  "2825880": {
+    "name": "死亡呼啸",
+    "low": 42.0,
+    "last": 42.0
+  },
+  "5028050": {
+    "name": "Traffic Architect",
+    "low": 31.5,
+    "last": 31.5
+  },
+  "5027590": {
+    "name": "Domino Descent",
+    "low": 22.4,
+    "last": 22.4
+  },
+  "3035120": {
+    "name": "这个座位有人坐吗?",
+    "low": 29.4,
+    "last": 29.4
+  },
+  "2508440": {
+    "name": "Angel Guardian",
+    "low": 26.25,
+    "last": 26.25
+  },
+  "4773050": {
+    "name": "Bullet Rift",
+    "low": 27.6,
+    "last": 27.6
+  },
+  "3446680": {
+    "name": "心跳大冒险：泰遇",
+    "low": 29.4,
+    "last": 29.4
+  },
+  "5356850": {
+    "name": "Arauto",
+    "low": 12.0,
+    "last": 12.0
+  },
+  "3719480": {
+    "name": "Scared by Squares",
+    "low": 35.7,
+    "last": 35.7
+  },
+  "4500000": {
+    "name": "Spell Code SlingerZ",
+    "low": 28.05,
+    "last": 28.05
+  },
+  "2320980": {
+    "name": "乐浮岛",
+    "low": 89.64,
+    "last": 89.64
+  },
+  "5176710": {
+    "name": "Be a Pirate! ",
+    "low": 38.25,
+    "last": 38.25
+  },
+  "5395140": {
+    "name": "Have you seen my knife?",
+    "low": 18.7,
+    "last": 18.7
+  },
+  "4996850": {
+    "name": "Beatlash: Survival",
+    "low": 16.5,
+    "last": 16.5
+  },
+  "4736470": {
+    "name": "Dead Sector",
+    "low": 59.5,
+    "last": 59.5
+  },
+  "5058710": {
+    "name": "The Abyss’s Last Breath",
+    "low": 9.75,
+    "last": 9.75
+  },
+  "4349540": {
+    "name": "Pillars of Pantheon",
+    "low": 33.6,
+    "last": 33.6
+  },
+  "5457850": {
+    "name": "Lullaby for a Titan",
+    "low": 23.8,
+    "last": 23.8
+  },
+  "4476270": {
+    "name": "Crown & Coin: The Hundred Years (百年战争)",
+    "low": 69.6,
+    "last": 69.6
+  },
+  "5168430": {
+    "name": "4:12 AM",
+    "low": 59.0,
+    "last": 59.0
+  },
+  "4777330": {
+    "name": "Link Cameras",
+    "low": 18.7,
+    "last": 18.7
+  },
+  "5062020": {
+    "name": "House of the Lost: Revived",
+    "low": 33.6,
+    "last": 33.6
+  },
+  "4926160": {
+    "name": "Dice Sort Together: Arcane Hall",
+    "low": 15.2,
+    "last": 15.2
+  },
+  "4176000": {
+    "name": "False Myth 2",
+    "low": 90.0,
+    "last": 90.0
+  },
+  "4446030": {
+    "name": "Stellar Smash",
+    "low": 11.4,
+    "last": 11.4
+  },
+  "3727090": {
+    "name": "Horses of Hoofprint Bay",
+    "low": 57.8,
+    "last": 57.8
+  },
+  "3949040": {
+    "name": "我们到了吗？",
+    "low": 19.8,
+    "last": 19.8
+  },
+  "4139580": {
+    "name": "崩落之国",
+    "low": 42.0,
+    "last": 42.0
+  },
+  "5456160": {
+    "name": "Domino Together",
+    "low": 19.0,
+    "last": 19.0
+  },
+  "5441360": {
+    "name": "Localhost Hero",
+    "low": 44.8,
+    "last": 44.8
+  },
+  "5372430": {
+    "name": "Neuroflip",
+    "low": 16.5,
+    "last": 16.5
+  },
+  "4135930": {
+    "name": "斯凯尔的乌鸦",
+    "low": 25.2,
+    "last": 25.2
+  },
+  "5102640": {
+    "name": "Pawn'd Chess",
+    "low": 19.92,
+    "last": 19.92
+  },
+  "3319470": {
+    "name": "Don Bradman Cricket Jr",
+    "low": 148.0,
+    "last": 148.0
+  },
+  "5240400": {
+    "name": "Cozy~Fishing Kitten - Supporter Pack",
+    "low": 9.9,
+    "last": 9.9
+  },
+  "4188260": {
+    "name": "喵！一起摸鱼吧~",
+    "low": 25.2,
+    "last": 25.2
+  },
+  "5194660": {
+    "name": "Caesar: The Gallic Campaign",
+    "low": 41.6,
+    "last": 41.6
+  },
+  "5222450": {
+    "name": "Arcade City",
+    "low": 16.2,
+    "last": 16.2
+  },
+  "5450660": {
+    "name": "DOA6LR：凑“周末任务”组合包",
+    "low": 102.0,
+    "last": 102.0
+  },
+  "3432860": {
+    "name": "异病侦探",
+    "low": 58.5,
+    "last": 58.5
+  },
+  "5416450": {
+    "name": "蘑法失控（ShroomFrenzy）",
+    "low": 25.6,
+    "last": 25.6
+  },
+  "3826790": {
+    "name": "Ashen",
+    "low": 17.1,
+    "last": 17.1
   }
 }
