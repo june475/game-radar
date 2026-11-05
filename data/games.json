@@ -3,7 +3,8 @@
     "updated_at_cn": "2026-11-05 15:37",
     "version": "V4 review-context discovery",
     "note": "尝鲜榜不设价格或好评率硬门槛；查看近期简中差评关键词，区别争议类型。分析是辅助证据，不代表玩家差评全部属实或无效。",
-    "last_enrichment_utc": "2026-11-05T07:47:17.996350+00:00"
+    "last_enrichment_utc": "2026-11-05T07:47:17.996350+00:00",
+    "last_key_enrichment_utc": "2026-11-05T09:02:57.346187+00:00"
   },
   "counts": {
     "deal": 30,
@@ -2129,7 +2130,7 @@
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=559264996995895296",
           "kind": "reference",
           "subid": 694519,
-          "checked_at": "2026-11-05T07:36:54.946728+00:00"
+          "checked_at": "2026-11-05T09:02:57.346187+00:00"
         },
         {
           "platform": "SteamCiCi",
@@ -2182,9 +2183,14 @@
           "checked_at": "2026-11-03T03:34:29.068290+00:00",
           "next_retry_at": "2026-11-17T03:34:29.068290+00:00",
           "details": "1 DLC IDs"
+        },
+        "keys": {
+          "status": "success",
+          "checked_at": "2026-11-05T09:02:57.346187+00:00",
+          "next_retry_at": "2026-11-08T09:02:57.346187+00:00"
         }
       },
-      "key_status": "未核实实时在售",
+      "key_status": "参考报价，不代表实时库存",
       "key_reference_min": 5.0,
       "tracked_low": 11.55,
       "region_history_low": null
@@ -6138,8 +6144,14 @@
           "checked_at": "2026-11-05T07:47:17.996350+00:00",
           "next_retry_at": "2026-11-06T07:47:17.996350+00:00",
           "details": "official grade unavailable"
+        },
+        "keys": {
+          "status": "no_quote",
+          "checked_at": "2026-11-05T09:02:57.346187+00:00",
+          "next_retry_at": "2026-11-06T09:02:57.346187+00:00"
         }
-      }
+      },
+      "key_status": "暂无有效散 Key 参考价"
     },
     {
       "appid": 2485660,
@@ -6213,8 +6225,14 @@
           "checked_at": "2026-11-05T07:47:17.996350+00:00",
           "next_retry_at": "2026-11-06T07:47:17.996350+00:00",
           "details": "official grade unavailable"
+        },
+        "keys": {
+          "status": "no_quote",
+          "checked_at": "2026-11-05T09:02:57.346187+00:00",
+          "next_retry_at": "2026-11-06T09:02:57.346187+00:00"
         }
-      }
+      },
+      "key_status": "暂无有效散 Key 参考价"
     },
     {
       "appid": 2454000,
@@ -6290,8 +6308,14 @@
           "checked_at": "2026-11-05T07:47:17.996350+00:00",
           "next_retry_at": "2026-11-06T07:47:17.996350+00:00",
           "details": "official grade unavailable"
+        },
+        "keys": {
+          "status": "no_quote",
+          "checked_at": "2026-11-05T09:02:57.346187+00:00",
+          "next_retry_at": "2026-11-06T09:02:57.346187+00:00"
         }
-      }
+      },
+      "key_status": "暂无有效散 Key 参考价"
     },
     {
       "appid": 4575870,
