@@ -3,7 +3,7 @@
     "updated_at_cn": "2026-11-05 15:37",
     "version": "V4 review-context discovery",
     "note": "尝鲜榜不设价格或好评率硬门槛；查看近期简中差评关键词，区别争议类型。分析是辅助证据，不代表玩家差评全部属实或无效。",
-    "last_enrichment_utc": "2026-11-06T02:37:53.595076+00:00",
+    "last_enrichment_utc": "2026-11-06T03:37:27.165789+00:00",
     "last_key_enrichment_utc": "2026-11-05T21:50:34.949548+00:00"
   },
   "counts": {
@@ -2530,7 +2530,7 @@
       "epic_status": "历史库未匹配（未核实）",
       "epic_giveaway": null,
       "epic_source": "https://github.com/renshuki/efgtracker",
-      "dlc_status": "未自动核实",
+      "dlc_status": "Steam 商店关联 DLC 数量；不代表值得购买",
       "key_price": null,
       "key_source": null,
       "steam_historical_low": null,
@@ -2581,8 +2581,21 @@
           "checked_at": "2026-11-06T02:37:53.595076+00:00",
           "next_retry_at": "2026-11-07T02:37:53.595076+00:00",
           "details": "no verified official port record"
+        },
+        "dlc": {
+          "status": "success",
+          "checked_at": "2026-11-06T03:37:27.165789+00:00",
+          "next_retry_at": "2026-11-20T03:37:27.165789+00:00",
+          "details": "4 DLC IDs"
         }
-      }
+      },
+      "dlc_count": 4,
+      "dlc_appids": [
+        4838370,
+        4099830,
+        4100710,
+        4293030
+      ]
     },
     {
       "appid": 1296830,
@@ -5936,7 +5949,7 @@
       "epic_status": "历史库未匹配（未核实）",
       "epic_giveaway": null,
       "epic_source": "https://github.com/renshuki/efgtracker",
-      "dlc_status": "未自动核实",
+      "dlc_status": "Steam 商店关联 DLC 数量；不代表值得购买",
       "key_price": null,
       "key_source": null,
       "steam_historical_low": null,
@@ -5976,8 +5989,16 @@
           "checked_at": "2026-11-06T02:37:53.595076+00:00",
           "next_retry_at": "2026-11-07T02:37:53.595076+00:00",
           "details": "no verified official port record"
+        },
+        "dlc": {
+          "status": "success",
+          "checked_at": "2026-11-06T03:37:27.165789+00:00",
+          "next_retry_at": "2026-11-20T03:37:27.165789+00:00",
+          "details": "0 DLC IDs"
         }
-      }
+      },
+      "dlc_count": 0,
+      "dlc_appids": []
     },
     {
       "appid": 1503580,
@@ -6190,7 +6211,7 @@
       "epic_status": "历史库未匹配（未核实）",
       "epic_giveaway": null,
       "epic_source": "https://github.com/renshuki/efgtracker",
-      "dlc_status": "未自动核实",
+      "dlc_status": "Steam 商店关联 DLC 数量；不代表值得购买",
       "key_price": null,
       "key_source": null,
       "steam_historical_low": null,
@@ -6236,8 +6257,16 @@
           "checked_at": "2026-11-06T02:37:53.595076+00:00",
           "next_retry_at": "2026-11-07T02:37:53.595076+00:00",
           "details": "no verified official port record"
+        },
+        "dlc": {
+          "status": "success",
+          "checked_at": "2026-11-06T03:37:27.165789+00:00",
+          "next_retry_at": "2026-11-20T03:37:27.165789+00:00",
+          "details": "0 DLC IDs"
         }
-      }
+      },
+      "dlc_count": 0,
+      "dlc_appids": []
     },
     {
       "appid": 2528850,
@@ -6538,7 +6567,7 @@
       "epic_status": "历史库未匹配（未核实）",
       "epic_giveaway": null,
       "epic_source": "https://github.com/renshuki/efgtracker",
-      "dlc_status": "未自动核实",
+      "dlc_status": "Steam 商店关联 DLC 数量；不代表值得购买",
       "key_price": null,
       "key_source": null,
       "steam_historical_low": null,
@@ -6589,9 +6618,17 @@
           "checked_at": "2026-11-06T02:37:53.595076+00:00",
           "next_retry_at": "2026-11-07T02:37:53.595076+00:00",
           "details": "no verified official port record"
+        },
+        "dlc": {
+          "status": "success",
+          "checked_at": "2026-11-06T03:37:27.165789+00:00",
+          "next_retry_at": "2026-11-20T03:37:27.165789+00:00",
+          "details": "0 DLC IDs"
         }
       },
-      "key_status": "暂无有效散 Key 参考价"
+      "key_status": "暂无有效散 Key 参考价",
+      "dlc_count": 0,
+      "dlc_appids": []
     },
     {
       "appid": 4575870,
@@ -6720,7 +6757,7 @@
       "epic_status": "历史库未匹配（未核实）",
       "epic_giveaway": null,
       "epic_source": "https://github.com/renshuki/efgtracker",
-      "dlc_status": "未自动核实",
+      "dlc_status": "Steam 商店关联 DLC 数量；不代表值得购买",
       "key_price": null,
       "key_source": null,
       "steam_historical_low": null,
@@ -6769,11 +6806,19 @@
           "checked_at": "2026-11-06T02:37:53.595076+00:00",
           "next_retry_at": "2026-11-07T02:37:53.595076+00:00",
           "details": "no verified official port record"
+        },
+        "dlc": {
+          "status": "success",
+          "checked_at": "2026-11-06T03:37:27.165789+00:00",
+          "next_retry_at": "2026-11-20T03:37:27.165789+00:00",
+          "details": "0 DLC IDs"
         }
       },
       "key_status": "暂无有效散 Key 参考价",
       "key_reference_min": null,
-      "tracked_low": 2.5
+      "tracked_low": 2.5,
+      "dlc_count": 0,
+      "dlc_appids": []
     },
     {
       "appid": 2597500,
