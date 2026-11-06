@@ -3,7 +3,7 @@
     "updated_at_cn": "2026-11-06 15:34",
     "version": "V4 review-context discovery",
     "note": "尝鲜榜不设价格或好评率硬门槛；查看近期简中差评关键词，区别争议类型。分析是辅助证据，不代表玩家差评全部属实或无效。",
-    "last_enrichment_utc": "2026-11-06T19:24:40.218405+00:00",
+    "last_enrichment_utc": "2026-11-06T21:59:17.634762+00:00",
     "last_key_enrichment_utc": "2026-11-06T21:43:52.625564+00:00"
   },
   "counts": {
@@ -395,8 +395,8 @@
         },
         "reviews": {
           "status": "no_data",
-          "checked_at": "2026-11-04T19:24:08.750101+00:00",
-          "next_retry_at": "2026-11-06T19:24:08.750101+00:00",
+          "checked_at": "2026-11-06T21:59:17.634762+00:00",
+          "next_retry_at": "2026-11-08T21:59:17.634762+00:00",
           "details": "negative reviews unavailable"
         },
         "deck": {
@@ -1017,8 +1017,8 @@
         },
         "reviews": {
           "status": "no_data",
-          "checked_at": "2026-11-04T19:24:08.750101+00:00",
-          "next_retry_at": "2026-11-06T19:24:08.750101+00:00",
+          "checked_at": "2026-11-06T21:59:17.634762+00:00",
+          "next_retry_at": "2026-11-08T21:59:17.634762+00:00",
           "details": "negative reviews unavailable"
         },
         "deck": {
@@ -5467,8 +5467,8 @@
       "enrichment_status": {
         "reviews": {
           "status": "no_data",
-          "checked_at": "2026-11-04T04:18:42.931338+00:00",
-          "next_retry_at": "2026-11-06T04:18:42.931338+00:00",
+          "checked_at": "2026-11-06T21:59:17.634762+00:00",
+          "next_retry_at": "2026-11-08T21:59:17.634762+00:00",
           "details": "negative reviews unavailable"
         },
         "deck": {
@@ -5646,8 +5646,8 @@
       "enrichment_status": {
         "reviews": {
           "status": "no_data",
-          "checked_at": "2026-11-02T13:33:51.111574+00:00",
-          "next_retry_at": "2026-11-04T13:33:51.111574+00:00",
+          "checked_at": "2026-11-06T21:59:17.634762+00:00",
+          "next_retry_at": "2026-11-08T21:59:17.634762+00:00",
           "details": "negative reviews unavailable"
         },
         "deck": {
@@ -5842,8 +5842,8 @@
         },
         "reviews": {
           "status": "no_data",
-          "checked_at": "2026-11-04T19:24:08.750101+00:00",
-          "next_retry_at": "2026-11-06T19:24:08.750101+00:00",
+          "checked_at": "2026-11-06T21:59:17.634762+00:00",
+          "next_retry_at": "2026-11-08T21:59:17.634762+00:00",
           "details": "negative reviews unavailable"
         },
         "deck": {
