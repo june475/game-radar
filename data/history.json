@@ -1677,7 +1677,7 @@
   "2527500": {
     "name": "米塔 MiSide",
     "low": 41.6,
-    "last": 41.6
+    "last": 52.0
   },
   "2436110": {
     "name": "KARNAL",
@@ -2617,7 +2617,7 @@
   "207610": {
     "name": "The Walking Dead",
     "low": 11.6,
-    "last": 11.6
+    "last": 58.0
   },
   "2109270": {
     "name": "东篱之下",
@@ -2637,12 +2637,12 @@
   "5171060": {
     "name": "Pirouette & Smile",
     "low": 2.5,
-    "last": 2.5
+    "last": 5.0
   },
   "4064510": {
     "name": "MOLE",
     "low": 36.0,
-    "last": 36.0
+    "last": 48.0
   },
   "5339300": {
     "name": "猫咪之家 CatHome",
@@ -7008,5 +7008,515 @@
     "name": "Ashen",
     "low": 17.1,
     "last": 17.1
+  },
+  "3779560": {
+    "name": "苍蓝魔导士露娜　～天才魔导士与传奇魔导士～",
+    "low": 43.2,
+    "last": 43.2
+  },
+  "5062560": {
+    "name": "Pathos",
+    "low": 70.0,
+    "last": 70.0
+  },
+  "5218140": {
+    "name": "Fertile Crescent",
+    "low": 42.75,
+    "last": 42.75
+  },
+  "3581230": {
+    "name": "Cozy Game Restoration",
+    "low": 59.0,
+    "last": 59.0
+  },
+  "5344290": {
+    "name": "Make it! Karaage",
+    "low": 20.59,
+    "last": 20.59
+  },
+  "5348470": {
+    "name": "CrossVeil",
+    "low": 47.2,
+    "last": 47.2
+  },
+  "4935230": {
+    "name": "Red Glare The Reckoning",
+    "low": 53.1,
+    "last": 53.1
+  },
+  "5279240": {
+    "name": "FarmLife",
+    "low": 33.6,
+    "last": 33.6
+  },
+  "5380710": {
+    "name": "Bullet Paint",
+    "low": 10.33,
+    "last": 10.33
+  },
+  "5433310": {
+    "name": "Hounded Reborn Greyhound Racing",
+    "low": 15.2,
+    "last": 15.2
+  },
+  "2265280": {
+    "name": "Kill King 2D",
+    "low": 23.4,
+    "last": 23.4
+  },
+  "5316530": {
+    "name": "Call of Hegalia",
+    "low": 6.0,
+    "last": 6.0
+  },
+  "5460640": {
+    "name": "Rockhound Hollow",
+    "low": 28.0,
+    "last": 28.0
+  },
+  "4105360": {
+    "name": "The Lucky Hive",
+    "low": 24.65,
+    "last": 24.65
+  },
+  "4171800": {
+    "name": "Storm Grill",
+    "low": 12.0,
+    "last": 12.0
+  },
+  "1130410": {
+    "name": "Cyber Hook",
+    "low": 37.5,
+    "last": 37.5
+  },
+  "5460510": {
+    "name": "Cozy Witch Store",
+    "low": 18.37,
+    "last": 18.37
+  },
+  "3059040": {
+    "name": "Cat-Astrophy",
+    "low": 53.1,
+    "last": 53.1
+  },
+  "4564400": {
+    "name": "THE HALLWAY",
+    "low": 11.0,
+    "last": 11.0
+  },
+  "5281910": {
+    "name": "War Of The Twelve",
+    "low": 28.0,
+    "last": 28.0
+  },
+  "5211940": {
+    "name": "九州",
+    "low": 52.2,
+    "last": 52.2
+  },
+  "5317740": {
+    "name": "Something in the Rows",
+    "low": 37.8,
+    "last": 37.8
+  },
+  "4756250": {
+    "name": "WizKitty and the Tower of Doom, Gloom, and Other Bad Stuff",
+    "low": 33.75,
+    "last": 33.75
+  },
+  "5194150": {
+    "name": "Zukontide",
+    "low": 17.6,
+    "last": 17.6
+  },
+  "4962500": {
+    "name": "Dread Rune",
+    "low": 13.2,
+    "last": 13.2
+  },
+  "3933710": {
+    "name": "My Car My Life",
+    "low": 8.25,
+    "last": 8.25
+  },
+  "5411580": {
+    "name": "Block Guy",
+    "low": 19.0,
+    "last": 19.0
+  },
+  "4269100": {
+    "name": "What'Sub",
+    "low": 28.05,
+    "last": 28.05
+  },
+  "2766210": {
+    "name": "Arcanos One",
+    "low": 52.0,
+    "last": 52.0
+  },
+  "4539850": {
+    "name": "Magic Portals",
+    "low": 29.0,
+    "last": 29.0
+  },
+  "4347370": {
+    "name": "Next of Kin: Epiphany",
+    "low": 33.6,
+    "last": 33.6
+  },
+  "4710800": {
+    "name": "Endless Void: Idle Tower Defence",
+    "low": 19.8,
+    "last": 19.8
+  },
+  "4916010": {
+    "name": "Shorted",
+    "low": 24.65,
+    "last": 24.65
+  },
+  "5371500": {
+    "name": "Cats Here",
+    "low": 6.6,
+    "last": 6.6
+  },
+  "4280450": {
+    "name": "Diskette Dungeon",
+    "low": 29.75,
+    "last": 29.75
+  },
+  "4952800": {
+    "name": "Ablahshikar",
+    "low": 38.0,
+    "last": 38.0
+  },
+  "4646190": {
+    "name": "Just Dying",
+    "low": 26.35,
+    "last": 26.35
+  },
+  "3133120": {
+    "name": "Minesweeper Sonar",
+    "low": 24.65,
+    "last": 24.65
+  },
+  "3325390": {
+    "name": "Slumber Realm",
+    "low": 43.2,
+    "last": 43.2
+  },
+  "3491960": {
+    "name": "阈限迷失边缘",
+    "low": 30.24,
+    "last": 30.24
+  },
+  "5091900": {
+    "name": "Prigod Idle",
+    "low": 26.4,
+    "last": 26.4
+  },
+  "4555040": {
+    "name": "Sushiamo",
+    "low": 40.0,
+    "last": 40.0
+  },
+  "5480070": {
+    "name": "Heroes of Underhollow",
+    "low": 7.8,
+    "last": 7.8
+  },
+  "5106940": {
+    "name": "Rind Town",
+    "low": 14.25,
+    "last": 14.25
+  },
+  "4646650": {
+    "name": "面条电缆",
+    "low": 29.0,
+    "last": 29.0
+  },
+  "2995290": {
+    "name": "King's Heart",
+    "low": 29.7,
+    "last": 29.7
+  },
+  "4891380": {
+    "name": "Nino: the Persuader",
+    "low": 5.0,
+    "last": 5.0
+  },
+  "5423800": {
+    "name": "Space Kingdoms",
+    "low": 16.8,
+    "last": 16.8
+  },
+  "5176400": {
+    "name": "Cyan Moon - The Simulation Program",
+    "low": 12.69,
+    "last": 12.69
+  },
+  "508680": {
+    "name": "Domino VR",
+    "low": 33.0,
+    "last": 33.0
+  },
+  "4644460": {
+    "name": "We Are Rebellion",
+    "low": 77.44,
+    "last": 77.44
+  },
+  "5047110": {
+    "name": "Wardspire",
+    "low": 35.0,
+    "last": 35.0
+  },
+  "5134960": {
+    "name": "Superpower Hold'em",
+    "low": 13.5,
+    "last": 13.5
+  },
+  "4783460": {
+    "name": "Double Skunk",
+    "low": 25.2,
+    "last": 25.2
+  },
+  "5186640": {
+    "name": "SEEDS - Echoes Beneath the Sands",
+    "low": 59.0,
+    "last": 59.0
+  },
+  "1146510": {
+    "name": "Deep Sleep Trilogy",
+    "low": 5.5,
+    "last": 5.5
+  },
+  "5472340": {
+    "name": "Impossible Draw",
+    "low": 29.75,
+    "last": 29.75
+  },
+  "2615540": {
+    "name": "虚空破坏者",
+    "low": 69.0,
+    "last": 69.0
+  },
+  "4906780": {
+    "name": "Meme Farm",
+    "low": 2.5,
+    "last": 2.5
+  },
+  "5072070": {
+    "name": "Souterrain",
+    "low": 35.1,
+    "last": 35.1
+  },
+  "4796230": {
+    "name": "Höllenburg, Hell Castle",
+    "low": 59.0,
+    "last": 59.0
+  },
+  "3161960": {
+    "name": "Missi",
+    "low": 24.0,
+    "last": 24.0
+  },
+  "4960380": {
+    "name": "Isle Of Thundir",
+    "low": 31.98,
+    "last": 31.98
+  },
+  "5283340": {
+    "name": "瘟疫公司：桌游版",
+    "low": 23.4,
+    "last": 23.4
+  },
+  "3304110": {
+    "name": "868-BACK",
+    "low": 53.9,
+    "last": 53.9
+  },
+  "2056530": {
+    "name": "Laser Lightshow",
+    "low": 61.6,
+    "last": 61.6
+  },
+  "5094940": {
+    "name": "Cardsharp",
+    "low": 17.6,
+    "last": 17.6
+  },
+  "3889990": {
+    "name": "rest: in a dark room",
+    "low": 19.0,
+    "last": 19.0
+  },
+  "4840010": {
+    "name": "Fathom Reach",
+    "low": 32.4,
+    "last": 32.4
+  },
+  "1694640": {
+    "name": "Absurd Chess",
+    "low": 2.5,
+    "last": 2.5
+  },
+  "2386910": {
+    "name": "Starshapes",
+    "low": 14.4,
+    "last": 14.4
+  },
+  "1548180": {
+    "name": "以邪神之名",
+    "low": 43.5,
+    "last": 43.5
+  },
+  "5024920": {
+    "name": "桌面史莱姆墓场：指尖收割者",
+    "low": 7.99,
+    "last": 7.99
+  },
+  "4326740": {
+    "name": "Node Crown",
+    "low": 59.5,
+    "last": 59.5
+  },
+  "5418640": {
+    "name": "Chopstick Together",
+    "low": 19.0,
+    "last": 19.0
+  },
+  "2847290": {
+    "name": "The Maze: In Dark",
+    "low": 18.7,
+    "last": 18.7
+  },
+  "5459170": {
+    "name": "Bustbound",
+    "low": 16.15,
+    "last": 16.15
+  },
+  "3855530": {
+    "name": "Turning Manor",
+    "low": 50.15,
+    "last": 50.15
+  },
+  "4977850": {
+    "name": "Bokcuks",
+    "low": 23.8,
+    "last": 23.8
+  },
+  "4811700": {
+    "name": "Mancalero",
+    "low": 46.8,
+    "last": 46.8
+  },
+  "4095800": {
+    "name": "The Failed",
+    "low": 10.0,
+    "last": 10.0
+  },
+  "5098820": {
+    "name": "Cute Kitty WAR",
+    "low": 22.0,
+    "last": 22.0
+  },
+  "4996220": {
+    "name": "Dunjin",
+    "low": 32.0,
+    "last": 32.0
+  },
+  "5432290": {
+    "name": "奶蛙坤坤大战外星人（不要对游戏过度解读，我自己都不知道自己想要表达什么）",
+    "low": 3.5,
+    "last": 3.5
+  },
+  "5405590": {
+    "name": "趴趴小猫 - 小游戏合集",
+    "low": 13.3,
+    "last": 13.3
+  },
+  "3082430": {
+    "name": "Tamzin Twins: The Tyranny of Tyrek",
+    "low": 83.7,
+    "last": 83.7
+  },
+  "5137810": {
+    "name": "Scraplings",
+    "low": 23.2,
+    "last": 23.2
+  },
+  "4428910": {
+    "name": "Slots & Skulls",
+    "low": 17.1,
+    "last": 17.1
+  },
+  "4876620": {
+    "name": "三国志:进击",
+    "low": 63.2,
+    "last": 63.2
+  },
+  "5315560": {
+    "name": "Sort Them Socks",
+    "low": 17.6,
+    "last": 17.6
+  },
+  "4611210": {
+    "name": "Crimson Solstice",
+    "low": 52.0,
+    "last": 52.0
+  },
+  "2160360": {
+    "name": "Aero GPX",
+    "low": 60.8,
+    "last": 60.8
+  },
+  "1211600": {
+    "name": "隔离区-丧尸末日生存",
+    "low": 28.8,
+    "last": 28.8
+  },
+  "5345300": {
+    "name": "捕快: Constable of a Ming County",
+    "low": 17.6,
+    "last": 17.6
+  },
+  "815370": {
+    "name": "绿色地狱",
+    "low": 8.0,
+    "last": 8.0
+  },
+  "5345290": {
+    "name": "Kaiten - Sushi Deckbuilder",
+    "low": 17.6,
+    "last": 17.6
+  },
+  "5130510": {
+    "name": "Gemwise",
+    "low": 16.2,
+    "last": 16.2
+  },
+  "3471360": {
+    "name": "忒伊亚：灵魂之塔",
+    "low": 45.0,
+    "last": 45.0
+  },
+  "3984420": {
+    "name": "Low Earth Orbit Adventures",
+    "low": 42.0,
+    "last": 42.0
+  },
+  "5374650": {
+    "name": "Last Call: Bar Simulator",
+    "low": 48.0,
+    "last": 48.0
+  },
+  "5008910": {
+    "name": "《使命召唤®：现代战争® 4》黑色组织（第1赛季）",
+    "low": 195.0,
+    "last": 195.0
+  },
+  "3060830": {
+    "name": "降临之地",
+    "low": 36.0,
+    "last": 36.0
   }
 }
