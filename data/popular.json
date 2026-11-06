@@ -1,37 +1,10 @@
 {
   "meta": {
-    "updated_at_cn": "2026-11-05 16:21",
+    "updated_at_cn": "2026-11-06 16:17",
     "rank_source": "Steam 国区热销榜（热销顺序，不代表在线人数）",
     "checked": 30
   },
   "games": [
-    {
-      "appid": 578080,
-      "name": "PUBG: BATTLEGROUNDS",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/578080/841ea38bc58cabb70aef65365cf50bc2d79329d9/header.jpg?t=1792718193",
-      "url": "https://store.steampowered.com/app/578080/?cc=cn&l=schinese",
-      "category": "popular",
-      "price": 0.0,
-      "steam_subids": [],
-      "key_offers": [],
-      "enrichment_status": {},
-      "original_price": 0.0,
-      "discount": 0,
-      "release_date": "2017 年 12 月 21 日",
-      "genres": [
-        "动作",
-        "冒险",
-        "大型多人在线",
-        "免费开玩"
-      ],
-      "tags": [
-        "Steam 热销"
-      ],
-      "why": "来自 Steam 热销榜，不限制折扣、不按个人喜好筛选",
-      "popularity_rank": 1,
-      "review": "Steam 评价未在本榜单单独核实",
-      "negative_review_analysis": null
-    },
     {
       "appid": 4115450,
       "name": "影之刃零",
@@ -51,6 +24,33 @@
       "genres": [
         "动作",
         "角色扮演"
+      ],
+      "tags": [
+        "Steam 热销"
+      ],
+      "why": "来自 Steam 热销榜，不限制折扣、不按个人喜好筛选",
+      "popularity_rank": 1,
+      "review": "Steam 评价未在本榜单单独核实",
+      "negative_review_analysis": null
+    },
+    {
+      "appid": 578080,
+      "name": "PUBG: BATTLEGROUNDS",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/578080/841ea38bc58cabb70aef65365cf50bc2d79329d9/header.jpg?t=1792718193",
+      "url": "https://store.steampowered.com/app/578080/?cc=cn&l=schinese",
+      "category": "popular",
+      "price": 0.0,
+      "steam_subids": [],
+      "key_offers": [],
+      "enrichment_status": {},
+      "original_price": 0.0,
+      "discount": 0,
+      "release_date": "2017 年 12 月 21 日",
+      "genres": [
+        "动作",
+        "冒险",
+        "大型多人在线",
+        "免费开玩"
       ],
       "tags": [
         "Steam 热销"
@@ -88,35 +88,9 @@
       "negative_review_analysis": null
     },
     {
-      "appid": 1172470,
-      "name": "Apex Legends™",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/4219c147f1e094297c726d537518babba7f3ae2d/header.jpg?t=1793731328",
-      "url": "https://store.steampowered.com/app/1172470/?cc=cn&l=schinese",
-      "category": "popular",
-      "price": 0.0,
-      "steam_subids": [],
-      "key_offers": [],
-      "enrichment_status": {},
-      "original_price": 0.0,
-      "discount": 0,
-      "release_date": "2020 年 11 月 4 日",
-      "genres": [
-        "动作",
-        "冒险",
-        "免费开玩"
-      ],
-      "tags": [
-        "Steam 热销"
-      ],
-      "why": "来自 Steam 热销榜，不限制折扣、不按个人喜好筛选",
-      "popularity_rank": 4,
-      "review": "Steam 评价未在本榜单单独核实",
-      "negative_review_analysis": null
-    },
-    {
       "appid": 4348910,
       "name": "深空当铺：可能是偷的",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4348910/d9938fa30354c82c9549c17864145e3e92e23847/header_alt_assets_3_schinese.jpg?t=1793801444",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4348910/d9938fa30354c82c9549c17864145e3e92e23847/header_alt_assets_3_schinese.jpg?t=1793942460",
       "url": "https://store.steampowered.com/app/4348910/?cc=cn&l=schinese",
       "category": "popular",
       "price": 49.5,
@@ -138,7 +112,59 @@
         "Steam 热销"
       ],
       "why": "来自 Steam 热销榜，不限制折扣、不按个人喜好筛选",
+      "popularity_rank": 4,
+      "review": "Steam 评价未在本榜单单独核实",
+      "negative_review_analysis": null
+    },
+    {
+      "appid": 1172470,
+      "name": "Apex Legends™",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/4219c147f1e094297c726d537518babba7f3ae2d/header.jpg?t=1793909605",
+      "url": "https://store.steampowered.com/app/1172470/?cc=cn&l=schinese",
+      "category": "popular",
+      "price": 0.0,
+      "steam_subids": [],
+      "key_offers": [],
+      "enrichment_status": {},
+      "original_price": 0.0,
+      "discount": 0,
+      "release_date": "2020 年 11 月 4 日",
+      "genres": [
+        "动作",
+        "冒险",
+        "免费开玩"
+      ],
+      "tags": [
+        "Steam 热销"
+      ],
+      "why": "来自 Steam 热销榜，不限制折扣、不按个人喜好筛选",
       "popularity_rank": 5,
+      "review": "Steam 评价未在本榜单单独核实",
+      "negative_review_analysis": null
+    },
+    {
+      "appid": 1449850,
+      "name": "Yu-Gi-Oh! Master Duel",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1449850/c3f87e2374fab93f9f05661493bdf4e43ea70776/header.jpg?t=1793252158",
+      "url": "https://store.steampowered.com/app/1449850/?cc=cn&l=schinese",
+      "category": "popular",
+      "price": 0.0,
+      "steam_subids": [],
+      "key_offers": [],
+      "enrichment_status": {},
+      "original_price": 0.0,
+      "discount": 0,
+      "release_date": "2022 年 1 月 18 日",
+      "genres": [
+        "模拟",
+        "策略",
+        "免费开玩"
+      ],
+      "tags": [
+        "Steam 热销"
+      ],
+      "why": "来自 Steam 热销榜，不限制折扣、不按个人喜好筛选",
+      "popularity_rank": 6,
       "review": "Steam 评价未在本榜单单独核实",
       "negative_review_analysis": null
     },
@@ -165,21 +191,26 @@
         "Steam 热销"
       ],
       "why": "来自 Steam 热销榜，不限制折扣、不按个人喜好筛选",
-      "popularity_rank": 6,
+      "popularity_rank": 7,
       "review": "Steam 评价未在本榜单单独核实",
       "negative_review_analysis": null
     },
     {
       "appid": 4435490,
       "name": "Call of Duty®: Modern Warfare® 4",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/79d905167ca63114aea0e52cf12111c3c3f5b81e/header_schinese.jpg?t=1793833638",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/79d905167ca63114aea0e52cf12111c3c3f5b81e/header_schinese.jpg?t=1793941334",
       "url": "https://store.steampowered.com/app/4435490/?cc=cn&l=schinese",
       "category": "popular",
       "price": 298.0,
       "steam_subids": [
         1743482,
         1641553,
-        1743485
+        1743485,
+        777136,
+        777139,
+        777142,
+        777145,
+        777148
       ],
       "key_offers": [],
       "enrichment_status": {},
@@ -193,7 +224,40 @@
         "Steam 热销"
       ],
       "why": "来自 Steam 热销榜，不限制折扣、不按个人喜好筛选",
-      "popularity_rank": 7,
+      "popularity_rank": 8,
+      "review": "Steam 评价未在本榜单单独核实",
+      "negative_review_analysis": null
+    },
+    {
+      "appid": 1938090,
+      "name": "使命召唤®",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1938090/1f9949d97579ff1effbb97bedac5f5b1900bf947/header_schinese.jpg?t=1793941964",
+      "url": "https://store.steampowered.com/app/1938090/?cc=cn&l=schinese",
+      "category": "popular",
+      "price": null,
+      "steam_subids": [
+        777136,
+        777139,
+        777142,
+        777145,
+        777148,
+        777151,
+        777154,
+        1430343
+      ],
+      "key_offers": [],
+      "enrichment_status": {},
+      "original_price": null,
+      "discount": 0,
+      "release_date": "2022 年 10 月 27 日",
+      "genres": [
+        "动作"
+      ],
+      "tags": [
+        "Steam 热销"
+      ],
+      "why": "来自 Steam 热销榜，不限制折扣、不按个人喜好筛选",
+      "popularity_rank": 9,
       "review": "Steam 评价未在本榜单单独核实",
       "negative_review_analysis": null
     },
@@ -223,65 +287,40 @@
         "Steam 热销"
       ],
       "why": "来自 Steam 热销榜，不限制折扣、不按个人喜好筛选",
-      "popularity_rank": 8,
+      "popularity_rank": 10,
       "review": "Steam 评价未在本榜单单独核实",
       "negative_review_analysis": null
     },
     {
-      "appid": 3240220,
-      "name": "Grand Theft Auto V 增强版",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header_schinese.jpg?t=1781187782",
-      "url": "https://store.steampowered.com/app/3240220/?cc=cn&l=schinese",
-      "category": "popular",
-      "price": 74.5,
-      "steam_subids": [
-        1148516,
-        1251933,
-        1229928
-      ],
-      "key_offers": [],
-      "enrichment_status": {},
-      "original_price": 149.0,
-      "discount": 50,
-      "release_date": "2025 年 3 月 4 日",
-      "genres": [
-        "动作",
-        "冒险",
-        "竞速"
-      ],
-      "tags": [
-        "Steam 热销"
-      ],
-      "why": "来自 Steam 热销榜，不限制折扣、不按个人喜好筛选",
-      "popularity_rank": 9,
-      "review": "Steam 评价未在本榜单单独核实",
-      "negative_review_analysis": null
-    },
-    {
-      "appid": 230410,
-      "name": "Warframe 星际战甲",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/230410/1a3e7c2a05ce4e5cad5ac4c7e858cf5b0934704e/header.jpg?t=1792613117",
-      "url": "https://store.steampowered.com/app/230410/?cc=cn&l=schinese",
+      "appid": 1962663,
+      "name": "使命召唤®：战争地带™",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1962663/c5be0e42beb9bc881855e5d8cbac003576c0ab4c/header.jpg?t=1793941339",
+      "url": "https://store.steampowered.com/app/1962663/?cc=cn&l=schinese",
       "category": "popular",
       "price": 0.0,
       "steam_subids": [
-        199291
+        777136,
+        777139,
+        777142,
+        777145,
+        777148,
+        777151,
+        777154
       ],
       "key_offers": [],
       "enrichment_status": {},
       "original_price": 0.0,
       "discount": 0,
-      "release_date": "2013 年 3 月 25 日",
+      "release_date": "2022 年 11 月 16 日",
       "genres": [
         "动作",
-        "角色扮演",
         "免费开玩"
       ],
       "tags": [
         "Steam 热销"
       ],
       "why": "来自 Steam 热销榜，不限制折扣、不按个人喜好筛选",
-      "popularity_rank": 10,
+      "popularity_rank": 11,
       "review": "Steam 评价未在本榜单单独核实",
       "negative_review_analysis": null
     },
@@ -311,58 +350,29 @@
         "Steam 热销"
       ],
       "why": "来自 Steam 热销榜，不限制折扣、不按个人喜好筛选",
-      "popularity_rank": 11,
-      "review": "Steam 评价未在本榜单单独核实",
-      "negative_review_analysis": null
-    },
-    {
-      "appid": 1942280,
-      "name": "土豆兄弟(Brotato)",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1942280/bfffede6a14a1979cc69e35b568d8868fe0b016b/header_alt_assets_4_schinese.jpg?t=1793641955",
-      "url": "https://store.steampowered.com/app/1942280/?cc=cn&l=schinese",
-      "category": "popular",
-      "price": 11.0,
-      "steam_subids": [
-        699833
-      ],
-      "key_offers": [],
-      "enrichment_status": {},
-      "original_price": 22.0,
-      "discount": 50,
-      "release_date": "2023 年 6 月 23 日",
-      "genres": [
-        "动作",
-        "休闲",
-        "独立",
-        "角色扮演"
-      ],
-      "tags": [
-        "Steam 热销"
-      ],
-      "why": "来自 Steam 热销榜，不限制折扣、不按个人喜好筛选",
       "popularity_rank": 12,
       "review": "Steam 评价未在本榜单单独核实",
       "negative_review_analysis": null
     },
     {
-      "appid": 648800,
-      "name": "Raft",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/648800/header.jpg?t=1727184011",
-      "url": "https://store.steampowered.com/app/648800/?cc=cn&l=schinese",
+      "appid": 230410,
+      "name": "Warframe 星际战甲",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/230410/1a3e7c2a05ce4e5cad5ac4c7e858cf5b0934704e/header.jpg?t=1792613117",
+      "url": "https://store.steampowered.com/app/230410/?cc=cn&l=schinese",
       "category": "popular",
-      "price": 51.59,
+      "price": 0.0,
       "steam_subids": [
-        182468
+        199291
       ],
       "key_offers": [],
       "enrichment_status": {},
-      "original_price": 77.0,
-      "discount": 33,
-      "release_date": "2022 年 6 月 20 日",
+      "original_price": 0.0,
+      "discount": 0,
+      "release_date": "2013 年 3 月 25 日",
       "genres": [
-        "冒险",
-        "独立",
-        "模拟"
+        "动作",
+        "角色扮演",
+        "免费开玩"
       ],
       "tags": [
         "Steam 热销"
@@ -400,6 +410,69 @@
       "negative_review_analysis": null
     },
     {
+      "appid": 4080220,
+      "name": "EA SPORTS FC™ 27",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4080220/ff6a3779f1ca83aae8ad3878454f6c11008ea24d/header.jpg?t=1793610006",
+      "url": "https://store.steampowered.com/app/4080220/?cc=cn&l=schinese",
+      "category": "popular",
+      "price": 248.0,
+      "steam_subids": [
+        1430460,
+        1614928,
+        1508824,
+        1508795,
+        1508804,
+        1508799,
+        1508797,
+        1508801
+      ],
+      "key_offers": [],
+      "enrichment_status": {},
+      "original_price": 248.0,
+      "discount": 0,
+      "release_date": "2026 年 9 月 24 日",
+      "genres": [
+        "模拟",
+        "体育"
+      ],
+      "tags": [
+        "Steam 热销"
+      ],
+      "why": "来自 Steam 热销榜，不限制折扣、不按个人喜好筛选",
+      "popularity_rank": 15,
+      "review": "Steam 评价未在本榜单单独核实",
+      "negative_review_analysis": null
+    },
+    {
+      "appid": 1942280,
+      "name": "土豆兄弟(Brotato)",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1942280/bfffede6a14a1979cc69e35b568d8868fe0b016b/header_alt_assets_4_schinese.jpg?t=1793641955",
+      "url": "https://store.steampowered.com/app/1942280/?cc=cn&l=schinese",
+      "category": "popular",
+      "price": 11.0,
+      "steam_subids": [
+        699833
+      ],
+      "key_offers": [],
+      "enrichment_status": {},
+      "original_price": 22.0,
+      "discount": 50,
+      "release_date": "2023 年 6 月 23 日",
+      "genres": [
+        "动作",
+        "休闲",
+        "独立",
+        "角色扮演"
+      ],
+      "tags": [
+        "Steam 热销"
+      ],
+      "why": "来自 Steam 热销榜，不限制折扣、不按个人喜好筛选",
+      "popularity_rank": 16,
+      "review": "Steam 评价未在本榜单单独核实",
+      "negative_review_analysis": null
+    },
+    {
       "appid": 4530370,
       "name": "足球经理27",
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4530370/32b53669681b37890de52a4d1861ddbc1077c22b/header_alt_assets_0_schinese.jpg?t=1793811008",
@@ -423,7 +496,37 @@
         "Steam 热销"
       ],
       "why": "来自 Steam 热销榜，不限制折扣、不按个人喜好筛选",
-      "popularity_rank": 15,
+      "popularity_rank": 17,
+      "review": "Steam 评价未在本榜单单独核实",
+      "negative_review_analysis": null
+    },
+    {
+      "appid": 3240220,
+      "name": "Grand Theft Auto V 增强版",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header_schinese.jpg?t=1781187782",
+      "url": "https://store.steampowered.com/app/3240220/?cc=cn&l=schinese",
+      "category": "popular",
+      "price": 149.0,
+      "steam_subids": [
+        1148516,
+        1251933,
+        1229928
+      ],
+      "key_offers": [],
+      "enrichment_status": {},
+      "original_price": 149.0,
+      "discount": 0,
+      "release_date": "2025 年 3 月 4 日",
+      "genres": [
+        "动作",
+        "冒险",
+        "竞速"
+      ],
+      "tags": [
+        "Steam 热销"
+      ],
+      "why": "来自 Steam 热销榜，不限制折扣、不按个人喜好筛选",
+      "popularity_rank": 18,
       "review": "Steam 评价未在本榜单单独核实",
       "negative_review_analysis": null
     },
@@ -455,7 +558,7 @@
         "Steam 热销"
       ],
       "why": "来自 Steam 热销榜，不限制折扣、不按个人喜好筛选",
-      "popularity_rank": 16,
+      "popularity_rank": 19,
       "review": "Steam 评价未在本榜单单独核实",
       "negative_review_analysis": null
     },
@@ -485,40 +588,14 @@
         "Steam 热销"
       ],
       "why": "来自 Steam 热销榜，不限制折扣、不按个人喜好筛选",
-      "popularity_rank": 17,
-      "review": "Steam 评价未在本榜单单独核实",
-      "negative_review_analysis": null
-    },
-    {
-      "appid": 1449850,
-      "name": "Yu-Gi-Oh! Master Duel",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1449850/c3f87e2374fab93f9f05661493bdf4e43ea70776/header.jpg?t=1793252158",
-      "url": "https://store.steampowered.com/app/1449850/?cc=cn&l=schinese",
-      "category": "popular",
-      "price": 0.0,
-      "steam_subids": [],
-      "key_offers": [],
-      "enrichment_status": {},
-      "original_price": 0.0,
-      "discount": 0,
-      "release_date": "2022 年 1 月 18 日",
-      "genres": [
-        "模拟",
-        "策略",
-        "免费开玩"
-      ],
-      "tags": [
-        "Steam 热销"
-      ],
-      "why": "来自 Steam 热销榜，不限制折扣、不按个人喜好筛选",
-      "popularity_rank": 18,
+      "popularity_rank": 20,
       "review": "Steam 评价未在本榜单单独核实",
       "negative_review_analysis": null
     },
     {
       "appid": 552990,
       "name": "World of Warships",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/552990/9f3c51cf5b0840dc216efea85951b2a616975bc8/header.jpg?t=1793268266",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/552990/b98f971c803a39526941349ade8a8c8ad1bb7c25/header_alt_assets_18.jpg?t=1793875646",
       "url": "https://store.steampowered.com/app/552990/?cc=cn&l=schinese",
       "category": "popular",
       "price": 0.0,
@@ -536,63 +613,6 @@
         "大型多人在线",
         "模拟",
         "策略",
-        "免费开玩"
-      ],
-      "tags": [
-        "Steam 热销"
-      ],
-      "why": "来自 Steam 热销榜，不限制折扣、不按个人喜好筛选",
-      "popularity_rank": 19,
-      "review": "Steam 评价未在本榜单单独核实",
-      "negative_review_analysis": null
-    },
-    {
-      "appid": 322330,
-      "name": "饥荒联机版",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/322330/2fe09bd869fcbc21227dcda9999a3c5ea4cb38fc/header_alt_assets_51_schinese.jpg?t=1793044716",
-      "url": "https://store.steampowered.com/app/322330/?cc=cn&l=schinese",
-      "category": "popular",
-      "price": 12.0,
-      "steam_subids": [
-        121418,
-        68179,
-        198306
-      ],
-      "key_offers": [],
-      "enrichment_status": {},
-      "original_price": 24.0,
-      "discount": 50,
-      "release_date": "2016 年 4 月 21 日",
-      "genres": [
-        "动作",
-        "冒险",
-        "独立",
-        "角色扮演",
-        "模拟",
-        "策略"
-      ],
-      "tags": [
-        "Steam 热销"
-      ],
-      "why": "来自 Steam 热销榜，不限制折扣、不按个人喜好筛选",
-      "popularity_rank": 20,
-      "review": "Steam 评价未在本榜单单独核实",
-      "negative_review_analysis": null
-    },
-    {
-      "appid": 1973530,
-      "name": "Limbus Company",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1973530/header.jpg?t=1792746022",
-      "url": "https://store.steampowered.com/app/1973530/?cc=cn&l=schinese",
-      "category": "popular",
-      "price": 0.0,
-      "steam_subids": [],
-      "key_offers": [],
-      "enrichment_status": {},
-      "original_price": 0.0,
-      "discount": 0,
-      "release_date": "2023 年 2 月 26 日",
-      "genres": [
         "免费开玩"
       ],
       "tags": [
@@ -632,29 +652,24 @@
       "negative_review_analysis": null
     },
     {
-      "appid": 1938090,
-      "name": "使命召唤®",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1938090/1f9949d97579ff1effbb97bedac5f5b1900bf947/header_schinese.jpg?t=1793656583",
-      "url": "https://store.steampowered.com/app/1938090/?cc=cn&l=schinese",
+      "appid": 648800,
+      "name": "Raft",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/648800/header.jpg?t=1727184011",
+      "url": "https://store.steampowered.com/app/648800/?cc=cn&l=schinese",
       "category": "popular",
-      "price": null,
+      "price": 77.0,
       "steam_subids": [
-        777136,
-        777139,
-        777142,
-        777145,
-        777148,
-        777151,
-        777154,
-        1430343
+        182468
       ],
       "key_offers": [],
       "enrichment_status": {},
-      "original_price": null,
+      "original_price": 77.0,
       "discount": 0,
-      "release_date": "2022 年 10 月 27 日",
+      "release_date": "2022 年 6 月 20 日",
       "genres": [
-        "动作"
+        "冒险",
+        "独立",
+        "模拟"
       ],
       "tags": [
         "Steam 热销"
@@ -665,24 +680,26 @@
       "negative_review_analysis": null
     },
     {
-      "appid": 3321460,
-      "name": "红色沙漠：增强版",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/72caf7e120e63fcf25b92e3b4b6477b76baffa45/header_schinese.jpg?t=1792637341",
-      "url": "https://store.steampowered.com/app/3321460/?cc=cn&l=schinese",
+      "appid": 2483190,
+      "name": "极限竞速：地平线 6",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/c53fe3362cc3267a5d34aca3e796b90963e0e23f/header_alt_assets_6.jpg?t=1793894652",
+      "url": "https://store.steampowered.com/app/2483190/?cc=cn&l=schinese",
       "category": "popular",
-      "price": 268.0,
+      "price": 298.0,
       "steam_subids": [
-        1176092,
-        1418529
+        950527,
+        1463376,
+        1463380
       ],
       "key_offers": [],
       "enrichment_status": {},
-      "original_price": 268.0,
+      "original_price": 298.0,
       "discount": 0,
-      "release_date": "2026 年 3 月 19 日",
+      "release_date": "2026 年 5 月 18 日",
       "genres": [
-        "动作",
-        "冒险"
+        "竞速",
+        "模拟",
+        "体育"
       ],
       "tags": [
         "Steam 热销"
@@ -693,29 +710,54 @@
       "negative_review_analysis": null
     },
     {
-      "appid": 750920,
-      "name": "Shadow of the Tomb Raider: Definitive Edition",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/750920/86f9744a410121ff869cc19f63aa9e3dfcf54b8d/header_alt_assets_0.jpg?t=1792675045",
-      "url": "https://store.steampowered.com/app/750920/?cc=cn&l=schinese",
+      "appid": 5266240,
+      "name": "Potato Please",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5266240/e289442aa6b3756109bc65b427556ea538efb849/header.jpg?t=1793891257",
+      "url": "https://store.steampowered.com/app/5266240/?cc=cn&l=schinese",
       "category": "popular",
-      "price": 19.6,
+      "price": 31.5,
       "steam_subids": [
-        1484926
+        1821103
       ],
       "key_offers": [],
       "enrichment_status": {},
-      "original_price": 196.0,
-      "discount": 90,
-      "release_date": "2018 年 9 月 14 日",
+      "original_price": 35.0,
+      "discount": 10,
+      "release_date": "2026 年 11 月 3 日",
       "genres": [
-        "动作",
-        "冒险"
+        "休闲",
+        "独立",
+        "模拟"
       ],
       "tags": [
         "Steam 热销"
       ],
       "why": "来自 Steam 热销榜，不限制折扣、不按个人喜好筛选",
       "popularity_rank": 25,
+      "review": "Steam 评价未在本榜单单独核实",
+      "negative_review_analysis": null
+    },
+    {
+      "appid": 1973530,
+      "name": "Limbus Company",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1973530/header.jpg?t=1792746022",
+      "url": "https://store.steampowered.com/app/1973530/?cc=cn&l=schinese",
+      "category": "popular",
+      "price": 0.0,
+      "steam_subids": [],
+      "key_offers": [],
+      "enrichment_status": {},
+      "original_price": 0.0,
+      "discount": 0,
+      "release_date": "2023 年 2 月 26 日",
+      "genres": [
+        "免费开玩"
+      ],
+      "tags": [
+        "Steam 热销"
+      ],
+      "why": "来自 Steam 热销榜，不限制折扣、不按个人喜好筛选",
+      "popularity_rank": 26,
       "review": "Steam 评价未在本榜单单独核实",
       "negative_review_analysis": null
     },
@@ -744,59 +786,30 @@
         "Steam 热销"
       ],
       "why": "来自 Steam 热销榜，不限制折扣、不按个人喜好筛选",
-      "popularity_rank": 26,
-      "review": "Steam 评价未在本榜单单独核实",
-      "negative_review_analysis": null
-    },
-    {
-      "appid": 5266240,
-      "name": "Potato Please",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5266240/e289442aa6b3756109bc65b427556ea538efb849/header.jpg?t=1793717995",
-      "url": "https://store.steampowered.com/app/5266240/?cc=cn&l=schinese",
-      "category": "popular",
-      "price": 31.5,
-      "steam_subids": [
-        1821103
-      ],
-      "key_offers": [],
-      "enrichment_status": {},
-      "original_price": 35.0,
-      "discount": 10,
-      "release_date": "2026 年 11 月 3 日",
-      "genres": [
-        "休闲",
-        "独立",
-        "模拟"
-      ],
-      "tags": [
-        "Steam 热销"
-      ],
-      "why": "来自 Steam 热销榜，不限制折扣、不按个人喜好筛选",
       "popularity_rank": 27,
       "review": "Steam 评价未在本榜单单独核实",
       "negative_review_analysis": null
     },
     {
-      "appid": 2483190,
-      "name": "极限竞速：地平线 6",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/c53fe3362cc3267a5d34aca3e796b90963e0e23f/header_alt_assets_6.jpg?t=1793664659",
-      "url": "https://store.steampowered.com/app/2483190/?cc=cn&l=schinese",
+      "appid": 1211600,
+      "name": "隔离区-丧尸末日生存",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1211600/28911683896a3616497df63eb4391d494b2a3a6a/header_alt_assets_2_schinese.jpg?t=1793949713",
+      "url": "https://store.steampowered.com/app/1211600/?cc=cn&l=schinese",
       "category": "popular",
-      "price": 298.0,
+      "price": 28.8,
       "steam_subids": [
-        950527,
-        1463376,
-        1463380
+        418879
       ],
       "key_offers": [],
       "enrichment_status": {},
-      "original_price": 298.0,
-      "discount": 0,
-      "release_date": "2026 年 5 月 18 日",
+      "original_price": 48.0,
+      "discount": 40,
+      "release_date": "2026 年 11 月 5 日",
       "genres": [
-        "竞速",
-        "模拟",
-        "体育"
+        "动作",
+        "独立",
+        "角色扮演",
+        "模拟"
       ],
       "tags": [
         "Steam 热销"
@@ -807,25 +820,23 @@
       "negative_review_analysis": null
     },
     {
-      "appid": 477160,
-      "name": "人类一败涂地 / Human Fall Flat",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/477160/72ebb13093999896293a91a0ad3f9ce2501f1818/header_alt_assets_27_schinese.jpg?t=1793018738",
-      "url": "https://store.steampowered.com/app/477160/?cc=cn&l=schinese",
+      "appid": 750920,
+      "name": "Shadow of the Tomb Raider: Definitive Edition",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/750920/86f9744a410121ff869cc19f63aa9e3dfcf54b8d/header_alt_assets_0.jpg?t=1792675045",
+      "url": "https://store.steampowered.com/app/750920/?cc=cn&l=schinese",
       "category": "popular",
-      "price": 17.4,
+      "price": 19.6,
       "steam_subids": [
-        106330
+        1484926
       ],
       "key_offers": [],
       "enrichment_status": {},
-      "original_price": 58.0,
-      "discount": 70,
-      "release_date": "2016 年 7 月 22 日",
+      "original_price": 196.0,
+      "discount": 90,
+      "release_date": "2018 年 9 月 14 日",
       "genres": [
-        "冒险",
-        "休闲",
-        "独立",
-        "模拟"
+        "动作",
+        "冒险"
       ],
       "tags": [
         "Steam 热销"
@@ -836,25 +847,24 @@
       "negative_review_analysis": null
     },
     {
-      "appid": 413150,
-      "name": "Stardew Valley",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/header.jpg?t=1786554168",
-      "url": "https://store.steampowered.com/app/413150/?cc=cn&l=schinese",
+      "appid": 381210,
+      "name": "黎明杀机",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/381210/header.jpg?t=1793724618",
+      "url": "https://store.steampowered.com/app/381210/?cc=cn&l=schinese",
       "category": "popular",
-      "price": 48.0,
+      "price": 93.75,
       "steam_subids": [
-        82712,
-        1729063
+        71374,
+        198307,
+        1100714
       ],
       "key_offers": [],
       "enrichment_status": {},
-      "original_price": 48.0,
+      "original_price": 93.75,
       "discount": 0,
-      "release_date": "2016 年 2 月 26 日",
+      "release_date": "2016 年 6 月 14 日",
       "genres": [
-        "独立",
-        "角色扮演",
-        "模拟"
+        "动作"
       ],
       "tags": [
         "Steam 热销"
