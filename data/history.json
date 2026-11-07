@@ -1622,7 +1622,7 @@
   "2441700": {
     "name": "UNDERDOGS",
     "low": 72.36,
-    "last": 72.36
+    "last": 108.0
   },
   "4160210": {
     "name": "The Artisan of Glimmith",
@@ -2417,7 +2417,7 @@
   "4018550": {
     "name": "猫之岛",
     "low": 20.8,
-    "last": 20.8
+    "last": 26.0
   },
   "4643090": {
     "name": "不/存在的莉莉丝",
@@ -4462,7 +4462,7 @@
   "3054820": {
     "name": "恶魔连结",
     "low": 59.99,
-    "last": 59.99
+    "last": 66.66
   },
   "5198650": {
     "name": "Stinky Tofu: Kitchen Survivor",
@@ -7518,5 +7518,550 @@
     "name": "降临之地",
     "low": 36.0,
     "last": 36.0
+  },
+  "5376580": {
+    "name": "玉米迷宫杀手",
+    "low": 9.0,
+    "last": 9.0
+  },
+  "3510740": {
+    "name": "Normal Golf Game",
+    "low": 33.6,
+    "last": 33.6
+  },
+  "4926360": {
+    "name": "夺ENDING～出售伴侣，直至最后～",
+    "low": 39.2,
+    "last": 39.2
+  },
+  "5019170": {
+    "name": "桌面杀虫",
+    "low": 18.7,
+    "last": 18.7
+  },
+  "5157730": {
+    "name": "蓬莱的雪",
+    "low": 4.0,
+    "last": 4.0
+  },
+  "5312870": {
+    "name": "Cascade",
+    "low": 25.2,
+    "last": 25.2
+  },
+  "4903070": {
+    "name": "PURR DIEM",
+    "low": 24.75,
+    "last": 24.75
+  },
+  "4691400": {
+    "name": "Performance Review: Survivor",
+    "low": 10.0,
+    "last": 10.0
+  },
+  "5437530": {
+    "name": "RETRO NIGHT CHASE",
+    "low": 10.66,
+    "last": 10.66
+  },
+  "5057340": {
+    "name": "水族箱时光",
+    "low": 7.5,
+    "last": 7.5
+  },
+  "4611550": {
+    "name": "Artificial Ambition",
+    "low": 59.0,
+    "last": 59.0
+  },
+  "3422590": {
+    "name": "琥珀末日",
+    "low": 38.4,
+    "last": 38.4
+  },
+  "4971870": {
+    "name": "寻找收集：猫咪篇",
+    "low": 15.0,
+    "last": 15.0
+  },
+  "5361600": {
+    "name": "Gambapets",
+    "low": 29.75,
+    "last": 29.75
+  },
+  "5383270": {
+    "name": "Soul Snake 3D",
+    "low": 29.0,
+    "last": 29.0
+  },
+  "2482010": {
+    "name": "Waspkeeper",
+    "low": 2.5,
+    "last": 2.5
+  },
+  "4938660": {
+    "name": "LINE WARLORD",
+    "low": 17.6,
+    "last": 17.6
+  },
+  "1682970": {
+    "name": "Uncrashed : FPV Drone Simulator",
+    "low": 48.0,
+    "last": 48.0
+  },
+  "5357320": {
+    "name": "Mars Battle",
+    "low": 5.0,
+    "last": 5.0
+  },
+  "5337840": {
+    "name": "ムゲン階段　団地編",
+    "low": 13.2,
+    "last": 13.2
+  },
+  "3557130": {
+    "name": "Rise of the Inferno",
+    "low": 19.0,
+    "last": 19.0
+  },
+  "4329970": {
+    "name": "Feeding Gooble",
+    "low": 69.3,
+    "last": 69.3
+  },
+  "4313080": {
+    "name": "The Box Project",
+    "low": 11.7,
+    "last": 11.7
+  },
+  "5100460": {
+    "name": "Heroes of Aetheria: Crystal Siege",
+    "low": 12.75,
+    "last": 12.75
+  },
+  "5388400": {
+    "name": "The City",
+    "low": 70.0,
+    "last": 70.0
+  },
+  "5119610": {
+    "name": "Trust Me, It Binds",
+    "low": 21.0,
+    "last": 21.0
+  },
+  "5029840": {
+    "name": "JapaneseDialect",
+    "low": 19.2,
+    "last": 19.2
+  },
+  "4967030": {
+    "name": "鸡从天降",
+    "low": 22.4,
+    "last": 22.4
+  },
+  "5345800": {
+    "name": "Nightcap Alchemist",
+    "low": 19.8,
+    "last": 19.8
+  },
+  "4660590": {
+    "name": "Chreynard",
+    "low": 12.0,
+    "last": 12.0
+  },
+  "5444430": {
+    "name": "GearSpire",
+    "low": 15.0,
+    "last": 15.0
+  },
+  "1163740": {
+    "name": "Card Hog",
+    "low": 10.4,
+    "last": 10.4
+  },
+  "5471290": {
+    "name": "Kifu Garden",
+    "low": 9.0,
+    "last": 9.0
+  },
+  "3707150": {
+    "name": "till death ROLLS us apart",
+    "low": 35.1,
+    "last": 35.1
+  },
+  "5299690": {
+    "name": "The Grid Detective",
+    "low": 17.6,
+    "last": 17.6
+  },
+  "5278700": {
+    "name": "Fleet Forge",
+    "low": 37.8,
+    "last": 37.8
+  },
+  "5035250": {
+    "name": "Card Slay",
+    "low": 50.15,
+    "last": 50.15
+  },
+  "5151710": {
+    "name": "魂天·彼岸",
+    "low": 22.0,
+    "last": 22.0
+  },
+  "2999500": {
+    "name": "STUNTBOOST",
+    "low": 24.65,
+    "last": 24.65
+  },
+  "5430920": {
+    "name": "Kingdom.py",
+    "low": 23.8,
+    "last": 23.8
+  },
+  "5239490": {
+    "name": "Outpost Incursions",
+    "low": 6.0,
+    "last": 6.0
+  },
+  "4958130": {
+    "name": "Last One Employed",
+    "low": 18.0,
+    "last": 18.0
+  },
+  "4898080": {
+    "name": "Manala: Equinox War",
+    "low": 51.3,
+    "last": 51.3
+  },
+  "3951810": {
+    "name": "Cheater's Table",
+    "low": 25.49,
+    "last": 25.49
+  },
+  "5194730": {
+    "name": "饼干兄弟",
+    "low": 16.2,
+    "last": 16.2
+  },
+  "3566870": {
+    "name": "The Dark Rites of Arkham",
+    "low": 52.2,
+    "last": 52.2
+  },
+  "4888150": {
+    "name": "Masters of the Universe™: Legends Unite",
+    "low": 70.0,
+    "last": 70.0
+  },
+  "2640820": {
+    "name": "Veiled Whispers",
+    "low": 14.25,
+    "last": 14.25
+  },
+  "4267480": {
+    "name": "Just A Dice Game",
+    "low": 19.87,
+    "last": 19.87
+  },
+  "4323740": {
+    "name": "Oniyama Academy: 14 Days of Rough Love",
+    "low": 26.4,
+    "last": 26.4
+  },
+  "2906250": {
+    "name": "Hidden Cats in Beijing",
+    "low": 14.4,
+    "last": 14.4
+  },
+  "2448570": {
+    "name": "暴力摩托™：30 周年纪念版",
+    "low": 29.0,
+    "last": 29.0
+  },
+  "2793020": {
+    "name": "无路可退",
+    "low": 19.8,
+    "last": 19.8
+  },
+  "1927150": {
+    "name": "Townframe",
+    "low": 21.75,
+    "last": 21.75
+  },
+  "4288700": {
+    "name": "Rise of Chi",
+    "low": 20.8,
+    "last": 20.8
+  },
+  "5136450": {
+    "name": "十万僵尸冲过来啦！",
+    "low": 18.7,
+    "last": 18.7
+  },
+  "4960570": {
+    "name": "小贼修仙记",
+    "low": 14.3,
+    "last": 14.3
+  },
+  "4124240": {
+    "name": "Letterally",
+    "low": 35.7,
+    "last": 35.7
+  },
+  "5451330": {
+    "name": "Jörmungandrs Journey",
+    "low": 7.49,
+    "last": 7.49
+  },
+  "3230070": {
+    "name": "Duat: Beyond Light & Shadow",
+    "low": 70.0,
+    "last": 70.0
+  },
+  "899970": {
+    "name": "NEKOPARA Extra",
+    "low": 8.8,
+    "last": 8.8
+  },
+  "5296100": {
+    "name": "Blood Money",
+    "low": 17.1,
+    "last": 17.1
+  },
+  "4660840": {
+    "name": "Rusty Flagon",
+    "low": 20.0,
+    "last": 20.0
+  },
+  "4944200": {
+    "name": "Diamonds and Spades",
+    "low": 28.05,
+    "last": 28.05
+  },
+  "2779570": {
+    "name": "Archons",
+    "low": 3.8,
+    "last": 3.8
+  },
+  "5028290": {
+    "name": "Catnigma",
+    "low": 12.0,
+    "last": 12.0
+  },
+  "5043660": {
+    "name": "DriveGear",
+    "low": 37.8,
+    "last": 37.8
+  },
+  "4982850": {
+    "name": "Captive 3000",
+    "low": 46.2,
+    "last": 46.2
+  },
+  "4770220": {
+    "name": "Shelterra the Skyworld",
+    "low": 68.4,
+    "last": 68.4
+  },
+  "1864950": {
+    "name": "杯丝特魔球",
+    "low": 46.4,
+    "last": 46.4
+  },
+  "5095400": {
+    "name": "守雾人",
+    "low": 13.5,
+    "last": 13.5
+  },
+  "839870": {
+    "name": "Wilmot's Warehouse",
+    "low": 29.0,
+    "last": 29.0
+  },
+  "4564800": {
+    "name": "Dictatorship Simulator",
+    "low": 31.5,
+    "last": 31.5
+  },
+  "1236720": {
+    "name": "Spirit Island",
+    "low": 36.8,
+    "last": 36.8
+  },
+  "5465060": {
+    "name": "Bio-Shooter",
+    "low": 15.61,
+    "last": 15.61
+  },
+  "5456910": {
+    "name": "Buddha's Lotus",
+    "low": 25.0,
+    "last": 25.0
+  },
+  "5390840": {
+    "name": "Absorber Hero RPG",
+    "low": 23.2,
+    "last": 23.2
+  },
+  "367580": {
+    "name": "钩子",
+    "low": 9.0,
+    "last": 9.0
+  },
+  "3850750": {
+    "name": "sys:tan restore",
+    "low": 16.2,
+    "last": 16.2
+  },
+  "4607170": {
+    "name": "无菌童年",
+    "low": 13.5,
+    "last": 13.5
+  },
+  "4944880": {
+    "name": "立方扫雷",
+    "low": 33.6,
+    "last": 33.6
+  },
+  "4540660": {
+    "name": "Prehistoric Pit",
+    "low": 26.35,
+    "last": 26.35
+  },
+  "5037670": {
+    "name": "We're Gonna Need More Fireballs",
+    "low": 38.4,
+    "last": 38.4
+  },
+  "4919460": {
+    "name": "THE UNREMEMBERED",
+    "low": 19.8,
+    "last": 19.8
+  },
+  "4809750": {
+    "name": " 明末：力挽狂澜",
+    "low": 35.1,
+    "last": 35.1
+  },
+  "5452920": {
+    "name": "Sauna Grudge",
+    "low": 28.8,
+    "last": 28.8
+  },
+  "4357270": {
+    "name": "ACCRETION",
+    "low": 12.0,
+    "last": 12.0
+  },
+  "5075360": {
+    "name": "Tidy Up the Library of Alexandria",
+    "low": 22.1,
+    "last": 22.1
+  },
+  "5247420": {
+    "name": "Play Pocket Manager",
+    "low": 28.8,
+    "last": 28.8
+  },
+  "4353180": {
+    "name": "Quantris",
+    "low": 38.4,
+    "last": 38.4
+  },
+  "4905420": {
+    "name": "Rinha de Waifus",
+    "low": 12.0,
+    "last": 12.0
+  },
+  "3426850": {
+    "name": "Chronicles of Veldoria",
+    "low": 29.4,
+    "last": 29.4
+  },
+  "5208830": {
+    "name": "Method in the Witchness",
+    "low": 15.2,
+    "last": 15.2
+  },
+  "5371080": {
+    "name": "Gloamfall",
+    "low": 17.1,
+    "last": 17.1
+  },
+  "4952400": {
+    "name": "Findport: Before the Silence",
+    "low": 26.1,
+    "last": 26.1
+  },
+  "5119690": {
+    "name": "钱生钱：历史投资模拟器",
+    "low": 35.0,
+    "last": 35.0
+  },
+  "4381150": {
+    "name": "Endless Dark",
+    "low": 22.0,
+    "last": 22.0
+  },
+  "5013580": {
+    "name": "Picrand",
+    "low": 14.25,
+    "last": 14.25
+  },
+  "5339950": {
+    "name": "GENNADIYYY",
+    "low": 6.6,
+    "last": 6.6
+  },
+  "3599690": {
+    "name": "Funi Raccoon Game",
+    "low": 38.4,
+    "last": 38.4
+  },
+  "4971330": {
+    "name": "Depth Charge",
+    "low": 13.2,
+    "last": 13.2
+  },
+  "3873760": {
+    "name": "足球经理：自走棋",
+    "low": 18.4,
+    "last": 18.4
+  },
+  "3975950": {
+    "name": "逐鹿汉末:三国",
+    "low": 52.2,
+    "last": 52.2
+  },
+  "5483650": {
+    "name": "The Perfect Part",
+    "low": 16.5,
+    "last": 16.5
+  },
+  "5208460": {
+    "name": "无基之谈2D",
+    "low": 8.8,
+    "last": 8.8
+  },
+  "5150470": {
+    "name": "Blobby and the Milkshake",
+    "low": 29.0,
+    "last": 29.0
+  },
+  "5047920": {
+    "name": "Blind Route",
+    "low": 31.5,
+    "last": 31.5
+  },
+  "5268180": {
+    "name": "Bannerborn",
+    "low": 22.4,
+    "last": 22.4
+  },
+  "5217960": {
+    "name": "Jewelry Keeper",
+    "low": 23.4,
+    "last": 23.4
   }
 }
