@@ -3,7 +3,8 @@
     "updated_at_cn": "2026-11-08 15:22",
     "version": "V4 review-context discovery",
     "note": "尝鲜榜不设价格或好评率硬门槛；查看近期简中差评关键词，区别争议类型。分析是辅助证据，不代表玩家差评全部属实或无效。",
-    "last_enrichment_utc": "2026-11-08T07:32:20.621023+00:00"
+    "last_enrichment_utc": "2026-11-08T07:32:20.621023+00:00",
+    "last_key_enrichment_utc": "2026-11-08T08:04:24.007211+00:00"
   },
   "counts": {
     "deal": 30,
@@ -1169,7 +1170,7 @@
       "steam_deck": null,
       "key_offers": [],
       "key_reference_min": null,
-      "key_status": "未核实实时在售",
+      "key_status": "暂无有效散 Key 参考价",
       "tracked_low": 3.8,
       "region_history_low": null,
       "enrichment_status": {
@@ -1190,6 +1191,11 @@
           "checked_at": "2026-11-07T09:15:28.754611+00:00",
           "next_retry_at": "2026-11-08T09:15:28.754611+00:00",
           "details": "no verified CNY historical record"
+        },
+        "keys": {
+          "status": "no_quote",
+          "checked_at": "2026-11-08T08:04:24.007211+00:00",
+          "next_retry_at": "2026-11-09T08:04:24.007211+00:00"
         }
       }
     },
@@ -5009,7 +5015,7 @@
       "steam_deck": null,
       "key_offers": [],
       "key_reference_min": null,
-      "key_status": "未核实实时在售",
+      "key_status": "暂无有效散 Key 参考价",
       "tracked_low": 68.4,
       "region_history_low": null,
       "enrichment_status": {
@@ -5030,6 +5036,11 @@
           "checked_at": "2026-11-07T09:15:28.754611+00:00",
           "next_retry_at": "2026-11-08T09:15:28.754611+00:00",
           "details": "no verified CNY historical record"
+        },
+        "keys": {
+          "status": "no_quote",
+          "checked_at": "2026-11-08T08:04:24.007211+00:00",
+          "next_retry_at": "2026-11-09T08:04:24.007211+00:00"
         }
       }
     },
@@ -5894,9 +5905,16 @@
       },
       "key_offers": [],
       "key_reference_min": null,
-      "key_status": "未核实实时在售",
+      "key_status": "暂无有效散 Key 参考价",
       "tracked_low": 2.5,
-      "region_history_low": null
+      "region_history_low": null,
+      "enrichment_status": {
+        "keys": {
+          "status": "no_quote",
+          "checked_at": "2026-11-08T08:04:24.007211+00:00",
+          "next_retry_at": "2026-11-09T08:04:24.007211+00:00"
+        }
+      }
     },
     {
       "appid": 2439120,
@@ -6222,9 +6240,16 @@
       },
       "key_offers": [],
       "key_reference_min": null,
-      "key_status": "未核实实时在售",
+      "key_status": "暂无有效散 Key 参考价",
       "tracked_low": 7.7,
-      "region_history_low": null
+      "region_history_low": null,
+      "enrichment_status": {
+        "keys": {
+          "status": "no_quote",
+          "checked_at": "2026-11-08T08:04:24.007211+00:00",
+          "next_retry_at": "2026-11-09T08:04:24.007211+00:00"
+        }
+      }
     },
     {
       "appid": 3933710,
@@ -6286,9 +6311,16 @@
       },
       "key_offers": [],
       "key_reference_min": null,
-      "key_status": "未核实实时在售",
+      "key_status": "暂无有效散 Key 参考价",
       "tracked_low": 8.25,
-      "region_history_low": null
+      "region_history_low": null,
+      "enrichment_status": {
+        "keys": {
+          "status": "no_quote",
+          "checked_at": "2026-11-08T08:04:24.007211+00:00",
+          "next_retry_at": "2026-11-09T08:04:24.007211+00:00"
+        }
+      }
     },
     {
       "appid": 1190000,
@@ -6347,9 +6379,16 @@
       },
       "key_offers": [],
       "key_reference_min": null,
-      "key_status": "未核实实时在售",
+      "key_status": "暂无有效散 Key 参考价",
       "tracked_low": 10.12,
-      "region_history_low": null
+      "region_history_low": null,
+      "enrichment_status": {
+        "keys": {
+          "status": "no_quote",
+          "checked_at": "2026-11-08T08:04:24.007211+00:00",
+          "next_retry_at": "2026-11-09T08:04:24.007211+00:00"
+        }
+      }
     },
     {
       "appid": 1239690,
@@ -6418,13 +6457,30 @@
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=269593166653427712",
           "kind": "reference",
           "subid": 430215,
-          "checked_at": "2026-11-08T07:22:05.198859+00:00"
+          "checked_at": "2026-11-08T08:04:24.007211+00:00"
+        },
+        {
+          "platform": "SteamCiCi",
+          "price": 8.88,
+          "status": "历史挂售最低参考价｜非实时库存",
+          "last_hanging_time": "2026-10-12T12:07:30.000+08:00",
+          "url": "https://steamcici.com/index",
+          "kind": "historical_listing",
+          "subid": "430215",
+          "checked_at": "2026-11-08T08:04:24.007211+00:00"
         }
       ],
       "key_reference_min": 1.0,
-      "key_status": "未核实实时在售",
+      "key_status": "参考报价，不代表实时库存",
       "tracked_low": 10.5,
-      "region_history_low": null
+      "region_history_low": null,
+      "enrichment_status": {
+        "keys": {
+          "status": "success",
+          "checked_at": "2026-11-08T08:04:24.007211+00:00",
+          "next_retry_at": "2026-11-11T08:04:24.007211+00:00"
+        }
+      }
     },
     {
       "appid": 3133060,
