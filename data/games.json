@@ -2,7 +2,8 @@
   "meta": {
     "updated_at_cn": "2026-11-08 15:22",
     "version": "V4 review-context discovery",
-    "note": "尝鲜榜不设价格或好评率硬门槛；查看近期简中差评关键词，区别争议类型。分析是辅助证据，不代表玩家差评全部属实或无效。"
+    "note": "尝鲜榜不设价格或好评率硬门槛；查看近期简中差评关键词，区别争议类型。分析是辅助证据，不代表玩家差评全部属实或无效。",
+    "last_enrichment_utc": "2026-11-08T07:28:17.817668+00:00"
   },
   "counts": {
     "deal": 30,
@@ -364,7 +365,15 @@
       "key_reference_min": null,
       "key_status": "未核实实时在售",
       "tracked_low": 2.5,
-      "region_history_low": null
+      "region_history_low": null,
+      "enrichment_status": {
+        "reviews": {
+          "status": "no_data",
+          "checked_at": "2026-11-08T07:28:17.817668+00:00",
+          "next_retry_at": "2026-11-10T07:28:17.817668+00:00",
+          "details": "negative reviews unavailable"
+        }
+      }
     },
     {
       "appid": 1163740,
@@ -6482,7 +6491,15 @@
       "key_reference_min": 12.87,
       "key_status": "未核实实时在售",
       "tracked_low": 14.7,
-      "region_history_low": null
+      "region_history_low": null,
+      "enrichment_status": {
+        "reviews": {
+          "status": "no_data",
+          "checked_at": "2026-11-08T07:28:17.817668+00:00",
+          "next_retry_at": "2026-11-10T07:28:17.817668+00:00",
+          "details": "negative reviews unavailable"
+        }
+      }
     },
     {
       "appid": 602520,
@@ -6553,7 +6570,15 @@
       "key_reference_min": 9.7,
       "key_status": "未核实实时在售",
       "tracked_low": 16.8,
-      "region_history_low": null
+      "region_history_low": null,
+      "enrichment_status": {
+        "reviews": {
+          "status": "no_data",
+          "checked_at": "2026-11-08T07:28:17.817668+00:00",
+          "next_retry_at": "2026-11-10T07:28:17.817668+00:00",
+          "details": "negative reviews unavailable"
+        }
+      }
     },
     {
       "appid": 420110,
@@ -6624,7 +6649,15 @@
       "key_reference_min": 10.0,
       "key_status": "未核实实时在售",
       "tracked_low": 16.8,
-      "region_history_low": null
+      "region_history_low": null,
+      "enrichment_status": {
+        "reviews": {
+          "status": "no_data",
+          "checked_at": "2026-11-08T07:28:17.817668+00:00",
+          "next_retry_at": "2026-11-10T07:28:17.817668+00:00",
+          "details": "negative reviews unavailable"
+        }
+      }
     },
     {
       "appid": 4137570,
@@ -6709,7 +6742,15 @@
       "key_reference_min": 11.0,
       "key_status": "未核实实时在售",
       "tracked_low": 17.1,
-      "region_history_low": null
+      "region_history_low": null,
+      "enrichment_status": {
+        "reviews": {
+          "status": "no_data",
+          "checked_at": "2026-11-08T07:28:17.817668+00:00",
+          "next_retry_at": "2026-11-10T07:28:17.817668+00:00",
+          "details": "negative reviews unavailable"
+        }
+      }
     }
   ]
 }
