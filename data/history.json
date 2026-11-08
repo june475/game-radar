@@ -4972,7 +4972,7 @@
   "1882500": {
     "name": "Cattails: Wildwood Story",
     "low": 15.2,
-    "last": 15.2
+    "last": 76.0
   },
   "2439120": {
     "name": "DROPSOL",
@@ -8063,5 +8063,485 @@
     "name": "Jewelry Keeper",
     "low": 23.4,
     "last": 23.4
+  },
+  "5221200": {
+    "name": "Minefield Mayhem",
+    "low": 17.6,
+    "last": 17.6
+  },
+  "5423390": {
+    "name": "A Little Soul Among Suns",
+    "low": 13.0,
+    "last": 13.0
+  },
+  "4995060": {
+    "name": "The Tally",
+    "low": 16.2,
+    "last": 16.2
+  },
+  "5409320": {
+    "name": "Gweilo 1886",
+    "low": 93.0,
+    "last": 93.0
+  },
+  "5114030": {
+    "name": "Retro TV Tycoon",
+    "low": 38.4,
+    "last": 38.4
+  },
+  "5365100": {
+    "name": "LetterZ: The paths of letters",
+    "low": 12.75,
+    "last": 12.75
+  },
+  "4332130": {
+    "name": "No Up",
+    "low": 25.0,
+    "last": 25.0
+  },
+  "5461940": {
+    "name": "Black King's Defense",
+    "low": 21.0,
+    "last": 21.0
+  },
+  "4986470": {
+    "name": "クイズ！罵倒ネア！",
+    "low": 141.95,
+    "last": 141.95
+  },
+  "5452260": {
+    "name": "Meow Dungeon: Idle Cat RPG",
+    "low": 13.0,
+    "last": 13.0
+  },
+  "4248190": {
+    "name": "Sunborn",
+    "low": 21.25,
+    "last": 21.25
+  },
+  "5338070": {
+    "name": "It Takes One To Gnome It All",
+    "low": 16.15,
+    "last": 16.15
+  },
+  "5118920": {
+    "name": "Bio Party",
+    "low": 14.4,
+    "last": 14.4
+  },
+  "4159350": {
+    "name": "狗的梦",
+    "low": 35.1,
+    "last": 35.1
+  },
+  "4911350": {
+    "name": "Gods of the Grid",
+    "low": 20.0,
+    "last": 20.0
+  },
+  "4653110": {
+    "name": "Tetara",
+    "low": 59.0,
+    "last": 59.0
+  },
+  "1587920": {
+    "name": "末日钉子户2",
+    "low": 48.6,
+    "last": 48.6
+  },
+  "4795820": {
+    "name": "夜航船",
+    "low": 18.0,
+    "last": 18.0
+  },
+  "5425490": {
+    "name": "Pet Store: Tidy Up Sorting Simulator",
+    "low": 11.25,
+    "last": 11.25
+  },
+  "5445910": {
+    "name": "Dash To Light",
+    "low": 12.18,
+    "last": 12.18
+  },
+  "4909100": {
+    "name": "Box Flow",
+    "low": 18.7,
+    "last": 18.7
+  },
+  "5329660": {
+    "name": "Case Opened",
+    "low": 22.5,
+    "last": 22.5
+  },
+  "5459680": {
+    "name": "建造太空基地",
+    "low": 10.4,
+    "last": 10.4
+  },
+  "4591470": {
+    "name": "Hush Hush: Bootleg Spirits",
+    "low": 44.2,
+    "last": 44.2
+  },
+  "4945980": {
+    "name": "Grimoire of Blanks",
+    "low": 38.25,
+    "last": 38.25
+  },
+  "5444960": {
+    "name": "妖怪温泉旅馆",
+    "low": 43.2,
+    "last": 43.2
+  },
+  "5399290": {
+    "name": "No Signal in the Sewer",
+    "low": 19.0,
+    "last": 19.0
+  },
+  "5174990": {
+    "name": "A Little Leverage - Isekai Daytrader",
+    "low": 13.2,
+    "last": 13.2
+  },
+  "3699590": {
+    "name": "黯井微光 (Well Dweller)",
+    "low": 54.4,
+    "last": 54.4
+  },
+  "2950410": {
+    "name": "备战吧，爱因斯坦！",
+    "low": 35.69,
+    "last": 35.69
+  },
+  "4754460": {
+    "name": "Crystalyn",
+    "low": 23.1,
+    "last": 23.1
+  },
+  "4897630": {
+    "name": "Voxel Gambit",
+    "low": 23.1,
+    "last": 23.1
+  },
+  "3088700": {
+    "name": "Driving Rogue",
+    "low": 22.5,
+    "last": 22.5
+  },
+  "3399100": {
+    "name": "Flashes of Chaos",
+    "low": 36.75,
+    "last": 36.75
+  },
+  "5184450": {
+    "name": "Just Kill",
+    "low": 26.1,
+    "last": 26.1
+  },
+  "5324450": {
+    "name": "Rotaliate",
+    "low": 36.0,
+    "last": 36.0
+  },
+  "4808350": {
+    "name": "村与地下城-迷宫魔法书 Village and Dungeon-Maze Magic Book",
+    "low": 6.0,
+    "last": 6.0
+  },
+  "5236160": {
+    "name": "Seven Gates  Lost Hunter",
+    "low": 15.0,
+    "last": 15.0
+  },
+  "5275080": {
+    "name": "三国大消除",
+    "low": 5.0,
+    "last": 5.0
+  },
+  "3883480": {
+    "name": "Dungeon & Match",
+    "low": 7.8,
+    "last": 7.8
+  },
+  "4726670": {
+    "name": "Direlands: Extraction",
+    "low": 59.0,
+    "last": 59.0
+  },
+  "5042320": {
+    "name": "企鹅之怒",
+    "low": 20.8,
+    "last": 20.8
+  },
+  "5464570": {
+    "name": "Roborumble: Noodle's Adventure",
+    "low": 25.0,
+    "last": 25.0
+  },
+  "4869510": {
+    "name": "Ragnarok Roads",
+    "low": 42.0,
+    "last": 42.0
+  },
+  "4536940": {
+    "name": "Relicta In Memoriam",
+    "low": 34.2,
+    "last": 34.2
+  },
+  "4698390": {
+    "name": "Feedmaster",
+    "low": 20.8,
+    "last": 20.8
+  },
+  "4733540": {
+    "name": "Dome: Become Thyself",
+    "low": 24.54,
+    "last": 24.54
+  },
+  "4733300": {
+    "name": "Akgwi Slash",
+    "low": 40.5,
+    "last": 40.5
+  },
+  "5282000": {
+    "name": "Match & Ruin",
+    "low": 25.2,
+    "last": 25.2
+  },
+  "3969740": {
+    "name": "Gem Beasts",
+    "low": 17.06,
+    "last": 17.06
+  },
+  "4368110": {
+    "name": "Orcavan: Idle RPG",
+    "low": 2.5,
+    "last": 2.5
+  },
+  "4504440": {
+    "name": "Star Raker",
+    "low": 24.65,
+    "last": 24.65
+  },
+  "5394880": {
+    "name": "DYTH",
+    "low": 39.2,
+    "last": 39.2
+  },
+  "2365810": {
+    "name": "Pseudoregalia",
+    "low": 19.5,
+    "last": 19.5
+  },
+  "4330560": {
+    "name": "Psycho Ripper",
+    "low": 42.0,
+    "last": 42.0
+  },
+  "4672440": {
+    "name": "Phroller: Cross-Platform VTT",
+    "low": 75.0,
+    "last": 75.0
+  },
+  "1069230": {
+    "name": "月影魅像-解放之羽-",
+    "low": 21.08,
+    "last": 21.08
+  },
+  "1342330": {
+    "name": "Mad Games Tycoon 2",
+    "low": 55.2,
+    "last": 55.2
+  },
+  "5399060": {
+    "name": "Ink Card Adventure",
+    "low": 11.4,
+    "last": 11.4
+  },
+  "8930": {
+    "name": "Sid Meier's Civilization® V",
+    "low": 23.75,
+    "last": 23.75
+  },
+  "3609100": {
+    "name": "Hero Slayers",
+    "low": 24.8,
+    "last": 24.8
+  },
+  "3443330": {
+    "name": "Spark Quest",
+    "low": 16.53,
+    "last": 16.53
+  },
+  "5404030": {
+    "name": "No One Came Back",
+    "low": 37.8,
+    "last": 37.8
+  },
+  "4297470": {
+    "name": "Demon Fish Dead Ahead",
+    "low": 17.6,
+    "last": 17.6
+  },
+  "287980": {
+    "name": "Mini Metro",
+    "low": 25.2,
+    "last": 25.2
+  },
+  "2278060": {
+    "name": "Timepaths",
+    "low": 42.0,
+    "last": 42.0
+  },
+  "4786300": {
+    "name": "Subjects of Cthullius",
+    "low": 18.0,
+    "last": 18.0
+  },
+  "5074010": {
+    "name": "Battleships: FleetForge",
+    "low": 12.75,
+    "last": 12.75
+  },
+  "4963980": {
+    "name": "Kaironia",
+    "low": 40.5,
+    "last": 40.5
+  },
+  "3529660": {
+    "name": "HOMEPAGE",
+    "low": 29.7,
+    "last": 29.7
+  },
+  "5139320": {
+    "name": "Camping Tycoon Simulator",
+    "low": 22.0,
+    "last": 22.0
+  },
+  "3208460": {
+    "name": "Rogue Braver | 勇者ローグ",
+    "low": 39.2,
+    "last": 39.2
+  },
+  "4864920": {
+    "name": "Mark My Spell",
+    "low": 16.2,
+    "last": 16.2
+  },
+  "5055190": {
+    "name": "Tiny Knight and the Corrupted Crystal",
+    "low": 15.2,
+    "last": 15.2
+  },
+  "4774510": {
+    "name": "Scared Numbers",
+    "low": 15.0,
+    "last": 15.0
+  },
+  "4468540": {
+    "name": "It's About Pirates",
+    "low": 39.98,
+    "last": 39.98
+  },
+  "5483470": {
+    "name": "塞蕾娜的炼金生活",
+    "low": 20.03,
+    "last": 20.03
+  },
+  "5398810": {
+    "name": "The Last Wish",
+    "low": 9.9,
+    "last": 9.9
+  },
+  "5064060": {
+    "name": "Shelf Stable",
+    "low": 37.8,
+    "last": 37.8
+  },
+  "1517770": {
+    "name": "Astrokicker",
+    "low": 18.7,
+    "last": 18.7
+  },
+  "5242350": {
+    "name": "I Only Moved My Mouse",
+    "low": 36.0,
+    "last": 36.0
+  },
+  "4780820": {
+    "name": "20 Floors Down",
+    "low": 35.7,
+    "last": 35.7
+  },
+  "5467310": {
+    "name": "Decks of Valor: Fantasy Card Battles",
+    "low": 38.99,
+    "last": 38.99
+  },
+  "5342700": {
+    "name": "Just a Piece",
+    "low": 18.7,
+    "last": 18.7
+  },
+  "5405610": {
+    "name": "Ai-Breakout",
+    "low": 45.9,
+    "last": 45.9
+  },
+  "3010300": {
+    "name": "一小时勇者",
+    "low": 3.6,
+    "last": 3.6
+  },
+  "5172830": {
+    "name": "小猫钓鱼",
+    "low": 30.0,
+    "last": 30.0
+  },
+  "3238580": {
+    "name": "A World of Keflings",
+    "low": 38.4,
+    "last": 38.4
+  },
+  "2842720": {
+    "name": "ToonSouls Maker",
+    "low": 23.4,
+    "last": 23.4
+  },
+  "4189160": {
+    "name": "On Love, On Monsters",
+    "low": 58.0,
+    "last": 58.0
+  },
+  "5375770": {
+    "name": "Mox Nox",
+    "low": 19.0,
+    "last": 19.0
+  },
+  "5076430": {
+    "name": "Wandering Bard",
+    "low": 21.45,
+    "last": 21.45
+  },
+  "5381260": {
+    "name": "Terrum DeepDrill",
+    "low": 5.03,
+    "last": 5.03
+  },
+  "1943950": {
+    "name": "Escape the Backrooms",
+    "low": 29.6,
+    "last": 29.6
+  },
+  "4982580": {
+    "name": "3 Estrellas",
+    "low": 35.7,
+    "last": 35.7
+  },
+  "4873800": {
+    "name": "Mosaique Neko Waifus 6",
+    "low": 16.5,
+    "last": 16.5
   }
 }
