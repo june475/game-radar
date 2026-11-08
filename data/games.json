@@ -4,7 +4,7 @@
     "version": "V4 review-context discovery",
     "note": "尝鲜榜不设价格或好评率硬门槛；查看近期简中差评关键词，区别争议类型。分析是辅助证据，不代表玩家差评全部属实或无效。",
     "last_enrichment_utc": "2026-11-08T10:06:34.673441+00:00",
-    "last_key_enrichment_utc": "2026-11-08T11:44:04.809578+00:00"
+    "last_key_enrichment_utc": "2026-11-08T12:53:39.540718+00:00"
   },
   "counts": {
     "deal": 30,
@@ -3252,7 +3252,7 @@
       "steam_deck": null,
       "key_offers": [],
       "key_reference_min": null,
-      "key_status": "未核实实时在售",
+      "key_status": "暂无有效散 Key 参考价",
       "tracked_low": 24.0,
       "region_history_low": null,
       "enrichment_status": {
@@ -3276,8 +3276,8 @@
         },
         "keys": {
           "status": "no_quote",
-          "checked_at": "2026-11-07T12:53:32.692530+00:00",
-          "next_retry_at": "2026-11-08T12:53:32.692530+00:00"
+          "checked_at": "2026-11-08T12:53:39.540718+00:00",
+          "next_retry_at": "2026-11-09T12:53:39.540718+00:00"
         }
       }
     },
@@ -5278,11 +5278,11 @@
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=9001130500817721069568",
           "kind": "reference",
           "subid": 1864089,
-          "checked_at": "2026-11-08T07:21:44.489958+00:00"
+          "checked_at": "2026-11-08T12:53:39.540718+00:00"
         }
       ],
       "key_reference_min": 1.99,
-      "key_status": "未核实实时在售",
+      "key_status": "参考报价，不代表实时库存",
       "tracked_low": 4.2,
       "region_history_low": null,
       "enrichment_status": {
@@ -5306,8 +5306,8 @@
         },
         "keys": {
           "status": "success",
-          "checked_at": "2026-11-05T11:59:19.777738+00:00",
-          "next_retry_at": "2026-11-08T11:59:19.777738+00:00"
+          "checked_at": "2026-11-08T12:53:39.540718+00:00",
+          "next_retry_at": "2026-11-11T12:53:39.540718+00:00"
         }
       }
     },
