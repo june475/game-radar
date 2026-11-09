@@ -87,6 +87,37 @@ document.querySelectorAll("[data-filter]").forEach(b=>b.onclick=()=>{
 document.querySelectorAll("[data-filter]").forEach(x=>x.classList.remove("active"));
 b.classList.add("active");filter=b.dataset.filter;render();
 });
+// Keep category tabs at the viewport top after they reach it. The placeholder
+// preserves document height so fixing the bar does not make the page jump.
+(()=>{
+  const tabs=document.querySelector(".filters");
+  if(!tabs)return;
+  const placeholder=document.createElement("div");
+  placeholder.className="filters-placeholder";
+  tabs.parentNode.insertBefore(placeholder,tabs);
+  const update=()=>{
+    const shouldFix=window.scrollY>tabs.offsetTop;
+    if(shouldFix&&!tabs.classList.contains("is-fixed")){
+      placeholder.style.height=tabs.offsetHeight+"px";
+      placeholder.classList.add("is-active");
+      tabs.classList.add("is-fixed");
+    }else if(!shouldFix&&tabs.classList.contains("is-fixed")){
+      tabs.classList.remove("is-fixed");
+      placeholder.classList.remove("is-active");
+      placeholder.style.height="0px";
+    }
+  };
+  addEventListener("scroll",update,{passive:true});
+  addEventListener("resize",update);
+  update();
+})();
+const backToTop=document.querySelector("#back-to-top");
+if(backToTop){
+  const updateBackToTop=()=>backToTop.classList.toggle("is-visible",window.scrollY>500);
+  addEventListener("scroll",updateBackToTop,{passive:true});
+  backToTop.onclick=()=>window.scrollTo({top:0,behavior:"smooth"});
+  updateBackToTop();
+}
 document.querySelector("#search").oninput=render;
 fetch("data/games.json?"+Date.now()).then(r=>{if(!r.ok)throw Error("data fetch failed");return r.json()}).then(boot).catch(()=>boot({meta:{updated_at_cn:"暂无数据"},games:[]}));
 
