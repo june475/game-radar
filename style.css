@@ -65,17 +65,31 @@ header,main,footer{position:relative;z-index:1}
 
 /* Keep the main category tabs available while browsing long lists. */
 .filters{
-  position:sticky;
-  top:0;
-  z-index:20;
   margin-top:0;
   padding:10px 0;
   background:rgba(11,14,20,.96);
   backdrop-filter:blur(12px);
   border-bottom:1px solid rgba(116,240,184,.18);
 }
+.filters.is-fixed{
+  position:fixed;
+  top:0;
+  left:50%;
+  transform:translateX(-50%);
+  width:min(1180px,calc(100% - 32px));
+  z-index:100;
+  margin:0;
+  box-shadow:0 8px 24px rgba(0,0,0,.28);
+}
+.filters-placeholder{display:none;height:0}
+.filters-placeholder.is-active{display:block}
 @media(max-width:800px){
   .filters{overflow-x:auto;flex-wrap:nowrap;align-items:center;padding-inline:4px}
   .filters button{flex:0 0 auto;white-space:nowrap}
   .filters input{flex:0 0 180px;margin-left:0}
 }
+
+.back-to-top{position:fixed;right:24px;bottom:24px;z-index:110;display:none;border:1px solid rgba(116,240,184,.45);border-radius:999px;padding:10px 14px;background:rgba(18,23,34,.94);color:var(--text);cursor:pointer;box-shadow:0 8px 24px rgba(0,0,0,.3)}
+.back-to-top.is-visible{display:block}
+.back-to-top:hover{background:#1b2a35;color:var(--accent)}
+@media(max-width:800px){.back-to-top{right:14px;bottom:14px}}
