@@ -4,7 +4,7 @@
     "version": "V4 review-context discovery",
     "note": "尝鲜榜不设价格或好评率硬门槛；查看近期简中差评关键词，区别争议类型。分析是辅助证据，不代表玩家差评全部属实或无效。",
     "last_enrichment_utc": "2026-11-09T22:05:33.939336+00:00",
-    "last_key_enrichment_utc": "2026-11-09T20:56:00.383865+00:00"
+    "last_key_enrichment_utc": "2026-11-09T22:50:29.991505+00:00"
   },
   "counts": {
     "deal": 30,
@@ -1546,8 +1546,8 @@
       "enrichment_status": {
         "keys": {
           "status": "no_quote",
-          "checked_at": "2026-11-08T22:41:42.846063+00:00",
-          "next_retry_at": "2026-11-09T22:41:42.846063+00:00"
+          "checked_at": "2026-11-09T22:50:29.991505+00:00",
+          "next_retry_at": "2026-11-10T22:50:29.991505+00:00"
         },
         "reviews": {
           "status": "no_data",
@@ -1586,7 +1586,7 @@
           "details": "0 DLC IDs"
         }
       },
-      "key_status": "未核实实时在售",
+      "key_status": "暂无有效散 Key 参考价",
       "key_reference_min": null,
       "tracked_low": 2.5,
       "region_history_low": null
@@ -1647,8 +1647,8 @@
       "enrichment_status": {
         "keys": {
           "status": "no_quote",
-          "checked_at": "2026-11-08T22:41:42.846063+00:00",
-          "next_retry_at": "2026-11-09T22:41:42.846063+00:00"
+          "checked_at": "2026-11-09T22:50:29.991505+00:00",
+          "next_retry_at": "2026-11-10T22:50:29.991505+00:00"
         },
         "reviews": {
           "status": "no_data",
@@ -1687,7 +1687,7 @@
           "details": "0 DLC IDs"
         }
       },
-      "key_status": "未核实实时在售",
+      "key_status": "暂无有效散 Key 参考价",
       "key_reference_min": null,
       "tracked_low": 2.5,
       "region_history_low": null
@@ -1851,8 +1851,8 @@
       "enrichment_status": {
         "keys": {
           "status": "no_quote",
-          "checked_at": "2026-11-08T22:41:42.846063+00:00",
-          "next_retry_at": "2026-11-09T22:41:42.846063+00:00"
+          "checked_at": "2026-11-09T22:50:29.991505+00:00",
+          "next_retry_at": "2026-11-10T22:50:29.991505+00:00"
         },
         "reviews": {
           "status": "no_data",
@@ -1891,7 +1891,7 @@
           "details": "0 DLC IDs"
         }
       },
-      "key_status": "未核实实时在售",
+      "key_status": "暂无有效散 Key 参考价",
       "key_reference_min": null,
       "tracked_low": 6.6,
       "region_history_low": null,
@@ -2054,15 +2054,15 @@
       "steam_historical_low_source": null,
       "steam_deck": null,
       "key_offers": [],
-      "key_status": "未核实实时在售",
+      "key_status": "暂无有效散 Key 参考价",
       "key_reference_min": null,
       "tracked_low": 6.6,
       "region_history_low": null,
       "enrichment_status": {
         "keys": {
           "status": "no_quote",
-          "checked_at": "2026-11-08T22:41:42.846063+00:00",
-          "next_retry_at": "2026-11-09T22:41:42.846063+00:00"
+          "checked_at": "2026-11-09T22:50:29.991505+00:00",
+          "next_retry_at": "2026-11-10T22:50:29.991505+00:00"
         },
         "reviews": {
           "status": "no_data",
@@ -3825,15 +3825,15 @@
       "steam_historical_low_source": null,
       "steam_deck": null,
       "key_offers": [],
-      "key_status": "未核实实时在售",
+      "key_status": "暂无有效散 Key 参考价",
       "key_reference_min": null,
       "tracked_low": 17.6,
       "region_history_low": null,
       "enrichment_status": {
         "keys": {
           "status": "no_quote",
-          "checked_at": "2026-11-08T22:41:42.846063+00:00",
-          "next_retry_at": "2026-11-09T22:41:42.846063+00:00"
+          "checked_at": "2026-11-09T22:50:29.991505+00:00",
+          "next_retry_at": "2026-11-10T22:50:29.991505+00:00"
         },
         "reviews": {
           "status": "no_data",
@@ -4987,8 +4987,8 @@
         },
         "keys": {
           "status": "no_quote",
-          "checked_at": "2026-11-08T22:41:42.846063+00:00",
-          "next_retry_at": "2026-11-09T22:41:42.846063+00:00"
+          "checked_at": "2026-11-09T22:50:29.991505+00:00",
+          "next_retry_at": "2026-11-10T22:50:29.991505+00:00"
         },
         "deck": {
           "status": "unverified",
@@ -5003,7 +5003,7 @@
           "details": "no verified CNY historical record"
         }
       },
-      "key_status": "未核实实时在售",
+      "key_status": "暂无有效散 Key 参考价",
       "region_history_low": null
     },
     {
