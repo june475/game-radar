@@ -1,988 +1,681 @@
 [
   {
-    "id": 2291850,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 1696770,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 3681220,
+    "id": 5389650,
     "type": 0,
-    "name": "The Light Switch",
-    "discounted": false,
-    "discount_percent": 0,
-    "original_price": null,
-    "final_price": 0,
+    "name": "EVO RNG",
+    "discounted": true,
+    "discount_percent": 10,
+    "original_price": 1900,
+    "final_price": 1710,
     "currency": "CNY",
-    "large_capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3681220/af9f32adefaf347d563008ee15e05b4ba486c52e/capsule_616x353.jpg?t=1794090407",
-    "small_capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3681220/2f3c040b88c4db8d9f504a2a1015629aa8875ddb/capsule_184x69.jpg?t=1794090407",
+    "large_capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5389650/2b760267ceb130e393711008e4f3870f9d9c1926/capsule_616x353.jpg?t=1794147040",
+    "small_capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5389650/e70e97f1fdabf6003d5b49ef0aea0639defcc186/capsule_184x69.jpg?t=1794147040",
     "windows_available": true,
-    "mac_available": true,
+    "mac_available": false,
     "linux_available": true,
     "streamingvideo_available": false,
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3681220/22a8cd92eac4c12825b5d5e76c8d975ea2fefe31/header.jpg?t=1794090407",
-    "_flag": "new"
+    "discount_expiration": 1794765639,
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5389650/4b860b39e98e2fa19a3751bbd4b2c2d5e9f8b4c9/header.jpg?t=1794147040",
+    "_flag": "new",
+    "_search": true
   },
   {
-    "id": 324160,
+    "id": 2538480,
     "_flag": "explore",
     "_search": true
   },
   {
-    "id": 2439120,
+    "id": 5403380,
+    "type": 0,
+    "name": "One More Piece",
+    "discounted": true,
+    "discount_percent": 20,
+    "original_price": 2200,
+    "final_price": 1760,
+    "currency": "CNY",
+    "large_capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5403380/1c79901ab778faa592a58efdefc3626407dd7e26/capsule_616x353.jpg?t=1794167162",
+    "small_capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5403380/ab5b67e1a9e100b1968d7cc306f29e9c90afac1b/capsule_184x69.jpg?t=1794167162",
+    "windows_available": true,
+    "mac_available": false,
+    "linux_available": false,
+    "streamingvideo_available": false,
+    "discount_expiration": 1794765634,
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5403380/f3e1b115969433db736b1c9ea980435d5f8b9760/header.jpg?t=1794167162",
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 1333910,
     "_flag": "deal",
     "_search": true
   },
   {
-    "id": 5371810,
+    "id": 5465870,
     "type": 0,
-    "name": "Cozy Tent",
-    "discounted": false,
-    "discount_percent": 0,
-    "original_price": 1900,
-    "final_price": 1900,
+    "name": "ゾンビ盛り！",
+    "discounted": true,
+    "discount_percent": 40,
+    "original_price": 1500,
+    "final_price": 900,
     "currency": "CNY",
-    "large_capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5371810/6a5eb0dcc1b9b55a90ab7648531f0fed0998c21d/capsule_616x353.jpg?t=1794088689",
-    "small_capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5371810/57f4c0ff8a33cfb099ce637e3be327a49a2a6f8a/capsule_184x69.jpg?t=1794088689",
+    "large_capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5465870/ea51f3eafa22b347d725ea387203a73f0d61fef9/capsule_616x353.jpg?t=1794137752",
+    "small_capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5465870/996ca46c0dd004e23239339b1f2bce5ca7cbb4f6/capsule_184x69.jpg?t=1794137752",
     "windows_available": true,
     "mac_available": true,
     "linux_available": false,
     "streamingvideo_available": false,
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5371810/fa0db6d3d5e2413b1b755542625f502093021078/header.jpg?t=1794088689",
+    "discount_expiration": 1794765651,
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5465870/a35bb3a5019567987cb324e2d0a80eecaf655120/header.jpg?t=1794137752",
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 3115220,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 2128270,
+    "id": 3444020,
     "_flag": "deal",
     "_search": true
   },
   {
-    "id": 5472000,
-    "type": 0,
-    "name": "Cloverstead",
-    "discounted": true,
-    "discount_percent": 20,
-    "original_price": 3500,
-    "final_price": 2800,
-    "currency": "CNY",
-    "large_capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5472000/77faa8c0e7476576db6c19ea93be9d006db9de30/capsule_616x353.jpg?t=1794082648",
-    "small_capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5472000/b353388df6d3b03a950335477826acf92d51e487/capsule_184x69.jpg?t=1794082648",
-    "windows_available": true,
-    "mac_available": false,
-    "linux_available": false,
-    "streamingvideo_available": false,
-    "discount_expiration": 1794679227,
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5472000/a7790b392a00fa35b883a23f44c5eca4994f0e54/header.jpg?t=1794082648",
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 2389500,
+    "id": 1406990,
     "_flag": "explore",
     "_search": true
   },
   {
-    "id": 3832490,
+    "id": 2262610,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 724930,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 2607060,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 3088700,
     "_flag": "deal",
     "_search": true
   },
   {
-    "id": 5444410,
-    "type": 0,
-    "name": "Dungeon Survivor",
-    "discounted": true,
-    "discount_percent": 40,
-    "original_price": 500,
-    "final_price": 300,
-    "currency": "CNY",
-    "large_capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5444410/80b7f45725ccdfeff069fcd225e3909da8d10b58/capsule_616x353.jpg?t=1794080956",
-    "small_capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5444410/6365a07179f6000631761b3cad4f2eb9adbda717/capsule_184x69.jpg?t=1794080956",
-    "windows_available": true,
-    "mac_available": false,
-    "linux_available": false,
-    "streamingvideo_available": false,
-    "discount_expiration": 1794679215,
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5444410/4b2ba010ae3d455ee9894481fbeef38a82538b0b/header.jpg?t=1794080956",
-    "controller_support": "full",
+    "id": 4492480,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 3510740,
+    "id": 2538480,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 2806540,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 774801,
     "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 2291850,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 3876560,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 1130410,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 4786370,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 483980,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 3010170,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 4234260,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 4437110,
+    "_flag": "new",
     "_search": true
   },
   {
     "id": 420530,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 3514630,
     "_flag": "deal",
     "_search": true
   },
   {
-    "id": 1927720,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 2540670,
-    "type": 0,
-    "name": "秘境守卫军",
-    "discounted": true,
-    "discount_percent": 50,
-    "original_price": 3800,
-    "final_price": 1900,
-    "currency": "CNY",
-    "large_capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2540670/capsule_616x353_schinese.jpg?t=1794077983",
-    "small_capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2540670/capsule_184x69_schinese.jpg?t=1794077983",
-    "windows_available": true,
-    "mac_available": false,
-    "linux_available": false,
-    "streamingvideo_available": false,
-    "discount_expiration": 1795276800,
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2540670/header_schinese.jpg?t=1794077983",
-    "controller_support": "full",
+    "id": 4978080,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 635260,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 4453700,
-    "type": 0,
-    "name": "The Beckoning",
-    "discounted": true,
-    "discount_percent": 20,
-    "original_price": 2200,
-    "final_price": 1760,
-    "currency": "CNY",
-    "large_capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4453700/33e792a6286ebfaad3325e3c168127abab485241/capsule_616x353.jpg?t=1794077796",
-    "small_capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4453700/f8617122ba16cbea44795636a0f492ae7c489cb3/capsule_184x69.jpg?t=1794077796",
-    "windows_available": true,
-    "mac_available": false,
-    "linux_available": false,
-    "streamingvideo_available": false,
-    "discount_expiration": 1794679234,
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4453700/84a0d7dda26192360691f9818059539d1c5bb47c/header.jpg?t=1794077796",
-    "_flag": "new"
-  },
-  {
-    "id": 1901370,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 5402520,
-    "type": 0,
-    "name": "Methusalah Redemption",
-    "discounted": false,
-    "discount_percent": 0,
-    "original_price": 1800,
-    "final_price": 1800,
-    "currency": "CNY",
-    "large_capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5402520/206e374d19b29420da432ab9414117cee73820f3/capsule_616x353.jpg?t=1794074368",
-    "small_capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5402520/05844a39fb9e5b8fe3a458392f9c862f80b9d5a8/capsule_184x69.jpg?t=1794074368",
-    "windows_available": true,
-    "mac_available": false,
-    "linux_available": false,
-    "streamingvideo_available": false,
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5402520/2dabdf11512f2a0cfdd9471ece236b56478f90d3/header.jpg?t=1794074368",
-    "controller_support": "full",
-    "_flag": "new"
-  },
-  {
-    "id": 4640760,
-    "type": 0,
-    "name": "Rent Out Together",
-    "discounted": true,
-    "discount_percent": 20,
-    "original_price": 3500,
-    "final_price": 2800,
-    "currency": "CNY",
-    "large_capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4640760/37cc72280ca24f28dab574f67d872dbbbbf25242/capsule_616x353.jpg?t=1794073724",
-    "small_capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4640760/a39daf3e9979b6797336500db1ee6efb528a17ba/capsule_184x69.jpg?t=1794073724",
-    "windows_available": true,
-    "mac_available": false,
-    "linux_available": false,
-    "streamingvideo_available": false,
-    "discount_expiration": 1794679242,
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4640760/4fdd660ee6dfa0e72b6bac09e792167ac1091f27/header.jpg?t=1794073724",
-    "_flag": "new"
-  },
-  {
-    "id": 1455840,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 2933200,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 5405270,
-    "type": 0,
-    "name": "Słownikowa Wyspa",
-    "discounted": false,
-    "discount_percent": 0,
-    "original_price": 1925,
-    "final_price": 1925,
-    "currency": "CNY",
-    "large_capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5405270/c1fcda177a8ad8861240993847a78a853273ceb5/capsule_616x353.jpg?t=1794071560",
-    "small_capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5405270/cef25ff9920a1f07ed3265bb79e2cb4941a5b1c2/capsule_184x69.jpg?t=1794071560",
-    "windows_available": true,
-    "mac_available": false,
-    "linux_available": false,
-    "streamingvideo_available": false,
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5405270/db98c7e3c497be71824dd7cc7bcffacca1fbbc29/header.jpg?t=1794071560",
-    "_flag": "new"
-  },
-  {
-    "id": 2933200,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 5477320,
-    "type": 0,
-    "name": "Rockburst",
-    "discounted": true,
-    "discount_percent": 20,
-    "original_price": 2800,
-    "final_price": 2240,
-    "currency": "CNY",
-    "large_capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5477320/afe6edb6a0454279945b62faacdbbb8a0bdc26bb/capsule_616x353.jpg?t=1794070809",
-    "small_capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5477320/f1b06e72101969bb02584b9e482d7c0d0515303f/capsule_184x69.jpg?t=1794070809",
-    "windows_available": true,
-    "mac_available": false,
-    "linux_available": true,
-    "streamingvideo_available": false,
-    "discount_expiration": 1795284003,
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5477320/0abcfd230e34af34af507eef96c4355be85959ae/header.jpg?t=1794070809",
-    "controller_support": "full",
+    "id": 5451020,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 2482010,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 1901370,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 5259730,
-    "type": 0,
-    "name": "Dub Party",
-    "discounted": true,
-    "discount_percent": 20,
-    "original_price": 2200,
-    "final_price": 1760,
-    "currency": "CNY",
-    "large_capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5259730/f84a90f775807a2abb5614cd8997895c02b7b7c1/capsule_616x353.jpg?t=1794094504",
-    "small_capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5259730/72f2153f932d1966716638f3584256a8a9ccb5b2/capsule_184x69.jpg?t=1794094504",
-    "windows_available": true,
-    "mac_available": false,
-    "linux_available": true,
-    "streamingvideo_available": false,
-    "discount_expiration": 1794679237,
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5259730/135be578d9f2405f8b982ea62284f20ce16ccb83/header.jpg?t=1794094504",
-    "controller_support": "full",
-    "_flag": "new"
-  },
-  {
-    "id": 1669980,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 5218890,
-    "type": 0,
-    "name": "Go! Go! Shovelcar!",
-    "discounted": true,
-    "discount_percent": 10,
-    "original_price": 2200,
-    "final_price": 1980,
-    "currency": "CNY",
-    "large_capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5218890/5e09546d41633000076e5647926c3c5c2f8a7664/capsule_616x353.jpg?t=1794066145",
-    "small_capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5218890/b5754ae261b88bbdcdee742812809249dd666ebc/capsule_184x69.jpg?t=1794066145",
-    "windows_available": true,
-    "mac_available": false,
-    "linux_available": true,
-    "streamingvideo_available": false,
-    "discount_expiration": 1794679223,
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5218890/5df450ae33fad46c97155a2c96c728d81a1a7f91/header.jpg?t=1794066145",
-    "controller_support": "full",
-    "_flag": "new"
-  },
-  {
-    "id": 2105910,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 1148760,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 5308680,
-    "type": 0,
-    "name": "Little Supermarket",
-    "discounted": true,
-    "discount_percent": 20,
-    "original_price": 2200,
-    "final_price": 1760,
-    "currency": "CNY",
-    "large_capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5308680/eed5450494069eba47f98f7856ab31a3a36ae8a5/capsule_616x353.jpg?t=1794065157",
-    "small_capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5308680/1e6852e8d0545e5ef4503bd19190bf4cf9d8f9ef/capsule_184x69.jpg?t=1794065157",
-    "windows_available": true,
-    "mac_available": true,
-    "linux_available": false,
-    "streamingvideo_available": false,
-    "discount_expiration": 1795284056,
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5308680/95a9939931006fda38518f4499a6257583253119/header.jpg?t=1794065157",
-    "_flag": "new"
-  },
-  {
-    "id": 1684410,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 3981890,
-    "type": 0,
-    "name": "Infinite Game Cartridge Collection - Unstable Towers",
-    "discounted": false,
-    "discount_percent": 0,
-    "original_price": null,
-    "final_price": 0,
-    "currency": "CNY",
-    "large_capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3981890/37bdaaa2be2d2236bbcef522328b4dfc07dd9d60/capsule_616x353.jpg?t=1794063307",
-    "small_capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3981890/26dcbf3b16fe8d78bf959165920fb301bea5ccd5/capsule_184x69.jpg?t=1794063307",
-    "windows_available": true,
-    "mac_available": false,
-    "linux_available": false,
-    "streamingvideo_available": false,
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3981890/67d524dc29c6fae3146ced4f1dfc1ba341267cee/header.jpg?t=1794063307",
-    "_flag": "new"
-  },
-  {
-    "id": 1018850,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 2389500,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 5435190,
-    "type": 0,
-    "name": "零·五子棋",
-    "discounted": false,
-    "discount_percent": 0,
-    "original_price": null,
-    "final_price": 0,
-    "currency": "CNY",
-    "large_capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5435190/f96490c0f67ab1148b9614d4c810211da6c34790/capsule_616x353_schinese.jpg?t=1794061610",
-    "small_capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5435190/3f116dc29f769b60d50552748623857593b456fc/capsule_184x69_schinese.jpg?t=1794061610",
-    "windows_available": true,
-    "mac_available": false,
-    "linux_available": false,
-    "streamingvideo_available": false,
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5435190/d6005871d356cb3c5d4301e834544345b808c516/header_schinese.jpg?t=1794061610",
-    "_flag": "new"
-  },
-  {
-    "id": 1127500,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 5325220,
-    "type": 0,
-    "name": "桌面抱抱：桌面伙伴",
-    "discounted": false,
-    "discount_percent": 0,
-    "original_price": null,
-    "final_price": 0,
-    "currency": "CNY",
-    "large_capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5325220/acca11f6f161b97effcc49c1cdc8374d24c5e2d7/capsule_616x353.jpg?t=1794061963",
-    "small_capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5325220/a032c30388a021b0cada67653ef6e15d6363e284/capsule_184x69.jpg?t=1794061963",
-    "windows_available": true,
-    "mac_available": false,
-    "linux_available": false,
-    "streamingvideo_available": false,
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5325220/6d3a4d370c7519894124f2d81e46d74745a4a22f/header.jpg?t=1794061963",
-    "_flag": "new"
-  },
-  {
-    "id": 4241920,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 2111190,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 1990250,
-    "type": 0,
-    "name": "SG Racing",
-    "discounted": true,
-    "discount_percent": 20,
-    "original_price": 3300,
-    "final_price": 2640,
-    "currency": "CNY",
-    "large_capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1990250/4d26725b665195b5292a99a63e8a5fbdb9f0850c/capsule_616x353.jpg?t=1794059684",
-    "small_capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1990250/ad2bc16a51148e9ea2b8b18a48e7fc96fc48a465/capsule_184x69.jpg?t=1794059684",
-    "windows_available": true,
-    "mac_available": false,
-    "linux_available": false,
-    "streamingvideo_available": false,
-    "discount_expiration": 1794679242,
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1990250/2a573fd5e03814f8509d27e8e0fb64f985526889/header.jpg?t=1794059684",
-    "controller_support": "full",
-    "_flag": "new"
-  },
-  {
-    "id": 2528850,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 1586800,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 5437570,
-    "type": 0,
-    "name": "Cabin Life",
-    "discounted": true,
-    "discount_percent": 25,
-    "original_price": 3880,
-    "final_price": 2910,
-    "currency": "CNY",
-    "large_capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5437570/ff848027e8d555770600e9c6023d127ea79e560c/capsule_616x353.jpg?t=1794059236",
-    "small_capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5437570/7425980021c76c9ccd3212c169a33a233223dff7/capsule_184x69.jpg?t=1794059236",
-    "windows_available": true,
-    "mac_available": false,
-    "linux_available": false,
-    "streamingvideo_available": false,
-    "discount_expiration": 1795284015,
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5437570/4350ce8a875b06deaa85526d4f93b9f5b6d80526/header.jpg?t=1794059236",
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 1669980,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 4688280,
-    "type": 0,
-    "name": "Desktop Oasis",
-    "discounted": true,
-    "discount_percent": 10,
-    "original_price": 2800,
-    "final_price": 2520,
-    "currency": "CNY",
-    "large_capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4688280/095ddac8498d377e5c3622c8d3b19cc7b301f159/capsule_616x353.jpg?t=1794059884",
-    "small_capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4688280/3acf3360cc47f77268a585fda65652d6a6c5fdd8/capsule_184x69.jpg?t=1794059884",
-    "windows_available": true,
-    "mac_available": false,
-    "linux_available": false,
-    "streamingvideo_available": false,
-    "discount_expiration": 1795111208,
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4688280/489694585408f94703cf4d0da73e6093c45083aa/header.jpg?t=1794059884",
-    "_flag": "new"
-  },
-  {
-    "id": 2004590,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 4996440,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 681280,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 2482010,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 4763220,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 3636770,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 2912430,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 5127280,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 2484880,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 4241920,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 1211020,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 2528850,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 5341770,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 1562700,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 1127500,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 1682970,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 3947480,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 5201710,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 2505530,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 2912430,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 4755250,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 2484880,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 1864710,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 1944570,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 5481740,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 3238580,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 4391570,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 4907430,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 659540,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 5252470,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 2958140,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 3372990,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 5020910,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 4631810,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 2485660,
+    "id": 1240210,
     "_flag": "explore",
     "_search": true
   },
   {
     "id": 851100,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 4832540,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 2495450,
     "_flag": "explore",
     "_search": true
   },
   {
-    "id": 1455840,
+    "id": 2915460,
     "_flag": "deal",
     "_search": true
   },
   {
-    "id": 324160,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 1170570,
+    "id": 457210,
     "_flag": "explore",
     "_search": true
   },
   {
-    "id": 2485660,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 4072610,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 2308630,
+    "id": 1609230,
     "_flag": "explore",
     "_search": true
   },
   {
-    "id": 4737870,
+    "id": 4555040,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 602520,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 2505530,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 3549030,
     "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 3624110,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 4653110,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 2607060,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 5140590,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 2950790,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 1240210,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 3699590,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 3088700,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 5425490,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 420110,
+    "_flag": "explore",
     "_search": true
   },
   {
     "id": 2426770,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 681280,
     "_flag": "deal",
     "_search": true
   },
   {
-    "id": 2763970,
+    "id": 4764690,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 2495450,
+    "id": 3133060,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 1407420,
     "_flag": "deal",
     "_search": true
   },
   {
-    "id": 1123310,
-    "_flag": "explore",
+    "id": 4591470,
+    "_flag": "new",
     "_search": true
   },
   {
-    "id": 1163740,
+    "id": 1942280,
     "_flag": "deal",
     "_search": true
   },
   {
-    "id": 5421210,
+    "id": 3347830,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 2458530,
+    "id": 2394650,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 4246520,
     "_flag": "deal",
     "_search": true
   },
   {
-    "id": 2454000,
+    "id": 3051060,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 4945980,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 1079260,
     "_flag": "explore",
     "_search": true
   },
   {
-    "id": 2011780,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 1018850,
+    "id": 692890,
     "_flag": "deal",
     "_search": true
   },
   {
-    "id": 2999500,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 5335900,
+    "id": 2529630,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 4925930,
+    "id": 2950410,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 1927150,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 1927720,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 5339950,
+    "id": 4590950,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 2454000,
+    "id": 1146510,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 2162800,
     "_flag": "deal",
     "_search": true
   },
   {
-    "id": 2572040,
-    "_flag": "deal",
+    "id": 3010300,
+    "_flag": "new",
     "_search": true
   },
   {
-    "id": 3566870,
+    "id": 931270,
     "_flag": "explore",
     "_search": true
   },
   {
-    "id": 899970,
+    "id": 4368110,
     "_flag": "explore",
     "_search": true
   },
   {
-    "id": 5105000,
+    "id": 3399100,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 569480,
+    "id": 2111550,
     "_flag": "explore",
     "_search": true
   },
   {
-    "id": 2496300,
+    "id": 3933710,
     "_flag": "explore",
     "_search": true
   },
   {
-    "id": 5483650,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 5268180,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 2496300,
+    "id": 858210,
     "_flag": "deal",
     "_search": true
   },
   {
-    "id": 5451370,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 5335100,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 839870,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 5047920,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 2825880,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 4788400,
+    "id": 5037510,
     "_flag": "explore",
     "_search": true
   },
   {
-    "id": 4788400,
+    "id": 1609230,
     "_flag": "deal",
     "_search": true
   },
   {
-    "id": 4835870,
+    "id": 2842720,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 318130,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 5389720,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 2915460,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 3519530,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 4368110,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 558990,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 2191190,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 5275080,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 3509160,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 1123450,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 4137570,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 3708620,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 5076430,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 3720420,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 2394650,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 5042320,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 4873800,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 3734680,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 2365810,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 990630,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 3201570,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 2849680,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 5209760,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 1069230,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 3734680,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 4698390,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 1342330,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 1586800,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 1694640,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 1694640,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 3960580,
     "_flag": "new",
     "_search": true
   },
   {
     "id": 3446680,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 5282000,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 1662480,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 4459600,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 8930,
     "_flag": "deal",
     "_search": true
   },
   {
-    "id": 5217960,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 1236720,
+    "id": 1644940,
     "_flag": "deal",
     "_search": true
   },
   {
-    "id": 3035120,
+    "id": 4745430,
     "_flag": "deal",
     "_search": true
   },
   {
-    "id": 5250630,
+    "id": 5394880,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 1864950,
+    "id": 3304110,
     "_flag": "deal",
     "_search": true
   },
   {
-    "id": 2746910,
+    "id": 4911350,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 5019170,
     "_flag": "deal",
     "_search": true
   },
   {
-    "id": 367580,
+    "id": 287980,
     "_flag": "deal",
     "_search": true
   },
   {
-    "id": 3873760,
+    "id": 5399060,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 5208460,
+    "id": 2688900,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 5345290,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 5230360,
+    "id": 5329660,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 3422590,
+    "id": 3471360,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 4329970,
+    "id": 3060830,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 4971330,
+    "id": 5277580,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 4909100,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 5399290,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 1587920,
     "_flag": "new",
     "_search": true
   }
