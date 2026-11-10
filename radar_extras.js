@@ -183,7 +183,7 @@ const RadarExtras=(()=>{
     node.appendChild(sourceLink);
     if(!rows.length){note.textContent="暂无已保存的价格记录。可点击下方 SteamDB 原始页面链接查阅；本站不会猜测史低。";dialog.showModal();return}
     note.textContent="曲线仅包含已保存的真实观测数据；SteamDB 如未提供可验证记录，请通过原始链接核查。散 Key 非实时库存。";
-    const width=720,height=230,pad=34;
+    const width=720,height=230,pad=76;
     const values=rows.map(x=>x.price),min=Math.min(...values),max=Math.max(...values);
     const minY=Math.max(0,min-(max-min||1)*.1),maxY=max+(max-min||1)*.1;
     const dates=[...new Set(rows.map(r=>r.date))].sort();
@@ -191,9 +191,21 @@ const RadarExtras=(()=>{
     const y=v=>height-pad-(v-minY)*(height-2*pad)/(maxY-minY);
     const svg=document.createElementNS("http://www.w3.org/2000/svg","svg");
     svg.setAttribute("viewBox","0 0 "+width+" "+height);
-    svg.setAttribute("role","img");svg.setAttribute("aria-label","按来源分别绘制的站内价格观察走势图");
+    svg.setAttribute("role","group");svg.setAttribute("aria-label","按来源分别绘制的站内价格观察走势图");
     const sources=[...new Set(rows.map(r=>r.source||"未知来源"))];
     const palette=["#74f0b8","#f2c56c","#85b6ff","#d6a6ef","#f38f95"];
+    const amount=document.createElement("p");
+    amount.setAttribute("aria-live","polite");
+    amount.textContent="悬停或点按圆点查看日期、来源和金额";
+    for(let i=0;i<=4;i++){
+      const price=minY+(maxY-minY)*i/4;
+      const label=document.createElementNS(svg.namespaceURI,"text");
+      label.setAttribute("x","8");
+      label.setAttribute("y",y(price)+5);
+      label.setAttribute("fill","#cbd5e1");
+      label.textContent=fmt(price);
+      svg.appendChild(label);
+    }
     sources.forEach((source,index)=>{
       const values=rows.filter(r=>(r.source||"未知来源")===source);
       if(!values.length)return;
@@ -202,14 +214,21 @@ const RadarExtras=(()=>{
       line.setAttribute("stroke",palette[index%palette.length]);
       line.setAttribute("fill","none");line.setAttribute("stroke-width","3");
       svg.appendChild(line);
-      if(values.length===1){
+      for(const row of values){
         const circle=document.createElementNS("http://www.w3.org/2000/svg","circle");
-        circle.setAttribute("cx",x(values[0].date));circle.setAttribute("cy",y(values[0].price));
+        circle.setAttribute("cx",x(row.date));circle.setAttribute("cy",y(row.price));
         circle.setAttribute("r","5");circle.setAttribute("fill",palette[index%palette.length]);
+        const detail=row.date+" · "+source+" · "+fmt(row.price);
+        circle.setAttribute("tabindex","0");
+        circle.setAttribute("aria-label",detail);
+        circle.style.cursor="pointer";
+        for(const event of ["pointerenter","click","focus"]){
+          circle.addEventListener(event,()=>{amount.textContent=detail;});
+        }
         svg.appendChild(circle);
       }
     });
-    node.appendChild(svg);
+    node.append(svg,amount);
     const legend=document.createElement("div");legend.className="chart-legend";
     sources.forEach((source,index)=>{
       const tag=document.createElement("span");
