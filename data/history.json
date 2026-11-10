@@ -1772,7 +1772,7 @@
   "851100": {
     "name": "Touhou Luna Nights",
     "low": 37.2,
-    "last": 37.2
+    "last": 62.0
   },
   "236450": {
     "name": "PAC-MAN™ Championship Edition DX+",
@@ -3367,7 +3367,7 @@
   "3010170": {
     "name": "《尖牙乐园》",
     "low": 46.8,
-    "last": 46.8
+    "last": 52.0
   },
   "5055850": {
     "name": "Hearty Haven: Amalgamated",
@@ -5277,7 +5277,7 @@
   "602520": {
     "name": "NEKOPARA Vol. 3",
     "low": 16.8,
-    "last": 16.8
+    "last": 42.0
   },
   "4545030": {
     "name": "Beyond The Mist",
@@ -5922,7 +5922,7 @@
   "1240210": {
     "name": "根本没有游戏",
     "low": 34.4,
-    "last": 34.4
+    "last": 43.0
   },
   "4908640": {
     "name": "THW's Calcudoku",
@@ -5947,7 +5947,7 @@
   "2262610": {
     "name": "永不结束的星期一：梦想与死线 Endless Monday: Dreams and Deadlines",
     "low": 25.2,
-    "last": 25.2
+    "last": 42.0
   },
   "4961420": {
     "name": "元素炸弹",
@@ -5977,7 +5977,7 @@
   "4137570": {
     "name": "分头行动:chibichibi",
     "low": 17.1,
-    "last": 17.1
+    "last": 38.0
   },
   "4865940": {
     "name": "Stash Grabber",
@@ -5992,12 +5992,12 @@
   "2111550": {
     "name": "Schrodinger's Cat Burglar",
     "low": 59.29,
-    "last": 59.29
+    "last": 77.0
   },
   "3201570": {
     "name": "VR乘风破浪",
     "low": 28.0,
-    "last": 28.0
+    "last": 40.0
   },
   "4347010": {
     "name": "Just One Bite",
@@ -6032,7 +6032,7 @@
   "1079260": {
     "name": "Fireworks Mania - An Explosive Simulator",
     "low": 37.7,
-    "last": 37.7
+    "last": 58.0
   },
   "3383900": {
     "name": "Frankie Freako",
@@ -6042,7 +6042,7 @@
   "3509160": {
     "name": "BAIONLENJA",
     "low": 36.4,
-    "last": 36.4
+    "last": 52.0
   },
   "4816210": {
     "name": "Neon Blackfall",
@@ -6092,7 +6092,7 @@
   "1662480": {
     "name": "Nuclear Blaze",
     "low": 10.5,
-    "last": 10.5
+    "last": 42.0
   },
   "4857490": {
     "name": "股咚咕咚",
@@ -6102,7 +6102,7 @@
   "1406990": {
     "name": "NEKOPARA Vol. 4",
     "low": 21.0,
-    "last": 21.0
+    "last": 42.0
   },
   "4397050": {
     "name": "The Plunge Of Sludge",
@@ -6117,7 +6117,7 @@
   "931270": {
     "name": "MicroTown",
     "low": 25.2,
-    "last": 25.2
+    "last": 42.0
   },
   "3185470": {
     "name": "Forgiveness RPG: The First Chapter",
@@ -6142,7 +6142,7 @@
   "558990": {
     "name": "Opus Magnum",
     "low": 36.0,
-    "last": 36.0
+    "last": 72.0
   },
   "4611110": {
     "name": "Beyond The Abandoned",
@@ -6157,12 +6157,12 @@
   "483980": {
     "name": "Mad Father《狂父》",
     "low": 18.5,
-    "last": 18.5
+    "last": 37.0
   },
   "420110": {
     "name": "NEKOPARA Vol. 2",
     "low": 16.8,
-    "last": 16.8
+    "last": 42.0
   },
   "4644350": {
     "name": "Astromino",
@@ -6207,7 +6207,7 @@
   "1609230": {
     "name": "Scarlet Hollow",
     "low": 81.6,
-    "last": 81.6
+    "last": 102.0
   },
   "5449190": {
     "name": "Lake of Darkness: Cide Story",
@@ -6925,7 +6925,7 @@
     "last": 11.4
   },
   "3727090": {
-    "name": "Horses of Hoofprint Bay",
+    "name": "蹄印湾马场",
     "low": 57.8,
     "last": 57.8
   },
@@ -7287,7 +7287,7 @@
   "1146510": {
     "name": "Deep Sleep Trilogy",
     "low": 5.5,
-    "last": 5.5
+    "last": 22.0
   },
   "5472340": {
     "name": "Impossible Draw",
@@ -8347,7 +8347,7 @@
   "1069230": {
     "name": "月影魅像-解放之羽-",
     "low": 21.08,
-    "last": 21.08
+    "last": 68.0
   },
   "1342330": {
     "name": "Mad Games Tycoon 2",
@@ -8522,7 +8522,7 @@
   "5076430": {
     "name": "Wandering Bard",
     "low": 21.45,
-    "last": 21.45
+    "last": 33.0
   },
   "5381260": {
     "name": "Terrum DeepDrill",
@@ -8903,5 +8903,325 @@
     "name": "Send by Sunset",
     "low": 21.71,
     "last": 21.71
+  },
+  "5389650": {
+    "name": "EVO RNG",
+    "low": 17.1,
+    "last": 17.1
+  },
+  "5403380": {
+    "name": "One More Piece",
+    "low": 17.6,
+    "last": 17.6
+  },
+  "5465870": {
+    "name": "ゾンビ盛り！",
+    "low": 9.0,
+    "last": 9.0
+  },
+  "724930": {
+    "name": "最后的鸡堡",
+    "low": 59.4,
+    "last": 59.4
+  },
+  "4492480": {
+    "name": "抽号小队",
+    "low": 26.1,
+    "last": 26.1
+  },
+  "2806540": {
+    "name": "Travellin Cats Advent Calendar",
+    "low": 28.05,
+    "last": 28.05
+  },
+  "3876560": {
+    "name": "Obsidian Tower",
+    "low": 28.0,
+    "last": 28.0
+  },
+  "4786370": {
+    "name": "Yokai Idle",
+    "low": 22.0,
+    "last": 22.0
+  },
+  "4437110": {
+    "name": "Crystal Cascade",
+    "low": 19.0,
+    "last": 19.0
+  },
+  "4978080": {
+    "name": "CARTA CHAIN: Maou-chan’s Deal",
+    "low": 5.4,
+    "last": 5.4
+  },
+  "5451020": {
+    "name": "Gotching",
+    "low": 19.0,
+    "last": 19.0
+  },
+  "3549030": {
+    "name": "无尽地下城",
+    "low": 43.2,
+    "last": 43.2
+  },
+  "5140590": {
+    "name": "Ducks VS Demons",
+    "low": 15.2,
+    "last": 15.2
+  },
+  "4764690": {
+    "name": "PROWLER PURGE",
+    "low": 7.8,
+    "last": 7.8
+  },
+  "3347830": {
+    "name": "HitTube",
+    "low": 17.5,
+    "last": 17.5
+  },
+  "3051060": {
+    "name": "天启异境",
+    "low": 47.2,
+    "last": 47.2
+  },
+  "2529630": {
+    "name": "灵魂赌局派对",
+    "low": 16.2,
+    "last": 16.2
+  },
+  "4590950": {
+    "name": "El Shaddai: Zero Nine Reversi",
+    "low": 16.2,
+    "last": 16.2
+  },
+  "5037510": {
+    "name": "Playrooms",
+    "low": 23.2,
+    "last": 23.2
+  },
+  "318130": {
+    "name": "Doom & Destiny",
+    "low": 12.6,
+    "last": 12.6
+  },
+  "5389720": {
+    "name": "Windfall Meadows",
+    "low": 6.0,
+    "last": 6.0
+  },
+  "5209760": {
+    "name": "Warlords",
+    "low": 51.3,
+    "last": 51.3
+  },
+  "3960580": {
+    "name": "Arcane Architect",
+    "low": 53.19,
+    "last": 53.19
+  },
+  "4459600": {
+    "name": "PICK A BOO",
+    "low": 24.8,
+    "last": 24.8
+  },
+  "4745430": {
+    "name": "Spikes&Traps",
+    "low": 2.5,
+    "last": 2.5
+  },
+  "2688900": {
+    "name": "超级代数大战 Super Algebrawl",
+    "low": 19.5,
+    "last": 19.5
+  },
+  "5277580": {
+    "name": "The Nugget",
+    "low": 43.2,
+    "last": 43.2
+  },
+  "4099810": {
+    "name": "1999TOKOYO Building",
+    "low": 28.0,
+    "last": 28.0
+  },
+  "4351380": {
+    "name": "脱毛沙龙模拟器",
+    "low": 26.1,
+    "last": 26.1
+  },
+  "4950520": {
+    "name": "Virtual Pager by K3N",
+    "low": 25.0,
+    "last": 25.0
+  },
+  "5359320": {
+    "name": "勤劳的蜜蜂",
+    "low": 17.6,
+    "last": 17.6
+  },
+  "5457550": {
+    "name": "女巫小屋收纳手记",
+    "low": 10.4,
+    "last": 10.4
+  },
+  "3445580": {
+    "name": "Ambidextro",
+    "low": 23.1,
+    "last": 23.1
+  },
+  "5111700": {
+    "name": "Political Life",
+    "low": 25.2,
+    "last": 25.2
+  },
+  "4230350": {
+    "name": "Project: AFTERSHOCK",
+    "low": 2.5,
+    "last": 2.5
+  },
+  "4215660": {
+    "name": "TORAWASE ～被囚禁的伪妃梦寐以求的幸福～",
+    "low": 69.6,
+    "last": 69.6
+  },
+  "5204140": {
+    "name": "a strange journey into the backrooms",
+    "low": 11.25,
+    "last": 11.25
+  },
+  "5378780": {
+    "name": "问道九州",
+    "low": 59.0,
+    "last": 59.0
+  },
+  "5380650": {
+    "name": "VOXFRAG",
+    "low": 31.0,
+    "last": 31.0
+  },
+  "5175310": {
+    "name": "我带过的最差一届",
+    "low": 18.2,
+    "last": 18.2
+  },
+  "5097530": {
+    "name": "SIGNOS: AI Robot Builder",
+    "low": 18.7,
+    "last": 18.7
+  },
+  "5056320": {
+    "name": "Fantorob",
+    "low": 29.0,
+    "last": 29.0
+  },
+  "5058180": {
+    "name": "BLINDFOLD: Sound Chase",
+    "low": 22.1,
+    "last": 22.1
+  },
+  "2073140": {
+    "name": "不可思异世界",
+    "low": 2.5,
+    "last": 2.5
+  },
+  "4258790": {
+    "name": "The Gardener",
+    "low": 20.92,
+    "last": 20.92
+  },
+  "4841210": {
+    "name": "Coliseum Slap",
+    "low": 11.25,
+    "last": 11.25
+  },
+  "4217650": {
+    "name": "Tome of Talis: A Dice Conquest Game",
+    "low": 64.6,
+    "last": 64.6
+  },
+  "4423270": {
+    "name": "Takeover 2",
+    "low": 63.0,
+    "last": 63.0
+  },
+  "5398160": {
+    "name": "Gopher It: Office Intern Simulator",
+    "low": 21.0,
+    "last": 21.0
+  },
+  "2074480": {
+    "name": "夕日航路",
+    "low": 3.0,
+    "last": 3.0
+  },
+  "4879470": {
+    "name": "A Needle In a Haystack",
+    "low": 42.0,
+    "last": 42.0
+  },
+  "2725260": {
+    "name": "ENDER MAGNOLIA: Bloom in the Mist",
+    "low": 53.9,
+    "last": 53.9
+  },
+  "4634660": {
+    "name": "Your Friends Vs Hidebehind",
+    "low": 20.8,
+    "last": 20.8
+  },
+  "3618480": {
+    "name": "Journey Under The Pyramids",
+    "low": 31.5,
+    "last": 31.5
+  },
+  "4769780": {
+    "name": "Night Cart: The Immortal Plague",
+    "low": 37.8,
+    "last": 37.8
+  },
+  "4463360": {
+    "name": "幻想进度条 Fantasy Bar",
+    "low": 19.8,
+    "last": 19.8
+  },
+  "5345650": {
+    "name": "ASCENT: MASKLINGS",
+    "low": 31.5,
+    "last": 31.5
+  },
+  "3047900": {
+    "name": "RootWood Ranch",
+    "low": 12.35,
+    "last": 12.35
+  },
+  "1599020": {
+    "name": "小眷灵 (Tinykin)",
+    "low": 18.4,
+    "last": 18.4
+  },
+  "1037190": {
+    "name": "Shipped",
+    "low": 8.4,
+    "last": 8.4
+  },
+  "5400700": {
+    "name": "Threat Axis",
+    "low": 19.0,
+    "last": 19.0
+  },
+  "1268960": {
+    "name": "pureya",
+    "low": 7.8,
+    "last": 7.8
+  },
+  "4576490": {
+    "name": "未知伤亡",
+    "low": 66.3,
+    "last": 66.3
+  },
+  "5351930": {
+    "name": "Against Heroes",
+    "low": 17.6,
+    "last": 17.6
   }
 }
