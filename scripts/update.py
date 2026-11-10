@@ -105,6 +105,8 @@ PREF={
  "卡牌":2.5,"Deckbuilding":2.7,"回合制":2.3,"Turn-Based":2.3,
  "剧情丰富":2.0,"Story Rich":2.0,"单人":1.8,"Single-player":1.8,
  "冒险":1.0,"Adventure":1.0
+ ,"类魂":2.8,"Souls-like":2.8,"高难度":1.8,"Action RPG":2.2
+ ,"开放世界":1.8,"Open World":1.8,"选择与后果":2.5,"Choices Matter":2.5
 }
 NEG={"大型多人在线":-1.8,"Massively Multiplayer":-1.8,"PvP":-1.0}
 
