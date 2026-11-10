@@ -4,7 +4,7 @@
     "version": "V4 review-context discovery",
     "note": "尝鲜榜不设价格或好评率硬门槛；查看近期简中差评关键词，区别争议类型。分析是辅助证据，不代表玩家差评全部属实或无效。",
     "last_enrichment_utc": "2026-11-10T10:15:29.846072+00:00",
-    "last_key_enrichment_utc": "2026-11-10T09:58:01.367057+00:00"
+    "last_key_enrichment_utc": "2026-11-10T10:55:58.271351+00:00"
   },
   "counts": {
     "deal": 30,
@@ -919,7 +919,7 @@
           "url": "https://steamcici.com/index",
           "kind": "historical_listing",
           "subid": "186685",
-          "checked_at": "2026-11-10T07:28:36.874443+00:00"
+          "checked_at": "2026-11-10T10:55:58.271351+00:00"
         }
       ],
       "dlc_count": 0,
@@ -963,11 +963,11 @@
         },
         "keys": {
           "status": "success",
-          "checked_at": "2026-11-07T10:45:48.139932+00:00",
-          "next_retry_at": "2026-11-10T10:45:48.139932+00:00"
+          "checked_at": "2026-11-10T10:55:58.271351+00:00",
+          "next_retry_at": "2026-11-13T10:55:58.271351+00:00"
         }
       },
-      "key_status": "未核实实时在售",
+      "key_status": "参考报价，不代表实时库存",
       "key_reference_min": 1.0,
       "tracked_low": 19.99,
       "region_history_low": null
@@ -6660,9 +6660,16 @@
       },
       "key_offers": [],
       "key_reference_min": null,
-      "key_status": "未核实实时在售",
+      "key_status": "暂无有效散 Key 参考价",
       "tracked_low": 2.5,
-      "region_history_low": null
+      "region_history_low": null,
+      "enrichment_status": {
+        "keys": {
+          "status": "no_quote",
+          "checked_at": "2026-11-10T10:55:58.271351+00:00",
+          "next_retry_at": "2026-11-11T10:55:58.271351+00:00"
+        }
+      }
     }
   ]
 }
