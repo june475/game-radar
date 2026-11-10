@@ -19,9 +19,10 @@ const RadarExtras=(()=>{
     const maxGiven=document.querySelector("#max-price")?.value.trim()!=="";
     const rating=Number(document.querySelector("#min-rating")?.value||0);
     const genre=(document.querySelector("#genre-filter")?.value||"").toLowerCase();
+    const preference=document.querySelector("#preference-filter")?.value||"";
     const wishlist=document.querySelector("#wishlist-filter")?.classList.contains("active");
     const purchasedOnly=document.querySelector("#purchased-filter")?.classList.contains("active");
-    return {max,maxGiven,rating,genre,wishlist,purchasedOnly,sort:document.querySelector("#sort-mode")?.value||"default"};
+    return {max,maxGiven,rating,genre,preference,wishlist,purchasedOnly,sort:document.querySelector("#sort-mode")?.value||"default"};
   };
   function select(items){
     const f=filters();
@@ -29,6 +30,7 @@ const RadarExtras=(()=>{
       (!f.maxGiven||(Number(g.price)>0&&Number(g.price)<=f.max))&&
       (!f.rating||(Number(g.review_pct)>=f.rating))&&
       (!f.genre||(g.genres||[]).some(s=>String(s).toLowerCase()===f.genre))&&
+      (!f.preference||(g.preference_tags||[]).some(s=>String(s)===f.preference))&&
       (!f.wishlist||Boolean(state.wish[g.appid]))&&
       (f.purchasedOnly?Boolean(state.wish[g.appid]?.purchased):!state.wish[g.appid]?.purchased)
     );
