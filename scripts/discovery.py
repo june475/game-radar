@@ -11,17 +11,19 @@ TAGS = {
     "puzzle":1664, "roguelike":1716, "roguelite":3959,
     "deckbuilder":32322, "rpg":122, "strategy":9,
     "simulation":599, "platformer":1625, "racing":699,
-    "horror":1667, "visual_novel":3799, "city_builder":4328
+    "horror":1667, "visual_novel":3799, "city_builder":4328,
+    "souls_like":29482, "choices_matter":4231, "open_world":4182,
+    "action_rpg":1644, "adventure":21
 }
 SEARCH_PLANS = {
     "deal":[
         {"specials":1,"sort_by":"Reviews_DESC"},
         {"specials":1,"sort_by":"Price_ASC"},
-        *({"specials":1,"tags":tag,"sort_by":"Reviews_DESC"} for tag in [1664,1716,3959,122,9,32322])
+        *({"specials":1,"tags":tag,"sort_by":"Reviews_DESC"} for tag in [1664,1716,3959,122,9,32322,29482,4231,4182,1644,21])
     ],
     "new":[
         {"sort_by":"Released_DESC"},
-        *({"tags":tag,"sort_by":"Released_DESC"} for tag in [1664,1716,3959,122,9,32322])
+        *({"tags":tag,"sort_by":"Released_DESC"} for tag in [1664,1716,3959,122,9,32322,29482,4231,4182,1644,21])
     ],
     "explore":[
         {"sort_by":"Reviews_DESC","specials":1},
