@@ -200,6 +200,17 @@ for x in raw:
     genres=[g.get("description","") for g in d.get("genres",[])]
     cats=[c.get("description","") for c in d.get("categories",[])]
     features=genres+cats
+    # Steam appdetails does not expose all community tags consistently.
+    # Infer the requested play styles from stable metadata and title keywords.
+    name_text=(d.get("name") or x.get("name") or "").lower()
+    inferred=[]
+    if any(k in name_text for k in ("souls", "elden ring", "dark souls", "sekiro", "lies of p", "仁王", "黑神话", "艾尔登法环", "只狼")):
+        inferred += ["类魂", "Souls-like"]
+    if any(k in name_text for k in ("divinity", "原罪", "baldur", "博德之门", "disco elysium", "极乐迪斯科")):
+        inferred += ["自由决策", "Choices Matter"]
+    if any(k in name_text for k in ("zelda", "塞尔达", "breath of the wild", "tears of the kingdom", "elden ring", "艾尔登法环")):
+        inferred += ["开放世界", "Open World", "探索解谜"]
+    features += inferred
 
     taste=0.0; reasons=[]
     for f in features:
@@ -255,7 +266,7 @@ for x in raw:
       "review":(f"{rv['scope']}好评 {rv['pct']}% · {rv['total']} 条" if rv["pct"] is not None else "Steam 评价数据暂不可用"),
       "review_pct":rv["pct"],"review_count":rv["total"],"review_scope":rv["scope"],
       "recommend_score":final,"taste_score":taste,"quality_score":quality,"price_score":price_score,
-      "genres":genres,"tags":tags,"flags":flags,"category":category,"discovery_score":discovery_score({"review_pct":rv["pct"],"review_count":rv["total"],"price":price}) if category=="explore" else None,
+      "genres":genres,"tags":tags,"preference_tags":sorted(set(inferred)),"flags":flags,"category":category,"discovery_score":discovery_score({"review_pct":rv["pct"],"review_count":rv["total"],"price":price}) if category=="explore" else None,
       "watchlisted":bool(x.get("_watchlisted")),"why":why,
       "mobile":m,"epic_status":info["epic_status"],"epic_giveaway":info["epic_giveaway"],"epic_source":info["epic_source"],"dlc_status":"未自动核实",
       "key_price":None,"key_source":None,"steam_historical_low":None,"steam_historical_low_source":None,
