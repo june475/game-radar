@@ -3,7 +3,7 @@
     "updated_at_cn": "2026-11-10 15:30",
     "version": "V4 review-context discovery",
     "note": "尝鲜榜不设价格或好评率硬门槛；查看近期简中差评关键词，区别争议类型。分析是辅助证据，不代表玩家差评全部属实或无效。",
-    "last_enrichment_utc": "2026-11-10T22:00:07.832197+00:00",
+    "last_enrichment_utc": "2026-11-11T01:28:14.606303+00:00",
     "last_key_enrichment_utc": "2026-11-11T01:06:21.619646+00:00"
   },
   "counts": {
@@ -3350,8 +3350,8 @@
       "enrichment_status": {
         "reviews": {
           "status": "no_data",
-          "checked_at": "2026-11-07T04:12:52.193313+00:00",
-          "next_retry_at": "2026-11-09T04:12:52.193313+00:00",
+          "checked_at": "2026-11-11T01:28:14.606303+00:00",
+          "next_retry_at": "2026-11-13T01:28:14.606303+00:00",
           "details": "negative reviews unavailable"
         },
         "deck": {
@@ -4158,8 +4158,8 @@
       "enrichment_status": {
         "reviews": {
           "status": "no_data",
-          "checked_at": "2026-11-08T21:56:33.952103+00:00",
-          "next_retry_at": "2026-11-10T21:56:33.952103+00:00",
+          "checked_at": "2026-11-11T01:28:14.606303+00:00",
+          "next_retry_at": "2026-11-13T01:28:14.606303+00:00",
           "details": "negative reviews unavailable"
         },
         "deck": {
@@ -4876,8 +4876,8 @@
       "enrichment_status": {
         "reviews": {
           "status": "no_data",
-          "checked_at": "2026-11-08T21:56:33.952103+00:00",
-          "next_retry_at": "2026-11-10T21:56:33.952103+00:00",
+          "checked_at": "2026-11-11T01:28:14.606303+00:00",
+          "next_retry_at": "2026-11-13T01:28:14.606303+00:00",
           "details": "negative reviews unavailable"
         },
         "deck": {
