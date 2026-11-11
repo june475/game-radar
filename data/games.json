@@ -3,7 +3,7 @@
     "updated_at_cn": "2026-11-10 15:30",
     "version": "V4 review-context discovery",
     "note": "尝鲜榜不设价格或好评率硬门槛；查看近期简中差评关键词，区别争议类型。分析是辅助证据，不代表玩家差评全部属实或无效。",
-    "last_enrichment_utc": "2026-11-11T01:35:47.346332+00:00",
+    "last_enrichment_utc": "2026-11-11T01:43:56.936418+00:00",
     "last_key_enrichment_utc": "2026-11-11T01:06:21.619646+00:00"
   },
   "counts": {
@@ -1015,7 +1015,7 @@
       "watchlisted": false,
       "why": "匹配你的偏好：角色扮演 / 策略 / 单人",
       "mobile": null,
-      "epic_status": "未核实（历史库未匹配）",
+      "epic_status": "历史库未匹配（未核实）",
       "epic_giveaway": null,
       "epic_source": "https://github.com/renshuki/efgtracker",
       "dlc_status": "未自动核实",
@@ -1062,6 +1062,12 @@
           "checked_at": "2026-11-10T09:18:30.635062+00:00",
           "next_retry_at": "2026-11-11T09:18:30.635062+00:00",
           "details": "no verified CNY historical record"
+        },
+        "epic": {
+          "status": "unverified",
+          "checked_at": "2026-11-11T01:43:56.936418+00:00",
+          "next_retry_at": "2026-11-12T01:43:56.936418+00:00",
+          "details": "incomplete third-party archive"
         }
       }
     },
@@ -1950,7 +1956,7 @@
       "watchlisted": false,
       "why": "匹配你的偏好：冒险 / 角色扮演 / 单人",
       "mobile": null,
-      "epic_status": "未核实（历史库未匹配）",
+      "epic_status": "历史库未匹配（未核实）",
       "epic_giveaway": null,
       "epic_source": "https://github.com/renshuki/efgtracker",
       "dlc_status": "未自动核实",
@@ -1993,6 +1999,12 @@
           "checked_at": "2026-11-10T09:18:30.635062+00:00",
           "next_retry_at": "2026-11-11T09:18:30.635062+00:00",
           "details": "no verified CNY historical record"
+        },
+        "epic": {
+          "status": "unverified",
+          "checked_at": "2026-11-11T01:43:56.936418+00:00",
+          "next_retry_at": "2026-11-12T01:43:56.936418+00:00",
+          "details": "incomplete third-party archive"
         }
       },
       "key_status": "未核实实时在售",
@@ -2044,7 +2056,7 @@
       "watchlisted": false,
       "why": "匹配你的偏好：冒险 / 角色扮演 / 单人",
       "mobile": null,
-      "epic_status": "未核实（历史库未匹配）",
+      "epic_status": "历史库未匹配（未核实）",
       "epic_giveaway": null,
       "epic_source": "https://github.com/renshuki/efgtracker",
       "dlc_status": "未自动核实",
@@ -2097,6 +2109,12 @@
           "checked_at": "2026-11-10T09:18:30.635062+00:00",
           "next_retry_at": "2026-11-11T09:18:30.635062+00:00",
           "details": "no verified CNY historical record"
+        },
+        "epic": {
+          "status": "unverified",
+          "checked_at": "2026-11-11T01:43:56.936418+00:00",
+          "next_retry_at": "2026-11-12T01:43:56.936418+00:00",
+          "details": "incomplete third-party archive"
         }
       },
       "key_status": "未核实实时在售",
@@ -2663,7 +2681,7 @@
       "watchlisted": false,
       "why": "匹配你的偏好：冒险 / 角色扮演 / 单人",
       "mobile": null,
-      "epic_status": "未核实（历史库未匹配）",
+      "epic_status": "历史库未匹配（未核实）",
       "epic_giveaway": null,
       "epic_source": "https://github.com/renshuki/efgtracker",
       "dlc_status": "未自动核实",
@@ -2696,6 +2714,12 @@
           "checked_at": "2026-11-10T09:18:30.635062+00:00",
           "next_retry_at": "2026-11-11T09:18:30.635062+00:00",
           "details": "no verified CNY historical record"
+        },
+        "epic": {
+          "status": "unverified",
+          "checked_at": "2026-11-11T01:43:56.936418+00:00",
+          "next_retry_at": "2026-11-12T01:43:56.936418+00:00",
+          "details": "incomplete third-party archive"
         }
       },
       "key_status": "未核实实时在售",
@@ -5564,7 +5588,7 @@
       "watchlisted": false,
       "why": "匹配你的偏好：冒险 / 角色扮演 / 策略 / 单人",
       "mobile": null,
-      "epic_status": "未核实（历史库未匹配）",
+      "epic_status": "历史库未匹配（未核实）",
       "epic_giveaway": null,
       "epic_source": "https://github.com/renshuki/efgtracker",
       "dlc_status": "未自动核实",
@@ -5615,6 +5639,12 @@
           "checked_at": "2026-11-10T09:18:30.635062+00:00",
           "next_retry_at": "2026-11-11T09:18:30.635062+00:00",
           "details": "no verified CNY historical record"
+        },
+        "epic": {
+          "status": "unverified",
+          "checked_at": "2026-11-11T01:43:56.936418+00:00",
+          "next_retry_at": "2026-11-12T01:43:56.936418+00:00",
+          "details": "incomplete third-party archive"
         }
       },
       "key_status": "未核实实时在售",
