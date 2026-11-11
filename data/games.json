@@ -4,7 +4,7 @@
     "version": "V4 review-context discovery",
     "note": "尝鲜榜不设价格或好评率硬门槛；查看近期简中差评关键词，区别争议类型。分析是辅助证据，不代表玩家差评全部属实或无效。",
     "last_enrichment_utc": "2026-11-11T19:28:29.247752+00:00",
-    "last_key_enrichment_utc": "2026-11-11T18:59:37.091126+00:00"
+    "last_key_enrichment_utc": "2026-11-11T21:39:57.093255+00:00"
   },
   "counts": {
     "deal": 30,
@@ -3677,8 +3677,8 @@
       "enrichment_status": {
         "keys": {
           "status": "no_quote",
-          "checked_at": "2026-11-10T20:49:49.554448+00:00",
-          "next_retry_at": "2026-11-11T20:49:49.554448+00:00"
+          "checked_at": "2026-11-11T21:39:57.093255+00:00",
+          "next_retry_at": "2026-11-12T21:39:57.093255+00:00"
         },
         "reviews": {
           "status": "no_data",
@@ -3717,7 +3717,7 @@
           "details": "1 DLC IDs"
         }
       },
-      "key_status": "未核实实时在售",
+      "key_status": "暂无有效散 Key 参考价",
       "key_reference_min": null,
       "tracked_low": 11.0,
       "region_history_low": null
@@ -4076,11 +4076,11 @@
         },
         "keys": {
           "status": "no_quote",
-          "checked_at": "2026-11-10T20:49:49.554448+00:00",
-          "next_retry_at": "2026-11-11T20:49:49.554448+00:00"
+          "checked_at": "2026-11-11T21:39:57.093255+00:00",
+          "next_retry_at": "2026-11-12T21:39:57.093255+00:00"
         }
       },
-      "key_status": "未核实实时在售",
+      "key_status": "暂无有效散 Key 参考价",
       "key_reference_min": null,
       "tracked_low": 19.8,
       "region_history_low": null
@@ -4232,7 +4232,7 @@
       "steam_deck": null,
       "key_offers": [],
       "key_reference_min": null,
-      "key_status": "未核实实时在售",
+      "key_status": "暂无有效散 Key 参考价",
       "tracked_low": 22.5,
       "region_history_low": null,
       "enrichment_status": {
@@ -4256,8 +4256,8 @@
         },
         "keys": {
           "status": "no_quote",
-          "checked_at": "2026-11-10T20:49:49.554448+00:00",
-          "next_retry_at": "2026-11-11T20:49:49.554448+00:00"
+          "checked_at": "2026-11-11T21:39:57.093255+00:00",
+          "next_retry_at": "2026-11-12T21:39:57.093255+00:00"
         }
       }
     },
@@ -5582,8 +5582,8 @@
         },
         "keys": {
           "status": "no_quote",
-          "checked_at": "2026-11-10T20:49:49.554448+00:00",
-          "next_retry_at": "2026-11-11T20:49:49.554448+00:00"
+          "checked_at": "2026-11-11T21:39:57.093255+00:00",
+          "next_retry_at": "2026-11-12T21:39:57.093255+00:00"
         }
       }
     },
@@ -6290,8 +6290,8 @@
         },
         "keys": {
           "status": "no_quote",
-          "checked_at": "2026-11-10T20:49:49.554448+00:00",
-          "next_retry_at": "2026-11-11T20:49:49.554448+00:00"
+          "checked_at": "2026-11-11T21:39:57.093255+00:00",
+          "next_retry_at": "2026-11-12T21:39:57.093255+00:00"
         },
         "history": {
           "status": "unverified",
