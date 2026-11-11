@@ -3,7 +3,7 @@
     "updated_at_cn": "2026-11-11 15:34",
     "version": "V4 review-context discovery",
     "note": "尝鲜榜不设价格或好评率硬门槛；查看近期简中差评关键词，区别争议类型。分析是辅助证据，不代表玩家差评全部属实或无效。",
-    "last_enrichment_utc": "2026-11-11T19:28:29.247752+00:00",
+    "last_enrichment_utc": "2026-11-11T22:21:50.550058+00:00",
     "last_key_enrichment_utc": "2026-11-11T21:39:57.093255+00:00"
   },
   "counts": {
@@ -2321,8 +2321,8 @@
         },
         "reviews": {
           "status": "no_data",
-          "checked_at": "2026-11-09T22:05:33.939336+00:00",
-          "next_retry_at": "2026-11-11T22:05:33.939336+00:00",
+          "checked_at": "2026-11-11T22:21:50.550058+00:00",
+          "next_retry_at": "2026-11-13T22:21:50.550058+00:00",
           "details": "negative reviews unavailable"
         },
         "deck": {
@@ -2531,8 +2531,8 @@
         },
         "reviews": {
           "status": "no_data",
-          "checked_at": "2026-11-09T22:05:33.939336+00:00",
-          "next_retry_at": "2026-11-11T22:05:33.939336+00:00",
+          "checked_at": "2026-11-11T22:21:50.550058+00:00",
+          "next_retry_at": "2026-11-13T22:21:50.550058+00:00",
           "details": "negative reviews unavailable"
         },
         "deck": {
@@ -2755,8 +2755,8 @@
         },
         "reviews": {
           "status": "no_data",
-          "checked_at": "2026-11-09T19:19:09.023855+00:00",
-          "next_retry_at": "2026-11-11T19:19:09.023855+00:00",
+          "checked_at": "2026-11-11T22:21:50.550058+00:00",
+          "next_retry_at": "2026-11-13T22:21:50.550058+00:00",
           "details": "negative reviews unavailable"
         },
         "deck": {
@@ -6490,8 +6490,8 @@
         },
         "reviews": {
           "status": "no_data",
-          "checked_at": "2026-11-09T22:05:33.939336+00:00",
-          "next_retry_at": "2026-11-11T22:05:33.939336+00:00",
+          "checked_at": "2026-11-11T22:21:50.550058+00:00",
+          "next_retry_at": "2026-11-13T22:21:50.550058+00:00",
           "details": "negative reviews unavailable"
         }
       },
@@ -6951,6 +6951,12 @@
           "checked_at": "2026-11-11T03:36:53.243749+00:00",
           "next_retry_at": "2026-11-25T03:36:53.243749+00:00",
           "details": "0 DLC IDs"
+        },
+        "reviews": {
+          "status": "no_data",
+          "checked_at": "2026-11-11T22:21:50.550058+00:00",
+          "next_retry_at": "2026-11-13T22:21:50.550058+00:00",
+          "details": "negative reviews unavailable"
         }
       },
       "key_status": "暂无有效散 Key 参考价",
