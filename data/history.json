@@ -3142,7 +3142,7 @@
   "4761870": {
     "name": "Buerokratie Idler: Germany",
     "low": 2.5,
-    "last": 2.5
+    "last": 5.0
   },
   "3375990": {
     "name": "PC Cafe Simulator",
@@ -3682,7 +3682,7 @@
   "4937420": {
     "name": "Zereoton Hauntings 3",
     "low": 2.5,
-    "last": 2.5
+    "last": 5.0
   },
   "4734320": {
     "name": "Drone Arena",
@@ -5372,7 +5372,7 @@
   "3422710": {
     "name": "黑暗祈愿",
     "low": 16.0,
-    "last": 16.0
+    "last": 20.0
   },
   "4451770": {
     "name": "手动取款机",
@@ -6652,7 +6652,7 @@
   "1669180": {
     "name": "Demon Source",
     "low": 28.05,
-    "last": 28.05
+    "last": 33.0
   },
   "5089320": {
     "name": "ONE LAST BEAM",
@@ -9587,7 +9587,7 @@
   "4989280": {
     "name": "Light Source",
     "low": 22.5,
-    "last": 22.5
+    "last": 25.0
   },
   "5416430": {
     "name": "The Hero's Legacy",
@@ -9738,5 +9738,280 @@
     "name": "阿比亚：弹射之旅",
     "low": 21.0,
     "last": 21.0
+  },
+  "1838600": {
+    "name": "Moshcave",
+    "low": 2.5,
+    "last": 2.5
+  },
+  "3263760": {
+    "name": "我是高手",
+    "low": 11.05,
+    "last": 11.05
+  },
+  "3564790": {
+    "name": "勇敢向前冲",
+    "low": 2.5,
+    "last": 2.5
+  },
+  "4601080": {
+    "name": "The Last Zeppelin",
+    "low": 31.5,
+    "last": 31.5
+  },
+  "2376430": {
+    "name": "A Rocket's Intensity",
+    "low": 19.8,
+    "last": 19.8
+  },
+  "2729450": {
+    "name": "Profiler Files - New Orleans",
+    "low": 46.75,
+    "last": 46.75
+  },
+  "4935280": {
+    "name": "vim racer",
+    "low": 18.7,
+    "last": 18.7
+  },
+  "4940980": {
+    "name": "The Ramen Bar",
+    "low": 19.5,
+    "last": 19.5
+  },
+  "5496540": {
+    "name": "Street Panz",
+    "low": 22.0,
+    "last": 22.0
+  },
+  "4951630": {
+    "name": "Soundway",
+    "low": 22.1,
+    "last": 22.1
+  },
+  "5471990": {
+    "name": "磁盘碎片整理",
+    "low": 15.2,
+    "last": 15.2
+  },
+  "5274910": {
+    "name": "滑动方块",
+    "low": 5.0,
+    "last": 5.0
+  },
+  "227300": {
+    "name": "Euro Truck Simulator 2",
+    "low": 23.24,
+    "last": 23.24
+  },
+  "2792080": {
+    "name": "股票：散户",
+    "low": 10.8,
+    "last": 10.8
+  },
+  "5330310": {
+    "name": "Shawarma Karma",
+    "low": 16.2,
+    "last": 16.2
+  },
+  "4180890": {
+    "name": "AI 数字人实验室",
+    "low": 45.6,
+    "last": 45.6
+  },
+  "5100140": {
+    "name": "绝对音感 花园鳗",
+    "low": 28.8,
+    "last": 28.8
+  },
+  "4696540": {
+    "name": "Working95",
+    "low": 18.7,
+    "last": 18.7
+  },
+  "5006790": {
+    "name": "PopFarm Slime",
+    "low": 12.0,
+    "last": 12.0
+  },
+  "2429050": {
+    "name": "Fretless - The Wrath of Riffson",
+    "low": 31.68,
+    "last": 31.68
+  },
+  "4530340": {
+    "name": "点击物理 Physics Clicker",
+    "low": 13.5,
+    "last": 13.5
+  },
+  "4975340": {
+    "name": "3D Bumper Billiards",
+    "low": 20.88,
+    "last": 20.88
+  },
+  "5409460": {
+    "name": "Beneath the Record",
+    "low": 25.2,
+    "last": 25.2
+  },
+  "5323500": {
+    "name": "禁止打捞",
+    "low": 20.0,
+    "last": 20.0
+  },
+  "270880": {
+    "name": "American Truck Simulator",
+    "low": 23.24,
+    "last": 23.24
+  },
+  "5433870": {
+    "name": "百鬼退散",
+    "low": 9.9,
+    "last": 9.9
+  },
+  "3850230": {
+    "name": "99天生存指南",
+    "low": 28.12,
+    "last": 28.12
+  },
+  "4878710": {
+    "name": "知夏",
+    "low": 11.94,
+    "last": 11.94
+  },
+  "4904730": {
+    "name": "Achievement Fly Clicker",
+    "low": 3.6,
+    "last": 3.6
+  },
+  "3810960": {
+    "name": "Sting Operation",
+    "low": 21.25,
+    "last": 21.25
+  },
+  "4935000": {
+    "name": "Infinite Elevator",
+    "low": 10.5,
+    "last": 10.5
+  },
+  "4514060": {
+    "name": "对魔忍阿莎姬2",
+    "low": 50.4,
+    "last": 50.4
+  },
+  "4845020": {
+    "name": "恋爱，我就借走咯",
+    "low": 66.3,
+    "last": 66.3
+  },
+  "5333560": {
+    "name": "Ribbit Racing",
+    "low": 19.0,
+    "last": 19.0
+  },
+  "3879680": {
+    "name": "分裂细胞 (Cells of Division)",
+    "low": 31.23,
+    "last": 31.23
+  },
+  "4983040": {
+    "name": "Would you mine?",
+    "low": 9.74,
+    "last": 9.74
+  },
+  "4671320": {
+    "name": "Parametamorfose",
+    "low": 10.04,
+    "last": 10.04
+  },
+  "5488250": {
+    "name": "Zomking",
+    "low": 19.0,
+    "last": 19.0
+  },
+  "5450230": {
+    "name": "Horde Highway: Zombie Survivors on Wheels",
+    "low": 22.4,
+    "last": 22.4
+  },
+  "5110270": {
+    "name": "Ghost Express",
+    "low": 16.15,
+    "last": 16.15
+  },
+  "5429170": {
+    "name": "Broke to Broker",
+    "low": 42.0,
+    "last": 42.0
+  },
+  "1161870": {
+    "name": "昙花",
+    "low": 10.62,
+    "last": 10.62
+  },
+  "2826790": {
+    "name": "千锤百炼",
+    "low": 51.0,
+    "last": 51.0
+  },
+  "4747520": {
+    "name": "PROJECT M.E.D.S.",
+    "low": 15.0,
+    "last": 15.0
+  },
+  "4391880": {
+    "name": "Bounty Monster Trucks",
+    "low": 93.0,
+    "last": 93.0
+  },
+  "5188740": {
+    "name": "Master of Arms",
+    "low": 9.14,
+    "last": 9.14
+  },
+  "4380710": {
+    "name": "克隆格斗",
+    "low": 31.2,
+    "last": 31.2
+  },
+  "4623860": {
+    "name": "Netfall",
+    "low": 42.0,
+    "last": 42.0
+  },
+  "2508290": {
+    "name": "Tax-Force",
+    "low": 51.3,
+    "last": 51.3
+  },
+  "4819620": {
+    "name": "Path Defenders: RPG Siege Defense",
+    "low": 59.0,
+    "last": 59.0
+  },
+  "4996300": {
+    "name": "火柴：人在异世 Stick: Man in Another World",
+    "low": 4.8,
+    "last": 4.8
+  },
+  "5431930": {
+    "name": "旧物小铺",
+    "low": 5.0,
+    "last": 5.0
+  },
+  "3164070": {
+    "name": "Bros Survivors",
+    "low": 18.7,
+    "last": 18.7
+  },
+  "5063570": {
+    "name": "三天",
+    "low": 28.05,
+    "last": 28.05
+  },
+  "3172570": {
+    "name": "Extreme Forklifting 3",
+    "low": 29.7,
+    "last": 29.7
   }
 }

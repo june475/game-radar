@@ -1,15 +1,13 @@
 {
   "meta": {
-    "updated_at_cn": "2026-11-10 15:30",
+    "updated_at_cn": "2026-11-11 15:34",
     "version": "V4 review-context discovery",
-    "note": "尝鲜榜不设价格或好评率硬门槛；查看近期简中差评关键词，区别争议类型。分析是辅助证据，不代表玩家差评全部属实或无效。",
-    "last_enrichment_utc": "2026-11-11T04:20:30.283614+00:00",
-    "last_key_enrichment_utc": "2026-11-11T05:02:31.418358+00:00"
+    "note": "尝鲜榜不设价格或好评率硬门槛；查看近期简中差评关键词，区别争议类型。分析是辅助证据，不代表玩家差评全部属实或无效。"
   },
   "counts": {
     "deal": 30,
     "new": 30,
-    "explore": 12
+    "explore": 13
   },
   "games": [
     {
@@ -72,17 +70,17 @@
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=827493343251402752",
           "kind": "reference",
           "subid": 982596,
-          "checked_at": "2026-11-10T07:28:24.583099+00:00"
+          "checked_at": "2026-11-11T07:32:56.148600+00:00"
         },
         {
           "platform": "SteamCiCi",
-          "price": 8.86,
+          "price": 10.0,
           "status": "历史挂售最低参考价｜非实时库存",
           "last_hanging_time": "2026-09-11T05:14:10.000+08:00",
           "url": "https://steamcici.com/index",
           "kind": "historical_listing",
           "subid": "982596",
-          "checked_at": "2026-11-10T07:28:25.423422+00:00"
+          "checked_at": "2026-11-11T07:32:57.076386+00:00"
         }
       ],
       "key_reference_min": 3.7,
@@ -184,7 +182,7 @@
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=9001009263693971316736",
           "kind": "reference",
           "subid": 1386440,
-          "checked_at": "2026-11-10T07:28:26.272540+00:00"
+          "checked_at": "2026-11-11T07:32:58.104419+00:00"
         },
         {
           "platform": "SteamCiCi",
@@ -307,7 +305,7 @@
           "next_retry_at": "2026-11-11T14:16:33.027726+00:00"
         }
       },
-      "key_status": "暂无有效散 Key 参考价",
+      "key_status": "未核实实时在售",
       "key_reference_min": null,
       "tracked_low": 38.4,
       "region_history_low": null
@@ -372,7 +370,7 @@
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=9000927002213954961409",
           "kind": "reference",
           "subid": 661914,
-          "checked_at": "2026-11-10T07:28:29.126081+00:00"
+          "checked_at": "2026-11-11T07:33:01.443865+00:00"
         }
       ],
       "enrichment_status": {
@@ -504,7 +502,7 @@
           "next_retry_at": "2026-11-11T13:04:02.553513+00:00"
         }
       },
-      "key_status": "暂无有效散 Key 参考价",
+      "key_status": "未核实实时在售",
       "key_reference_min": null,
       "tracked_low": 2.5,
       "region_history_low": null
@@ -567,7 +565,7 @@
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=267262806590492672",
           "kind": "reference",
           "subid": 30674,
-          "checked_at": "2026-11-10T07:28:31.889892+00:00"
+          "checked_at": "2026-11-11T07:33:04.562398+00:00"
         },
         {
           "platform": "SteamCiCi",
@@ -692,7 +690,7 @@
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=328253133400576000",
           "kind": "reference",
           "subid": 397406,
-          "checked_at": "2026-11-10T08:23:18.953817+00:00"
+          "checked_at": "2026-11-11T07:33:06.195420+00:00"
         }
       ],
       "dlc_count": 0,
@@ -740,7 +738,7 @@
           "next_retry_at": "2026-11-13T08:23:18.953817+00:00"
         }
       },
-      "key_status": "参考报价，不代表实时库存",
+      "key_status": "未核实实时在售",
       "key_reference_min": 5.45,
       "tracked_low": 10.4,
       "region_history_low": null
@@ -803,7 +801,7 @@
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=434996625748791296",
           "kind": "reference",
           "subid": 484328,
-          "checked_at": "2026-11-10T07:28:34.700442+00:00"
+          "checked_at": "2026-11-11T07:33:08.585826+00:00"
         }
       ],
       "dlc_count": 1,
@@ -967,126 +965,10 @@
           "next_retry_at": "2026-11-13T10:55:58.271351+00:00"
         }
       },
-      "key_status": "参考报价，不代表实时库存",
+      "key_status": "未核实实时在售",
       "key_reference_min": 1.0,
       "tracked_low": 19.99,
       "region_history_low": null
-    },
-    {
-      "appid": 1982940,
-      "name": "HeistGeist",
-      "name_en": null,
-      "steam_subids": [
-        715907
-      ],
-      "release_date": "2024 年 11 月 11 日",
-      "coming_soon": false,
-      "price": 30.4,
-      "original_price": 76.0,
-      "discount": 60,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1982940/2c1823160d71403cf33b4e11bf3b7351cc058c06/header.jpg?t=1779093299",
-      "url": "https://store.steampowered.com/app/1982940/?cc=cn&l=schinese",
-      "review": "Steam 评价数据暂不可用",
-      "review_pct": null,
-      "review_count": 0,
-      "review_scope": "不可用",
-      "recommend_score": 6.5,
-      "taste_score": 6.6,
-      "quality_score": 0.0,
-      "price_score": 6.1,
-      "genres": [
-        "动作",
-        "角色扮演",
-        "策略"
-      ],
-      "tags": [
-        "站内新低",
-        "-60%",
-        "动作",
-        "角色扮演",
-        "策略"
-      ],
-      "preference_tags": [],
-      "flags": [
-        "deal"
-      ],
-      "category": "deal",
-      "discovery_score": null,
-      "watchlisted": false,
-      "why": "匹配你的偏好：角色扮演 / 策略 / 单人",
-      "mobile": null,
-      "epic_status": "历史库未匹配（未核实）",
-      "epic_giveaway": null,
-      "epic_source": "https://github.com/renshuki/efgtracker",
-      "dlc_status": "Steam 商店关联 DLC 数量；不代表值得购买",
-      "key_price": null,
-      "key_source": null,
-      "steam_historical_low": null,
-      "steam_historical_low_source": null,
-      "steam_deck": null,
-      "key_offers": [
-        {
-          "platform": "SteamPY",
-          "price": 37.0,
-          "status": "CDKey接口参考价｜库存、地区及版本需打开商品页确认",
-          "url": "https://steampy.com/cdkDetail?name=cn&gameId=9000944551447860436992",
-          "kind": "reference",
-          "subid": 715907,
-          "checked_at": "2026-11-10T07:28:37.587924+00:00"
-        }
-      ],
-      "key_reference_min": 37.0,
-      "key_status": "未核实实时在售",
-      "tracked_low": 30.4,
-      "region_history_low": null,
-      "enrichment_status": {
-        "keys": {
-          "status": "success",
-          "checked_at": "2026-11-10T03:53:56.662799+00:00",
-          "next_retry_at": "2026-11-13T03:53:56.662799+00:00"
-        },
-        "reviews": {
-          "status": "no_data",
-          "checked_at": "2026-11-10T04:14:10.530623+00:00",
-          "next_retry_at": "2026-11-12T04:14:10.530623+00:00",
-          "details": "negative reviews unavailable"
-        },
-        "deck": {
-          "status": "unverified",
-          "checked_at": "2026-11-10T07:41:26.621889+00:00",
-          "next_retry_at": "2026-11-11T07:41:26.621889+00:00",
-          "details": "official grade unavailable"
-        },
-        "history": {
-          "status": "unverified",
-          "checked_at": "2026-11-10T09:18:30.635062+00:00",
-          "next_retry_at": "2026-11-11T09:18:30.635062+00:00",
-          "details": "no verified CNY historical record"
-        },
-        "epic": {
-          "status": "unverified",
-          "checked_at": "2026-11-11T01:43:56.936418+00:00",
-          "next_retry_at": "2026-11-12T01:43:56.936418+00:00",
-          "details": "incomplete third-party archive"
-        },
-        "mobile": {
-          "status": "unverified",
-          "checked_at": "2026-11-11T02:30:03.402018+00:00",
-          "next_retry_at": "2026-11-12T02:30:03.402018+00:00",
-          "details": "no verified official port record"
-        },
-        "dlc": {
-          "status": "success",
-          "checked_at": "2026-11-11T03:36:53.243749+00:00",
-          "next_retry_at": "2026-11-25T03:36:53.243749+00:00",
-          "details": "2 DLC IDs"
-        }
-      },
-      "dlc_count": 2,
-      "dlc_appids": [
-        3372470,
-        4202160
-      ]
     },
     {
       "appid": 1669980,
@@ -1206,6 +1088,121 @@
       "region_history_low": null
     },
     {
+      "appid": 1982940,
+      "name": "HeistGeist",
+      "name_en": null,
+      "steam_subids": [
+        715907
+      ],
+      "release_date": "2024 年 11 月 11 日",
+      "coming_soon": false,
+      "price": 30.4,
+      "original_price": 76.0,
+      "discount": 60,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1982940/2c1823160d71403cf33b4e11bf3b7351cc058c06/header.jpg?t=1779093299",
+      "url": "https://store.steampowered.com/app/1982940/?cc=cn&l=schinese",
+      "review": "Steam 评价数据暂不可用",
+      "review_pct": null,
+      "review_count": 0,
+      "review_scope": "不可用",
+      "recommend_score": 6.4,
+      "taste_score": 6.6,
+      "quality_score": 0.0,
+      "price_score": 5.8,
+      "genres": [
+        "动作",
+        "角色扮演",
+        "策略"
+      ],
+      "tags": [
+        "-60%",
+        "动作",
+        "角色扮演",
+        "策略"
+      ],
+      "preference_tags": [],
+      "flags": [
+        "deal"
+      ],
+      "category": "deal",
+      "discovery_score": null,
+      "watchlisted": false,
+      "why": "匹配你的偏好：角色扮演 / 策略 / 单人",
+      "mobile": null,
+      "epic_status": "未核实（历史库未匹配）",
+      "epic_giveaway": null,
+      "epic_source": "https://github.com/renshuki/efgtracker",
+      "dlc_status": "未自动核实",
+      "key_price": null,
+      "key_source": null,
+      "steam_historical_low": null,
+      "steam_historical_low_source": null,
+      "steam_deck": null,
+      "key_offers": [
+        {
+          "platform": "SteamPY",
+          "price": 37.0,
+          "status": "CDKey接口参考价｜库存、地区及版本需打开商品页确认",
+          "url": "https://steampy.com/cdkDetail?name=cn&gameId=9000944551447860436992",
+          "kind": "reference",
+          "subid": 715907,
+          "checked_at": "2026-11-11T07:33:13.269033+00:00"
+        }
+      ],
+      "dlc_count": 2,
+      "dlc_appids": [
+        3372470,
+        4202160
+      ],
+      "enrichment_status": {
+        "keys": {
+          "status": "success",
+          "checked_at": "2026-11-10T03:53:56.662799+00:00",
+          "next_retry_at": "2026-11-13T03:53:56.662799+00:00"
+        },
+        "reviews": {
+          "status": "no_data",
+          "checked_at": "2026-11-10T04:14:10.530623+00:00",
+          "next_retry_at": "2026-11-12T04:14:10.530623+00:00",
+          "details": "negative reviews unavailable"
+        },
+        "deck": {
+          "status": "unverified",
+          "checked_at": "2026-11-10T07:41:26.621889+00:00",
+          "next_retry_at": "2026-11-11T07:41:26.621889+00:00",
+          "details": "official grade unavailable"
+        },
+        "history": {
+          "status": "unverified",
+          "checked_at": "2026-11-10T09:18:30.635062+00:00",
+          "next_retry_at": "2026-11-11T09:18:30.635062+00:00",
+          "details": "no verified CNY historical record"
+        },
+        "epic": {
+          "status": "unverified",
+          "checked_at": "2026-11-11T01:43:56.936418+00:00",
+          "next_retry_at": "2026-11-12T01:43:56.936418+00:00",
+          "details": "incomplete third-party archive"
+        },
+        "mobile": {
+          "status": "unverified",
+          "checked_at": "2026-11-11T02:30:03.402018+00:00",
+          "next_retry_at": "2026-11-12T02:30:03.402018+00:00",
+          "details": "no verified official port record"
+        },
+        "dlc": {
+          "status": "success",
+          "checked_at": "2026-11-11T03:36:53.243749+00:00",
+          "next_retry_at": "2026-11-25T03:36:53.243749+00:00",
+          "details": "2 DLC IDs"
+        }
+      },
+      "key_status": "未核实实时在售",
+      "key_reference_min": 37.0,
+      "tracked_low": 30.4,
+      "region_history_low": null
+    },
+    {
       "appid": 2678640,
       "name": "朝露：境界旅程",
       "name_en": null,
@@ -1263,7 +1260,7 @@
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=9000968224442865045504",
           "kind": "reference",
           "subid": 959566,
-          "checked_at": "2026-11-10T07:28:40.690512+00:00"
+          "checked_at": "2026-11-11T07:33:14.765397+00:00"
         },
         {
           "platform": "SteamCiCi",
@@ -1402,7 +1399,7 @@
           "next_retry_at": "2026-11-11T13:04:02.553513+00:00"
         }
       },
-      "key_status": "暂无有效散 Key 参考价",
+      "key_status": "未核实实时在售",
       "key_reference_min": null,
       "tracked_low": 53.9,
       "region_history_low": null
@@ -1461,7 +1458,7 @@
       "steam_deck": null,
       "key_offers": [],
       "key_reference_min": null,
-      "key_status": "暂无有效散 Key 参考价",
+      "key_status": "未核实实时在售",
       "tracked_low": 3.8,
       "region_history_low": null,
       "enrichment_status": {
@@ -1570,7 +1567,7 @@
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=272927268706193408",
           "kind": "reference",
           "subid": 136702,
-          "checked_at": "2026-11-10T07:28:44.752036+00:00"
+          "checked_at": "2026-11-11T07:33:19.169585+00:00"
         }
       ],
       "dlc_count": 2,
@@ -1722,7 +1719,7 @@
           "details": "0 DLC IDs"
         }
       },
-      "key_status": "暂无有效散 Key 参考价",
+      "key_status": "未核实实时在售",
       "key_reference_min": null,
       "tracked_low": 2.5,
       "region_history_low": null
@@ -1823,7 +1820,7 @@
           "details": "0 DLC IDs"
         }
       },
-      "key_status": "暂无有效散 Key 参考价",
+      "key_status": "未核实实时在售",
       "key_reference_min": null,
       "tracked_low": 2.5,
       "region_history_low": null
@@ -1881,7 +1878,7 @@
       "steam_historical_low_source": null,
       "steam_deck": null,
       "key_offers": [],
-      "key_status": "暂无有效散 Key 参考价",
+      "key_status": "未核实实时在售",
       "key_reference_min": null,
       "tracked_low": 2.5,
       "region_history_low": null,
@@ -1973,7 +1970,7 @@
       "watchlisted": false,
       "why": "匹配你的偏好：冒险 / 角色扮演 / 单人",
       "mobile": null,
-      "epic_status": "历史库未匹配（未核实）",
+      "epic_status": "未核实（历史库未匹配）",
       "epic_giveaway": null,
       "epic_source": "https://github.com/renshuki/efgtracker",
       "dlc_status": "未自动核实",
@@ -1990,7 +1987,7 @@
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=629778209382076416",
           "kind": "reference",
           "subid": 740699,
-          "checked_at": "2026-11-10T07:28:50.305975+00:00"
+          "checked_at": "2026-11-11T07:33:26.196116+00:00"
         }
       ],
       "enrichment_status": {
@@ -2079,10 +2076,10 @@
       "watchlisted": false,
       "why": "匹配你的偏好：冒险 / 角色扮演 / 单人",
       "mobile": null,
-      "epic_status": "历史库未匹配（未核实）",
+      "epic_status": "未核实（历史库未匹配）",
       "epic_giveaway": null,
       "epic_source": "https://github.com/renshuki/efgtracker",
-      "dlc_status": "Steam 商店关联 DLC 数量；不代表值得购买",
+      "dlc_status": "未自动核实",
       "key_price": null,
       "key_source": null,
       "steam_historical_low": null,
@@ -2096,7 +2093,7 @@
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=496138616574196",
           "kind": "reference",
           "subid": 119411,
-          "checked_at": "2026-11-10T07:28:52.231048+00:00"
+          "checked_at": "2026-11-11T07:33:28.456547+00:00"
         },
         {
           "platform": "SteamCiCi",
@@ -2106,8 +2103,14 @@
           "url": "https://steamcici.com/index",
           "kind": "historical_listing",
           "subid": "119411",
-          "checked_at": "2026-11-10T03:50:32.558545+00:00"
+          "checked_at": "2026-11-11T07:33:29.296375+00:00"
         }
+      ],
+      "dlc_count": 3,
+      "dlc_appids": [
+        594700,
+        1064720,
+        1285810
       ],
       "enrichment_status": {
         "keys": {
@@ -2155,13 +2158,7 @@
       "key_status": "未核实实时在售",
       "key_reference_min": 2.5,
       "tracked_low": 15.2,
-      "region_history_low": null,
-      "dlc_count": 3,
-      "dlc_appids": [
-        594700,
-        1064720,
-        1285810
-      ]
+      "region_history_low": null
     },
     {
       "appid": 1282200,
@@ -2259,7 +2256,7 @@
           "details": "0 DLC IDs"
         }
       },
-      "key_status": "暂无有效散 Key 参考价",
+      "key_status": "未核实实时在售",
       "key_reference_min": null,
       "tracked_low": 6.6,
       "region_history_low": null,
@@ -2319,7 +2316,7 @@
       "steam_historical_low_source": null,
       "steam_deck": null,
       "key_offers": [],
-      "key_status": "暂无有效散 Key 参考价",
+      "key_status": "未核实实时在售",
       "key_reference_min": null,
       "tracked_low": 6.6,
       "region_history_low": null,
@@ -2422,7 +2419,7 @@
       "steam_historical_low_source": null,
       "steam_deck": null,
       "key_offers": [],
-      "key_status": "暂无有效散 Key 参考价",
+      "key_status": "未核实实时在售",
       "key_reference_min": null,
       "tracked_low": 6.6,
       "region_history_low": null,
@@ -2530,7 +2527,7 @@
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=849600697509875712",
           "kind": "reference",
           "subid": 772572,
-          "checked_at": "2026-11-10T07:28:57.982675+00:00"
+          "checked_at": "2026-11-11T07:33:34.343854+00:00"
         }
       ],
       "enrichment_status": {
@@ -2585,99 +2582,6 @@
         3224510,
         3224520
       ]
-    },
-    {
-      "appid": 3646020,
-      "name": "Ultimate Drummer",
-      "name_en": null,
-      "steam_subids": [
-        1284975
-      ],
-      "release_date": "2026 年 4 月 22 日",
-      "coming_soon": false,
-      "price": 18.46,
-      "original_price": 26.0,
-      "discount": 29,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3646020/54ed4cae5da81e1ab137e3bdc70ae80e60c1fcd9/header.jpg?t=1782390627",
-      "url": "https://store.steampowered.com/app/3646020/?cc=cn&l=schinese",
-      "review": "Steam 评价数据暂不可用",
-      "review_pct": null,
-      "review_count": 0,
-      "review_scope": "不可用",
-      "recommend_score": 5.9,
-      "taste_score": 5.3,
-      "quality_score": 0.0,
-      "price_score": 6.1,
-      "genres": [
-        "动作",
-        "冒险",
-        "角色扮演"
-      ],
-      "tags": [
-        "站内新低",
-        "-29%",
-        "动作",
-        "冒险",
-        "角色扮演"
-      ],
-      "preference_tags": [],
-      "flags": [
-        "deal"
-      ],
-      "category": "deal",
-      "discovery_score": null,
-      "watchlisted": false,
-      "why": "匹配你的偏好：冒险 / 角色扮演 / 单人",
-      "mobile": null,
-      "epic_status": "未核实（历史库未匹配）",
-      "epic_giveaway": null,
-      "epic_source": "https://github.com/renshuki/efgtracker",
-      "dlc_status": "未自动核实",
-      "key_price": null,
-      "key_source": null,
-      "steam_historical_low": null,
-      "steam_historical_low_source": null,
-      "steam_deck": null,
-      "key_offers": [
-        {
-          "platform": "SteamPY",
-          "price": 4.0,
-          "status": "CDKey接口参考价｜库存、地区及版本需打开商品页确认",
-          "url": "https://steampy.com/cdkDetail?name=cn&gameId=9001059487944071258112",
-          "kind": "reference",
-          "subid": 1284975,
-          "checked_at": "2026-11-10T07:28:59.411513+00:00"
-        }
-      ],
-      "key_reference_min": 4.0,
-      "key_status": "未核实实时在售",
-      "tracked_low": 18.46,
-      "region_history_low": null,
-      "enrichment_status": {
-        "keys": {
-          "status": "success",
-          "checked_at": "2026-11-10T03:53:56.662799+00:00",
-          "next_retry_at": "2026-11-13T03:53:56.662799+00:00"
-        },
-        "reviews": {
-          "status": "no_data",
-          "checked_at": "2026-11-10T07:37:23.839258+00:00",
-          "next_retry_at": "2026-11-12T07:37:23.839258+00:00",
-          "details": "negative reviews unavailable"
-        },
-        "deck": {
-          "status": "unverified",
-          "checked_at": "2026-11-10T13:34:38.726978+00:00",
-          "next_retry_at": "2026-11-11T13:34:38.726978+00:00",
-          "details": "official grade unavailable"
-        },
-        "history": {
-          "status": "unverified",
-          "checked_at": "2026-11-10T17:19:39.262738+00:00",
-          "next_retry_at": "2026-11-11T17:19:39.262738+00:00",
-          "details": "no verified CNY historical record"
-        }
-      }
     },
     {
       "appid": 2384130,
@@ -2775,7 +2679,7 @@
           "details": "1 DLC IDs"
         }
       },
-      "key_status": "暂无有效散 Key 参考价",
+      "key_status": "未核实实时在售",
       "key_reference_min": null,
       "tracked_low": 21.0,
       "region_history_low": null,
@@ -2843,7 +2747,7 @@
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=728886466804977664",
           "kind": "reference",
           "subid": 718211,
-          "checked_at": "2026-11-10T07:29:02.146364+00:00"
+          "checked_at": "2026-11-11T07:33:38.076959+00:00"
         }
       ],
       "key_status": "未核实实时在售",
@@ -2958,7 +2862,7 @@
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=559264996995895296",
           "kind": "reference",
           "subid": 694519,
-          "checked_at": "2026-11-10T07:29:03.437881+00:00"
+          "checked_at": "2026-11-11T07:33:39.541649+00:00"
         },
         {
           "platform": "SteamCiCi",
@@ -2968,7 +2872,7 @@
           "url": "https://steamcici.com/index",
           "kind": "historical_listing",
           "subid": "694519",
-          "checked_at": "2026-11-08T09:50:20.509545+00:00"
+          "checked_at": "2026-11-11T07:33:40.429980+00:00"
         }
       ],
       "dlc_count": 1,
@@ -3101,9 +3005,101 @@
           "details": "no verified CNY historical record"
         }
       },
-      "key_status": "暂无有效散 Key 参考价",
+      "key_status": "未核实实时在售",
       "key_reference_min": null,
       "tracked_low": 15.4,
+      "region_history_low": null
+    },
+    {
+      "appid": 3646020,
+      "name": "Ultimate Drummer",
+      "name_en": null,
+      "steam_subids": [
+        1284975
+      ],
+      "release_date": "2026 年 4 月 22 日",
+      "coming_soon": false,
+      "price": 18.46,
+      "original_price": 26.0,
+      "discount": 29,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3646020/54ed4cae5da81e1ab137e3bdc70ae80e60c1fcd9/header.jpg?t=1782390627",
+      "url": "https://store.steampowered.com/app/3646020/?cc=cn&l=schinese",
+      "review": "Steam 评价数据暂不可用",
+      "review_pct": null,
+      "review_count": 0,
+      "review_scope": "不可用",
+      "recommend_score": 5.8,
+      "taste_score": 5.3,
+      "quality_score": 0.0,
+      "price_score": 5.8,
+      "genres": [
+        "动作",
+        "冒险",
+        "角色扮演"
+      ],
+      "tags": [
+        "-29%",
+        "动作",
+        "冒险",
+        "角色扮演"
+      ],
+      "preference_tags": [],
+      "flags": [
+        "deal"
+      ],
+      "category": "deal",
+      "discovery_score": null,
+      "watchlisted": false,
+      "why": "匹配你的偏好：冒险 / 角色扮演 / 单人",
+      "mobile": null,
+      "epic_status": "未核实（历史库未匹配）",
+      "epic_giveaway": null,
+      "epic_source": "https://github.com/renshuki/efgtracker",
+      "dlc_status": "未自动核实",
+      "key_price": null,
+      "key_source": null,
+      "steam_historical_low": null,
+      "steam_historical_low_source": null,
+      "steam_deck": null,
+      "key_offers": [
+        {
+          "platform": "SteamPY",
+          "price": 4.0,
+          "status": "CDKey接口参考价｜库存、地区及版本需打开商品页确认",
+          "url": "https://steampy.com/cdkDetail?name=cn&gameId=9001059487944071258112",
+          "kind": "reference",
+          "subid": 1284975,
+          "checked_at": "2026-11-11T07:33:42.635417+00:00"
+        }
+      ],
+      "enrichment_status": {
+        "keys": {
+          "status": "success",
+          "checked_at": "2026-11-10T03:53:56.662799+00:00",
+          "next_retry_at": "2026-11-13T03:53:56.662799+00:00"
+        },
+        "reviews": {
+          "status": "no_data",
+          "checked_at": "2026-11-10T07:37:23.839258+00:00",
+          "next_retry_at": "2026-11-12T07:37:23.839258+00:00",
+          "details": "negative reviews unavailable"
+        },
+        "deck": {
+          "status": "unverified",
+          "checked_at": "2026-11-10T13:34:38.726978+00:00",
+          "next_retry_at": "2026-11-11T13:34:38.726978+00:00",
+          "details": "official grade unavailable"
+        },
+        "history": {
+          "status": "unverified",
+          "checked_at": "2026-11-10T17:19:39.262738+00:00",
+          "next_retry_at": "2026-11-11T17:19:39.262738+00:00",
+          "details": "no verified CNY historical record"
+        }
+      },
+      "key_status": "未核实实时在售",
+      "key_reference_min": 4.0,
+      "tracked_low": 18.46,
       "region_history_low": null
     },
     {
@@ -3162,7 +3158,7 @@
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=9000916457760718536704",
           "kind": "reference",
           "subid": 1193772,
-          "checked_at": "2026-11-10T07:29:06.201584+00:00"
+          "checked_at": "2026-11-11T07:33:44.059980+00:00"
         }
       ],
       "enrichment_status": {
@@ -3337,7 +3333,7 @@
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=9001130501078149599232",
           "kind": "reference",
           "subid": 1881471,
-          "checked_at": "2026-11-10T07:29:08.813425+00:00"
+          "checked_at": "2026-11-11T07:33:47.968468+00:00"
         }
       ],
       "key_reference_min": 1.99,
@@ -3425,7 +3421,7 @@
       "steam_deck": null,
       "key_offers": [],
       "key_reference_min": null,
-      "key_status": "暂无有效散 Key 参考价",
+      "key_status": "未核实实时在售",
       "tracked_low": 24.0,
       "region_history_low": null,
       "enrichment_status": {
@@ -3509,7 +3505,7 @@
       "steam_deck": null,
       "key_offers": [],
       "key_reference_min": null,
-      "key_status": "暂无有效散 Key 参考价",
+      "key_status": "未核实实时在售",
       "tracked_low": 27.3,
       "region_history_low": null,
       "enrichment_status": {
@@ -3618,7 +3614,7 @@
           "details": "no verified CNY historical record"
         }
       },
-      "key_status": "暂无有效散 Key 参考价",
+      "key_status": "未核实实时在售",
       "key_reference_min": null,
       "tracked_low": 10.04,
       "region_history_low": null
@@ -3723,7 +3719,7 @@
           "details": "1 DLC IDs"
         }
       },
-      "key_status": "暂无有效散 Key 参考价",
+      "key_status": "未核实实时在售",
       "key_reference_min": null,
       "tracked_low": 11.0,
       "region_history_low": null
@@ -3788,7 +3784,7 @@
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=9001128405368151224320",
           "kind": "reference",
           "subid": 1683582,
-          "checked_at": "2026-11-10T07:29:15.434017+00:00"
+          "checked_at": "2026-11-11T07:33:55.316244+00:00"
         }
       ],
       "key_reference_min": 4.5,
@@ -3820,99 +3816,6 @@
           "next_retry_at": "2026-11-12T11:00:23.335214+00:00"
         }
       }
-    },
-    {
-      "appid": 3422710,
-      "name": "黑暗祈愿",
-      "name_en": null,
-      "steam_subids": [
-        1210421
-      ],
-      "release_date": "2026 年 11 月 1 日",
-      "coming_soon": false,
-      "price": 16.0,
-      "original_price": 20.0,
-      "discount": 20,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3422710/4c5ba5d3fca953746d54f360e71e2fb137182f99/header.jpg?t=1794018014",
-      "url": "https://store.steampowered.com/app/3422710/?cc=cn&l=schinese",
-      "review": "Steam 评价数据暂不可用",
-      "review_pct": null,
-      "review_count": 0,
-      "review_scope": "不可用",
-      "recommend_score": 6.8,
-      "taste_score": 7.6,
-      "quality_score": 0.0,
-      "price_score": 5.4,
-      "genres": [
-        "冒险",
-        "独立",
-        "角色扮演",
-        "策略"
-      ],
-      "tags": [
-        "-20%",
-        "冒险",
-        "独立",
-        "角色扮演"
-      ],
-      "preference_tags": [],
-      "flags": [
-        "new"
-      ],
-      "category": "new",
-      "discovery_score": null,
-      "watchlisted": false,
-      "why": "匹配你的偏好：冒险 / 角色扮演 / 策略 / 单人",
-      "mobile": null,
-      "epic_status": "未核实（历史库未匹配）",
-      "epic_giveaway": null,
-      "epic_source": "https://github.com/renshuki/efgtracker",
-      "dlc_status": "未自动核实",
-      "key_price": null,
-      "key_source": null,
-      "steam_historical_low": null,
-      "steam_historical_low_source": null,
-      "steam_deck": null,
-      "key_offers": [
-        {
-          "platform": "SteamPY",
-          "price": 12.22,
-          "status": "CDKey接口参考价｜库存、地区及版本需打开商品页确认",
-          "url": "https://steampy.com/cdkDetail?name=cn&gameId=9001129523302093316096",
-          "kind": "reference",
-          "subid": 1210421,
-          "checked_at": "2026-11-10T07:29:16.748423+00:00"
-        }
-      ],
-      "enrichment_status": {
-        "reviews": {
-          "status": "no_data",
-          "checked_at": "2026-11-10T13:28:57.344652+00:00",
-          "next_retry_at": "2026-11-12T13:28:57.344652+00:00",
-          "details": "negative reviews unavailable"
-        },
-        "deck": {
-          "status": "unverified",
-          "checked_at": "2026-11-02T13:39:12.265846+00:00",
-          "next_retry_at": "2026-11-03T13:39:12.265846+00:00",
-          "details": "official grade unavailable"
-        },
-        "history": {
-          "status": "unverified",
-          "checked_at": "2026-11-02T17:23:06.164717+00:00",
-          "next_retry_at": "2026-11-03T17:23:06.164717+00:00",
-          "details": "no verified CNY historical record"
-        },
-        "keys": {
-          "status": "success",
-          "checked_at": "2026-11-08T10:46:39.718725+00:00",
-          "next_retry_at": "2026-11-11T10:46:39.718725+00:00"
-        }
-      },
-      "key_status": "未核实实时在售",
-      "key_reference_min": 12.22,
-      "tracked_low": 16.0,
-      "region_history_low": null
     },
     {
       "appid": 1071360,
@@ -3969,7 +3872,7 @@
       "steam_historical_low_source": null,
       "steam_deck": null,
       "key_offers": [],
-      "key_status": "暂无有效散 Key 参考价",
+      "key_status": "未核实实时在售",
       "key_reference_min": null,
       "tracked_low": 17.6,
       "region_history_low": null,
@@ -4072,7 +3975,7 @@
       "steam_deck": null,
       "key_offers": [],
       "key_reference_min": null,
-      "key_status": "暂无有效散 Key 参考价",
+      "key_status": "未核实实时在售",
       "tracked_low": 19.0,
       "region_history_low": null,
       "enrichment_status": {
@@ -4179,9 +4082,101 @@
           "next_retry_at": "2026-11-11T20:49:49.554448+00:00"
         }
       },
-      "key_status": "暂无有效散 Key 参考价",
+      "key_status": "未核实实时在售",
       "key_reference_min": null,
       "tracked_low": 19.8,
+      "region_history_low": null
+    },
+    {
+      "appid": 3422710,
+      "name": "黑暗祈愿",
+      "name_en": null,
+      "steam_subids": [
+        1210421
+      ],
+      "release_date": "2026 年 11 月 1 日",
+      "coming_soon": false,
+      "price": 20.0,
+      "original_price": 20.0,
+      "discount": 0,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3422710/4c5ba5d3fca953746d54f360e71e2fb137182f99/header.jpg?t=1794018014",
+      "url": "https://store.steampowered.com/app/3422710/?cc=cn&l=schinese",
+      "review": "Steam 评价数据暂不可用",
+      "review_pct": null,
+      "review_count": 0,
+      "review_scope": "不可用",
+      "recommend_score": 6.8,
+      "taste_score": 7.6,
+      "quality_score": 0.0,
+      "price_score": 5.4,
+      "genres": [
+        "冒险",
+        "独立",
+        "角色扮演",
+        "策略"
+      ],
+      "tags": [
+        "冒险",
+        "独立",
+        "角色扮演"
+      ],
+      "preference_tags": [],
+      "flags": [
+        "new"
+      ],
+      "category": "new",
+      "discovery_score": null,
+      "watchlisted": false,
+      "why": "匹配你的偏好：冒险 / 角色扮演 / 策略 / 单人",
+      "mobile": null,
+      "epic_status": "未核实（历史库未匹配）",
+      "epic_giveaway": null,
+      "epic_source": "https://github.com/renshuki/efgtracker",
+      "dlc_status": "未自动核实",
+      "key_price": null,
+      "key_source": null,
+      "steam_historical_low": null,
+      "steam_historical_low_source": null,
+      "steam_deck": null,
+      "key_offers": [
+        {
+          "platform": "SteamPY",
+          "price": 12.22,
+          "status": "CDKey接口参考价｜库存、地区及版本需打开商品页确认",
+          "url": "https://steampy.com/cdkDetail?name=cn&gameId=9001129523302093316096",
+          "kind": "reference",
+          "subid": 1210421,
+          "checked_at": "2026-11-11T07:34:02.149434+00:00"
+        }
+      ],
+      "enrichment_status": {
+        "reviews": {
+          "status": "no_data",
+          "checked_at": "2026-11-10T13:28:57.344652+00:00",
+          "next_retry_at": "2026-11-12T13:28:57.344652+00:00",
+          "details": "negative reviews unavailable"
+        },
+        "deck": {
+          "status": "unverified",
+          "checked_at": "2026-11-02T13:39:12.265846+00:00",
+          "next_retry_at": "2026-11-03T13:39:12.265846+00:00",
+          "details": "official grade unavailable"
+        },
+        "history": {
+          "status": "unverified",
+          "checked_at": "2026-11-02T17:23:06.164717+00:00",
+          "next_retry_at": "2026-11-03T17:23:06.164717+00:00",
+          "details": "no verified CNY historical record"
+        },
+        "keys": {
+          "status": "success",
+          "checked_at": "2026-11-08T10:46:39.718725+00:00",
+          "next_retry_at": "2026-11-11T10:46:39.718725+00:00"
+        }
+      },
+      "key_status": "未核实实时在售",
+      "key_reference_min": 12.22,
+      "tracked_low": 16.0,
       "region_history_low": null
     },
     {
@@ -4239,7 +4234,7 @@
       "steam_deck": null,
       "key_offers": [],
       "key_reference_min": null,
-      "key_status": "暂无有效散 Key 参考价",
+      "key_status": "未核实实时在售",
       "tracked_low": 22.5,
       "region_history_low": null,
       "enrichment_status": {
@@ -4323,7 +4318,7 @@
       "steam_deck": null,
       "key_offers": [],
       "key_reference_min": null,
-      "key_status": "暂无有效散 Key 参考价",
+      "key_status": "未核实实时在售",
       "tracked_low": 23.8,
       "region_history_low": null,
       "enrichment_status": {
@@ -4446,7 +4441,7 @@
           "details": "0 DLC IDs"
         }
       },
-      "key_status": "暂无有效散 Key 参考价",
+      "key_status": "未核实实时在售",
       "key_reference_min": null,
       "tracked_low": 25.2,
       "region_history_low": null,
@@ -4516,7 +4511,7 @@
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=9001128943328315588608",
           "kind": "reference",
           "subid": 1609060,
-          "checked_at": "2026-11-10T07:29:26.148891+00:00"
+          "checked_at": "2026-11-11T07:34:08.268128+00:00"
         }
       ],
       "key_reference_min": 19.99,
@@ -4609,7 +4604,7 @@
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=9001127679451686780928",
           "kind": "reference",
           "subid": 1583211,
-          "checked_at": "2026-11-10T07:29:27.651190+00:00"
+          "checked_at": "2026-11-11T07:34:09.774707+00:00"
         }
       ],
       "enrichment_status": {
@@ -4702,7 +4697,7 @@
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=9001127332825080250368",
           "kind": "reference",
           "subid": 1720707,
-          "checked_at": "2026-11-10T07:29:28.967395+00:00"
+          "checked_at": "2026-11-11T07:34:12.128999+00:00"
         }
       ],
       "enrichment_status": {
@@ -4734,90 +4729,6 @@
       "key_reference_min": 15.98,
       "tracked_low": 29.7,
       "region_history_low": null
-    },
-    {
-      "appid": 4717170,
-      "name": "Renegades",
-      "name_en": null,
-      "steam_subids": [
-        1641310
-      ],
-      "release_date": "2026 年 11 月 9 日",
-      "coming_soon": false,
-      "price": 40.5,
-      "original_price": 54.0,
-      "discount": 25,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4717170/89702a2f30d140cdf1e0ae48b62f8adff6e3214f/header.jpg?t=1794250368",
-      "url": "https://store.steampowered.com/app/4717170/?cc=cn&l=schinese",
-      "review": "Steam 评价数据暂不可用",
-      "review_pct": null,
-      "review_count": 0,
-      "review_scope": "不可用",
-      "recommend_score": 6.8,
-      "taste_score": 7.6,
-      "quality_score": 0.0,
-      "price_score": 5.5,
-      "genres": [
-        "冒险",
-        "角色扮演",
-        "策略",
-        "抢先体验"
-      ],
-      "tags": [
-        "站内新低",
-        "-25%",
-        "冒险",
-        "角色扮演",
-        "策略"
-      ],
-      "preference_tags": [],
-      "flags": [
-        "new"
-      ],
-      "category": "new",
-      "discovery_score": null,
-      "watchlisted": false,
-      "why": "匹配你的偏好：冒险 / 角色扮演 / 策略 / 单人",
-      "mobile": null,
-      "epic_status": "未核实（历史库未匹配）",
-      "epic_giveaway": null,
-      "epic_source": "https://github.com/renshuki/efgtracker",
-      "dlc_status": "未自动核实",
-      "key_price": null,
-      "key_source": null,
-      "steam_historical_low": null,
-      "steam_historical_low_source": null,
-      "steam_deck": null,
-      "key_offers": [],
-      "key_reference_min": null,
-      "key_status": "暂无有效散 Key 参考价",
-      "tracked_low": 40.5,
-      "region_history_low": null,
-      "enrichment_status": {
-        "keys": {
-          "status": "no_quote",
-          "checked_at": "2026-11-11T03:58:01.806702+00:00",
-          "next_retry_at": "2026-11-12T03:58:01.806702+00:00"
-        },
-        "reviews": {
-          "status": "no_data",
-          "checked_at": "2026-11-10T07:37:23.839258+00:00",
-          "next_retry_at": "2026-11-12T07:37:23.839258+00:00",
-          "details": "negative reviews unavailable"
-        },
-        "deck": {
-          "status": "unverified",
-          "checked_at": "2026-11-10T13:34:38.726978+00:00",
-          "next_retry_at": "2026-11-11T13:34:38.726978+00:00",
-          "details": "official grade unavailable"
-        },
-        "history": {
-          "status": "unverified",
-          "checked_at": "2026-11-10T17:19:39.262738+00:00",
-          "next_retry_at": "2026-11-11T17:19:39.262738+00:00",
-          "details": "no verified CNY historical record"
-        }
-      }
     },
     {
       "appid": 5430590,
@@ -4873,7 +4784,7 @@
       "steam_deck": null,
       "key_offers": [],
       "key_reference_min": null,
-      "key_status": "暂无有效散 Key 参考价",
+      "key_status": "未核实实时在售",
       "tracked_low": 52.5,
       "region_history_low": null,
       "enrichment_status": {
@@ -4957,7 +4868,7 @@
       "steam_deck": null,
       "key_offers": [],
       "key_reference_min": null,
-      "key_status": "暂无有效散 Key 参考价",
+      "key_status": "未核实实时在售",
       "tracked_low": 33.0,
       "region_history_low": null,
       "enrichment_status": {
@@ -5169,6 +5080,88 @@
           "details": "no verified CNY historical record"
         }
       }
+    },
+    {
+      "appid": 4717170,
+      "name": "Renegades",
+      "name_en": null,
+      "steam_subids": [
+        1641310
+      ],
+      "release_date": "2026 年 11 月 9 日",
+      "coming_soon": false,
+      "price": 40.5,
+      "original_price": 54.0,
+      "discount": 25,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4717170/89702a2f30d140cdf1e0ae48b62f8adff6e3214f/header.jpg?t=1794250368",
+      "url": "https://store.steampowered.com/app/4717170/?cc=cn&l=schinese",
+      "review": "Steam 评价数据暂不可用",
+      "review_pct": null,
+      "review_count": 0,
+      "review_scope": "不可用",
+      "recommend_score": 6.7,
+      "taste_score": 7.6,
+      "quality_score": 0.0,
+      "price_score": 5.2,
+      "genres": [
+        "冒险",
+        "角色扮演",
+        "策略",
+        "抢先体验"
+      ],
+      "tags": [
+        "-25%",
+        "冒险",
+        "角色扮演",
+        "策略"
+      ],
+      "preference_tags": [],
+      "flags": [
+        "new"
+      ],
+      "category": "new",
+      "discovery_score": null,
+      "watchlisted": false,
+      "why": "匹配你的偏好：冒险 / 角色扮演 / 策略 / 单人",
+      "mobile": null,
+      "epic_status": "未核实（历史库未匹配）",
+      "epic_giveaway": null,
+      "epic_source": "https://github.com/renshuki/efgtracker",
+      "dlc_status": "未自动核实",
+      "key_price": null,
+      "key_source": null,
+      "steam_historical_low": null,
+      "steam_historical_low_source": null,
+      "steam_deck": null,
+      "key_offers": [],
+      "enrichment_status": {
+        "keys": {
+          "status": "no_quote",
+          "checked_at": "2026-11-11T03:58:01.806702+00:00",
+          "next_retry_at": "2026-11-12T03:58:01.806702+00:00"
+        },
+        "reviews": {
+          "status": "no_data",
+          "checked_at": "2026-11-10T07:37:23.839258+00:00",
+          "next_retry_at": "2026-11-12T07:37:23.839258+00:00",
+          "details": "negative reviews unavailable"
+        },
+        "deck": {
+          "status": "unverified",
+          "checked_at": "2026-11-10T13:34:38.726978+00:00",
+          "next_retry_at": "2026-11-11T13:34:38.726978+00:00",
+          "details": "official grade unavailable"
+        },
+        "history": {
+          "status": "unverified",
+          "checked_at": "2026-11-10T17:19:39.262738+00:00",
+          "next_retry_at": "2026-11-11T17:19:39.262738+00:00",
+          "details": "no verified CNY historical record"
+        }
+      },
+      "key_status": "暂无有效散 Key 参考价",
+      "key_reference_min": null,
+      "tracked_low": 40.5
     },
     {
       "appid": 3549030,
@@ -5436,6 +5429,65 @@
       "region_history_low": null
     },
     {
+      "appid": 2826790,
+      "name": "千锤百炼",
+      "name_en": null,
+      "steam_subids": [
+        1009002
+      ],
+      "release_date": "2026 年 11 月 10 日",
+      "coming_soon": false,
+      "price": 51.0,
+      "original_price": 60.0,
+      "discount": 15,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2826790/05333657beb10a9400c312ec0842c7e12f8c7dc1/header_schinese.jpg?t=1794338770",
+      "url": "https://store.steampowered.com/app/2826790/?cc=cn&l=schinese",
+      "review": "Steam 评价数据暂不可用",
+      "review_pct": null,
+      "review_count": 0,
+      "review_scope": "不可用",
+      "recommend_score": 6.7,
+      "taste_score": 7.6,
+      "quality_score": 0.0,
+      "price_score": 5.1,
+      "genres": [
+        "动作",
+        "冒险",
+        "独立",
+        "角色扮演",
+        "策略",
+        "抢先体验"
+      ],
+      "tags": [
+        "站内新低",
+        "-15%",
+        "动作",
+        "冒险",
+        "独立"
+      ],
+      "preference_tags": [],
+      "flags": [
+        "new"
+      ],
+      "category": "new",
+      "discovery_score": null,
+      "watchlisted": false,
+      "why": "匹配你的偏好：冒险 / 角色扮演 / 策略 / 单人",
+      "mobile": null,
+      "epic_status": "未核实（历史库未匹配）",
+      "epic_giveaway": null,
+      "epic_source": "https://github.com/renshuki/efgtracker",
+      "dlc_status": "未自动核实",
+      "key_price": null,
+      "key_source": null,
+      "steam_historical_low": null,
+      "steam_historical_low_source": null,
+      "steam_deck": null,
+      "key_offers": [],
+      "key_reference_min": null,
+      "tracked_low": 51.0
+    },
+    {
       "appid": 4183000,
       "name": "最后的军团",
       "name_en": null,
@@ -5601,6 +5653,62 @@
       "region_history_low": null
     },
     {
+      "appid": 4819620,
+      "name": "Path Defenders: RPG Siege Defense",
+      "name_en": null,
+      "steam_subids": [
+        1674697
+      ],
+      "release_date": "2026 年 11 月 10 日",
+      "coming_soon": false,
+      "price": 59.0,
+      "original_price": 59.0,
+      "discount": 0,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4819620/776f8a8d12f2b3bd0b016b6693a0052eeb117804/header_schinese.jpg?t=1794339997",
+      "url": "https://store.steampowered.com/app/4819620/?cc=cn&l=schinese",
+      "review": "Steam 评价数据暂不可用",
+      "review_pct": null,
+      "review_count": 0,
+      "review_scope": "不可用",
+      "recommend_score": 6.7,
+      "taste_score": 7.6,
+      "quality_score": 0.0,
+      "price_score": 5.1,
+      "genres": [
+        "冒险",
+        "独立",
+        "角色扮演",
+        "策略"
+      ],
+      "tags": [
+        "站内新低",
+        "冒险",
+        "独立",
+        "角色扮演"
+      ],
+      "preference_tags": [],
+      "flags": [
+        "new"
+      ],
+      "category": "new",
+      "discovery_score": null,
+      "watchlisted": false,
+      "why": "匹配你的偏好：冒险 / 角色扮演 / 策略 / 单人",
+      "mobile": null,
+      "epic_status": "未核实（历史库未匹配）",
+      "epic_giveaway": null,
+      "epic_source": "https://github.com/renshuki/efgtracker",
+      "dlc_status": "未自动核实",
+      "key_price": null,
+      "key_source": null,
+      "steam_historical_low": null,
+      "steam_historical_low_source": null,
+      "steam_deck": null,
+      "key_offers": [],
+      "key_reference_min": null,
+      "tracked_low": 59.0
+    },
+    {
       "appid": 724930,
       "name": "最后的鸡堡",
       "name_en": null,
@@ -5714,174 +5822,6 @@
       "key_reference_min": 49.0,
       "tracked_low": 59.4,
       "region_history_low": null
-    },
-    {
-      "appid": 4770220,
-      "name": "Shelterra the Skyworld",
-      "name_en": null,
-      "steam_subids": [
-        1658696
-      ],
-      "release_date": "2026 年 11 月 5 日",
-      "coming_soon": false,
-      "price": 68.4,
-      "original_price": 76.0,
-      "discount": 10,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4770220/2af10806ee395af5b47a266ab3f27f20a04f5158/header.jpg?t=1793924058",
-      "url": "https://store.steampowered.com/app/4770220/?cc=cn&l=schinese",
-      "review": "Steam 评价数据暂不可用",
-      "review_pct": null,
-      "review_count": 0,
-      "review_scope": "不可用",
-      "recommend_score": 6.6,
-      "taste_score": 7.6,
-      "quality_score": 0.0,
-      "price_score": 4.5,
-      "genres": [
-        "冒险",
-        "独立",
-        "角色扮演",
-        "策略"
-      ],
-      "tags": [
-        "站内新低",
-        "-10%",
-        "冒险",
-        "独立",
-        "角色扮演"
-      ],
-      "flags": [
-        "new"
-      ],
-      "category": "new",
-      "discovery_score": null,
-      "watchlisted": false,
-      "why": "匹配你的偏好：冒险 / 角色扮演 / 策略 / 单人",
-      "mobile": null,
-      "epic_status": "未核实（历史库未匹配）",
-      "epic_giveaway": null,
-      "epic_source": "https://github.com/renshuki/efgtracker",
-      "dlc_status": "未自动核实",
-      "key_price": null,
-      "key_source": null,
-      "steam_historical_low": null,
-      "steam_historical_low_source": null,
-      "steam_deck": null,
-      "key_offers": [],
-      "key_reference_min": null,
-      "key_status": "暂无有效散 Key 参考价",
-      "tracked_low": 68.4,
-      "region_history_low": null,
-      "enrichment_status": {
-        "reviews": {
-          "status": "no_data",
-          "checked_at": "2026-11-10T01:28:42.298458+00:00",
-          "next_retry_at": "2026-11-12T01:28:42.298458+00:00",
-          "details": "negative reviews unavailable"
-        },
-        "deck": {
-          "status": "unverified",
-          "checked_at": "2026-11-07T07:30:47.196719+00:00",
-          "next_retry_at": "2026-11-08T07:30:47.196719+00:00",
-          "details": "official grade unavailable"
-        },
-        "history": {
-          "status": "unverified",
-          "checked_at": "2026-11-07T09:15:28.754611+00:00",
-          "next_retry_at": "2026-11-08T09:15:28.754611+00:00",
-          "details": "no verified CNY historical record"
-        },
-        "keys": {
-          "status": "no_quote",
-          "checked_at": "2026-11-10T13:04:02.553513+00:00",
-          "next_retry_at": "2026-11-11T13:04:02.553513+00:00"
-        }
-      }
-    },
-    {
-      "appid": 4672440,
-      "name": "Phroller: Cross-Platform VTT",
-      "name_en": null,
-      "steam_subids": [
-        1626642
-      ],
-      "release_date": "2026 年 11 月 6 日",
-      "coming_soon": false,
-      "price": 75.0,
-      "original_price": 75.0,
-      "discount": 0,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4672440/69a607595fc67478f5d7f98e09417817177440d4/header.jpg?t=1793981844",
-      "url": "https://store.steampowered.com/app/4672440/?cc=cn&l=schinese",
-      "review": "Steam 评价数据暂不可用",
-      "review_pct": null,
-      "review_count": 0,
-      "review_scope": "不可用",
-      "recommend_score": 6.6,
-      "taste_score": 7.6,
-      "quality_score": 0.0,
-      "price_score": 4.5,
-      "genres": [
-        "冒险",
-        "休闲",
-        "独立",
-        "角色扮演",
-        "模拟",
-        "策略",
-        "抢先体验"
-      ],
-      "tags": [
-        "站内新低",
-        "冒险",
-        "休闲",
-        "独立"
-      ],
-      "flags": [
-        "new"
-      ],
-      "category": "new",
-      "discovery_score": null,
-      "watchlisted": false,
-      "why": "匹配你的偏好：冒险 / 角色扮演 / 策略 / 单人",
-      "mobile": null,
-      "epic_status": "未核实（历史库未匹配）",
-      "epic_giveaway": null,
-      "epic_source": "https://github.com/renshuki/efgtracker",
-      "dlc_status": "未自动核实",
-      "key_price": null,
-      "key_source": null,
-      "steam_historical_low": null,
-      "steam_historical_low_source": null,
-      "steam_deck": null,
-      "key_offers": [],
-      "key_reference_min": null,
-      "key_status": "暂无有效散 Key 参考价",
-      "tracked_low": 75.0,
-      "region_history_low": null,
-      "enrichment_status": {
-        "reviews": {
-          "status": "no_data",
-          "checked_at": "2026-11-10T19:22:40.033695+00:00",
-          "next_retry_at": "2026-11-12T19:22:40.033695+00:00",
-          "details": "negative reviews unavailable"
-        },
-        "deck": {
-          "status": "unverified",
-          "checked_at": "2026-11-08T13:22:48.997518+00:00",
-          "next_retry_at": "2026-11-09T13:22:48.997518+00:00",
-          "details": "official grade unavailable"
-        },
-        "history": {
-          "status": "unverified",
-          "checked_at": "2026-11-08T17:06:07.441632+00:00",
-          "next_retry_at": "2026-11-09T17:06:07.441632+00:00",
-          "details": "no verified CNY historical record"
-        },
-        "keys": {
-          "status": "no_quote",
-          "checked_at": "2026-11-10T13:04:02.553513+00:00",
-          "next_retry_at": "2026-11-11T13:04:02.553513+00:00"
-        }
-      }
     },
     {
       "appid": 1371980,
@@ -6001,109 +5941,98 @@
       },
       "key_status": "未核实实时在售",
       "key_reference_min": 70.0,
-      "tracked_low": 139.0,
-      "region_history_low": null
+      "tracked_low": 139.0
     },
     {
-      "appid": 2485660,
-      "name": "Ladderway",
+      "appid": 1838600,
+      "name": "Moshcave",
       "name_en": null,
       "steam_subids": [
-        894586
+        661499
       ],
-      "release_date": "2023 年 7 月 14 日",
-      "coming_soon": false,
-      "price": 2.5,
-      "original_price": 25.0,
-      "discount": 90,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2485660/header.jpg?t=1712473830",
-      "url": "https://store.steampowered.com/app/2485660/?cc=cn&l=schinese",
-      "review": "Steam 评价数据暂不可用",
-      "review_pct": null,
-      "review_count": 0,
-      "review_scope": "不可用",
-      "recommend_score": 4.6,
-      "taste_score": 1.8,
-      "quality_score": 0.0,
-      "price_score": 7.5,
-      "genres": [
-        "动作",
-        "休闲",
-        "独立"
-      ],
-      "tags": [
-        "-90%",
-        "动作",
-        "休闲",
-        "独立"
-      ],
-      "preference_tags": [],
-      "flags": [
-        "explore"
-      ],
-      "category": "explore",
-      "discovery_score": 5.97,
-      "watchlisted": false,
-      "why": "跨类型发现：结合价格、玩家评价及差评样本综合考虑",
-      "mobile": null,
-      "epic_status": "未核实（历史库未匹配）",
-      "epic_giveaway": null,
-      "epic_source": "https://github.com/renshuki/efgtracker",
-      "dlc_status": "未自动核实",
-      "key_price": null,
-      "key_source": null,
-      "steam_historical_low": null,
-      "steam_historical_low_source": null,
-      "steam_deck": null,
-      "negative_review_analysis": {
-        "sample_size": 0,
-        "categories": [],
-        "main_issue": null,
-        "confidence": "限流或预算不足",
-        "note": "未获取新差评"
-      },
-      "key_offers": [],
-      "key_reference_min": null,
-      "key_status": "暂无有效散 Key 参考价",
-      "tracked_low": 2.5,
-      "region_history_low": null,
-      "enrichment_status": {
-        "keys": {
-          "status": "no_quote",
-          "checked_at": "2026-11-10T11:53:49.200990+00:00",
-          "next_retry_at": "2026-11-11T11:53:49.200990+00:00"
-        }
-      }
-    },
-    {
-      "appid": 1694640,
-      "name": "Absurd Chess",
-      "name_en": null,
-      "steam_subids": [
-        603878
-      ],
-      "release_date": "2021 年 12 月 1 日",
+      "release_date": "2026 年 7 月 31 日",
       "coming_soon": false,
       "price": 2.5,
       "original_price": 5.0,
       "discount": 50,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1694640/header.jpg?t=1644681875",
-      "url": "https://store.steampowered.com/app/1694640/?cc=cn&l=schinese",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1838600/f96c29170cf0e87e045b010522c4e58577cdf204/header.jpg?t=1785543379",
+      "url": "https://store.steampowered.com/app/1838600/?cc=cn&l=schinese",
       "review": "Steam 评价数据暂不可用",
       "review_pct": null,
       "review_count": 0,
       "review_scope": "不可用",
-      "recommend_score": 4.7,
-      "taste_score": 2.3,
+      "recommend_score": 4.5,
+      "taste_score": 1.8,
+      "quality_score": 0.0,
+      "price_score": 7.3,
+      "genres": [
+        "动作",
+        "休闲",
+        "独立"
+      ],
+      "tags": [
+        "站内新低",
+        "-50%",
+        "动作",
+        "休闲",
+        "独立"
+      ],
+      "preference_tags": [],
+      "flags": [
+        "explore"
+      ],
+      "category": "explore",
+      "discovery_score": 5.97,
+      "watchlisted": false,
+      "why": "跨类型发现：结合价格、玩家评价及差评样本综合考虑",
+      "mobile": null,
+      "epic_status": "未核实（历史库未匹配）",
+      "epic_giveaway": null,
+      "epic_source": "https://github.com/renshuki/efgtracker",
+      "dlc_status": "未自动核实",
+      "key_price": null,
+      "key_source": null,
+      "steam_historical_low": null,
+      "steam_historical_low_source": null,
+      "steam_deck": null,
+      "negative_review_analysis": {
+        "sample_size": 0,
+        "categories": [],
+        "main_issue": null,
+        "confidence": "限流或预算不足",
+        "note": "未获取新差评"
+      },
+      "key_offers": [],
+      "key_reference_min": null,
+      "tracked_low": 2.5
+    },
+    {
+      "appid": 4788400,
+      "name": "Revolith",
+      "name_en": null,
+      "steam_subids": [
+        1664576
+      ],
+      "release_date": "2026 年 9 月 23 日",
+      "coming_soon": false,
+      "price": 2.5,
+      "original_price": 5.0,
+      "discount": 50,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4788400/fa564f6ab89e293c1c78624ea4aa9442e126aa1d/header.jpg?t=1790170378",
+      "url": "https://store.steampowered.com/app/4788400/?cc=cn&l=schinese",
+      "review": "Steam 评价数据暂不可用",
+      "review_pct": null,
+      "review_count": 0,
+      "review_scope": "不可用",
+      "recommend_score": 5.5,
+      "taste_score": 4.1,
       "quality_score": 0.0,
       "price_score": 7.0,
       "genres": [
-        "休闲",
         "策略"
       ],
       "tags": [
         "-50%",
-        "休闲",
         "策略"
       ],
       "preference_tags": [],
@@ -6133,22 +6062,71 @@
       },
       "key_offers": [],
       "key_reference_min": null,
-      "key_status": "暂无有效散 Key 参考价",
-      "tracked_low": 2.5,
-      "region_history_low": null,
-      "enrichment_status": {
-        "keys": {
-          "status": "no_quote",
-          "checked_at": "2026-11-10T08:23:18.953817+00:00",
-          "next_retry_at": "2026-11-11T08:23:18.953817+00:00"
-        },
-        "reviews": {
-          "status": "no_data",
-          "checked_at": "2026-11-10T10:15:29.846072+00:00",
-          "next_retry_at": "2026-11-12T10:15:29.846072+00:00",
-          "details": "negative reviews unavailable"
-        }
-      }
+      "tracked_low": 2.5
+    },
+    {
+      "appid": 3564790,
+      "name": "勇敢向前冲",
+      "name_en": null,
+      "steam_subids": [
+        1257845
+      ],
+      "release_date": "2025 年 9 月 18 日",
+      "coming_soon": false,
+      "price": 2.5,
+      "original_price": 5.0,
+      "discount": 50,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3564790/1a93fb96746af2af359c59eafc7387de70da961d/header_schinese.jpg?t=1791946777",
+      "url": "https://store.steampowered.com/app/3564790/?cc=cn&l=schinese",
+      "review": "Steam 评价数据暂不可用",
+      "review_pct": null,
+      "review_count": 0,
+      "review_scope": "不可用",
+      "recommend_score": 5.7,
+      "taste_score": 4.3,
+      "quality_score": 0.0,
+      "price_score": 7.3,
+      "genres": [
+        "休闲",
+        "独立",
+        "角色扮演",
+        "模拟"
+      ],
+      "tags": [
+        "站内新低",
+        "-50%",
+        "休闲",
+        "独立",
+        "角色扮演"
+      ],
+      "preference_tags": [],
+      "flags": [
+        "explore"
+      ],
+      "category": "explore",
+      "discovery_score": 5.97,
+      "watchlisted": false,
+      "why": "跨类型发现：结合价格、玩家评价及差评样本综合考虑",
+      "mobile": null,
+      "epic_status": "未核实（历史库未匹配）",
+      "epic_giveaway": null,
+      "epic_source": "https://github.com/renshuki/efgtracker",
+      "dlc_status": "未自动核实",
+      "key_price": null,
+      "key_source": null,
+      "steam_historical_low": null,
+      "steam_historical_low_source": null,
+      "steam_deck": null,
+      "negative_review_analysis": {
+        "sample_size": 0,
+        "categories": [],
+        "main_issue": null,
+        "confidence": "限流或预算不足",
+        "note": "未获取新差评"
+      },
+      "key_offers": [],
+      "key_reference_min": null,
+      "tracked_low": 2.5
     },
     {
       "appid": 2439120,
@@ -6256,156 +6234,7 @@
       },
       "key_status": "暂无有效散 Key 参考价",
       "key_reference_min": null,
-      "tracked_low": 2.5,
-      "region_history_low": null
-    },
-    {
-      "appid": 2482010,
-      "name": "Waspkeeper",
-      "name_en": null,
-      "steam_subids": [
-        893267
-      ],
-      "release_date": "2023 年 7 月 7 日",
-      "coming_soon": false,
-      "price": 2.5,
-      "original_price": 5.0,
-      "discount": 50,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2482010/header.jpg?t=1794169834",
-      "url": "https://store.steampowered.com/app/2482010/?cc=cn&l=schinese",
-      "review": "Steam 评价数据暂不可用",
-      "review_pct": null,
-      "review_count": 0,
-      "review_scope": "不可用",
-      "recommend_score": 4.5,
-      "taste_score": 1.8,
-      "quality_score": 0.0,
-      "price_score": 7.0,
-      "genres": [
-        "动作",
-        "休闲",
-        "独立"
-      ],
-      "tags": [
-        "-50%",
-        "动作",
-        "休闲",
-        "独立"
-      ],
-      "preference_tags": [],
-      "flags": [
-        "explore"
-      ],
-      "category": "explore",
-      "discovery_score": 5.97,
-      "watchlisted": false,
-      "why": "跨类型发现：结合价格、玩家评价及差评样本综合考虑",
-      "mobile": null,
-      "epic_status": "未核实（历史库未匹配）",
-      "epic_giveaway": null,
-      "epic_source": "https://github.com/renshuki/efgtracker",
-      "dlc_status": "未自动核实",
-      "key_price": null,
-      "key_source": null,
-      "steam_historical_low": null,
-      "steam_historical_low_source": null,
-      "steam_deck": null,
-      "negative_review_analysis": {
-        "sample_size": 0,
-        "categories": [],
-        "main_issue": null,
-        "confidence": "限流或预算不足",
-        "note": "未获取新差评"
-      },
-      "key_offers": [],
-      "key_reference_min": null,
-      "key_status": "暂无有效散 Key 参考价",
-      "tracked_low": 2.5,
-      "region_history_low": null,
-      "enrichment_status": {
-        "keys": {
-          "status": "no_quote",
-          "checked_at": "2026-11-10T09:58:01.367057+00:00",
-          "next_retry_at": "2026-11-11T09:58:01.367057+00:00"
-        }
-      }
-    },
-    {
-      "appid": 2389500,
-      "name": "Skiing Frenzy",
-      "name_en": null,
-      "steam_subids": [
-        859672
-      ],
-      "release_date": "2023 年 4 月 28 日",
-      "coming_soon": false,
-      "price": 2.5,
-      "original_price": 25.0,
-      "discount": 90,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2389500/50ac1fcf79181ca89015836f3bc3a52db5f33aeb/header.jpg?t=1793751872",
-      "url": "https://store.steampowered.com/app/2389500/?cc=cn&l=schinese",
-      "review": "Steam 评价数据暂不可用",
-      "review_pct": null,
-      "review_count": 0,
-      "review_scope": "不可用",
-      "recommend_score": 4.6,
-      "taste_score": 1.8,
-      "quality_score": 0.0,
-      "price_score": 7.5,
-      "genres": [
-        "独立",
-        "竞速",
-        "体育"
-      ],
-      "tags": [
-        "-90%",
-        "独立",
-        "竞速",
-        "体育"
-      ],
-      "preference_tags": [],
-      "flags": [
-        "explore"
-      ],
-      "category": "explore",
-      "discovery_score": 5.97,
-      "watchlisted": false,
-      "why": "跨类型发现：结合价格、玩家评价及差评样本综合考虑",
-      "mobile": null,
-      "epic_status": "未核实（历史库未匹配）",
-      "epic_giveaway": null,
-      "epic_source": "https://github.com/renshuki/efgtracker",
-      "dlc_status": "未自动核实",
-      "key_price": null,
-      "key_source": null,
-      "steam_historical_low": null,
-      "steam_historical_low_source": null,
-      "steam_deck": null,
-      "negative_review_analysis": {
-        "sample_size": 0,
-        "categories": [],
-        "main_issue": null,
-        "confidence": "限流或预算不足",
-        "note": "未获取新差评"
-      },
-      "key_offers": [],
-      "enrichment_status": {
-        "keys": {
-          "status": "no_quote",
-          "checked_at": "2026-11-10T11:53:49.200990+00:00",
-          "next_retry_at": "2026-11-11T11:53:49.200990+00:00"
-        },
-        "reviews": {
-          "status": "no_data",
-          "checked_at": "2026-11-09T22:05:33.939336+00:00",
-          "next_retry_at": "2026-11-11T22:05:33.939336+00:00",
-          "details": "negative reviews unavailable"
-        }
-      },
-      "key_status": "暂无有效散 Key 参考价",
-      "key_reference_min": null,
-      "tracked_low": 2.5,
-      "region_history_low": null
+      "tracked_low": 2.5
     },
     {
       "appid": 4230350,
@@ -6506,23 +6335,22 @@
       },
       "key_status": "未核实实时在售",
       "key_reference_min": 1.99,
-      "tracked_low": 2.5,
-      "region_history_low": null
+      "tracked_low": 2.5
     },
     {
-      "appid": 2426770,
-      "name": "Runner Roy",
+      "appid": 2389500,
+      "name": "Skiing Frenzy",
       "name_en": null,
       "steam_subids": [
-        873171
+        859672
       ],
-      "release_date": "2023 年 5 月 23 日",
+      "release_date": "2023 年 4 月 28 日",
       "coming_soon": false,
       "price": 2.5,
       "original_price": 25.0,
       "discount": 90,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2426770/header.jpg?t=1712543979",
-      "url": "https://store.steampowered.com/app/2426770/?cc=cn&l=schinese",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2389500/50ac1fcf79181ca89015836f3bc3a52db5f33aeb/header.jpg?t=1793751872",
+      "url": "https://store.steampowered.com/app/2389500/?cc=cn&l=schinese",
       "review": "Steam 评价数据暂不可用",
       "review_pct": null,
       "review_count": 0,
@@ -6532,12 +6360,88 @@
       "quality_score": 0.0,
       "price_score": 7.5,
       "genres": [
+        "独立",
+        "竞速",
+        "体育"
+      ],
+      "tags": [
+        "-90%",
+        "独立",
+        "竞速",
+        "体育"
+      ],
+      "preference_tags": [],
+      "flags": [
+        "explore"
+      ],
+      "category": "explore",
+      "discovery_score": 5.97,
+      "watchlisted": false,
+      "why": "跨类型发现：结合价格、玩家评价及差评样本综合考虑",
+      "mobile": null,
+      "epic_status": "未核实（历史库未匹配）",
+      "epic_giveaway": null,
+      "epic_source": "https://github.com/renshuki/efgtracker",
+      "dlc_status": "未自动核实",
+      "key_price": null,
+      "key_source": null,
+      "steam_historical_low": null,
+      "steam_historical_low_source": null,
+      "steam_deck": null,
+      "negative_review_analysis": {
+        "sample_size": 0,
+        "categories": [],
+        "main_issue": null,
+        "confidence": "限流或预算不足",
+        "note": "未获取新差评"
+      },
+      "key_offers": [],
+      "enrichment_status": {
+        "keys": {
+          "status": "no_quote",
+          "checked_at": "2026-11-10T11:53:49.200990+00:00",
+          "next_retry_at": "2026-11-11T11:53:49.200990+00:00"
+        },
+        "reviews": {
+          "status": "no_data",
+          "checked_at": "2026-11-09T22:05:33.939336+00:00",
+          "next_retry_at": "2026-11-11T22:05:33.939336+00:00",
+          "details": "negative reviews unavailable"
+        }
+      },
+      "key_status": "暂无有效散 Key 参考价",
+      "key_reference_min": null,
+      "tracked_low": 2.5
+    },
+    {
+      "appid": 2482010,
+      "name": "Waspkeeper",
+      "name_en": null,
+      "steam_subids": [
+        893267
+      ],
+      "release_date": "2023 年 7 月 7 日",
+      "coming_soon": false,
+      "price": 2.5,
+      "original_price": 5.0,
+      "discount": 50,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2482010/header.jpg?t=1794169834",
+      "url": "https://store.steampowered.com/app/2482010/?cc=cn&l=schinese",
+      "review": "Steam 评价数据暂不可用",
+      "review_pct": null,
+      "review_count": 0,
+      "review_scope": "不可用",
+      "recommend_score": 4.5,
+      "taste_score": 1.8,
+      "quality_score": 0.0,
+      "price_score": 7.0,
+      "genres": [
         "动作",
         "休闲",
         "独立"
       ],
       "tags": [
-        "-90%",
+        "-50%",
         "动作",
         "休闲",
         "独立"
@@ -6568,17 +6472,16 @@
         "note": "未获取新差评"
       },
       "key_offers": [],
-      "key_reference_min": null,
-      "key_status": "暂无有效散 Key 参考价",
-      "tracked_low": 2.5,
-      "region_history_low": null,
       "enrichment_status": {
         "keys": {
           "status": "no_quote",
           "checked_at": "2026-11-10T09:58:01.367057+00:00",
           "next_retry_at": "2026-11-11T09:58:01.367057+00:00"
         }
-      }
+      },
+      "key_status": "暂无有效散 Key 参考价",
+      "key_reference_min": null,
+      "tracked_low": 2.5
     },
     {
       "appid": 2484880,
@@ -6639,17 +6542,86 @@
         "note": "未获取新差评"
       },
       "key_offers": [],
-      "key_reference_min": null,
-      "key_status": "暂无有效散 Key 参考价",
-      "tracked_low": 2.5,
-      "region_history_low": null,
       "enrichment_status": {
         "keys": {
           "status": "no_quote",
           "checked_at": "2026-11-10T11:53:49.200990+00:00",
           "next_retry_at": "2026-11-11T11:53:49.200990+00:00"
         }
-      }
+      },
+      "key_status": "暂无有效散 Key 参考价",
+      "key_reference_min": null,
+      "tracked_low": 2.5
+    },
+    {
+      "appid": 2426770,
+      "name": "Runner Roy",
+      "name_en": null,
+      "steam_subids": [
+        873171
+      ],
+      "release_date": "2023 年 5 月 23 日",
+      "coming_soon": false,
+      "price": 2.5,
+      "original_price": 25.0,
+      "discount": 90,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2426770/header.jpg?t=1712543979",
+      "url": "https://store.steampowered.com/app/2426770/?cc=cn&l=schinese",
+      "review": "Steam 评价数据暂不可用",
+      "review_pct": null,
+      "review_count": 0,
+      "review_scope": "不可用",
+      "recommend_score": 4.6,
+      "taste_score": 1.8,
+      "quality_score": 0.0,
+      "price_score": 7.5,
+      "genres": [
+        "动作",
+        "休闲",
+        "独立"
+      ],
+      "tags": [
+        "-90%",
+        "动作",
+        "休闲",
+        "独立"
+      ],
+      "preference_tags": [],
+      "flags": [
+        "explore"
+      ],
+      "category": "explore",
+      "discovery_score": 5.97,
+      "watchlisted": false,
+      "why": "跨类型发现：结合价格、玩家评价及差评样本综合考虑",
+      "mobile": null,
+      "epic_status": "未核实（历史库未匹配）",
+      "epic_giveaway": null,
+      "epic_source": "https://github.com/renshuki/efgtracker",
+      "dlc_status": "未自动核实",
+      "key_price": null,
+      "key_source": null,
+      "steam_historical_low": null,
+      "steam_historical_low_source": null,
+      "steam_deck": null,
+      "negative_review_analysis": {
+        "sample_size": 0,
+        "categories": [],
+        "main_issue": null,
+        "confidence": "限流或预算不足",
+        "note": "未获取新差评"
+      },
+      "key_offers": [],
+      "enrichment_status": {
+        "keys": {
+          "status": "no_quote",
+          "checked_at": "2026-11-10T09:58:01.367057+00:00",
+          "next_retry_at": "2026-11-11T09:58:01.367057+00:00"
+        }
+      },
+      "key_status": "暂无有效散 Key 参考价",
+      "key_reference_min": null,
+      "tracked_low": 2.5
     },
     {
       "appid": 2538480,
@@ -6710,17 +6682,86 @@
         "note": "未获取新差评"
       },
       "key_offers": [],
-      "key_reference_min": null,
-      "key_status": "暂无有效散 Key 参考价",
-      "tracked_low": 2.5,
-      "region_history_low": null,
       "enrichment_status": {
         "keys": {
           "status": "no_quote",
           "checked_at": "2026-11-10T09:58:01.367057+00:00",
           "next_retry_at": "2026-11-11T09:58:01.367057+00:00"
         }
-      }
+      },
+      "key_status": "暂无有效散 Key 参考价",
+      "key_reference_min": null,
+      "tracked_low": 2.5
+    },
+    {
+      "appid": 2485660,
+      "name": "Ladderway",
+      "name_en": null,
+      "steam_subids": [
+        894586
+      ],
+      "release_date": "2023 年 7 月 14 日",
+      "coming_soon": false,
+      "price": 2.5,
+      "original_price": 25.0,
+      "discount": 90,
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2485660/header.jpg?t=1712473830",
+      "url": "https://store.steampowered.com/app/2485660/?cc=cn&l=schinese",
+      "review": "Steam 评价数据暂不可用",
+      "review_pct": null,
+      "review_count": 0,
+      "review_scope": "不可用",
+      "recommend_score": 4.6,
+      "taste_score": 1.8,
+      "quality_score": 0.0,
+      "price_score": 7.5,
+      "genres": [
+        "动作",
+        "休闲",
+        "独立"
+      ],
+      "tags": [
+        "-90%",
+        "动作",
+        "休闲",
+        "独立"
+      ],
+      "preference_tags": [],
+      "flags": [
+        "explore"
+      ],
+      "category": "explore",
+      "discovery_score": 5.97,
+      "watchlisted": false,
+      "why": "跨类型发现：结合价格、玩家评价及差评样本综合考虑",
+      "mobile": null,
+      "epic_status": "未核实（历史库未匹配）",
+      "epic_giveaway": null,
+      "epic_source": "https://github.com/renshuki/efgtracker",
+      "dlc_status": "未自动核实",
+      "key_price": null,
+      "key_source": null,
+      "steam_historical_low": null,
+      "steam_historical_low_source": null,
+      "steam_deck": null,
+      "negative_review_analysis": {
+        "sample_size": 0,
+        "categories": [],
+        "main_issue": null,
+        "confidence": "限流或预算不足",
+        "note": "未获取新差评"
+      },
+      "key_offers": [],
+      "enrichment_status": {
+        "keys": {
+          "status": "no_quote",
+          "checked_at": "2026-11-10T11:53:49.200990+00:00",
+          "next_retry_at": "2026-11-11T11:53:49.200990+00:00"
+        }
+      },
+      "key_status": "暂无有效散 Key 参考价",
+      "key_reference_min": null,
+      "tracked_low": 2.5
     },
     {
       "appid": 2505530,
@@ -6767,7 +6808,7 @@
       "epic_status": "未核实（历史库未匹配）",
       "epic_giveaway": null,
       "epic_source": "https://github.com/renshuki/efgtracker",
-      "dlc_status": "Steam 商店关联 DLC 数量；不代表值得购买",
+      "dlc_status": "未自动核实",
       "key_price": null,
       "key_source": null,
       "steam_historical_low": null,
@@ -6781,10 +6822,8 @@
         "note": "未获取新差评"
       },
       "key_offers": [],
-      "key_reference_min": null,
-      "key_status": "暂无有效散 Key 参考价",
-      "tracked_low": 2.5,
-      "region_history_low": null,
+      "dlc_count": 0,
+      "dlc_appids": [],
       "enrichment_status": {
         "keys": {
           "status": "no_quote",
@@ -6798,85 +6837,9 @@
           "details": "0 DLC IDs"
         }
       },
-      "dlc_count": 0,
-      "dlc_appids": []
-    },
-    {
-      "appid": 2528850,
-      "name": "Bellboy Boris",
-      "name_en": null,
-      "steam_subids": [
-        908789
-      ],
-      "release_date": "2023 年 8 月 11 日",
-      "coming_soon": false,
-      "price": 2.5,
-      "original_price": 25.0,
-      "discount": 90,
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2528850/header.jpg?t=1705424130",
-      "url": "https://store.steampowered.com/app/2528850/?cc=cn&l=schinese",
-      "review": "Steam 评价数据暂不可用",
-      "review_pct": null,
-      "review_count": 0,
-      "review_scope": "不可用",
-      "recommend_score": 5.0,
-      "taste_score": 2.8,
-      "quality_score": 0.0,
-      "price_score": 7.5,
-      "genres": [
-        "冒险",
-        "独立"
-      ],
-      "tags": [
-        "-90%",
-        "冒险",
-        "独立"
-      ],
-      "preference_tags": [],
-      "flags": [
-        "explore"
-      ],
-      "category": "explore",
-      "discovery_score": 5.97,
-      "watchlisted": false,
-      "why": "跨类型发现：结合价格、玩家评价及差评样本综合考虑",
-      "mobile": null,
-      "epic_status": "未核实（历史库未匹配）",
-      "epic_giveaway": null,
-      "epic_source": "https://github.com/renshuki/efgtracker",
-      "dlc_status": "Steam 商店关联 DLC 数量；不代表值得购买",
-      "key_price": null,
-      "key_source": null,
-      "steam_historical_low": null,
-      "steam_historical_low_source": null,
-      "steam_deck": null,
-      "negative_review_analysis": {
-        "sample_size": 0,
-        "categories": [],
-        "main_issue": null,
-        "confidence": "限流或预算不足",
-        "note": "未获取新差评"
-      },
-      "key_offers": [],
-      "key_reference_min": null,
       "key_status": "暂无有效散 Key 参考价",
-      "tracked_low": 2.5,
-      "region_history_low": null,
-      "enrichment_status": {
-        "keys": {
-          "status": "no_quote",
-          "checked_at": "2026-11-10T10:55:58.271351+00:00",
-          "next_retry_at": "2026-11-11T10:55:58.271351+00:00"
-        },
-        "dlc": {
-          "status": "success",
-          "checked_at": "2026-11-11T03:36:53.243749+00:00",
-          "next_retry_at": "2026-11-25T03:36:53.243749+00:00",
-          "details": "0 DLC IDs"
-        }
-      },
-      "dlc_count": 0,
-      "dlc_appids": []
+      "key_reference_min": null,
+      "tracked_low": 2.5
     }
   ]
 }
