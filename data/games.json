@@ -3,7 +3,8 @@
     "updated_at_cn": "2026-11-11 15:34",
     "version": "V4 review-context discovery",
     "note": "尝鲜榜不设价格或好评率硬门槛；查看近期简中差评关键词，区别争议类型。分析是辅助证据，不代表玩家差评全部属实或无效。",
-    "last_enrichment_utc": "2026-11-11T07:44:28.676041+00:00"
+    "last_enrichment_utc": "2026-11-11T07:44:28.676041+00:00",
+    "last_key_enrichment_utc": "2026-11-11T08:59:01.451159+00:00"
   },
   "counts": {
     "deal": 30,
@@ -183,17 +184,7 @@
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=9001009263693971316736",
           "kind": "reference",
           "subid": 1386440,
-          "checked_at": "2026-11-11T07:32:58.104419+00:00"
-        },
-        {
-          "platform": "SteamCiCi",
-          "price": 25.0,
-          "status": "历史挂售最低参考价｜非实时库存",
-          "last_hanging_time": "2026-02-07T21:51:11.000+08:00",
-          "url": "https://steamcici.com/index",
-          "kind": "historical_listing",
-          "subid": "1386440",
-          "checked_at": "2026-11-08T08:54:30.526191+00:00"
+          "checked_at": "2026-11-11T08:59:01.451159+00:00"
         }
       ],
       "enrichment_status": {
@@ -217,11 +208,11 @@
         },
         "keys": {
           "status": "success",
-          "checked_at": "2026-11-08T08:54:30.526191+00:00",
-          "next_retry_at": "2026-11-11T08:54:30.526191+00:00"
+          "checked_at": "2026-11-11T08:59:01.451159+00:00",
+          "next_retry_at": "2026-11-14T08:59:01.451159+00:00"
         }
       },
-      "key_status": "未核实实时在售",
+      "key_status": "参考报价，不代表实时库存",
       "key_reference_min": 19.99,
       "tracked_low": 29.25,
       "region_history_low": null
@@ -3248,7 +3239,7 @@
       "steam_deck": null,
       "key_offers": [],
       "key_reference_min": null,
-      "key_status": "未核实实时在售",
+      "key_status": "暂无有效散 Key 参考价",
       "tracked_low": 23.4,
       "region_history_low": null,
       "enrichment_status": {
@@ -3269,6 +3260,11 @@
           "checked_at": "2026-11-10T17:19:39.262738+00:00",
           "next_retry_at": "2026-11-11T17:19:39.262738+00:00",
           "details": "no verified CNY historical record"
+        },
+        "keys": {
+          "status": "no_quote",
+          "checked_at": "2026-11-11T08:59:01.451159+00:00",
+          "next_retry_at": "2026-11-12T08:59:01.451159+00:00"
         }
       }
     },
