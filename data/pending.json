@@ -1,521 +1,760 @@
 [
   {
-    "id": 2505530,
+    "id": 394360,
+    "type": 0,
+    "name": "Hearts of Iron IV",
+    "discounted": true,
+    "discount_percent": 70,
+    "original_price": 19800,
+    "final_price": 5940,
+    "currency": "CNY",
+    "large_capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394360/capsule_616x353.jpg?t=1794491980",
+    "small_capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394360/08a0a8f6c28071017611aa39b835c193a27f2518/capsule_184x69.jpg?t=1794491980",
+    "windows_available": true,
+    "mac_available": true,
+    "linux_available": true,
+    "streamingvideo_available": false,
+    "discount_expiration": 1795716000,
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394360/67bbd0057627fc2244793bcdd09260c2539499cf/header.jpg?t=1794491980",
+    "_flag": "deal"
+  },
+  {
+    "id": 2384130,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 4841300,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 2394650,
     "_flag": "explore",
     "_search": true
   },
   {
-    "id": 1718570,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 2160360,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 2482010,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 2287150,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 1532270,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 2426770,
+    "id": 3088700,
     "_flag": "explore",
     "_search": true
   },
   {
-    "id": 5505800,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 4739500,
+    "id": 3559510,
     "_flag": "deal",
     "_search": true
   },
   {
-    "id": 2378230,
+    "id": 5396300,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 2429050,
     "_flag": "explore",
     "_search": true
   },
   {
-    "id": 745960,
+    "id": 2011780,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 1161870,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 1569520,
     "_flag": "explore",
     "_search": true
   },
   {
-    "id": 3275880,
+    "id": 2073140,
     "_flag": "deal",
     "_search": true
   },
   {
-    "id": 3159350,
+    "id": 4789040,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 3830080,
+    "id": 1268960,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 3745320,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 2483570,
-    "_flag": "new",
+    "id": 2670430,
+    "_flag": "explore",
     "_search": true
   },
   {
-    "id": 3669730,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 3375780,
+    "id": 659540,
     "_flag": "deal",
     "_search": true
   },
   {
-    "id": 5503690,
+    "id": 4421480,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 4752720,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 1455840,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 260230,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 3088700,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 4615410,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 3153280,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 3962460,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 5082760,
     "_flag": "new",
     "_search": true
   },
   {
     "id": 2485660,
-    "_flag": "deal",
+    "_flag": "explore",
     "_search": true
   },
   {
-    "id": 4576270,
+    "id": 4108940,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 5339730,
+    "id": 1455840,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 5459000,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 3933710,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 2607060,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 4799360,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 4241920,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 2239150,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 4746680,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 2528850,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 4198940,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 2332250,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 5500190,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 2725260,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 2784470,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 1190000,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 5115320,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 1374860,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 1405500,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 2454000,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 4688610,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 5404940,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 2999500,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 1942280,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 3983900,
     "_flag": "new",
     "_search": true
   },
   {
     "id": 2162800,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 4956460,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 3564790,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 2455780,
     "_flag": "deal",
     "_search": true
   },
   {
-    "id": 1281790,
+    "id": 4368110,
     "_flag": "explore",
     "_search": true
   },
   {
-    "id": 5304170,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 5029670,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 5308570,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 5505730,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 659540,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 3446680,
+    "id": 3514630,
     "_flag": "deal",
     "_search": true
   },
   {
-    "id": 3249380,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 3759000,
+    "id": 5015410,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 2378620,
+    "id": 2660460,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 5457010,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 4799930,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 2927510,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 3218630,
     "_flag": "deal",
     "_search": true
   },
   {
-    "id": 4671320,
+    "id": 5378680,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 2191190,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 3510740,
+    "id": 3547270,
     "_flag": "deal",
     "_search": true
   },
   {
-    "id": 1071360,
+    "id": 4672480,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 5008120,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 2607060,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 5240530,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 1222040,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 5191040,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 3275880,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 1599020,
+    "id": 2538480,
     "_flag": "deal",
     "_search": true
   },
   {
-    "id": 5106240,
+    "id": 4591260,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 1864950,
+    "id": 5064340,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 3035120,
     "_flag": "deal",
     "_search": true
   },
   {
-    "id": 4739500,
+    "id": 5343400,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 4005300,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 2826790,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 3285880,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 4096910,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 3832030,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 4312850,
+    "id": 2062430,
     "_flag": "deal",
     "_search": true
   },
   {
-    "id": 5081590,
+    "id": 4781790,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 3646020,
+    "id": 2836460,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 1808680,
     "_flag": "deal",
     "_search": true
   },
   {
-    "id": 4983460,
+    "id": 4745430,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 2660460,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 2810320,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 2430730,
+    "id": 4555040,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 5501720,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 3047510,
     "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 4135440,
+    "_flag": "new",
     "_search": true
   },
   {
     "id": 2435310,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 2508290,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 1380990,
     "_flag": "explore",
     "_search": true
   },
   {
-    "id": 5198270,
+    "id": 5378110,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 1659150,
+    "id": 2575390,
     "_flag": "explore",
     "_search": true
   },
   {
-    "id": 4582370,
+    "id": 2484880,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 5236370,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 4978630,
+    "id": 5070750,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 207140,
     "_flag": "explore",
     "_search": true
   },
   {
-    "id": 949480,
+    "id": 318130,
     "_flag": "deal",
     "_search": true
   },
   {
-    "id": 4873310,
+    "id": 4624000,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 820730,
+    "id": 2950410,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 4795460,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 5298430,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 5493430,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 3256790,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 1694640,
     "_flag": "explore",
     "_search": true
   },
   {
-    "id": 5382120,
+    "id": 3933710,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 2426770,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 4833950,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 1775960,
+    "id": 413410,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 681280,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 3856990,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 412830,
     "_flag": "explore",
     "_search": true
   },
   {
-    "id": 4250370,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 3173130,
+    "id": 2958140,
     "_flag": "deal",
     "_search": true
   },
   {
-    "id": 4558350,
+    "id": 2624080,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 2378230,
+    "id": 5059320,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 1369630,
     "_flag": "deal",
     "_search": true
   },
   {
-    "id": 4842090,
+    "id": 5385330,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 3445580,
+    "id": 8930,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 5501430,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 3384610,
     "_flag": "deal",
     "_search": true
   },
   {
-    "id": 2695500,
+    "id": 5470490,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 5119400,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 2505530,
     "_flag": "deal",
     "_search": true
   },
   {
-    "id": 4850520,
+    "id": 4574620,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 4838590,
-    "_flag": "new",
+    "id": 2396450,
+    "_flag": "explore",
     "_search": true
   },
   {
-    "id": 2060160,
+    "id": 4246520,
     "_flag": "deal",
     "_search": true
   },
   {
-    "id": 4289830,
-    "_flag": "new",
+    "id": 1562430,
+    "_flag": "explore",
     "_search": true
   },
   {
-    "id": 4177110,
+    "id": 3905740,
     "_flag": "deal",
     "_search": true
   },
   {
-    "id": 5200130,
+    "id": 2423290,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 5404010,
+    "id": 3018190,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 3319680,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 568320,
     "_flag": "deal",
     "_search": true
   },
   {
-    "id": 4241920,
+    "id": 1982940,
     "_flag": "deal",
     "_search": true
   },
   {
-    "id": 5488250,
+    "id": 5306490,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 5100970,
+    "id": 1680500,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 3613220,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 5343380,
+    "id": 1982120,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 3856500,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 5084410,
+    "id": 4849000,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 4634930,
+    "id": 2528850,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 5302890,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 4652030,
+    "id": 8930,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 3936340,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 5454720,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 4747520,
+    "id": 3721530,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 3141240,
+    "id": 5415510,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 5450230,
+    "id": 5236680,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 5472580,
+    "id": 2672700,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 5277460,
+    "id": 5435250,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 4660470,
+    "id": 4829780,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 4819620,
+    "id": 5211040,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 4391880,
+    "id": 4400020,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 4665590,
+    "id": 5379690,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 5353510,
+    "id": 5292800,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 5127020,
+    "id": 2490650,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 5333100,
+    "id": 5341880,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 4629330,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 4406720,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 5308960,
     "_flag": "new",
     "_search": true
   }

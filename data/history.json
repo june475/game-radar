@@ -2217,7 +2217,7 @@
   "1071360": {
     "name": "Greyward: Castaway Survival",
     "low": 17.6,
-    "last": 17.6
+    "last": 22.0
   },
   "3460540": {
     "name": "Cardtographer",
@@ -9986,8 +9986,8 @@
   },
   "4819620": {
     "name": "Path Defenders: RPG Siege Defense",
-    "low": 59.0,
-    "last": 59.0
+    "low": 35.0,
+    "last": 35.0
   },
   "4996300": {
     "name": "火柴：人在异世 Stick: Man in Another World",
@@ -10453,5 +10453,470 @@
     "name": "噬光行者",
     "low": 33.6,
     "last": 33.6
+  },
+  "2287150": {
+    "name": "Revenge of the Mage",
+    "low": 24.5,
+    "last": 24.5
+  },
+  "1532270": {
+    "name": "The Maker Way",
+    "low": 33.75,
+    "last": 33.75
+  },
+  "5505800": {
+    "name": "Rocky Castle",
+    "low": 29.75,
+    "last": 29.75
+  },
+  "745960": {
+    "name": "A Sky Full of Stars 仰望夜空的星辰",
+    "low": 15.5,
+    "last": 15.5
+  },
+  "3159350": {
+    "name": "Match In Peace",
+    "low": 26.25,
+    "last": 26.25
+  },
+  "3830080": {
+    "name": "Twilight Requiem",
+    "low": 45.9,
+    "last": 45.9
+  },
+  "2483570": {
+    "name": "Castillon 卡斯特隆-魔堡守卫",
+    "low": 28.0,
+    "last": 28.0
+  },
+  "3669730": {
+    "name": "Audiospeed",
+    "low": 19.53,
+    "last": 19.53
+  },
+  "5503690": {
+    "name": "Dice & Fate Duel",
+    "low": 6.8,
+    "last": 6.8
+  },
+  "4576270": {
+    "name": "Mythsfall",
+    "low": 17.1,
+    "last": 17.1
+  },
+  "5339730": {
+    "name": "Dokkan!BugBattle",
+    "low": 15.4,
+    "last": 15.4
+  },
+  "4956460": {
+    "name": "AMERICAN LIFE SIMULATOR",
+    "low": 38.19,
+    "last": 38.19
+  },
+  "5304170": {
+    "name": "Monkey Overdrive",
+    "low": 28.0,
+    "last": 28.0
+  },
+  "5029670": {
+    "name": "HOPIATE",
+    "low": 15.2,
+    "last": 15.2
+  },
+  "5308570": {
+    "name": "Restless Path",
+    "low": 28.8,
+    "last": 28.8
+  },
+  "5505730": {
+    "name": "Drift: Beyond Grip",
+    "low": 15.2,
+    "last": 15.2
+  },
+  "3759000": {
+    "name": "Beaver Creek",
+    "low": 19.8,
+    "last": 19.8
+  },
+  "2378620": {
+    "name": "时空叛客",
+    "low": 14.4,
+    "last": 14.4
+  },
+  "5008120": {
+    "name": "Ice Cream Truck Simulator",
+    "low": 19.5,
+    "last": 19.5
+  },
+  "5240530": {
+    "name": "回廊未尽",
+    "low": 17.1,
+    "last": 17.1
+  },
+  "5191040": {
+    "name": "Teddy Store: Tidy Up",
+    "low": 19.8,
+    "last": 19.8
+  },
+  "5106240": {
+    "name": "Prospect",
+    "low": 25.2,
+    "last": 25.2
+  },
+  "4739500": {
+    "name": "星海赌王 JOHN GLEEP",
+    "low": 36.0,
+    "last": 36.0
+  },
+  "4005300": {
+    "name": "失恋玩家",
+    "low": 42.0,
+    "last": 42.0
+  },
+  "3285880": {
+    "name": "MONOMOON: 幻月迷踪",
+    "low": 37.8,
+    "last": 37.8
+  },
+  "4096910": {
+    "name": "虚空收割者",
+    "low": 28.8,
+    "last": 28.8
+  },
+  "5081590": {
+    "name": "Drill Rover",
+    "low": 18.7,
+    "last": 18.7
+  },
+  "4983460": {
+    "name": "The Rouge Casino",
+    "low": 56.0,
+    "last": 56.0
+  },
+  "2430730": {
+    "name": "My Child Lebensborn Remastered",
+    "low": 16.5,
+    "last": 16.5
+  },
+  "5198270": {
+    "name": "守住黎明",
+    "low": 27.2,
+    "last": 27.2
+  },
+  "4582370": {
+    "name": "Dream Riders",
+    "low": 26.0,
+    "last": 26.0
+  },
+  "4978630": {
+    "name": "KABUKI FIRE: DOJO",
+    "low": 2.5,
+    "last": 2.5
+  },
+  "949480": {
+    "name": "鳄鱼侦探布罗格 - BROK the InvestiGator",
+    "low": 37.5,
+    "last": 37.5
+  },
+  "4873310": {
+    "name": "Samurai Love Ballad Song of Radiance",
+    "low": 120.56,
+    "last": 120.56
+  },
+  "820730": {
+    "name": "Adventure of a Lifetime",
+    "low": 12.9,
+    "last": 12.9
+  },
+  "5382120": {
+    "name": "The Crime Archive",
+    "low": 18.7,
+    "last": 18.7
+  },
+  "4250370": {
+    "name": "Sol Protocol",
+    "low": 35.7,
+    "last": 35.7
+  },
+  "4558350": {
+    "name": "Roll with Splonk",
+    "low": 12.35,
+    "last": 12.35
+  },
+  "4842090": {
+    "name": "Grab Your Deck",
+    "low": 25.2,
+    "last": 25.2
+  },
+  "4850520": {
+    "name": "Skoot: Keyboard Brawl",
+    "low": 15.2,
+    "last": 15.2
+  },
+  "4838590": {
+    "name": "What Killed Rachel",
+    "low": 23.4,
+    "last": 23.4
+  },
+  "2060160": {
+    "name": "编程农场",
+    "low": 29.4,
+    "last": 29.4
+  },
+  "4289830": {
+    "name": "Watch Eye",
+    "low": 42.0,
+    "last": 42.0
+  },
+  "5200130": {
+    "name": "100 Years Atop Mount Ellumbee",
+    "low": 59.0,
+    "last": 59.0
+  },
+  "5100970": {
+    "name": "Castello",
+    "low": 17.1,
+    "last": 17.1
+  },
+  "5343380": {
+    "name": "Shelves Full of Figures",
+    "low": 22.0,
+    "last": 22.0
+  },
+  "5084410": {
+    "name": "旅途塔防",
+    "low": 33.6,
+    "last": 33.6
+  },
+  "4634930": {
+    "name": "Cow Online World",
+    "low": 17.1,
+    "last": 17.1
+  },
+  "4652030": {
+    "name": "AI Apocalypse",
+    "low": 53.1,
+    "last": 53.1
+  },
+  "3141240": {
+    "name": "Limit Shoot",
+    "low": 75.6,
+    "last": 75.6
+  },
+  "5472580": {
+    "name": "Hypermarket: Sort & Stock",
+    "low": 19.8,
+    "last": 19.8
+  },
+  "5277460": {
+    "name": "诗词防线",
+    "low": 29.0,
+    "last": 29.0
+  },
+  "4660470": {
+    "name": "Near Mint",
+    "low": 48.6,
+    "last": 48.6
+  },
+  "4665590": {
+    "name": "Apotheosis Engine",
+    "low": 26.1,
+    "last": 26.1
+  },
+  "5353510": {
+    "name": "Bean in a Ball Pit",
+    "low": 19.8,
+    "last": 19.8
+  },
+  "5127020": {
+    "name": "Visions of War",
+    "low": 20.4,
+    "last": 20.4
+  },
+  "5333100": {
+    "name": "Kyūten",
+    "low": 21.25,
+    "last": 21.25
+  },
+  "5398370": {
+    "name": "Battlegenics",
+    "low": 29.75,
+    "last": 29.75
+  },
+  "4880820": {
+    "name": "疾风群侠传",
+    "low": 15.84,
+    "last": 15.84
+  },
+  "4839520": {
+    "name": "Cheesty",
+    "low": 38.4,
+    "last": 38.4
+  },
+  "2891970": {
+    "name": "Menes: The Chainbreaker",
+    "low": 46.93,
+    "last": 46.93
+  },
+  "4992440": {
+    "name": "One Gun Army",
+    "low": 17.88,
+    "last": 17.88
+  },
+  "5457250": {
+    "name": "南氏公司",
+    "low": 13.0,
+    "last": 13.0
+  },
+  "4809140": {
+    "name": "迷家 mygohome",
+    "low": 19.8,
+    "last": 19.8
+  },
+  "5381000": {
+    "name": "白雪公主与矮人奴隶",
+    "low": 15.2,
+    "last": 15.2
+  },
+  "2780810": {
+    "name": "Euro Truck Simulator 2 - Nordic Horizons",
+    "low": 73.79,
+    "last": 73.79
+  },
+  "5201290": {
+    "name": "桌面-宜居星球",
+    "low": 26.1,
+    "last": 26.1
+  },
+  "3547270": {
+    "name": "居家扮工虫",
+    "low": 19.99,
+    "last": 19.99
+  },
+  "4076370": {
+    "name": "ICU Anomaly",
+    "low": 26.4,
+    "last": 26.4
+  },
+  "2818110": {
+    "name": "喵在江湖",
+    "low": 9.6,
+    "last": 9.6
+  },
+  "597170": {
+    "name": "Clone Drone in the Danger Zone",
+    "low": 17.5,
+    "last": 17.5
+  },
+  "4136760": {
+    "name": "TowerBits8",
+    "low": 6.6,
+    "last": 6.6
+  },
+  "5296080": {
+    "name": "Undealt - Gorak",
+    "low": 13.5,
+    "last": 13.5
+  },
+  "5295800": {
+    "name": "Undealt - Lyriel",
+    "low": 13.5,
+    "last": 13.5
+  },
+  "5295780": {
+    "name": "Undealt - Veyra",
+    "low": 13.5,
+    "last": 13.5
+  },
+  "206190": {
+    "name": "Gunpoint",
+    "low": 7.2,
+    "last": 7.2
+  },
+  "5295770": {
+    "name": "Undealt - Thalen",
+    "low": 13.5,
+    "last": 13.5
+  },
+  "5295760": {
+    "name": "Undealt - Kessa",
+    "low": 13.5,
+    "last": 13.5
+  },
+  "5295740": {
+    "name": "Undealt - Aureon",
+    "low": 13.5,
+    "last": 13.5
+  },
+  "2439500": {
+    "name": "Overhours",
+    "low": 43.2,
+    "last": 43.2
+  },
+  "5040220": {
+    "name": "HoloCozy",
+    "low": 22.0,
+    "last": 22.0
+  },
+  "1405500": {
+    "name": "黄昏的天使",
+    "low": 29.0,
+    "last": 29.0
+  },
+  "4688610": {
+    "name": "Solaris",
+    "low": 2.5,
+    "last": 2.5
+  },
+  "1043810": {
+    "name": "Tactical Breach Wizards",
+    "low": 38.0,
+    "last": 38.0
+  },
+  "4700270": {
+    "name": "CHAIN NOVA",
+    "low": 12.6,
+    "last": 12.6
+  },
+  "5335410": {
+    "name": "Calamity Quarry",
+    "low": 19.8,
+    "last": 19.8
+  },
+  "3218630": {
+    "name": "Super Woden: Rally Edge",
+    "low": 38.96,
+    "last": 38.96
+  },
+  "5430150": {
+    "name": "Mosquito Problem",
+    "low": 19.0,
+    "last": 19.0
+  },
+  "4459590": {
+    "name": "转运军团 - Slotbound",
+    "low": 37.8,
+    "last": 37.8
+  },
+  "4348420": {
+    "name": "穿刺",
+    "low": 28.71,
+    "last": 28.71
+  },
+  "5491410": {
+    "name": "Ink Drop Brawl",
+    "low": 32.4,
+    "last": 32.4
+  },
+  "4840450": {
+    "name": "Fragmenta: Ancient Egypt",
+    "low": 41.3,
+    "last": 41.3
+  },
+  "5330570": {
+    "name": "一锤暴富: 但要支付账单",
+    "low": 17.6,
+    "last": 17.6
   }
 }
