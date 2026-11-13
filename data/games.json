@@ -3,7 +3,7 @@
     "updated_at_cn": "2026-11-12 15:38",
     "version": "V4 review-context discovery",
     "note": "尝鲜榜不设价格或好评率硬门槛；查看近期简中差评关键词，区别争议类型。分析是辅助证据，不代表玩家差评全部属实或无效。",
-    "last_enrichment_utc": "2026-11-13T01:41:36.456692+00:00",
+    "last_enrichment_utc": "2026-11-13T01:49:46.004113+00:00",
     "last_key_enrichment_utc": "2026-11-13T01:12:00.168139+00:00"
   },
   "counts": {
@@ -2997,7 +2997,7 @@
       "watchlisted": false,
       "why": "匹配你的偏好：冒险 / 角色扮演 / 单人",
       "mobile": null,
-      "epic_status": "未核实（历史库未匹配）",
+      "epic_status": "历史库未匹配（未核实）",
       "epic_giveaway": null,
       "epic_source": "https://github.com/renshuki/efgtracker",
       "dlc_status": "未自动核实",
@@ -3030,6 +3030,12 @@
           "checked_at": "2026-10-30T09:17:56.488146+00:00",
           "next_retry_at": "2026-10-31T09:17:56.488146+00:00",
           "details": "no verified CNY historical record"
+        },
+        "epic": {
+          "status": "unverified",
+          "checked_at": "2026-11-13T01:49:46.004113+00:00",
+          "next_retry_at": "2026-11-14T01:49:46.004113+00:00",
+          "details": "incomplete third-party archive"
         }
       },
       "key_status": "未核实实时在售",
@@ -4274,7 +4280,7 @@
       "watchlisted": false,
       "why": "匹配你的偏好：冒险 / 角色扮演 / 策略 / 单人",
       "mobile": null,
-      "epic_status": "未核实（历史库未匹配）",
+      "epic_status": "历史库未匹配（未核实）",
       "epic_giveaway": null,
       "epic_source": "https://github.com/renshuki/efgtracker",
       "dlc_status": "未自动核实",
@@ -4317,6 +4323,12 @@
           "status": "success",
           "checked_at": "2026-11-11T11:03:58.095018+00:00",
           "next_retry_at": "2026-11-14T11:03:58.095018+00:00"
+        },
+        "epic": {
+          "status": "unverified",
+          "checked_at": "2026-11-13T01:49:46.004113+00:00",
+          "next_retry_at": "2026-11-14T01:49:46.004113+00:00",
+          "details": "incomplete third-party archive"
         }
       },
       "key_status": "未核实实时在售",
@@ -5433,7 +5445,7 @@
       "watchlisted": false,
       "why": "匹配你的偏好：冒险 / 角色扮演 / 策略 / 单人",
       "mobile": null,
-      "epic_status": "未核实（历史库未匹配）",
+      "epic_status": "历史库未匹配（未核实）",
       "epic_giveaway": null,
       "epic_source": "https://github.com/renshuki/efgtracker",
       "dlc_status": "未自动核实",
@@ -5480,6 +5492,12 @@
           "checked_at": "2026-11-10T17:19:39.262738+00:00",
           "next_retry_at": "2026-11-11T17:19:39.262738+00:00",
           "details": "no verified CNY historical record"
+        },
+        "epic": {
+          "status": "unverified",
+          "checked_at": "2026-11-13T01:49:46.004113+00:00",
+          "next_retry_at": "2026-11-14T01:49:46.004113+00:00",
+          "details": "incomplete third-party archive"
         }
       }
     },
@@ -5528,7 +5546,7 @@
       "watchlisted": false,
       "why": "匹配你的偏好：冒险 / 角色扮演 / 策略 / 单人",
       "mobile": null,
-      "epic_status": "未核实（历史库未匹配）",
+      "epic_status": "历史库未匹配（未核实）",
       "epic_giveaway": null,
       "epic_source": "https://github.com/renshuki/efgtracker",
       "dlc_status": "未自动核实",
@@ -5565,6 +5583,12 @@
           "checked_at": "2026-10-30T01:32:17.479467+00:00",
           "next_retry_at": "2026-10-31T01:32:17.479467+00:00",
           "details": "no verified CNY historical record"
+        },
+        "epic": {
+          "status": "unverified",
+          "checked_at": "2026-11-13T01:49:46.004113+00:00",
+          "next_retry_at": "2026-11-14T01:49:46.004113+00:00",
+          "details": "incomplete third-party archive"
         }
       }
     },
@@ -6494,7 +6518,7 @@
       "watchlisted": false,
       "why": "跨类型发现：结合价格、玩家评价及差评样本综合考虑",
       "mobile": null,
-      "epic_status": "未核实（历史库未匹配）",
+      "epic_status": "历史库未匹配（未核实）",
       "epic_giveaway": null,
       "epic_source": "https://github.com/renshuki/efgtracker",
       "dlc_status": "未自动核实",
@@ -6533,6 +6557,12 @@
           "checked_at": "2026-11-12T09:28:18.640858+00:00",
           "next_retry_at": "2026-11-13T09:28:18.640858+00:00",
           "details": "no verified CNY historical record"
+        },
+        "epic": {
+          "status": "unverified",
+          "checked_at": "2026-11-13T01:49:46.004113+00:00",
+          "next_retry_at": "2026-11-14T01:49:46.004113+00:00",
+          "details": "incomplete third-party archive"
         }
       }
     },
