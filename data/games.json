@@ -4,7 +4,7 @@
     "version": "V4 review-context discovery",
     "note": "尝鲜榜不设价格或好评率硬门槛；查看近期简中差评关键词，区别争议类型。分析是辅助证据，不代表玩家差评全部属实或无效。",
     "last_enrichment_utc": "2026-11-13T10:21:05.817346+00:00",
-    "last_key_enrichment_utc": "2026-11-13T11:03:30.471299+00:00"
+    "last_key_enrichment_utc": "2026-11-13T11:59:18.336780+00:00"
   },
   "counts": {
     "deal": 30,
@@ -3392,8 +3392,8 @@
         },
         "keys": {
           "status": "no_quote",
-          "checked_at": "2026-11-12T11:06:36.813434+00:00",
-          "next_retry_at": "2026-11-13T11:06:36.813434+00:00"
+          "checked_at": "2026-11-13T11:59:18.336780+00:00",
+          "next_retry_at": "2026-11-14T11:59:18.336780+00:00"
         },
         "epic": {
           "status": "unverified",
@@ -3414,7 +3414,7 @@
           "details": "0 DLC IDs"
         }
       },
-      "key_status": "未核实实时在售",
+      "key_status": "暂无有效散 Key 参考价",
       "key_reference_min": null,
       "tracked_low": 23.4,
       "region_history_low": null
@@ -5283,7 +5283,7 @@
       "steam_deck": null,
       "key_offers": [],
       "key_reference_min": null,
-      "key_status": "未核实实时在售",
+      "key_status": "暂无有效散 Key 参考价",
       "tracked_low": 33.0,
       "region_history_low": null,
       "enrichment_status": {
@@ -5325,8 +5325,8 @@
         },
         "keys": {
           "status": "no_quote",
-          "checked_at": "2026-11-12T11:06:36.813434+00:00",
-          "next_retry_at": "2026-11-13T11:06:36.813434+00:00"
+          "checked_at": "2026-11-13T11:59:18.336780+00:00",
+          "next_retry_at": "2026-11-14T11:59:18.336780+00:00"
         }
       },
       "dlc_count": 0,
@@ -6693,8 +6693,8 @@
       "enrichment_status": {
         "keys": {
           "status": "no_quote",
-          "checked_at": "2026-11-12T11:06:36.813434+00:00",
-          "next_retry_at": "2026-11-13T11:06:36.813434+00:00"
+          "checked_at": "2026-11-13T11:59:18.336780+00:00",
+          "next_retry_at": "2026-11-14T11:59:18.336780+00:00"
         },
         "reviews": {
           "status": "no_data",
