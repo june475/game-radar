@@ -3,7 +3,7 @@
     "updated_at_cn": "2026-11-13 15:36",
     "version": "V4 review-context discovery",
     "note": "尝鲜榜不设价格或好评率硬门槛；查看近期简中差评关键词，区别争议类型。分析是辅助证据，不代表玩家差评全部属实或无效。",
-    "last_enrichment_utc": "2026-11-13T09:26:57.355809+00:00",
+    "last_enrichment_utc": "2026-11-13T10:21:05.817346+00:00",
     "last_key_enrichment_utc": "2026-11-13T10:02:17.364300+00:00"
   },
   "counts": {
@@ -806,8 +806,8 @@
       "enrichment_status": {
         "reviews": {
           "status": "no_data",
-          "checked_at": "2026-11-11T10:21:00.733126+00:00",
-          "next_retry_at": "2026-11-13T10:21:00.733126+00:00",
+          "checked_at": "2026-11-13T10:21:05.817346+00:00",
+          "next_retry_at": "2026-11-15T10:21:05.817346+00:00",
           "details": "negative reviews unavailable"
         },
         "deck": {
@@ -2007,8 +2007,8 @@
         },
         "reviews": {
           "status": "no_data",
-          "checked_at": "2026-11-11T10:21:00.733126+00:00",
-          "next_retry_at": "2026-11-13T10:21:00.733126+00:00",
+          "checked_at": "2026-11-13T10:21:05.817346+00:00",
+          "next_retry_at": "2026-11-15T10:21:05.817346+00:00",
           "details": "negative reviews unavailable"
         },
         "deck": {
@@ -2338,8 +2338,8 @@
         },
         "reviews": {
           "status": "no_data",
-          "checked_at": "2026-11-11T10:21:00.733126+00:00",
-          "next_retry_at": "2026-11-13T10:21:00.733126+00:00",
+          "checked_at": "2026-11-13T10:21:05.817346+00:00",
+          "next_retry_at": "2026-11-15T10:21:05.817346+00:00",
           "details": "negative reviews unavailable"
         },
         "deck": {
@@ -2548,8 +2548,8 @@
         },
         "reviews": {
           "status": "no_data",
-          "checked_at": "2026-11-11T10:21:00.733126+00:00",
-          "next_retry_at": "2026-11-13T10:21:00.733126+00:00",
+          "checked_at": "2026-11-13T10:21:05.817346+00:00",
+          "next_retry_at": "2026-11-15T10:21:05.817346+00:00",
           "details": "negative reviews unavailable"
         },
         "deck": {
@@ -6314,7 +6314,15 @@
       },
       "key_offers": [],
       "key_reference_min": null,
-      "tracked_low": 2.5
+      "tracked_low": 2.5,
+      "enrichment_status": {
+        "reviews": {
+          "status": "no_data",
+          "checked_at": "2026-11-13T10:21:05.817346+00:00",
+          "next_retry_at": "2026-11-15T10:21:05.817346+00:00",
+          "details": "negative reviews unavailable"
+        }
+      }
     },
     {
       "appid": 2439120,
