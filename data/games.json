@@ -4,7 +4,7 @@
     "version": "V4 review-context discovery",
     "note": "尝鲜榜不设价格或好评率硬门槛；查看近期简中差评关键词，区别争议类型。分析是辅助证据，不代表玩家差评全部属实或无效。",
     "last_enrichment_utc": "2026-11-14T10:07:30.369250+00:00",
-    "last_key_enrichment_utc": "2026-11-14T10:47:11.569951+00:00"
+    "last_key_enrichment_utc": "2026-11-14T11:43:19.358232+00:00"
   },
   "counts": {
     "deal": 30,
@@ -3362,7 +3362,7 @@
       "steam_deck": null,
       "key_offers": [],
       "key_reference_min": null,
-      "key_status": "未核实实时在售",
+      "key_status": "暂无有效散 Key 参考价",
       "tracked_low": 22.0,
       "region_history_low": null,
       "enrichment_status": {
@@ -3386,8 +3386,8 @@
         },
         "keys": {
           "status": "no_quote",
-          "checked_at": "2026-11-13T11:03:30.471299+00:00",
-          "next_retry_at": "2026-11-14T11:03:30.471299+00:00"
+          "checked_at": "2026-11-14T11:43:19.358232+00:00",
+          "next_retry_at": "2026-11-15T11:43:19.358232+00:00"
         }
       }
     },
@@ -3558,11 +3558,11 @@
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=9001130501078149599232",
           "kind": "reference",
           "subid": 1881471,
-          "checked_at": "2026-11-14T07:22:57.317826+00:00"
+          "checked_at": "2026-11-14T11:43:19.358232+00:00"
         }
       ],
       "key_reference_min": 1.99,
-      "key_status": "未核实实时在售",
+      "key_status": "参考报价，不代表实时库存",
       "tracked_low": 3.5,
       "region_history_low": null,
       "enrichment_status": {
@@ -3586,8 +3586,8 @@
         },
         "keys": {
           "status": "success",
-          "checked_at": "2026-11-11T11:03:58.095018+00:00",
-          "next_retry_at": "2026-11-14T11:03:58.095018+00:00"
+          "checked_at": "2026-11-14T11:43:19.358232+00:00",
+          "next_retry_at": "2026-11-17T11:43:19.358232+00:00"
         }
       }
     },
@@ -4441,7 +4441,7 @@
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=9001129523302093316096",
           "kind": "reference",
           "subid": 1210421,
-          "checked_at": "2026-11-14T07:23:13.027676+00:00"
+          "checked_at": "2026-11-14T11:43:19.358232+00:00"
         }
       ],
       "enrichment_status": {
@@ -4465,8 +4465,8 @@
         },
         "keys": {
           "status": "success",
-          "checked_at": "2026-11-11T11:03:58.095018+00:00",
-          "next_retry_at": "2026-11-14T11:03:58.095018+00:00"
+          "checked_at": "2026-11-14T11:43:19.358232+00:00",
+          "next_retry_at": "2026-11-17T11:43:19.358232+00:00"
         },
         "epic": {
           "status": "unverified",
@@ -4487,7 +4487,7 @@
           "details": "0 DLC IDs"
         }
       },
-      "key_status": "未核实实时在售",
+      "key_status": "参考报价，不代表实时库存",
       "key_reference_min": 12.22,
       "tracked_low": 16.0,
       "region_history_low": null,
@@ -5010,11 +5010,11 @@
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=9001128943328315588608",
           "kind": "reference",
           "subid": 1609060,
-          "checked_at": "2026-11-14T07:23:22.726174+00:00"
+          "checked_at": "2026-11-14T11:43:19.358232+00:00"
         }
       ],
       "key_reference_min": 19.99,
-      "key_status": "未核实实时在售",
+      "key_status": "参考报价，不代表实时库存",
       "tracked_low": 25.6,
       "region_history_low": null,
       "enrichment_status": {
@@ -5038,8 +5038,8 @@
         },
         "keys": {
           "status": "success",
-          "checked_at": "2026-11-11T11:03:58.095018+00:00",
-          "next_retry_at": "2026-11-14T11:03:58.095018+00:00"
+          "checked_at": "2026-11-14T11:43:19.358232+00:00",
+          "next_retry_at": "2026-11-17T11:43:19.358232+00:00"
         }
       }
     },
@@ -5474,8 +5474,8 @@
         },
         "keys": {
           "status": "no_quote",
-          "checked_at": "2026-11-13T11:03:30.471299+00:00",
-          "next_retry_at": "2026-11-14T11:03:30.471299+00:00"
+          "checked_at": "2026-11-14T11:43:19.358232+00:00",
+          "next_retry_at": "2026-11-15T11:43:19.358232+00:00"
         }
       }
     },
