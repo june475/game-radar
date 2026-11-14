@@ -7357,7 +7357,7 @@
   "1694640": {
     "name": "Absurd Chess",
     "low": 2.5,
-    "last": 2.5
+    "last": 5.0
   },
   "2386910": {
     "name": "Starshapes",
@@ -8317,7 +8317,7 @@
   "4368110": {
     "name": "Orcavan: Idle RPG",
     "low": 2.5,
-    "last": 2.5
+    "last": 5.0
   },
   "4504440": {
     "name": "Star Raker",
@@ -10918,5 +10918,505 @@
     "name": "一锤暴富: 但要支付账单",
     "low": 17.6,
     "last": 17.6
+  },
+  "4841300": {
+    "name": "Vizier",
+    "low": 77.0,
+    "last": 77.0
+  },
+  "5396300": {
+    "name": "Protocol Z",
+    "low": 32.4,
+    "last": 32.4
+  },
+  "4789040": {
+    "name": "SPUM TD",
+    "low": 33.6,
+    "last": 33.6
+  },
+  "3745320": {
+    "name": "三国往事：季汉之魂",
+    "low": 5.4,
+    "last": 5.4
+  },
+  "4421480": {
+    "name": "Best Streamer",
+    "low": 18.7,
+    "last": 18.7
+  },
+  "4752720": {
+    "name": "The Shimoda Rift",
+    "low": 21.25,
+    "last": 21.25
+  },
+  "4615410": {
+    "name": "Everburning Dark 长夜余烬",
+    "low": 24.29,
+    "last": 24.29
+  },
+  "3153280": {
+    "name": "拯救小曼 SAVE AMANI",
+    "low": 11.8,
+    "last": 11.8
+  },
+  "5082760": {
+    "name": "Guttering Light",
+    "low": 33.6,
+    "last": 33.6
+  },
+  "4108940": {
+    "name": "Vitavania",
+    "low": 58.65,
+    "last": 58.65
+  },
+  "5459000": {
+    "name": "Claw Machine Shop Simulator",
+    "low": 35.0,
+    "last": 35.0
+  },
+  "4799360": {
+    "name": "Coldwater County",
+    "low": 11.4,
+    "last": 11.4
+  },
+  "4746680": {
+    "name": "Feypath",
+    "low": 18.0,
+    "last": 18.0
+  },
+  "4198940": {
+    "name": "Hex-a-Decimal",
+    "low": 35.0,
+    "last": 35.0
+  },
+  "5500190": {
+    "name": "割割草",
+    "low": 10.8,
+    "last": 10.8
+  },
+  "2784470": {
+    "name": "九王 9 Kings",
+    "low": 29.5,
+    "last": 29.5
+  },
+  "5115320": {
+    "name": "Jump Bald",
+    "low": 19.0,
+    "last": 19.0
+  },
+  "5404940": {
+    "name": "公路暴走",
+    "low": 15.87,
+    "last": 15.87
+  },
+  "3983900": {
+    "name": "Badass Brigade",
+    "low": 76.0,
+    "last": 76.0
+  },
+  "5015410": {
+    "name": "Starfall",
+    "low": 21.71,
+    "last": 21.71
+  },
+  "2660460": {
+    "name": "Aviassembly",
+    "low": 29.4,
+    "last": 29.4
+  },
+  "5457010": {
+    "name": "777勇者 ～逆时之人～",
+    "low": 17.6,
+    "last": 17.6
+  },
+  "4799930": {
+    "name": "Campfire Battles",
+    "low": 22.0,
+    "last": 22.0
+  },
+  "5378680": {
+    "name": "CHAOS: Dread Manifest",
+    "low": 28.0,
+    "last": 28.0
+  },
+  "4672480": {
+    "name": "鸡瘟检察官：最后的IKUN",
+    "low": 18.0,
+    "last": 18.0
+  },
+  "4591260": {
+    "name": "Desktop Claw Master",
+    "low": 16.15,
+    "last": 16.15
+  },
+  "5064340": {
+    "name": "DinoBones: Tidy Up the Museum",
+    "low": 20.8,
+    "last": 20.8
+  },
+  "5343400": {
+    "name": "Car Flipper",
+    "low": 52.5,
+    "last": 52.5
+  },
+  "2062430": {
+    "name": "BALL x PIT — 球比伦战记",
+    "low": 29.0,
+    "last": 29.0
+  },
+  "4781790": {
+    "name": "致命之赛",
+    "low": 25.2,
+    "last": 25.2
+  },
+  "1808680": {
+    "name": "《史力奇奇遇记：姆明山谷之歌》",
+    "low": 60.34,
+    "last": 60.34
+  },
+  "2810320": {
+    "name": "世界傳記",
+    "low": 37.8,
+    "last": 37.8
+  },
+  "5501720": {
+    "name": "Salmon Samurai",
+    "low": 20.0,
+    "last": 20.0
+  },
+  "3047510": {
+    "name": "Myths are 100% True",
+    "low": 31.2,
+    "last": 31.2
+  },
+  "5378110": {
+    "name": "One More Lawn",
+    "low": 17.5,
+    "last": 17.5
+  },
+  "2575390": {
+    "name": "Aegers Borg",
+    "low": 2.5,
+    "last": 2.5
+  },
+  "5236370": {
+    "name": "铸剑者",
+    "low": 29.75,
+    "last": 29.75
+  },
+  "5070750": {
+    "name": "The Studio - Indie Grind",
+    "low": 22.91,
+    "last": 22.91
+  },
+  "4624000": {
+    "name": "Ascend6",
+    "low": 19.8,
+    "last": 19.8
+  },
+  "5298430": {
+    "name": "Detonator Squad",
+    "low": 21.0,
+    "last": 21.0
+  },
+  "5493430": {
+    "name": "Terminal Fall",
+    "low": 22.0,
+    "last": 22.0
+  },
+  "3256790": {
+    "name": "Satelital",
+    "low": 85.0,
+    "last": 85.0
+  },
+  "4833950": {
+    "name": "天衍劫：乾坤至宝",
+    "low": 17.1,
+    "last": 17.1
+  },
+  "3856990": {
+    "name": "Spin Tactics",
+    "low": 43.2,
+    "last": 43.2
+  },
+  "412830": {
+    "name": "STEINS;GATE",
+    "low": 27.0,
+    "last": 27.0
+  },
+  "5385330": {
+    "name": "Taise-CityVsBus",
+    "low": 15.0,
+    "last": 15.0
+  },
+  "5501430": {
+    "name": "THOMO Rally",
+    "low": 18.6,
+    "last": 18.6
+  },
+  "5470490": {
+    "name": "美人领地",
+    "low": 17.1,
+    "last": 17.1
+  },
+  "5119400": {
+    "name": "WORKS: Motorsport Factory",
+    "low": 56.0,
+    "last": 56.0
+  },
+  "4574620": {
+    "name": "Epic Balls Smashing",
+    "low": 16.15,
+    "last": 16.15
+  },
+  "1562430": {
+    "name": "《渔帆暗涌》",
+    "low": 89.5,
+    "last": 89.5
+  },
+  "3905740": {
+    "name": "Vindilis",
+    "low": 7.5,
+    "last": 7.5
+  },
+  "2423290": {
+    "name": "Handmancers",
+    "low": 55.25,
+    "last": 55.25
+  },
+  "3319680": {
+    "name": "Delve Survivors",
+    "low": 38.25,
+    "last": 38.25
+  },
+  "568320": {
+    "name": "Pictopix",
+    "low": 19.6,
+    "last": 19.6
+  },
+  "5306490": {
+    "name": "RPM: Next Drag Racing Simulator",
+    "low": 7.15,
+    "last": 7.15
+  },
+  "1680500": {
+    "name": "Roar of Revenge",
+    "low": 3.52,
+    "last": 3.52
+  },
+  "3613220": {
+    "name": "Tiny Trawler",
+    "low": 17.6,
+    "last": 17.6
+  },
+  "1982120": {
+    "name": "纸片萌兽：小小迷途",
+    "low": 37.7,
+    "last": 37.7
+  },
+  "3856500": {
+    "name": "Qubx 2",
+    "low": 15.0,
+    "last": 15.0
+  },
+  "4849000": {
+    "name": "REQ/S",
+    "low": 26.35,
+    "last": 26.35
+  },
+  "5302890": {
+    "name": "Moonbased",
+    "low": 44.1,
+    "last": 44.1
+  },
+  "5454720": {
+    "name": "Dreadmiles",
+    "low": 35.0,
+    "last": 35.0
+  },
+  "3721530": {
+    "name": "摩托车买卖模拟器",
+    "low": 25.2,
+    "last": 25.2
+  },
+  "5415510": {
+    "name": "2ndwaves",
+    "low": 16.0,
+    "last": 16.0
+  },
+  "5236680": {
+    "name": "Fish Battle Champion",
+    "low": 11.85,
+    "last": 11.85
+  },
+  "2672700": {
+    "name": "Lands of Fury",
+    "low": 28.8,
+    "last": 28.8
+  },
+  "5435250": {
+    "name": "BlackoutCity: Island Cove",
+    "low": 48.6,
+    "last": 48.6
+  },
+  "4829780": {
+    "name": "开拓物语",
+    "low": 43.2,
+    "last": 43.2
+  },
+  "5211040": {
+    "name": "DESIRO.",
+    "low": 3.6,
+    "last": 3.6
+  },
+  "4400020": {
+    "name": "The Dust Between: Observer",
+    "low": 25.2,
+    "last": 25.2
+  },
+  "5379690": {
+    "name": "Slay the Tire",
+    "low": 69.6,
+    "last": 69.6
+  },
+  "5292800": {
+    "name": "Ashburrow",
+    "low": 17.1,
+    "last": 17.1
+  },
+  "2490650": {
+    "name": "SuperNatural Market: Sell or Die",
+    "low": 27.0,
+    "last": 27.0
+  },
+  "5341880": {
+    "name": "Just Farm",
+    "low": 19.8,
+    "last": 19.8
+  },
+  "4629330": {
+    "name": "Keystones: Foundations",
+    "low": 8.0,
+    "last": 8.0
+  },
+  "4406720": {
+    "name": "Alpha Genesis",
+    "low": 17.6,
+    "last": 17.6
+  },
+  "5308960": {
+    "name": "江湖一牌：无情武林",
+    "low": 29.6,
+    "last": 29.6
+  },
+  "4877650": {
+    "name": "Conglomerate",
+    "low": 20.8,
+    "last": 20.8
+  },
+  "5177230": {
+    "name": "Territory Idle Defense",
+    "low": 33.6,
+    "last": 33.6
+  },
+  "3816120": {
+    "name": "重生2我独自逆袭",
+    "low": 46.4,
+    "last": 46.4
+  },
+  "5183960": {
+    "name": "Duckstep",
+    "low": 18.7,
+    "last": 18.7
+  },
+  "4960970": {
+    "name": "Monster Girl Tactics: Oubliette",
+    "low": 61.3,
+    "last": 61.3
+  },
+  "4675790": {
+    "name": "CARRRDS",
+    "low": 24.75,
+    "last": 24.75
+  },
+  "5317080": {
+    "name": "Race on Stream!",
+    "low": 7.8,
+    "last": 7.8
+  },
+  "3540610": {
+    "name": "星源猎手：归航",
+    "low": 28.8,
+    "last": 28.8
+  },
+  "5193390": {
+    "name": "Flush Draw",
+    "low": 11.25,
+    "last": 11.25
+  },
+  "5336540": {
+    "name": "Chronicle Hands",
+    "low": 26.1,
+    "last": 26.1
+  },
+  "4382510": {
+    "name": "魔物娘大富翁",
+    "low": 35.1,
+    "last": 35.1
+  },
+  "5178010": {
+    "name": "无尽战斗：放置与构筑",
+    "low": 14.4,
+    "last": 14.4
+  },
+  "611760": {
+    "name": "Don't Escape: 4 Days to Survive",
+    "low": 11.6,
+    "last": 11.6
+  },
+  "5318250": {
+    "name": "谋定三国：卡牌单机版",
+    "low": 25.2,
+    "last": 25.2
+  },
+  "2054440": {
+    "name": "The Intruder",
+    "low": 9.0,
+    "last": 9.0
+  },
+  "3178040": {
+    "name": "Deja-Vu of the Dead",
+    "low": 56.0,
+    "last": 56.0
+  },
+  "5409100": {
+    "name": "The 12 Chambers of Darkness",
+    "low": 6.0,
+    "last": 6.0
+  },
+  "5302700": {
+    "name": "Sort and Stack!",
+    "low": 14.25,
+    "last": 14.25
+  },
+  "3763080": {
+    "name": "Rogue Reels",
+    "low": 29.75,
+    "last": 29.75
+  },
+  "5466100": {
+    "name": "Hunter Bro VR",
+    "low": 32.4,
+    "last": 32.4
+  },
+  "3857370": {
+    "name": "兽神之塔",
+    "low": 32.4,
+    "last": 32.4
+  },
+  "4175050": {
+    "name": "No One to See – Pinebark Camp",
+    "low": 13.2,
+    "last": 13.2
   }
 }
