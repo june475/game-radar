@@ -5007,7 +5007,7 @@
   "2607060": {
     "name": "From Glory To Goo",
     "low": 25.35,
-    "last": 25.35
+    "last": 39.0
   },
   "5343280": {
     "name": "X-Ninja",
@@ -5187,7 +5187,7 @@
   "2950790": {
     "name": "铁巢重炮",
     "low": 44.25,
-    "last": 44.25
+    "last": 59.0
   },
   "5159930": {
     "name": "ODD ODDS",
@@ -5252,7 +5252,7 @@
   "2538480": {
     "name": "Collecstar",
     "low": 2.5,
-    "last": 2.5
+    "last": 25.0
   },
   "5431610": {
     "name": "CC: Bianca's Sigils",
@@ -5302,7 +5302,7 @@
   "2505530": {
     "name": "Ranphon",
     "low": 2.5,
-    "last": 2.5
+    "last": 25.0
   },
   "4670040": {
     "name": "Blackboard Ponies",
@@ -5682,7 +5682,7 @@
   "2484880": {
     "name": "Alfredo's Sneaky Meal",
     "low": 2.5,
-    "last": 2.5
+    "last": 25.0
   },
   "5301590": {
     "name": "Northgate Dispatch",
@@ -6262,7 +6262,7 @@
   "2426770": {
     "name": "Runner Roy",
     "low": 2.5,
-    "last": 2.5
+    "last": 25.0
   },
   "4947930": {
     "name": "英雄变美",
@@ -11418,5 +11418,465 @@
     "name": "No One to See – Pinebark Camp",
     "low": 13.2,
     "last": 13.2
+  },
+  "4118070": {
+    "name": "A.C.H.E.S.",
+    "low": 11.4,
+    "last": 11.4
+  },
+  "5020540": {
+    "name": "Tanto",
+    "low": 26.0,
+    "last": 26.0
+  },
+  "5465790": {
+    "name": "Gold Idle",
+    "low": 12.85,
+    "last": 12.85
+  },
+  "4562770": {
+    "name": "Cosmo Piercers",
+    "low": 18.37,
+    "last": 18.37
+  },
+  "5177570": {
+    "name": "Blade Dodger",
+    "low": 22.0,
+    "last": 22.0
+  },
+  "1679210": {
+    "name": "The Spirit and the Mouse",
+    "low": 22.8,
+    "last": 22.8
+  },
+  "4177110": {
+    "name": "Blue Wyrm",
+    "low": 14.4,
+    "last": 14.4
+  },
+  "4836960": {
+    "name": "Cozy Burg",
+    "low": 21.0,
+    "last": 21.0
+  },
+  "4860680": {
+    "name": "Deep Rise",
+    "low": 37.8,
+    "last": 37.8
+  },
+  "5308080": {
+    "name": "Neon Impact 360 - Muliplayer Arcade Action",
+    "low": 33.0,
+    "last": 33.0
+  },
+  "5514080": {
+    "name": "极光之下",
+    "low": 6.0,
+    "last": 6.0
+  },
+  "5519680": {
+    "name": "体面人家",
+    "low": 22.0,
+    "last": 22.0
+  },
+  "5366410": {
+    "name": "等等！我先升個級！",
+    "low": 15.0,
+    "last": 15.0
+  },
+  "3967860": {
+    "name": "螺旋",
+    "low": 37.8,
+    "last": 37.8
+  },
+  "5488980": {
+    "name": "Ravenford: The Last Raven Warden",
+    "low": 11.4,
+    "last": 11.4
+  },
+  "3396010": {
+    "name": "Black Friday Janitor: Clean the Whole Mall",
+    "low": 20.8,
+    "last": 20.8
+  },
+  "4632250": {
+    "name": "Lastrip-最后的旅程",
+    "low": 26.1,
+    "last": 26.1
+  },
+  "2418490": {
+    "name": "Trakonius",
+    "low": 31.5,
+    "last": 31.5
+  },
+  "4500020": {
+    "name": "Tie Down",
+    "low": 45.6,
+    "last": 45.6
+  },
+  "5245370": {
+    "name": "LFG Bossing",
+    "low": 27.9,
+    "last": 27.9
+  },
+  "4930190": {
+    "name": "Drive or Die",
+    "low": 33.0,
+    "last": 33.0
+  },
+  "1669420": {
+    "name": "Islets",
+    "low": 30.4,
+    "last": 30.4
+  },
+  "5296680": {
+    "name": "House of Pips：多米诺骨牌肉鸽",
+    "low": 45.6,
+    "last": 45.6
+  },
+  "2360870": {
+    "name": "Rhythm Realm",
+    "low": 35.7,
+    "last": 35.7
+  },
+  "2274110": {
+    "name": "The Elephant Collection",
+    "low": 26.1,
+    "last": 26.1
+  },
+  "3957770": {
+    "name": "Hot Meals Fast Wheels",
+    "low": 28.9,
+    "last": 28.9
+  },
+  "4688730": {
+    "name": "8 Hours Till Dawn",
+    "low": 33.0,
+    "last": 33.0
+  },
+  "5335590": {
+    "name": "MARS3077",
+    "low": 52.2,
+    "last": 52.2
+  },
+  "4061040": {
+    "name": "Life of Crime",
+    "low": 18.7,
+    "last": 18.7
+  },
+  "5393960": {
+    "name": "Puzzle Seahorses",
+    "low": 18.0,
+    "last": 18.0
+  },
+  "5189780": {
+    "name": "Aspect Arena",
+    "low": 15.19,
+    "last": 15.19
+  },
+  "5519360": {
+    "name": "Roger Running Tree Wages War Against God",
+    "low": 13.0,
+    "last": 13.0
+  },
+  "3189440": {
+    "name": "Swords & Souls Legacy Collection",
+    "low": 31.5,
+    "last": 31.5
+  },
+  "4631070": {
+    "name": "Vroomity Loops",
+    "low": 29.69,
+    "last": 29.69
+  },
+  "5393920": {
+    "name": "Puzzle Fossils",
+    "low": 18.0,
+    "last": 18.0
+  },
+  "4768630": {
+    "name": "LARVIS",
+    "low": 22.1,
+    "last": 22.1
+  },
+  "4696740": {
+    "name": "Body Kounts",
+    "low": 28.0,
+    "last": 28.0
+  },
+  "4431250": {
+    "name": "Rascal",
+    "low": 19.8,
+    "last": 19.8
+  },
+  "1154810": {
+    "name": "Going Under",
+    "low": 22.4,
+    "last": 22.4
+  },
+  "2946130": {
+    "name": "Meowstro",
+    "low": 19.0,
+    "last": 19.0
+  },
+  "5162380": {
+    "name": "LINETAIN",
+    "low": 25.0,
+    "last": 25.0
+  },
+  "4487360": {
+    "name": "Spinova",
+    "low": 17.9,
+    "last": 17.9
+  },
+  "3459100": {
+    "name": "BioMenace Remastered",
+    "low": 43.5,
+    "last": 43.5
+  },
+  "4578320": {
+    "name": "Deathly Delights",
+    "low": 21.25,
+    "last": 21.25
+  },
+  "4102770": {
+    "name": "Slay the Q",
+    "low": 33.6,
+    "last": 33.6
+  },
+  "1858950": {
+    "name": "Steel Century Groove",
+    "low": 53.2,
+    "last": 53.2
+  },
+  "3500670": {
+    "name": "自然竞技场",
+    "low": 9.0,
+    "last": 9.0
+  },
+  "2498890": {
+    "name": "BOOM! Buster",
+    "low": 28.0,
+    "last": 28.0
+  },
+  "4937640": {
+    "name": "The Offering Hour",
+    "low": 23.8,
+    "last": 23.8
+  },
+  "1178830": {
+    "name": "光明记忆：无限",
+    "low": 19.2,
+    "last": 19.2
+  },
+  "5107750": {
+    "name": "Project Legend",
+    "low": 98.1,
+    "last": 98.1
+  },
+  "5473160": {
+    "name": "Facial Expression Variety Show",
+    "low": 21.62,
+    "last": 21.62
+  },
+  "2114740": {
+    "name": "神之亵渎2",
+    "low": 71.06,
+    "last": 71.06
+  },
+  "5357020": {
+    "name": "The Hollow Servant",
+    "low": 6.0,
+    "last": 6.0
+  },
+  "673910": {
+    "name": "Wrestling Revolution 2D",
+    "low": 24.0,
+    "last": 24.0
+  },
+  "4295070": {
+    "name": "War Of The Worlds Trilogy",
+    "low": 48.6,
+    "last": 48.6
+  },
+  "4910550": {
+    "name": "纵横商海",
+    "low": 53.68,
+    "last": 53.68
+  },
+  "2437330": {
+    "name": "Novus Orbis",
+    "low": 36.0,
+    "last": 36.0
+  },
+  "5375890": {
+    "name": "Sort Them Dice",
+    "low": 15.84,
+    "last": 15.84
+  },
+  "5078910": {
+    "name": "Wanderbound",
+    "low": 39.0,
+    "last": 39.0
+  },
+  "5145490": {
+    "name": "Pocket Beasts",
+    "low": 26.1,
+    "last": 26.1
+  },
+  "4613340": {
+    "name": "Bannerlings",
+    "low": 28.5,
+    "last": 28.5
+  },
+  "5257620": {
+    "name": "One More Rule",
+    "low": 19.8,
+    "last": 19.8
+  },
+  "5189160": {
+    "name": "We March as One",
+    "low": 24.0,
+    "last": 24.0
+  },
+  "5134380": {
+    "name": "The Hundred Days",
+    "low": 19.0,
+    "last": 19.0
+  },
+  "5441690": {
+    "name": "Bandits are Coming",
+    "low": 43.2,
+    "last": 43.2
+  },
+  "4601260": {
+    "name": "The House Always Wins",
+    "low": 89.99,
+    "last": 89.99
+  },
+  "5450860": {
+    "name": "How Many Tickets Does It Take To Win The Lottery?",
+    "low": 9.0,
+    "last": 9.0
+  },
+  "4673230": {
+    "name": "Breeze Of Adventure",
+    "low": 42.0,
+    "last": 42.0
+  },
+  "4938490": {
+    "name": "Black Pyramid",
+    "low": 15.99,
+    "last": 15.99
+  },
+  "5445850": {
+    "name": "Commander's Dilemma",
+    "low": 31.5,
+    "last": 31.5
+  },
+  "5471970": {
+    "name": "光速盖章王",
+    "low": 12.0,
+    "last": 12.0
+  },
+  "5455640": {
+    "name": "RSP Ultimate Battle",
+    "low": 13.0,
+    "last": 13.0
+  },
+  "4212960": {
+    "name": "Tisuland",
+    "low": 10.4,
+    "last": 10.4
+  },
+  "2138710": {
+    "name": "Sifu",
+    "low": 34.75,
+    "last": 34.75
+  },
+  "5275070": {
+    "name": "易经 占卜与变化之书",
+    "low": 14.4,
+    "last": 14.4
+  },
+  "5097300": {
+    "name": "PUSH MID",
+    "low": 13.5,
+    "last": 13.5
+  },
+  "5355990": {
+    "name": "中国球王之路",
+    "low": 35.1,
+    "last": 35.1
+  },
+  "5244680": {
+    "name": "Ray Ray Zombies",
+    "low": 59.5,
+    "last": 59.5
+  },
+  "5045430": {
+    "name": "宿の掟 / Rules of the Inn",
+    "low": 16.2,
+    "last": 16.2
+  },
+  "5367320": {
+    "name": "AuxPipe",
+    "low": 11.0,
+    "last": 11.0
+  },
+  "5482710": {
+    "name": "Silicon Tycoon",
+    "low": 22.4,
+    "last": 22.4
+  },
+  "5308360": {
+    "name": "Gestalt Journey",
+    "low": 25.0,
+    "last": 25.0
+  },
+  "2677970": {
+    "name": "Intergalactic Defenders",
+    "low": 15.3,
+    "last": 15.3
+  },
+  "4957240": {
+    "name": "Airport 7",
+    "low": 19.8,
+    "last": 19.8
+  },
+  "4950060": {
+    "name": "Bid Wars",
+    "low": 10.4,
+    "last": 10.4
+  },
+  "5413320": {
+    "name": "Silver Service: Tidy Up the Grand Buffet",
+    "low": 18.7,
+    "last": 18.7
+  },
+  "5086490": {
+    "name": "Computer Sillow: Jobcersize",
+    "low": 33.0,
+    "last": 33.0
+  },
+  "5480840": {
+    "name": "BeatSlayer",
+    "low": 28.0,
+    "last": 28.0
+  },
+  "5503180": {
+    "name": "Olympegs",
+    "low": 19.0,
+    "last": 19.0
+  },
+  "5106080": {
+    "name": "星汐弧歌",
+    "low": 39.0,
+    "last": 39.0
+  },
+  "5451060": {
+    "name": "Crowns & Colossi",
+    "low": 19.12,
+    "last": 19.12
   }
 }
