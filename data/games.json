@@ -4,7 +4,7 @@
     "version": "V4 review-context discovery",
     "note": "尝鲜榜不设价格或好评率硬门槛；查看近期简中差评关键词，区别争议类型。分析是辅助证据，不代表玩家差评全部属实或无效。",
     "last_enrichment_utc": "2026-11-15T09:13:45.350520+00:00",
-    "last_key_enrichment_utc": "2026-11-15T08:57:37.149817+00:00"
+    "last_key_enrichment_utc": "2026-11-15T09:50:39.083827+00:00"
   },
   "counts": {
     "deal": 30,
@@ -144,7 +144,7 @@
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=827493343251402752",
           "kind": "reference",
           "subid": 982596,
-          "checked_at": "2026-11-15T07:24:01.967955+00:00"
+          "checked_at": "2026-11-15T09:50:39.083827+00:00"
         },
         {
           "platform": "SteamCiCi",
@@ -154,11 +154,11 @@
           "url": "https://steamcici.com/index",
           "kind": "historical_listing",
           "subid": "982596",
-          "checked_at": "2026-11-14T07:22:06.758659+00:00"
+          "checked_at": "2026-11-15T09:50:39.083827+00:00"
         }
       ],
       "key_reference_min": 3.7,
-      "key_status": "未核实实时在售",
+      "key_status": "参考报价，不代表实时库存",
       "tracked_low": 9.72,
       "region_history_low": null,
       "enrichment_status": {
@@ -200,8 +200,8 @@
         },
         "keys": {
           "status": "success",
-          "checked_at": "2026-11-12T09:03:56.629644+00:00",
-          "next_retry_at": "2026-11-15T09:03:56.629644+00:00"
+          "checked_at": "2026-11-15T09:50:39.083827+00:00",
+          "next_retry_at": "2026-11-18T09:50:39.083827+00:00"
         }
       },
       "dlc_count": 1,
@@ -5147,14 +5147,14 @@
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=9001127679451686780928",
           "kind": "reference",
           "subid": 1583211,
-          "checked_at": "2026-11-15T07:25:34.516925+00:00"
+          "checked_at": "2026-11-15T09:50:39.083827+00:00"
         }
       ],
       "enrichment_status": {
         "keys": {
           "status": "success",
-          "checked_at": "2026-11-12T09:03:56.629644+00:00",
-          "next_retry_at": "2026-11-15T09:03:56.629644+00:00"
+          "checked_at": "2026-11-15T09:50:39.083827+00:00",
+          "next_retry_at": "2026-11-18T09:50:39.083827+00:00"
         },
         "reviews": {
           "status": "no_data",
@@ -5175,7 +5175,7 @@
           "details": "no verified CNY historical record"
         }
       },
-      "key_status": "未核实实时在售",
+      "key_status": "参考报价，不代表实时库存",
       "key_reference_min": 5.8,
       "tracked_low": 28.16,
       "region_history_low": null
