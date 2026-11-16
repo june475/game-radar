@@ -5432,7 +5432,7 @@
   "1455840": {
     "name": "Dorfromantik",
     "low": 30.55,
-    "last": 30.55
+    "last": 47.0
   },
   "4453280": {
     "name": "Compacted",
@@ -9027,7 +9027,7 @@
   "4745430": {
     "name": "Spikes&Traps",
     "low": 2.5,
-    "last": 2.5
+    "last": 5.0
   },
   "2688900": {
     "name": "超级代数大战 Super Algebrawl",
@@ -10957,7 +10957,7 @@
   "3153280": {
     "name": "拯救小曼 SAVE AMANI",
     "low": 11.8,
-    "last": 11.8
+    "last": 59.0
   },
   "5082760": {
     "name": "Guttering Light",
@@ -11878,5 +11878,390 @@
     "name": "Crowns & Colossi",
     "low": 19.12,
     "last": 19.12
+  },
+  "5319020": {
+    "name": "Art Shop: Tidy Up!",
+    "low": 13.71,
+    "last": 13.71
+  },
+  "5501760": {
+    "name": "Wolves In The Flock",
+    "low": 29.75,
+    "last": 29.75
+  },
+  "3922480": {
+    "name": "Racing League Evolution",
+    "low": 26.0,
+    "last": 26.0
+  },
+  "3929240": {
+    "name": "NEH",
+    "low": 19.0,
+    "last": 19.0
+  },
+  "4893050": {
+    "name": "DinoSWORD",
+    "low": 59.1,
+    "last": 59.1
+  },
+  "3119540": {
+    "name": "缮写室 ：羊皮卷大师",
+    "low": 41.25,
+    "last": 41.25
+  },
+  "5380750": {
+    "name": "Backpack Ascendancy",
+    "low": 23.8,
+    "last": 23.8
+  },
+  "1785310": {
+    "name": "Dread Wardens",
+    "low": 22.0,
+    "last": 22.0
+  },
+  "5244010": {
+    "name": "Velvet Rope: Nightlife Manager",
+    "low": 31.0,
+    "last": 31.0
+  },
+  "2392710": {
+    "name": "Tactics: Setting Sun",
+    "low": 69.6,
+    "last": 69.6
+  },
+  "4874760": {
+    "name": "Cult of the Red Heifer",
+    "low": 35.0,
+    "last": 35.0
+  },
+  "5185890": {
+    "name": "Zombies Aren't Real",
+    "low": 31.5,
+    "last": 31.5
+  },
+  "4538060": {
+    "name": "Subsurface",
+    "low": 37.8,
+    "last": 37.8
+  },
+  "956030": {
+    "name": "Creaks",
+    "low": 17.2,
+    "last": 17.2
+  },
+  "5006850": {
+    "name": "MECCHA HORROR",
+    "low": 29.05,
+    "last": 29.05
+  },
+  "3429970": {
+    "name": "数字革命",
+    "low": 2.8,
+    "last": 2.8
+  },
+  "5081980": {
+    "name": "HEXFORGE",
+    "low": 17.1,
+    "last": 17.1
+  },
+  "5247920": {
+    "name": "Forgotten Horizons",
+    "low": 8.23,
+    "last": 8.23
+  },
+  "539050": {
+    "name": "Super Island God VR",
+    "low": 2.85,
+    "last": 2.85
+  },
+  "2011180": {
+    "name": "Terminus Historia | 境界戦役",
+    "low": 29.4,
+    "last": 29.4
+  },
+  "2757600": {
+    "name": "My Corp Cargo Simulator",
+    "low": 2.85,
+    "last": 2.85
+  },
+  "5361340": {
+    "name": "SPH: Neon Geometry Survivor",
+    "low": 5.1,
+    "last": 5.1
+  },
+  "4907900": {
+    "name": "The City Of Akhetaten",
+    "low": 8.0,
+    "last": 8.0
+  },
+  "3665870": {
+    "name": "Iron Stars",
+    "low": 19.0,
+    "last": 19.0
+  },
+  "5393950": {
+    "name": "Puzzle Dinosaur Skeletons",
+    "low": 27.0,
+    "last": 27.0
+  },
+  "2244030": {
+    "name": "RUBATO",
+    "low": 60.8,
+    "last": 60.8
+  },
+  "3982420": {
+    "name": "Going To High School With Lira",
+    "low": 2.85,
+    "last": 2.85
+  },
+  "5331190": {
+    "name": "TheDuckening",
+    "low": 23.4,
+    "last": 23.4
+  },
+  "5354240": {
+    "name": "THE BACKLOG",
+    "low": 26.4,
+    "last": 26.4
+  },
+  "1764970": {
+    "name": "Echo - An Indie Tale",
+    "low": 2.85,
+    "last": 2.85
+  },
+  "3855570": {
+    "name": "Dice Roller Incremental",
+    "low": 19.0,
+    "last": 19.0
+  },
+  "4268090": {
+    "name": "Drop That Pen",
+    "low": 19.0,
+    "last": 19.0
+  },
+  "864060": {
+    "name": "Marble It Up! Ultra",
+    "low": 35.64,
+    "last": 35.64
+  },
+  "5159330": {
+    "name": "YoYo Blade",
+    "low": 16.15,
+    "last": 16.15
+  },
+  "5293350": {
+    "name": "Hockey Coach Dynasty",
+    "low": 37.8,
+    "last": 37.8
+  },
+  "4820270": {
+    "name": "Prince of Vibe Code",
+    "low": 2.85,
+    "last": 2.85
+  },
+  "5458630": {
+    "name": "No More Monsters",
+    "low": 17.1,
+    "last": 17.1
+  },
+  "550320": {
+    "name": "art of rally",
+    "low": 46.5,
+    "last": 46.5
+  },
+  "1951610": {
+    "name": "Spudtoon - Born To Peel",
+    "low": 2.9,
+    "last": 2.9
+  },
+  "3582690": {
+    "name": "Night Crew",
+    "low": 37.8,
+    "last": 37.8
+  },
+  "5528360": {
+    "name": "Bings",
+    "low": 698.0,
+    "last": 698.0
+  },
+  "5208140": {
+    "name": "Twisted Childhood",
+    "low": 22.0,
+    "last": 22.0
+  },
+  "3941330": {
+    "name": "Breadventure",
+    "low": 38.25,
+    "last": 38.25
+  },
+  "5388200": {
+    "name": "球球幸存者",
+    "low": 5.0,
+    "last": 5.0
+  },
+  "4466620": {
+    "name": "SiNiSistar 2",
+    "low": 47.2,
+    "last": 47.2
+  },
+  "5332960": {
+    "name": "纸定能行",
+    "low": 9.9,
+    "last": 9.9
+  },
+  "5052600": {
+    "name": "Crownsink",
+    "low": 53.55,
+    "last": 53.55
+  },
+  "5405940": {
+    "name": "Rosaline: The Dragon Girl",
+    "low": 13.3,
+    "last": 13.3
+  },
+  "4288390": {
+    "name": "Um Al-Saaf",
+    "low": 28.0,
+    "last": 28.0
+  },
+  "2408840": {
+    "name": "不炼丹，就会死",
+    "low": 12.6,
+    "last": 12.6
+  },
+  "4841590": {
+    "name": "Dungebra",
+    "low": 12.75,
+    "last": 12.75
+  },
+  "3963450": {
+    "name": "TopiaLand",
+    "low": 13.2,
+    "last": 13.2
+  },
+  "5160550": {
+    "name": "Astral Phase",
+    "low": 15.2,
+    "last": 15.2
+  },
+  "4578550": {
+    "name": "Key Strokes",
+    "low": 26.4,
+    "last": 26.4
+  },
+  "4878750": {
+    "name": "Dust Vein",
+    "low": 28.0,
+    "last": 28.0
+  },
+  "3086430": {
+    "name": "Fox in a Field",
+    "low": 19.0,
+    "last": 19.0
+  },
+  "5452550": {
+    "name": "Glorybound",
+    "low": 11.7,
+    "last": 11.7
+  },
+  "5412540": {
+    "name": "Dave: Leg it",
+    "low": 16.15,
+    "last": 16.15
+  },
+  "5419520": {
+    "name": "INKBLOT",
+    "low": 208.8,
+    "last": 208.8
+  },
+  "5358610": {
+    "name": "桌面喵喵猫树",
+    "low": 17.1,
+    "last": 17.1
+  },
+  "5045680": {
+    "name": "全民对抗外星人",
+    "low": 18.76,
+    "last": 18.76
+  },
+  "5484320": {
+    "name": "迷雾",
+    "low": 9.0,
+    "last": 9.0
+  },
+  "5282320": {
+    "name": "服从我吧！最终抉择：路西法　原声带",
+    "low": 30.0,
+    "last": 30.0
+  },
+  "4444800": {
+    "name": "服从我吧！最终抉择：路西法",
+    "low": 88.2,
+    "last": 88.2
+  },
+  "5234890": {
+    "name": "ParkingWars",
+    "low": 12.0,
+    "last": 12.0
+  },
+  "5474070": {
+    "name": "SWARM GATE",
+    "low": 28.0,
+    "last": 28.0
+  },
+  "5500200": {
+    "name": "骰子精灵：驯兽之旅",
+    "low": 14.4,
+    "last": 14.4
+  },
+  "5393710": {
+    "name": "Lingering Torment",
+    "low": 9.0,
+    "last": 9.0
+  },
+  "3995900": {
+    "name": "Pro League Golf Simulator",
+    "low": 109.0,
+    "last": 109.0
+  },
+  "3920900": {
+    "name": "Elixir of Moonglow",
+    "low": 35.0,
+    "last": 35.0
+  },
+  "3231540": {
+    "name": "FaceTrack",
+    "low": 52.2,
+    "last": 52.2
+  },
+  "5013290": {
+    "name": "挂机之王：组队刷宝",
+    "low": 17.6,
+    "last": 17.6
+  },
+  "5401480": {
+    "name": "Memory Games Apple",
+    "low": 18.0,
+    "last": 18.0
+  },
+  "5401460": {
+    "name": "Memory Games Ice cream",
+    "low": 18.0,
+    "last": 18.0
+  },
+  "5401490": {
+    "name": "Memory Games Trains",
+    "low": 18.0,
+    "last": 18.0
+  },
+  "5496850": {
+    "name": "The Curse of Deadwood Heights",
+    "low": 29.0,
+    "last": 29.0
+  },
+  "5441840": {
+    "name": "执笔人 The Inkwright",
+    "low": 6.0,
+    "last": 6.0
   }
 }
