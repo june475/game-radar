@@ -4,7 +4,7 @@
     "version": "V4 review-context discovery",
     "note": "尝鲜榜不设价格或好评率硬门槛；查看近期简中差评关键词，区别争议类型。分析是辅助证据，不代表玩家差评全部属实或无效。",
     "last_enrichment_utc": "2026-11-17T17:29:38.735821+00:00",
-    "last_key_enrichment_utc": "2026-11-17T18:04:41.092470+00:00"
+    "last_key_enrichment_utc": "2026-11-17T19:04:01.203097+00:00"
   },
   "counts": {
     "deal": 30,
@@ -959,11 +959,11 @@
         },
         "keys": {
           "status": "no_quote",
-          "checked_at": "2026-11-16T18:05:42.033404+00:00",
-          "next_retry_at": "2026-11-17T18:05:42.033404+00:00"
+          "checked_at": "2026-11-17T19:04:01.203097+00:00",
+          "next_retry_at": "2026-11-18T19:04:01.203097+00:00"
         }
       },
-      "key_status": "未核实实时在售",
+      "key_status": "暂无有效散 Key 参考价",
       "key_reference_min": null,
       "tracked_low": 2.5,
       "region_history_low": null
@@ -1482,7 +1482,7 @@
           "url": "https://steamcici.com/index",
           "kind": "historical_listing",
           "subid": "593768",
-          "checked_at": "2026-11-15T07:24:22.163802+00:00"
+          "checked_at": "2026-11-17T19:04:01.203097+00:00"
         }
       ],
       "dlc_count": 1,
@@ -1528,11 +1528,11 @@
         },
         "keys": {
           "status": "success",
-          "checked_at": "2026-11-14T18:47:30.976943+00:00",
-          "next_retry_at": "2026-11-17T18:47:30.976943+00:00"
+          "checked_at": "2026-11-17T19:04:01.203097+00:00",
+          "next_retry_at": "2026-11-20T19:04:01.203097+00:00"
         }
       },
-      "key_status": "未核实实时在售",
+      "key_status": "参考报价，不代表实时库存",
       "key_reference_min": 21.3,
       "tracked_low": 22.75,
       "region_history_low": null
@@ -1835,8 +1835,8 @@
         },
         "keys": {
           "status": "no_quote",
-          "checked_at": "2026-11-16T18:05:42.033404+00:00",
-          "next_retry_at": "2026-11-17T18:05:42.033404+00:00"
+          "checked_at": "2026-11-17T19:04:01.203097+00:00",
+          "next_retry_at": "2026-11-18T19:04:01.203097+00:00"
         },
         "epic": {
           "status": "unverified",
@@ -1857,7 +1857,7 @@
           "details": "0 DLC IDs"
         }
       },
-      "key_status": "未核实实时在售",
+      "key_status": "暂无有效散 Key 参考价",
       "key_reference_min": null,
       "tracked_low": 53.9,
       "region_history_low": null,
@@ -1918,7 +1918,7 @@
       "steam_deck": null,
       "key_offers": [],
       "key_reference_min": null,
-      "key_status": "未核实实时在售",
+      "key_status": "暂无有效散 Key 参考价",
       "tracked_low": 3.8,
       "region_history_low": null,
       "enrichment_status": {
@@ -1942,8 +1942,8 @@
         },
         "keys": {
           "status": "no_quote",
-          "checked_at": "2026-11-16T18:05:42.033404+00:00",
-          "next_retry_at": "2026-11-17T18:05:42.033404+00:00"
+          "checked_at": "2026-11-17T19:04:01.203097+00:00",
+          "next_retry_at": "2026-11-18T19:04:01.203097+00:00"
         },
         "epic": {
           "status": "unverified",
@@ -3437,8 +3437,8 @@
         },
         "keys": {
           "status": "no_quote",
-          "checked_at": "2026-11-16T18:05:42.033404+00:00",
-          "next_retry_at": "2026-11-17T18:05:42.033404+00:00"
+          "checked_at": "2026-11-17T19:04:01.203097+00:00",
+          "next_retry_at": "2026-11-18T19:04:01.203097+00:00"
         },
         "epic": {
           "status": "unverified",
@@ -3459,7 +3459,7 @@
           "details": "0 DLC IDs"
         }
       },
-      "key_status": "未核实实时在售",
+      "key_status": "暂无有效散 Key 参考价",
       "key_reference_min": null,
       "tracked_low": 23.4,
       "region_history_low": null
@@ -5066,7 +5066,7 @@
       "steam_deck": null,
       "key_offers": [],
       "key_reference_min": null,
-      "key_status": "未核实实时在售",
+      "key_status": "暂无有效散 Key 参考价",
       "tracked_low": 23.8,
       "region_history_low": null,
       "enrichment_status": {
@@ -5090,8 +5090,8 @@
         },
         "keys": {
           "status": "no_quote",
-          "checked_at": "2026-11-16T18:05:42.033404+00:00",
-          "next_retry_at": "2026-11-17T18:05:42.033404+00:00"
+          "checked_at": "2026-11-17T19:04:01.203097+00:00",
+          "next_retry_at": "2026-11-18T19:04:01.203097+00:00"
         }
       }
     },
@@ -6495,8 +6495,8 @@
       "enrichment_status": {
         "keys": {
           "status": "no_quote",
-          "checked_at": "2026-11-16T18:05:42.033404+00:00",
-          "next_retry_at": "2026-11-17T18:05:42.033404+00:00"
+          "checked_at": "2026-11-17T19:04:01.203097+00:00",
+          "next_retry_at": "2026-11-18T19:04:01.203097+00:00"
         },
         "reviews": {
           "status": "no_data",
