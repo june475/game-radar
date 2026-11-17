@@ -1727,7 +1727,7 @@
   "2162800": {
     "name": "异形工厂2",
     "low": 45.0,
-    "last": 66.0
+    "last": 75.0
   },
   "2470120": {
     "name": "Flower Flurry",
@@ -5967,7 +5967,7 @@
   "2394650": {
     "name": "冥界清道夫(Crypt Custodian)",
     "low": 45.6,
-    "last": 45.6
+    "last": 76.0
   },
   "5055800": {
     "name": "Verdreamia",
@@ -6127,7 +6127,7 @@
   "2191190": {
     "name": "FIND ALL 4: Magic",
     "low": 8.14,
-    "last": 8.14
+    "last": 11.0
   },
   "4962490": {
     "name": "Old Money – Build Your Dynasty",
@@ -6817,7 +6817,7 @@
   "3035120": {
     "name": "这个座位有人坐吗?",
     "low": 29.4,
-    "last": 29.4
+    "last": 42.0
   },
   "2508440": {
     "name": "Angel Guardian",
@@ -9292,7 +9292,7 @@
   "3275880": {
     "name": "Chronoquartz",
     "low": 31.5,
-    "last": 31.5
+    "last": 42.0
   },
   "4717170": {
     "name": "Renegades",
@@ -9387,7 +9387,7 @@
   "2378230": {
     "name": "Neo Junk City",
     "low": 65.45,
-    "last": 65.45
+    "last": 77.0
   },
   "4871840": {
     "name": "Chrono-Step",
@@ -9416,8 +9416,8 @@
   },
   "3832030": {
     "name": "BOOST VECTOR EX",
-    "low": 69.3,
-    "last": 69.3
+    "low": 65.0,
+    "last": 65.0
   },
   "2455780": {
     "name": "Eventide Matter",
@@ -9457,7 +9457,7 @@
   "1659150": {
     "name": "SUPER 56",
     "low": 9.8,
-    "last": 9.8
+    "last": 28.0
   },
   "5157060": {
     "name": "Hotdog Killer",
@@ -9477,7 +9477,7 @@
   "1380990": {
     "name": "Hyper Team Recon",
     "low": 53.2,
-    "last": 53.2
+    "last": 76.0
   },
   "3173130": {
     "name": "Gun Frog",
@@ -9517,7 +9517,7 @@
   "397950": {
     "name": "Clustertruck",
     "low": 11.6,
-    "last": 11.6
+    "last": 58.0
   },
   "4880780": {
     "name": "Wooberts",
@@ -11006,8 +11006,8 @@
   },
   "5404940": {
     "name": "公路暴走",
-    "low": 15.87,
-    "last": 15.87
+    "low": 10.4,
+    "last": 10.4
   },
   "3983900": {
     "name": "Badass Brigade",
@@ -12263,5 +12263,430 @@
     "name": "执笔人 The Inkwright",
     "low": 6.0,
     "last": 6.0
+  },
+  "5426350": {
+    "name": "莓好忙！水果整理",
+    "low": 15.2,
+    "last": 15.2
+  },
+  "5318580": {
+    "name": "Jyoka -城堡镇-",
+    "low": 83.93,
+    "last": 83.93
+  },
+  "4960310": {
+    "name": "Wildcat",
+    "low": 45.9,
+    "last": 45.9
+  },
+  "4669190": {
+    "name": "Chroma Jump",
+    "low": 16.2,
+    "last": 16.2
+  },
+  "3412560": {
+    "name": "Retro Endurance 8bit",
+    "low": 14.4,
+    "last": 14.4
+  },
+  "5476120": {
+    "name": "Cruisopolis: Cruise Line Tycoon",
+    "low": 24.5,
+    "last": 24.5
+  },
+  "5493880": {
+    "name": "Home Sweet Bunker: Bunker Tycoon",
+    "low": 24.5,
+    "last": 24.5
+  },
+  "5228240": {
+    "name": "67",
+    "low": 2.5,
+    "last": 2.5
+  },
+  "3602570": {
+    "name": "Horsey Game",
+    "low": 31.5,
+    "last": 31.5
+  },
+  "5497850": {
+    "name": "Yajilin: Line Logic",
+    "low": 11.4,
+    "last": 11.4
+  },
+  "5506160": {
+    "name": "Egg Harvest",
+    "low": 20.21,
+    "last": 20.21
+  },
+  "5287810": {
+    "name": "进击的军团",
+    "low": 17.1,
+    "last": 17.1
+  },
+  "5404600": {
+    "name": "Please Don’t Break My Dungeon",
+    "low": 5.0,
+    "last": 5.0
+  },
+  "5480400": {
+    "name": "环堡",
+    "low": 15.2,
+    "last": 15.2
+  },
+  "4988260": {
+    "name": "World Of Mana II",
+    "low": 55.11,
+    "last": 55.11
+  },
+  "4947690": {
+    "name": "Crossroad Chaos",
+    "low": 19.8,
+    "last": 19.8
+  },
+  "5365790": {
+    "name": "Impression Cabinet",
+    "low": 29.7,
+    "last": 29.7
+  },
+  "4684960": {
+    "name": "The Kings Last Hand",
+    "low": 31.5,
+    "last": 31.5
+  },
+  "5486500": {
+    "name": "GraviSmack",
+    "low": 18.2,
+    "last": 18.2
+  },
+  "4144630": {
+    "name": "Sepulcra",
+    "low": 19.0,
+    "last": 19.0
+  },
+  "5379220": {
+    "name": "Welcome Home, Resident",
+    "low": 52.0,
+    "last": 52.0
+  },
+  "4559250": {
+    "name": "无人离开的新手村",
+    "low": 27.0,
+    "last": 27.0
+  },
+  "4574120": {
+    "name": "Civilization Idle",
+    "low": 17.6,
+    "last": 17.6
+  },
+  "5375310": {
+    "name": "Heartrift",
+    "low": 15.3,
+    "last": 15.3
+  },
+  "5091290": {
+    "name": "Epochlings",
+    "low": 35.7,
+    "last": 35.7
+  },
+  "5024380": {
+    "name": "三国撞撞乐",
+    "low": 31.5,
+    "last": 31.5
+  },
+  "5126390": {
+    "name": "滚滚大画师",
+    "low": 5.4,
+    "last": 5.4
+  },
+  "5511640": {
+    "name": "Mini Battleships",
+    "low": 20.0,
+    "last": 20.0
+  },
+  "5298050": {
+    "name": "Scrapline",
+    "low": 19.0,
+    "last": 19.0
+  },
+  "3005100": {
+    "name": "Alien Outpost",
+    "low": 29.0,
+    "last": 29.0
+  },
+  "4946270": {
+    "name": "SonicPanic",
+    "low": 24.0,
+    "last": 24.0
+  },
+  "5052180": {
+    "name": "Hanafuda",
+    "low": 59.5,
+    "last": 59.5
+  },
+  "4517450": {
+    "name": "Pyramid of Wisdom",
+    "low": 2.94,
+    "last": 2.94
+  },
+  "4823460": {
+    "name": "Mage of Corruption",
+    "low": 27.99,
+    "last": 27.99
+  },
+  "5379530": {
+    "name": "美少女放置PLAY",
+    "low": 18.5,
+    "last": 18.5
+  },
+  "4164140": {
+    "name": "Break Shoot",
+    "low": 17.6,
+    "last": 17.6
+  },
+  "4995460": {
+    "name": "Tiny Chef",
+    "low": 39.52,
+    "last": 39.52
+  },
+  "5411450": {
+    "name": "The Legend of the Awakened Super M Hero",
+    "low": 21.25,
+    "last": 21.25
+  },
+  "1049280": {
+    "name": "朝圣者 (Pilgrims)",
+    "low": 6.0,
+    "last": 6.0
+  },
+  "5402450": {
+    "name": "Outbreak Checkpoint",
+    "low": 13.5,
+    "last": 13.5
+  },
+  "5093250": {
+    "name": "Nine Thrones",
+    "low": 49.0,
+    "last": 49.0
+  },
+  "4812370": {
+    "name": "How To Ride Elevators Like A Human",
+    "low": 17.1,
+    "last": 17.1
+  },
+  "4696260": {
+    "name": "Operation: Horumus",
+    "low": 23.4,
+    "last": 23.4
+  },
+  "5527560": {
+    "name": "FILE 13",
+    "low": 21.25,
+    "last": 21.25
+  },
+  "5037200": {
+    "name": "just volleyball",
+    "low": 17.36,
+    "last": 17.36
+  },
+  "1771300": {
+    "name": "天国：拯救2",
+    "low": 75.24,
+    "last": 75.24
+  },
+  "5486840": {
+    "name": "HEXWING",
+    "low": 19.0,
+    "last": 19.0
+  },
+  "5424160": {
+    "name": "DerbiManager",
+    "low": 32.4,
+    "last": 32.4
+  },
+  "5183160": {
+    "name": "Kyle Coral",
+    "low": 31.5,
+    "last": 31.5
+  },
+  "3862670": {
+    "name": "龟龟潜海记 Shelldiver",
+    "low": 7.5,
+    "last": 7.5
+  },
+  "5459220": {
+    "name": "ROKUMENSHU",
+    "low": 19.0,
+    "last": 19.0
+  },
+  "5330280": {
+    "name": "S.O.I.: Sphere of Influence",
+    "low": 29.4,
+    "last": 29.4
+  },
+  "3721150": {
+    "name": "Sudoku Defense",
+    "low": 35.0,
+    "last": 35.0
+  },
+  "5129310": {
+    "name": "Pocket TD",
+    "low": 28.0,
+    "last": 28.0
+  },
+  "931210": {
+    "name": "Tabletop Basketball VR",
+    "low": 54.0,
+    "last": 54.0
+  },
+  "5339560": {
+    "name": "AMIDA Q",
+    "low": 9.75,
+    "last": 9.75
+  },
+  "5013880": {
+    "name": "MythTunes: OST, Lofi & BGM Player",
+    "low": 20.4,
+    "last": 20.4
+  },
+  "3938920": {
+    "name": "懒得鸟",
+    "low": 25.2,
+    "last": 25.2
+  },
+  "2684800": {
+    "name": "Shaylushay Treasure Expedition",
+    "low": 2.5,
+    "last": 2.5
+  },
+  "5176420": {
+    "name": "One Million Gallons",
+    "low": 8.69,
+    "last": 8.69
+  },
+  "5197010": {
+    "name": "Pump And Dump",
+    "low": 28.0,
+    "last": 28.0
+  },
+  "3855540": {
+    "name": "BLACK SOULS II",
+    "low": 39.2,
+    "last": 39.2
+  },
+  "5174790": {
+    "name": "守城不慌",
+    "low": 15.2,
+    "last": 15.2
+  },
+  "4670000": {
+    "name": "Rogue's Cog",
+    "low": 42.0,
+    "last": 42.0
+  },
+  "5418470": {
+    "name": "Streamer Manager",
+    "low": 21.25,
+    "last": 21.25
+  },
+  "2681220": {
+    "name": "Who Let the Frog Out",
+    "low": 2.5,
+    "last": 2.5
+  },
+  "4626680": {
+    "name": "STEEL GULLET",
+    "low": 61.6,
+    "last": 61.6
+  },
+  "3883050": {
+    "name": "Monkeys!¡",
+    "low": 69.6,
+    "last": 69.6
+  },
+  "4786900": {
+    "name": "SVISTOPLYASKA",
+    "low": 9.23,
+    "last": 9.23
+  },
+  "5489550": {
+    "name": "溪桥志",
+    "low": 12.0,
+    "last": 12.0
+  },
+  "2911290": {
+    "name": "SKUF BACKROOMS",
+    "low": 2.5,
+    "last": 2.5
+  },
+  "3738090": {
+    "name": "Deiity (Under Ice)",
+    "low": 45.9,
+    "last": 45.9
+  },
+  "2375550": {
+    "name": "人中之龙7外传 无名之龙",
+    "low": 45.8,
+    "last": 45.8
+  },
+  "5078760": {
+    "name": "Uncosy",
+    "low": 22.0,
+    "last": 22.0
+  },
+  "4992410": {
+    "name": "Colorways",
+    "low": 25.0,
+    "last": 25.0
+  },
+  "5039030": {
+    "name": "Wheel Be Fine",
+    "low": 22.4,
+    "last": 22.4
+  },
+  "3506150": {
+    "name": "Booty Battler",
+    "low": 11.02,
+    "last": 11.02
+  },
+  "2242320": {
+    "name": "xdding",
+    "low": 2.5,
+    "last": 2.5
+  },
+  "850190": {
+    "name": "山羊模拟器3",
+    "low": 32.4,
+    "last": 32.4
+  },
+  "4832280": {
+    "name": "Kern",
+    "low": 8.71,
+    "last": 8.71
+  },
+  "1113000": {
+    "name": "女神异闻录４ 黄金版",
+    "low": 62.5,
+    "last": 62.5
+  },
+  "5507790": {
+    "name": "Who Framed The Cat?",
+    "low": 15.4,
+    "last": 15.4
+  },
+  "1291370": {
+    "name": "Lotion samurai",
+    "low": 7.5,
+    "last": 7.5
+  },
+  "3755860": {
+    "name": "BLACK SOULS",
+    "low": 39.2,
+    "last": 39.2
+  },
+  "4918810": {
+    "name": "Pinata Smash: Incremental Circus",
+    "low": 14.4,
+    "last": 14.4
   }
 }
