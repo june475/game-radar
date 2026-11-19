@@ -1,37 +1,48 @@
 {
   "meta": {
-    "updated_at_cn": "2026-11-18 16:20",
+    "updated_at_cn": "2026-11-19 16:25",
     "rank_source": "Steam 商店热销特惠筛选（热度代理，不是实时销量榜）",
     "checked": 30,
-    "last_key_enrichment_utc": "2026-11-18T23:23:09.370324+00:00"
+    "last_key_enrichment_utc": "2026-11-19T08:25:37.316498+00:00"
   },
   "games": [
     {
-      "appid": 1771300,
-      "name": "天国：拯救2",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/header.jpg?t=1777975568",
-      "url": "https://store.steampowered.com/app/1771300/?cc=cn&l=schinese",
+      "appid": 5175310,
+      "name": "我带过的最差一届",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5175310/4fdba319ab82898567ff4a88f92c5b4af1db8255/header_schinese.jpg?t=1794560465",
+      "url": "https://store.steampowered.com/app/5175310/?cc=cn&l=schinese",
       "category": "hot",
-      "price": 75.24,
+      "price": 18.2,
       "steam_subids": [
-        635513,
-        1109733
+        1791304
       ],
-      "key_offers": [],
+      "key_offers": [
+        {
+          "platform": "SteamPY",
+          "price": 16.0,
+          "status": "CDKey接口参考价｜库存、地区及版本需打开商品页确认",
+          "url": "https://steampy.com/cdkDetail?name=cn&gameId=9001132372851065454592",
+          "kind": "reference",
+          "subid": 1791304,
+          "checked_at": "2026-11-16T11:27:30.728204+00:00"
+        }
+      ],
       "enrichment_status": {
         "keys": {
-          "status": "no_quote",
-          "checked_at": "2026-11-18T12:05:00.566205+00:00",
-          "next_retry_at": "2026-11-19T12:05:00.566205+00:00"
+          "status": "success",
+          "checked_at": "2026-11-16T11:27:30.728204+00:00",
+          "next_retry_at": "2026-11-19T11:27:30.728204+00:00"
         }
       },
-      "original_price": 228.0,
-      "discount": 67,
-      "release_date": "2025 年 2 月 4 日",
+      "original_price": 28.0,
+      "discount": 35,
+      "release_date": "2026 年 11 月 9 日",
       "genres": [
         "动作",
         "冒险",
-        "角色扮演"
+        "休闲",
+        "独立",
+        "模拟"
       ],
       "tags": [
         "Steam 热门特惠"
@@ -39,9 +50,7 @@
       "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
       "popularity_rank": 1,
       "review": "Steam 评价未在本榜单单独核实",
-      "negative_review_analysis": null,
-      "key_reference_min": null,
-      "key_status": "暂无有效散 Key 参考价"
+      "negative_review_analysis": null
     },
     {
       "appid": 4459590,
@@ -87,128 +96,37 @@
       "negative_review_analysis": null
     },
     {
-      "appid": 5175310,
-      "name": "我带过的最差一届",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5175310/4fdba319ab82898567ff4a88f92c5b4af1db8255/header_schinese.jpg?t=1794560465",
-      "url": "https://store.steampowered.com/app/5175310/?cc=cn&l=schinese",
+      "appid": 1771300,
+      "name": "天国：拯救2",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/header.jpg?t=1777975568",
+      "url": "https://store.steampowered.com/app/1771300/?cc=cn&l=schinese",
       "category": "hot",
-      "price": 18.2,
+      "price": 75.24,
       "steam_subids": [
-        1791304
+        635513,
+        1109733
       ],
-      "key_offers": [
-        {
-          "platform": "SteamPY",
-          "price": 16.0,
-          "status": "CDKey接口参考价｜库存、地区及版本需打开商品页确认",
-          "url": "https://steampy.com/cdkDetail?name=cn&gameId=9001132372851065454592",
-          "kind": "reference",
-          "subid": 1791304,
-          "checked_at": "2026-11-16T11:27:30.728204+00:00"
-        }
-      ],
+      "key_offers": [],
       "enrichment_status": {
         "keys": {
-          "status": "success",
-          "checked_at": "2026-11-16T11:27:30.728204+00:00",
-          "next_retry_at": "2026-11-19T11:27:30.728204+00:00"
+          "status": "no_quote",
+          "checked_at": "2026-11-18T12:05:00.566205+00:00",
+          "next_retry_at": "2026-11-19T12:05:00.566205+00:00"
         }
       },
-      "original_price": 28.0,
-      "discount": 35,
-      "release_date": "2026 年 11 月 9 日",
+      "original_price": 228.0,
+      "discount": 67,
+      "release_date": "2025 年 2 月 4 日",
       "genres": [
         "动作",
         "冒险",
-        "休闲",
-        "独立",
-        "模拟"
+        "角色扮演"
       ],
       "tags": [
         "Steam 热门特惠"
       ],
       "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
       "popularity_rank": 3,
-      "review": "Steam 评价未在本榜单单独核实",
-      "negative_review_analysis": null
-    },
-    {
-      "appid": 3321460,
-      "name": "红色沙漠：增强版",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/72caf7e120e63fcf25b92e3b4b6477b76baffa45/header_schinese.jpg?t=1794478066",
-      "url": "https://store.steampowered.com/app/3321460/?cc=cn&l=schinese",
-      "category": "hot",
-      "price": 214.4,
-      "steam_subids": [
-        1176092,
-        1418529
-      ],
-      "key_offers": [],
-      "enrichment_status": {
-        "keys": {
-          "status": "no_quote",
-          "checked_at": "2026-11-18T13:17:53.555927+00:00",
-          "next_retry_at": "2026-11-19T13:17:53.555927+00:00"
-        }
-      },
-      "original_price": 268.0,
-      "discount": 20,
-      "release_date": "2026 年 3 月 19 日",
-      "genres": [
-        "动作",
-        "冒险"
-      ],
-      "tags": [
-        "Steam 热门特惠"
-      ],
-      "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
-      "popularity_rank": 4,
-      "review": "Steam 评价未在本榜单单独核实",
-      "negative_review_analysis": null,
-      "key_reference_min": null,
-      "key_status": "暂无有效散 Key 参考价"
-    },
-    {
-      "appid": 227300,
-      "name": "Euro Truck Simulator 2",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/9a81dc3126c56637297b654f9dcac057cfd79b77/header.jpg?t=1794502925",
-      "url": "https://store.steampowered.com/app/227300/?cc=cn&l=schinese",
-      "category": "hot",
-      "price": 23.24,
-      "steam_subids": [
-        19007
-      ],
-      "key_offers": [
-        {
-          "platform": "SteamCiCi",
-          "price": 23.0,
-          "status": "历史挂售最低参考价｜非实时库存",
-          "last_hanging_time": "2026-11-17T18:32:47.000+08:00",
-          "url": "https://steamcici.com/index",
-          "kind": "historical_listing",
-          "subid": "19007",
-          "checked_at": "2026-11-17T11:11:05.925442+00:00"
-        }
-      ],
-      "enrichment_status": {
-        "keys": {
-          "status": "success",
-          "checked_at": "2026-11-17T11:11:05.925442+00:00",
-          "next_retry_at": "2026-11-20T11:11:05.925442+00:00"
-        }
-      },
-      "original_price": 92.99,
-      "discount": 75,
-      "release_date": "2012 年 10 月 12 日",
-      "genres": [
-        "独立",
-        "模拟"
-      ],
-      "tags": [
-        "Steam 热门特惠"
-      ],
-      "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
-      "popularity_rank": 5,
       "review": "Steam 评价未在本榜单单独核实",
       "negative_review_analysis": null
     },
@@ -247,6 +165,84 @@
         "独立",
         "策略",
         "抢先体验"
+      ],
+      "tags": [
+        "Steam 热门特惠"
+      ],
+      "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
+      "popularity_rank": 4,
+      "review": "Steam 评价未在本榜单单独核实",
+      "negative_review_analysis": null
+    },
+    {
+      "appid": 3321460,
+      "name": "红色沙漠：增强版",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/72caf7e120e63fcf25b92e3b4b6477b76baffa45/header_schinese.jpg?t=1794478066",
+      "url": "https://store.steampowered.com/app/3321460/?cc=cn&l=schinese",
+      "category": "hot",
+      "price": 214.4,
+      "steam_subids": [
+        1176092,
+        1418529
+      ],
+      "key_offers": [],
+      "enrichment_status": {
+        "keys": {
+          "status": "no_quote",
+          "checked_at": "2026-11-18T13:17:53.555927+00:00",
+          "next_retry_at": "2026-11-19T13:17:53.555927+00:00"
+        }
+      },
+      "original_price": 268.0,
+      "discount": 20,
+      "release_date": "2026 年 3 月 19 日",
+      "genres": [
+        "动作",
+        "冒险"
+      ],
+      "tags": [
+        "Steam 热门特惠"
+      ],
+      "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
+      "popularity_rank": 5,
+      "review": "Steam 评价未在本榜单单独核实",
+      "negative_review_analysis": null
+    },
+    {
+      "appid": 227300,
+      "name": "Euro Truck Simulator 2",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/9a81dc3126c56637297b654f9dcac057cfd79b77/header.jpg?t=1794502925",
+      "url": "https://store.steampowered.com/app/227300/?cc=cn&l=schinese",
+      "category": "hot",
+      "price": 23.24,
+      "steam_subids": [
+        19007
+      ],
+      "key_offers": [
+        {
+          "platform": "SteamCiCi",
+          "price": 23.0,
+          "status": "历史挂售最低参考价｜非实时库存",
+          "last_hanging_time": "2026-11-17T18:32:47.000+08:00",
+          "url": "https://steamcici.com/index",
+          "kind": "historical_listing",
+          "subid": "19007",
+          "checked_at": "2026-11-17T11:11:05.925442+00:00"
+        }
+      ],
+      "enrichment_status": {
+        "keys": {
+          "status": "success",
+          "checked_at": "2026-11-17T11:11:05.925442+00:00",
+          "next_retry_at": "2026-11-20T11:11:05.925442+00:00"
+        }
+      },
+      "original_price": 92.99,
+      "discount": 75,
+      "release_date": "2012 年 10 月 12 日",
+      "genres": [
+        "独立",
+        "模拟"
       ],
       "tags": [
         "Steam 热门特惠"
@@ -300,31 +296,41 @@
       "negative_review_analysis": null
     },
     {
-      "appid": 3218350,
-      "name": "Melvor Idle 2: A RuneScape Adventure",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3218350/21b3f6881a12eef86b7c17b21640b396f3510f92/header.jpg?t=1794955439",
-      "url": "https://store.steampowered.com/app/3218350/?cc=cn&l=schinese",
+      "appid": 2290180,
+      "name": "极限国度",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2290180/4bf0e15f5747031aaac2a9f3a3bcbc183454669b/header_schinese.jpg?t=1794307112",
+      "url": "https://store.steampowered.com/app/2290180/?cc=cn&l=schinese",
       "category": "hot",
-      "price": 52.2,
+      "price": 16.8,
       "steam_subids": [
-        1140961
+        821602,
+        1570808,
+        1572875
       ],
-      "key_offers": [],
+      "key_offers": [
+        {
+          "platform": "SteamPY",
+          "price": 14.0,
+          "status": "CDKey接口参考价｜库存、地区及版本需打开商品页确认",
+          "url": "https://steampy.com/cdkDetail?name=cn&gameId=679286205103214592",
+          "kind": "reference",
+          "subid": 821602,
+          "checked_at": "2026-11-19T08:25:37.316498+00:00"
+        }
+      ],
       "enrichment_status": {
         "keys": {
-          "status": "no_quote",
-          "checked_at": "2026-11-18T09:08:16.117199+00:00",
-          "next_retry_at": "2026-11-19T09:08:16.117199+00:00"
+          "status": "success",
+          "checked_at": "2026-11-19T08:25:37.316498+00:00",
+          "next_retry_at": "2026-11-22T08:25:37.316498+00:00"
         }
       },
-      "original_price": 58.0,
-      "discount": 10,
-      "release_date": "2026 年 11 月 17 日",
+      "original_price": 168.0,
+      "discount": 90,
+      "release_date": "2023 年 6 月 8 日",
       "genres": [
-        "休闲",
-        "独立",
-        "角色扮演",
-        "抢先体验"
+        "大型多人在线",
+        "体育"
       ],
       "tags": [
         "Steam 热门特惠"
@@ -333,8 +339,8 @@
       "popularity_rank": 8,
       "review": "Steam 评价未在本榜单单独核实",
       "negative_review_analysis": null,
-      "key_reference_min": null,
-      "key_status": "暂无有效散 Key 参考价"
+      "key_reference_min": 14.0,
+      "key_status": "参考报价，不代表实时库存"
     },
     {
       "appid": 2406770,
@@ -384,40 +390,32 @@
       "negative_review_analysis": null
     },
     {
-      "appid": 400750,
-      "name": "Call to Arms - Gates of Hell: Ostfront",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/400750/dbbd1ee41869ac2bae52511ab9d171e1aba441e4/header.jpg?t=1793359453",
-      "url": "https://store.steampowered.com/app/400750/?cc=cn&l=schinese",
+      "appid": 2909400,
+      "name": "FINAL FANTASY VII REBIRTH",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2909400/64a1006a85342c7d3e4b1e1b8e562fee2dc86578/header.jpg?t=1793774936",
+      "url": "https://store.steampowered.com/app/2909400/?cc=cn&l=schinese",
       "category": "hot",
-      "price": 32.0,
+      "price": 37.2,
       "steam_subids": [
-        77781
+        1036725,
+        1741764,
+        1186108
       ],
-      "key_offers": [
-        {
-          "platform": "SteamPY",
-          "price": 90.0,
-          "status": "CDKey接口参考价｜库存、地区及版本需打开商品页确认",
-          "url": "https://steampy.com/cdkDetail?name=cn&gameId=711905812192169984",
-          "kind": "reference",
-          "subid": 77781,
-          "checked_at": "2026-11-17T10:10:48.311211+00:00"
-        }
-      ],
+      "key_offers": [],
       "enrichment_status": {
         "keys": {
-          "status": "success",
-          "checked_at": "2026-11-17T10:10:48.311211+00:00",
-          "next_retry_at": "2026-11-20T10:10:48.311211+00:00"
+          "status": "no_quote",
+          "checked_at": "2026-11-19T08:25:37.316498+00:00",
+          "next_retry_at": "2026-11-20T08:25:37.316498+00:00"
         }
       },
-      "original_price": 128.0,
-      "discount": 75,
-      "release_date": "2021 年 6 月 11 日",
+      "original_price": 248.0,
+      "discount": 85,
+      "release_date": "2025 年 1 月 23 日",
       "genres": [
         "动作",
-        "模拟",
-        "策略"
+        "冒险",
+        "角色扮演"
       ],
       "tags": [
         "Steam 热门特惠"
@@ -425,44 +423,30 @@
       "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
       "popularity_rank": 10,
       "review": "Steam 评价未在本榜单单独核实",
-      "negative_review_analysis": null
+      "negative_review_analysis": null,
+      "key_reference_min": null,
+      "key_status": "暂无有效散 Key 参考价"
     },
     {
-      "appid": 3816120,
-      "name": "重生2我独自逆袭",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3816120/2f82802b99d59faa1e526130cedf284c899abe1e/header_schinese.jpg?t=1794978210",
-      "url": "https://store.steampowered.com/app/3816120/?cc=cn&l=schinese",
+      "appid": 1462040,
+      "name": "FINAL FANTASY VII REMAKE INTERGRADE",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1462040/67aebedbdfc261278fc5e3cd45b519212ac0555a/header.jpg?t=1789446715",
+      "url": "https://store.steampowered.com/app/1462040/?cc=cn&l=schinese",
       "category": "hot",
-      "price": 46.4,
+      "price": 35.64,
       "steam_subids": [
-        1342300
+        1775896,
+        698138
       ],
-      "key_offers": [
-        {
-          "platform": "SteamPY",
-          "price": 33.0,
-          "status": "CDKey接口参考价｜库存、地区及版本需打开商品页确认",
-          "url": "https://steampy.com/cdkDetail?name=cn&gameId=9001133577995383955456",
-          "kind": "reference",
-          "subid": 1342300,
-          "checked_at": "2026-11-17T11:11:05.925442+00:00"
-        }
-      ],
-      "enrichment_status": {
-        "keys": {
-          "status": "success",
-          "checked_at": "2026-11-17T11:11:05.925442+00:00",
-          "next_retry_at": "2026-11-20T11:11:05.925442+00:00"
-        }
-      },
-      "original_price": 58.0,
-      "discount": 20,
-      "release_date": "2026 年 11 月 13 日",
+      "key_offers": [],
+      "enrichment_status": {},
+      "original_price": 198.0,
+      "discount": 82,
+      "release_date": "2022 年 6 月 17 日",
       "genres": [
-        "休闲",
-        "角色扮演",
-        "模拟",
-        "策略"
+        "动作",
+        "冒险",
+        "角色扮演"
       ],
       "tags": [
         "Steam 热门特惠"
@@ -473,9 +457,102 @@
       "negative_review_analysis": null
     },
     {
+      "appid": 1985810,
+      "name": "Call of Duty®: Black Ops Cold War",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1985810/header.jpg?t=1780964053",
+      "url": "https://store.steampowered.com/app/1985810/?cc=cn&l=schinese",
+      "category": "hot",
+      "price": 74.5,
+      "steam_subids": [
+        717014,
+        823895,
+        823898,
+        823901,
+        823904,
+        823907,
+        823910,
+        823913
+      ],
+      "key_offers": [
+        {
+          "platform": "SteamPY",
+          "price": 131.0,
+          "status": "CDKey接口参考价｜库存、地区及版本需打开商品页确认",
+          "url": "https://steampy.com/cdkDetail?name=cn&gameId=646094399024926721",
+          "kind": "reference",
+          "subid": 717014,
+          "checked_at": "2026-11-18T10:08:44.105461+00:00"
+        }
+      ],
+      "enrichment_status": {
+        "keys": {
+          "status": "success",
+          "checked_at": "2026-11-18T10:08:44.105461+00:00",
+          "next_retry_at": "2026-11-21T10:08:44.105461+00:00"
+        }
+      },
+      "original_price": 298.0,
+      "discount": 75,
+      "release_date": "2023 年 3 月 8 日",
+      "genres": [
+        "动作"
+      ],
+      "tags": [
+        "Steam 热门特惠"
+      ],
+      "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
+      "popularity_rank": 12,
+      "review": "Steam 评价未在本榜单单独核实",
+      "negative_review_analysis": null
+    },
+    {
+      "appid": 850190,
+      "name": "山羊模拟器3",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/850190/8d86157e7fb48b963d95879e81b97ff9f7b619d5/header.jpg?t=1794494565",
+      "url": "https://store.steampowered.com/app/850190/?cc=cn&l=schinese",
+      "category": "hot",
+      "price": 32.4,
+      "steam_subids": [
+        266597
+      ],
+      "key_offers": [
+        {
+          "platform": "SteamPY",
+          "price": 32.0,
+          "status": "CDKey接口参考价｜库存、地区及版本需打开商品页确认",
+          "url": "https://steampy.com/cdkDetail?name=cn&gameId=770874321051586560",
+          "kind": "reference",
+          "subid": 266597,
+          "checked_at": "2026-11-17T10:10:48.311211+00:00"
+        }
+      ],
+      "enrichment_status": {
+        "keys": {
+          "status": "success",
+          "checked_at": "2026-11-17T10:10:48.311211+00:00",
+          "next_retry_at": "2026-11-20T10:10:48.311211+00:00"
+        }
+      },
+      "original_price": 108.0,
+      "discount": 70,
+      "release_date": "2024 年 2 月 15 日",
+      "genres": [
+        "冒险",
+        "休闲",
+        "模拟"
+      ],
+      "tags": [
+        "Steam 热门特惠"
+      ],
+      "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
+      "popularity_rank": 13,
+      "review": "Steam 评价未在本榜单单独核实",
+      "negative_review_analysis": null
+    },
+    {
       "appid": 1211600,
       "name": "隔离区-丧尸末日生存",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1211600/28911683896a3616497df63eb4391d494b2a3a6a/header_alt_assets_2_schinese.jpg?t=1794911298",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1211600/28911683896a3616497df63eb4391d494b2a3a6a/header_alt_assets_2_schinese.jpg?t=1794995112",
       "url": "https://store.steampowered.com/app/1211600/?cc=cn&l=schinese",
       "category": "hot",
       "price": 28.8,
@@ -513,45 +590,109 @@
         "Steam 热门特惠"
       ],
       "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
-      "popularity_rank": 12,
+      "popularity_rank": 14,
       "review": "Steam 评价未在本榜单单独核实",
-      "negative_review_analysis": null,
-      "key_reference_min": 9.8,
-      "key_status": "参考报价，不代表实时库存"
+      "negative_review_analysis": null
     },
     {
-      "appid": 499170,
-      "name": "沉星之序",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/499170/8e4b79f6886648fe2b9b4fd36824146559b047ec/header_schinese.jpg?t=1793039241",
-      "url": "https://store.steampowered.com/app/499170/?cc=cn&l=schinese",
+      "appid": 4209920,
+      "name": "不问凡尘",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4209920/b45877abc2b5dbe925752c83ee8138b17a3d8710/header_schinese.jpg?t=1794810499",
+      "url": "https://store.steampowered.com/app/4209920/?cc=cn&l=schinese",
       "category": "hot",
-      "price": 78.4,
+      "price": 19.89,
       "steam_subids": [
-        114220
+        1474198
+      ],
+      "key_offers": [],
+      "enrichment_status": {},
+      "original_price": 29.7,
+      "discount": 33,
+      "release_date": "2026 年 9 月 23 日",
+      "genres": [
+        "冒险",
+        "角色扮演",
+        "策略",
+        "抢先体验"
+      ],
+      "tags": [
+        "Steam 热门特惠"
+      ],
+      "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
+      "popularity_rank": 15,
+      "review": "Steam 评价未在本榜单单独核实",
+      "negative_review_analysis": null
+    },
+    {
+      "appid": 1547000,
+      "name": "Grand Theft Auto: San Andreas – The Definitive Edition",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1547000/header.jpg?t=1781138712",
+      "url": "https://store.steampowered.com/app/1547000/?cc=cn&l=schinese",
+      "category": "hot",
+      "price": 92.07,
+      "steam_subids": [
+        817628,
+        1229928
+      ],
+      "key_offers": [],
+      "enrichment_status": {},
+      "original_price": 279.0,
+      "discount": 67,
+      "release_date": "2023 年 1 月 19 日",
+      "genres": [
+        "动作",
+        "冒险"
+      ],
+      "tags": [
+        "Steam 热门特惠"
+      ],
+      "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
+      "popularity_rank": 16,
+      "review": "Steam 评价未在本榜单单独核实",
+      "negative_review_analysis": null
+    },
+    {
+      "appid": 816340,
+      "name": "Kingdom Rush Origins - Tower Defense",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/816340/header.jpg?t=1794922435",
+      "url": "https://store.steampowered.com/app/816340/?cc=cn&l=schinese",
+      "category": "hot",
+      "price": 17.5,
+      "steam_subids": [
+        249870
       ],
       "key_offers": [
         {
           "platform": "SteamPY",
-          "price": 71.92,
+          "price": 13.0,
           "status": "CDKey接口参考价｜库存、地区及版本需打开商品页确认",
-          "url": "https://steampy.com/cdkDetail?name=cn&gameId=9001120667115721166849",
+          "url": "https://steampy.com/cdkDetail?name=cn&gameId=255080756987039745",
           "kind": "reference",
-          "subid": 114220,
-          "checked_at": "2026-11-17T10:10:48.311211+00:00"
+          "subid": 249870,
+          "checked_at": "2026-11-18T11:09:22.011594+00:00"
+        },
+        {
+          "platform": "SteamCiCi",
+          "price": 28.0,
+          "status": "历史挂售最低参考价｜非实时库存",
+          "last_hanging_time": "2026-11-18T15:39:05.000+08:00",
+          "url": "https://steamcici.com/index",
+          "kind": "historical_listing",
+          "subid": "249870",
+          "checked_at": "2026-11-18T11:09:22.011594+00:00"
         }
       ],
       "enrichment_status": {
         "keys": {
           "status": "success",
-          "checked_at": "2026-11-17T10:10:48.311211+00:00",
-          "next_retry_at": "2026-11-20T10:10:48.311211+00:00"
+          "checked_at": "2026-11-18T11:09:22.011594+00:00",
+          "next_retry_at": "2026-11-21T11:09:22.011594+00:00"
         }
       },
-      "original_price": 98.0,
-      "discount": 20,
-      "release_date": "2026 年 10 月 8 日",
+      "original_price": 50.0,
+      "discount": 65,
+      "release_date": "2018 年 10 月 17 日",
       "genres": [
-        "冒险",
         "独立",
         "策略"
       ],
@@ -559,7 +700,204 @@
         "Steam 热门特惠"
       ],
       "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
-      "popularity_rank": 13,
+      "popularity_rank": 17,
+      "review": "Steam 评价未在本榜单单独核实",
+      "negative_review_analysis": null
+    },
+    {
+      "appid": 4384550,
+      "name": "使命召唤®：黑色行动 6",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4384550/836828b783fc1208664d6c3f9fe88e9abf060813/header.jpg?t=1783699904",
+      "url": "https://store.steampowered.com/app/4384550/?cc=cn&l=schinese",
+      "category": "hot",
+      "price": 119.2,
+      "steam_subids": [
+        1171657
+      ],
+      "key_offers": [],
+      "enrichment_status": {
+        "keys": {
+          "status": "no_quote",
+          "checked_at": "2026-11-18T10:08:44.105461+00:00",
+          "next_retry_at": "2026-11-19T10:08:44.105461+00:00"
+        }
+      },
+      "original_price": 298.0,
+      "discount": 60,
+      "release_date": "2024 年 11 月 1 日",
+      "genres": [
+        "动作"
+      ],
+      "tags": [
+        "Steam 热门特惠"
+      ],
+      "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
+      "popularity_rank": 18,
+      "review": "Steam 评价未在本榜单单独核实",
+      "negative_review_analysis": null
+    },
+    {
+      "appid": 1142710,
+      "name": "全面战争：战锤3",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1142710/header.jpg?t=1790321531",
+      "url": "https://store.steampowered.com/app/1142710/?cc=cn&l=schinese",
+      "category": "hot",
+      "price": 44.7,
+      "steam_subids": [
+        634179
+      ],
+      "key_offers": [
+        {
+          "platform": "SteamCiCi",
+          "price": 39.88,
+          "status": "历史挂售最低参考价｜非实时库存",
+          "last_hanging_time": "2026-11-18T12:50:13.000+08:00",
+          "url": "https://steamcici.com/index",
+          "kind": "historical_listing",
+          "subid": "634179",
+          "checked_at": "2026-11-18T13:17:53.555927+00:00"
+        }
+      ],
+      "enrichment_status": {
+        "keys": {
+          "status": "success",
+          "checked_at": "2026-11-18T13:17:53.555927+00:00",
+          "next_retry_at": "2026-11-21T13:17:53.555927+00:00"
+        }
+      },
+      "original_price": 298.0,
+      "discount": 85,
+      "release_date": "2022 年 2 月 16 日",
+      "genres": [
+        "动作",
+        "策略"
+      ],
+      "tags": [
+        "Steam 热门特惠"
+      ],
+      "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
+      "popularity_rank": 19,
+      "review": "Steam 评价未在本榜单单独核实",
+      "negative_review_analysis": null
+    },
+    {
+      "appid": 3816120,
+      "name": "重生2我独自逆袭",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3816120/2f82802b99d59faa1e526130cedf284c899abe1e/header_schinese.jpg?t=1795074991",
+      "url": "https://store.steampowered.com/app/3816120/?cc=cn&l=schinese",
+      "category": "hot",
+      "price": 46.4,
+      "steam_subids": [
+        1342300
+      ],
+      "key_offers": [
+        {
+          "platform": "SteamPY",
+          "price": 33.0,
+          "status": "CDKey接口参考价｜库存、地区及版本需打开商品页确认",
+          "url": "https://steampy.com/cdkDetail?name=cn&gameId=9001133577995383955456",
+          "kind": "reference",
+          "subid": 1342300,
+          "checked_at": "2026-11-17T11:11:05.925442+00:00"
+        }
+      ],
+      "enrichment_status": {
+        "keys": {
+          "status": "success",
+          "checked_at": "2026-11-17T11:11:05.925442+00:00",
+          "next_retry_at": "2026-11-20T11:11:05.925442+00:00"
+        }
+      },
+      "original_price": 58.0,
+      "discount": 20,
+      "release_date": "2026 年 11 月 13 日",
+      "genres": [
+        "休闲",
+        "角色扮演",
+        "模拟",
+        "策略"
+      ],
+      "tags": [
+        "Steam 热门特惠"
+      ],
+      "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
+      "popularity_rank": 20,
+      "review": "Steam 评价未在本榜单单独核实",
+      "negative_review_analysis": null
+    },
+    {
+      "appid": 1627720,
+      "name": "Lies of P",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1627720/header.jpg?t=1794963244",
+      "url": "https://store.steampowered.com/app/1627720/?cc=cn&l=schinese",
+      "category": "hot",
+      "price": 149.0,
+      "steam_subids": [
+        877649
+      ],
+      "key_offers": [
+        {
+          "platform": "SteamPY",
+          "price": 101.0,
+          "status": "CDKey接口参考价｜库存、地区及版本需打开商品页确认",
+          "url": "https://steampy.com/cdkDetail?name=cn&gameId=679375533577867264",
+          "kind": "reference",
+          "subid": 877649,
+          "checked_at": "2026-11-18T10:08:44.105461+00:00"
+        }
+      ],
+      "enrichment_status": {
+        "keys": {
+          "status": "success",
+          "checked_at": "2026-11-18T10:08:44.105461+00:00",
+          "next_retry_at": "2026-11-21T10:08:44.105461+00:00"
+        }
+      },
+      "original_price": 298.0,
+      "discount": 50,
+      "release_date": "2023 年 9 月 18 日",
+      "genres": [
+        "动作",
+        "冒险",
+        "角色扮演"
+      ],
+      "tags": [
+        "Steam 热门特惠"
+      ],
+      "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
+      "popularity_rank": 21,
+      "review": "Steam 评价未在本榜单单独核实",
+      "negative_review_analysis": null
+    },
+    {
+      "appid": 1687950,
+      "name": "女神异闻录5皇家版",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1687950/header_schinese.jpg?t=1783356822",
+      "url": "https://store.steampowered.com/app/1687950/?cc=cn&l=schinese",
+      "category": "hot",
+      "price": 80.4,
+      "steam_subids": [
+        601219
+      ],
+      "key_offers": [],
+      "enrichment_status": {
+        "keys": {
+          "status": "no_quote",
+          "checked_at": "2026-11-18T12:05:00.566205+00:00",
+          "next_retry_at": "2026-11-19T12:05:00.566205+00:00"
+        }
+      },
+      "original_price": 268.0,
+      "discount": 70,
+      "release_date": "2022 年 10 月 20 日",
+      "genres": [
+        "角色扮演"
+      ],
+      "tags": [
+        "Steam 热门特惠"
+      ],
+      "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
+      "popularity_rank": 22,
       "review": "Steam 评价未在本榜单单独核实",
       "negative_review_analysis": null
     },
@@ -612,64 +950,57 @@
         "Steam 热门特惠"
       ],
       "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
-      "popularity_rank": 14,
+      "popularity_rank": 23,
       "review": "Steam 评价未在本榜单单独核实",
-      "negative_review_analysis": null,
-      "key_reference_min": 12.7,
-      "key_status": "参考报价，不代表实时库存"
+      "negative_review_analysis": null
     },
     {
-      "appid": 1687950,
-      "name": "女神异闻录5皇家版",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1687950/header_schinese.jpg?t=1783356822",
-      "url": "https://store.steampowered.com/app/1687950/?cc=cn&l=schinese",
+      "appid": 4815320,
+      "name": "黄金矿工:派对狂欢",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4815320/2abd93e60ffec4e7771b8c590e02d302d4cd0b6c/header_schinese.jpg?t=1794932597",
+      "url": "https://store.steampowered.com/app/4815320/?cc=cn&l=schinese",
       "category": "hot",
-      "price": 80.4,
+      "price": 28.8,
       "steam_subids": [
-        601219
+        1673282
       ],
       "key_offers": [],
-      "enrichment_status": {
-        "keys": {
-          "status": "no_quote",
-          "checked_at": "2026-11-18T12:05:00.566205+00:00",
-          "next_retry_at": "2026-11-19T12:05:00.566205+00:00"
-        }
-      },
-      "original_price": 268.0,
-      "discount": 70,
-      "release_date": "2022 年 10 月 20 日",
+      "enrichment_status": {},
+      "original_price": 32.0,
+      "discount": 10,
+      "release_date": "2026 年 11 月 17 日",
       "genres": [
-        "角色扮演"
+        "动作",
+        "休闲",
+        "独立",
+        "抢先体验"
       ],
       "tags": [
         "Steam 热门特惠"
       ],
       "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
-      "popularity_rank": 15,
+      "popularity_rank": 24,
       "review": "Steam 评价未在本榜单单独核实",
-      "negative_review_analysis": null,
-      "key_reference_min": null,
-      "key_status": "暂无有效散 Key 参考价"
+      "negative_review_analysis": null
     },
     {
-      "appid": 850190,
-      "name": "山羊模拟器3",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/850190/0c1821676adac70274601698216078eb5d8961b0/header_alt_assets_8.jpg?t=1794494565",
-      "url": "https://store.steampowered.com/app/850190/?cc=cn&l=schinese",
+      "appid": 499170,
+      "name": "沉星之序",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/499170/8e4b79f6886648fe2b9b4fd36824146559b047ec/header_schinese.jpg?t=1793039241",
+      "url": "https://store.steampowered.com/app/499170/?cc=cn&l=schinese",
       "category": "hot",
-      "price": 32.4,
+      "price": 78.4,
       "steam_subids": [
-        266597
+        114220
       ],
       "key_offers": [
         {
           "platform": "SteamPY",
-          "price": 32.0,
+          "price": 71.92,
           "status": "CDKey接口参考价｜库存、地区及版本需打开商品页确认",
-          "url": "https://steampy.com/cdkDetail?name=cn&gameId=770874321051586560",
+          "url": "https://steampy.com/cdkDetail?name=cn&gameId=9001120667115721166849",
           "kind": "reference",
-          "subid": 266597,
+          "subid": 114220,
           "checked_at": "2026-11-17T10:10:48.311211+00:00"
         }
       ],
@@ -680,313 +1011,100 @@
           "next_retry_at": "2026-11-20T10:10:48.311211+00:00"
         }
       },
-      "original_price": 108.0,
-      "discount": 70,
-      "release_date": "2024 年 2 月 15 日",
+      "original_price": 98.0,
+      "discount": 20,
+      "release_date": "2026 年 10 月 8 日",
       "genres": [
         "冒险",
-        "休闲",
-        "模拟"
+        "独立",
+        "策略"
       ],
       "tags": [
         "Steam 热门特惠"
       ],
       "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
-      "popularity_rank": 16,
+      "popularity_rank": 25,
       "review": "Steam 评价未在本榜单单独核实",
       "negative_review_analysis": null
     },
     {
-      "appid": 1142710,
-      "name": "全面战争：战锤3",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1142710/header.jpg?t=1790321531",
-      "url": "https://store.steampowered.com/app/1142710/?cc=cn&l=schinese",
+      "appid": 400750,
+      "name": "Call to Arms - Gates of Hell: Ostfront",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/400750/dbbd1ee41869ac2bae52511ab9d171e1aba441e4/header.jpg?t=1793359453",
+      "url": "https://store.steampowered.com/app/400750/?cc=cn&l=schinese",
       "category": "hot",
-      "price": 44.7,
+      "price": 32.0,
       "steam_subids": [
-        634179
+        77781
       ],
       "key_offers": [
         {
-          "platform": "SteamCiCi",
-          "price": 39.88,
-          "status": "历史挂售最低参考价｜非实时库存",
-          "last_hanging_time": "2026-11-18T12:50:13.000+08:00",
-          "url": "https://steamcici.com/index",
-          "kind": "historical_listing",
-          "subid": "634179",
-          "checked_at": "2026-11-18T13:17:53.555927+00:00"
+          "platform": "SteamPY",
+          "price": 90.0,
+          "status": "CDKey接口参考价｜库存、地区及版本需打开商品页确认",
+          "url": "https://steampy.com/cdkDetail?name=cn&gameId=711905812192169984",
+          "kind": "reference",
+          "subid": 77781,
+          "checked_at": "2026-11-17T10:10:48.311211+00:00"
         }
       ],
       "enrichment_status": {
         "keys": {
           "status": "success",
-          "checked_at": "2026-11-18T13:17:53.555927+00:00",
-          "next_retry_at": "2026-11-21T13:17:53.555927+00:00"
+          "checked_at": "2026-11-17T10:10:48.311211+00:00",
+          "next_retry_at": "2026-11-20T10:10:48.311211+00:00"
         }
       },
-      "original_price": 298.0,
-      "discount": 85,
-      "release_date": "2022 年 2 月 16 日",
+      "original_price": 128.0,
+      "discount": 75,
+      "release_date": "2021 年 6 月 11 日",
       "genres": [
         "动作",
+        "模拟",
         "策略"
       ],
       "tags": [
         "Steam 热门特惠"
       ],
       "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
-      "popularity_rank": 17,
+      "popularity_rank": 26,
       "review": "Steam 评价未在本榜单单独核实",
-      "negative_review_analysis": null,
-      "key_reference_min": 39.88,
-      "key_status": "参考报价，不代表实时库存"
+      "negative_review_analysis": null
     },
     {
-      "appid": 2781660,
-      "name": "军团塔防",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2781660/855810409ca2e4fb3cb4199a8c8854108f747e15/header_schinese.jpg?t=1794927612",
-      "url": "https://store.steampowered.com/app/2781660/?cc=cn&l=schinese",
+      "appid": 728880,
+      "name": "Overcooked! 2",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/728880/3ebab1a37d85815dd61b2193adf6232e13446217/header_schinese.jpg?t=1789548883",
+      "url": "https://store.steampowered.com/app/728880/?cc=cn&l=schinese",
       "category": "hot",
-      "price": 68.4,
+      "price": 33.32,
       "steam_subids": [
-        994037
-      ],
-      "key_offers": [
-        {
-          "platform": "SteamPY",
-          "price": 64.98,
-          "status": "CDKey接口参考价｜库存、地区及版本需打开商品页确认",
-          "url": "https://steampy.com/cdkDetail?name=cn&gameId=9001135306191322189830",
-          "kind": "reference",
-          "subid": 994037,
-          "checked_at": "2026-11-18T10:08:44.105461+00:00"
-        }
-      ],
-      "enrichment_status": {
-        "keys": {
-          "status": "success",
-          "checked_at": "2026-11-18T10:08:44.105461+00:00",
-          "next_retry_at": "2026-11-21T10:08:44.105461+00:00"
-        }
-      },
-      "original_price": 76.0,
-      "discount": 10,
-      "release_date": "2026 年 11 月 17 日",
-      "genres": [
-        "策略"
-      ],
-      "tags": [
-        "Steam 热门特惠"
-      ],
-      "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
-      "popularity_rank": 18,
-      "review": "Steam 评价未在本榜单单独核实",
-      "negative_review_analysis": null,
-      "key_reference_min": 64.98,
-      "key_status": "参考报价，不代表实时库存"
-    },
-    {
-      "appid": 1985810,
-      "name": "Call of Duty®: Black Ops Cold War",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1985810/header.jpg?t=1780964053",
-      "url": "https://store.steampowered.com/app/1985810/?cc=cn&l=schinese",
-      "category": "hot",
-      "price": 74.5,
-      "steam_subids": [
-        717014,
-        823895,
-        823898,
-        823901,
-        823904,
-        823907,
-        823910,
-        823913
-      ],
-      "key_offers": [
-        {
-          "platform": "SteamPY",
-          "price": 131.0,
-          "status": "CDKey接口参考价｜库存、地区及版本需打开商品页确认",
-          "url": "https://steampy.com/cdkDetail?name=cn&gameId=646094399024926721",
-          "kind": "reference",
-          "subid": 717014,
-          "checked_at": "2026-11-18T10:08:44.105461+00:00"
-        }
-      ],
-      "enrichment_status": {
-        "keys": {
-          "status": "success",
-          "checked_at": "2026-11-18T10:08:44.105461+00:00",
-          "next_retry_at": "2026-11-21T10:08:44.105461+00:00"
-        }
-      },
-      "original_price": 298.0,
-      "discount": 75,
-      "release_date": "2023 年 3 月 8 日",
-      "genres": [
-        "动作"
-      ],
-      "tags": [
-        "Steam 热门特惠"
-      ],
-      "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
-      "popularity_rank": 19,
-      "review": "Steam 评价未在本榜单单独核实",
-      "negative_review_analysis": null,
-      "key_reference_min": 131.0,
-      "key_status": "参考报价，不代表实时库存"
-    },
-    {
-      "appid": 3285880,
-      "name": "MONOMOON: 幻月迷踪",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3285880/d47979f80e7e19ff0ffca75f42ba98a6238a3ce4/header.jpg?t=1794850284",
-      "url": "https://store.steampowered.com/app/3285880/?cc=cn&l=schinese",
-      "category": "hot",
-      "price": 37.8,
-      "steam_subids": [
-        1163935
+        279940,
+        1066582
       ],
       "key_offers": [],
       "enrichment_status": {
         "keys": {
           "status": "no_quote",
-          "checked_at": "2026-11-18T13:17:53.555927+00:00",
-          "next_retry_at": "2026-11-19T13:17:53.555927+00:00"
+          "checked_at": "2026-11-18T23:23:09.370324+00:00",
+          "next_retry_at": "2026-11-19T23:23:09.370324+00:00"
         }
       },
-      "original_price": 42.0,
-      "discount": 10,
-      "release_date": "2026 年 11 月 11 日",
+      "original_price": 98.0,
+      "discount": 66,
+      "release_date": "2018 年 8 月 7 日",
       "genres": [
-        "冒险",
+        "动作",
+        "休闲",
         "独立"
       ],
       "tags": [
         "Steam 热门特惠"
       ],
       "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
-      "popularity_rank": 20,
+      "popularity_rank": 27,
       "review": "Steam 评价未在本榜单单独核实",
-      "negative_review_analysis": null,
-      "key_reference_min": null,
-      "key_status": "暂无有效散 Key 参考价"
-    },
-    {
-      "appid": 5200620,
-      "name": "Dungeonbound",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5200620/b3a32d9086038acf42c9457c2bc062f93d90ea3e/header.jpg?t=1794984507",
-      "url": "https://store.steampowered.com/app/5200620/?cc=cn&l=schinese",
-      "category": "hot",
-      "price": 37.8,
-      "steam_subids": [
-        1799480
-      ],
-      "key_offers": [],
-      "enrichment_status": {
-        "keys": {
-          "status": "no_quote",
-          "checked_at": "2026-11-18T12:05:00.566205+00:00",
-          "next_retry_at": "2026-11-19T12:05:00.566205+00:00"
-        }
-      },
-      "original_price": 42.0,
-      "discount": 10,
-      "release_date": "2026 年 11 月 16 日",
-      "genres": [
-        "冒险",
-        "独立",
-        "角色扮演",
-        "策略"
-      ],
-      "tags": [
-        "Steam 热门特惠"
-      ],
-      "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
-      "popularity_rank": 21,
-      "review": "Steam 评价未在本榜单单独核实",
-      "negative_review_analysis": null,
-      "key_reference_min": null,
-      "key_status": "暂无有效散 Key 参考价"
-    },
-    {
-      "appid": 476600,
-      "name": "Call of Duty®: WWII",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/476600/header.jpg?t=1780963893",
-      "url": "https://store.steampowered.com/app/476600/?cc=cn&l=schinese",
-      "category": "hot",
-      "price": 74.5,
-      "steam_subids": [
-        1355247,
-        204811
-      ],
-      "key_offers": [
-        {
-          "platform": "SteamPY",
-          "price": 98.0,
-          "status": "CDKey接口参考价｜库存、地区及版本需打开商品页确认",
-          "url": "https://steampy.com/cdkDetail?name=cn&gameId=513968318189670400",
-          "kind": "reference",
-          "subid": 1355247,
-          "checked_at": "2026-11-18T10:08:44.105461+00:00"
-        }
-      ],
-      "enrichment_status": {
-        "keys": {
-          "status": "success",
-          "checked_at": "2026-11-18T10:08:44.105461+00:00",
-          "next_retry_at": "2026-11-21T10:08:44.105461+00:00"
-        }
-      },
-      "original_price": 298.0,
-      "discount": 75,
-      "release_date": "2017 年 11 月 2 日",
-      "genres": [
-        "动作"
-      ],
-      "tags": [
-        "Steam 热门特惠"
-      ],
-      "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
-      "popularity_rank": 22,
-      "review": "Steam 评价未在本榜单单独核实",
-      "negative_review_analysis": null,
-      "key_reference_min": 98.0,
-      "key_status": "参考报价，不代表实时库存"
-    },
-    {
-      "appid": 4384550,
-      "name": "使命召唤®：黑色行动 6",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4384550/836828b783fc1208664d6c3f9fe88e9abf060813/header.jpg?t=1783699904",
-      "url": "https://store.steampowered.com/app/4384550/?cc=cn&l=schinese",
-      "category": "hot",
-      "price": 119.2,
-      "steam_subids": [
-        1171657
-      ],
-      "key_offers": [],
-      "enrichment_status": {
-        "keys": {
-          "status": "no_quote",
-          "checked_at": "2026-11-18T10:08:44.105461+00:00",
-          "next_retry_at": "2026-11-19T10:08:44.105461+00:00"
-        }
-      },
-      "original_price": 298.0,
-      "discount": 60,
-      "release_date": "2024 年 11 月 1 日",
-      "genres": [
-        "动作"
-      ],
-      "tags": [
-        "Steam 热门特惠"
-      ],
-      "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
-      "popularity_rank": 23,
-      "review": "Steam 评价未在本榜单单独核实",
-      "negative_review_analysis": null,
-      "key_reference_min": null,
-      "key_status": "暂无有效散 Key 参考价"
+      "negative_review_analysis": null
     },
     {
       "appid": 311210,
@@ -1029,140 +1147,9 @@
         "Steam 热门特惠"
       ],
       "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
-      "popularity_rank": 24,
-      "review": "Steam 评价未在本榜单单独核实",
-      "negative_review_analysis": null,
-      "key_reference_min": 30.0,
-      "key_status": "参考报价，不代表实时库存"
-    },
-    {
-      "appid": 379430,
-      "name": "Kingdom Come: Deliverance",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/379430/43b72106345687f4a2bf94d5f98335e52c1cd598/header.jpg?t=1770998376",
-      "url": "https://store.steampowered.com/app/379430/?cc=cn&l=schinese",
-      "category": "hot",
-      "price": 16.65,
-      "steam_subids": [
-        227168,
-        318224,
-        368776
-      ],
-      "key_offers": [
-        {
-          "platform": "SteamPY",
-          "price": 12.0,
-          "status": "CDKey接口参考价｜库存、地区及版本需打开商品页确认",
-          "url": "https://steampy.com/cdkDetail?name=cn&gameId=260240469106102273",
-          "kind": "reference",
-          "subid": 227168,
-          "checked_at": "2026-11-17T10:10:48.311211+00:00"
-        }
-      ],
-      "enrichment_status": {
-        "keys": {
-          "status": "success",
-          "checked_at": "2026-11-17T10:10:48.311211+00:00",
-          "next_retry_at": "2026-11-20T10:10:48.311211+00:00"
-        }
-      },
-      "original_price": 111.0,
-      "discount": 85,
-      "release_date": "2018 年 2 月 13 日",
-      "genres": [
-        "动作",
-        "冒险",
-        "角色扮演"
-      ],
-      "tags": [
-        "Steam 热门特惠"
-      ],
-      "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
-      "popularity_rank": 25,
+      "popularity_rank": 28,
       "review": "Steam 评价未在本榜单单独核实",
       "negative_review_analysis": null
-    },
-    {
-      "appid": 1627720,
-      "name": "Lies of P",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1627720/header.jpg?t=1794963244",
-      "url": "https://store.steampowered.com/app/1627720/?cc=cn&l=schinese",
-      "category": "hot",
-      "price": 149.0,
-      "steam_subids": [
-        877649
-      ],
-      "key_offers": [
-        {
-          "platform": "SteamPY",
-          "price": 101.0,
-          "status": "CDKey接口参考价｜库存、地区及版本需打开商品页确认",
-          "url": "https://steampy.com/cdkDetail?name=cn&gameId=679375533577867264",
-          "kind": "reference",
-          "subid": 877649,
-          "checked_at": "2026-11-18T10:08:44.105461+00:00"
-        }
-      ],
-      "enrichment_status": {
-        "keys": {
-          "status": "success",
-          "checked_at": "2026-11-18T10:08:44.105461+00:00",
-          "next_retry_at": "2026-11-21T10:08:44.105461+00:00"
-        }
-      },
-      "original_price": 298.0,
-      "discount": 50,
-      "release_date": "2023 年 9 月 18 日",
-      "genres": [
-        "动作",
-        "冒险",
-        "角色扮演"
-      ],
-      "tags": [
-        "Steam 热门特惠"
-      ],
-      "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
-      "popularity_rank": 26,
-      "review": "Steam 评价未在本榜单单独核实",
-      "negative_review_analysis": null,
-      "key_reference_min": 101.0,
-      "key_status": "参考报价，不代表实时库存"
-    },
-    {
-      "appid": 728880,
-      "name": "Overcooked! 2",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/728880/3ebab1a37d85815dd61b2193adf6232e13446217/header_schinese.jpg?t=1789548883",
-      "url": "https://store.steampowered.com/app/728880/?cc=cn&l=schinese",
-      "category": "hot",
-      "price": 33.32,
-      "steam_subids": [
-        279940,
-        1066582
-      ],
-      "key_offers": [],
-      "enrichment_status": {
-        "keys": {
-          "status": "no_quote",
-          "checked_at": "2026-11-18T23:23:09.370324+00:00",
-          "next_retry_at": "2026-11-19T23:23:09.370324+00:00"
-        }
-      },
-      "original_price": 98.0,
-      "discount": 66,
-      "release_date": "2018 年 8 月 7 日",
-      "genres": [
-        "动作",
-        "休闲",
-        "独立"
-      ],
-      "tags": [
-        "Steam 热门特惠"
-      ],
-      "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
-      "popularity_rank": 27,
-      "review": "Steam 评价未在本榜单单独核实",
-      "negative_review_analysis": null,
-      "key_reference_min": null,
-      "key_status": "暂无有效散 Key 参考价"
     },
     {
       "appid": 2072450,
@@ -1196,101 +1183,31 @@
         "Steam 热门特惠"
       ],
       "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
-      "popularity_rank": 28,
-      "review": "Steam 评价未在本榜单单独核实",
-      "negative_review_analysis": null,
-      "key_reference_min": null,
-      "key_status": "暂无有效散 Key 参考价"
-    },
-    {
-      "appid": 816340,
-      "name": "Kingdom Rush Origins - Tower Defense",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/816340/header.jpg?t=1794922435",
-      "url": "https://store.steampowered.com/app/816340/?cc=cn&l=schinese",
-      "category": "hot",
-      "price": 17.5,
-      "steam_subids": [
-        249870
-      ],
-      "key_offers": [
-        {
-          "platform": "SteamPY",
-          "price": 13.0,
-          "status": "CDKey接口参考价｜库存、地区及版本需打开商品页确认",
-          "url": "https://steampy.com/cdkDetail?name=cn&gameId=255080756987039745",
-          "kind": "reference",
-          "subid": 249870,
-          "checked_at": "2026-11-18T11:09:22.011594+00:00"
-        },
-        {
-          "platform": "SteamCiCi",
-          "price": 28.0,
-          "status": "历史挂售最低参考价｜非实时库存",
-          "last_hanging_time": "2026-11-18T15:39:05.000+08:00",
-          "url": "https://steamcici.com/index",
-          "kind": "historical_listing",
-          "subid": "249870",
-          "checked_at": "2026-11-18T11:09:22.011594+00:00"
-        }
-      ],
-      "enrichment_status": {
-        "keys": {
-          "status": "success",
-          "checked_at": "2026-11-18T11:09:22.011594+00:00",
-          "next_retry_at": "2026-11-21T11:09:22.011594+00:00"
-        }
-      },
-      "original_price": 50.0,
-      "discount": 65,
-      "release_date": "2018 年 10 月 17 日",
-      "genres": [
-        "独立",
-        "策略"
-      ],
-      "tags": [
-        "Steam 热门特惠"
-      ],
-      "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
       "popularity_rank": 29,
       "review": "Steam 评价未在本榜单单独核实",
-      "negative_review_analysis": null,
-      "key_reference_min": 13.0,
-      "key_status": "参考报价，不代表实时库存"
+      "negative_review_analysis": null
     },
     {
-      "appid": 4259190,
-      "name": "王国保卫战 6：新启程",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4259190/9f7d11479e98db4e5798ed936ca69f1ebb5cebe4/header.jpg?t=1794939021",
-      "url": "https://store.steampowered.com/app/4259190/?cc=cn&l=schinese",
+      "appid": 2161700,
+      "name": "女神异闻录３ Reload",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2161700/header.jpg?t=1764776430",
+      "url": "https://store.steampowered.com/app/2161700/?cc=cn&l=schinese",
       "category": "hot",
-      "price": 61.6,
+      "price": 93.8,
       "steam_subids": [
-        1490615
+        914635,
+        914636,
+        914637,
+        981711
       ],
-      "key_offers": [
-        {
-          "platform": "SteamPY",
-          "price": 2.0,
-          "status": "CDKey接口参考价｜库存、地区及版本需打开商品页确认",
-          "url": "https://steampy.com/cdkDetail?name=cn&gameId=9001115526558619250688",
-          "kind": "reference",
-          "subid": 1490615,
-          "checked_at": "2026-11-18T11:09:22.011594+00:00"
-        }
-      ],
-      "enrichment_status": {
-        "keys": {
-          "status": "success",
-          "checked_at": "2026-11-18T11:09:22.011594+00:00",
-          "next_retry_at": "2026-11-21T11:09:22.011594+00:00"
-        }
-      },
-      "original_price": 77.0,
-      "discount": 20,
-      "release_date": "2026 年 9 月 24 日",
+      "key_offers": [],
+      "enrichment_status": {},
+      "original_price": 268.0,
+      "discount": 65,
+      "release_date": "2024 年 2 月 1 日",
       "genres": [
-        "动作",
-        "独立",
+        "冒险",
+        "角色扮演",
         "策略"
       ],
       "tags": [
@@ -1299,9 +1216,7 @@
       "why": "来自 Steam 热销特惠列表，不按个人喜好筛选",
       "popularity_rank": 30,
       "review": "Steam 评价未在本榜单单独核实",
-      "negative_review_analysis": null,
-      "key_reference_min": 2.0,
-      "key_status": "参考报价，不代表实时库存"
+      "negative_review_analysis": null
     }
   ]
 }
