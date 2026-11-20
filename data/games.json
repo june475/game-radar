@@ -2,7 +2,8 @@
   "meta": {
     "updated_at_cn": "2026-11-20 23:34",
     "version": "V4 review-context discovery",
-    "note": "尝鲜榜不设价格或好评率硬门槛；查看近期简中差评关键词，区别争议类型。分析是辅助证据，不代表玩家差评全部属实或无效。"
+    "note": "尝鲜榜不设价格或好评率硬门槛；查看近期简中差评关键词，区别争议类型。分析是辅助证据，不代表玩家差评全部属实或无效。",
+    "last_enrichment_utc": "2026-11-20T17:07:48.373046+00:00"
   },
   "counts": {
     "deal": 30,
@@ -3214,7 +3215,15 @@
       "key_reference_min": 36.5,
       "key_status": "未核实实时在售",
       "tracked_low": 37.0,
-      "region_history_low": null
+      "region_history_low": null,
+      "enrichment_status": {
+        "history": {
+          "status": "unverified",
+          "checked_at": "2026-11-20T17:07:48.373046+00:00",
+          "next_retry_at": "2026-11-21T17:07:48.373046+00:00",
+          "details": "no verified CNY historical record"
+        }
+      }
     },
     {
       "appid": 5173820,
@@ -6196,7 +6205,15 @@
       },
       "key_offers": [],
       "key_reference_min": null,
-      "tracked_low": 2.5
+      "tracked_low": 2.5,
+      "enrichment_status": {
+        "history": {
+          "status": "unverified",
+          "checked_at": "2026-11-20T17:07:48.373046+00:00",
+          "next_retry_at": "2026-11-21T17:07:48.373046+00:00",
+          "details": "no verified CNY historical record"
+        }
+      }
     },
     {
       "appid": 3399700,
@@ -6321,7 +6338,15 @@
       },
       "key_offers": [],
       "key_reference_min": null,
-      "tracked_low": 2.5
+      "tracked_low": 2.5,
+      "enrichment_status": {
+        "history": {
+          "status": "unverified",
+          "checked_at": "2026-11-20T17:07:48.373046+00:00",
+          "next_retry_at": "2026-11-21T17:07:48.373046+00:00",
+          "details": "no verified CNY historical record"
+        }
+      }
     },
     {
       "appid": 2463920,
@@ -6560,7 +6585,15 @@
       },
       "key_offers": [],
       "key_reference_min": null,
-      "tracked_low": 2.5
+      "tracked_low": 2.5,
+      "enrichment_status": {
+        "history": {
+          "status": "unverified",
+          "checked_at": "2026-11-20T17:07:48.373046+00:00",
+          "next_retry_at": "2026-11-21T17:07:48.373046+00:00",
+          "details": "no verified CNY historical record"
+        }
+      }
     },
     {
       "appid": 4067420,
@@ -6623,7 +6656,15 @@
       },
       "key_offers": [],
       "key_reference_min": null,
-      "tracked_low": 2.5
+      "tracked_low": 2.5,
+      "enrichment_status": {
+        "history": {
+          "status": "unverified",
+          "checked_at": "2026-11-20T17:07:48.373046+00:00",
+          "next_retry_at": "2026-11-21T17:07:48.373046+00:00",
+          "details": "no verified CNY historical record"
+        }
+      }
     },
     {
       "appid": 4230350,
