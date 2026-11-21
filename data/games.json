@@ -4,7 +4,7 @@
     "version": "V4 review-context discovery",
     "note": "尝鲜榜不设价格或好评率硬门槛；查看近期简中差评关键词，区别争议类型。分析是辅助证据，不代表玩家差评全部属实或无效。",
     "last_enrichment_utc": "2026-11-21T02:32:52.043543+00:00",
-    "last_key_enrichment_utc": "2026-11-20T23:57:47.796541+00:00"
+    "last_key_enrichment_utc": "2026-11-21T06:58:05.932390+00:00"
   },
   "counts": {
     "deal": 30,
@@ -477,7 +477,7 @@
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=9001009263693971316736",
           "kind": "reference",
           "subid": 1386440,
-          "checked_at": "2026-11-20T15:33:00.188387+00:00"
+          "checked_at": "2026-11-21T06:58:05.932390+00:00"
         },
         {
           "platform": "SteamCiCi",
@@ -487,7 +487,7 @@
           "url": "https://steamcici.com/index",
           "kind": "historical_listing",
           "subid": "1386440",
-          "checked_at": "2026-11-17T07:38:20.127911+00:00"
+          "checked_at": "2026-11-21T06:58:05.932390+00:00"
         }
       ],
       "enrichment_status": {
@@ -511,8 +511,8 @@
         },
         "keys": {
           "status": "success",
-          "checked_at": "2026-11-17T11:11:05.925442+00:00",
-          "next_retry_at": "2026-11-20T11:11:05.925442+00:00"
+          "checked_at": "2026-11-21T06:58:05.932390+00:00",
+          "next_retry_at": "2026-11-24T06:58:05.932390+00:00"
         },
         "epic": {
           "status": "unverified",
@@ -533,7 +533,7 @@
           "details": "0 DLC IDs"
         }
       },
-      "key_status": "未核实实时在售",
+      "key_status": "参考报价，不代表实时库存",
       "key_reference_min": 19.99,
       "tracked_low": 29.25,
       "region_history_low": null,
@@ -1029,28 +1029,18 @@
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=267262806590492672",
           "kind": "reference",
           "subid": 30674,
-          "checked_at": "2026-11-20T15:33:09.470681+00:00"
-        },
-        {
-          "platform": "SteamCiCi",
-          "price": 6.0,
-          "status": "历史挂售最低参考价｜非实时库存",
-          "last_hanging_time": "2026-07-14T17:12:31.000+08:00",
-          "url": "https://steamcici.com/index",
-          "kind": "historical_listing",
-          "subid": "30674",
-          "checked_at": "2026-11-17T13:10:49.453867+00:00"
+          "checked_at": "2026-11-21T06:58:05.932390+00:00"
         }
       ],
-      "key_status": "未核实实时在售",
+      "key_status": "参考报价，不代表实时库存",
       "key_reference_min": 1.99,
       "tracked_low": 13.25,
       "region_history_low": null,
       "enrichment_status": {
         "keys": {
           "status": "success",
-          "checked_at": "2026-11-17T13:10:49.453867+00:00",
-          "next_retry_at": "2026-11-20T13:10:49.453867+00:00"
+          "checked_at": "2026-11-21T06:58:05.932390+00:00",
+          "next_retry_at": "2026-11-24T06:58:05.932390+00:00"
         },
         "reviews": {
           "status": "no_data",
@@ -2147,17 +2137,7 @@
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=272927268706193408",
           "kind": "reference",
           "subid": 136702,
-          "checked_at": "2026-11-20T15:33:27.366466+00:00"
-        },
-        {
-          "platform": "SteamCiCi",
-          "price": 16.0,
-          "status": "历史挂售最低参考价｜非实时库存",
-          "last_hanging_time": "2026-05-11T18:10:08.000+08:00",
-          "url": "https://steamcici.com/index",
-          "kind": "historical_listing",
-          "subid": "136702",
-          "checked_at": "2026-11-17T07:38:42.266586+00:00"
+          "checked_at": "2026-11-21T06:58:05.932390+00:00"
         }
       ],
       "dlc_count": 2,
@@ -2168,8 +2148,8 @@
       "enrichment_status": {
         "keys": {
           "status": "success",
-          "checked_at": "2026-11-17T13:10:49.453867+00:00",
-          "next_retry_at": "2026-11-20T13:10:49.453867+00:00"
+          "checked_at": "2026-11-21T06:58:05.932390+00:00",
+          "next_retry_at": "2026-11-24T06:58:05.932390+00:00"
         },
         "reviews": {
           "status": "no_data",
@@ -2208,7 +2188,7 @@
           "details": "2 DLC IDs"
         }
       },
-      "key_status": "未核实实时在售",
+      "key_status": "参考报价，不代表实时库存",
       "key_reference_min": 10.25,
       "tracked_low": 7.8,
       "region_history_low": null
@@ -3491,11 +3471,11 @@
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=9001130501078149599232",
           "kind": "reference",
           "subid": 1881471,
-          "checked_at": "2026-11-20T15:33:50.798782+00:00"
+          "checked_at": "2026-11-21T06:58:05.932390+00:00"
         }
       ],
       "key_reference_min": 1.99,
-      "key_status": "未核实实时在售",
+      "key_status": "参考报价，不代表实时库存",
       "tracked_low": 3.5,
       "region_history_low": null,
       "enrichment_status": {
@@ -3519,8 +3499,8 @@
         },
         "keys": {
           "status": "success",
-          "checked_at": "2026-11-17T11:57:48.252095+00:00",
-          "next_retry_at": "2026-11-20T11:57:48.252095+00:00"
+          "checked_at": "2026-11-21T06:58:05.932390+00:00",
+          "next_retry_at": "2026-11-24T06:58:05.932390+00:00"
         }
       }
     },
@@ -4873,7 +4853,7 @@
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=9001129523302093316096",
           "kind": "reference",
           "subid": 1210421,
-          "checked_at": "2026-11-20T15:34:16.328619+00:00"
+          "checked_at": "2026-11-21T06:58:05.932390+00:00"
         }
       ],
       "enrichment_status": {
@@ -4897,8 +4877,8 @@
         },
         "keys": {
           "status": "success",
-          "checked_at": "2026-11-17T11:57:48.252095+00:00",
-          "next_retry_at": "2026-11-20T11:57:48.252095+00:00"
+          "checked_at": "2026-11-21T06:58:05.932390+00:00",
+          "next_retry_at": "2026-11-24T06:58:05.932390+00:00"
         },
         "epic": {
           "status": "unverified",
@@ -4919,7 +4899,7 @@
           "details": "0 DLC IDs"
         }
       },
-      "key_status": "未核实实时在售",
+      "key_status": "参考报价，不代表实时库存",
       "key_reference_min": 12.22,
       "tracked_low": 16.0,
       "region_history_low": null,
@@ -5600,11 +5580,11 @@
           "url": "https://steampy.com/cdkDetail?name=cn&gameId=9001128943328315588608",
           "kind": "reference",
           "subid": 1609060,
-          "checked_at": "2026-11-19T07:40:07.928593+00:00"
+          "checked_at": "2026-11-21T06:58:05.932390+00:00"
         }
       ],
       "key_reference_min": 19.99,
-      "key_status": "未核实实时在售",
+      "key_status": "参考报价，不代表实时库存",
       "tracked_low": 25.6,
       "region_history_low": null,
       "enrichment_status": {
@@ -5628,8 +5608,8 @@
         },
         "keys": {
           "status": "success",
-          "checked_at": "2026-11-17T11:57:48.252095+00:00",
-          "next_retry_at": "2026-11-20T11:57:48.252095+00:00"
+          "checked_at": "2026-11-21T06:58:05.932390+00:00",
+          "next_retry_at": "2026-11-24T06:58:05.932390+00:00"
         }
       }
     },
