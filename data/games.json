@@ -4,7 +4,7 @@
     "version": "V4 review-context discovery",
     "note": "尝鲜榜不设价格或好评率硬门槛；查看近期简中差评关键词，区别争议类型。分析是辅助证据，不代表玩家差评全部属实或无效。",
     "last_key_enrichment_utc": "2026-11-21T15:18:29.605744+00:00",
-    "last_enrichment_utc": "2026-11-21T16:18:40.609591+00:00"
+    "last_enrichment_utc": "2026-11-21T19:30:22.767658+00:00"
   },
   "counts": {
     "deal": 30,
@@ -5693,6 +5693,12 @@
           "checked_at": "2026-11-21T16:18:40.609591+00:00",
           "next_retry_at": "2026-11-22T16:18:40.609591+00:00",
           "details": "no verified CNY historical record"
+        },
+        "reviews": {
+          "status": "no_data",
+          "checked_at": "2026-11-21T19:30:22.767658+00:00",
+          "next_retry_at": "2026-11-23T19:30:22.767658+00:00",
+          "details": "negative reviews unavailable"
         }
       }
     },
@@ -5760,6 +5766,12 @@
           "checked_at": "2026-11-21T16:18:40.609591+00:00",
           "next_retry_at": "2026-11-22T16:18:40.609591+00:00",
           "details": "no verified CNY historical record"
+        },
+        "reviews": {
+          "status": "no_data",
+          "checked_at": "2026-11-21T19:30:22.767658+00:00",
+          "next_retry_at": "2026-11-23T19:30:22.767658+00:00",
+          "details": "negative reviews unavailable"
         }
       }
     },
@@ -6180,7 +6192,15 @@
       },
       "key_offers": [],
       "key_reference_min": null,
-      "tracked_low": 2.5
+      "tracked_low": 2.5,
+      "enrichment_status": {
+        "reviews": {
+          "status": "no_data",
+          "checked_at": "2026-11-21T19:30:22.767658+00:00",
+          "next_retry_at": "2026-11-23T19:30:22.767658+00:00",
+          "details": "negative reviews unavailable"
+        }
+      }
     },
     {
       "appid": 1413670,
@@ -6248,6 +6268,12 @@
           "checked_at": "2026-11-21T16:18:40.609591+00:00",
           "next_retry_at": "2026-11-22T16:18:40.609591+00:00",
           "details": "no verified CNY historical record"
+        },
+        "reviews": {
+          "status": "no_data",
+          "checked_at": "2026-11-21T19:30:22.767658+00:00",
+          "next_retry_at": "2026-11-23T19:30:22.767658+00:00",
+          "details": "negative reviews unavailable"
         }
       }
     },
@@ -6375,7 +6401,15 @@
       },
       "key_offers": [],
       "key_reference_min": null,
-      "tracked_low": 2.5
+      "tracked_low": 2.5,
+      "enrichment_status": {
+        "reviews": {
+          "status": "no_data",
+          "checked_at": "2026-11-21T19:30:22.767658+00:00",
+          "next_retry_at": "2026-11-23T19:30:22.767658+00:00",
+          "details": "negative reviews unavailable"
+        }
+      }
     },
     {
       "appid": 2681220,
