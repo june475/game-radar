@@ -3,7 +3,7 @@
     "updated_at_cn": "2026-11-20 23:34",
     "version": "V4 review-context discovery",
     "note": "尝鲜榜不设价格或好评率硬门槛；查看近期简中差评关键词，区别争议类型。分析是辅助证据，不代表玩家差评全部属实或无效。",
-    "last_enrichment_utc": "2026-11-21T10:17:05.875147+00:00",
+    "last_enrichment_utc": "2026-11-21T11:26:33.927696+00:00",
     "last_key_enrichment_utc": "2026-11-21T06:58:05.932390+00:00"
   },
   "counts": {
@@ -2659,8 +2659,8 @@
       "enrichment_status": {
         "reviews": {
           "status": "no_data",
-          "checked_at": "2026-11-18T07:42:25.819908+00:00",
-          "next_retry_at": "2026-11-20T07:42:25.819908+00:00",
+          "checked_at": "2026-11-21T11:26:33.927696+00:00",
+          "next_retry_at": "2026-11-23T11:26:33.927696+00:00",
           "details": "negative reviews unavailable"
         },
         "deck": {
@@ -6491,6 +6491,12 @@
           "checked_at": "2026-11-21T10:17:05.875147+00:00",
           "next_retry_at": "2026-12-05T10:17:05.875147+00:00",
           "details": "0 DLC IDs"
+        },
+        "reviews": {
+          "status": "no_data",
+          "checked_at": "2026-11-21T11:26:33.927696+00:00",
+          "next_retry_at": "2026-11-23T11:26:33.927696+00:00",
+          "details": "negative reviews unavailable"
         }
       },
       "dlc_count": 0,
@@ -6573,6 +6579,12 @@
           "checked_at": "2026-11-21T10:17:05.875147+00:00",
           "next_retry_at": "2026-12-05T10:17:05.875147+00:00",
           "details": "0 DLC IDs"
+        },
+        "reviews": {
+          "status": "no_data",
+          "checked_at": "2026-11-21T11:26:33.927696+00:00",
+          "next_retry_at": "2026-11-23T11:26:33.927696+00:00",
+          "details": "negative reviews unavailable"
         }
       },
       "dlc_count": 0,
@@ -6634,7 +6646,15 @@
       },
       "key_offers": [],
       "key_reference_min": null,
-      "tracked_low": 2.5
+      "tracked_low": 2.5,
+      "enrichment_status": {
+        "reviews": {
+          "status": "no_data",
+          "checked_at": "2026-11-21T11:26:33.927696+00:00",
+          "next_retry_at": "2026-11-23T11:26:33.927696+00:00",
+          "details": "negative reviews unavailable"
+        }
+      }
     },
     {
       "appid": 2623700,
@@ -7148,6 +7168,12 @@
           "status": "success",
           "checked_at": "2026-11-20T23:57:47.796541+00:00",
           "next_retry_at": "2026-11-23T23:57:47.796541+00:00"
+        },
+        "reviews": {
+          "status": "no_data",
+          "checked_at": "2026-11-21T11:26:33.927696+00:00",
+          "next_retry_at": "2026-11-23T11:26:33.927696+00:00",
+          "details": "negative reviews unavailable"
         }
       }
     }
