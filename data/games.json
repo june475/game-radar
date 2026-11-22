@@ -4,7 +4,7 @@
     "version": "V4 review-context discovery",
     "note": "尝鲜榜不设价格或好评率硬门槛；查看近期简中差评关键词，区别争议类型。分析是辅助证据，不代表玩家差评全部属实或无效。",
     "last_key_enrichment_utc": "2026-11-22T02:10:20.928478+00:00",
-    "last_enrichment_utc": "2026-11-22T07:14:01.575194+00:00"
+    "last_enrichment_utc": "2026-11-22T07:16:46.604835+00:00"
   },
   "counts": {
     "deal": 30,
@@ -1359,8 +1359,8 @@
         },
         "history": {
           "status": "unverified",
-          "checked_at": "2026-11-17T01:47:33.333094+00:00",
-          "next_retry_at": "2026-11-18T01:47:33.333094+00:00",
+          "checked_at": "2026-11-22T07:16:46.604835+00:00",
+          "next_retry_at": "2026-11-23T07:16:46.604835+00:00",
           "details": "no verified CNY historical record"
         },
         "epic": {
@@ -1691,8 +1691,8 @@
         },
         "history": {
           "status": "unverified",
-          "checked_at": "2026-11-13T01:41:36.456692+00:00",
-          "next_retry_at": "2026-11-14T01:41:36.456692+00:00",
+          "checked_at": "2026-11-22T07:16:46.604835+00:00",
+          "next_retry_at": "2026-11-23T07:16:46.604835+00:00",
           "details": "no verified CNY historical record"
         },
         "epic": {
@@ -2464,8 +2464,8 @@
         },
         "history": {
           "status": "unverified",
-          "checked_at": "2026-11-17T01:47:33.333094+00:00",
-          "next_retry_at": "2026-11-18T01:47:33.333094+00:00",
+          "checked_at": "2026-11-22T07:16:46.604835+00:00",
+          "next_retry_at": "2026-11-23T07:16:46.604835+00:00",
           "details": "no verified CNY historical record"
         },
         "epic": {
@@ -2569,8 +2569,8 @@
         },
         "history": {
           "status": "unverified",
-          "checked_at": "2026-11-17T01:47:33.333094+00:00",
-          "next_retry_at": "2026-11-18T01:47:33.333094+00:00",
+          "checked_at": "2026-11-22T07:16:46.604835+00:00",
+          "next_retry_at": "2026-11-23T07:16:46.604835+00:00",
           "details": "no verified CNY historical record"
         },
         "epic": {
@@ -5435,8 +5435,8 @@
         },
         "history": {
           "status": "unverified",
-          "checked_at": "2026-10-29T09:18:30.654993+00:00",
-          "next_retry_at": "2026-10-30T09:18:30.654993+00:00",
+          "checked_at": "2026-11-22T07:16:46.604835+00:00",
+          "next_retry_at": "2026-11-23T07:16:46.604835+00:00",
           "details": "no verified CNY historical record"
         },
         "keys": {
