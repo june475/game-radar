@@ -39,657 +39,672 @@
     "_flag": "deal"
   },
   {
-    "id": 5465130,
-    "type": 0,
-    "name": "Moonkey",
-    "discounted": false,
-    "discount_percent": 0,
-    "original_price": 1300,
-    "final_price": 1300,
+    "id": 1066581,
+    "type": 1,
+    "name": "The Escapists 2 - Game of the Year Edition",
+    "discounted": true,
+    "discount_percent": 90,
+    "original_price": 11999,
+    "final_price": 1199,
     "currency": "CNY",
-    "large_capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5465130/61cb85d1f50f67fe0081e92a88cc350a514c8c0a/capsule_616x353.jpg?t=1795229945",
-    "small_capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5465130/73192acd34348b3085aff7df5d054a1513b78ff4/capsule_184x69.jpg?t=1795229945",
+    "large_capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/subs/1066581/capsule_616x353.jpg?t=1733504080",
+    "small_capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/subs/1066581/capsule_184x69.jpg?t=1733504080",
     "windows_available": true,
-    "mac_available": false,
-    "linux_available": false,
+    "mac_available": true,
+    "linux_available": true,
     "streamingvideo_available": false,
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5465130/6d09da0e12b366db4343c0894a171c2c806bedbf/header.jpg?t=1795229945",
+    "discount_expiration": 1796493600,
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/subs/1066581/header_ratio.jpg?t=1733504080",
     "controller_support": "full",
+    "_flag": "deal"
+  },
+  {
+    "id": 4767430,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 5542640,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 5306710,
-    "type": 0,
-    "name": "Idol On Duty",
-    "discounted": false,
-    "discount_percent": 0,
-    "original_price": null,
-    "final_price": 0,
-    "currency": "CNY",
-    "large_capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5306710/ddf62babdeb72ab24d85dfd4a34c6b6241a4ee28/capsule_616x353.jpg?t=1795229745",
-    "small_capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5306710/4ea1681f4c331482307813ebedd410055fba9c12/capsule_184x69.jpg?t=1795229745",
-    "windows_available": true,
-    "mac_available": false,
-    "linux_available": false,
-    "streamingvideo_available": false,
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5306710/05b15fa9add48d369a663883e00fd73ef9fc38b8/header.jpg?t=1795229745",
-    "controller_support": "full",
-    "_flag": "new"
-  },
-  {
-    "id": 2513280,
+    "id": 1487990,
     "_flag": "explore",
     "_search": true
   },
   {
-    "id": 1589570,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 7200,
+    "id": 850190,
     "_flag": "explore",
     "_search": true
   },
   {
-    "id": 2429050,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 5276120,
-    "type": 0,
-    "name": "1.76流派传奇",
-    "discounted": false,
-    "discount_percent": 0,
-    "original_price": null,
-    "final_price": 0,
-    "currency": "CNY",
-    "large_capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5276120/8215bb2d0652568ddb46e620fc18482b99970ba0/capsule_616x353_schinese.jpg?t=1795228766",
-    "small_capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5276120/1a4b2a464b3c173eb7af3bd26ea6b487a32a5fc3/capsule_184x69_schinese.jpg?t=1795228766",
-    "windows_available": true,
-    "mac_available": false,
-    "linux_available": false,
-    "streamingvideo_available": false,
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5276120/2aeda1b334d7d0dc4855c8a49d0f827e74e777ef/header_schinese.jpg?t=1795228766",
-    "_flag": "new"
-  },
-  {
-    "id": 3548580,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 3681450,
-    "type": 0,
-    "name": "DUMMY HOUSE",
-    "discounted": false,
-    "discount_percent": 0,
-    "original_price": 4200,
-    "final_price": 4200,
-    "currency": "CNY",
-    "large_capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3681450/1f8aa19ad661dcbc255d5fd6b577f761392582bc/capsule_616x353_schinese.jpg?t=1795237165",
-    "small_capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3681450/8ed543b9c45c9660a71347b9386b2e871a824f80/capsule_184x69.jpg?t=1795237165",
-    "windows_available": true,
-    "mac_available": false,
-    "linux_available": false,
-    "streamingvideo_available": false,
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3681450/1a980d0b1018643df0c45304d7ab7af7d6b8573a/header_schinese.jpg?t=1795237165",
-    "_flag": "new"
-  },
-  {
-    "id": 1591290,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 5490500,
+    "id": 5542420,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 227300,
+    "id": 1522870,
     "_flag": "explore",
     "_search": true
   },
   {
-    "id": 236090,
+    "id": 2207070,
     "_flag": "deal",
     "_search": true
   },
   {
-    "id": 2366980,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 1043340,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 2242320,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 5410190,
+    "id": 5503670,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 2753620,
+    "id": 2356500,
     "_flag": "deal",
     "_search": true
   },
   {
-    "id": 5467080,
+    "id": 4993370,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 2463920,
-    "_flag": "explore",
+    "id": 246840,
+    "_flag": "deal",
     "_search": true
   },
   {
-    "id": 2682600,
+    "id": 2114500,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 1426210,
+    "id": 1561870,
     "_flag": "explore",
     "_search": true
   },
   {
-    "id": 3388640,
+    "id": 1557740,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 4118150,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 315810,
+    "id": 2375550,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 397340,
     "_flag": "explore",
     "_search": true
   },
   {
-    "id": 5521170,
+    "id": 4259360,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 4659360,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 824600,
+    "id": 2052410,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 1815580,
     "_flag": "deal",
     "_search": true
   },
   {
-    "id": 5556770,
+    "id": 5469940,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 1789270,
+    "id": 2206450,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 2678990,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 2638080,
     "_flag": "deal",
     "_search": true
   },
   {
-    "id": 5244700,
+    "id": 657240,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 508440,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 5193560,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 212480,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 1869270,
+    "id": 3755860,
     "_flag": "deal",
     "_search": true
   },
   {
-    "id": 3103620,
+    "id": 1342220,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 4859890,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 1113000,
+    "id": 2764460,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 1089980,
     "_flag": "deal",
     "_search": true
   },
   {
-    "id": 5371870,
+    "id": 1557740,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 1066290,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 544310,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 1332010,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 5534020,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 3399700,
+    "id": 5037200,
     "_flag": "explore",
     "_search": true
   },
   {
-    "id": 5528450,
+    "id": 1681560,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 3048840,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 4605410,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 5378110,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 260230,
+    "id": 3602570,
     "_flag": "explore",
     "_search": true
   },
   {
-    "id": 2684800,
+    "id": 4147820,
     "_flag": "deal",
     "_search": true
   },
   {
-    "id": 4431510,
+    "id": 5052060,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 1218900,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 5434200,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 213670,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 4067420,
+    "id": 244210,
     "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 4268590,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 3934180,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 2725260,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 2559690,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 4940850,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 3692180,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 2834920,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 3950130,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 236090,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 2561460,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 4614790,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 2409110,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 1043340,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 2244030,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 956030,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 3331320,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 4871280,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 3559510,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 2911290,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 5273150,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 858760,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 1441840,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 799070,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 2516820,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 5441840,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 2429050,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 2460230,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 3547270,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 315810,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 5418970,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 1300600,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 71250,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 2463920,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 578540,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 4893050,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 3119540,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 1262040,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 1982940,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 2486820,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 5215220,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 4535880,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 3358400,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 550320,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 1687950,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 2348090,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 3590480,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 2753620,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 7200,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 5363210,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 2598310,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 1161870,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 413410,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 3372980,
-    "_flag": "deal",
     "_search": true
   },
   {
     "id": 5224030,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 2386960,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 2781470,
     "_flag": "deal",
     "_search": true
   },
   {
-    "id": 5482020,
+    "id": 5544230,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 2400640,
+    "id": 611760,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 1040200,
     "_flag": "deal",
     "_search": true
   },
   {
-    "id": 4860910,
+    "id": 5093110,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 3559510,
+    "id": 1842270,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 2403020,
     "_flag": "deal",
     "_search": true
   },
   {
-    "id": 1065320,
+    "id": 557600,
     "_flag": "deal",
     "_search": true
   },
   {
-    "id": 4067420,
+    "id": 5283120,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 4362370,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 805550,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 2764460,
     "_flag": "deal",
     "_search": true
   },
   {
-    "id": 5383000,
-    "_flag": "new",
+    "id": 1161870,
+    "_flag": "explore",
     "_search": true
   },
   {
-    "id": 617670,
+    "id": 246420,
     "_flag": "deal",
     "_search": true
   },
   {
-    "id": 5206380,
+    "id": 5547250,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 5462830,
+    "id": 1858780,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 2483700,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 4298260,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 5385320,
+    "id": 4111370,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 2412110,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 5358460,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 4396640,
+    "id": 1405500,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 1990790,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 1417500,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 3480,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 4438110,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 3959150,
+    "id": 3702140,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 813630,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 4984400,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 5281600,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 5034850,
+    "id": 1796470,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 5194780,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 5264830,
+    "id": 841600,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 5549930,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 3745320,
+    "id": 1793900,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 2941360,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 3955780,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 5461760,
+    "id": 3548580,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 1487990,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 2542400,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 5529470,
+    "id": 1369340,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 5515770,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 5085380,
+    "id": 1673550,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 4164140,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 5514080,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 4492400,
+    "id": 745960,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 949480,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 5064300,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 2678990,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 5111930,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 3683850,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 5457890,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 2356500,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 4177110,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 5551910,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 1995090,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 1617220,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 3584920,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 3189440,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 5497350,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 2052410,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 4924650,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 1561870,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 4889630,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 3967860,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 5361610,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 4321920,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 5453070,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 2378620,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 2721530,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 3008180,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 2418490,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 2206450,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 4178540,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 5525980,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 2894950,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 5536720,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 5160370,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 2891970,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 5105470,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 5348720,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 4708400,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 3842950,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 5021760,
     "_flag": "new",
     "_search": true
   }
