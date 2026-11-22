@@ -4,7 +4,7 @@
     "version": "V4 review-context discovery",
     "note": "尝鲜榜不设价格或好评率硬门槛；查看近期简中差评关键词，区别争议类型。分析是辅助证据，不代表玩家差评全部属实或无效。",
     "last_key_enrichment_utc": "2026-11-22T09:44:26.157208+00:00",
-    "last_enrichment_utc": "2026-11-22T10:23:10.648830+00:00"
+    "last_enrichment_utc": "2026-11-22T11:41:53.204944+00:00"
   },
   "counts": {
     "deal": 30,
@@ -1269,8 +1269,8 @@
       "enrichment_status": {
         "reviews": {
           "status": "no_data",
-          "checked_at": "2026-11-20T02:25:34.505594+00:00",
-          "next_retry_at": "2026-11-22T02:25:34.505594+00:00",
+          "checked_at": "2026-11-22T11:41:53.204944+00:00",
+          "next_retry_at": "2026-11-24T11:41:53.204944+00:00",
           "details": "negative reviews unavailable"
         },
         "deck": {
@@ -2492,8 +2492,8 @@
         },
         "reviews": {
           "status": "no_data",
-          "checked_at": "2026-11-20T02:25:34.505594+00:00",
-          "next_retry_at": "2026-11-22T02:25:34.505594+00:00",
+          "checked_at": "2026-11-22T11:41:53.204944+00:00",
+          "next_retry_at": "2026-11-24T11:41:53.204944+00:00",
           "details": "negative reviews unavailable"
         },
         "deck": {
@@ -2597,8 +2597,8 @@
         },
         "reviews": {
           "status": "no_data",
-          "checked_at": "2026-11-20T02:25:34.505594+00:00",
-          "next_retry_at": "2026-11-22T02:25:34.505594+00:00",
+          "checked_at": "2026-11-22T11:41:53.204944+00:00",
+          "next_retry_at": "2026-11-24T11:41:53.204944+00:00",
           "details": "negative reviews unavailable"
         },
         "deck": {
@@ -5056,8 +5056,8 @@
         },
         "reviews": {
           "status": "no_data",
-          "checked_at": "2026-11-20T02:25:34.505594+00:00",
-          "next_retry_at": "2026-11-22T02:25:34.505594+00:00",
+          "checked_at": "2026-11-22T11:41:53.204944+00:00",
+          "next_retry_at": "2026-11-24T11:41:53.204944+00:00",
           "details": "negative reviews unavailable"
         },
         "deck": {
@@ -6624,6 +6624,12 @@
           "status": "success",
           "checked_at": "2026-11-20T23:57:47.796541+00:00",
           "next_retry_at": "2026-11-23T23:57:47.796541+00:00"
+        },
+        "reviews": {
+          "status": "no_data",
+          "checked_at": "2026-11-22T11:41:53.204944+00:00",
+          "next_retry_at": "2026-11-24T11:41:53.204944+00:00",
+          "details": "negative reviews unavailable"
         }
       },
       "key_status": "参考报价，不代表实时库存",
