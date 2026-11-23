@@ -3,7 +3,7 @@
     "updated_at_cn": "2026-11-22 22:41",
     "version": "V4 review-context discovery",
     "note": "尝鲜榜不设价格或好评率硬门槛；查看近期简中差评关键词，区别争议类型。分析是辅助证据，不代表玩家差评全部属实或无效。",
-    "last_enrichment_utc": "2026-11-23T09:50:57.670015+00:00",
+    "last_enrichment_utc": "2026-11-23T11:22:01.657408+00:00",
     "last_key_enrichment_utc": "2026-11-23T07:26:39.496857+00:00"
   },
   "counts": {
@@ -2463,7 +2463,7 @@
       "epic_status": "历史库未匹配（未核实）",
       "epic_giveaway": null,
       "epic_source": "https://github.com/renshuki/efgtracker",
-      "dlc_status": "未自动核实",
+      "dlc_status": "Steam 商店关联 DLC 数量；不代表值得购买",
       "key_price": null,
       "key_source": null,
       "steam_historical_low": null,
@@ -2514,8 +2514,16 @@
           "checked_at": "2026-11-23T09:50:57.670015+00:00",
           "next_retry_at": "2026-11-24T09:50:57.670015+00:00",
           "details": "no verified official port record"
+        },
+        "dlc": {
+          "status": "success",
+          "checked_at": "2026-11-23T11:22:01.657408+00:00",
+          "next_retry_at": "2026-12-07T11:22:01.657408+00:00",
+          "details": "0 DLC IDs"
         }
-      }
+      },
+      "dlc_count": 0,
+      "dlc_appids": []
     },
     {
       "appid": 1787670,
@@ -6498,7 +6506,7 @@
       "epic_status": "历史库未匹配（未核实）",
       "epic_giveaway": null,
       "epic_source": "https://github.com/renshuki/efgtracker",
-      "dlc_status": "未自动核实",
+      "dlc_status": "Steam 商店关联 DLC 数量；不代表值得购买",
       "key_price": null,
       "key_source": null,
       "steam_historical_low": null,
@@ -6546,8 +6554,16 @@
           "checked_at": "2026-11-23T09:50:57.670015+00:00",
           "next_retry_at": "2026-11-24T09:50:57.670015+00:00",
           "details": "no verified official port record"
+        },
+        "dlc": {
+          "status": "success",
+          "checked_at": "2026-11-23T11:22:01.657408+00:00",
+          "next_retry_at": "2026-12-07T11:22:01.657408+00:00",
+          "details": "0 DLC IDs"
         }
-      }
+      },
+      "dlc_count": 0,
+      "dlc_appids": []
     },
     {
       "appid": 948770,
@@ -6598,7 +6614,7 @@
       "epic_status": "历史库未匹配（未核实）",
       "epic_giveaway": null,
       "epic_source": "https://github.com/renshuki/efgtracker",
-      "dlc_status": "未自动核实",
+      "dlc_status": "Steam 商店关联 DLC 数量；不代表值得购买",
       "key_price": null,
       "key_source": null,
       "steam_historical_low": null,
@@ -6646,8 +6662,16 @@
           "checked_at": "2026-11-23T09:50:57.670015+00:00",
           "next_retry_at": "2026-11-24T09:50:57.670015+00:00",
           "details": "no verified official port record"
+        },
+        "dlc": {
+          "status": "success",
+          "checked_at": "2026-11-23T11:22:01.657408+00:00",
+          "next_retry_at": "2026-12-07T11:22:01.657408+00:00",
+          "details": "0 DLC IDs"
         }
-      }
+      },
+      "dlc_count": 0,
+      "dlc_appids": []
     },
     {
       "appid": 4230350,
@@ -6967,7 +6991,7 @@
       "epic_status": "历史库未匹配（未核实）",
       "epic_giveaway": null,
       "epic_source": "https://github.com/renshuki/efgtracker",
-      "dlc_status": "未自动核实",
+      "dlc_status": "Steam 商店关联 DLC 数量；不代表值得购买",
       "key_price": null,
       "key_source": null,
       "steam_historical_low": null,
@@ -7015,8 +7039,16 @@
           "checked_at": "2026-11-23T09:50:57.670015+00:00",
           "next_retry_at": "2026-11-24T09:50:57.670015+00:00",
           "details": "no verified official port record"
+        },
+        "dlc": {
+          "status": "success",
+          "checked_at": "2026-11-23T11:22:01.657408+00:00",
+          "next_retry_at": "2026-12-07T11:22:01.657408+00:00",
+          "details": "0 DLC IDs"
         }
-      }
+      },
+      "dlc_count": 0,
+      "dlc_appids": []
     },
     {
       "appid": 1066290,
@@ -7066,7 +7098,7 @@
       "epic_status": "历史库未匹配（未核实）",
       "epic_giveaway": null,
       "epic_source": "https://github.com/renshuki/efgtracker",
-      "dlc_status": "未自动核实",
+      "dlc_status": "Steam 商店关联 DLC 数量；不代表值得购买",
       "key_price": null,
       "key_source": null,
       "steam_historical_low": null,
@@ -7129,8 +7161,16 @@
           "checked_at": "2026-11-23T09:50:57.670015+00:00",
           "next_retry_at": "2026-11-24T09:50:57.670015+00:00",
           "details": "no verified official port record"
+        },
+        "dlc": {
+          "status": "success",
+          "checked_at": "2026-11-23T11:22:01.657408+00:00",
+          "next_retry_at": "2026-12-07T11:22:01.657408+00:00",
+          "details": "0 DLC IDs"
         }
-      }
+      },
+      "dlc_count": 0,
+      "dlc_appids": []
     }
   ]
 }
