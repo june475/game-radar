@@ -10027,7 +10027,7 @@
   "260230": {
     "name": "Valiant Hearts: The Great War™ / Soldats Inconnus : Mémoires de la Grande Guerre™",
     "low": 18.75,
-    "last": 18.75
+    "last": 75.0
   },
   "4569230": {
     "name": "Tower And Dragon",
@@ -15543,5 +15543,560 @@
     "name": "Count To A Million",
     "low": 30.4,
     "last": 30.4
+  },
+  "5023620": {
+    "name": "Raiding Season",
+    "low": 64.03,
+    "last": 64.03
+  },
+  "1860350": {
+    "name": "Dream Swing",
+    "low": 4.5,
+    "last": 4.5
+  },
+  "5534880": {
+    "name": "战车幸存者：尸潮狂飙",
+    "low": 28.8,
+    "last": 28.8
+  },
+  "233860": {
+    "name": "Kenshi",
+    "low": 36.0,
+    "last": 36.0
+  },
+  "5511140": {
+    "name": "현재 접속자 1명 (Player Count 1)",
+    "low": 19.8,
+    "last": 19.8
+  },
+  "590590": {
+    "name": "Remnants of Naezith",
+    "low": 8.4,
+    "last": 8.4
+  },
+  "2840190": {
+    "name": "Great God Grove",
+    "low": 35.0,
+    "last": 35.0
+  },
+  "4443690": {
+    "name": "Cornerwitch",
+    "low": 11.4,
+    "last": 11.4
+  },
+  "1686370": {
+    "name": "Match3 mania!",
+    "low": 2.5,
+    "last": 2.5
+  },
+  "4514420": {
+    "name": "NODE: PROTOCOL",
+    "low": 60.8,
+    "last": 60.8
+  },
+  "4463480": {
+    "name": "ArcaneBound",
+    "low": 21.25,
+    "last": 21.25
+  },
+  "2982610": {
+    "name": "Stonemachia",
+    "low": 57.0,
+    "last": 57.0
+  },
+  "3884300": {
+    "name": "Fire & Light: Thrones of Tyberion",
+    "low": 42.3,
+    "last": 42.3
+  },
+  "22320": {
+    "name": "The Elder Scrolls III: Morrowind® Game of the Year Edition",
+    "low": 15.5,
+    "last": 15.5
+  },
+  "4434380": {
+    "name": "Blackout Route",
+    "low": 20.46,
+    "last": 20.46
+  },
+  "2207040": {
+    "name": "Myasoid",
+    "low": 2.5,
+    "last": 2.5
+  },
+  "4997400": {
+    "name": "Love At The Desktop Market",
+    "low": 11.05,
+    "last": 11.05
+  },
+  "1048540": {
+    "name": "Kao the Kangaroo: Round 2 (2003 re-release)",
+    "low": 3.99,
+    "last": 3.99
+  },
+  "1995100": {
+    "name": "DouDas Danger",
+    "low": 2.5,
+    "last": 2.5
+  },
+  "5481910": {
+    "name": "Everybody Hates You in TOKYO",
+    "low": 11.05,
+    "last": 11.05
+  },
+  "205100": {
+    "name": "Dishonored",
+    "low": 10.25,
+    "last": 10.25
+  },
+  "1655700": {
+    "name": "Mrs.Cat In Mars",
+    "low": 3.0,
+    "last": 3.0
+  },
+  "2892670": {
+    "name": "Truck Job",
+    "low": 29.0,
+    "last": 29.0
+  },
+  "2759900": {
+    "name": "I KNOW YOUR ADDRESS",
+    "low": 3.0,
+    "last": 3.0
+  },
+  "1906150": {
+    "name": "Pixel Trouble",
+    "low": 2.5,
+    "last": 2.5
+  },
+  "5174400": {
+    "name": "Pheles Rebirth",
+    "low": 22.1,
+    "last": 22.1
+  },
+  "398000": {
+    "name": "Little Big Adventure 2",
+    "low": 10.5,
+    "last": 10.5
+  },
+  "1686440": {
+    "name": "Yoshimitsu Hatsumi",
+    "low": 2.5,
+    "last": 2.5
+  },
+  "2500460": {
+    "name": "Inventorix",
+    "low": 4.4,
+    "last": 4.4
+  },
+  "2159560": {
+    "name": "Glowmonkey2k",
+    "low": 33.0,
+    "last": 33.0
+  },
+  "3204110": {
+    "name": "Death Frame",
+    "low": 29.0,
+    "last": 29.0
+  },
+  "5555400": {
+    "name": "Kingdomsweeper",
+    "low": 25.0,
+    "last": 25.0
+  },
+  "5491360": {
+    "name": "Toy Breakers",
+    "low": 10.0,
+    "last": 10.0
+  },
+  "1419970": {
+    "name": "ZULMARASH: Echoes of Zaltar",
+    "low": 33.75,
+    "last": 33.75
+  },
+  "2010400": {
+    "name": "Hell Green Blue",
+    "low": 2.5,
+    "last": 2.5
+  },
+  "3640430": {
+    "name": "Worlds Upon The Wind",
+    "low": 33.6,
+    "last": 33.6
+  },
+  "5542020": {
+    "name": "Flock Hunt",
+    "low": 67.34,
+    "last": 67.34
+  },
+  "249130": {
+    "name": "LEGO® Marvel™ Super Heroes",
+    "low": 13.6,
+    "last": 13.6
+  },
+  "2868850": {
+    "name": "Wizard of Maths",
+    "low": 22.0,
+    "last": 22.0
+  },
+  "1171320": {
+    "name": "Frog Detective 3: Corruption at Cowboy County",
+    "low": 13.2,
+    "last": 13.2
+  },
+  "5522420": {
+    "name": "Plunder — Coffers & Cutlasses",
+    "low": 21.25,
+    "last": 21.25
+  },
+  "5536060": {
+    "name": "War Tiles: Napoleons Invasion of Russia",
+    "low": 15.0,
+    "last": 15.0
+  },
+  "4052860": {
+    "name": "神猴卡牌",
+    "low": 3.9,
+    "last": 3.9
+  },
+  "3441280": {
+    "name": "The Greenening",
+    "low": 14.4,
+    "last": 14.4
+  },
+  "346820": {
+    "name": "Crash Drive 3",
+    "low": 15.2,
+    "last": 15.2
+  },
+  "1097550": {
+    "name": "王国幻境 fantastic kingdom",
+    "low": 2.5,
+    "last": 2.5
+  },
+  "1578720": {
+    "name": "Scrabdackle",
+    "low": 43.5,
+    "last": 43.5
+  },
+  "642020": {
+    "name": "Gordy and the Monster Moon",
+    "low": 4.5,
+    "last": 4.5
+  },
+  "5383490": {
+    "name": "Huex",
+    "low": 18.15,
+    "last": 18.15
+  },
+  "5233480": {
+    "name": "Compactor Baron",
+    "low": 10.4,
+    "last": 10.4
+  },
+  "1745790": {
+    "name": "City Zoomer",
+    "low": 11.0,
+    "last": 11.0
+  },
+  "5117870": {
+    "name": "Antillia",
+    "low": 37.8,
+    "last": 37.8
+  },
+  "2753870": {
+    "name": "Kickback: Shoot to Move! 👾",
+    "low": 11.6,
+    "last": 11.6
+  },
+  "1535490": {
+    "name": "Eggcelerate!",
+    "low": 27.3,
+    "last": 27.3
+  },
+  "2452820": {
+    "name": "Skogdal",
+    "low": 30.4,
+    "last": 30.4
+  },
+  "2635120": {
+    "name": "Birch Simulator",
+    "low": 3.0,
+    "last": 3.0
+  },
+  "4937320": {
+    "name": "KAREI - ENDLESS DEATH MATCH",
+    "low": 50.15,
+    "last": 50.15
+  },
+  "5293870": {
+    "name": "BULLISTIC",
+    "low": 20.8,
+    "last": 20.8
+  },
+  "674140": {
+    "name": "Bugsnax",
+    "low": 40.0,
+    "last": 40.0
+  },
+  "3264960": {
+    "name": "Cardburners",
+    "low": 29.25,
+    "last": 29.25
+  },
+  "5462260": {
+    "name": "挖！挖！挖宝藏",
+    "low": 7.0,
+    "last": 7.0
+  },
+  "5014420": {
+    "name": "にゃんこサバイバー",
+    "low": 19.5,
+    "last": 19.5
+  },
+  "5553760": {
+    "name": "Idle Mind",
+    "low": 11.4,
+    "last": 11.4
+  },
+  "5394410": {
+    "name": "Titheborn",
+    "low": 45.9,
+    "last": 45.9
+  },
+  "5071760": {
+    "name": "KICKSLAUGHT: Football Idle",
+    "low": 4.5,
+    "last": 4.5
+  },
+  "5464510": {
+    "name": "RADARLUCK",
+    "low": 5.0,
+    "last": 5.0
+  },
+  "4480310": {
+    "name": "SpaceSteps",
+    "low": 33.0,
+    "last": 33.0
+  },
+  "5220580": {
+    "name": "Pixireels",
+    "low": 17.6,
+    "last": 17.6
+  },
+  "5482330": {
+    "name": "Wayfarion",
+    "low": 22.0,
+    "last": 22.0
+  },
+  "4137750": {
+    "name": "东方铭珠塔",
+    "low": 18.7,
+    "last": 18.7
+  },
+  "4653380": {
+    "name": "Anvilia",
+    "low": 23.8,
+    "last": 23.8
+  },
+  "1222140": {
+    "name": "底特律：化身为人",
+    "low": 13.6,
+    "last": 13.6
+  },
+  "4905460": {
+    "name": "Chest Looter: Cardimonsta Collection",
+    "low": 17.6,
+    "last": 17.6
+  },
+  "5000170": {
+    "name": "洞穴大冒险",
+    "low": 20.8,
+    "last": 20.8
+  },
+  "2129390": {
+    "name": "CATAIRE - Gambling with cats",
+    "low": 2.5,
+    "last": 2.5
+  },
+  "5486380": {
+    "name": "Taenera's Offer",
+    "low": 21.0,
+    "last": 21.0
+  },
+  "5342300": {
+    "name": "Amateur Football Together",
+    "low": 16.2,
+    "last": 16.2
+  },
+  "4990940": {
+    "name": "PC Store Together",
+    "low": 38.25,
+    "last": 38.25
+  },
+  "3380360": {
+    "name": "亡灵宝藏",
+    "low": 2.5,
+    "last": 2.5
+  },
+  "5403320": {
+    "name": "寻长生",
+    "low": 3.0,
+    "last": 3.0
+  },
+  "4754860": {
+    "name": "白给俱乐部",
+    "low": 19.8,
+    "last": 19.8
+  },
+  "3220460": {
+    "name": "Lucky Scoop",
+    "low": 9.84,
+    "last": 9.84
+  },
+  "5232860": {
+    "name": "Ghost//Root",
+    "low": 42.0,
+    "last": 42.0
+  },
+  "4135110": {
+    "name": "8AM: The Graveyard",
+    "low": 16.2,
+    "last": 16.2
+  },
+  "4498140": {
+    "name": "天坑追匪",
+    "low": 47.2,
+    "last": 47.2
+  },
+  "5489920": {
+    "name": "Why Not Fly That?",
+    "low": 7.8,
+    "last": 7.8
+  },
+  "5046950": {
+    "name": "Phantasm Cube",
+    "low": 22.5,
+    "last": 22.5
+  },
+  "4483020": {
+    "name": "火之言传",
+    "low": 43.2,
+    "last": 43.2
+  },
+  "4244180": {
+    "name": "No Blink Allowed",
+    "low": 14.4,
+    "last": 14.4
+  },
+  "5384150": {
+    "name": "DaVincis Delivery Service",
+    "low": 13.5,
+    "last": 13.5
+  },
+  "4156500": {
+    "name": "Rekindled: Cozy Tavern Life",
+    "low": 52.2,
+    "last": 52.2
+  },
+  "5568320": {
+    "name": "中国式考试",
+    "low": 4.0,
+    "last": 4.0
+  },
+  "815830": {
+    "name": "Space Escape!",
+    "low": 2.5,
+    "last": 2.5
+  },
+  "5563310": {
+    "name": "Arcane Surge",
+    "low": 63.7,
+    "last": 63.7
+  },
+  "5537810": {
+    "name": "Eras of Myths and Monsters",
+    "low": 35.0,
+    "last": 35.0
+  },
+  "2209340": {
+    "name": "Have You Herd?",
+    "low": 29.75,
+    "last": 29.75
+  },
+  "5395630": {
+    "name": "Symphony of War: The Nephilim Saga - Hold the Line",
+    "low": 27.9,
+    "last": 27.9
+  },
+  "1737370": {
+    "name": "侏罗纪建筑师",
+    "low": 29.75,
+    "last": 29.75
+  },
+  "1906130": {
+    "name": "Yum Collector",
+    "low": 2.5,
+    "last": 2.5
+  },
+  "2918700": {
+    "name": "One more time",
+    "low": 22.0,
+    "last": 22.0
+  },
+  "4685950": {
+    "name": "蚂蚁点倍",
+    "low": 12.75,
+    "last": 12.75
+  },
+  "5314080": {
+    "name": "One More Donut",
+    "low": 11.04,
+    "last": 11.04
+  },
+  "4412040": {
+    "name": "Absorber: Absorb Adapt Survive",
+    "low": 29.75,
+    "last": 29.75
+  },
+  "4243240": {
+    "name": "Corefall: Idle Dungeon RPG",
+    "low": 33.6,
+    "last": 33.6
+  },
+  "2440590": {
+    "name": "AR3NA",
+    "low": 70.0,
+    "last": 70.0
+  },
+  "4941170": {
+    "name": "Raise, Rise & Die",
+    "low": 48.6,
+    "last": 48.6
+  },
+  "5151230": {
+    "name": "Knead a Break",
+    "low": 193.8,
+    "last": 193.8
+  },
+  "1533990": {
+    "name": "Startelf - Der Fußballmanager",
+    "low": 69.6,
+    "last": 69.6
+  },
+  "5311750": {
+    "name": "Iron Maw",
+    "low": 19.6,
+    "last": 19.6
+  },
+  "5113360": {
+    "name": "Bookish Buddies: Bookstore Simulator",
+    "low": 14.3,
+    "last": 14.3
+  },
+  "5218850": {
+    "name": "Geo-Political Simulator 2027 Edition",
+    "low": 249.0,
+    "last": 249.0
   }
 }
