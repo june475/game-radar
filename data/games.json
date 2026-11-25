@@ -3,7 +3,8 @@
     "updated_at_cn": "2026-11-25 01:54",
     "version": "V4 review-context discovery",
     "note": "尝鲜榜不设价格或好评率硬门槛；查看近期简中差评关键词，区别争议类型。分析是辅助证据，不代表玩家差评全部属实或无效。",
-    "last_enrichment_utc": "2026-11-24T23:57:25.132251+00:00"
+    "last_enrichment_utc": "2026-11-24T23:57:25.132251+00:00",
+    "last_key_enrichment_utc": "2026-11-25T00:37:17.249307+00:00"
   },
   "counts": {
     "deal": 30,
@@ -6447,7 +6448,15 @@
       },
       "key_offers": [],
       "key_reference_min": null,
-      "tracked_low": 2.5
+      "tracked_low": 2.5,
+      "key_status": "暂无有效散 Key 参考价",
+      "enrichment_status": {
+        "keys": {
+          "status": "no_quote",
+          "checked_at": "2026-11-25T00:37:17.249307+00:00",
+          "next_retry_at": "2026-11-26T00:37:17.249307+00:00"
+        }
+      }
     },
     {
       "appid": 1097550,
@@ -6525,8 +6534,14 @@
           "checked_at": "2026-11-24T23:57:25.132251+00:00",
           "next_retry_at": "2026-11-26T23:57:25.132251+00:00",
           "details": "negative reviews unavailable"
+        },
+        "keys": {
+          "status": "no_quote",
+          "checked_at": "2026-11-25T00:37:17.249307+00:00",
+          "next_retry_at": "2026-11-26T00:37:17.249307+00:00"
         }
-      }
+      },
+      "key_status": "暂无有效散 Key 参考价"
     },
     {
       "appid": 1990790,
@@ -6584,7 +6599,15 @@
       },
       "key_offers": [],
       "key_reference_min": null,
-      "tracked_low": 2.5
+      "tracked_low": 2.5,
+      "key_status": "暂无有效散 Key 参考价",
+      "enrichment_status": {
+        "keys": {
+          "status": "no_quote",
+          "checked_at": "2026-11-25T00:37:17.249307+00:00",
+          "next_retry_at": "2026-11-26T00:37:17.249307+00:00"
+        }
+      }
     },
     {
       "appid": 948770,
@@ -6753,9 +6776,27 @@
         "confidence": "限流或预算不足",
         "note": "未获取新差评"
       },
-      "key_offers": [],
-      "key_reference_min": null,
-      "tracked_low": 2.5
+      "key_offers": [
+        {
+          "platform": "SteamPY",
+          "price": 2.0,
+          "status": "CDKey接口参考价｜库存、地区及版本需打开商品页确认",
+          "url": "https://steampy.com/cdkDetail?name=cn&gameId=9001012868221526343680",
+          "kind": "reference",
+          "subid": 761693,
+          "checked_at": "2026-11-25T00:37:17.249307+00:00"
+        }
+      ],
+      "key_reference_min": 2.0,
+      "tracked_low": 2.5,
+      "key_status": "参考报价，不代表实时库存",
+      "enrichment_status": {
+        "keys": {
+          "status": "success",
+          "checked_at": "2026-11-25T00:37:17.249307+00:00",
+          "next_retry_at": "2026-11-28T00:37:17.249307+00:00"
+        }
+      }
     },
     {
       "appid": 3380360,
@@ -6814,9 +6855,27 @@
         "confidence": "限流或预算不足",
         "note": "未获取新差评"
       },
-      "key_offers": [],
-      "key_reference_min": null,
-      "tracked_low": 2.5
+      "key_offers": [
+        {
+          "platform": "SteamPY",
+          "price": 9.99,
+          "status": "CDKey接口参考价｜库存、地区及版本需打开商品页确认",
+          "url": "https://steampy.com/cdkDetail?name=cn&gameId=9000884137617040375810",
+          "kind": "reference",
+          "subid": 1196178,
+          "checked_at": "2026-11-25T00:37:17.249307+00:00"
+        }
+      ],
+      "key_reference_min": 9.99,
+      "tracked_low": 2.5,
+      "key_status": "参考报价，不代表实时库存",
+      "enrichment_status": {
+        "keys": {
+          "status": "success",
+          "checked_at": "2026-11-25T00:37:17.249307+00:00",
+          "next_retry_at": "2026-11-28T00:37:17.249307+00:00"
+        }
+      }
     }
   ]
 }
