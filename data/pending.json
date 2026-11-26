@@ -59,642 +59,607 @@
     "_flag": "deal"
   },
   {
-    "id": 3205380,
+    "id": 1412913,
+    "type": 1,
+    "name": "SILENT HILL 2 & SILENT HILL f Standard Dual Pack",
+    "discounted": true,
+    "discount_percent": 65,
+    "original_price": 44800,
+    "final_price": 15680,
+    "currency": "CNY",
+    "large_capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/subs/1412913/e410e9ffde31ad85e56a3c5759f195e59e6edf32/capsule_616x353.jpg?t=1764007149",
+    "small_capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/subs/1412913/7acfb88dbfdcd3bff56dd693c245a251e651e821/capsule_184x69.jpg?t=1764007149",
+    "windows_available": true,
+    "mac_available": false,
+    "linux_available": false,
+    "streamingvideo_available": false,
+    "discount_expiration": 1796839200,
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/subs/1412913/7a18bda5c6ec6a6a53a880ec4451349ab4da1bfe/header_ratio.jpg?t=1764007149",
+    "controller_support": "full",
+    "_flag": "deal"
+  },
+  {
+    "id": 1686370,
     "_flag": "deal",
     "_search": true
   },
   {
-    "id": 590590,
+    "id": 5580350,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 4111370,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 1422650,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 4316030,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 1057090,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 3345950,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 1948280,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 4727330,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 4169820,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 1593500,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 2000360,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 609320,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 1500740,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 2513280,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 1328840,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 5446860,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 1919060,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 508440,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 1557740,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 2366980,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 4069520,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 4709020,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 4259360,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 4697880,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 1854120,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 1522870,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 3293010,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 815830,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 3856460,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 4640550,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 2983250,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 4147820,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 5134290,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 2307150,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 3651370,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 4759570,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 4045480,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 1426210,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 213670,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 4679490,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 3024120,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 4979730,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 3345950,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 5224030,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 5565650,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 2983260,
     "_flag": "explore",
     "_search": true
   },
   {
     "id": 1089980,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 4009490,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 1547910,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 1145350,
     "_flag": "deal",
     "_search": true
   },
   {
-    "id": 1261300,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 4688610,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 5522790,
+    "id": 1517160,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 307690,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 1885750,
+    "id": 2207070,
     "_flag": "deal",
     "_search": true
   },
   {
-    "id": 5570430,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 2984800,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 1679210,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 1048540,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 2759900,
+    "id": 2572040,
     "_flag": "deal",
     "_search": true
   },
   {
-    "id": 5570360,
+    "id": 4572620,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 3548580,
+    "id": 4991240,
     "_flag": "explore",
     "_search": true
   },
   {
-    "id": 4169820,
+    "id": 1557740,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 5253240,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 2052410,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 246420,
     "_flag": "deal",
     "_search": true
   },
   {
-    "id": 467580,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 1066290,
+    "id": 3874950,
     "_flag": "explore",
     "_search": true
   },
   {
-    "id": 3899990,
+    "id": 5423300,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 2840190,
+    "id": 609320,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 5136620,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 3189440,
     "_flag": "deal",
     "_search": true
   },
   {
-    "id": 597170,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 7200,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 1113000,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 3370870,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 2982610,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 5053240,
+    "id": 3103620,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 233860,
+    "id": 1067850,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 1040200,
     "_flag": "deal",
     "_search": true
   },
   {
-    "id": 386940,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 1270460,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 1550920,
+    "id": 5546750,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 1328840,
+    "id": 2403020,
     "_flag": "explore",
     "_search": true
   },
   {
-    "id": 3033080,
+    "id": 2000360,
     "_flag": "deal",
     "_search": true
   },
   {
-    "id": 3911490,
+    "id": 5585630,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 1995100,
+    "id": 4211860,
     "_flag": "explore",
     "_search": true
   },
   {
-    "id": 1304680,
+    "id": 5383780,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 397340,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 3480,
     "_flag": "deal",
     "_search": true
   },
   {
-    "id": 205100,
+    "id": 787350,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 1493410,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 3048840,
     "_flag": "deal",
     "_search": true
   },
   {
-    "id": 2918700,
+    "id": 5541950,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 212480,
+    "id": 508440,
     "_flag": "explore",
     "_search": true
   },
   {
-    "id": 531510,
+    "id": 2375550,
     "_flag": "deal",
     "_search": true
   },
   {
-    "id": 4570030,
+    "id": 5541850,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 2500460,
+    "id": 657240,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 3293010,
     "_flag": "deal",
     "_search": true
   },
   {
-    "id": 5475470,
+    "id": 4906720,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 1088070,
+    "id": 1097550,
     "_flag": "explore",
     "_search": true
   },
   {
-    "id": 3934180,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 1202540,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 22320,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 4004390,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 249130,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 4733480,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 2682600,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 315810,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 4892860,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 1990810,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 398000,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 4959350,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 2902540,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 236090,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 1589570,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 5123930,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 5534880,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 1793910,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 3640430,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 2764460,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 1655700,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 236090,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 5451830,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 346820,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 7200,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 1043340,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 1547910,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 956030,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 5123100,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 1745790,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 2764460,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 3934180,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 1171320,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 2440590,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 2206720,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 4434380,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 5378110,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 3204110,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 3109590,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 1887400,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 5270220,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 1535490,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 2840190,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 3548580,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 3972980,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 1790800,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 1919060,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 5572500,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 3547270,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 5462060,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 251290,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 5335560,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 244210,
-    "_flag": "explore",
-    "_search": true
-  },
-  {
-    "id": 2561460,
+    "id": 4308630,
     "_flag": "new",
     "_search": true
   },
   {
     "id": 2356500,
+    "_flag": "deal",
+    "_search": true
+  },
+  {
+    "id": 813630,
     "_flag": "explore",
     "_search": true
   },
   {
-    "id": 2452820,
+    "id": 2678990,
     "_flag": "deal",
     "_search": true
   },
   {
-    "id": 2892670,
+    "id": 4941160,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 3864530,
+    "id": 5577230,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 2207110,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 2678990,
+    "_flag": "explore",
+    "_search": true
+  },
+  {
+    "id": 1283480,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 4257680,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 1793910,
     "_flag": "deal",
     "_search": true
   },
   {
-    "id": 3370870,
+    "id": 5495060,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 5067510,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 293780,
     "_flag": "deal",
     "_search": true
   },
   {
-    "id": 5441840,
+    "id": 3098060,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 1066290,
+    "id": 2715880,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 4498140,
     "_flag": "deal",
     "_search": true
   },
   {
-    "id": 1255650,
+    "id": 4989110,
+    "_flag": "new",
+    "_search": true
+  },
+  {
+    "id": 841600,
     "_flag": "deal",
     "_search": true
   },
   {
-    "id": 5569760,
+    "id": 5458540,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 1700270,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 3264960,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 5534730,
+    "id": 4728250,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 1578720,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 4382960,
+    "id": 5514080,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 427700,
-    "_flag": "deal",
-    "_search": true
-  },
-  {
-    "id": 5029630,
+    "id": 5172860,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 4893050,
+    "id": 5551020,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 5370260,
+    "id": 5509990,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 5562170,
+    "id": 4160050,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 5476460,
+    "id": 4667460,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 5456360,
+    "id": 5555150,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 4941170,
+    "id": 3967860,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 5208650,
+    "id": 5191410,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 4116400,
+    "id": 5513420,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 5013700,
+    "id": 5126340,
     "_flag": "new",
     "_search": true
   },
   {
-    "id": 3388640,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 5196730,
-    "_flag": "new",
-    "_search": true
-  },
-  {
-    "id": 4504650,
+    "id": 5587040,
     "_flag": "new",
     "_search": true
   }

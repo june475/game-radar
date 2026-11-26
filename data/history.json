@@ -3571,8 +3571,8 @@
   },
   "5053240": {
     "name": "SAMBIRD",
-    "low": 33.0,
-    "last": 33.0
+    "low": 19.0,
+    "last": 19.0
   },
   "5372090": {
     "name": "Heretics Amulet",
@@ -16538,5 +16538,475 @@
     "name": "时间有点急手忙脚乱游戏车轮战",
     "low": 4.8,
     "last": 4.8
+  },
+  "4009490": {
+    "name": "极地车旅",
+    "low": 58.0,
+    "last": 58.0
+  },
+  "1547910": {
+    "name": "Plasma Attack",
+    "low": 2.5,
+    "last": 2.5
+  },
+  "1145350": {
+    "name": "Hades II",
+    "low": 75.6,
+    "last": 75.6
+  },
+  "5522790": {
+    "name": "Chemtris",
+    "low": 21.25,
+    "last": 21.25
+  },
+  "5570430": {
+    "name": "TOTEMYTH",
+    "low": 35.0,
+    "last": 35.0
+  },
+  "2984800": {
+    "name": "Double Whammy",
+    "low": 48.6,
+    "last": 48.6
+  },
+  "5570360": {
+    "name": "Mischka Cars",
+    "low": 15.2,
+    "last": 15.2
+  },
+  "467580": {
+    "name": "Mop Royale",
+    "low": 31.5,
+    "last": 31.5
+  },
+  "3899990": {
+    "name": "空间漫游",
+    "low": 50.15,
+    "last": 50.15
+  },
+  "3370870": {
+    "name": "Berry Bury Berry",
+    "low": 19.8,
+    "last": 19.8
+  },
+  "1550920": {
+    "name": "Slime Alchemy",
+    "low": 13.5,
+    "last": 13.5
+  },
+  "3911490": {
+    "name": "移形改命 - Forge the Fates",
+    "low": 33.6,
+    "last": 33.6
+  },
+  "1304680": {
+    "name": "Voidigo",
+    "low": 10.5,
+    "last": 10.5
+  },
+  "531510": {
+    "name": "Just Shapes & Beats",
+    "low": 42.0,
+    "last": 42.0
+  },
+  "4570030": {
+    "name": "HIGH HORNS",
+    "low": 19.8,
+    "last": 19.8
+  },
+  "5475470": {
+    "name": "Sort of Cheesy: Tidy up the Cheese Cave",
+    "low": 19.8,
+    "last": 19.8
+  },
+  "1088070": {
+    "name": "HUNTERS FOR YOUR BRAIN",
+    "low": 2.5,
+    "last": 2.5
+  },
+  "4004390": {
+    "name": "文字生存守则",
+    "low": 11.4,
+    "last": 11.4
+  },
+  "4733480": {
+    "name": "沙海方舟",
+    "low": 23.4,
+    "last": 23.4
+  },
+  "4892860": {
+    "name": "Marrow Meadows",
+    "low": 35.0,
+    "last": 35.0
+  },
+  "4959350": {
+    "name": "Take This Thing Out Of Me",
+    "low": 7.5,
+    "last": 7.5
+  },
+  "2902540": {
+    "name": "坤化危机",
+    "low": 4.0,
+    "last": 4.0
+  },
+  "5123930": {
+    "name": "TCG Town",
+    "low": 69.3,
+    "last": 69.3
+  },
+  "1793910": {
+    "name": "Drone Crash Course",
+    "low": 2.5,
+    "last": 2.5
+  },
+  "5451830": {
+    "name": "Ordanum",
+    "low": 34.44,
+    "last": 34.44
+  },
+  "5123100": {
+    "name": "方块前线TD",
+    "low": 13.5,
+    "last": 13.5
+  },
+  "2206720": {
+    "name": "Lab Inspect",
+    "low": 2.5,
+    "last": 2.5
+  },
+  "3109590": {
+    "name": "Cat Cafe Manager 2: Big City Bliss",
+    "low": 76.53,
+    "last": 76.53
+  },
+  "1887400": {
+    "name": "安东爆破",
+    "low": 41.25,
+    "last": 41.25
+  },
+  "5270220": {
+    "name": "Sound Bounded",
+    "low": 23.8,
+    "last": 23.8
+  },
+  "3972980": {
+    "name": "Mirklurk: Every Step Matters",
+    "low": 40.5,
+    "last": 40.5
+  },
+  "1790800": {
+    "name": "Brave Doggy Quest",
+    "low": 2.5,
+    "last": 2.5
+  },
+  "5572500": {
+    "name": "东方白泽赛车 - Touhou Sukusuku Racing",
+    "low": 19.8,
+    "last": 19.8
+  },
+  "5462060": {
+    "name": "SheepTag: Dragons",
+    "low": 15.2,
+    "last": 15.2
+  },
+  "251290": {
+    "name": "The Legend of Heroes: Trails in the Sky SC",
+    "low": 57.2,
+    "last": 57.2
+  },
+  "5335560": {
+    "name": "Street Value",
+    "low": 15.2,
+    "last": 15.2
+  },
+  "3864530": {
+    "name": "炽澜号",
+    "low": 28.0,
+    "last": 28.0
+  },
+  "1255650": {
+    "name": "几何竞技场",
+    "low": 4.5,
+    "last": 4.5
+  },
+  "5569760": {
+    "name": "Blacksmithkin",
+    "low": 8.71,
+    "last": 8.71
+  },
+  "1700270": {
+    "name": "终极幸运之塔 (Lucky Tower Ultimate)",
+    "low": 46.4,
+    "last": 46.4
+  },
+  "5534730": {
+    "name": "One Shade Closer",
+    "low": 12.75,
+    "last": 12.75
+  },
+  "4382960": {
+    "name": "Snackrifice",
+    "low": 24.65,
+    "last": 24.65
+  },
+  "427700": {
+    "name": "Zwei: The Ilvard Insurrection",
+    "low": 28.0,
+    "last": 28.0
+  },
+  "5029630": {
+    "name": "今天的冒险者公会也很和平",
+    "low": 13.3,
+    "last": 13.3
+  },
+  "5370260": {
+    "name": "一起堆杂物塔",
+    "low": 9.6,
+    "last": 9.6
+  },
+  "5562170": {
+    "name": "Castles Keeper",
+    "low": 11.4,
+    "last": 11.4
+  },
+  "5476460": {
+    "name": "Doomsday Survivor 末日幸存者",
+    "low": 17.6,
+    "last": 17.6
+  },
+  "5456360": {
+    "name": "昭幽：阴阳渡",
+    "low": 24.5,
+    "last": 24.5
+  },
+  "4116400": {
+    "name": "Sunstone of Time",
+    "low": 53.6,
+    "last": 53.6
+  },
+  "5013700": {
+    "name": "无人归家",
+    "low": 13.99,
+    "last": 13.99
+  },
+  "5196730": {
+    "name": "Eldwyn's Dungeon Academy",
+    "low": 19.8,
+    "last": 19.8
+  },
+  "4504650": {
+    "name": "Bone Bazaar",
+    "low": 17.1,
+    "last": 17.1
+  },
+  "5477640": {
+    "name": "Paragra: Paragliding Adventure",
+    "low": 17.1,
+    "last": 17.1
+  },
+  "5472910": {
+    "name": "深渊破坏神",
+    "low": 18.0,
+    "last": 18.0
+  },
+  "5458820": {
+    "name": "Paid Parking Simulator",
+    "low": 38.25,
+    "last": 38.25
+  },
+  "5507100": {
+    "name": "Yukikaki: Snow Plow Simulator",
+    "low": 29.75,
+    "last": 29.75
+  },
+  "3612300": {
+    "name": "Fool's Trigger",
+    "low": 17.4,
+    "last": 17.4
+  },
+  "3991790": {
+    "name": "天外来袭",
+    "low": 38.4,
+    "last": 38.4
+  },
+  "2059670": {
+    "name": "Moss II VR",
+    "low": 38.0,
+    "last": 38.0
+  },
+  "5055010": {
+    "name": "Life of Pawn: Chocolate and Marshmallow",
+    "low": 15.2,
+    "last": 15.2
+  },
+  "4370210": {
+    "name": "裂脑轮回",
+    "low": 25.2,
+    "last": 25.2
+  },
+  "5102610": {
+    "name": "猛砸皮纳塔！",
+    "low": 15.3,
+    "last": 15.3
+  },
+  "5544560": {
+    "name": "Midnight Yakiniku | 深夜焼肉",
+    "low": 13.5,
+    "last": 13.5
+  },
+  "5329520": {
+    "name": "Staying at a Japanese Business Hotel",
+    "low": 16.2,
+    "last": 16.2
+  },
+  "3618850": {
+    "name": "Pronoun Palace",
+    "low": 61.6,
+    "last": 61.6
+  },
+  "5538790": {
+    "name": "War Master: World Conquest",
+    "low": 35.0,
+    "last": 35.0
+  },
+  "268910": {
+    "name": "Cuphead",
+    "low": 47.6,
+    "last": 47.6
+  },
+  "5293270": {
+    "name": "Reshine ‒ Soundtrack",
+    "low": 12.8,
+    "last": 12.8
+  },
+  "5294820": {
+    "name": "Reshine ‒ Digital Artbook",
+    "low": 12.8,
+    "last": 12.8
+  },
+  "4253570": {
+    "name": "拾光修复",
+    "low": 28.8,
+    "last": 28.8
+  },
+  "5529210": {
+    "name": "Auto Mechanic Tidy Up",
+    "low": 15.2,
+    "last": 15.2
+  },
+  "3498700": {
+    "name": "星际弹球 ",
+    "low": 31.2,
+    "last": 31.2
+  },
+  "4019220": {
+    "name": "针影裁梦",
+    "low": 47.2,
+    "last": 47.2
+  },
+  "1067850": {
+    "name": "Kindergarten 2",
+    "low": 14.5,
+    "last": 14.5
+  },
+  "3739810": {
+    "name": "Cinema Dreams: Rise of a Director",
+    "low": 10.0,
+    "last": 10.0
+  },
+  "5214570": {
+    "name": "Coma Dreams",
+    "low": 15.2,
+    "last": 15.2
+  },
+  "1314500": {
+    "name": "Improbable Soccer",
+    "low": 20.8,
+    "last": 20.8
+  },
+  "4315950": {
+    "name": "Mars Colony Simulator",
+    "low": 17.1,
+    "last": 17.1
+  },
+  "897220": {
+    "name": "Summer Pockets",
+    "low": 44.1,
+    "last": 44.1
+  },
+  "5360050": {
+    "name": "Carnival: Tidy Up!",
+    "low": 17.6,
+    "last": 17.6
+  },
+  "5288370": {
+    "name": "Casino School",
+    "low": 41.3,
+    "last": 41.3
+  },
+  "3934510": {
+    "name": "A Cold Comfort",
+    "low": 26.1,
+    "last": 26.1
+  },
+  "4323390": {
+    "name": "Swept Under",
+    "low": 42.0,
+    "last": 42.0
+  },
+  "623080": {
+    "name": "planetarian HD",
+    "low": 12.6,
+    "last": 12.6
+  },
+  "5243130": {
+    "name": "Desktop Tower",
+    "low": 11.0,
+    "last": 11.0
+  },
+  "5463290": {
+    "name": "Train Station Staff Simulator",
+    "low": 48.8,
+    "last": 48.8
+  },
+  "4947630": {
+    "name": "7 Shifts in Subway",
+    "low": 30.6,
+    "last": 30.6
+  },
+  "4362880": {
+    "name": "TOP STEED",
+    "low": 59.0,
+    "last": 59.0
+  },
+  "3500990": {
+    "name": "Psycho Frogo",
+    "low": 12.75,
+    "last": 12.75
+  },
+  "4465120": {
+    "name": "Dice Ark",
+    "low": 28.8,
+    "last": 28.8
+  },
+  "5345620": {
+    "name": "Gravity Switch",
+    "low": 28.05,
+    "last": 28.05
+  },
+  "5033130": {
+    "name": "Neon Run",
+    "low": 42.0,
+    "last": 42.0
+  },
+  "5409780": {
+    "name": "4th Supplementary",
+    "low": 15.0,
+    "last": 15.0
+  },
+  "5526980": {
+    "name": "Planet Chess",
+    "low": 16.75,
+    "last": 16.75
   }
 }
