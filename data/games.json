@@ -3,7 +3,7 @@
     "updated_at_cn": "2026-11-28 00:47",
     "version": "V4 review-context discovery",
     "note": "尝鲜榜不设价格或好评率硬门槛；查看近期简中差评关键词，区别争议类型。分析是辅助证据，不代表玩家差评全部属实或无效。",
-    "last_enrichment_utc": "2026-11-27T18:22:24.111464+00:00"
+    "last_enrichment_utc": "2026-11-27T21:31:29.674286+00:00"
   },
   "counts": {
     "deal": 30,
@@ -1311,8 +1311,8 @@
         },
         "deck": {
           "status": "unverified",
-          "checked_at": "2026-11-21T07:32:59.681344+00:00",
-          "next_retry_at": "2026-11-22T07:32:59.681344+00:00",
+          "checked_at": "2026-11-27T21:31:29.674286+00:00",
+          "next_retry_at": "2026-11-28T21:31:29.674286+00:00",
           "details": "official grade unavailable"
         },
         "history": {
@@ -6045,6 +6045,12 @@
           "checked_at": "2026-11-27T18:22:24.111464+00:00",
           "next_retry_at": "2026-11-28T18:22:24.111464+00:00",
           "details": "no verified CNY historical record"
+        },
+        "deck": {
+          "status": "unverified",
+          "checked_at": "2026-11-27T21:31:29.674286+00:00",
+          "next_retry_at": "2026-11-28T21:31:29.674286+00:00",
+          "details": "official grade unavailable"
         }
       }
     },
@@ -6174,6 +6180,12 @@
           "checked_at": "2026-11-27T18:22:24.111464+00:00",
           "next_retry_at": "2026-11-28T18:22:24.111464+00:00",
           "details": "no verified CNY historical record"
+        },
+        "deck": {
+          "status": "unverified",
+          "checked_at": "2026-11-27T21:31:29.674286+00:00",
+          "next_retry_at": "2026-11-28T21:31:29.674286+00:00",
+          "details": "official grade unavailable"
         }
       }
     },
@@ -6429,6 +6441,12 @@
           "checked_at": "2026-11-27T18:22:24.111464+00:00",
           "next_retry_at": "2026-11-28T18:22:24.111464+00:00",
           "details": "no verified CNY historical record"
+        },
+        "deck": {
+          "status": "unverified",
+          "checked_at": "2026-11-27T21:31:29.674286+00:00",
+          "next_retry_at": "2026-11-28T21:31:29.674286+00:00",
+          "details": "official grade unavailable"
         }
       }
     },
@@ -6739,7 +6757,15 @@
       },
       "key_offers": [],
       "key_reference_min": null,
-      "tracked_low": 2.5
+      "tracked_low": 2.5,
+      "enrichment_status": {
+        "deck": {
+          "status": "unverified",
+          "checked_at": "2026-11-27T21:31:29.674286+00:00",
+          "next_retry_at": "2026-11-28T21:31:29.674286+00:00",
+          "details": "official grade unavailable"
+        }
+      }
     },
     {
       "appid": 2206720,
