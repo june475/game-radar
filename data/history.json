@@ -13227,7 +13227,7 @@
   "1817230": {
     "name": "Hi-Fi RUSH",
     "low": 56.25,
-    "last": 56.25
+    "last": 66.0
   },
   "4451510": {
     "name": "Wisp & Willow",
@@ -14602,7 +14602,7 @@
   "4169820": {
     "name": "永恒与星辰与日常",
     "low": 17.6,
-    "last": 17.6
+    "last": 22.0
   },
   "5455670": {
     "name": "Gripspeak",
@@ -16365,7 +16365,7 @@
     "last": 22.5
   },
   "4989110": {
-    "name": "TCG Shop Life",
+    "name": "卡牌店模拟器：让你开店，你怎么打成世界冠军了",
     "low": 22.5,
     "last": 22.5
   },
@@ -17008,5 +17008,495 @@
     "name": "Planet Chess",
     "low": 16.75,
     "last": 16.75
+  },
+  "5580350": {
+    "name": "Under The Counter",
+    "low": 13.5,
+    "last": 13.5
+  },
+  "4316030": {
+    "name": "Age of Failon - Birth of the Hero",
+    "low": 42.0,
+    "last": 42.0
+  },
+  "4727330": {
+    "name": "守城录：六阵 — 三国卡牌构筑塔防",
+    "low": 8.91,
+    "last": 8.91
+  },
+  "609320": {
+    "name": "FAR: Lone Sails",
+    "low": 7.5,
+    "last": 7.5
+  },
+  "5446860": {
+    "name": "Eyelord Returns",
+    "low": 22.4,
+    "last": 22.4
+  },
+  "4069520": {
+    "name": "超级高尔夫大乱斗",
+    "low": 28.8,
+    "last": 28.8
+  },
+  "4709020": {
+    "name": "BRAVERUN",
+    "low": 29.0,
+    "last": 29.0
+  },
+  "3293010": {
+    "name": "黑猫速递",
+    "low": 32.19,
+    "last": 32.19
+  },
+  "3856460": {
+    "name": "Cursed Words: The Word Game That Isn't",
+    "low": 43.2,
+    "last": 43.2
+  },
+  "4640550": {
+    "name": "Street Food Restaurant Owner",
+    "low": 27.2,
+    "last": 27.2
+  },
+  "2983250": {
+    "name": "AIR",
+    "low": 37.8,
+    "last": 37.8
+  },
+  "5134290": {
+    "name": "Vox Populi II: 2026-2029",
+    "low": 25.49,
+    "last": 25.49
+  },
+  "3651370": {
+    "name": "Sombie",
+    "low": 35.99,
+    "last": 35.99
+  },
+  "4759570": {
+    "name": "No Road Home",
+    "low": 28.0,
+    "last": 28.0
+  },
+  "4679490": {
+    "name": "Mirrorbane",
+    "low": 59.5,
+    "last": 59.5
+  },
+  "4979730": {
+    "name": "Void Walkers X64",
+    "low": 66.16,
+    "last": 66.16
+  },
+  "5565650": {
+    "name": "Depthline",
+    "low": 21.0,
+    "last": 21.0
+  },
+  "2983260": {
+    "name": "LUNARiA -Virtualized Moonchild-",
+    "low": 26.6,
+    "last": 26.6
+  },
+  "1517160": {
+    "name": "鬼山之下",
+    "low": 3.6,
+    "last": 3.6
+  },
+  "4572620": {
+    "name": "Canvas Attack!",
+    "low": 12.8,
+    "last": 12.8
+  },
+  "4991240": {
+    "name": "Witch Cabin Cleanup",
+    "low": 17.6,
+    "last": 17.6
+  },
+  "5253240": {
+    "name": "Rally Racing VR: Xtreme Speed Challenge",
+    "low": 25.2,
+    "last": 25.2
+  },
+  "5423300": {
+    "name": "碧海遗城",
+    "low": 16.15,
+    "last": 16.15
+  },
+  "5136620": {
+    "name": "SOS :Should I Stay or Should I Hit",
+    "low": 16.15,
+    "last": 16.15
+  },
+  "5546750": {
+    "name": "差使：黄昏引魂人",
+    "low": 60.3,
+    "last": 60.3
+  },
+  "5585630": {
+    "name": "梦幻高速",
+    "low": 17.6,
+    "last": 17.6
+  },
+  "5383780": {
+    "name": "Stompworks",
+    "low": 19.6,
+    "last": 19.6
+  },
+  "787350": {
+    "name": "MASKED",
+    "low": 28.0,
+    "last": 28.0
+  },
+  "5541950": {
+    "name": "HellRaiders",
+    "low": 16.15,
+    "last": 16.15
+  },
+  "5541850": {
+    "name": "Dragon Joust",
+    "low": 25.0,
+    "last": 25.0
+  },
+  "4906720": {
+    "name": "FutureFireflies",
+    "low": 53.48,
+    "last": 53.48
+  },
+  "4308630": {
+    "name": "Dopamine rogue",
+    "low": 25.0,
+    "last": 25.0
+  },
+  "5577230": {
+    "name": "The Long Way",
+    "low": 28.0,
+    "last": 28.0
+  },
+  "2207110": {
+    "name": "Power Driver",
+    "low": 2.5,
+    "last": 2.5
+  },
+  "1283480": {
+    "name": "Mossback",
+    "low": 19.8,
+    "last": 19.8
+  },
+  "4257680": {
+    "name": "Odds At Oddity",
+    "low": 21.25,
+    "last": 21.25
+  },
+  "5067510": {
+    "name": "Shiver Slopes",
+    "low": 12.0,
+    "last": 12.0
+  },
+  "293780": {
+    "name": "Crawl",
+    "low": 11.6,
+    "last": 11.6
+  },
+  "3098060": {
+    "name": "商业模拟器",
+    "low": 27.0,
+    "last": 27.0
+  },
+  "2715880": {
+    "name": "Farmer's Diary",
+    "low": 43.2,
+    "last": 43.2
+  },
+  "5458540": {
+    "name": "Night Concierge",
+    "low": 20.0,
+    "last": 20.0
+  },
+  "4728250": {
+    "name": "Chrome Survivor",
+    "low": 33.0,
+    "last": 33.0
+  },
+  "5551020": {
+    "name": "Embodybird",
+    "low": 10.0,
+    "last": 10.0
+  },
+  "5509990": {
+    "name": "Cozy Puzzle Simulator 3D",
+    "low": 16.15,
+    "last": 16.15
+  },
+  "4160050": {
+    "name": "CircuitGig",
+    "low": 29.75,
+    "last": 29.75
+  },
+  "4667460": {
+    "name": "汪里个狼 Wolf in Woof",
+    "low": 46.4,
+    "last": 46.4
+  },
+  "5191410": {
+    "name": "Croissant Simulator",
+    "low": 24.99,
+    "last": 24.99
+  },
+  "5126340": {
+    "name": "Runecast",
+    "low": 30.8,
+    "last": 30.8
+  },
+  "5587040": {
+    "name": "Core Valley",
+    "low": 45.9,
+    "last": 45.9
+  },
+  "5412670": {
+    "name": "2.3 Billion",
+    "low": 11.7,
+    "last": 11.7
+  },
+  "5568830": {
+    "name": "Awake or Sleep: Anomaly",
+    "low": 24.5,
+    "last": 24.5
+  },
+  "4515920": {
+    "name": "BABKA-TERROR",
+    "low": 22.4,
+    "last": 22.4
+  },
+  "4356430": {
+    "name": "《NBA 2K27》",
+    "low": 134.1,
+    "last": 134.1
+  },
+  "5363480": {
+    "name": "Sincerely, Your Diary",
+    "low": 28.0,
+    "last": 28.0
+  },
+  "4388880": {
+    "name": "Star TD",
+    "low": 17.99,
+    "last": 17.99
+  },
+  "3759810": {
+    "name": "CivEconomy",
+    "low": 70.0,
+    "last": 70.0
+  },
+  "5572530": {
+    "name": "Tinsel Tumble",
+    "low": 28.0,
+    "last": 28.0
+  },
+  "5569910": {
+    "name": "Paint the Town",
+    "low": 9.75,
+    "last": 9.75
+  },
+  "5552860": {
+    "name": "Boardgame Nights",
+    "low": 20.0,
+    "last": 20.0
+  },
+  "5380500": {
+    "name": "Gravity Chaos: Video Store",
+    "low": 22.5,
+    "last": 22.5
+  },
+  "5214320": {
+    "name": "Magical Rune Tower: Sort the Alchemist Tower",
+    "low": 18.11,
+    "last": 18.11
+  },
+  "3534790": {
+    "name": "Mesmalie",
+    "low": 28.8,
+    "last": 28.8
+  },
+  "4548350": {
+    "name": "Barro 2026",
+    "low": 2.5,
+    "last": 2.5
+  },
+  "4859100": {
+    "name": "Dice of Soul：最终裁决",
+    "low": 29.81,
+    "last": 29.81
+  },
+  "4861430": {
+    "name": "LLM Tycoon",
+    "low": 29.7,
+    "last": 29.7
+  },
+  "3565090": {
+    "name": "Goobies 2",
+    "low": 33.6,
+    "last": 33.6
+  },
+  "2444400": {
+    "name": "Patch Zero",
+    "low": 11.2,
+    "last": 11.2
+  },
+  "5066090": {
+    "name": "Piece and Quiet: A Stained Glass Restoration",
+    "low": 31.5,
+    "last": 31.5
+  },
+  "5479020": {
+    "name": "桌面摇摇实验室 2D",
+    "low": 9.6,
+    "last": 9.6
+  },
+  "5150120": {
+    "name": "MovingLog",
+    "low": 15.3,
+    "last": 15.3
+  },
+  "460950": {
+    "name": "武士 零",
+    "low": 34.8,
+    "last": 34.8
+  },
+  "292030": {
+    "name": "巫师3：狂猎 — 重制版",
+    "low": 79.6,
+    "last": 79.6
+  },
+  "4684120": {
+    "name": "It Was Not a Suicide",
+    "low": 29.4,
+    "last": 29.4
+  },
+  "1503530": {
+    "name": "Minit Fun Racer",
+    "low": 10.05,
+    "last": 10.05
+  },
+  "4185260": {
+    "name": "Update_Pending",
+    "low": 7.8,
+    "last": 7.8
+  },
+  "5050660": {
+    "name": "The House on Grisewood",
+    "low": 16.25,
+    "last": 16.25
+  },
+  "5121350": {
+    "name": "Gunline",
+    "low": 19.99,
+    "last": 19.99
+  },
+  "5080210": {
+    "name": "The Eggsortist",
+    "low": 24.65,
+    "last": 24.65
+  },
+  "238460": {
+    "name": "BattleBlock Theater®",
+    "low": 14.4,
+    "last": 14.4
+  },
+  "5451610": {
+    "name": "我们的超市整整齐齐",
+    "low": 16.9,
+    "last": 16.9
+  },
+  "303590": {
+    "name": "Hidden in Plain Sight",
+    "low": 6.5,
+    "last": 6.5
+  },
+  "4368520": {
+    "name": "pieces/候鸟的梦",
+    "low": 71.1,
+    "last": 71.1
+  },
+  "3634710": {
+    "name": "DWARRF: A Pinball Roguelike",
+    "low": 51.85,
+    "last": 51.85
+  },
+  "2532550": {
+    "name": "俄罗斯人对蜥蜴人",
+    "low": 5.0,
+    "last": 5.0
+  },
+  "5140770": {
+    "name": "Story of The Needle In a Haystack",
+    "low": 16.15,
+    "last": 16.15
+  },
+  "4930380": {
+    "name": "TaskTank",
+    "low": 36.0,
+    "last": 36.0
+  },
+  "5460630": {
+    "name": "Crash Protocol: The Wrong Directive",
+    "low": 17.6,
+    "last": 17.6
+  },
+  "3129360": {
+    "name": "Aksun",
+    "low": 58.0,
+    "last": 58.0
+  },
+  "5580500": {
+    "name": "The Ashen Crown",
+    "low": 23.8,
+    "last": 23.8
+  },
+  "5559930": {
+    "name": "Catnip Wars : Nine Lives Racing",
+    "low": 19.0,
+    "last": 19.0
+  },
+  "3333850": {
+    "name": "Arkheron",
+    "low": 88.0,
+    "last": 88.0
+  },
+  "5414150": {
+    "name": "Via Libera: Italian Train Driver",
+    "low": 47.2,
+    "last": 47.2
+  },
+  "5483280": {
+    "name": "Metal Wayfarer",
+    "low": 19.31,
+    "last": 19.31
+  },
+  "5570100": {
+    "name": "Deep Shaft",
+    "low": 35.1,
+    "last": 35.1
+  },
+  "5057880": {
+    "name": "重锁：救赎之链",
+    "low": 49.0,
+    "last": 49.0
+  },
+  "5074820": {
+    "name": "龙战纪元：转转大冒险",
+    "low": 34.56,
+    "last": 34.56
+  },
+  "4179700": {
+    "name": "Galactic Arms",
+    "low": 68.4,
+    "last": 68.4
+  },
+  "5417370": {
+    "name": "东方自走棋",
+    "low": 17.1,
+    "last": 17.1
   }
 }
