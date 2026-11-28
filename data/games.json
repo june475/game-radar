@@ -3,7 +3,7 @@
     "updated_at_cn": "2026-11-28 00:47",
     "version": "V4 review-context discovery",
     "note": "尝鲜榜不设价格或好评率硬门槛；查看近期简中差评关键词，区别争议类型。分析是辅助证据，不代表玩家差评全部属实或无效。",
-    "last_enrichment_utc": "2026-11-28T08:25:38.759057+00:00",
+    "last_enrichment_utc": "2026-11-28T09:29:24.609765+00:00",
     "last_key_enrichment_utc": "2026-11-28T07:38:40.048130+00:00"
   },
   "counts": {
@@ -6088,6 +6088,12 @@
           "checked_at": "2026-11-28T08:25:38.759057+00:00",
           "next_retry_at": "2026-11-29T08:25:38.759057+00:00",
           "details": "incomplete third-party archive"
+        },
+        "mobile": {
+          "status": "unverified",
+          "checked_at": "2026-11-28T09:29:24.609765+00:00",
+          "next_retry_at": "2026-11-29T09:29:24.609765+00:00",
+          "details": "no verified official port record"
         }
       }
     },
@@ -6154,6 +6160,12 @@
           "checked_at": "2026-11-28T08:25:38.759057+00:00",
           "next_retry_at": "2026-11-29T08:25:38.759057+00:00",
           "details": "incomplete third-party archive"
+        },
+        "mobile": {
+          "status": "unverified",
+          "checked_at": "2026-11-28T09:29:24.609765+00:00",
+          "next_retry_at": "2026-11-29T09:29:24.609765+00:00",
+          "details": "no verified official port record"
         }
       }
     },
@@ -6243,6 +6255,12 @@
           "checked_at": "2026-11-28T08:25:38.759057+00:00",
           "next_retry_at": "2026-11-29T08:25:38.759057+00:00",
           "details": "incomplete third-party archive"
+        },
+        "mobile": {
+          "status": "unverified",
+          "checked_at": "2026-11-28T09:29:24.609765+00:00",
+          "next_retry_at": "2026-11-29T09:29:24.609765+00:00",
+          "details": "no verified official port record"
         }
       }
     },
@@ -6711,6 +6729,12 @@
           "checked_at": "2026-11-28T08:25:38.759057+00:00",
           "next_retry_at": "2026-11-29T08:25:38.759057+00:00",
           "details": "incomplete third-party archive"
+        },
+        "mobile": {
+          "status": "unverified",
+          "checked_at": "2026-11-28T09:29:24.609765+00:00",
+          "next_retry_at": "2026-11-29T09:29:24.609765+00:00",
+          "details": "no verified official port record"
         }
       },
       "key_reference_min": null,
@@ -6948,6 +6972,12 @@
           "checked_at": "2026-11-28T08:25:38.759057+00:00",
           "next_retry_at": "2026-11-29T08:25:38.759057+00:00",
           "details": "incomplete third-party archive"
+        },
+        "mobile": {
+          "status": "unverified",
+          "checked_at": "2026-11-28T09:29:24.609765+00:00",
+          "next_retry_at": "2026-11-29T09:29:24.609765+00:00",
+          "details": "no verified official port record"
         }
       },
       "key_reference_min": null,
