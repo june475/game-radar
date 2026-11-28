@@ -4,7 +4,7 @@
     "version": "V4 review-context discovery",
     "note": "尝鲜榜不设价格或好评率硬门槛；查看近期简中差评关键词，区别争议类型。分析是辅助证据，不代表玩家差评全部属实或无效。",
     "last_key_enrichment_utc": "2026-11-28T16:48:47.772311+00:00",
-    "last_enrichment_utc": "2026-11-28T17:05:23.802789+00:00"
+    "last_enrichment_utc": "2026-11-28T17:39:39.720791+00:00"
   },
   "counts": {
     "deal": 30,
@@ -4404,7 +4404,15 @@
       "key_reference_min": null,
       "key_status": "未核实实时在售",
       "tracked_low": 12.0,
-      "region_history_low": null
+      "region_history_low": null,
+      "enrichment_status": {
+        "reviews": {
+          "status": "no_data",
+          "checked_at": "2026-11-28T17:39:39.720791+00:00",
+          "next_retry_at": "2026-11-30T17:39:39.720791+00:00",
+          "details": "negative reviews unavailable"
+        }
+      }
     },
     {
       "appid": 3776750,
@@ -5284,7 +5292,15 @@
       "steam_deck": null,
       "key_offers": [],
       "key_reference_min": null,
-      "tracked_low": 20.0
+      "tracked_low": 20.0,
+      "enrichment_status": {
+        "reviews": {
+          "status": "no_data",
+          "checked_at": "2026-11-28T17:39:39.720791+00:00",
+          "next_retry_at": "2026-11-30T17:39:39.720791+00:00",
+          "details": "negative reviews unavailable"
+        }
+      }
     },
     {
       "appid": 1071360,
@@ -6012,6 +6028,12 @@
           "checked_at": "2026-11-28T17:05:23.802789+00:00",
           "next_retry_at": "2026-11-29T17:05:23.802789+00:00",
           "details": "no verified CNY historical record"
+        },
+        "reviews": {
+          "status": "no_data",
+          "checked_at": "2026-11-28T17:39:39.720791+00:00",
+          "next_retry_at": "2026-11-30T17:39:39.720791+00:00",
+          "details": "negative reviews unavailable"
         }
       }
     },
@@ -6497,6 +6519,12 @@
           "checked_at": "2026-11-28T17:05:23.802789+00:00",
           "next_retry_at": "2026-11-29T17:05:23.802789+00:00",
           "details": "no verified CNY historical record"
+        },
+        "reviews": {
+          "status": "no_data",
+          "checked_at": "2026-11-28T17:39:39.720791+00:00",
+          "next_retry_at": "2026-11-30T17:39:39.720791+00:00",
+          "details": "negative reviews unavailable"
         }
       }
     },
@@ -6634,6 +6662,12 @@
           "checked_at": "2026-11-28T17:05:23.802789+00:00",
           "next_retry_at": "2026-11-29T17:05:23.802789+00:00",
           "details": "no verified CNY historical record"
+        },
+        "reviews": {
+          "status": "no_data",
+          "checked_at": "2026-11-28T17:39:39.720791+00:00",
+          "next_retry_at": "2026-11-30T17:39:39.720791+00:00",
+          "details": "negative reviews unavailable"
         }
       }
     },
