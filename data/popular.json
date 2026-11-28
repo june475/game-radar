@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at_cn": "2026-11-28 01:24",
+    "updated_at_cn": "2026-11-29 00:06",
     "rank_source": "Steam 国区热销榜（热销顺序，不代表在线人数）",
     "checked": 30
   },
@@ -32,22 +32,24 @@
       "negative_review_analysis": null
     },
     {
-      "appid": 1091500,
-      "name": "赛博朋克 2077",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/33086f30470a5f4921c913561a0a5c05b583e292/header_alt_assets_9_schinese.jpg?t=1794474878",
-      "url": "https://store.steampowered.com/app/1091500/?cc=cn&l=schinese",
+      "appid": 4356430,
+      "name": "《NBA 2K27》",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4356430/9152438fde7de9f4c20b4fd9072ba69f844dacab/header.jpg?t=1795798696",
+      "url": "https://store.steampowered.com/app/4356430/?cc=cn&l=schinese",
       "category": "popular",
-      "price": 89.4,
+      "price": 134.1,
       "steam_subids": [
-        367653
+        1687530,
+        1894841,
+        1687538
       ],
       "key_offers": [],
       "enrichment_status": {},
       "original_price": 298.0,
-      "discount": 70,
-      "release_date": "2020 年 12 月 9 日",
+      "discount": 55,
+      "release_date": "2026 年 9 月 3 日",
       "genres": [
-        "角色扮演"
+        "体育"
       ],
       "tags": [
         "Steam 热销"
@@ -85,58 +87,28 @@
       "negative_review_analysis": null
     },
     {
-      "appid": 4356430,
-      "name": "《NBA 2K27》",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4356430/9152438fde7de9f4c20b4fd9072ba69f844dacab/header.jpg?t=1795798696",
-      "url": "https://store.steampowered.com/app/4356430/?cc=cn&l=schinese",
+      "appid": 1091500,
+      "name": "赛博朋克 2077",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/33086f30470a5f4921c913561a0a5c05b583e292/header_alt_assets_9_schinese.jpg?t=1794474878",
+      "url": "https://store.steampowered.com/app/1091500/?cc=cn&l=schinese",
       "category": "popular",
-      "price": 134.1,
+      "price": 89.4,
       "steam_subids": [
-        1687530,
-        1894841,
-        1687538
+        367653
       ],
       "key_offers": [],
       "enrichment_status": {},
       "original_price": 298.0,
-      "discount": 55,
-      "release_date": "2026 年 9 月 3 日",
+      "discount": 70,
+      "release_date": "2020 年 12 月 9 日",
       "genres": [
-        "体育"
+        "角色扮演"
       ],
       "tags": [
         "Steam 热销"
       ],
       "why": "来自 Steam 热销榜，不限制折扣、不按个人喜好筛选",
       "popularity_rank": 4,
-      "review": "Steam 评价未在本榜单单独核实",
-      "negative_review_analysis": null
-    },
-    {
-      "appid": 1174180,
-      "name": "Red Dead Redemption 2",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg?t=1759502961",
-      "url": "https://store.steampowered.com/app/1174180/?cc=cn&l=schinese",
-      "category": "popular",
-      "price": 69.75,
-      "steam_subids": [
-        402134,
-        412454
-      ],
-      "key_offers": [],
-      "enrichment_status": {},
-      "original_price": 279.0,
-      "discount": 75,
-      "release_date": "2019 年 12 月 5 日",
-      "genres": [
-        "动作",
-        "冒险"
-      ],
-      "tags": [
-        "Steam 热销"
-      ],
-      "why": "来自 Steam 热销榜，不限制折扣、不按个人喜好筛选",
-      "popularity_rank": 5,
       "review": "Steam 评价未在本榜单单独核实",
       "negative_review_analysis": null
     },
@@ -156,6 +128,34 @@
       "original_price": 198.0,
       "discount": 80,
       "release_date": "2021 年 3 月 25 日",
+      "genres": [
+        "动作",
+        "冒险"
+      ],
+      "tags": [
+        "Steam 热销"
+      ],
+      "why": "来自 Steam 热销榜，不限制折扣、不按个人喜好筛选",
+      "popularity_rank": 5,
+      "review": "Steam 评价未在本榜单单独核实",
+      "negative_review_analysis": null
+    },
+    {
+      "appid": 1174180,
+      "name": "Red Dead Redemption 2",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg?t=1759502961",
+      "url": "https://store.steampowered.com/app/1174180/?cc=cn&l=schinese",
+      "category": "popular",
+      "price": 69.75,
+      "steam_subids": [
+        402134,
+        412454
+      ],
+      "key_offers": [],
+      "enrichment_status": {},
+      "original_price": 279.0,
+      "discount": 75,
+      "release_date": "2019 年 12 月 5 日",
       "genres": [
         "动作",
         "冒险"
@@ -233,34 +233,6 @@
       "negative_review_analysis": null
     },
     {
-      "appid": 1086940,
-      "name": "博德之门3",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/48a2fcbda8565bb45025e98fd8ebde8a7203f6a0/header.jpg?t=1777363040",
-      "url": "https://store.steampowered.com/app/1086940/?cc=cn&l=schinese",
-      "category": "popular",
-      "price": 187.6,
-      "steam_subids": [
-        907539
-      ],
-      "key_offers": [],
-      "enrichment_status": {},
-      "original_price": 268.0,
-      "discount": 30,
-      "release_date": "2023 年 8 月 3 日",
-      "genres": [
-        "冒险",
-        "角色扮演",
-        "策略"
-      ],
-      "tags": [
-        "Steam 热销"
-      ],
-      "why": "来自 Steam 热销榜，不限制折扣、不按个人喜好筛选",
-      "popularity_rank": 9,
-      "review": "Steam 评价未在本榜单单独核实",
-      "negative_review_analysis": null
-    },
-    {
       "appid": 4115450,
       "name": "影之刃零",
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/40b2044606b59e0cdd9fb89738895fea8a22067c/header_schinese.jpg?t=1793261976",
@@ -279,6 +251,34 @@
       "genres": [
         "动作",
         "角色扮演"
+      ],
+      "tags": [
+        "Steam 热销"
+      ],
+      "why": "来自 Steam 热销榜，不限制折扣、不按个人喜好筛选",
+      "popularity_rank": 9,
+      "review": "Steam 评价未在本榜单单独核实",
+      "negative_review_analysis": null
+    },
+    {
+      "appid": 1086940,
+      "name": "博德之门3",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/48a2fcbda8565bb45025e98fd8ebde8a7203f6a0/header.jpg?t=1777363040",
+      "url": "https://store.steampowered.com/app/1086940/?cc=cn&l=schinese",
+      "category": "popular",
+      "price": 187.6,
+      "steam_subids": [
+        907539
+      ],
+      "key_offers": [],
+      "enrichment_status": {},
+      "original_price": 268.0,
+      "discount": 30,
+      "release_date": "2023 年 8 月 3 日",
+      "genres": [
+        "冒险",
+        "角色扮演",
+        "策略"
       ],
       "tags": [
         "Steam 热销"
@@ -319,23 +319,28 @@
       "negative_review_analysis": null
     },
     {
-      "appid": 2507950,
-      "name": "三角洲行动 ",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2507950/e5b7b1f685133e5979b9bf84c764b8c350ddce6b/header_alt_assets_17_schinese.jpg?t=1795759725",
-      "url": "https://store.steampowered.com/app/2507950/?cc=cn&l=schinese",
+      "appid": 1551360,
+      "name": "极限竞速：地平线 5",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/header.jpg?t=1788546569",
+      "url": "https://store.steampowered.com/app/1551360/?cc=cn&l=schinese",
       "category": "popular",
-      "price": 0.0,
-      "steam_subids": [],
+      "price": 79.2,
+      "steam_subids": [
+        547831,
+        596608,
+        596609
+      ],
       "key_offers": [],
       "enrichment_status": {},
-      "original_price": 0.0,
-      "discount": 0,
-      "release_date": "2024 年 12 月 4 日",
+      "original_price": 198.0,
+      "discount": 60,
+      "release_date": "2021 年 11 月 8 日",
       "genres": [
         "动作",
         "冒险",
-        "大型多人在线",
-        "免费开玩"
+        "竞速",
+        "模拟",
+        "体育"
       ],
       "tags": [
         "Steam 热销"
@@ -374,36 +379,6 @@
       "negative_review_analysis": null
     },
     {
-      "appid": 2947440,
-      "name": "SILENT HILL f",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2947440/7e5d923ac622bd1775ebc9b5d4b5b0a24bf5ed40/header.jpg?t=1770169624",
-      "url": "https://store.steampowered.com/app/2947440/?cc=cn&l=schinese",
-      "category": "popular",
-      "price": 83.44,
-      "steam_subids": [
-        1049570,
-        1210492,
-        1412913,
-        1412918
-      ],
-      "key_offers": [],
-      "enrichment_status": {},
-      "original_price": 298.0,
-      "discount": 72,
-      "release_date": "2025 年 9 月 24 日",
-      "genres": [
-        "动作",
-        "冒险"
-      ],
-      "tags": [
-        "Steam 热销"
-      ],
-      "why": "来自 Steam 热销榜，不限制折扣、不按个人喜好筛选",
-      "popularity_rank": 14,
-      "review": "Steam 评价未在本榜单单独核实",
-      "negative_review_analysis": null
-    },
-    {
       "appid": 730,
       "name": "Counter-Strike 2",
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/header_schinese.jpg?t=1793054556",
@@ -429,39 +404,94 @@
         "Steam 热销"
       ],
       "why": "来自 Steam 热销榜，不限制折扣、不按个人喜好筛选",
+      "popularity_rank": 14,
+      "review": "Steam 评价未在本榜单单独核实",
+      "negative_review_analysis": null
+    },
+    {
+      "appid": 2507950,
+      "name": "三角洲行动 ",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2507950/e5b7b1f685133e5979b9bf84c764b8c350ddce6b/header_alt_assets_17_schinese.jpg?t=1795759725",
+      "url": "https://store.steampowered.com/app/2507950/?cc=cn&l=schinese",
+      "category": "popular",
+      "price": 0.0,
+      "steam_subids": [],
+      "key_offers": [],
+      "enrichment_status": {},
+      "original_price": 0.0,
+      "discount": 0,
+      "release_date": "2024 年 12 月 4 日",
+      "genres": [
+        "动作",
+        "冒险",
+        "大型多人在线",
+        "免费开玩"
+      ],
+      "tags": [
+        "Steam 热销"
+      ],
+      "why": "来自 Steam 热销榜，不限制折扣、不按个人喜好筛选",
       "popularity_rank": 15,
       "review": "Steam 评价未在本榜单单独核实",
       "negative_review_analysis": null
     },
     {
-      "appid": 1551360,
-      "name": "极限竞速：地平线 5",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/header.jpg?t=1788546569",
-      "url": "https://store.steampowered.com/app/1551360/?cc=cn&l=schinese",
+      "appid": 5175310,
+      "name": "我带过的最差一届",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5175310/4fdba319ab82898567ff4a88f92c5b4af1db8255/header_schinese.jpg?t=1795427758",
+      "url": "https://store.steampowered.com/app/5175310/?cc=cn&l=schinese",
       "category": "popular",
-      "price": 79.2,
+      "price": 28.0,
       "steam_subids": [
-        547831,
-        596608,
-        596609
+        1791304
       ],
       "key_offers": [],
       "enrichment_status": {},
-      "original_price": 198.0,
-      "discount": 60,
-      "release_date": "2021 年 11 月 8 日",
+      "original_price": 28.0,
+      "discount": 0,
+      "release_date": "2026 年 11 月 9 日",
       "genres": [
         "动作",
         "冒险",
-        "竞速",
-        "模拟",
-        "体育"
+        "休闲",
+        "独立",
+        "模拟"
       ],
       "tags": [
         "Steam 热销"
       ],
       "why": "来自 Steam 热销榜，不限制折扣、不按个人喜好筛选",
       "popularity_rank": 16,
+      "review": "Steam 评价未在本榜单单独核实",
+      "negative_review_analysis": null
+    },
+    {
+      "appid": 2947440,
+      "name": "SILENT HILL f",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2947440/7e5d923ac622bd1775ebc9b5d4b5b0a24bf5ed40/header.jpg?t=1770169624",
+      "url": "https://store.steampowered.com/app/2947440/?cc=cn&l=schinese",
+      "category": "popular",
+      "price": 83.44,
+      "steam_subids": [
+        1049570,
+        1210492,
+        1412913,
+        1412918
+      ],
+      "key_offers": [],
+      "enrichment_status": {},
+      "original_price": 298.0,
+      "discount": 72,
+      "release_date": "2025 年 9 月 24 日",
+      "genres": [
+        "动作",
+        "冒险"
+      ],
+      "tags": [
+        "Steam 热销"
+      ],
+      "why": "来自 Steam 热销榜，不限制折扣、不按个人喜好筛选",
+      "popularity_rank": 17,
       "review": "Steam 评价未在本榜单单独核实",
       "negative_review_analysis": null
     },
@@ -489,35 +519,6 @@
       "release_date": "2026 年 10 月 22 日",
       "genres": [
         "动作"
-      ],
-      "tags": [
-        "Steam 热销"
-      ],
-      "why": "来自 Steam 热销榜，不限制折扣、不按个人喜好筛选",
-      "popularity_rank": 17,
-      "review": "Steam 评价未在本榜单单独核实",
-      "negative_review_analysis": null
-    },
-    {
-      "appid": 1771300,
-      "name": "天国：拯救2",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/header.jpg?t=1777975568",
-      "url": "https://store.steampowered.com/app/1771300/?cc=cn&l=schinese",
-      "category": "popular",
-      "price": 75.24,
-      "steam_subids": [
-        635513,
-        1109733
-      ],
-      "key_offers": [],
-      "enrichment_status": {},
-      "original_price": 228.0,
-      "discount": 67,
-      "release_date": "2025 年 2 月 4 日",
-      "genres": [
-        "动作",
-        "冒险",
-        "角色扮演"
       ],
       "tags": [
         "Steam 热销"
@@ -556,6 +557,63 @@
       "negative_review_analysis": null
     },
     {
+      "appid": 1771300,
+      "name": "天国：拯救2",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/header.jpg?t=1777975568",
+      "url": "https://store.steampowered.com/app/1771300/?cc=cn&l=schinese",
+      "category": "popular",
+      "price": 75.24,
+      "steam_subids": [
+        635513,
+        1109733
+      ],
+      "key_offers": [],
+      "enrichment_status": {},
+      "original_price": 228.0,
+      "discount": 67,
+      "release_date": "2025 年 2 月 4 日",
+      "genres": [
+        "动作",
+        "冒险",
+        "角色扮演"
+      ],
+      "tags": [
+        "Steam 热销"
+      ],
+      "why": "来自 Steam 热销榜，不限制折扣、不按个人喜好筛选",
+      "popularity_rank": 20,
+      "review": "Steam 评价未在本榜单单独核实",
+      "negative_review_analysis": null
+    },
+    {
+      "appid": 381210,
+      "name": "黎明杀机",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/381210/c5cf48bd5676caa7e505ef7e552598d2a01effcd/header_alt_assets_11.jpg?t=1795543658",
+      "url": "https://store.steampowered.com/app/381210/?cc=cn&l=schinese",
+      "category": "popular",
+      "price": 93.75,
+      "steam_subids": [
+        71374,
+        198307,
+        1100714
+      ],
+      "key_offers": [],
+      "enrichment_status": {},
+      "original_price": 93.75,
+      "discount": 0,
+      "release_date": "2016 年 6 月 14 日",
+      "genres": [
+        "动作"
+      ],
+      "tags": [
+        "Steam 热销"
+      ],
+      "why": "来自 Steam 热销榜，不限制折扣、不按个人喜好筛选",
+      "popularity_rank": 21,
+      "review": "Steam 评价未在本榜单单独核实",
+      "negative_review_analysis": null
+    },
+    {
       "appid": 2807960,
       "name": "战地风云™ 6",
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2807960/334aa2d23a5bc42efb747e6f1a6d00ce6bd67519/header_schinese.jpg?t=1794834044",
@@ -583,55 +641,29 @@
         "Steam 热销"
       ],
       "why": "来自 Steam 热销榜，不限制折扣、不按个人喜好筛选",
-      "popularity_rank": 20,
+      "popularity_rank": 22,
       "review": "Steam 评价未在本榜单单独核实",
       "negative_review_analysis": null
     },
     {
-      "appid": 5175310,
-      "name": "我带过的最差一届",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5175310/4fdba319ab82898567ff4a88f92c5b4af1db8255/header_schinese.jpg?t=1795427758",
-      "url": "https://store.steampowered.com/app/5175310/?cc=cn&l=schinese",
-      "category": "popular",
-      "price": 28.0,
-      "steam_subids": [
-        1791304
-      ],
-      "key_offers": [],
-      "enrichment_status": {},
-      "original_price": 28.0,
-      "discount": 0,
-      "release_date": "2026 年 11 月 9 日",
-      "genres": [
-        "动作",
-        "冒险",
-        "休闲",
-        "独立",
-        "模拟"
-      ],
-      "tags": [
-        "Steam 热销"
-      ],
-      "why": "来自 Steam 热销榜，不限制折扣、不按个人喜好筛选",
-      "popularity_rank": 21,
-      "review": "Steam 评价未在本榜单单独核实",
-      "negative_review_analysis": null
-    },
-    {
-      "appid": 1329410,
-      "name": "雀魂麻将",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1329410/ff5f98e5f40856697be302f433aa1f7ee788c17a/header_alt_assets_0_schinese.jpg?t=1794973576",
-      "url": "https://store.steampowered.com/app/1329410/?cc=cn&l=schinese",
+      "appid": 570,
+      "name": "Dota 2",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/header.jpg?t=1791407503",
+      "url": "https://store.steampowered.com/app/570/?cc=cn&l=schinese",
       "category": "popular",
       "price": 0.0,
-      "steam_subids": [],
+      "steam_subids": [
+        49307,
+        197846,
+        330209
+      ],
       "key_offers": [],
       "enrichment_status": {},
       "original_price": 0.0,
       "discount": 0,
-      "release_date": "2020 年 7 月 14 日",
+      "release_date": "2013 年 7 月 9 日",
       "genres": [
-        "休闲",
+        "动作",
         "策略",
         "免费开玩"
       ],
@@ -639,7 +671,7 @@
         "Steam 热销"
       ],
       "why": "来自 Steam 热销榜，不限制折扣、不按个人喜好筛选",
-      "popularity_rank": 22,
+      "popularity_rank": 23,
       "review": "Steam 评价未在本榜单单独核实",
       "negative_review_analysis": null
     },
@@ -667,7 +699,7 @@
         "Steam 热销"
       ],
       "why": "来自 Steam 热销榜，不限制折扣、不按个人喜好筛选",
-      "popularity_rank": 23,
+      "popularity_rank": 24,
       "review": "Steam 评价未在本榜单单独核实",
       "negative_review_analysis": null
     },
@@ -696,53 +728,26 @@
         "Steam 热销"
       ],
       "why": "来自 Steam 热销榜，不限制折扣、不按个人喜好筛选",
-      "popularity_rank": 24,
-      "review": "Steam 评价未在本榜单单独核实",
-      "negative_review_analysis": null
-    },
-    {
-      "appid": 3768760,
-      "name": "007 初露锋芒",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/be65391533f072e79699be70ef2d47b7b2ac57ee/header_alt_assets_5.jpg?t=1795703859",
-      "url": "https://store.steampowered.com/app/3768760/?cc=cn&l=schinese",
-      "category": "popular",
-      "price": 149.0,
-      "steam_subids": [
-        1488462,
-        1383445
-      ],
-      "key_offers": [],
-      "enrichment_status": {},
-      "original_price": 298.0,
-      "discount": 50,
-      "release_date": "2026 年 5 月 26 日",
-      "genres": [
-        "动作",
-        "冒险"
-      ],
-      "tags": [
-        "Steam 热销"
-      ],
-      "why": "来自 Steam 热销榜，不限制折扣、不按个人喜好筛选",
       "popularity_rank": 25,
       "review": "Steam 评价未在本榜单单独核实",
       "negative_review_analysis": null
     },
     {
-      "appid": 1222140,
-      "name": "底特律：化身为人",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222140/header_schinese.jpg?t=1667468479",
-      "url": "https://store.steampowered.com/app/1222140/?cc=cn&l=schinese",
+      "appid": 3321460,
+      "name": "红色沙漠：增强版",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/72caf7e120e63fcf25b92e3b4b6477b76baffa45/header_schinese.jpg?t=1795743151",
+      "url": "https://store.steampowered.com/app/3321460/?cc=cn&l=schinese",
       "category": "popular",
-      "price": 13.6,
+      "price": 214.4,
       "steam_subids": [
-        423337
+        1176092,
+        1418529
       ],
       "key_offers": [],
       "enrichment_status": {},
-      "original_price": 136.0,
-      "discount": 90,
-      "release_date": "2020 年 6 月 18 日",
+      "original_price": 268.0,
+      "discount": 20,
+      "release_date": "2026 年 3 月 19 日",
       "genres": [
         "动作",
         "冒险"
@@ -756,24 +761,25 @@
       "negative_review_analysis": null
     },
     {
-      "appid": 381210,
-      "name": "黎明杀机",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/381210/c5cf48bd5676caa7e505ef7e552598d2a01effcd/header_alt_assets_11.jpg?t=1795543658",
-      "url": "https://store.steampowered.com/app/381210/?cc=cn&l=schinese",
+      "appid": 641990,
+      "name": "The Escapists 2",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/641990/header.jpg?t=1795604869",
+      "url": "https://store.steampowered.com/app/641990/?cc=cn&l=schinese",
       "category": "popular",
-      "price": 93.75,
+      "price": 9.0,
       "steam_subids": [
-        71374,
-        198307,
-        1100714
+        178436,
+        1066581
       ],
       "key_offers": [],
       "enrichment_status": {},
-      "original_price": 93.75,
-      "discount": 0,
-      "release_date": "2016 年 6 月 14 日",
+      "original_price": 90.0,
+      "discount": 90,
+      "release_date": "2017 年 8 月 21 日",
       "genres": [
-        "动作"
+        "独立",
+        "模拟",
+        "策略"
       ],
       "tags": [
         "Steam 热销"
@@ -784,24 +790,20 @@
       "negative_review_analysis": null
     },
     {
-      "appid": 570,
-      "name": "Dota 2",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/header.jpg?t=1791407503",
-      "url": "https://store.steampowered.com/app/570/?cc=cn&l=schinese",
+      "appid": 1329410,
+      "name": "雀魂麻将",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1329410/ff5f98e5f40856697be302f433aa1f7ee788c17a/header_alt_assets_0_schinese.jpg?t=1794973576",
+      "url": "https://store.steampowered.com/app/1329410/?cc=cn&l=schinese",
       "category": "popular",
       "price": 0.0,
-      "steam_subids": [
-        49307,
-        197846,
-        330209
-      ],
+      "steam_subids": [],
       "key_offers": [],
       "enrichment_status": {},
       "original_price": 0.0,
       "discount": 0,
-      "release_date": "2013 年 7 月 9 日",
+      "release_date": "2020 年 7 月 14 日",
       "genres": [
-        "动作",
+        "休闲",
         "策略",
         "免费开玩"
       ],
@@ -843,21 +845,21 @@
       "negative_review_analysis": null
     },
     {
-      "appid": 3321460,
-      "name": "红色沙漠：增强版",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/72caf7e120e63fcf25b92e3b4b6477b76baffa45/header_schinese.jpg?t=1795743151",
-      "url": "https://store.steampowered.com/app/3321460/?cc=cn&l=schinese",
+      "appid": 3768760,
+      "name": "007 初露锋芒",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/be65391533f072e79699be70ef2d47b7b2ac57ee/header_alt_assets_5.jpg?t=1795703859",
+      "url": "https://store.steampowered.com/app/3768760/?cc=cn&l=schinese",
       "category": "popular",
-      "price": 214.4,
+      "price": 149.0,
       "steam_subids": [
-        1176092,
-        1418529
+        1488462,
+        1383445
       ],
       "key_offers": [],
       "enrichment_status": {},
-      "original_price": 268.0,
-      "discount": 20,
-      "release_date": "2026 年 3 月 19 日",
+      "original_price": 298.0,
+      "discount": 50,
+      "release_date": "2026 年 5 月 26 日",
       "genres": [
         "动作",
         "冒险"
